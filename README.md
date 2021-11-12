@@ -7,7 +7,7 @@ First, clone the [Thorium Nova](https://github.com/thorium-sim/thorium-nova)
 repo. Then, in the root of the repo, run:
 
 ```bash
-npm run init-plugin
+npm run init:plugin
 ```
 
 This will create the plugin directory for you and clone this repo into it. Now
