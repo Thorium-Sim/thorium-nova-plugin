@@ -1,0 +1,15 @@
+name: Astra Frigate
+apiVersion: ships/v1
+kind: ships
+description: Boldly going where no one has gone before.
+category: Cruiser
+tags: []
+assets:
+  logo: logo.svg
+  model: model.glb
+  topView: topView.png
+  sideView: sideView.png
+  vanity: vanity.png
+mass: 700000000
+length: 350
+shipSystems: []
