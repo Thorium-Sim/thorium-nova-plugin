@@ -1,0 +1,11 @@
+apiVersion: "stations/v1"
+kind: "stations"
+name: "1 Small"
+hasShipMap: false
+stations:
+  - name: Pilot
+    description: A single player position that controls all aspects of the ship.
+    logo: Pilot.svg
+    cards:
+      - name: Pilot
+        component: Pilot
