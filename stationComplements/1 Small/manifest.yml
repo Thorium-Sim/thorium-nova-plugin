@@ -1,6 +1,6 @@
-apiVersion: "stations/v1"
-kind: "stations"
-name: "1 Small"
+apiVersion: stations/v1
+kind: stationComplements
+name: 1 Small
 hasShipMap: false
 stations:
   - name: Pilot
@@ -9,3 +9,7 @@ stations:
     cards:
       - name: Pilot
         component: Pilot
+        icon: Pilot Card.svg
+assets:
+  Pilot-logo: Pilot.svg
+  Pilot-Pilot-icon: Pilot Card.svg

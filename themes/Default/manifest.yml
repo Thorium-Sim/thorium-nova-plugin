@@ -1,0 +1,9 @@
+name: Default
+apiVersion: theme/v1
+kind: themes
+assets:
+  rawCSS: raw.css
+  processedCSS: processed.css
+  files:
+    - BATTLE3.woff
+    - BATTLE3.TTF

@@ -13,3 +13,6 @@ assets:
 mass: 700000000
 length: 350
 shipSystems: []
+theme:
+  themeId: Default
+  pluginId: Thorium Default
