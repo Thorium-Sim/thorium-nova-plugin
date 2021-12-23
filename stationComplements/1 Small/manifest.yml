@@ -10,6 +10,9 @@ stations:
       - name: Pilot
         component: Pilot
         icon: Pilot Card.svg
+      - name: Officers Log
+        component: OfficersLog
+        icon: Pilot Card.svg
 assets:
   Pilot-logo: Pilot.svg
   Pilot-Pilot-icon: Pilot Card.svg
