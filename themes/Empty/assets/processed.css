@@ -5,7 +5,10 @@
   font-family: "Battlefield";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/plugins/Thorium Default/assets/theme/Default/BATTLE3.woff") format("woff"), url("/assets/plugins/Thorium Default/assets/theme/Default/BATTLE3.TTF") format("truetype");
+  src: url("/assets/plugins/Thorium Default/assets/theme/Default/BATTLE3.woff")
+      format("woff"),
+    url("/assets/plugins/Thorium Default/assets/theme/Default/BATTLE3.TTF")
+      format("truetype");
 }
 #theme-container .card-frame {
   height: 100%;
@@ -126,7 +129,56 @@
   position: relative;
   width: 100%;
   height: 100%;
-  clip-path: polygon(0px var(--frame-offset), 0px calc(100% - var(--frame-offset)), calc(var(--ship-name-width) * var(--ship-multiply)) calc(100% - var(--frame-offset)), calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset)) 100%, calc(100% - var(--frame-offset)) 100%, 100% calc(100% - var(--frame-offset)), 100% var(--frame-offset), calc(100% - (var(--station-name-width) * var(--station-multiply))) var(--frame-offset), calc(100% - (var(--station-name-width) * var(--station-multiply)) - var(--frame-offset)) 0, calc((var(--card-name-width) * var(--card-multiply)) + var(--frame-offset)) 0, calc(var(--card-name-width) * var(--card-multiply)) var(--frame-offset), 0px var(--frame-offset), 2px calc(var(--frame-offset) + 2px), calc((var(--card-name-width) * var(--card-multiply)) + 2px) calc(var(--frame-offset) + 2px), calc((var(--card-name-width) * var(--card-multiply)) + 2px + var(--frame-offset)) 2px, calc(100% - (var(--station-name-width) * var(--station-multiply)) - var(--frame-offset)) 2px, calc(100% - var(--station-name-width) * var(--station-multiply)) calc(var(--frame-offset) + 2px), calc(100% - 2px) calc(var(--frame-offset) + 2px), calc(100% - 2px) calc(100% - var(--frame-offset) - 2px), calc(100% - var(--frame-offset) - 2px) calc(100% - 2px), calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset) + 2px) calc(100% - 2px), calc(var(--ship-name-width) * var(--ship-multiply) + 2px) calc(100% - var(--frame-offset) - 2px), 2px calc(100% - var(--frame-offset) - 2px), 2px calc(var(--frame-offset) + 2px), 0 calc(var(--frame-offset)));
+  clip-path: polygon(
+    0px var(--frame-offset),
+    0px calc(100% - var(--frame-offset)),
+    calc(var(--ship-name-width) * var(--ship-multiply))
+      calc(100% - var(--frame-offset)),
+    calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset))
+      100%,
+    calc(100% - var(--frame-offset)) 100%,
+    100% calc(100% - var(--frame-offset)),
+    100% var(--frame-offset),
+    calc(100% - (var(--station-name-width) * var(--station-multiply)))
+      var(--frame-offset),
+    calc(
+        100% - (var(--station-name-width) * var(--station-multiply)) -
+          var(--frame-offset)
+      )
+      0,
+    calc((var(--card-name-width) * var(--card-multiply)) + var(--frame-offset))
+      0,
+    calc(var(--card-name-width) * var(--card-multiply)) var(--frame-offset),
+    0px var(--frame-offset),
+    2px calc(var(--frame-offset) + 2px),
+    calc((var(--card-name-width) * var(--card-multiply)) + 2px)
+      calc(var(--frame-offset) + 2px),
+    calc(
+        (var(--card-name-width) * var(--card-multiply)) + 2px +
+          var(--frame-offset)
+      )
+      2px,
+    calc(
+        100% - (var(--station-name-width) * var(--station-multiply)) -
+          var(--frame-offset)
+      )
+      2px,
+    calc(100% - var(--station-name-width) * var(--station-multiply))
+      calc(var(--frame-offset) + 2px),
+    calc(100% - 2px) calc(var(--frame-offset) + 2px),
+    calc(100% - 2px) calc(100% - var(--frame-offset) - 2px),
+    calc(100% - var(--frame-offset) - 2px) calc(100% - 2px),
+    calc(
+        var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset) +
+          2px
+      )
+      calc(100% - 2px),
+    calc(var(--ship-name-width) * var(--ship-multiply) + 2px)
+      calc(100% - var(--frame-offset) - 2px),
+    2px calc(100% - var(--frame-offset) - 2px),
+    2px calc(var(--frame-offset) + 2px),
+    0 calc(var(--frame-offset))
+  );
 }
 #theme-container.alertLevel-5 .card-switcher .card-switcher-button-icon {
   color: #2ba1cb;
@@ -144,7 +196,8 @@
   background: linear-gradient(35deg, #000000 22%, #0c2c38 53%, #000000 80%);
 }
 #theme-container.alertLevel-5 .doodad-1 {
-  filter: drop-shadow(0px 0px 5px #2ba1cb) drop-shadow(0px 0px 10px #2ba1cb) drop-shadow(0px 0px 2px #2ba1cb);
+  filter: drop-shadow(0px 0px 5px #2ba1cb) drop-shadow(0px 0px 10px #2ba1cb)
+    drop-shadow(0px 0px 2px #2ba1cb);
 }
 #theme-container.alertLevel-5 .doodad-1::after {
   background-color: #2ba1cb;
@@ -165,7 +218,8 @@
   background: linear-gradient(35deg, #000000 22%, #0f360f 53%, #000000 80%);
 }
 #theme-container.alertLevel-4 .doodad-1 {
-  filter: drop-shadow(0px 0px 5px #36c236) drop-shadow(0px 0px 10px #36c236) drop-shadow(0px 0px 2px #36c236);
+  filter: drop-shadow(0px 0px 5px #36c236) drop-shadow(0px 0px 10px #36c236)
+    drop-shadow(0px 0px 2px #36c236);
 }
 #theme-container.alertLevel-4 .doodad-1::after {
   background-color: #36c236;
@@ -186,7 +240,8 @@
   background: linear-gradient(35deg, #000000 22%, #23230b 53%, #000000 80%);
 }
 #theme-container.alertLevel-3 .doodad-1 {
-  filter: drop-shadow(0px 0px 5px #acac34) drop-shadow(0px 0px 10px #acac34) drop-shadow(0px 0px 2px #acac34);
+  filter: drop-shadow(0px 0px 5px #acac34) drop-shadow(0px 0px 10px #acac34)
+    drop-shadow(0px 0px 2px #acac34);
 }
 #theme-container.alertLevel-3 .doodad-1::after {
   background-color: #acac34;
@@ -207,7 +262,8 @@
   background: linear-gradient(35deg, #000000 22%, #36200a 53%, #000000 80%);
 }
 #theme-container.alertLevel-2 .doodad-1 {
-  filter: drop-shadow(0px 0px 5px #cc7926) drop-shadow(0px 0px 10px #cc7926) drop-shadow(0px 0px 2px #cc7926);
+  filter: drop-shadow(0px 0px 5px #cc7926) drop-shadow(0px 0px 10px #cc7926)
+    drop-shadow(0px 0px 2px #cc7926);
 }
 #theme-container.alertLevel-2 .doodad-1::after {
   background-color: #cc7926;
@@ -228,7 +284,8 @@
   background: linear-gradient(35deg, #000000 22%, #360b0b 53%, #000000 80%);
 }
 #theme-container.alertLevel-1 .doodad-1 {
-  filter: drop-shadow(0px 0px 5px #ca2a2a) drop-shadow(0px 0px 10px #ca2a2a) drop-shadow(0px 0px 2px #ca2a2a);
+  filter: drop-shadow(0px 0px 5px #ca2a2a) drop-shadow(0px 0px 10px #ca2a2a)
+    drop-shadow(0px 0px 2px #ca2a2a);
 }
 #theme-container.alertLevel-1 .doodad-1::after {
   background-color: #ca2a2a;
@@ -249,7 +306,8 @@
   background: linear-gradient(35deg, #000000 22%, #200a37 53%, #000000 80%);
 }
 #theme-container.alertLevel-p .doodad-1 {
-  filter: drop-shadow(0px 0px 5px #7a24cf) drop-shadow(0px 0px 10px #7a24cf) drop-shadow(0px 0px 2px #7a24cf);
+  filter: drop-shadow(0px 0px 5px #7a24cf) drop-shadow(0px 0px 10px #7a24cf)
+    drop-shadow(0px 0px 2px #7a24cf);
 }
 #theme-container.alertLevel-p .doodad-1::after {
   background-color: #7a24cf;
@@ -291,7 +349,8 @@
   border: solid 1px #949494;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(159, 138, 138, 0.5), 0px 0px 15px -2px #9f8a8a;
+  box-shadow: inset 0px 0px 20px -5px rgba(159, 138, 138, 0.5),
+    0px 0px 15px -2px #9f8a8a;
 }
 #theme-container .button.default:hover:not([disabled]) {
   color: white;
@@ -314,7 +373,8 @@
   border: solid 1px #65abc4;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(90, 176, 207, 0.5), 0px 0px 15px -2px #5ab0cf;
+  box-shadow: inset 0px 0px 20px -5px rgba(90, 176, 207, 0.5),
+    0px 0px 15px -2px #5ab0cf;
 }
 #theme-container .button.primary:hover:not([disabled]) {
   color: white;
@@ -337,7 +397,8 @@
   border: solid 1px #c7935e;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(210, 147, 83, 0.5), 0px 0px 15px -2px #d29353;
+  box-shadow: inset 0px 0px 20px -5px rgba(210, 147, 83, 0.5),
+    0px 0px 15px -2px #d29353;
 }
 #theme-container .button.secondary:hover:not([disabled]) {
   color: white;
@@ -360,7 +421,8 @@
   border: solid 1px #369636;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 44, 0.5), 0px 0px 15px -2px #2ca02c;
+  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 44, 0.5),
+    0px 0px 15px -2px #2ca02c;
 }
 #theme-container .button.success:hover:not([disabled]) {
   color: white;
@@ -383,7 +445,8 @@
   border: solid 1px #369696;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 160, 0.5), 0px 0px 15px -2px #2ca0a0;
+  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 160, 0.5),
+    0px 0px 15px -2px #2ca0a0;
 }
 #theme-container .button.info:hover:not([disabled]) {
   color: white;
@@ -406,7 +469,8 @@
   border: solid 1px #c7935e;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(210, 147, 83, 0.5), 0px 0px 15px -2px #d29353;
+  box-shadow: inset 0px 0px 20px -5px rgba(210, 147, 83, 0.5),
+    0px 0px 15px -2px #d29353;
 }
 #theme-container .button.warning:hover:not([disabled]) {
   color: white;
@@ -429,7 +493,8 @@
   border: solid 1px #935dc9;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(147, 82, 212, 0.5), 0px 0px 15px -2px #9352d4;
+  box-shadow: inset 0px 0px 20px -5px rgba(147, 82, 212, 0.5),
+    0px 0px 15px -2px #9352d4;
 }
 #theme-container .button.alert:hover:not([disabled]) {
   color: white;
@@ -452,7 +517,8 @@
   border: solid 1px #c46363;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(207, 88, 88, 0.5), 0px 0px 15px -2px #cf5858;
+  box-shadow: inset 0px 0px 20px -5px rgba(207, 88, 88, 0.5),
+    0px 0px 15px -2px #cf5858;
 }
 #theme-container .button.danger:hover:not([disabled]) {
   color: white;
@@ -475,7 +541,8 @@
   border: solid 1px #9a9a9a;
   color: white;
   text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(164, 143, 143, 0.5), 0px 0px 15px -2px #a48f8f;
+  box-shadow: inset 0px 0px 20px -5px rgba(164, 143, 143, 0.5),
+    0px 0px 15px -2px #a48f8f;
 }
 #theme-container .button.muted:hover:not([disabled]) {
   color: white;

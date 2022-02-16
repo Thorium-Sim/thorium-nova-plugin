@@ -2,6 +2,6 @@ name: Empty
 apiVersion: theme/v1
 kind: themes
 assets:
-  rawCSS: raw.css
-  processedCSS: processed.css
+  rawCSS: /plugins/Thorium Default/themes/Empty/assets/raw.css
+  processedCSS: /plugins/Thorium Default/themes/Empty/assets/processed.css
   files: []

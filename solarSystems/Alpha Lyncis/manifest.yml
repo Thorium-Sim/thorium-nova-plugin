@@ -1,0 +1,13 @@
+name: Alpha Lyncis
+position:
+  x: 10
+  y: 10
+  z: 10
+apiVersion: solarSystem/v1
+kind: solarSystems
+assets: {}
+description: A solar system named Alpha Lyncis
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Random Key

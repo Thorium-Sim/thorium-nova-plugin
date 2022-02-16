@@ -2,8 +2,8 @@ name: Default
 apiVersion: theme/v1
 kind: themes
 assets:
-  rawCSS: raw.css
-  processedCSS: processed.css
+  rawCSS: /plugins/Thorium Default/themes/Default/assets/raw.css
+  processedCSS: /plugins/Thorium Default/themes/Default/assets/processed.css
   files:
-    - BATTLE3.woff
-    - BATTLE3.TTF
+    - /plugins/Thorium Default/themes/Default/assets/BATTLE3.woff
+    - /plugins/Thorium Default/themes/Default/assets/BATTLE3.TTF

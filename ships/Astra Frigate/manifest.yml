@@ -5,14 +5,15 @@ description: Boldly going where no one has gone before.
 category: Cruiser
 tags: []
 assets:
-  logo: logo.svg
-  model: model.glb
-  topView: topView.png
-  sideView: sideView.png
-  vanity: vanity.png
+  logo: /plugins/Thorium Default/ships/Astra Frigate/assets/logo.svg
+  model: /plugins/Thorium Default/ships/Astra Frigate/assets/model.glb
+  topView: /plugins/Thorium Default/ships/Astra Frigate/assets/topView.png
+  sideView: /plugins/Thorium Default/ships/Astra Frigate/assets/sideView.png
+  vanity: /plugins/Thorium Default/ships/Astra Frigate/assets/vanity.png
 mass: 700000000
 length: 350
 shipSystems: []
 theme:
   themeId: Default
   pluginId: Thorium Default
+decks: []
