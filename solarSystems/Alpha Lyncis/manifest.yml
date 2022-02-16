@@ -1,8 +1,8 @@
 name: Alpha Lyncis
 position:
-  x: 10
-  y: 10
-  z: 10
+  x: 2463889.8677763375
+  y: 178180.98892468214
+  z: -9709031.279105807
 apiVersion: solarSystem/v1
 kind: solarSystems
 assets: {}
@@ -11,3 +11,4 @@ tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
 skyboxKey: Random Key
+stars: []
