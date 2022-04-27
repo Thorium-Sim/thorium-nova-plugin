@@ -1,8 +1,8 @@
 name: Beta Circini
 position:
-  x: 23.376059867979333
-  y: -18.720756209671734
-  z: 1.7587245340539763
+  x: 5359271.418075276
+  y: -967835.6536721587
+  z: 31279151.1250102
 apiVersion: solarSystem/v1
 kind: solarSystems
 assets: {}
@@ -12,3 +12,4 @@ habitableZoneInner: 0.9
 habitableZoneOuter: 3
 skyboxKey: Random Key
 stars: []
+planets: []

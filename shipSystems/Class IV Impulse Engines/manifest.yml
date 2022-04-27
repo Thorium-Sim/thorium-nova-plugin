@@ -1,0 +1,11 @@
+name: Class IV Impulse Engines
+apiVersion: shipSystems/v1
+kind: shipSystems
+type: impulseEngines
+description: ""
+tags: []
+assets:
+  soundEffects: []
+cruisingSpeed: 1500
+emergencySpeed: 2000
+thrust: 12500

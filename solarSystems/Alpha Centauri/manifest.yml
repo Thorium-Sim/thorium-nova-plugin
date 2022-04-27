@@ -6,7 +6,7 @@ position:
 apiVersion: solarSystem/v1
 kind: solarSystems
 assets: {}
-description: A solar system named Alpha Centauri. I think it's kind of cool.
+description: A solar system named Alpha Centauri
 tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
