@@ -16,7 +16,13 @@ assets:
     - /plugins/Thorium Default/ships/Astra Frigate/assets/deck-2-l0436f1v3s.svg
 mass: 700000000
 length: 350
-shipSystems: []
+shipSystems:
+  - systemId: Class IV Impulse Engines
+    pluginId: Thorium Default
+  - systemId: Inertial Dampeners
+    pluginId: Thorium Default
+  - systemId: Warp Engines
+    pluginId: Thorium Default
 theme:
   themeId: Default
   pluginId: Thorium Default
@@ -27,443 +33,553 @@ decks:
     nodes:
       - id: 1
         name: Crew Quarters
+        deckIndex: null
         x: 202.14047100785461
         y: 109.61599047784489
         isRoom: true
         icon: ""
         radius: 7
+        volume: 12
         flags: []
       - id: 2
         name: Crew Quarters
+        deckIndex: null
         x: 152.6419837877669
         y: 109.97295627353822
         isRoom: true
         icon: ""
         radius: 8
+        volume: 12
         flags: []
       - id: 3
         name: Main Fuel Tank
+        deckIndex: null
         x: 123.7135878739563
         y: 161.6753592018079
         isRoom: false
         icon: ""
         radius: 14
+        volume: 12
         flags: []
       - id: 4
         name: Main Fuel Tank
+        deckIndex: null
         x: 123.53994530267113
         y: 109.26346082671918
         isRoom: false
         icon: ""
         radius: 12
+        volume: 12
         flags: []
       - id: 5
         name: Emergency Batteries
+        deckIndex: null
         x: 142.72301084112632
         y: 143.8581235664248
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 6
         name: Crew Quarters
+        deckIndex: null
         x: 169.28179176668962
         y: 109.75624067565766
         isRoom: true
         icon: ""
         radius: 8
+        volume: 12
         flags: []
       - id: 7
         name: Crew Quarters
+        deckIndex: null
         x: 150.56438720261735
         y: 161.2996277318356
         isRoom: true
         icon: ""
         radius: 7
+        volume: 12
         flags: []
       - id: 8
         name: Crew Quarters
+        deckIndex: null
         x: 202.2915045991456
         y: 162.04952670563307
         isRoom: false
         icon: ""
         radius: 9
+        volume: 12
         flags: []
       - id: 9
         name: Crew Quarters
+        deckIndex: null
         x: 186.55177553426006
         y: 161.96223273905446
         isRoom: true
         icon: ""
         radius: 9
+        volume: 12
         flags: []
       - id: 10
         name: Crew Quarters
+        deckIndex: null
         x: 168.596587054707
         y: 161.3875303548921
         isRoom: true
         icon: ""
         radius: 7
+        volume: 12
         flags: []
       - id: 11
         name: Turbolift
+        deckIndex: null
         x: 273.0764683314732
         y: 135.4964316231864
         isRoom: true
         icon: ""
         radius: 13
+        volume: 12
         flags: []
       - id: 12
         name: ""
+        deckIndex: null
         x: 1283.352294921875
         y: -954.0132598876953
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 13
         name: Crew Quarters
+        deckIndex: null
         x: 185.311946215622
         y: 109.46807536212131
         isRoom: true
         icon: ""
         radius: 8
+        volume: 12
         flags: []
       - id: 14
         name: Emergency Batteries
+        deckIndex: null
         x: 143.05294443011573
         y: 127.05783913789261
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 15
         name: ""
+        deckIndex: null
         x: 214.91442115178992
         y: 134.57276480813306
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 16
         name: Memorial Room
+        deckIndex: null
         x: 189.52933021785344
         y: 136.4574957790405
         isRoom: true
         icon: ""
         radius: 13
+        volume: 12
         flags: []
       - id: 17
         name: Memorial Room
+        deckIndex: null
         x: 162.6715373384657
         y: 135.79286198857966
         isRoom: true
         icon: ""
         radius: 10
+        volume: 12
         flags: []
       - id: 18
         name: Laser Cannon Power Generator
+        deckIndex: null
         x: 220.61509038352526
         y: 164.51722936807465
         isRoom: true
         icon: ""
         radius: 8
+        volume: 12
         flags: []
       - id: 19
         name: Laser Cannon Control Room
+        deckIndex: null
         x: 245.57909446649572
         y: 156.6478742232534
         isRoom: true
         icon: ""
         radius: 11
+        volume: 12
         flags: []
       - id: 20
         name: Gravity Generation Control
+        deckIndex: null
         x: 234.31350942858555
         y: 112.49767065180177
         isRoom: true
         icon: ""
         radius: 12
+        volume: 12
         flags: []
       - id: 21
         name: Observation Deck
+        deckIndex: null
         x: 301.5973888831034
         y: 135.68110629120633
         isRoom: true
         icon: ""
         radius: 8
+        volume: 12
         flags: []
       - id: 22
         name: Airlock
+        deckIndex: null
         x: 274.8327113700006
         y: 108.03568353509651
         isRoom: true
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 23
         name: Airlock
+        deckIndex: null
         x: 276.67771650407855
         y: 161.81437036275463
         isRoom: true
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 24
         name: ""
+        deckIndex: null
         x: 270.5718393970082
         y: 152.18587184775907
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 25
         name: ""
+        deckIndex: null
         x: 281.60938647517384
         y: 148.19356758544384
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 26
         name: ""
+        deckIndex: null
         x: 288.41978786382924
         y: 135.51213051691312
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 27
         name: ""
+        deckIndex: null
         x: 282.54875218395387
         y: 121.18680345801727
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 28
         name: ""
+        deckIndex: null
         x: 270.5718393970082
         y: 117.42934062289706
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 29
         name: ""
+        deckIndex: null
         x: 259.76913374603754
         y: 121.6564863124073
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 30
         name: ""
+        deckIndex: null
         x: 254.83746377494228
         y: 135.51213051691312
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 31
         name: ""
+        deckIndex: null
         x: 258.5585496569375
         y: 145.3754704591037
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 32
         name: ""
+        deckIndex: null
         x: 265.4417049518429
         y: 171.6777103049452
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 33
         name: ""
+        deckIndex: null
         x: 264.93564514432785
         y: 97.7026607385159
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 34
         name: ""
+        deckIndex: null
         x: 202.50441172697208
         y: 93.00583219461562
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 35
         name: ""
+        deckIndex: null
         x: 183.05787879433947
         y: 92.77099948672866
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 36
         name: ""
+        deckIndex: null
         x: 167.9461357127872
         y: 91.59678363144555
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 37
         name: ""
+        deckIndex: null
         x: 152.46710999983503
         y: 92.53615805953363
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 38
         name: ""
+        deckIndex: null
         x: 106.88736464208363
         y: 92.30130791303058
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 39
         name: ""
+        deckIndex: null
         x: 106.18284036049859
         y: 134.57276480813306
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 40
         name: ""
+        deckIndex: null
         x: 142.81810300292074
         y: 135.04244766252307
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 41
         name: ""
+        deckIndex: null
         x: 106.18284036049859
         y: 177.54874598482056
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 42
         name: ""
+        deckIndex: null
         x: 150.22906847502114
         y: 176.73317281923224
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 43
         name: ""
+        deckIndex: null
         x: 168.88550142156726
         y: 176.6093802760405
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 44
         name: ""
+        deckIndex: null
         x: 185.0895598980232
         y: 176.6093802760405
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 45
         name: ""
+        deckIndex: null
         x: 201.76330122886915
         y: 176.70162239359928
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 46
         name: ""
+        deckIndex: null
         x: 220.4274025279082
         y: 175.78125130688076
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 47
         name: Upper Shuttle Flight Deck
+        deckIndex: null
         x: 81.72306734780426
         y: 134.6992676750795
         isRoom: true
         icon: ""
         radius: 23
+        volume: 12
         flags: []
       - id: 48
         name: Service Shuttle Airlock
+        deckIndex: null
         x: 85.72672110138288
         y: 173.74118414067124
         isRoom: true
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 49
         name: Shuttle Service Airlock
+        deckIndex: null
         x: 86.10926446557879
         y: 96.08488120890208
         isRoom: true
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 84
         name: Fuel Junction
+        deckIndex: null
         x: 139.85546875
         y: 169
         isRoom: true
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 86
         name: Fuel Junction
+        deckIndex: null
         x: 138.35546875
         y: 99.5
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 87
         name: ""
+        deckIndex: null
         x: 139.35546875
         y: 177.21221051897322
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 88
         name: ""
+        deckIndex: null
         x: 138.85546875
         y: 90.96542794363839
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 89
         name: Observation Deck
+        deckIndex: null
         x: 293.99832589285717
         y: 118.78571428571429
         isRoom: true
         icon: ""
         radius: 7
+        volume: 12
         flags: []
       - id: 90
         name: Observation Deck
+        deckIndex: null
         x: 293.39474051339283
         y: 151.2116176060268
         isRoom: true
         icon: ""
         radius: 7
+        volume: 12
         flags: []
   - name: Deck 2
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
@@ -471,275 +587,343 @@ decks:
     nodes:
       - id: 50
         name: Shuttle Flight Deck
+        deckIndex: null
         x: 79.84858654240607
         y: 135.90078010353915
         isRoom: true
         icon: ""
         radius: 23
+        volume: 12
         flags: []
       - id: 51
         name: Medical Center
+        deckIndex: null
         x: 231.44805908203125
         y: 134.9332733154297
         isRoom: true
         icon: ""
         radius: 20
+        volume: 12
         flags: []
       - id: 52
         name: ""
+        deckIndex: null
         x: 126.83060946529054
         y: 113.36660983034439
         isRoom: true
         icon: ""
         radius: 16
+        volume: 12
         flags: []
       - id: 53
         name: Fire Suppression Center
+        deckIndex: null
         x: 176.3033323916499
         y: 156.3827607556843
         isRoom: false
         icon: ""
         radius: 17
+        volume: 12
         flags: []
       - id: 54
         name: Air Filtration System
+        deckIndex: null
         x: 124.32489013671875
         y: 193.13064575195312
         isRoom: true
         icon: ""
         radius: 11
+        volume: 12
         flags: []
       - id: 55
         name: Air Filtration System
+        deckIndex: null
         x: 125.85546875
         y: 76
         isRoom: true
         icon: ""
         radius: 10
+        volume: 12
         flags: []
       - id: 56
         name: Stellar Cartography
+        deckIndex: null
         x: 306.85546875
         y: 134.5
         isRoom: false
         icon: ""
         radius: 11
+        volume: 12
         flags: []
       - id: 57
         name: Escape Pods
+        deckIndex: null
         x: 280.35546875
         y: 106.5
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 58
         name: Escape Pods
+        deckIndex: null
         x: 280.8204345703125
         y: 163.00650024414062
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 59
         name: Shuttle Control Room
+        deckIndex: null
         x: 74.58474731445312
         y: 99.6783447265625
         isRoom: false
         icon: ""
         radius: 9
+        volume: 12
         flags: []
       - id: 60
         name: ""
+        deckIndex: null
         x: 124.35697654368525
         y: 177.6375845952019
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 61
         name: ""
+        deckIndex: null
         x: 106.7269181465469
         y: 176.88166291941255
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 62
         name: ""
+        deckIndex: null
         x: 106.68827061058569
         y: 134.51182167619916
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 63
         name: ""
+        deckIndex: null
         x: 127.23633036501808
         y: 134.84114320454142
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 64
         name: ""
+        deckIndex: null
         x: 176.24619151891295
         y: 135.10153509557423
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 65
         name: ""
+        deckIndex: null
         x: 205.59168243408203
         y: 135.34173583984375
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 66
         name: ""
+        deckIndex: null
         x: 223.32615661621094
         y: 94.85125732421875
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 67
         name: ""
+        deckIndex: null
         x: 107.3278642900129
         y: 92.034257294948
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 68
         name: ""
+        deckIndex: null
         x: 265.92219956547723
         y: 98.13114645805253
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 69
         name: ""
+        deckIndex: null
         x: 126.38795851745186
         y: 91.92434035981456
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 70
         name: ""
+        deckIndex: null
         x: 222.32745638023448
         y: 175.45005228361904
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 71
         name: ""
+        deckIndex: null
         x: 265.85546875
         y: 172.17327880859375
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 72
         name: ""
+        deckIndex: null
         x: 295.35546875
         y: 133.5
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 73
         name: ""
+        deckIndex: null
         x: 289.3409693080525
         y: 133.5
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 74
         name: ""
+        deckIndex: null
         x: 283.46457249753234
         y: 122.1882149369756
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 75
         name: ""
+        deckIndex: null
         x: 271.35546875
         y: 117
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 76
         name: ""
+        deckIndex: null
         x: 261.6537780761719
         y: 120.65036201477051
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 77
         name: ""
+        deckIndex: null
         x: 254.74216223572537
         y: 135.2027674474077
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 78
         name: ""
+        deckIndex: null
         x: 270.7982567898522
         y: 152.785904870738
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 79
         name: ""
+        deckIndex: null
         x: 260.59049224853516
         y: 147.70172500610352
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 80
         name: ""
+        deckIndex: null
         x: 285.8015335079608
         y: 146.36391067504883
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 81
         name: ""
+        deckIndex: null
         x: 271.47347067695233
         y: 134.66931238251314
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 82
         name: ""
+        deckIndex: null
         x: 209.7963104248047
         y: 154.4520492553711
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
       - id: 83
         name: ""
+        deckIndex: null
         x: 210.9213104248047
         y: 114.0145492553711
         isRoom: false
         icon: ""
         radius: 0
+        volume: 12
         flags: []
   - name: Deck 3
     backgroundUrl: ""
@@ -754,588 +938,590 @@ deckEdges:
   - id: 1
     to: 54
     from: 60
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 2
     to: 60
     from: 61
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 3
     to: 70
     from: 60
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 4
     to: 71
     from: 70
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 5
     to: 62
     from: 61
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 6
     to: 63
     from: 62
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 7
     to: 50
     from: 62
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 8
     to: 67
     from: 62
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 9
     to: 59
     from: 67
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 10
     to: 52
     from: 63
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 11
     to: 64
     from: 63
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 12
     to: 64
     from: 53
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 13
     to: 64
     from: 65
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 15
     to: 65
     from: 82
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 16
     to: 51
     from: 65
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 17
     to: 65
     from: 83
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 18
     to: 66
     from: 83
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 19
     to: 69
     from: 66
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 21
     to: 69
     from: 67
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 22
     to: 69
     from: 55
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 23
     to: 66
     from: 68
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 24
     to: 75
     from: 68
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 25
     to: 57
     from: 75
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 26
     to: 74
     from: 75
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 27
     to: 73
     from: 74
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 28
     to: 80
     from: 73
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 29
     to: 78
     from: 80
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 30
     to: 78
     from: 71
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 31
     to: 58
     from: 78
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 32
     to: 79
     from: 78
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 33
     to: 77
     from: 79
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 34
     to: 51
     from: 77
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 35
     to: 76
     from: 77
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 36
     to: 75
     from: 76
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 37
     to: 72
     from: 73
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 38
     to: 56
     from: 72
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 39
     to: 81
     from: 73
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 40
     to: 77
     from: 81
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 41
     to: 78
     from: 81
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 42
     to: 81
     from: 75
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 44
     to: 49
     from: 38
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 45
     to: 48
     from: 41
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 46
     to: 40
     from: 39
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 47
     to: 17
     from: 40
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 48
     to: 17
     from: 16
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 49
     to: 14
     from: 40
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 50
     to: 5
     from: 40
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 51
     to: 87
     from: 84
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 52
     to: 41
     from: 87
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 53
     to: 42
     from: 87
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 54
     to: 42
     from: 43
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 55
     to: 7
     from: 42
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 56
     to: 10
     from: 43
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 57
     to: 9
     from: 44
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 58
     to: 43
     from: 44
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 59
     to: 45
     from: 44
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 60
     to: 45
     from: 8
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 61
     to: 46
     from: 18
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 62
     to: 45
     from: 46
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 63
     to: 46
     from: 32
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 64
     to: 32
     from: 19
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 65
     to: 31
     from: 19
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 66
     to: 15
     from: 30
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 67
     to: 15
     from: 16
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 68
     to: 88
     from: 86
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 69
     to: 88
     from: 38
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 70
     to: 88
     from: 37
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 71
     to: 37
     from: 2
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 72
     to: 36
     from: 6
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 73
     to: 37
     from: 36
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 74
     to: 35
     from: 36
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 75
     to: 35
     from: 13
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 76
     to: 34
     from: 35
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 77
     to: 34
     from: 1
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 78
     to: 33
     from: 34
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 79
     to: 20
     from: 33
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 80
     to: 29
     from: 20
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 81
     to: 30
     from: 29
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 82
     to: 31
     from: 30
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 83
     to: 11
     from: 30
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 84
     to: 11
     from: 28
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 85
     to: 29
     from: 28
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 86
     to: 22
     from: 28
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 87
     to: 24
     from: 11
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 88
     to: 32
     from: 24
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 89
     to: 31
     from: 24
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 90
     to: 24
     from: 31
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 91
     to: 24
     from: 23
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 93
     to: 24
     from: 25
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 94
     to: 26
     from: 25
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 95
     to: 21
     from: 26
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 96
     to: 26
     from: 27
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 97
     to: 28
     from: 27
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 98
     to: 39
     from: 41
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 99
     to: 38
     from: 39
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 100
     to: 11
     from: 81
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 101
     to: 11
     from: 26
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
   - id: 102
     to: 82
     from: 70
-    weight: 0
+    weight: 1
     isOpen: true
     flags: []
+cargoContainers: 4
+cargoContainerVolume: 4

@@ -1,0 +1,9 @@
+name: Inertial Dampeners
+apiVersion: shipSystems/v1
+kind: shipSystems
+type: inertialDampeners
+description: ""
+tags: []
+assets:
+  soundEffects: []
+dampening: 1

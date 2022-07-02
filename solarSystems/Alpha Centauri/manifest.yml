@@ -11,5 +11,48 @@ tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
 skyboxKey: wooden half copy
-stars: []
-planets: []
+stars:
+  - name: Alpha Centauri A
+    description: ""
+    tags: []
+    solarMass: 0.61404
+    age: 21252488898.68934
+    spectralType: K
+    hue: 36.62101
+    isWhite: false
+    radius: 0.7785
+    temperature: 3851.352
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 0
+      orbitalArc: 77.66790239403039
+      showOrbit: false
+      parentId: Alpha Centauri
+planets:
+  - name: Alpha Centauri I
+    description: ""
+    tags: []
+    isPlanet:
+      age: 9803639861.00678
+      classification: M
+      radius: 5076.74975
+      terranMass: 0.52759
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Terrestrial3.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/default/rings/rings3.png
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 41269671
+      orbitalArc: 278.57310579796876
+      showOrbit: true
+      parentId: Alpha Centauri
+    population: 4571757137.59504
+    temperature: 301.5044

@@ -1,0 +1,12 @@
+name: Warp Engines
+apiVersion: shipSystems/v1
+kind: shipSystems
+type: warpEngines
+description: ""
+tags: []
+assets:
+  soundEffects: []
+interstellarCruisingSpeed: 599600000000
+solarCruisingSpeed: 29980000
+minSpeedMultiplier: 0.01
+warpFactorCount: 5
