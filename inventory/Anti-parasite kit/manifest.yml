@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Anti-parasite kit
+plural: Anti-parasite kit
+description: Supplies for removing parasites from a patient.
+volume: 0.000035
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 45
+flags:
+  medical: {}
+tags: []

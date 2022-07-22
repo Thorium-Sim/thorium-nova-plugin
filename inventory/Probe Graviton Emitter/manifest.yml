@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Graviton Emitter
+plural: Probe Graviton Emitters
+description: A Graviton Emitter allows the probe to interact with graviton particles.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 8
+flags:
+  probeEquipment: {}
+tags: []

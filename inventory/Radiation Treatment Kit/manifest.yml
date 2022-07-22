@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Radiation Treatment Kit
+plural: Radiation Treatment Kits
+description: Supplies for addressing acute radiation poisoning.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  medical: {}
+tags: []

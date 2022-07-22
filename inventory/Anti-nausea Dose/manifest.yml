@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Anti-nausea Dose
+plural: Anti-nausea Dose
+description: Medicine for patience experiencing nausea symptoms
+volume: 0.000014999999999999999
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 150
+flags:
+  medical: {}
+tags: []

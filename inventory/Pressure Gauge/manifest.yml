@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Pressure Gauge
+plural: Pressure Gauges
+description: Determines the pressure of liquids and gasses.
+volume: 0.00010999999999999999
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 80
+flags:
+  repair: {}
+tags: []

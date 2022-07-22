@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Plasma Tool Kit
+plural: Plasma Tool Kit
+description: Supplies for repairing, maintaining, and improving plasma systems.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  repair: {}
+tags: []

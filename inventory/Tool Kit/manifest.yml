@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Tool Kit
+plural: Tool Kits
+description: Basic tools used for repairs.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  repair: {}
+tags: []

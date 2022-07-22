@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Network Adapter
+plural: Network Adapters
+description: Equipment which translates computer signals between two interfaces.
+volume: 0.0005
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 76
+flags:
+  repair: {}
+tags: []

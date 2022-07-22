@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Power Wrench
+plural: Power Wrenches
+description: Quickly secures two objects together. Must be used with bolts.
+volume: 0.00008999999999999999
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 30
+flags:
+  repair: {}
+tags: []

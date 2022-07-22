@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Wiring Kit
+plural: Wiring Kits
+description: Supplies needed for replacing broken wires and cables.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  repair: {}
+tags: []

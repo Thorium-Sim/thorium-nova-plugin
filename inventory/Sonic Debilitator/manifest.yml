@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Sonic Debilitator
+plural: Sonic Debilitators
+description: Releases a loud sound which debilitates most humanoids with ears.
+volume: 0.00015
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 8
+flags:
+  security: {}
+tags: []

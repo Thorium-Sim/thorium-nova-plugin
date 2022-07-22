@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Air Filter
+plural: Air Filters
+description: Removes contaminants from the air.
+volume: 0.0095
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 119
+flags:
+  sparePart: {}
+tags: []

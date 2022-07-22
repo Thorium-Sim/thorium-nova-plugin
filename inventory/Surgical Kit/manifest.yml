@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Surgical Kit
+plural: Surgical Kits
+description: Supplies for performing minor surgical procedures away from the sickbay.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  medical: {}
+tags: []

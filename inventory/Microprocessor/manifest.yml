@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Microprocessor
+plural: Microprocessor
+description: A necessary component of computer systems.
+volume: 0.000059999999999999995
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 600
+flags:
+  repair: {}
+tags: []

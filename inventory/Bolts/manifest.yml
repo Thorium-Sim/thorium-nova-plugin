@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Bolts
+plural: Bolts
+description: Used to join two objects together.
+volume: 0.00009
+assets:
+  image: null
+continuous: true
+durability: 1
+abundance: 10
+flags:
+  repair: {}
+tags: []

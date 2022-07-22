@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Circuit Board
+plural: Circuit Boards
+description: Can be printed with the necessary circuit connections.
+volume: 0.000049999999999999996
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 75
+flags:
+  repair: {}
+tags: []

@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Encoding Sequencer
+plural: Probe Encoding Sequencers
+description: Encodes and encrypts signals, making them more secure.
+volume: 0.004
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 25
+flags:
+  probeEquipment: {}
+tags: []

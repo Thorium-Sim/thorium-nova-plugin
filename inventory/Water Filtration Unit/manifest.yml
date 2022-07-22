@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Water Filtration Unit
+plural: Water Filtration Units
+description: Filters contaminants from water.
+volume: 0.09
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 4
+flags:
+  sparePart: {}
+tags: []

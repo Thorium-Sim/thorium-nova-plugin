@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Neural Pad
+plural: Neural Pads
+description: Suppresses neural activity for patients with traumatic brain injuries.
+volume: 0.0006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 26
+flags:
+  medical: {}
+tags: []

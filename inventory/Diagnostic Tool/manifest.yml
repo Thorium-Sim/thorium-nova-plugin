@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Diagnostic Tool
+plural: Diagnostic Tools
+description: Used for troubleshooting system failures.
+volume: 0.001
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 6
+flags:
+  repair: {}
+tags: []

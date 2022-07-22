@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Carbon Fiber Strut
+plural: Carbon Fiber Struts
+description: Carefully crafted load-bearing pylons. Used for repairing structural damage.
+volume: 0.003
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 8
+flags:
+  repair: {}
+tags: []

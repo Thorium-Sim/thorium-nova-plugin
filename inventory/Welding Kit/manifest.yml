@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Welding Kit
+plural: Welding Kit
+description: Supplies needed for joining metal pieces together.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  repair: {}
+tags: []

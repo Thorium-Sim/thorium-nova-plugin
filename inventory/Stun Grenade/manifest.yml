@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Stun Grenade
+plural: Stun Grenades
+description: Creates a concussive shockwave which disorients anyone in the vicinity.
+volume: 0.000019999999999999998
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 100
+flags:
+  security: {}
+tags: []

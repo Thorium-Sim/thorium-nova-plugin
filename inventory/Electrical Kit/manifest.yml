@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Electrical Kit
+plural: Electrical Kit
+description: Supplies for repairing, maintaining, and improving electrical systems.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  repair: {}
+tags: []

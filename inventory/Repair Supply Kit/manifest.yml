@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Repair Supply Kit
+plural: Repair Supply Kits
+description: General supplies commonly used during many repairs.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  repair: {}
+tags: []

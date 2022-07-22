@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Nebula Encounter Package
+plural: Probe Nebula Encounter Packages
+description: A Nebula Encounter Package allows the probe to research a nebula.
+volume: 0.008
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 14
+flags:
+  probeEquipment: {}
+tags: []

@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Warp Nacelle
+plural: Probe Warp Nacelles
+description: A Warp Nacelle (warp core included) allows the probe to travel at warp speed.
+volume: 0.002
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 20
+flags:
+  probeEquipment: {}
+tags: []

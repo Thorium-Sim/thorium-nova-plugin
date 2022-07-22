@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Radiation Shielding
+plural: Probe Radiation Shielding
+description: Protects the probe from moderate levels of radiation.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 16
+flags:
+  probeEquipment: {}
+tags: []

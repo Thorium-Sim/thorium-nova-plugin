@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Titanium Armor Plates
+plural: Probe Titanium Armor Plates
+description: Titanium Armor Alloy increases the probe's defenses.
+volume: 0.002
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  probeEquipment: {}
+tags: []

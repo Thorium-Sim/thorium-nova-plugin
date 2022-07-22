@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Self-Destruct Kit
+plural: Probe Self-Destruct Kits
+description: >-
+  A Self-Destruct Kit allows the probe to receive a self-destruct signal from
+  the station.
+volume: 0.002
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 17
+flags:
+  probeEquipment: {}
+tags: []

@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Magnetic Coil
+plural: Magnetic Coils
+description: A carefully wound cable which produces electromagnetism when powered.
+volume: 0.003
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 150
+flags:
+  repair: {}
+tags: []

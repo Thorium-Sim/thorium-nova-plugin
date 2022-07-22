@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Liquid Nitrogen Tank
+plural: Liquid Nitrogen Tanks
+description: A container of compressed liquid nitrogen.
+volume: 0.01
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 40
+flags:
+  repair: {}
+tags: []

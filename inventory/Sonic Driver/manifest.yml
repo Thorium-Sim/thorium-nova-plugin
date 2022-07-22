@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Sonic Driver
+plural: Sonic Drivers
+description: Uses sound waves to push two objects apart.
+volume: 0.000049999999999999996
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 12
+flags:
+  repair: {}
+tags: []

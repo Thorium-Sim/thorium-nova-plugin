@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Subspace Encounter Package
+plural: Probe Subspace Encounter Packages
+description: A Subspace Encounter Package allows the probe to research subspace.
+volume: 0.01
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 6
+flags:
+  probeEquipment: {}
+tags: []

@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Coolant Piping
+plural: Coolant Piping
+description: Special pipes which can withstand the extreme temperatures of coolant.
+volume: 0.00009999999999999999
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 160
+flags:
+  sparePart: {}
+tags: []

@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Stealth Field
+plural: Probe Stealth Fields
+description: A stealth field masks the probe making it harder to detect.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 7
+flags:
+  probeEquipment: {}
+tags: []

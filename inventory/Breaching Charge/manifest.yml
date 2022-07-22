@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Breaching Charge
+plural: Breaching Charges
+description: Specialized charges which can burst through the strongest of materials.
+volume: 0.000049999999999999996
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 4
+flags:
+  security: {}
+tags: []

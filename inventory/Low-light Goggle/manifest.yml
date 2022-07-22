@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Low-light Goggle
+plural: Low-light Goggles
+description: Infrared receptors and lights make it easier to see in dark areas.
+volume: 0.004
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 80
+flags:
+  science: {}
+tags: []

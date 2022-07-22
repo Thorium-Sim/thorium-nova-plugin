@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Titanium Hull Plate
+plural: Titanium Hull Plates
+description: A strong material commonly used for internal repairs.
+volume: 0.01
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 40
+flags:
+  repair: {}
+tags: []

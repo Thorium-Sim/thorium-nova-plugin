@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Custodial Kit
+plural: Custodial Kits
+description: Supplies for cleaning up messes of all varieties.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 15
+flags:
+  repair: {}
+tags: []

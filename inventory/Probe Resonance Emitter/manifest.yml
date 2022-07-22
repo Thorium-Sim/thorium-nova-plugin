@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Resonance Emitter
+plural: Probe Resonance Emitters
+description: A Resonance Emitter allows the probe to interact with resonating particles.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 8
+flags:
+  probeEquipment: {}
+tags: []

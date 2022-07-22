@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Video Camera
+plural: Probe Video Cameras
+description: A Video Camera can take still or moving pictures.
+volume: 0.002
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 47
+flags:
+  probeEquipment: {}
+tags: []

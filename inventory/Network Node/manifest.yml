@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Network Node
+plural: Network Nodes
+description: Connects multiple computers together into a single network.
+volume: 0.00011999999999999999
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 89
+flags:
+  repair: {}
+tags: []

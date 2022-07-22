@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Pulse Phaser Rifle
+plural: Pulse Phaser Rifle
+description: A more powerful, more accurate, handheld phaser weapon.
+volume: 0.00015
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 10
+flags:
+  security: {}
+tags: []

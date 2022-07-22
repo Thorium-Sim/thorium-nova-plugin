@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Cylindrical Grinder
+plural: Cylindrical Grinders
+description: A tool for carefully removing material from objects.
+volume: 0.005
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 50
+flags:
+  repair: {}
+tags: []

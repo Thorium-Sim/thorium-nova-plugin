@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Liquid Oxygen Tank
+plural: Liquid Oxygen Tanks
+description: A container of compressed liquid oxygen. Highly flammable.
+volume: 0.01
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 40
+flags:
+  repair: {}
+tags: []

@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Surface Grinder
+plural: Surface Grinders
+description: Used to remove material from the surface of an object.
+volume: 0.005
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 5
+flags:
+  repair: {}
+tags: []

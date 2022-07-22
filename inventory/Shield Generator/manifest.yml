@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Shield Generator
+plural: Shield Generators
+description: Generates a powerful energy shield around the ship.
+volume: 3.6999999999999997
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 3
+flags:
+  sparePart: {}
+tags: []

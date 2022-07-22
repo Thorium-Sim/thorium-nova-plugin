@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Emergency Stabilization Kit
+plural: Emergency Stabilization Kits
+description: Supplies for quickly stabilizing a critical patient.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 16
+flags:
+  medical: {}
+tags: []

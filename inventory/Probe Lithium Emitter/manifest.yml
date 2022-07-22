@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe Lithium Emitter
+plural: Probe Lithium Emitters
+description: A Lithium Emitter allows the probe to interact with lithium particles.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 10
+flags:
+  probeEquipment: {}
+tags: []

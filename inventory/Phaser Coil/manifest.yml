@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Phaser Coil
+plural: Phaser Coils
+description: Uses electromagnetic fields to focus a beam from a phaser bank.
+volume: 0.049999999999999996
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 7
+flags:
+  sparePart: {}
+tags: []

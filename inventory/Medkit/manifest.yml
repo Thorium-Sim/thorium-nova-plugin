@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Medkit
+plural: Medkits
+description: Equipped with the necessary supplies to address most field medical situations.
+volume: 0.006
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 30
+flags:
+  medical: {}
+tags: []

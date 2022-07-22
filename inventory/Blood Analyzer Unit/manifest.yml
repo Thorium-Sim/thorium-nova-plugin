@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Blood Analyzer Unit
+plural: Blood Analyzer Units
+description: Analyzes blood to find abnormalities or pathogens.
+volume: 0.0003
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 20
+flags:
+  medical: {}
+tags: []

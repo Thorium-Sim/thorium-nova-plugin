@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Spring Clutch
+plural: Spring Clutches
+description: >-
+  A mechanical rotor that only spins in one direction before returning to the
+  starting position.
+volume: 0.006999999999999999
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 40
+flags:
+  repair: {}
+tags: []

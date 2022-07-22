@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Type I Torpedo Casing
+plural: Type I Torpedo Casings
+description: A standard torpedo warhead delivery mechanism.
+volume: 0.886
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 30
+flags:
+  torpedoCasing: {}
+tags: []

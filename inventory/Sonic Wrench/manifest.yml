@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Sonic Wrench
+plural: Sonic Wrenches
+description: Uses sound waves to secure objects together. Must be used with bolts.
+volume: 0.00008999999999999999
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 12
+flags:
+  repair: {}
+tags: []

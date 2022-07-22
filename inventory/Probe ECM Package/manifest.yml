@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Probe ECM Package
+plural: Probe ECM Packages
+description: An ECM (Electronic Counter Measures) Package is used to jam electronics.
+volume: 0.008
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 26
+flags:
+  probeEquipment: {}
+tags: []

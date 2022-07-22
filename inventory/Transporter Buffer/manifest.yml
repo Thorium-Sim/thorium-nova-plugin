@@ -1,0 +1,14 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Transporter Buffer
+plural: Transporter Buffers
+description: A critical component that is required for transporters to operate.
+volume: 3
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 2
+flags:
+  sparePart: {}
+tags: []
