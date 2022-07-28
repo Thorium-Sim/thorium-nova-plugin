@@ -2,15 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Probe Chemical Analysis Package
 plural: Probe Chemical Analysis Packages
-description: >-
-  A Chemical Analysis Package lets the probe research what chemicals it has
-  found.
+description: A Chemical Analysis Package lets the probe research what chemicals
+  it has found.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 24
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

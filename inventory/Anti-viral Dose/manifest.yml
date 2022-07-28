@@ -2,13 +2,13 @@ apiVersion: inventory/v1
 kind: inventory
 name: Anti-viral Dose
 plural: Anti-viral Doses
-description: 'Medicine for eradicating viral infection in patients '
+description: "Medicine for eradicating viral infection in patients "
 volume: 0.000014999999999999999
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 150
+abundance: 1
 flags:
   medical: {}
 tags: []

@@ -5,10 +5,10 @@ plural: Probe Titanium Armor Plates
 description: Titanium Armor Alloy increases the probe's defenses.
 volume: 0.002
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 15
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

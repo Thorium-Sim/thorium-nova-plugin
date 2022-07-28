@@ -5,10 +5,10 @@ plural: Coolant Piping
 description: Special pipes which can withstand the extreme temperatures of coolant.
 volume: 0.00009999999999999999
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 160
+abundance: 1
 flags:
   sparePart: {}
 tags: []

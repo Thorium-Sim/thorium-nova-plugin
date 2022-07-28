@@ -5,10 +5,10 @@ plural: Targeting Sensors Pallets
 description: Low-latency sensor equipment necessary for target locks in space.
 volume: 3.5
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 2
+abundance: 1
 flags:
   sparePart: {}
 tags: []

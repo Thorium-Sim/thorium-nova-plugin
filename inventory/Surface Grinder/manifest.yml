@@ -5,10 +5,10 @@ plural: Surface Grinders
 description: Used to remove material from the surface of an object.
 volume: 0.005
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 5
+abundance: 1
 flags:
   repair: {}
 tags: []

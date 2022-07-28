@@ -5,10 +5,10 @@ plural: Welders
 description: Used for joining two pieces of metal together using high heat.
 volume: 0.002
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 16
+abundance: 1
 flags:
   repair: {}
 tags: []

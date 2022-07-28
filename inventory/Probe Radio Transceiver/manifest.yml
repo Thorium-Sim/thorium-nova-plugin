@@ -5,10 +5,10 @@ plural: Probe Radio Transceivers
 description: A radio transceiver is used to let the probe communicate.
 volume: 0.002
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 54
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

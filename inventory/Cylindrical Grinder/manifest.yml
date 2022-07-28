@@ -5,10 +5,10 @@ plural: Cylindrical Grinders
 description: A tool for carefully removing material from objects.
 volume: 0.005
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 50
+abundance: 1
 flags:
   repair: {}
 tags: []

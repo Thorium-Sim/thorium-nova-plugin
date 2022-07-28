@@ -5,10 +5,10 @@ plural: Transporter Buffers
 description: A critical component that is required for transporters to operate.
 volume: 3
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 2
+abundance: 1
 flags:
   sparePart: {}
 tags: []

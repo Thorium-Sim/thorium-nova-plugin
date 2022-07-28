@@ -5,10 +5,10 @@ plural: Probe Transporter Relays
 description: A transporter relay extends the transporter range of this ship.
 volume: 0.01
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 15
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

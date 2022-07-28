@@ -5,10 +5,10 @@ plural: Alignment Lasers
 description: Ensures that two objects are precisely aligned with nanometer precision.
 volume: 0.006999999999999999
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 115
+abundance: 1
 flags:
   repair: {}
 tags: []

@@ -40,7 +40,8 @@ decks:
         icon: ""
         radius: 7
         volume: 12
-        flags: []
+        flags:
+          - crewQuarters
       - id: 2
         name: Crew Quarters
         deckIndex: null
@@ -50,27 +51,32 @@ decks:
         icon: ""
         radius: 8
         volume: 12
-        flags: []
+        flags:
+          - crewQuarters
       - id: 3
-        name: Main Fuel Tank
+        name: Secondary Fuel Tank
         deckIndex: null
         x: 123.7135878739563
         y: 161.6753592018079
-        isRoom: false
+        isRoom: true
         icon: ""
         radius: 14
-        volume: 12
-        flags: []
+        volume: 20
+        flags:
+          - fuelStorage
+          - cargo
       - id: 4
         name: Main Fuel Tank
         deckIndex: null
         x: 123.53994530267113
         y: 109.26346082671918
-        isRoom: false
+        isRoom: true
         icon: ""
         radius: 12
-        volume: 12
-        flags: []
+        volume: 20
+        flags:
+          - cargo
+          - fuelStorage
       - id: 5
         name: Emergency Batteries
         deckIndex: null
@@ -90,7 +96,8 @@ decks:
         icon: ""
         radius: 8
         volume: 12
-        flags: []
+        flags:
+          - crewQuarters
       - id: 7
         name: Crew Quarters
         deckIndex: null
@@ -100,7 +107,8 @@ decks:
         icon: ""
         radius: 7
         volume: 12
-        flags: []
+        flags:
+          - crewQuarters
       - id: 8
         name: Crew Quarters
         deckIndex: null
@@ -110,7 +118,8 @@ decks:
         icon: ""
         radius: 9
         volume: 12
-        flags: []
+        flags:
+          - crewQuarters
       - id: 9
         name: Crew Quarters
         deckIndex: null
@@ -120,7 +129,8 @@ decks:
         icon: ""
         radius: 9
         volume: 12
-        flags: []
+        flags:
+          - crewQuarters
       - id: 10
         name: Crew Quarters
         deckIndex: null
@@ -130,7 +140,8 @@ decks:
         icon: ""
         radius: 7
         volume: 12
-        flags: []
+        flags:
+          - crewQuarters
       - id: 11
         name: Turbolift
         deckIndex: null
@@ -160,7 +171,8 @@ decks:
         icon: ""
         radius: 8
         volume: 12
-        flags: []
+        flags:
+          - crewQuarters
       - id: 14
         name: Emergency Batteries
         deckIndex: null
@@ -224,13 +236,14 @@ decks:
       - id: 20
         name: Gravity Generation Control
         deckIndex: null
-        x: 234.31350942858555
-        y: 112.49767065180177
+        x: 233.90249868639805
+        y: 115.3222403539502
         isRoom: true
         icon: ""
         radius: 12
         volume: 12
-        flags: []
+        flags:
+          - lifeSupport
       - id: 21
         name: Observation Deck
         deckIndex: null
@@ -254,8 +267,8 @@ decks:
       - id: 23
         name: Airlock
         deckIndex: null
-        x: 276.67771650407855
-        y: 161.81437036275463
+        x: 276.7462589845473
+        y: 161.88288232564526
         isRoom: true
         icon: ""
         radius: 0
@@ -561,26 +574,6 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 89
-        name: Observation Deck
-        deckIndex: null
-        x: 293.99832589285717
-        y: 118.78571428571429
-        isRoom: true
-        icon: ""
-        radius: 7
-        volume: 12
-        flags: []
-      - id: 90
-        name: Observation Deck
-        deckIndex: null
-        x: 293.39474051339283
-        y: 151.2116176060268
-        isRoom: true
-        icon: ""
-        radius: 7
-        volume: 12
-        flags: []
   - name: Deck 2
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       2-l0nts6vw3w.svg
@@ -593,8 +586,9 @@ decks:
         isRoom: true
         icon: ""
         radius: 23
-        volume: 12
-        flags: []
+        volume: 22
+        flags:
+          - cargo
       - id: 51
         name: Medical Center
         deckIndex: null
@@ -604,9 +598,11 @@ decks:
         icon: ""
         radius: 20
         volume: 12
-        flags: []
+        flags:
+          - medical
+          - cargo
       - id: 52
-        name: ""
+        name: Fire Suppression Center
         deckIndex: null
         x: 126.83060946529054
         y: 113.36660983034439
@@ -629,12 +625,14 @@ decks:
         name: Air Filtration System
         deckIndex: null
         x: 124.32489013671875
-        y: 193.13064575195312
+        y: 193.19915771484375
         isRoom: true
         icon: ""
         radius: 11
-        volume: 12
-        flags: []
+        volume: 4
+        flags:
+          - lifeSupport
+          - cargo
       - id: 55
         name: Air Filtration System
         deckIndex: null
@@ -643,14 +641,16 @@ decks:
         isRoom: true
         icon: ""
         radius: 10
-        volume: 12
-        flags: []
+        volume: 4
+        flags:
+          - lifeSupport
+          - cargo
       - id: 56
         name: Stellar Cartography
         deckIndex: null
         x: 306.85546875
         y: 134.5
-        isRoom: false
+        isRoom: true
         icon: ""
         radius: 11
         volume: 12
@@ -680,7 +680,7 @@ decks:
         deckIndex: null
         x: 74.58474731445312
         y: 99.6783447265625
-        isRoom: false
+        isRoom: true
         icon: ""
         radius: 9
         volume: 12
@@ -926,14 +926,5087 @@ decks:
         volume: 12
         flags: []
   - name: Deck 3
-    backgroundUrl: ""
-    nodes: []
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      3-l61d6ymb0p.svg
+    nodes:
+      - id: 91
+        name: ""
+        deckIndex: null
+        x: 84.5
+        y: 177
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 92
+        name: ""
+        deckIndex: null
+        x: 84.22445871771153
+        y: 134.47159435409137
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 93
+        name: ""
+        deckIndex: null
+        x: 177.5
+        y: 134.3861530954732
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 94
+        name: ""
+        deckIndex: null
+        x: 154.2069320490935
+        y: 133.97075495220668
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 95
+        name: ""
+        deckIndex: null
+        x: 120.5
+        y: 134.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 96
+        name: ""
+        deckIndex: null
+        x: 108.92305303909653
+        y: 134.5150988299637
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 97
+        name: ""
+        deckIndex: null
+        x: 83.98089534981622
+        y: 92.12813440028283
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 98
+        name: ""
+        deckIndex: null
+        x: 111
+        y: 91.64294337964624
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 99
+        name: Weapons Locker
+        deckIndex: null
+        x: 110.24668145503675
+        y: 58.2352525458331
+        isRoom: true
+        icon: ""
+        radius: 25
+        volume: 6
+        flags:
+          - cargo
+          - security
+      - id: 100
+        name: ""
+        deckIndex: null
+        x: 211.14285714285714
+        y: 94
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 101
+        name: ""
+        deckIndex: null
+        x: 266.2857142857143
+        y: 96.85714285714286
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 102
+        name: ""
+        deckIndex: null
+        x: 226.98680483871328
+        y: 132.73708466035205
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 103
+        name: ""
+        deckIndex: null
+        x: 271.42857142857144
+        y: 116.5458671191691
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 104
+        name: ""
+        deckIndex: null
+        x: 211.05405097722584
+        y: 175.90811118087754
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 105
+        name: ""
+        deckIndex: null
+        x: 265.7142857142857
+        y: 171.14285714285714
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 106
+        name: ""
+        deckIndex: null
+        x: 110
+        y: 177.71428571428572
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 107
+        name: Weapons Locker
+        deckIndex: null
+        x: 110.39372907512299
+        y: 207.77480364373875
+        isRoom: true
+        icon: ""
+        radius: 26
+        volume: 6
+        flags:
+          - cargo
+          - security
+      - id: 108
+        name: ""
+        deckIndex: null
+        x: 149.14285714285714
+        y: 176.57142857142858
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 109
+        name: Turbolift
+        deckIndex: null
+        x: 272
+        y: 133.98721927387027
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 110
+        name: ""
+        deckIndex: null
+        x: 282.14897794997864
+        y: 121.41044821975217
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 111
+        name: ""
+        deckIndex: null
+        x: 258.058827055496
+        y: 124.24721435889899
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 112
+        name: ""
+        deckIndex: null
+        x: 271.08559000730605
+        y: 151.7638459086231
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 113
+        name: ""
+        deckIndex: null
+        x: 284.4311687403049
+        y: 146.65766685815882
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 114
+        name: ""
+        deckIndex: null
+        x: 260.5895552924629
+        y: 147.50869669990288
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 115
+        name: ""
+        deckIndex: null
+        x: 254.03826724768027
+        y: 134.20770679696852
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 116
+        name: ""
+        deckIndex: null
+        x: 289.8648818118125
+        y: 134.73326535039763
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 117
+        name: Upper Bow Sensors
+        deckIndex: null
+        x: 301.2146840049407
+        y: 133.9240320827448
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags: []
+      - id: 119
+        name: Shuttle Hangar
+        deckIndex: null
+        x: 59.23001727620581
+        y: 134.6512549585583
+        isRoom: true
+        icon: ""
+        radius: 18
+        volume: 10
+        flags:
+          - cargo
+      - id: 123
+        name: Auxiliary Computer Core
+        deckIndex: null
+        x: 109.01290032225576
+        y: 156.28539111785082
+        isRoom: true
+        icon: ""
+        radius: 16
+        volume: 5
+        flags:
+          - cargo
+      - id: 124
+        name: Upper Shield Control
+        deckIndex: null
+        x: 154.5
+        y: 155.69822794163463
+        isRoom: true
+        icon: ""
+        radius: 17
+        volume: 6
+        flags:
+          - cargo
+      - id: 125
+        name: Vehicle Maintenance Center
+        deckIndex: null
+        x: 154.9820752206803
+        y: 111.55377721236253
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 3
+        flags:
+          - cargo
+      - id: 126
+        name: Communications Control Center
+        deckIndex: null
+        x: 109
+        y: 110.48709680334088
+        isRoom: true
+        icon: ""
+        radius: 14
+        volume: 6
+        flags:
+          - cargo
+      - id: 131
+        name: Power Distribution Center
+        deckIndex: null
+        x: 241
+        y: 113.5
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 12
+        flags: []
+      - id: 132
+        name: Power Distribution Center
+        deckIndex: null
+        x: 242
+        y: 155.94836007413613
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 12
+        flags: []
+      - id: 133
+        name: Damage Control Resource Center
+        deckIndex: null
+        x: 201.54783716095093
+        y: 132.53107225893953
+        isRoom: true
+        icon: ""
+        radius: 21
+        volume: 12
+        flags:
+          - maintenance
+          - cargo
   - name: Deck 4
-    backgroundUrl: ""
-    nodes: []
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      4-l61dvxmw2d.svg
+    nodes:
+      - id: 134
+        name: ""
+        deckIndex: null
+        x: 133.89551350746044
+        y: 227.59326096333714
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 135
+        name: ""
+        deckIndex: null
+        x: 133.13990391795716
+        y: 177.2696623024187
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 136
+        name: ""
+        deckIndex: null
+        x: 140.39375597718865
+        y: 176.81630577246662
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 137
+        name: ""
+        deckIndex: null
+        x: 140.81897397931291
+        y: 133.4212200010456
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 138
+        name: ""
+        deckIndex: null
+        x: 141.49391515739626
+        y: 93.54812900920517
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 139
+        name: ""
+        deckIndex: null
+        x: 133.74439158955977
+        y: 92.18803174809928
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 140
+        name: ""
+        deckIndex: null
+        x: 132.83766008215585
+        y: 43.07340612444862
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 141
+        name: ""
+        deckIndex: null
+        x: 96.11503403229644
+        y: 115.30968518689963
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 142
+        name: ""
+        deckIndex: null
+        x: 95.66166827859448
+        y: 153.5435304157656
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 143
+        name: ""
+        deckIndex: null
+        x: 95.96391211439578
+        y: 132.53758382757442
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 144
+        name: ""
+        deckIndex: null
+        x: 189.50837929490183
+        y: 133.2931934170777
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 145
+        name: ""
+        deckIndex: null
+        x: 181.19667381036575
+        y: 176.81630577246662
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 146
+        name: ""
+        deckIndex: null
+        x: 180.13882038506117
+        y: 93.39700709130452
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 147
+        name: ""
+        deckIndex: null
+        x: 265.7854367176611
+        y: 98.23290846412552
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 148
+        name: ""
+        deckIndex: null
+        x: 270.9630930433554
+        y: 117.27427011960816
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 149
+        name: ""
+        deckIndex: null
+        x: 272.47431222236196
+        y: 134.3510468423823
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 150
+        name: ""
+        deckIndex: null
+        x: 283.3550903112092
+        y: 122.41241532823047
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 151
+        name: ""
+        deckIndex: null
+        x: 259.47782728290554
+        y: 122.26129341032981
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 152
+        name: ""
+        deckIndex: null
+        x: 289.0977231914341
+        y: 134.80441259608426
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 153
+        name: ""
+        deckIndex: null
+        x: 254.0374382384819
+        y: 133.74655917077968
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 154
+        name: ""
+        deckIndex: null
+        x: 284.4129437365138
+        y: 146.74304411023607
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 155
+        name: ""
+        deckIndex: null
+        x: 258.2688519397003
+        y: 146.44080027443476
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 156
+        name: ""
+        deckIndex: null
+        x: 270.81197112545476
+        y: 152.03231123675903
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 157
+        name: ""
+        deckIndex: null
+        x: 265.97606975263375
+        y: 171.22479481014236
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 158
+        name: Air Pumping Monitoring Station
+        deckIndex: null
+        x: 75.8764111959458
+        y: 133.00575831169567
+        isRoom: true
+        icon: ""
+        radius: 16
+        volume: 12
+        flags: []
+      - id: 159
+        name: Air Conditioning Control
+        deckIndex: null
+        x: 112.28507924766663
+        y: 67.40403490645423
+        isRoom: true
+        icon: ""
+        radius: 16
+        volume: 4
+        flags:
+          - cargo
+          - lifeSupport
+      - id: 160
+        name: Air Filtration Control
+        deckIndex: null
+        x: 112.32825430313828
+        y: 197.08822766353322
+        isRoom: true
+        icon: ""
+        radius: 17
+        volume: 4
+        flags:
+          - cargo
+          - lifeSupport
+      - id: 161
+        name: Heating Control
+        deckIndex: null
+        x: 150.0477112209248
+        y: 194.18829562671758
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 3
+        flags:
+          - cargo
+      - id: 162
+        name: Zoology
+        deckIndex: null
+        x: 118.81039143816626
+        y: 133.0166739227603
+        isRoom: true
+        icon: ""
+        radius: 17
+        volume: 12
+        flags: []
+      - id: 163
+        name: Damage Control Center
+        deckIndex: null
+        x: 163.55247880746953
+        y: 132.80079296539964
+        isRoom: true
+        icon: ""
+        radius: 20
+        volume: 12
+        flags:
+          - cargo
+          - maintenance
+      - id: 164
+        name: Security Information Center
+        deckIndex: null
+        x: 223.07976019228897
+        y: 132.02771744031512
+        isRoom: true
+        icon: ""
+        radius: 26
+        volume: 12
+        flags:
+          - cargo
+          - security
+      - id: 165
+        name: Mission Lounge
+        deckIndex: null
+        x: 303.53030829563903
+        y: 134.90192118640115
+        isRoom: true
+        icon: ""
+        radius: 12
+        volume: 12
+        flags: []
   - name: Deck 5
-    backgroundUrl: ""
-    nodes: []
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      5-l61dw2c810.svg
+    nodes:
+      - id: 166
+        name: ""
+        deckIndex: null
+        x: 117.5
+        y: 236.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 167
+        name: ""
+        deckIndex: null
+        x: 118
+        y: 177.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 168
+        name: ""
+        deckIndex: null
+        x: 106.73136154647536
+        y: 177.2811714636226
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 169
+        name: ""
+        deckIndex: null
+        x: 106.5
+        y: 135
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 170
+        name: ""
+        deckIndex: null
+        x: 59
+        y: 134
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 171
+        name: ""
+        deckIndex: null
+        x: 106.5
+        y: 92
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 172
+        name: ""
+        deckIndex: null
+        x: 117.5
+        y: 91.68184571971892
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 173
+        name: ""
+        deckIndex: null
+        x: 117.52888651819252
+        y: 31.52886722621689
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 174
+        name: ""
+        deckIndex: null
+        x: 117
+        y: 68.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 175
+        name: ""
+        deckIndex: null
+        x: 117.5
+        y: 198
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 176
+        name: ""
+        deckIndex: null
+        x: 209.41727384023662
+        y: 175.4869990399214
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 177
+        name: ""
+        deckIndex: null
+        x: 204
+        y: 152
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 178
+        name: ""
+        deckIndex: null
+        x: 203
+        y: 132.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 179
+        name: ""
+        deckIndex: null
+        x: 209.5
+        y: 93.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 180
+        name: ""
+        deckIndex: null
+        x: 177
+        y: 92
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 181
+        name: ""
+        deckIndex: null
+        x: 265.3722493828269
+        y: 97.07020355240992
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 182
+        name: ""
+        deckIndex: null
+        x: 265.8189261092552
+        y: 172.5096609825661
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 183
+        name: ""
+        deckIndex: null
+        x: 272.8049535927738
+        y: 133.96010463746768
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 184
+        name: ""
+        deckIndex: null
+        x: 289.56654784863605
+        y: 134.07384471230782
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 185
+        name: ""
+        deckIndex: null
+        x: 285.15450817447675
+        y: 122.27163858393178
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 186
+        name: ""
+        deckIndex: null
+        x: 271.0359812171671
+        y: 116.53598700752471
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 187
+        name: ""
+        deckIndex: null
+        x: 260.1161830236229
+        y: 122.60254155949372
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 188
+        name: ""
+        deckIndex: null
+        x: 284.16179924779095
+        y: 147.53056571849362
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 189
+        name: ""
+        deckIndex: null
+        x: 253.60842450423797
+        y: 134.8459516552857
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 190
+        name: ""
+        deckIndex: null
+        x: 270.7050782416051
+        y: 151.06019745782103
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 191
+        name: ""
+        deckIndex: null
+        x: 258.6822701295211
+        y: 145.43484687326796
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 192
+        name: Kitchen
+        deckIndex: null
+        x: 176.80584716796875
+        y: 118.86300659179688
+        isRoom: true
+        icon: ""
+        radius: 20
+        volume: 12
+        flags: []
+      - id: 193
+        name: ""
+        deckIndex: null
+        x: 166.2713995033083
+        y: 176.9952687350592
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 194
+        name: Refrigeration Units
+        deckIndex: null
+        x: 188.03383970078931
+        y: 157.78414736058448
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 3
+        flags:
+          - cargo
+      - id: 195
+        name: Officers Messroom
+        deckIndex: null
+        x: 134.0529248696809
+        y: 134.60282596736667
+        isRoom: true
+        icon: ""
+        radius: 20
+        volume: 12
+        flags:
+          - cafeteria
+      - id: 196
+        name: Officers Quarters
+        deckIndex: null
+        x: 132.3558910361439
+        y: 37.38415785333223
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 197
+        name: Officers Quarters
+        deckIndex: null
+        x: 95.30261899552048
+        y: 41.877356122695815
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 198
+        name: Officers Quarters
+        deckIndex: null
+        x: 102.3972071279233
+        y: 70.73439088323819
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 199
+        name: Officers Quarters
+        deckIndex: null
+        x: 132.92114922309148
+        y: 69.03861632239551
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 200
+        name: Briefing Room
+        deckIndex: null
+        x: 78.92194906244923
+        y: 114.65363063525001
+        isRoom: true
+        icon: ""
+        radius: 16
+        volume: 12
+        flags: []
+      - id: 201
+        name: ""
+        deckIndex: null
+        x: 91.09204338897213
+        y: 134.6361223538774
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 202
+        name: Upper Aft Sensors
+        deckIndex: null
+        x: 48.69767936790523
+        y: 134.60856385202345
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 4
+        flags:
+          - cargo
+      - id: 203
+        name: Phaser Battery
+        deckIndex: null
+        x: 52.08922848959059
+        y: 96.45363623306325
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 3
+        flags:
+          - cargo
+      - id: 204
+        name: Phaser Battery
+        deckIndex: null
+        x: 51.754695322958945
+        y: 173.44987346388214
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 3
+        flags:
+          - cargo
+      - id: 205
+        name: Officers Quarters
+        deckIndex: null
+        x: 67.23083911661834
+        y: 155.36833332164696
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 206
+        name: Officers Quarters
+        deckIndex: null
+        x: 91.08907517004647
+        y: 157.31028276785622
+        isRoom: true
+        icon: ""
+        radius: 12
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 207
+        name: Officers Quarters
+        deckIndex: null
+        x: 94.972974062465
+        y: 227.6365948555775
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 208
+        name: Officers Quarters
+        deckIndex: null
+        x: 101.76979712419742
+        y: 197.95251046352158
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 209
+        name: Officers Quarters
+        deckIndex: null
+        x: 133.03349334911658
+        y: 197.95250623040772
+        isRoom: true
+        icon: ""
+        radius: 12
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 210
+        name: Officers Quarters
+        deckIndex: null
+        x: 132.28614556462875
+        y: 234.15599656785145
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 211
+        name: Sickbay
+        deckIndex: null
+        x: 230.17730755993497
+        y: 123.92165650628596
+        isRoom: true
+        icon: ""
+        radius: 20
+        volume: 12
+        flags:
+          - medical
+          - cargo
+      - id: 212
+        name: Morgue
+        deckIndex: null
+        x: 236.5749481315052
+        y: 160.5303802663891
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 12
+        flags: []
+      - id: 213
+        name: Cultural Studies Center
+        deckIndex: null
+        x: 305.17187203778593
+        y: 133.51812007531484
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+  - name: Deck 6
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      6-l61dwah32x.svg
+    nodes:
+      - id: 214
+        name: ""
+        deckIndex: null
+        x: 272
+        y: 133.01522827148438
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 215
+        name: ""
+        deckIndex: null
+        x: 270.5
+        y: 116.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 216
+        name: ""
+        deckIndex: null
+        x: 265.3612951266242
+        y: 97.51074492886927
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 217
+        name: ""
+        deckIndex: null
+        x: 210
+        y: 94
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 218
+        name: ""
+        deckIndex: null
+        x: 205
+        y: 117
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 219
+        name: ""
+        deckIndex: null
+        x: 203
+        y: 155.48148376072507
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 220
+        name: ""
+        deckIndex: null
+        x: 209.5
+        y: 174.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 221
+        name: ""
+        deckIndex: null
+        x: 225
+        y: 175.04108721259772
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 222
+        name: ""
+        deckIndex: null
+        x: 246.92854460191944
+        y: 174.01932515791106
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 223
+        name: ""
+        deckIndex: null
+        x: 265.60072326660156
+        y: 172.2410774230957
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 224
+        name: ""
+        deckIndex: null
+        x: 270.5
+        y: 151
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 225
+        name: ""
+        deckIndex: null
+        x: 283
+        y: 146
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 226
+        name: ""
+        deckIndex: null
+        x: 288.5131697813456
+        y: 133.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 227
+        name: ""
+        deckIndex: null
+        x: 283
+        y: 121
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 228
+        name: ""
+        deckIndex: null
+        x: 260.5
+        y: 146.5131756502321
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 229
+        name: ""
+        deckIndex: null
+        x: 256.16246795654297
+        y: 134.21057891845703
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 230
+        name: ""
+        deckIndex: null
+        x: 259.5
+        y: 122
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 231
+        name: Mr. Williamson's Quarters
+        deckIndex: null
+        x: 234
+        y: 134
+        isRoom: true
+        icon: ""
+        radius: 14
+        volume: 12
+        flags: []
+      - id: 232
+        name: ""
+        deckIndex: null
+        x: 226
+        y: 94.0249475428528
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 233
+        name: ""
+        deckIndex: null
+        x: 245.81452239906082
+        y: 95.67450988406007
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 234
+        name: ""
+        deckIndex: null
+        x: 157
+        y: 92
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 235
+        name: ""
+        deckIndex: null
+        x: 135
+        y: 92.17844300872977
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 236
+        name: ""
+        deckIndex: null
+        x: 113.97235981696728
+        y: 92.03013575633011
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 237
+        name: ""
+        deckIndex: null
+        x: 155.3988506622773
+        y: 176.97504595408057
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 238
+        name: ""
+        deckIndex: null
+        x: 135.09227019444847
+        y: 177.39219192475184
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 239
+        name: ""
+        deckIndex: null
+        x: 112.5
+        y: 177.45386490277576
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 240
+        name: ""
+        deckIndex: null
+        x: 107.04083575404384
+        y: 177.14601471701428
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 241
+        name: ""
+        deckIndex: null
+        x: 106.90772980555153
+        y: 170.0239179195866
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 242
+        name: ""
+        deckIndex: null
+        x: 106.5
+        y: 131.48493212183493
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 243
+        name: ""
+        deckIndex: null
+        x: 90.84892025295106
+        y: 99.03621238845474
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 244
+        name: ""
+        deckIndex: null
+        x: 70.20882295934291
+        y: 99.4863585353909
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 245
+        name: ""
+        deckIndex: null
+        x: 46
+        y: 98.95385462311951
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 246
+        name: ""
+        deckIndex: null
+        x: 47.5
+        y: 169.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 247
+        name: ""
+        deckIndex: null
+        x: 69.5
+        y: 169.53577568345082
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 248
+        name: ""
+        deckIndex: null
+        x: 91.15374501850998
+        y: 169.66466697288305
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 249
+        name: Crew Quarters
+        deckIndex: null
+        x: 246.13244706727158
+        y: 107.92295693357194
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 250
+        name: Crew Quarters
+        deckIndex: null
+        x: 225.04222214250407
+        y: 106.78701175114414
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 251
+        name: Crew Quarters
+        deckIndex: null
+        x: 225.60591824066515
+        y: 163.1224796321003
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 252
+        name: Crew Quarters
+        deckIndex: null
+        x: 247.35335714345192
+        y: 163.32013148453157
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 253
+        name: Kitchen
+        deckIndex: null
+        x: 175.17049049281025
+        y: 117.40486429591766
+        isRoom: true
+        icon: ""
+        radius: 19
+        volume: 12
+        flags: []
+      - id: 254
+        name: Food Storage
+        deckIndex: null
+        x: 188.68412100434017
+        y: 157.62400272309011
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 4
+        flags:
+          - cargo
+      - id: 255
+        name: Messhall
+        deckIndex: null
+        x: 132.6990803137161
+        y: 132.20550723711713
+        isRoom: true
+        icon: ""
+        radius: 21
+        volume: 12
+        flags:
+          - cafeteria
+      - id: 256
+        name: Crew Quarters
+        deckIndex: null
+        x: 156.35547479734862
+        y: 81.39613746546306
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 257
+        name: Crew Quarters
+        deckIndex: null
+        x: 135.59485828047255
+        y: 81.36851626517115
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 258
+        name: Crew Quarters
+        deckIndex: null
+        x: 114.0374000835081
+        y: 79.11624451324948
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 259
+        name: Crew Quarters
+        deckIndex: null
+        x: 155.86530404776747
+        y: 189.15581215955612
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 260
+        name: Crew Quarters
+        deckIndex: null
+        x: 134.9513520656378
+        y: 189.15581215955612
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 261
+        name: Crew Quarters
+        deckIndex: null
+        x: 113.07214076125597
+        y: 188.51230594472136
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 262
+        name: Crew Quarters
+        deckIndex: null
+        x: 91.51468256429153
+        y: 86.51656598384922
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 263
+        name: Crew Quarters
+        deckIndex: null
+        x: 70.74948932708686
+        y: 85.96789171092774
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 264
+        name: Crew Quarters
+        deckIndex: null
+        x: 91.95185132054762
+        y: 181.37852068150113
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 265
+        name: Crew Quarters
+        deckIndex: null
+        x: 70.45501207717768
+        y: 181.67299793141032
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 266
+        name: Laundry
+        deckIndex: null
+        x: 91.48878296931105
+        y: 133.88586823362442
+        isRoom: true
+        icon: ""
+        radius: 12
+        volume: 12
+        flags: []
+      - id: 267
+        name: Torpedo Casing Storage
+        deckIndex: null
+        x: 68.5198707282131
+        y: 133.5890724067354
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 7
+        flags:
+          - torpedoStorage
+          - cargo
+      - id: 268
+        name: Aft Torpedo Launcher
+        deckIndex: null
+        x: 33.13641425271123
+        y: 100.94416071009947
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 269
+        name: Aft Torpedo Launcher
+        deckIndex: null
+        x: 30.82677246928703
+        y: 169.09460997479476
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 270
+        name: Torpedo/Probe Maintenance
+        deckIndex: null
+        x: 47.36223698612493
+        y: 134.44245765832503
+        isRoom: true
+        icon: ""
+        radius: 12
+        volume: 12
+        flags: []
+      - id: 271
+        name: Gymnasium
+        deckIndex: null
+        x: 311.5922405596428
+        y: 133.54369197534854
+        isRoom: true
+        icon: ""
+        radius: 22
+        volume: 12
+        flags: []
+      - id: 272
+        name: ""
+        deckIndex: null
+        x: 106.14566605542689
+        y: 100.16732007978534
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 273
+        name: ""
+        deckIndex: null
+        x: 105.9256864467334
+        y: 92.02807455812585
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+  - name: Deck 7
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      7-l61dwd525t.svg
+    nodes:
+      - id: 274
+        name: ""
+        deckIndex: null
+        x: 46.44657644396052
+        y: 170.17264738023835
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 275
+        name: ""
+        deckIndex: null
+        x: 70.20361717594676
+        y: 169.8283424420936
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 276
+        name: ""
+        deckIndex: null
+        x: 92.9277430934988
+        y: 169.91404162191142
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 277
+        name: ""
+        deckIndex: null
+        x: 107.01352357592576
+        y: 170.17264738023835
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 278
+        name: ""
+        deckIndex: null
+        x: 107.01352357592576
+        y: 176.71444120498816
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 279
+        name: ""
+        deckIndex: null
+        x: 113.0509299851764
+        y: 177.28780158088395
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 280
+        name: ""
+        deckIndex: null
+        x: 135.20390619997534
+        y: 176.71444120498816
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 281
+        name: ""
+        deckIndex: null
+        x: 155.12167359997343
+        y: 176.91140418362164
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 282
+        name: ""
+        deckIndex: null
+        x: 210.6800319389958
+        y: 175.33722145240927
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 283
+        name: ""
+        deckIndex: null
+        x: 203.44962823795652
+        y: 133.67632393689715
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 284
+        name: ""
+        deckIndex: null
+        x: 256.45833244575823
+        y: 134.0491307769436
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 285
+        name: ""
+        deckIndex: null
+        x: 208.95850724827216
+        y: 94.42556098839816
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 286
+        name: ""
+        deckIndex: null
+        x: 154.94736365838708
+        y: 92.19289333826273
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 287
+        name: ""
+        deckIndex: null
+        x: 134.5886406090109
+        y: 92.01542642138506
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 288
+        name: ""
+        deckIndex: null
+        x: 113.58603938218249
+        y: 91.9409796681912
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 289
+        name: ""
+        deckIndex: null
+        x: 105.92401355600958
+        y: 91.52754664948024
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 290
+        name: ""
+        deckIndex: null
+        x: 105.97464492180457
+        y: 99.51679077524406
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 291
+        name: ""
+        deckIndex: null
+        x: 106.69994061928793
+        y: 135.4285569305963
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 292
+        name: ""
+        deckIndex: null
+        x: 91.75006932906423
+        y: 98.59652058048106
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 293
+        name: ""
+        deckIndex: null
+        x: 70.29144154528171
+        y: 99.90410231320482
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 294
+        name: ""
+        deckIndex: null
+        x: 265.08021216586286
+        y: 172.2384770091067
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 295
+        name: ""
+        deckIndex: null
+        x: 269.900481299889
+        y: 152.95740047300194
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 296
+        name: ""
+        deckIndex: null
+        x: 260.25994303183666
+        y: 145.72699677196263
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 297
+        name: ""
+        deckIndex: null
+        x: 283.67267882567813
+        y: 147.79282640083102
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 298
+        name: ""
+        deckIndex: null
+        x: 289.52586277413855
+        y: 134.0206288750419
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 299
+        name: ""
+        deckIndex: null
+        x: 271.52022755211004
+        y: 134.07237561413424
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 300
+        name: ""
+        deckIndex: null
+        x: 260.9485529081261
+        y: 120.93704122554222
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 301
+        name: ""
+        deckIndex: null
+        x: 284.0169837638229
+        y: 121.96995603997641
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 302
+        name: ""
+        deckIndex: null
+        x: 271.004148550963
+        y: 116.73381100256633
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 303
+        name: ""
+        deckIndex: null
+        x: 265.08021216586286
+        y: 96.83569555541125
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 304
+        name: Crew Quarters
+        deckIndex: null
+        x: 155.59124183583933
+        y: 188.76511404005365
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 305
+        name: Crew Quarters
+        deckIndex: null
+        x: 135.27725048530036
+        y: 188.07650416376418
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 306
+        name: Crew Quarters
+        deckIndex: null
+        x: 113.93034432032722
+        y: 189.45143331342211
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 307
+        name: Crew Quarters
+        deckIndex: null
+        x: 92.9277430934988
+        y: 182.22332021530383
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 308
+        name: Crew Quarters
+        deckIndex: null
+        x: 71.9251418666704
+        y: 181.87901527715908
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 309
+        name: Crew Quarters
+        deckIndex: null
+        x: 70.22080626224418
+        y: 87.28447265731614
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 310
+        name: Crew Quarters
+        deckIndex: null
+        x: 91.77494519390936
+        y: 86.82961698351814
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 311
+        name: Crew Quarters
+        deckIndex: null
+        x: 113.93034432032722
+        y: 79.1433486888753
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 312
+        name: Crew Quarters
+        deckIndex: null
+        x: 134.65078678659364
+        y: 80.054170673422
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags: []
+      - id: 313
+        name: Crew Quarters
+        deckIndex: null
+        x: 155.0672747251888
+        y: 79.93350080242021
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 314
+        name: Crew Quarters
+        deckIndex: null
+        x: 81.56568013472278
+        y: 134.0206288750419
+        isRoom: true
+        icon: ""
+        radius: 21
+        volume: 10
+        flags:
+          - cargo
+      - id: 315
+        name: Geology Lab
+        deckIndex: null
+        x: 134
+        y: 137.5
+        isRoom: true
+        icon: ""
+        radius: 23
+        volume: 12
+        flags:
+          - science
+      - id: 316
+        name: Theater
+        deckIndex: null
+        x: 178.09332275390625
+        y: 135.2264404296875
+        isRoom: true
+        icon: ""
+        radius: 18
+        volume: 12
+        flags:
+          - recreation
+      - id: 317
+        name: Maintenance Airlock
+        deckIndex: null
+        x: 43.61162102350218
+        y: 133.96669781257077
+        isRoom: true
+        icon: ""
+        radius: 12
+        volume: 12
+        flags: []
+      - id: 318
+        name: ""
+        deckIndex: null
+        x: 47.5
+        y: 99
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 319
+        name: Flight Simulation Center
+        deckIndex: null
+        x: 231.271240234375
+        y: 117.73660278320312
+        isRoom: true
+        icon: ""
+        radius: 17
+        volume: 12
+        flags:
+          - recreation
+      - id: 320
+        name: Security Training Center
+        deckIndex: null
+        x: 235
+        y: 156
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 12
+        flags:
+          - recreation
+      - id: 321
+        name: Bow Phaser Banks
+        deckIndex: null
+        x: 299.52087410831183
+        y: 174
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 322
+        name: Bow Phaser Banks
+        deckIndex: null
+        x: 301
+        y: 93.5
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 323
+        name: Bow Torpedo Launcher
+        deckIndex: null
+        x: 313
+        y: 168
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 324
+        name: Bow Torpedo Launcher
+        deckIndex: null
+        x: 313
+        y: 100.5
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 325
+        name: Swimming Pool
+        deckIndex: null
+        x: 304.5
+        y: 134.5
+        isRoom: true
+        icon: ""
+        radius: 13
+        volume: 12
+        flags:
+          - recreation
+      - id: 326
+        name: Navigational Deflector Array
+        deckIndex: null
+        x: 323.97912589168817
+        y: 133.5
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 12
+        flags: []
+      - id: 327
+        name: ""
+        deckIndex: null
+        x: 231.20993968007133
+        y: 134.72811939669586
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+  - name: Deck 8
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      8-l61dwjwr0o.svg
+    nodes:
+      - id: 328
+        name: ""
+        deckIndex: null
+        x: 54.151454263977854
+        y: 171.7768282122085
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 329
+        name: ""
+        deckIndex: null
+        x: 53.78635893586309
+        y: 134.1720094163886
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 330
+        name: ""
+        deckIndex: null
+        x: 53.96890659992047
+        y: 97.11483361274084
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 331
+        name: ""
+        deckIndex: null
+        x: 107.82046749684703
+        y: 135.44984306479026
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 332
+        name: ""
+        deckIndex: null
+        x: 106.54263384844538
+        y: 93.09878500347851
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 333
+        name: ""
+        deckIndex: null
+        x: 126.4403292306996
+        y: 91.45585602696211
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 334
+        name: ""
+        deckIndex: null
+        x: 126.25778156664222
+        y: 59.69256248097832
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 335
+        name: ""
+        deckIndex: null
+        x: 106.36008618438801
+        y: 177.6183534620446
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 336
+        name: ""
+        deckIndex: null
+        x: 126.85900861596825
+        y: 177.64515548764714
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 337
+        name: ""
+        deckIndex: null
+        x: 126.18174419001676
+        y: 210.00686545027773
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 338
+        name: ""
+        deckIndex: null
+        x: 211.14244535332307
+        y: 175.0626861652413
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 339
+        name: ""
+        deckIndex: null
+        x: 224.46842482951166
+        y: 135.26729540073288
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 340
+        name: ""
+        deckIndex: null
+        x: 191.6192696851305
+        y: 135.23903463996865
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 341
+        name: ""
+        deckIndex: null
+        x: 209.86461170492143
+        y: 93.09878500347851
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 342
+        name: ""
+        deckIndex: null
+        x: 265.90674457053655
+        y: 97.11483361274084
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 343
+        name: ""
+        deckIndex: null
+        x: 266.08929223459387
+        y: 172.50701886843802
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 344
+        name: ""
+        deckIndex: null
+        x: 271.0180791641431
+        y: 150.9663945096674
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 345
+        name: ""
+        deckIndex: null
+        x: 261.69248709154925
+        y: 147.13289356446245
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 346
+        name: ""
+        deckIndex: null
+        x: 279.7803670388973
+        y: 148.21251834313915
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 347
+        name: ""
+        deckIndex: null
+        x: 254.95388472709382
+        y: 136.91022437724928
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 348
+        name: ""
+        deckIndex: null
+        x: 289.13381986595857
+        y: 136.29729844487457
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 349
+        name: ""
+        deckIndex: null
+        x: 259.3350286644709
+        y: 123.03660190888854
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 350
+        name: ""
+        deckIndex: null
+        x: 283.97896331221693
+        y: 120.8460299402
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 351
+        name: ""
+        deckIndex: null
+        x: 270.8355315000857
+        y: 116.28233833876554
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 352
+        name: ""
+        deckIndex: null
+        x: 272.4449681500545
+        y: 135.04944486353307
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 353
+        name: Impulse Engines
+        deckIndex: null
+        x: 42.28585610024827
+        y: 97.29738127679822
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 354
+        name: Impulse Engines
+        deckIndex: null
+        x: 43.38114208459254
+        y: 171.95937587626588
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 355
+        name: Warp Engine Control
+        deckIndex: null
+        x: 78.97793657578129
+        y: 111.35355140921634
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 5
+        flags:
+          - cargo
+      - id: 356
+        name: Impulse Engine Control
+        deckIndex: null
+        x: 77.83730336287783
+        y: 154.48595781715792
+        isRoom: true
+        icon: ""
+        radius: 14
+        volume: 5
+        flags:
+          - cargo
+      - id: 357
+        name: Warp Engines
+        deckIndex: null
+        x: 114.57473106697002
+        y: 202.05472704816194
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 358
+        name: Thrusters
+        deckIndex: null
+        x: 133.0344784621856
+        y: 201.1670021254464
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 359
+        name: Warp Engines
+        deckIndex: null
+        x: 114.48586196893866
+        y: 63.26313983905848
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 360
+        name: Thrusters
+        deckIndex: null
+        x: 134.08793910403966
+        y: 59.26271593393583
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 361
+        name: Upper Computer Core
+        deckIndex: null
+        x: 144.78376121490226
+        y: 135.47270699607088
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 362
+        name: Computer Maintenance
+        deckIndex: null
+        x: 159.6906520968246
+        y: 136.47089425072176
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 3
+        flags:
+          - cargo
+      - id: 363
+        name: Medical Center
+        deckIndex: null
+        x: 191.69404333780582
+        y: 114.06852038203492
+        isRoom: true
+        icon: ""
+        radius: 17
+        volume: 4
+        flags:
+          - medical
+          - cargo
+      - id: 364
+        name: Operating Room
+        deckIndex: null
+        x: 190.09387377575678
+        y: 154.8728472663672
+        isRoom: true
+        icon: ""
+        radius: 17
+        volume: 4
+        flags:
+          - medical
+          - cargo
+      - id: 365
+        name: Stealth Field Control Room
+        deckIndex: null
+        x: 241.2992997613267
+        y: 136.07085491229074
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 5
+        flags:
+          - cargo
+      - id: 366
+        name: Navigational Sensors Complex
+        deckIndex: null
+        x: 307.30629419585046
+        y: 134.47068535024167
+        isRoom: true
+        icon: ""
+        radius: 20
+        volume: 12
+        flags: []
+  - name: Deck 9
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      9-l61dwn523v.svg
+    nodes:
+      - id: 367
+        name: Lower Computer Core
+        deckIndex: null
+        x: 137.31903076171875
+        y: 134.5
+        isRoom: true
+        icon: ""
+        radius: 27
+        volume: 6
+        flags:
+          - cargo
+      - id: 368
+        name: ""
+        deckIndex: null
+        x: 58
+        y: 169.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 369
+        name: ""
+        deckIndex: null
+        x: 88.5
+        y: 169.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 370
+        name: ""
+        deckIndex: null
+        x: 105.5
+        y: 169.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 371
+        name: ""
+        deckIndex: null
+        x: 106
+        y: 98.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 372
+        name: ""
+        deckIndex: null
+        x: 87.5
+        y: 99
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 373
+        name: ""
+        deckIndex: null
+        x: 57.5
+        y: 99
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 374
+        name: ""
+        deckIndex: null
+        x: 107.5
+        y: 91.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 375
+        name: ""
+        deckIndex: null
+        x: 176.5
+        y: 93
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 376
+        name: ""
+        deckIndex: null
+        x: 265.5
+        y: 97.0763098491476
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 377
+        name: ""
+        deckIndex: null
+        x: 173
+        y: 110.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 378
+        name: ""
+        deckIndex: null
+        x: 171.8238002232143
+        y: 133.8317273198342
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 379
+        name: ""
+        deckIndex: null
+        x: 227.39313616071428
+        y: 133.96969666772958
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 380
+        name: ""
+        deckIndex: null
+        x: 178.8549815854547
+        y: 175.9670261493094
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 381
+        name: ""
+        deckIndex: null
+        x: 107.43555254212438
+        y: 177.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 382
+        name: ""
+        deckIndex: null
+        x: 266
+        y: 172
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 383
+        name: ""
+        deckIndex: null
+        x: 272
+        y: 133.958984375
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 384
+        name: ""
+        deckIndex: null
+        x: 271.5
+        y: 117.98435845904416
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 385
+        name: ""
+        deckIndex: null
+        x: 271
+        y: 151.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 386
+        name: ""
+        deckIndex: null
+        x: 283.5
+        y: 148
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 387
+        name: ""
+        deckIndex: null
+        x: 258
+        y: 145
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 388
+        name: ""
+        deckIndex: null
+        x: 254.51502316000057
+        y: 133.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 389
+        name: ""
+        deckIndex: null
+        x: 290
+        y: 135
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 390
+        name: ""
+        deckIndex: null
+        x: 283.85222854809786
+        y: 122.23533629780769
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 391
+        name: ""
+        deckIndex: null
+        x: 261
+        y: 120
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 392
+        name: Engineering Lounge
+        deckIndex: null
+        x: 59
+        y: 134.6370086669922
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 12
+        flags:
+          - recreation
+      - id: 393
+        name: Life Support Control
+        deckIndex: null
+        x: 85.5
+        y: 135
+        isRoom: true
+        icon: ""
+        radius: 14
+        volume: 6
+        flags:
+          - cargo
+          - lifeSupport
+      - id: 394
+        name: Weapons Locker
+        deckIndex: null
+        x: 88
+        y: 80.83505249023438
+        isRoom: true
+        icon: ""
+        radius: 12
+        volume: 5
+        flags:
+          - cargo
+          - security
+      - id: 395
+        name: Maintenance Locker
+        deckIndex: null
+        x: 90.5
+        y: 187.5
+        isRoom: true
+        icon: ""
+        radius: 13
+        volume: 6
+        flags:
+          - cargo
+          - maintenance
+      - id: 396
+        name: Greenhouse
+        deckIndex: null
+        x: 199.5
+        y: 114
+        isRoom: true
+        icon: ""
+        radius: 16
+        volume: 12
+        flags: []
+      - id: 397
+        name: Botany Lab
+        deckIndex: null
+        x: 198.83416748046875
+        y: 155.21563720703125
+        isRoom: true
+        icon: ""
+        radius: 13
+        volume: 12
+        flags:
+          - science
+      - id: 398
+        name: ""
+        deckIndex: null
+        x: 173.5
+        y: 153
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 399
+        name: Power Distribution Center
+        deckIndex: null
+        x: 239.5
+        y: 150.5
+        isRoom: true
+        icon: ""
+        radius: 14
+        volume: 12
+        flags: []
+      - id: 400
+        name: Shield Generator Room
+        deckIndex: null
+        x: 288.5
+        y: 102.94033813476562
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 5
+        flags:
+          - cargo
+      - id: 401
+        name: Reception Room
+        deckIndex: null
+        x: 300.5
+        y: 134
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags: []
+      - id: 402
+        name: Forward Airlock
+        deckIndex: null
+        x: 316.5
+        y: 134.5
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags: []
+      - id: 403
+        name: Tractor Beam Control
+        deckIndex: null
+        x: 41
+        y: 133
+        isRoom: true
+        icon: ""
+        radius: 5
+        volume: 2
+        flags:
+          - cargo
+  - name: Deck 10
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      10-l61dwrr00m.svg
+    nodes:
+      - id: 404
+        name: ""
+        deckIndex: null
+        x: 108
+        y: 176
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 405
+        name: ""
+        deckIndex: null
+        x: 108
+        y: 92
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 406
+        name: ""
+        deckIndex: null
+        x: 138
+        y: 92
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 407
+        name: ""
+        deckIndex: null
+        x: 209.98359153334752
+        y: 92.51641577880339
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 408
+        name: ""
+        deckIndex: null
+        x: 265.85093269941376
+        y: 98.18884441486571
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 409
+        name: ""
+        deckIndex: null
+        x: 138.47652370352475
+        y: 177.2650220386077
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 410
+        name: ""
+        deckIndex: null
+        x: 210.67309000915697
+        y: 175.57256954366687
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 411
+        name: ""
+        deckIndex: null
+        x: 266.37956841318737
+        y: 171.70581438842936
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 412
+        name: ""
+        deckIndex: null
+        x: 205.5
+        y: 156.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 413
+        name: ""
+        deckIndex: null
+        x: 204
+        y: 134.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 414
+        name: ""
+        deckIndex: null
+        x: 205.5
+        y: 112.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 415
+        name: ""
+        deckIndex: null
+        x: 137.72013092041016
+        y: 135.2874870300293
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 417
+        name: ""
+        deckIndex: null
+        x: 108.5
+        y: 134
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 418
+        name: ""
+        deckIndex: null
+        x: 255
+        y: 134
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 419
+        name: ""
+        deckIndex: null
+        x: 271.5
+        y: 134
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 420
+        name: ""
+        deckIndex: null
+        x: 288.5
+        y: 134.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 421
+        name: ""
+        deckIndex: null
+        x: 271.5
+        y: 116.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 422
+        name: ""
+        deckIndex: null
+        x: 283.5
+        y: 121
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 423
+        name: ""
+        deckIndex: null
+        x: 260.5
+        y: 121.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 424
+        name: ""
+        deckIndex: null
+        x: 282.5
+        y: 149
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 425
+        name: ""
+        deckIndex: null
+        x: 259
+        y: 145.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 426
+        name: ""
+        deckIndex: null
+        x: 271
+        y: 152
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 427
+        name: Escape Pod Control Room
+        deckIndex: null
+        x: 310.13263957004875
+        y: 136.23865982514332
+        isRoom: true
+        icon: ""
+        radius: 18
+        volume: 12
+        flags: []
+      - id: 428
+        name: Wardroom
+        deckIndex: null
+        x: 233.5
+        y: 113.5
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 12
+        flags:
+          - cafeteria
+      - id: 429
+        name: Messhall B
+        deckIndex: null
+        x: 234
+        y: 155
+        isRoom: true
+        icon: ""
+        radius: 16
+        volume: 12
+        flags:
+          - cafeteria
+      - id: 430
+        name: Kitchen
+        deckIndex: null
+        x: 180
+        y: 133.5
+        isRoom: true
+        icon: ""
+        radius: 14
+        volume: 12
+        flags: []
+      - id: 431
+        name: Crew Quarters
+        deckIndex: null
+        x: 154
+        y: 105
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 432
+        name: Crew Quarters
+        deckIndex: null
+        x: 121
+        y: 105.5
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 433
+        name: Crew Quarters
+        deckIndex: null
+        x: 154.5
+        y: 120.5
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags: []
+      - id: 434
+        name: Crew Quarters
+        deckIndex: null
+        x: 121
+        y: 120
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 435
+        name: Crew Quarters
+        deckIndex: null
+        x: 154.5
+        y: 148.5
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 436
+        name: Crew Quarters
+        deckIndex: null
+        x: 121.5
+        y: 147
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 437
+        name: Crew Quarters
+        deckIndex: null
+        x: 155
+        y: 165.5
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 438
+        name: Crew Quarters
+        deckIndex: null
+        x: 121.5
+        y: 165.5
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 439
+        name: Fuel Tank
+        deckIndex: null
+        x: 140
+        y: 192.5
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 6
+        flags:
+          - cargo
+          - fuelStorage
+      - id: 440
+        name: Coolant Tank
+        deckIndex: null
+        x: 139.5
+        y: 74.5
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 6
+        flags:
+          - cargo
+          - coolantStorage
+      - id: 441
+        name: Voice Recognition Subprocessor
+        deckIndex: null
+        x: 113
+        y: 76
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 442
+        name: Chief Engineer Office
+        deckIndex: null
+        x: 111.5
+        y: 192
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags: []
+      - id: 443
+        name: Upper Main Engineering
+        deckIndex: null
+        x: 97
+        y: 132
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags:
+          - maintenance
+      - id: 445
+        name: ""
+        deckIndex: null
+        x: 137.57109734495774
+        y: 164.6832800059068
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 446
+        name: ""
+        deckIndex: null
+        x: 137.4131180705358
+        y: 149.08531058879748
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 447
+        name: ""
+        deckIndex: null
+        x: 137.39969108762685
+        y: 120.63187187187282
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 448
+        name: ""
+        deckIndex: null
+        x: 137.2197170202374
+        y: 103.49124613878566
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+  - name: Deck 11
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      11-l61dx18x4z.svg
+    nodes:
+      - id: 444
+        name: Lower Main Engineering
+        deckIndex: null
+        x: 70
+        y: 132.5
+        isRoom: true
+        icon: ""
+        radius: 30
+        volume: 12
+        flags:
+          - cargo
+          - maintenance
+      - id: 449
+        name: ""
+        deckIndex: null
+        x: 107
+        y: 176.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 450
+        name: ""
+        deckIndex: null
+        x: 107.5
+        y: 133.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 451
+        name: ""
+        deckIndex: null
+        x: 137.53888779753737
+        y: 133.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 452
+        name: ""
+        deckIndex: null
+        x: 137
+        y: 120.91441891625564
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 453
+        name: ""
+        deckIndex: null
+        x: 137.5
+        y: 102.92491919761008
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 454
+        name: ""
+        deckIndex: null
+        x: 137
+        y: 92
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 455
+        name: ""
+        deckIndex: null
+        x: 106.5
+        y: 92
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 456
+        name: ""
+        deckIndex: null
+        x: 137.17220587699822
+        y: 176.18851994276048
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 457
+        name: ""
+        deckIndex: null
+        x: 137.5221960548346
+        y: 164.9234734580311
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 458
+        name: ""
+        deckIndex: null
+        x: 137.38562289704026
+        y: 148.92568644509583
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 459
+        name: ""
+        deckIndex: null
+        x: 209.57770633808894
+        y: 175.06269650465342
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 460
+        name: ""
+        deckIndex: null
+        x: 205
+        y: 155
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 461
+        name: ""
+        deckIndex: null
+        x: 202.9089930841523
+        y: 134.33741679842876
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 462
+        name: ""
+        deckIndex: null
+        x: 206
+        y: 114.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 463
+        name: ""
+        deckIndex: null
+        x: 209.5
+        y: 94.34915990312693
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 464
+        name: ""
+        deckIndex: null
+        x: 266.1324531762585
+        y: 97.41885759311018
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 465
+        name: ""
+        deckIndex: null
+        x: 272.5
+        y: 134
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 466
+        name: ""
+        deckIndex: null
+        x: 255.5
+        y: 134.43900352798065
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 467
+        name: ""
+        deckIndex: null
+        x: 287
+        y: 134
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 468
+        name: ""
+        deckIndex: null
+        x: 283.5
+        y: 121.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 469
+        name: ""
+        deckIndex: null
+        x: 261
+        y: 121
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 470
+        name: ""
+        deckIndex: null
+        x: 271
+        y: 116.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 471
+        name: ""
+        deckIndex: null
+        x: 265.0379536373492
+        y: 171.57772365233538
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 472
+        name: ""
+        deckIndex: null
+        x: 271
+        y: 150.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 473
+        name: ""
+        deckIndex: null
+        x: 284
+        y: 146.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 474
+        name: ""
+        deckIndex: null
+        x: 258.53885316904444
+        y: 143.03887048329094
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 475
+        name: Transporter Room
+        deckIndex: null
+        x: 182.53975593722123
+        y: 134.4896263390125
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 10
+        flags:
+          - cargo
+      - id: 476
+        name: Crew Quarters
+        deckIndex: null
+        x: 154.5
+        y: 103
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 477
+        name: Crew Quarters
+        deckIndex: null
+        x: 121.4488525390625
+        y: 104.5
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 478
+        name: Crew Quarters
+        deckIndex: null
+        x: 120.48733051289376
+        y: 121.78924064656604
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 479
+        name: Crew Quarters
+        deckIndex: null
+        x: 154.24484756874085
+        y: 120.08718096307794
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 480
+        name: Crew Quarters
+        deckIndex: null
+        x: 120.48733051289376
+        y: 148.45484235454612
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 481
+        name: Crew Quarters
+        deckIndex: null
+        x: 154.34977190225666
+        y: 147.94889410176853
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 482
+        name: Crew Quarters
+        deckIndex: null
+        x: 154.24484756874085
+        y: 164.62440934768296
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 483
+        name: Crew Quarters
+        deckIndex: null
+        x: 120.77100712680844
+        y: 165.1917625755123
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags:
+          - crewQuarters
+      - id: 484
+        name: Training Room
+        deckIndex: null
+        x: 130.09348221694844
+        y: 189.58795137217493
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags: []
+      - id: 485
+        name: Robotics Lab
+        deckIndex: null
+        x: 233.95797607876636
+        y: 114.41364868478432
+        isRoom: true
+        icon: ""
+        radius: 17
+        volume: 12
+        flags:
+          - science
+      - id: 486
+        name: Phaser Capacitors
+        deckIndex: null
+        x: 233.10694623702233
+        y: 153.56102140501037
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 12
+        flags: []
+      - id: 487
+        name: Escape Pods
+        deckIndex: null
+        x: 309.6996319939864
+        y: 132.00159874749457
+        isRoom: true
+        icon: ""
+        radius: 20
+        volume: 12
+        flags: []
+  - name: Deck 12
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      12-l61dx72v11.svg
+    nodes:
+      - id: 488
+        name: ""
+        deckIndex: null
+        x: 95.81859611529246
+        y: 154.36554455037546
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 489
+        name: ""
+        deckIndex: null
+        x: 130.342529296875
+        y: 177.9334716796875
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 490
+        name: ""
+        deckIndex: null
+        x: 96
+        y: 113.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 491
+        name: ""
+        deckIndex: null
+        x: 131.5
+        y: 91
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 492
+        name: ""
+        deckIndex: null
+        x: 141.50207859152042
+        y: 177.14116406630689
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 493
+        name: ""
+        deckIndex: null
+        x: 140
+        y: 135
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 494
+        name: ""
+        deckIndex: null
+        x: 140
+        y: 91
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 495
+        name: ""
+        deckIndex: null
+        x: 182
+        y: 93
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 496
+        name: ""
+        deckIndex: null
+        x: 190
+        y: 134.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 497
+        name: ""
+        deckIndex: null
+        x: 165
+        y: 134
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 498
+        name: ""
+        deckIndex: null
+        x: 180.7742909582393
+        y: 176.24857202972987
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 499
+        name: ""
+        deckIndex: null
+        x: 255
+        y: 134.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 500
+        name: ""
+        deckIndex: null
+        x: 270
+        y: 151.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 501
+        name: ""
+        deckIndex: null
+        x: 270.98781005659663
+        y: 117.5785252279261
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 502
+        name: ""
+        deckIndex: null
+        x: 265.0110829636975
+        y: 97.40959224119779
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 503
+        name: ""
+        deckIndex: null
+        x: 226.54261188546698
+        y: 98.76798546247528
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 504
+        name: ""
+        deckIndex: null
+        x: 224.74682998882056
+        y: 170.6854387696533
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 505
+        name: ""
+        deckIndex: null
+        x: 288.75986154529284
+        y: 134.15232827944985
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 506
+        name: ""
+        deckIndex: null
+        x: 283.6367334460871
+        y: 122.06966743793417
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 507
+        name: ""
+        deckIndex: null
+        x: 260.5
+        y: 121.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 508
+        name: ""
+        deckIndex: null
+        x: 285.5
+        y: 146.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 509
+        name: ""
+        deckIndex: null
+        x: 259
+        y: 145
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 510
+        name: Probe Launcher
+        deckIndex: null
+        x: 307.5
+        y: 135.06932067871094
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 4
+        flags:
+          - cargo
+      - id: 511
+        name: Sensor Array
+        deckIndex: null
+        x: 298.5
+        y: 112.5
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 5
+        flags:
+          - cargo
+      - id: 512
+        name: Shield Generator
+        deckIndex: null
+        x: 297.505859375
+        y: 155.6919403076172
+        isRoom: true
+        icon: ""
+        radius: 12
+        volume: 5
+        flags:
+          - cargo
+      - id: 513
+        name: ""
+        deckIndex: null
+        x: 272.5
+        y: 134
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 514
+        name: Adaptive Alien Quarters
+        deckIndex: null
+        x: 224.5
+        y: 114
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 515
+        name: VIP Quarters
+        deckIndex: null
+        x: 224
+        y: 150.5
+        isRoom: true
+        icon: ""
+        radius: 13
+        volume: 12
+        flags: []
+      - id: 516
+        name: Electronics Maintenance Center
+        deckIndex: null
+        x: 164.5
+        y: 115
+        isRoom: true
+        icon: ""
+        radius: 17
+        volume: 12
+        flags: []
+      - id: 517
+        name: Metallurgy Lab
+        deckIndex: null
+        x: 163
+        y: 154
+        isRoom: true
+        icon: ""
+        radius: 15
+        volume: 12
+        flags:
+          - science
+      - id: 518
+        name: Machine Shop
+        deckIndex: null
+        x: 117
+        y: 135
+        isRoom: true
+        icon: ""
+        radius: 16
+        volume: 12
+        flags: []
+      - id: 519
+        name: Water Storage
+        deckIndex: null
+        x: 82.70977783203125
+        y: 84.91275787353516
+        isRoom: true
+        icon: ""
+        radius: 24
+        volume: 7
+        flags:
+          - cargo
+          - waterStorage
+      - id: 520
+        name: Water Storage
+        deckIndex: null
+        x: 81
+        y: 184
+        isRoom: true
+        icon: ""
+        radius: 24
+        volume: 7
+        flags:
+          - cargo
+          - waterStorage
+      - id: 521
+        name: ""
+        deckIndex: null
+        x: 265.36834716796875
+        y: 171.85069274902344
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+  - name: Deck 13
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      13-l61dxbpd2p.svg
+    nodes:
+      - id: 522
+        name: Bridge
+        deckIndex: null
+        x: 171.5
+        y: 129
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 523
+        name: ""
+        deckIndex: null
+        x: 152
+        y: 98
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 524
+        name: ""
+        deckIndex: null
+        x: 186
+        y: 99.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 525
+        name: ""
+        deckIndex: null
+        x: 193
+        y: 106
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 526
+        name: ""
+        deckIndex: null
+        x: 233
+        y: 106.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 527
+        name: ""
+        deckIndex: null
+        x: 233.5
+        y: 134.9315185546875
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 528
+        name: ""
+        deckIndex: null
+        x: 232.5
+        y: 153.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 529
+        name: ""
+        deckIndex: null
+        x: 194.63702392578125
+        y: 153.03457641601562
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 530
+        name: ""
+        deckIndex: null
+        x: 182.5
+        y: 161.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 531
+        name: ""
+        deckIndex: null
+        x: 153.5
+        y: 161.67608642578125
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 532
+        name: ""
+        deckIndex: null
+        x: 272
+        y: 133.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 533
+        name: Briefing Room
+        deckIndex: null
+        x: 306
+        y: 132.5
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 534
+        name: Upper Cargo Bay
+        deckIndex: null
+        x: 105.5
+        y: 127.5
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+  - name: Deck 14
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      14-l61dxi7c3z.svg
+    nodes:
+      - id: 535
+        name: Lower Cargo Bay
+        deckIndex: null
+        x: 105
+        y: 133
+        isRoom: true
+        icon: ""
+        radius: 39
+        volume: 100
+        flags:
+          - cargo
+      - id: 536
+        name: ""
+        deckIndex: null
+        x: 272
+        y: 134.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 537
+        name: ""
+        deckIndex: null
+        x: 152
+        y: 162.5
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 538
+        name: ""
+        deckIndex: null
+        x: 152.20602579170782
+        y: 169.5245661795821
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 539
+        name: ""
+        deckIndex: null
+        x: 168.65926939875933
+        y: 169.5245661795821
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 540
+        name: ""
+        deckIndex: null
+        x: 183.97780655015214
+        y: 168.67353633783807
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 541
+        name: ""
+        deckIndex: null
+        x: 185.67986623364024
+        y: 152.78764595861588
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 542
+        name: ""
+        deckIndex: null
+        x: 197.11294513979897
+        y: 148.3010257692098
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 543
+        name: ""
+        deckIndex: null
+        x: 231.42793287562142
+        y: 148.3876280964568
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 544
+        name: ""
+        deckIndex: null
+        x: 232.202830915648
+        y: 134.34866605416158
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 545
+        name: ""
+        deckIndex: null
+        x: 254.04593018707848
+        y: 134.0649894402469
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 546
+        name: ""
+        deckIndex: null
+        x: 259.71946246537215
+        y: 120.4485119723422
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 547
+        name: ""
+        deckIndex: null
+        x: 273.05226331936217
+        y: 117.89542244711006
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 548
+        name: ""
+        deckIndex: null
+        x: 271.06652702195936
+        y: 151.93661611687185
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 549
+        name: ""
+        deckIndex: null
+        x: 258.60695782059594
+        y: 145.97940722466353
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 550
+        name: ""
+        deckIndex: null
+        x: 286.66874078726687
+        y: 144.56102415509014
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 551
+        name: ""
+        deckIndex: null
+        x: 286.3850641733522
+        y: 125.23216123984731
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 552
+        name: ""
+        deckIndex: null
+        x: 289.82803670937284
+        y: 134.63233833951466
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 553
+        name: ""
+        deckIndex: null
+        x: 232.77018414347737
+        y: 121.01586087160995
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 554
+        name: ""
+        deckIndex: null
+        x: 202.41678645460644
+        y: 120.44850764378059
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 555
+        name: ""
+        deckIndex: null
+        x: 187.09824930321363
+        y: 116.76071166288972
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 556
+        name: ""
+        deckIndex: null
+        x: 183.69412993623746
+        y: 100.59114466975288
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 557
+        name: ""
+        deckIndex: null
+        x: 151.92234917779314
+        y: 100.3074680558382
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 558
+        name: Torpedo Launcher
+        deckIndex: null
+        x: 49.51509155459309
+        y: 77.61333894266367
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 2
+        flags:
+          - cargo
+          - torpedoStorage
+      - id: 559
+        name: Airlock
+        deckIndex: null
+        x: 68.80510130079143
+        y: 134.91601495342934
+        isRoom: true
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 560
+        name: Torpedo Launcher
+        deckIndex: null
+        x: 51.217151238081186
+        y: 192.5023719066713
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 4
+        flags:
+          - cargo
+      - id: 561
+        name: Security Control Center
+        deckIndex: null
+        x: 168.09191617092998
+        y: 128.95880606122103
+        isRoom: true
+        icon: ""
+        radius: 18
+        volume: 12
+        flags:
+          - security
+      - id: 562
+        name: Biological Storage
+        deckIndex: null
+        x: 166.67353310135658
+        y: 85.83996074618943
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 2
+        flags:
+          - cargo
+          - science
+      - id: 563
+        name: Brig
+        deckIndex: null
+        x: 167.24088632918594
+        y: 158.46117390834792
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 12
+        flags: []
+      - id: 564
+        name: Holding Cell
+        deckIndex: null
+        x: 199.58002031545965
+        y: 106.83203017587587
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 12
+        flags: []
+      - id: 565
+        name: Biochemistry Lab
+        deckIndex: null
+        x: 225.39459218169566
+        y: 106.26467694804651
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 12
+        flags:
+          - science
+      - id: 566
+        name: Sickbay
+        deckIndex: null
+        x: 199.01266708763026
+        y: 161.8652932753241
+        isRoom: true
+        icon: ""
+        radius: 11
+        volume: 3
+        flags:
+          - cargo
+          - medical
+      - id: 567
+        name: Auxiliary Engineering
+        deckIndex: null
+        x: 224.27504876570768
+        y: 161.32825481957323
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 3
+        flags:
+          - cargo
+          - maintenance
+      - id: 568
+        name: Fuel Distribution Center
+        deckIndex: null
+        x: 307.0934569891239
+        y: 133.49763188385595
+        isRoom: true
+        icon: ""
+        radius: 13
+        volume: 12
+        flags: []
+  - name: Deck 15
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+      15-l61dxmiy2z.svg
+    nodes:
+      - id: 569
+        name: ""
+        deckIndex: null
+        x: 270.9327142915326
+        y: 134.83324671495058
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 570
+        name: ""
+        deckIndex: null
+        x: 250.8139213537903
+        y: 135.12945992328827
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 571
+        name: ""
+        deckIndex: null
+        x: 251.66531244055457
+        y: 112.5675961240354
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 572
+        name: ""
+        deckIndex: null
+        x: 270.9635104072111
+        y: 112.00000206619256
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 573
+        name: ""
+        deckIndex: null
+        x: 251.23961689717243
+        y: 156.27233857793402
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 574
+        name: ""
+        deckIndex: null
+        x: 271.13716895154306
+        y: 156.55613560685546
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 575
+        name: ""
+        deckIndex: null
+        x: 152.7620478614398
+        y: 134.84566289436685
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 576
+        name: ""
+        deckIndex: null
+        x: 151.48496123129343
+        y: 88.87054420909686
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 577
+        name: ""
+        deckIndex: null
+        x: 75.99495153819579
+        y: 88.72864569463616
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 578
+        name: ""
+        deckIndex: null
+        x: 152.05255528913625
+        y: 180.11128900733328
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 579
+        name: ""
+        deckIndex: null
+        x: 75.85305302373509
+        y: 180.3950860362547
+        isRoom: false
+        icon: ""
+        radius: 0
+        volume: 12
+        flags: []
+      - id: 580
+        name: Phaser Bank
+        deckIndex: null
+        x: 58.8252312884499
+        y: 192.1726627364936
+        isRoom: true
+        icon: ""
+        radius: 7
+        volume: 12
+        flags: []
+      - id: 581
+        name: Sensors Array
+        deckIndex: null
+        x: 129.6325900043441
+        y: 170.48162485472096
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 5
+        flags:
+          - cargo
+      - id: 582
+        name: Shield Generator
+        deckIndex: null
+        x: 127.50411228743346
+        y: 99.65483130811081
+        isRoom: true
+        icon: ""
+        radius: 8
+        volume: 5
+        flags:
+          - cargo
+      - id: 583
+        name: Cargo Airlock
+        deckIndex: null
+        x: 140.70067413227946
+        y: 134.1361703220633
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 6
+        flags:
+          - cargo
+      - id: 584
+        name: Phaser Bank
+        deckIndex: null
+        x: 56.83865208599997
+        y: 75.95777722797277
+        isRoom: true
+        icon: ""
+        radius: 5
+        volume: 12
+        flags: []
+      - id: 585
+        name: Water Pumping
+        deckIndex: null
+        x: 234.9212877341908
+        y: 148.467920282595
+        isRoom: true
+        icon: ""
+        radius: 10
+        volume: 12
+        flags: []
+      - id: 586
+        name: Recycling Center
+        deckIndex: null
+        x: 235.34698327757292
+        y: 115.54746492771031
+        isRoom: true
+        icon: ""
+        radius: 13
+        volume: 4
+        flags:
+          - cargo
+      - id: 587
+        name: Waste Processing Center
+        deckIndex: null
+        x: 262.5914980540292
+        y: 100.08052685149295
+        isRoom: true
+        icon: ""
+        radius: 9
+        volume: 12
+        flags: []
+      - id: 588
+        name: Shield Generator
+        deckIndex: null
+        x: 302.0148311032615
+        y: 134.03769678433264
+        isRoom: true
+        icon: ""
+        radius: 18
+        volume: 5
+        flags:
+          - cargo
 deckEdges:
   - id: 1
     to: 54
@@ -1520,6 +6593,3582 @@ deckEdges:
   - id: 102
     to: 82
     from: 70
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 103
+    to: 86
+    from: 4
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 104
+    to: 84
+    from: 3
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 105
+    to: 108
+    from: 106
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 106
+    to: 104
+    from: 108
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 107
+    to: 105
+    from: 104
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 108
+    to: 112
+    from: 105
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 109
+    to: 114
+    from: 112
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 110
+    to: 115
+    from: 114
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 111
+    to: 111
+    from: 115
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 112
+    to: 103
+    from: 111
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 113
+    to: 110
+    from: 103
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 114
+    to: 116
+    from: 110
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 115
+    to: 113
+    from: 116
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 116
+    to: 112
+    from: 113
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 117
+    to: 112
+    from: 109
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 118
+    to: 116
+    from: 109
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 119
+    to: 103
+    from: 109
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 120
+    to: 109
+    from: 115
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 121
+    to: 116
+    from: 117
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 122
+    to: 131
+    from: 115
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 123
+    to: 102
+    from: 131
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 124
+    to: 132
+    from: 102
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 125
+    to: 115
+    from: 132
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 126
+    to: 132
+    from: 131
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 127
+    to: 103
+    from: 101
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 128
+    to: 101
+    from: 100
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 129
+    to: 102
+    from: 100
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 130
+    to: 104
+    from: 102
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 135
+    to: 102
+    from: 133
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 136
+    to: 100
+    from: 98
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 137
+    to: 93
+    from: 94
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 138
+    to: 94
+    from: 95
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 139
+    to: 124
+    from: 94
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 140
+    to: 125
+    from: 94
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 141
+    to: 123
+    from: 96
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 142
+    to: 96
+    from: 123
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 143
+    to: 96
+    from: 126
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 144
+    to: 95
+    from: 96
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 145
+    to: 96
+    from: 92
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 146
+    to: 106
+    from: 91
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 147
+    to: 107
+    from: 106
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 151
+    to: 92
+    from: 91
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 152
+    to: 119
+    from: 92
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 155
+    to: 97
+    from: 92
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 156
+    to: 98
+    from: 97
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 157
+    to: 98
+    from: 99
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 158
+    to: 81
+    from: 109
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 159
+    to: 50
+    from: 119
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 160
+    to: 47
+    from: 50
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 161
+    to: 135
+    from: 134
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 162
+    to: 136
+    from: 135
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 163
+    to: 136
+    from: 145
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 164
+    to: 137
+    from: 136
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 165
+    to: 162
+    from: 137
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 167
+    to: 143
+    from: 158
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 168
+    to: 143
+    from: 141
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 169
+    to: 142
+    from: 143
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 170
+    to: 135
+    from: 142
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 171
+    to: 134
+    from: 160
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 172
+    to: 161
+    from: 136
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 173
+    to: 163
+    from: 137
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 174
+    to: 144
+    from: 163
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 175
+    to: 144
+    from: 164
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 176
+    to: 137
+    from: 138
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 177
+    to: 139
+    from: 138
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 178
+    to: 140
+    from: 139
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 179
+    to: 159
+    from: 140
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 180
+    to: 139
+    from: 141
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 181
+    to: 146
+    from: 138
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 182
+    to: 144
+    from: 146
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 183
+    to: 144
+    from: 145
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 184
+    to: 147
+    from: 146
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 185
+    to: 148
+    from: 147
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 186
+    to: 149
+    from: 148
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 187
+    to: 156
+    from: 149
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 188
+    to: 157
+    from: 156
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 189
+    to: 145
+    from: 157
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 190
+    to: 153
+    from: 149
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 191
+    to: 152
+    from: 149
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 192
+    to: 165
+    from: 152
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 193
+    to: 150
+    from: 152
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 194
+    to: 148
+    from: 150
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 195
+    to: 151
+    from: 148
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 196
+    to: 153
+    from: 151
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 197
+    to: 155
+    from: 153
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 198
+    to: 156
+    from: 155
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 199
+    to: 154
+    from: 156
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 200
+    to: 154
+    from: 152
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 201
+    to: 109
+    from: 149
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 202
+    to: 188
+    from: 190
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 203
+    to: 184
+    from: 188
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 204
+    to: 185
+    from: 184
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 205
+    to: 186
+    from: 185
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 206
+    to: 187
+    from: 186
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 207
+    to: 189
+    from: 187
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 208
+    to: 191
+    from: 189
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 209
+    to: 190
+    from: 191
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 210
+    to: 213
+    from: 184
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 211
+    to: 190
+    from: 183
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 212
+    to: 184
+    from: 183
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 213
+    to: 186
+    from: 183
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 214
+    to: 189
+    from: 183
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 215
+    to: 211
+    from: 189
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 216
+    to: 181
+    from: 186
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 217
+    to: 182
+    from: 190
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 218
+    to: 212
+    from: 211
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 219
+    to: 211
+    from: 178
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 220
+    to: 177
+    from: 178
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 221
+    to: 176
+    from: 177
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 222
+    to: 193
+    from: 176
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 223
+    to: 192
+    from: 193
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 224
+    to: 194
+    from: 192
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 225
+    to: 180
+    from: 192
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 226
+    to: 179
+    from: 180
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 227
+    to: 178
+    from: 179
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 228
+    to: 179
+    from: 181
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 229
+    to: 182
+    from: 176
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 230
+    to: 167
+    from: 193
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 231
+    to: 175
+    from: 167
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 232
+    to: 166
+    from: 175
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 233
+    to: 210
+    from: 166
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 234
+    to: 207
+    from: 166
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 235
+    to: 208
+    from: 175
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 236
+    to: 209
+    from: 175
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 237
+    to: 168
+    from: 167
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 238
+    to: 169
+    from: 168
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 239
+    to: 195
+    from: 169
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 240
+    to: 201
+    from: 169
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 241
+    to: 170
+    from: 201
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 242
+    to: 202
+    from: 170
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 243
+    to: 203
+    from: 202
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 244
+    to: 204
+    from: 202
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 245
+    to: 205
+    from: 170
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 246
+    to: 200
+    from: 201
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 247
+    to: 171
+    from: 169
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 248
+    to: 172
+    from: 171
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 249
+    to: 174
+    from: 172
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 250
+    to: 198
+    from: 174
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 251
+    to: 199
+    from: 174
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 252
+    to: 206
+    from: 201
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 253
+    to: 196
+    from: 173
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 254
+    to: 197
+    from: 173
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 255
+    to: 173
+    from: 174
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 256
+    to: 172
+    from: 173
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 257
+    to: 172
+    from: 180
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 258
+    to: 226
+    from: 271
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 259
+    to: 227
+    from: 226
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 260
+    to: 215
+    from: 227
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 261
+    to: 230
+    from: 215
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 262
+    to: 229
+    from: 230
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 263
+    to: 228
+    from: 229
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 264
+    to: 228
+    from: 224
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 265
+    to: 225
+    from: 224
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 266
+    to: 226
+    from: 225
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 267
+    to: 214
+    from: 226
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 268
+    to: 214
+    from: 215
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 269
+    to: 229
+    from: 214
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 270
+    to: 214
+    from: 224
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 271
+    to: 231
+    from: 229
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 272
+    to: 216
+    from: 215
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 273
+    to: 216
+    from: 233
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 274
+    to: 233
+    from: 216
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 275
+    to: 249
+    from: 233
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 276
+    to: 233
+    from: 232
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 277
+    to: 250
+    from: 232
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 278
+    to: 217
+    from: 232
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 279
+    to: 218
+    from: 217
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 280
+    to: 234
+    from: 217
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 281
+    to: 253
+    from: 218
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 282
+    to: 219
+    from: 218
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 283
+    to: 254
+    from: 253
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 284
+    to: 219
+    from: 220
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 285
+    to: 221
+    from: 220
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 286
+    to: 221
+    from: 251
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 287
+    to: 221
+    from: 222
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 288
+    to: 252
+    from: 222
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 289
+    to: 223
+    from: 222
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 290
+    to: 223
+    from: 224
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 291
+    to: 237
+    from: 220
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 292
+    to: 259
+    from: 237
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 293
+    to: 238
+    from: 237
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 294
+    to: 260
+    from: 238
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 295
+    to: 239
+    from: 238
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 296
+    to: 261
+    from: 239
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 297
+    to: 240
+    from: 239
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 298
+    to: 241
+    from: 240
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 300
+    to: 248
+    from: 264
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 301
+    to: 248
+    from: 241
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 302
+    to: 247
+    from: 248
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 303
+    to: 247
+    from: 265
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 304
+    to: 246
+    from: 247
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 305
+    to: 270
+    from: 246
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 306
+    to: 269
+    from: 270
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 307
+    to: 268
+    from: 270
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 308
+    to: 270
+    from: 268
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 309
+    to: 270
+    from: 245
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 310
+    to: 267
+    from: 270
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 311
+    to: 263
+    from: 244
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 312
+    to: 245
+    from: 244
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 313
+    to: 262
+    from: 243
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 314
+    to: 243
+    from: 262
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 315
+    to: 243
+    from: 244
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 316
+    to: 272
+    from: 243
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 317
+    to: 273
+    from: 272
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 318
+    to: 236
+    from: 273
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 319
+    to: 258
+    from: 236
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 320
+    to: 236
+    from: 235
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 321
+    to: 257
+    from: 235
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 322
+    to: 234
+    from: 235
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 323
+    to: 256
+    from: 234
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 324
+    to: 242
+    from: 241
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 325
+    to: 266
+    from: 242
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 326
+    to: 272
+    from: 242
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 327
+    to: 255
+    from: 242
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 328
+    to: 183
+    from: 214
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 329
+    to: 149
+    from: 183
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 330
+    to: 298
+    from: 299
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 331
+    to: 325
+    from: 298
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 332
+    to: 326
+    from: 325
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 333
+    to: 321
+    from: 294
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 334
+    to: 321
+    from: 323
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 335
+    to: 326
+    from: 323
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 336
+    to: 326
+    from: 324
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 337
+    to: 322
+    from: 324
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 338
+    to: 303
+    from: 322
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 339
+    to: 301
+    from: 298
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 340
+    to: 302
+    from: 301
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 341
+    to: 302
+    from: 300
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 342
+    to: 284
+    from: 300
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 343
+    to: 296
+    from: 284
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 344
+    to: 296
+    from: 295
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 345
+    to: 297
+    from: 295
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 346
+    to: 298
+    from: 297
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 347
+    to: 295
+    from: 299
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 348
+    to: 299
+    from: 302
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 349
+    to: 299
+    from: 284
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 350
+    to: 327
+    from: 284
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 351
+    to: 319
+    from: 327
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 352
+    to: 320
+    from: 327
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 353
+    to: 327
+    from: 283
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 354
+    to: 285
+    from: 283
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 355
+    to: 282
+    from: 283
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 356
+    to: 316
+    from: 283
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 357
+    to: 295
+    from: 294
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 358
+    to: 303
+    from: 302
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 359
+    to: 285
+    from: 303
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 360
+    to: 294
+    from: 282
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 361
+    to: 286
+    from: 285
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 362
+    to: 313
+    from: 286
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 363
+    to: 286
+    from: 287
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 364
+    to: 312
+    from: 287
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 365
+    to: 288
+    from: 287
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 366
+    to: 311
+    from: 288
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 367
+    to: 289
+    from: 288
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 368
+    to: 290
+    from: 289
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 369
+    to: 292
+    from: 290
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 370
+    to: 310
+    from: 292
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 371
+    to: 293
+    from: 292
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 373
+    to: 293
+    from: 309
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 374
+    to: 293
+    from: 318
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 375
+    to: 317
+    from: 318
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 376
+    to: 274
+    from: 317
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 377
+    to: 314
+    from: 291
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 378
+    to: 290
+    from: 291
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 379
+    to: 291
+    from: 290
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 380
+    to: 291
+    from: 315
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 381
+    to: 277
+    from: 291
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 382
+    to: 277
+    from: 276
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 383
+    to: 275
+    from: 276
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 384
+    to: 274
+    from: 275
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 385
+    to: 308
+    from: 275
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 386
+    to: 307
+    from: 276
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 387
+    to: 278
+    from: 277
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 388
+    to: 306
+    from: 279
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 389
+    to: 278
+    from: 279
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 390
+    to: 280
+    from: 279
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 391
+    to: 280
+    from: 305
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 392
+    to: 280
+    from: 281
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 393
+    to: 304
+    from: 281
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 394
+    to: 282
+    from: 281
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 395
+    to: 214
+    from: 299
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 396
+    to: 348
+    from: 366
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 397
+    to: 350
+    from: 348
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 398
+    to: 351
+    from: 350
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 399
+    to: 349
+    from: 351
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 400
+    to: 347
+    from: 349
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 401
+    to: 345
+    from: 347
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 402
+    to: 346
+    from: 344
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 403
+    to: 348
+    from: 346
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 404
+    to: 352
+    from: 348
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 405
+    to: 344
+    from: 352
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 406
+    to: 351
+    from: 352
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 407
+    to: 347
+    from: 352
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 408
+    to: 344
+    from: 345
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 409
+    to: 343
+    from: 344
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 410
+    to: 342
+    from: 351
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 411
+    to: 365
+    from: 339
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 412
+    to: 341
+    from: 339
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 413
+    to: 342
+    from: 341
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 414
+    to: 338
+    from: 343
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 415
+    to: 338
+    from: 339
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 416
+    to: 339
+    from: 340
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 417
+    to: 362
+    from: 340
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 418
+    to: 363
+    from: 340
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 419
+    to: 364
+    from: 340
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 420
+    to: 333
+    from: 341
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 421
+    to: 334
+    from: 333
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 422
+    to: 360
+    from: 334
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 423
+    to: 359
+    from: 334
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 424
+    to: 332
+    from: 333
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 425
+    to: 331
+    from: 332
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 426
+    to: 362
+    from: 361
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 427
+    to: 329
+    from: 331
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 428
+    to: 329
+    from: 330
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 429
+    to: 353
+    from: 330
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 430
+    to: 329
+    from: 328
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 431
+    to: 354
+    from: 328
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 432
+    to: 356
+    from: 328
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 433
+    to: 355
+    from: 332
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 434
+    to: 335
+    from: 331
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 435
+    to: 336
+    from: 335
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 436
+    to: 337
+    from: 336
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 437
+    to: 358
+    from: 337
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 438
+    to: 357
+    from: 337
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 439
+    to: 299
+    from: 352
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 440
+    to: 367
+    from: 361
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 441
+    to: 392
+    from: 368
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 442
+    to: 392
+    from: 403
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 443
+    to: 373
+    from: 392
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 444
+    to: 394
+    from: 372
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 445
+    to: 373
+    from: 372
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 446
+    to: 393
+    from: 372
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 447
+    to: 369
+    from: 393
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 448
+    to: 368
+    from: 369
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 449
+    to: 369
+    from: 395
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 450
+    to: 370
+    from: 369
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 451
+    to: 371
+    from: 370
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 452
+    to: 372
+    from: 371
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 453
+    to: 371
+    from: 374
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 454
+    to: 375
+    from: 374
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 455
+    to: 377
+    from: 375
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 456
+    to: 378
+    from: 377
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 457
+    to: 398
+    from: 378
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 458
+    to: 380
+    from: 398
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 459
+    to: 397
+    from: 398
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 460
+    to: 396
+    from: 377
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 461
+    to: 367
+    from: 378
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 462
+    to: 379
+    from: 378
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 463
+    to: 399
+    from: 379
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 464
+    to: 381
+    from: 370
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 465
+    to: 380
+    from: 381
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 466
+    to: 382
+    from: 380
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 467
+    to: 385
+    from: 382
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 468
+    to: 375
+    from: 376
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 469
+    to: 384
+    from: 376
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 470
+    to: 400
+    from: 376
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 471
+    to: 390
+    from: 384
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 472
+    to: 389
+    from: 390
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 473
+    to: 386
+    from: 389
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 474
+    to: 385
+    from: 386
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 475
+    to: 387
+    from: 385
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 476
+    to: 388
+    from: 387
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 477
+    to: 391
+    from: 388
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 478
+    to: 384
+    from: 391
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 479
+    to: 401
+    from: 389
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 480
+    to: 402
+    from: 401
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 481
+    to: 383
+    from: 389
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 482
+    to: 384
+    from: 383
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 483
+    to: 385
+    from: 383
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 484
+    to: 383
+    from: 388
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 485
+    to: 352
+    from: 383
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 486
+    to: 444
+    from: 443
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 487
+    to: 443
+    from: 417
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 488
+    to: 404
+    from: 442
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 489
+    to: 404
+    from: 417
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 490
+    to: 409
+    from: 439
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 491
+    to: 409
+    from: 445
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 492
+    to: 404
+    from: 409
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 493
+    to: 438
+    from: 445
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 494
+    to: 437
+    from: 445
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 495
+    to: 446
+    from: 445
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 496
+    to: 446
+    from: 435
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 497
+    to: 436
+    from: 446
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 498
+    to: 415
+    from: 446
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 499
+    to: 415
+    from: 447
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 500
+    to: 433
+    from: 447
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 501
+    to: 434
+    from: 447
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 502
+    to: 448
+    from: 447
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 503
+    to: 431
+    from: 448
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 504
+    to: 432
+    from: 448
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 505
+    to: 415
+    from: 417
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 506
+    to: 417
+    from: 405
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 507
+    to: 406
+    from: 405
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 508
+    to: 441
+    from: 405
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 509
+    to: 448
+    from: 406
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 510
+    to: 406
+    from: 448
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 511
+    to: 430
+    from: 413
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 512
+    to: 414
+    from: 413
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 513
+    to: 428
+    from: 414
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 514
+    to: 407
+    from: 414
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 515
+    to: 406
+    from: 407
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 516
+    to: 412
+    from: 413
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 517
+    to: 412
+    from: 410
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 518
+    to: 410
+    from: 409
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 519
+    to: 411
+    from: 410
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 520
+    to: 426
+    from: 411
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 521
+    to: 418
+    from: 413
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 522
+    to: 429
+    from: 412
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 523
+    to: 420
+    from: 427
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 524
+    to: 422
+    from: 420
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 525
+    to: 421
+    from: 422
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 526
+    to: 408
+    from: 421
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 527
+    to: 423
+    from: 421
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 528
+    to: 418
+    from: 423
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 529
+    to: 425
+    from: 418
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 530
+    to: 426
+    from: 425
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 531
+    to: 424
+    from: 426
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 532
+    to: 420
+    from: 424
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 533
+    to: 419
+    from: 420
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 534
+    to: 419
+    from: 418
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 535
+    to: 419
+    from: 426
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 536
+    to: 421
+    from: 419
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 537
+    to: 407
+    from: 408
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 538
+    to: 440
+    from: 406
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 539
+    to: 450
+    from: 444
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 540
+    to: 455
+    from: 450
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 541
+    to: 454
+    from: 455
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 542
+    to: 453
+    from: 454
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 543
+    to: 477
+    from: 453
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 544
+    to: 476
+    from: 453
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 545
+    to: 479
+    from: 452
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 546
+    to: 452
+    from: 478
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 547
+    to: 453
+    from: 452
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 548
+    to: 452
+    from: 451
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 549
+    to: 451
+    from: 452
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 550
+    to: 451
+    from: 450
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 551
+    to: 458
+    from: 481
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 552
+    to: 451
+    from: 458
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 553
+    to: 480
+    from: 458
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 554
+    to: 457
+    from: 483
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 555
+    to: 482
+    from: 457
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 556
+    to: 458
+    from: 457
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 557
+    to: 456
+    from: 457
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 558
+    to: 456
+    from: 449
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 559
+    to: 449
+    from: 456
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 560
+    to: 449
+    from: 450
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 561
+    to: 484
+    from: 456
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 562
+    to: 456
+    from: 484
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 563
+    to: 459
+    from: 456
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 564
+    to: 460
+    from: 459
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 565
+    to: 461
+    from: 460
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 566
+    to: 475
+    from: 461
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 567
+    to: 462
+    from: 461
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 568
+    to: 463
+    from: 462
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 569
+    to: 454
+    from: 463
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 570
+    to: 464
+    from: 463
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 571
+    to: 470
+    from: 464
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 572
+    to: 485
+    from: 462
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 573
+    to: 486
+    from: 460
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 574
+    to: 471
+    from: 459
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 575
+    to: 472
+    from: 471
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 576
+    to: 474
+    from: 472
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 577
+    to: 461
+    from: 466
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 578
+    to: 474
+    from: 466
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 579
+    to: 466
+    from: 474
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 580
+    to: 469
+    from: 466
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 581
+    to: 470
+    from: 469
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 582
+    to: 468
+    from: 470
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 583
+    to: 467
+    from: 468
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 584
+    to: 473
+    from: 467
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 585
+    to: 472
+    from: 473
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 586
+    to: 472
+    from: 465
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 587
+    to: 470
+    from: 465
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 588
+    to: 467
+    from: 465
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 589
+    to: 466
+    from: 465
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 590
+    to: 487
+    from: 467
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 591
+    to: 419
+    from: 465
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 592
+    to: 488
+    from: 520
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 593
+    to: 519
+    from: 490
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 594
+    to: 488
+    from: 490
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 595
+    to: 489
+    from: 488
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 596
+    to: 488
+    from: 489
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 597
+    to: 492
+    from: 489
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 598
+    to: 493
+    from: 492
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 599
+    to: 497
+    from: 493
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 600
+    to: 517
+    from: 497
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 601
+    to: 516
+    from: 497
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 602
+    to: 518
+    from: 493
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 603
+    to: 491
+    from: 490
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 604
+    to: 494
+    from: 491
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 605
+    to: 494
+    from: 493
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 606
+    to: 494
+    from: 495
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 607
+    to: 496
+    from: 495
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 608
+    to: 497
+    from: 496
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 609
+    to: 496
+    from: 498
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 610
+    to: 498
+    from: 492
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 611
+    to: 504
+    from: 498
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 612
+    to: 499
+    from: 496
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 613
+    to: 503
+    from: 514
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 614
+    to: 503
+    from: 495
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 615
+    to: 503
+    from: 502
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 616
+    to: 501
+    from: 502
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 617
+    to: 507
+    from: 501
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 618
+    to: 499
+    from: 507
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 619
+    to: 509
+    from: 499
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 620
+    to: 500
+    from: 509
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 621
+    to: 500
+    from: 508
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 622
+    to: 505
+    from: 508
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 623
+    to: 506
+    from: 505
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 624
+    to: 501
+    from: 506
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 625
+    to: 513
+    from: 501
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 626
+    to: 505
+    from: 513
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 627
+    to: 499
+    from: 513
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 628
+    to: 500
+    from: 513
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 629
+    to: 500
+    from: 521
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 630
+    to: 521
+    from: 504
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 631
+    to: 515
+    from: 504
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 632
+    to: 512
+    from: 508
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 633
+    to: 510
+    from: 505
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 634
+    to: 511
+    from: 506
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 635
+    to: 534
+    from: 535
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 636
+    to: 522
+    from: 531
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 637
+    to: 523
+    from: 522
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 638
+    to: 524
+    from: 523
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 639
+    to: 525
+    from: 524
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 640
+    to: 525
+    from: 526
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 641
+    to: 530
+    from: 531
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 642
+    to: 530
+    from: 529
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 643
+    to: 528
+    from: 529
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 644
+    to: 527
+    from: 528
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 645
+    to: 526
+    from: 527
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 646
+    to: 532
+    from: 527
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 647
+    to: 533
+    from: 532
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 648
+    to: 465
+    from: 513
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 649
+    to: 536
+    from: 513
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 650
+    to: 550
+    from: 548
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 651
+    to: 550
+    from: 552
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 652
+    to: 551
+    from: 552
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 653
+    to: 547
+    from: 551
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 654
+    to: 546
+    from: 547
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 655
+    to: 545
+    from: 546
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 656
+    to: 549
+    from: 545
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 657
+    to: 548
+    from: 549
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 658
+    to: 536
+    from: 548
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 659
+    to: 545
+    from: 536
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 660
+    to: 547
+    from: 536
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 661
+    to: 552
+    from: 536
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 662
+    to: 568
+    from: 552
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 663
+    to: 544
+    from: 545
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 664
+    to: 553
+    from: 544
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 665
+    to: 565
+    from: 553
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 666
+    to: 543
+    from: 544
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 667
+    to: 567
+    from: 543
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 668
+    to: 566
+    from: 542
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 669
+    to: 543
+    from: 542
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 670
+    to: 553
+    from: 543
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 671
+    to: 553
+    from: 554
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 672
+    to: 564
+    from: 554
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 673
+    to: 555
+    from: 554
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 674
+    to: 556
+    from: 555
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 675
+    to: 557
+    from: 562
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 676
+    to: 556
+    from: 557
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 677
+    to: 561
+    from: 557
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 678
+    to: 535
+    from: 557
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 679
+    to: 537
+    from: 535
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 680
+    to: 559
+    from: 535
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 681
+    to: 558
+    from: 535
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 682
+    to: 560
+    from: 535
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 683
+    to: 538
+    from: 537
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 684
+    to: 539
+    from: 538
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 685
+    to: 563
+    from: 539
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 686
+    to: 561
+    from: 537
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 687
+    to: 540
+    from: 539
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 688
+    to: 541
+    from: 540
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 689
+    to: 542
+    from: 541
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 690
+    to: 569
+    from: 588
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 691
+    to: 572
+    from: 569
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 692
+    to: 587
+    from: 572
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 693
+    to: 571
+    from: 572
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 694
+    to: 570
+    from: 571
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 695
+    to: 573
+    from: 570
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 696
+    to: 574
+    from: 573
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 697
+    to: 585
+    from: 573
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 698
+    to: 586
+    from: 571
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 699
+    to: 574
+    from: 569
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 700
+    to: 575
+    from: 570
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 701
+    to: 583
+    from: 575
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 702
+    to: 582
+    from: 576
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 703
+    to: 581
+    from: 578
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 704
+    to: 575
+    from: 578
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 705
+    to: 576
+    from: 575
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 706
+    to: 576
+    from: 577
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 707
+    to: 584
+    from: 577
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 708
+    to: 578
+    from: 579
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 709
+    to: 580
+    from: 579
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 710
+    to: 536
+    from: 569
     weight: 1
     isOpen: true
     flags: []

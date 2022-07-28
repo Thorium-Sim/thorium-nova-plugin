@@ -5,10 +5,10 @@ plural: Network Adapters
 description: Equipment which translates computer signals between two interfaces.
 volume: 0.0005
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 76
+abundance: 1
 flags:
   repair: {}
 tags: []

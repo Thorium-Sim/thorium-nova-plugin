@@ -5,10 +5,10 @@ plural: Phaser Bank Elements
 description: Converts electrical energy into a beam of leptons.
 volume: 0.075
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 9
+abundance: 1
 flags:
   sparePart: {}
 tags: []

@@ -5,10 +5,10 @@ plural: Probe Video Cameras
 description: A Video Camera can take still or moving pictures.
 volume: 0.002
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 47
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

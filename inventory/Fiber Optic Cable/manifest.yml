@@ -5,10 +5,10 @@ plural: Fiber Optic Cables
 description: Transmits packets of light to send information quickly across the cable.
 volume: 0.00009999999999999999
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 500
+abundance: 1
 flags:
   repair: {}
 tags: []

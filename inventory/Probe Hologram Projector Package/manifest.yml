@@ -5,10 +5,10 @@ plural: Probe Hologram Projector Packages
 description: A Hologram Projector Package makes the probe look like a ship.
 volume: 0.01
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 5
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

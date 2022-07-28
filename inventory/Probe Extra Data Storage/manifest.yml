@@ -2,15 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Probe Extra Data Storage
 plural: Probe Extra Data Storage Units
-description: >-
-  Increases the amount of on-board data storage, allowing the probe to store
-  more data.
+description: Increases the amount of on-board data storage, allowing the probe
+  to store more data.
 volume: 0.004
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 61
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

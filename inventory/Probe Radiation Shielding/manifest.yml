@@ -5,10 +5,10 @@ plural: Probe Radiation Shielding
 description: Protects the probe from moderate levels of radiation.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 16
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

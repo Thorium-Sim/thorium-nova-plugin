@@ -5,10 +5,10 @@ plural: Sonic Debilitators
 description: Releases a loud sound which debilitates most humanoids with ears.
 volume: 0.00015
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 8
+abundance: 1
 flags:
   security: {}
 tags: []

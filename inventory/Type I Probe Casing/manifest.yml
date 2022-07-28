@@ -2,15 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Type I Probe Casing
 plural: Type I Probe Casings
-description: >-
-  The smallest probe; can only hold 4 units of equipment. Use for probe networks
-  and general purposes.
+description: The smallest probe; can only hold 4 units of equipment. Use for
+  probe networks and general purposes.
 volume: 0.09999999999999999
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 30
+abundance: 1
 flags:
   probeCasing: {}
 tags: []

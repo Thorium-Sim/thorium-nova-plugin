@@ -2,15 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Duritanium Plating
 plural: Duritanium Plating
-description: >-
-  Exceptionally strong material. Every atom is under compression, which makes it
-  resistant to impacts. Necessary for external hull repairs.
+description: Exceptionally strong material. Every atom is under compression,
+  which makes it resistant to impacts. Necessary for external hull repairs.
 volume: 0.01
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 40
+abundance: 1
 flags:
   repair: {}
 tags: []

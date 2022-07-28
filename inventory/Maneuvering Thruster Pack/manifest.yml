@@ -2,13 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Maneuvering Thruster Pack
 plural: Maneuvering Thruster Packs
-description: ' Several thruster units of different yields for turning and propelling the ship.'
+description: " Several thruster units of different yields for turning and
+  propelling the ship."
 volume: 0.44999999999999996
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 4
+abundance: 1
 flags:
   sparePart: {}
 tags: []

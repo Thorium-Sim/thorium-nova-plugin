@@ -5,10 +5,10 @@ plural: Custodial Kits
 description: Supplies for cleaning up messes of all varieties.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 15
+abundance: 1
 flags:
   repair: {}
 tags: []

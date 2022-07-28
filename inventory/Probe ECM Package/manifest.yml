@@ -5,10 +5,10 @@ plural: Probe ECM Packages
 description: An ECM (Electronic Counter Measures) Package is used to jam electronics.
 volume: 0.008
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 26
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

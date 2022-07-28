@@ -5,10 +5,10 @@ plural: Hydro Spanner
 description: Uses hydraulic fluid to secure objects together. Must be used with bolts.
 volume: 0.000049999999999999996
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 45
+abundance: 1
 flags:
   repair: {}
 tags: []

@@ -2,15 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Probe Sample Retrieval Package
 plural: Probe Sample Retrieval Packages
-description: >-
-  A Sample Retrieval Package lets the probe get something and return it to the
-  ship.
+description: A Sample Retrieval Package lets the probe get something and return
+  it to the ship.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 22
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

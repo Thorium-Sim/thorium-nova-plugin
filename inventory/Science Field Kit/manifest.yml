@@ -2,15 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Science Field Kit
 plural: Science Field Kits
-description: >-
-  A miniaturized science lab for doing scientific research away from the ship,
-  including vessels for collecting samples.
+description: A miniaturized science lab for doing scientific research away from
+  the ship, including vessels for collecting samples.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 15
+abundance: 1
 flags:
   science: {}
 tags: []

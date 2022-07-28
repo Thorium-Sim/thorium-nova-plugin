@@ -5,10 +5,10 @@ plural: Probe Communications Signal Boosters
 description: A Communications Signal Booster gives the probe's radio more range.
 volume: 0.004
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 38
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

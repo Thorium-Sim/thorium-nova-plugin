@@ -5,10 +5,10 @@ plural: Plasma Cutters
 description: Uses powerful arcs of energy to cut through most materials.
 volume: 0.004
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 6
+abundance: 1
 flags:
   repair: {}
 tags: []

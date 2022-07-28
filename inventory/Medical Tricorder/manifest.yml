@@ -2,15 +2,13 @@ apiVersion: inventory/v1
 kind: inventory
 name: Medical Tricorder
 plural: Medical Tricorders
-description: >-
-  Devices capable of detecting anatomical abnormalities in most humanoid
-  species.
+description: Devices capable of detecting anatomical abnormalities in most humanoid species.
 volume: 0.00007
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 18
+abundance: 1
 flags:
   medical: {}
 tags: []

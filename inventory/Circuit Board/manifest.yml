@@ -5,10 +5,10 @@ plural: Circuit Boards
 description: Can be printed with the necessary circuit connections.
 volume: 0.000049999999999999996
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 75
+abundance: 1
 flags:
   repair: {}
 tags: []

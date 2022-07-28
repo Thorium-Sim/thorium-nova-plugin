@@ -5,10 +5,10 @@ plural: Bolts
 description: Used to join two objects together.
 volume: 0.00009
 assets:
-  image: null
+  ? image
 continuous: true
 durability: 1
-abundance: 10
+abundance: 1
 flags:
   repair: {}
 tags: []

@@ -5,10 +5,10 @@ plural: Pulse Phaser Rifle
 description: A more powerful, more accurate, handheld phaser weapon.
 volume: 0.00015
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 10
+abundance: 1
 flags:
   security: {}
 tags: []

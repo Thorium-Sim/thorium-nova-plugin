@@ -5,10 +5,10 @@ plural: Wiring Kits
 description: Supplies needed for replacing broken wires and cables.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 15
+abundance: 1
 flags:
   repair: {}
 tags: []

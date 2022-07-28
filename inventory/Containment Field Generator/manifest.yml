@@ -5,10 +5,10 @@ plural: Containment Field Generators
 description: Creates a low-powered force field which will contain most humanoid lifeforms.
 volume: 0.008
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 9
+abundance: 1
 flags:
   security: {}
 tags: []

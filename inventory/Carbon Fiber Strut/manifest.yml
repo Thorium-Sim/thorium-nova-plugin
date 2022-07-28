@@ -5,10 +5,10 @@ plural: Carbon Fiber Struts
 description: Carefully crafted load-bearing pylons. Used for repairing structural damage.
 volume: 0.003
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 8
+abundance: 1
 flags:
   repair: {}
 tags: []

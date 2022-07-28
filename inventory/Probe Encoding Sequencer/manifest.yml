@@ -5,10 +5,10 @@ plural: Probe Encoding Sequencers
 description: Encodes and encrypts signals, making them more secure.
 volume: 0.004
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 25
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

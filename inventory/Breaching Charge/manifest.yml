@@ -5,10 +5,10 @@ plural: Breaching Charges
 description: Specialized charges which can burst through the strongest of materials.
 volume: 0.000049999999999999996
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 4
+abundance: 1
 flags:
   security: {}
 tags: []

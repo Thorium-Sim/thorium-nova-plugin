@@ -2,15 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Laser Drill
 plural: Laser Drills
-description: >-
-  Uses lasers to slowly drill through solid objects. Use for high-precision
-  holes.
+description: Uses lasers to slowly drill through solid objects. Use for
+  high-precision holes.
 volume: 0.0003
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 23
+abundance: 1
 flags:
   repair: {}
 tags: []

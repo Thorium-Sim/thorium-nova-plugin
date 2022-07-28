@@ -5,10 +5,10 @@ plural: Probe Magnetic Emitters
 description: A Magnetic Emitter allows the probe to interact with magnetic particles.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 8
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

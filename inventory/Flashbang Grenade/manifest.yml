@@ -5,10 +5,10 @@ plural: Flashbang Grenades
 description: Releases a burst of light which disorients anyone who witnesses it.
 volume: 0.000019999999999999998
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 120
+abundance: 1
 flags:
   security: {}
 tags: []

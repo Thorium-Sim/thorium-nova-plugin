@@ -5,10 +5,10 @@ plural: Isolinear Rods
 description: Rods which contain instructions and data. Can be overwritten with new data.
 volume: 0.000019999999999999998
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 600
+abundance: 1
 flags:
   repair: {}
 tags: []

@@ -5,10 +5,10 @@ plural: Probe Helium Emitters
 description: A Helium Emitter allows the probe to interact with helium particles.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 8
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

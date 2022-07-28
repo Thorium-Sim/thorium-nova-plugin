@@ -2,12 +2,11 @@ apiVersion: inventory/v1
 kind: inventory
 name: Stealth Facilitator
 plural: Stealth Facilitators
-description: >-
-  A mysterious device which can cause an entire ship to become mostly invisible
-  on sensors.
+description: A mysterious device which can cause an entire ship to become mostly
+  invisible on sensors.
 volume: 0.6
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
 abundance: 1

@@ -2,15 +2,14 @@ apiVersion: inventory/v1
 kind: inventory
 name: Sensor Array
 plural: Sensor Arrays
-description: >-
-  Powerful equipment that works together to detect objects and particles in
-  space.
+description: Powerful equipment that works together to detect objects and
+  particles in space.
 volume: 2
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 2
+abundance: 1
 flags:
   sparePart: {}
 tags: []

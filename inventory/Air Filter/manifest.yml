@@ -5,10 +5,10 @@ plural: Air Filters
 description: Removes contaminants from the air.
 volume: 0.0095
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 119
+abundance: 1
 flags:
   sparePart: {}
 tags: []

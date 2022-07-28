@@ -5,10 +5,10 @@ plural: Repair Supply Kits
 description: General supplies commonly used during many repairs.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 15
+abundance: 1
 flags:
   repair: {}
 tags: []

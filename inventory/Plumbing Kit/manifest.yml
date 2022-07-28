@@ -5,10 +5,10 @@ plural: Plumbing Kit
 description: Supplies for repairing, maintaining, and improving plumbing systems.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 15
+abundance: 1
 flags:
   repair: {}
 tags: []

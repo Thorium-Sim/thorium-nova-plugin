@@ -5,10 +5,10 @@ plural: Phaser Coils
 description: Uses electromagnetic fields to focus a beam from a phaser bank.
 volume: 0.049999999999999996
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 7
+abundance: 1
 flags:
   sparePart: {}
 tags: []

@@ -5,10 +5,10 @@ plural: Diagnostic Tools
 description: Used for troubleshooting system failures.
 volume: 0.001
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 6
+abundance: 1
 flags:
   repair: {}
 tags: []

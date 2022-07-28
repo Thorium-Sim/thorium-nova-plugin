@@ -5,10 +5,10 @@ plural: Probe Subspace Encounter Packages
 description: A Subspace Encounter Package allows the probe to research subspace.
 volume: 0.01
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 6
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

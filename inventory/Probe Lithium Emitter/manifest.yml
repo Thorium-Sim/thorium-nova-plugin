@@ -5,10 +5,10 @@ plural: Probe Lithium Emitters
 description: A Lithium Emitter allows the probe to interact with lithium particles.
 volume: 0.006
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 10
+abundance: 1
 flags:
   probeEquipment: {}
 tags: []

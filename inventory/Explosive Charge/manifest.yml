@@ -5,10 +5,10 @@ plural: Explosive Charges
 description: Powerful explosives which can be remotely detonated or used with a timer.
 volume: 0.00011999999999999999
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 90
+abundance: 1
 flags:
   security: {}
 tags: []

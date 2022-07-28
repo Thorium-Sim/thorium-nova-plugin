@@ -5,10 +5,10 @@ plural: Protective Glasses
 description: Glasses made from a durable polymer that is resistant to reasonable impacts.
 volume: 0.00015
 assets:
-  image: null
+  ? image
 continuous: false
 durability: 1
-abundance: 80
+abundance: 1
 flags:
   repair: {}
 tags: []
