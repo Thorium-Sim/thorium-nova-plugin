@@ -1,0 +1,12 @@
+name: Thrusters
+apiVersion: shipSystems/v1
+kind: shipSystems
+type: thrusters
+description: Basic thrusters for thrusting the ship in a certain direction.
+tags: []
+assets:
+  soundEffects: []
+directionMaxSpeed: 1
+directionThrust: 437500000000
+rotationMaxSpeed: 5
+rotationThrust: 437500000000

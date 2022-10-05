@@ -278,6 +278,22 @@
   opacity: 0;
   transform: translateX(100%);
 }
+
+// Viewscreen
+&.viewscreen {
+  .card-area {
+    inset: 0px !important;
+    width:100%;
+    height:100%;
+  }
+  .card-frame-login-name, .card-frame-login-profile, .card-frame-card-name, .card-switcher-holder, .widgets {
+    display:none;
+  }
+  .card-frame {
+    background: black;
+  }
+}
+
 // Buttons
 .button-variant(@incomingBackground) {
   @background: lighten(desaturate(@incomingBackground, 20%), 10%);

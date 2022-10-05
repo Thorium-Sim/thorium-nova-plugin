@@ -1,0 +1,84 @@
+name: Sol
+position:
+  x: -9064.700049608247
+  y: 17325.8553968817
+  z: 55242.37552487501
+apiVersion: solarSystem/v1
+kind: solarSystems
+assets: {}
+description: A solar system named Sol
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Random Key
+stars:
+  - name: Sol A
+    description: ""
+    tags: []
+    solarMass: 1.31402
+    age: 6686969520.18435
+    spectralType: G
+    hue: 52.32494
+    isWhite: false
+    radius: 1.01448
+    temperature: 5567.00778
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 0
+      orbitalArc: 41.513883183031204
+      showOrbit: false
+      parentId: Sol
+planets:
+  - name: Earth
+    description: ""
+    tags: []
+    isPlanet:
+      age: 7409271211.72022
+      classification: M
+      radius: 6446.91301
+      terranMass: 1.38826
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Terrestrial2.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/default/rings/rings3.png
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 184520873
+      orbitalArc: 194.285154000049
+      showOrbit: true
+      parentId: Sol
+    population: 7713541106.94464
+    temperature: 297.95614
+  - name: Mars
+    description: ""
+    tags: []
+    isPlanet:
+      age: 6685321809.42561
+      classification: L
+      radius: 6078.80465
+      terranMass: 0.75639
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/default/clouds/Clouds1.png
+      ringMapAsset: null
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: -5
+      semiMajorAxis: 253928407
+      orbitalArc: 194
+      showOrbit: true
+      parentId: Sol
+    population: 3328.46145
+    temperature: 270.973

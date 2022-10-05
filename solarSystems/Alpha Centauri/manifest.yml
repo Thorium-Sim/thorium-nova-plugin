@@ -56,3 +56,31 @@ planets:
       parentId: Alpha Centauri
     population: 4571757137.59504
     temperature: 301.5044
+  - name: Alpha Centauri II
+    description: ""
+    tags: []
+    isPlanet:
+      age: 4912364220.39899
+      classification: I
+      radius: 2117103.33106
+      terranMass: 696.73074
+      isHabitable: true
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/default/planets/2k_jupiter.jpg
+      cloudMapAsset: /plugins/Thorium
+        Default/assets/default/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 2703899383
+      orbitalArc: 318.49802093127335
+      showOrbit: true
+      parentId: Alpha Centauri
+    population: 0
+    temperature: 307.32178

@@ -5,19 +5,24 @@ hasShipMap: false
 stations:
   - name: Pilot
     description: A single player position that controls all aspects of the ship.
-    logo: Pilot.svg
+    logo: /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot.svg
     cards:
       - name: Pilot
         component: Pilot
-        icon: Pilot Card.svg
+        icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot Card.svg
       - name: Navigation
         component: Navigation
-        icon: Pilot Card.svg
+        icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Navigation.svg
+      - name: Cargo Control
+        component: CargoControl
+        icon: /plugins/Thorium Default/StationComplements/1
+          Small/assets/CargoControl.svg
       - name: Officers Log
         component: OfficersLog
-        icon: Pilot Card.svg
+        icon: /plugins/Thorium Default/StationComplements/1 Small/assets/OfficersLog.svg
 assets:
-  Pilot-logo: Pilot.svg
-  Pilot-Pilot-icon: Pilot Card.svg
-  Pilot-Navigation-icon: Pilot Card.svg
-  Pilot-Officers Log-icon: Pilot Card.svg
+  Pilot-logo: /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot.svg
+  Pilot-Pilot-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot Card.svg
+  Pilot-Navigation-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Navigation.svg
+  Pilot-Cargo Control-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/CargoControl.svg
+  Pilot-Officers Log-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/OfficersLog.svg

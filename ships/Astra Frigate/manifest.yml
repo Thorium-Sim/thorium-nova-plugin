@@ -19,10 +19,17 @@ length: 350
 shipSystems:
   - systemId: Class IV Impulse Engines
     pluginId: Thorium Default
+    overrides:
+      thrust: 437500000000
   - systemId: Inertial Dampeners
     pluginId: Thorium Default
   - systemId: Warp Engines
     pluginId: Thorium Default
+  - systemId: Thrusters
+    pluginId: Thorium Default
+    overrides:
+      directionThrust: 437500000000
+      rotationThrust: 437500000000
 theme:
   themeId: Default
   pluginId: Thorium Default
@@ -31,7 +38,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       1-l0bp2ara0g.svg
     nodes:
-      - id: 1
+      - contents: {}
+        id: 1
         name: Crew Quarters
         deckIndex: null
         x: 202.14047100785461
@@ -42,7 +50,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 2
+      - contents: {}
+        id: 2
         name: Crew Quarters
         deckIndex: null
         x: 152.6419837877669
@@ -53,7 +62,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 3
+      - contents: {}
+        id: 3
         name: Secondary Fuel Tank
         deckIndex: null
         x: 123.7135878739563
@@ -65,7 +75,8 @@ decks:
         flags:
           - fuelStorage
           - cargo
-      - id: 4
+      - contents: {}
+        id: 4
         name: Main Fuel Tank
         deckIndex: null
         x: 123.53994530267113
@@ -77,7 +88,8 @@ decks:
         flags:
           - cargo
           - fuelStorage
-      - id: 5
+      - contents: {}
+        id: 5
         name: Emergency Batteries
         deckIndex: null
         x: 142.72301084112632
@@ -87,7 +99,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 6
+      - contents: {}
+        id: 6
         name: Crew Quarters
         deckIndex: null
         x: 169.28179176668962
@@ -98,7 +111,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 7
+      - contents: {}
+        id: 7
         name: Crew Quarters
         deckIndex: null
         x: 150.56438720261735
@@ -109,7 +123,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 8
+      - contents: {}
+        id: 8
         name: Crew Quarters
         deckIndex: null
         x: 202.2915045991456
@@ -120,7 +135,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 9
+      - contents: {}
+        id: 9
         name: Crew Quarters
         deckIndex: null
         x: 186.55177553426006
@@ -131,7 +147,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 10
+      - contents: {}
+        id: 10
         name: Crew Quarters
         deckIndex: null
         x: 168.596587054707
@@ -142,7 +159,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 11
+      - contents: {}
+        id: 11
         name: Turbolift
         deckIndex: null
         x: 273.0764683314732
@@ -152,7 +170,8 @@ decks:
         radius: 13
         volume: 12
         flags: []
-      - id: 12
+      - contents: {}
+        id: 12
         name: ""
         deckIndex: null
         x: 1283.352294921875
@@ -162,7 +181,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 13
+      - contents: {}
+        id: 13
         name: Crew Quarters
         deckIndex: null
         x: 185.311946215622
@@ -173,7 +193,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 14
+      - contents: {}
+        id: 14
         name: Emergency Batteries
         deckIndex: null
         x: 143.05294443011573
@@ -183,7 +204,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 15
+      - contents: {}
+        id: 15
         name: ""
         deckIndex: null
         x: 214.91442115178992
@@ -193,7 +215,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 16
+      - contents: {}
+        id: 16
         name: Memorial Room
         deckIndex: null
         x: 189.52933021785344
@@ -203,7 +226,8 @@ decks:
         radius: 13
         volume: 12
         flags: []
-      - id: 17
+      - contents: {}
+        id: 17
         name: Memorial Room
         deckIndex: null
         x: 162.6715373384657
@@ -213,7 +237,8 @@ decks:
         radius: 10
         volume: 12
         flags: []
-      - id: 18
+      - contents: {}
+        id: 18
         name: Laser Cannon Power Generator
         deckIndex: null
         x: 220.61509038352526
@@ -223,7 +248,8 @@ decks:
         radius: 8
         volume: 12
         flags: []
-      - id: 19
+      - contents: {}
+        id: 19
         name: Laser Cannon Control Room
         deckIndex: null
         x: 245.57909446649572
@@ -233,7 +259,8 @@ decks:
         radius: 11
         volume: 12
         flags: []
-      - id: 20
+      - contents: {}
+        id: 20
         name: Gravity Generation Control
         deckIndex: null
         x: 233.90249868639805
@@ -244,7 +271,8 @@ decks:
         volume: 12
         flags:
           - lifeSupport
-      - id: 21
+      - contents: {}
+        id: 21
         name: Observation Deck
         deckIndex: null
         x: 301.5973888831034
@@ -254,7 +282,8 @@ decks:
         radius: 8
         volume: 12
         flags: []
-      - id: 22
+      - contents: {}
+        id: 22
         name: Airlock
         deckIndex: null
         x: 274.8327113700006
@@ -264,7 +293,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 23
+      - contents: {}
+        id: 23
         name: Airlock
         deckIndex: null
         x: 276.7462589845473
@@ -274,7 +304,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 24
+      - contents: {}
+        id: 24
         name: ""
         deckIndex: null
         x: 270.5718393970082
@@ -284,7 +315,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 25
+      - contents: {}
+        id: 25
         name: ""
         deckIndex: null
         x: 281.60938647517384
@@ -294,7 +326,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 26
+      - contents: {}
+        id: 26
         name: ""
         deckIndex: null
         x: 288.41978786382924
@@ -304,7 +337,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 27
+      - contents: {}
+        id: 27
         name: ""
         deckIndex: null
         x: 282.54875218395387
@@ -314,7 +348,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 28
+      - contents: {}
+        id: 28
         name: ""
         deckIndex: null
         x: 270.5718393970082
@@ -324,7 +359,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 29
+      - contents: {}
+        id: 29
         name: ""
         deckIndex: null
         x: 259.76913374603754
@@ -334,7 +370,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 30
+      - contents: {}
+        id: 30
         name: ""
         deckIndex: null
         x: 254.83746377494228
@@ -344,7 +381,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 31
+      - contents: {}
+        id: 31
         name: ""
         deckIndex: null
         x: 258.5585496569375
@@ -354,7 +392,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 32
+      - contents: {}
+        id: 32
         name: ""
         deckIndex: null
         x: 265.4417049518429
@@ -364,7 +403,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 33
+      - contents: {}
+        id: 33
         name: ""
         deckIndex: null
         x: 264.93564514432785
@@ -374,7 +414,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 34
+      - contents: {}
+        id: 34
         name: ""
         deckIndex: null
         x: 202.50441172697208
@@ -384,7 +425,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 35
+      - contents: {}
+        id: 35
         name: ""
         deckIndex: null
         x: 183.05787879433947
@@ -394,7 +436,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 36
+      - contents: {}
+        id: 36
         name: ""
         deckIndex: null
         x: 167.9461357127872
@@ -404,7 +447,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 37
+      - contents: {}
+        id: 37
         name: ""
         deckIndex: null
         x: 152.46710999983503
@@ -414,7 +458,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 38
+      - contents: {}
+        id: 38
         name: ""
         deckIndex: null
         x: 106.88736464208363
@@ -424,7 +469,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 39
+      - contents: {}
+        id: 39
         name: ""
         deckIndex: null
         x: 106.18284036049859
@@ -434,7 +480,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 40
+      - contents: {}
+        id: 40
         name: ""
         deckIndex: null
         x: 142.81810300292074
@@ -444,7 +491,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 41
+      - contents: {}
+        id: 41
         name: ""
         deckIndex: null
         x: 106.18284036049859
@@ -454,7 +502,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 42
+      - contents: {}
+        id: 42
         name: ""
         deckIndex: null
         x: 150.22906847502114
@@ -464,7 +513,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 43
+      - contents: {}
+        id: 43
         name: ""
         deckIndex: null
         x: 168.88550142156726
@@ -474,7 +524,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 44
+      - contents: {}
+        id: 44
         name: ""
         deckIndex: null
         x: 185.0895598980232
@@ -484,7 +535,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 45
+      - contents: {}
+        id: 45
         name: ""
         deckIndex: null
         x: 201.76330122886915
@@ -494,7 +546,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 46
+      - contents: {}
+        id: 46
         name: ""
         deckIndex: null
         x: 220.4274025279082
@@ -504,7 +557,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 47
+      - contents: {}
+        id: 47
         name: Upper Shuttle Flight Deck
         deckIndex: null
         x: 81.72306734780426
@@ -514,7 +568,8 @@ decks:
         radius: 23
         volume: 12
         flags: []
-      - id: 48
+      - contents: {}
+        id: 48
         name: Service Shuttle Airlock
         deckIndex: null
         x: 85.72672110138288
@@ -524,7 +579,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 49
+      - contents: {}
+        id: 49
         name: Shuttle Service Airlock
         deckIndex: null
         x: 86.10926446557879
@@ -534,7 +590,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 84
+      - contents: {}
+        id: 84
         name: Fuel Junction
         deckIndex: null
         x: 139.85546875
@@ -544,7 +601,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 86
+      - contents: {}
+        id: 86
         name: Fuel Junction
         deckIndex: null
         x: 138.35546875
@@ -554,7 +612,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 87
+      - contents: {}
+        id: 87
         name: ""
         deckIndex: null
         x: 139.35546875
@@ -564,7 +623,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 88
+      - contents: {}
+        id: 88
         name: ""
         deckIndex: null
         x: 138.85546875
@@ -578,7 +638,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       2-l0nts6vw3w.svg
     nodes:
-      - id: 50
+      - contents: {}
+        id: 50
         name: Shuttle Flight Deck
         deckIndex: null
         x: 79.84858654240607
@@ -589,7 +650,8 @@ decks:
         volume: 22
         flags:
           - cargo
-      - id: 51
+      - contents: {}
+        id: 51
         name: Medical Center
         deckIndex: null
         x: 231.44805908203125
@@ -601,7 +663,8 @@ decks:
         flags:
           - medical
           - cargo
-      - id: 52
+      - contents: {}
+        id: 52
         name: Fire Suppression Center
         deckIndex: null
         x: 126.83060946529054
@@ -611,7 +674,8 @@ decks:
         radius: 16
         volume: 12
         flags: []
-      - id: 53
+      - contents: {}
+        id: 53
         name: Fire Suppression Center
         deckIndex: null
         x: 176.3033323916499
@@ -621,7 +685,8 @@ decks:
         radius: 17
         volume: 12
         flags: []
-      - id: 54
+      - contents: {}
+        id: 54
         name: Air Filtration System
         deckIndex: null
         x: 124.32489013671875
@@ -633,7 +698,8 @@ decks:
         flags:
           - lifeSupport
           - cargo
-      - id: 55
+      - contents: {}
+        id: 55
         name: Air Filtration System
         deckIndex: null
         x: 125.85546875
@@ -645,7 +711,8 @@ decks:
         flags:
           - lifeSupport
           - cargo
-      - id: 56
+      - contents: {}
+        id: 56
         name: Stellar Cartography
         deckIndex: null
         x: 306.85546875
@@ -655,7 +722,8 @@ decks:
         radius: 11
         volume: 12
         flags: []
-      - id: 57
+      - contents: {}
+        id: 57
         name: Escape Pods
         deckIndex: null
         x: 280.35546875
@@ -665,7 +733,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 58
+      - contents: {}
+        id: 58
         name: Escape Pods
         deckIndex: null
         x: 280.8204345703125
@@ -675,7 +744,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 59
+      - contents: {}
+        id: 59
         name: Shuttle Control Room
         deckIndex: null
         x: 74.58474731445312
@@ -685,7 +755,8 @@ decks:
         radius: 9
         volume: 12
         flags: []
-      - id: 60
+      - contents: {}
+        id: 60
         name: ""
         deckIndex: null
         x: 124.35697654368525
@@ -695,7 +766,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 61
+      - contents: {}
+        id: 61
         name: ""
         deckIndex: null
         x: 106.7269181465469
@@ -705,7 +777,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 62
+      - contents: {}
+        id: 62
         name: ""
         deckIndex: null
         x: 106.68827061058569
@@ -715,7 +788,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 63
+      - contents: {}
+        id: 63
         name: ""
         deckIndex: null
         x: 127.23633036501808
@@ -725,7 +799,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 64
+      - contents: {}
+        id: 64
         name: ""
         deckIndex: null
         x: 176.24619151891295
@@ -735,7 +810,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 65
+      - contents: {}
+        id: 65
         name: ""
         deckIndex: null
         x: 205.59168243408203
@@ -745,7 +821,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 66
+      - contents: {}
+        id: 66
         name: ""
         deckIndex: null
         x: 223.32615661621094
@@ -755,7 +832,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 67
+      - contents: {}
+        id: 67
         name: ""
         deckIndex: null
         x: 107.3278642900129
@@ -765,7 +843,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 68
+      - contents: {}
+        id: 68
         name: ""
         deckIndex: null
         x: 265.92219956547723
@@ -775,7 +854,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 69
+      - contents: {}
+        id: 69
         name: ""
         deckIndex: null
         x: 126.38795851745186
@@ -785,7 +865,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 70
+      - contents: {}
+        id: 70
         name: ""
         deckIndex: null
         x: 222.32745638023448
@@ -795,7 +876,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 71
+      - contents: {}
+        id: 71
         name: ""
         deckIndex: null
         x: 265.85546875
@@ -805,7 +887,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 72
+      - contents: {}
+        id: 72
         name: ""
         deckIndex: null
         x: 295.35546875
@@ -815,7 +898,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 73
+      - contents: {}
+        id: 73
         name: ""
         deckIndex: null
         x: 289.3409693080525
@@ -825,7 +909,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 74
+      - contents: {}
+        id: 74
         name: ""
         deckIndex: null
         x: 283.46457249753234
@@ -835,7 +920,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 75
+      - contents: {}
+        id: 75
         name: ""
         deckIndex: null
         x: 271.35546875
@@ -845,7 +931,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 76
+      - contents: {}
+        id: 76
         name: ""
         deckIndex: null
         x: 261.6537780761719
@@ -855,7 +942,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 77
+      - contents: {}
+        id: 77
         name: ""
         deckIndex: null
         x: 254.74216223572537
@@ -865,7 +953,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 78
+      - contents: {}
+        id: 78
         name: ""
         deckIndex: null
         x: 270.7982567898522
@@ -875,7 +964,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 79
+      - contents: {}
+        id: 79
         name: ""
         deckIndex: null
         x: 260.59049224853516
@@ -885,7 +975,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 80
+      - contents: {}
+        id: 80
         name: ""
         deckIndex: null
         x: 285.8015335079608
@@ -895,7 +986,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 81
+      - contents: {}
+        id: 81
         name: ""
         deckIndex: null
         x: 271.47347067695233
@@ -905,7 +997,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 82
+      - contents: {}
+        id: 82
         name: ""
         deckIndex: null
         x: 209.7963104248047
@@ -915,7 +1008,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 83
+      - contents: {}
+        id: 83
         name: ""
         deckIndex: null
         x: 210.9213104248047
@@ -929,7 +1023,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       3-l61d6ymb0p.svg
     nodes:
-      - id: 91
+      - contents: {}
+        id: 91
         name: ""
         deckIndex: null
         x: 84.5
@@ -939,7 +1034,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 92
+      - contents: {}
+        id: 92
         name: ""
         deckIndex: null
         x: 84.22445871771153
@@ -949,7 +1045,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 93
+      - contents: {}
+        id: 93
         name: ""
         deckIndex: null
         x: 177.5
@@ -959,7 +1056,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 94
+      - contents: {}
+        id: 94
         name: ""
         deckIndex: null
         x: 154.2069320490935
@@ -969,7 +1067,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 95
+      - contents: {}
+        id: 95
         name: ""
         deckIndex: null
         x: 120.5
@@ -979,7 +1078,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 96
+      - contents: {}
+        id: 96
         name: ""
         deckIndex: null
         x: 108.92305303909653
@@ -989,7 +1089,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 97
+      - contents: {}
+        id: 97
         name: ""
         deckIndex: null
         x: 83.98089534981622
@@ -999,7 +1100,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 98
+      - contents: {}
+        id: 98
         name: ""
         deckIndex: null
         x: 111
@@ -1009,7 +1111,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 99
+      - contents: {}
+        id: 99
         name: Weapons Locker
         deckIndex: null
         x: 110.24668145503675
@@ -1021,7 +1124,8 @@ decks:
         flags:
           - cargo
           - security
-      - id: 100
+      - contents: {}
+        id: 100
         name: ""
         deckIndex: null
         x: 211.14285714285714
@@ -1031,7 +1135,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 101
+      - contents: {}
+        id: 101
         name: ""
         deckIndex: null
         x: 266.2857142857143
@@ -1041,7 +1146,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 102
+      - contents: {}
+        id: 102
         name: ""
         deckIndex: null
         x: 226.98680483871328
@@ -1051,7 +1157,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 103
+      - contents: {}
+        id: 103
         name: ""
         deckIndex: null
         x: 271.42857142857144
@@ -1061,7 +1168,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 104
+      - contents: {}
+        id: 104
         name: ""
         deckIndex: null
         x: 211.05405097722584
@@ -1071,7 +1179,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 105
+      - contents: {}
+        id: 105
         name: ""
         deckIndex: null
         x: 265.7142857142857
@@ -1081,7 +1190,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 106
+      - contents: {}
+        id: 106
         name: ""
         deckIndex: null
         x: 110
@@ -1091,7 +1201,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 107
+      - contents: {}
+        id: 107
         name: Weapons Locker
         deckIndex: null
         x: 110.39372907512299
@@ -1103,7 +1214,8 @@ decks:
         flags:
           - cargo
           - security
-      - id: 108
+      - contents: {}
+        id: 108
         name: ""
         deckIndex: null
         x: 149.14285714285714
@@ -1113,7 +1225,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 109
+      - contents: {}
+        id: 109
         name: Turbolift
         deckIndex: null
         x: 272
@@ -1123,7 +1236,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 110
+      - contents: {}
+        id: 110
         name: ""
         deckIndex: null
         x: 282.14897794997864
@@ -1133,7 +1247,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 111
+      - contents: {}
+        id: 111
         name: ""
         deckIndex: null
         x: 258.058827055496
@@ -1143,7 +1258,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 112
+      - contents: {}
+        id: 112
         name: ""
         deckIndex: null
         x: 271.08559000730605
@@ -1153,7 +1269,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 113
+      - contents: {}
+        id: 113
         name: ""
         deckIndex: null
         x: 284.4311687403049
@@ -1163,7 +1280,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 114
+      - contents: {}
+        id: 114
         name: ""
         deckIndex: null
         x: 260.5895552924629
@@ -1173,7 +1291,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 115
+      - contents: {}
+        id: 115
         name: ""
         deckIndex: null
         x: 254.03826724768027
@@ -1183,7 +1302,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 116
+      - contents: {}
+        id: 116
         name: ""
         deckIndex: null
         x: 289.8648818118125
@@ -1193,7 +1313,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 117
+      - contents: {}
+        id: 117
         name: Upper Bow Sensors
         deckIndex: null
         x: 301.2146840049407
@@ -1203,7 +1324,8 @@ decks:
         radius: 9
         volume: 12
         flags: []
-      - id: 119
+      - contents: {}
+        id: 119
         name: Shuttle Hangar
         deckIndex: null
         x: 59.23001727620581
@@ -1214,7 +1336,8 @@ decks:
         volume: 10
         flags:
           - cargo
-      - id: 123
+      - contents: {}
+        id: 123
         name: Auxiliary Computer Core
         deckIndex: null
         x: 109.01290032225576
@@ -1225,7 +1348,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 124
+      - contents: {}
+        id: 124
         name: Upper Shield Control
         deckIndex: null
         x: 154.5
@@ -1236,7 +1360,8 @@ decks:
         volume: 6
         flags:
           - cargo
-      - id: 125
+      - contents: {}
+        id: 125
         name: Vehicle Maintenance Center
         deckIndex: null
         x: 154.9820752206803
@@ -1247,7 +1372,8 @@ decks:
         volume: 3
         flags:
           - cargo
-      - id: 126
+      - contents: {}
+        id: 126
         name: Communications Control Center
         deckIndex: null
         x: 109
@@ -1258,7 +1384,8 @@ decks:
         volume: 6
         flags:
           - cargo
-      - id: 131
+      - contents: {}
+        id: 131
         name: Power Distribution Center
         deckIndex: null
         x: 241
@@ -1268,7 +1395,8 @@ decks:
         radius: 15
         volume: 12
         flags: []
-      - id: 132
+      - contents: {}
+        id: 132
         name: Power Distribution Center
         deckIndex: null
         x: 242
@@ -1278,7 +1406,8 @@ decks:
         radius: 15
         volume: 12
         flags: []
-      - id: 133
+      - contents: {}
+        id: 133
         name: Damage Control Resource Center
         deckIndex: null
         x: 201.54783716095093
@@ -1294,7 +1423,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       4-l61dvxmw2d.svg
     nodes:
-      - id: 134
+      - contents: {}
+        id: 134
         name: ""
         deckIndex: null
         x: 133.89551350746044
@@ -1304,7 +1434,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 135
+      - contents: {}
+        id: 135
         name: ""
         deckIndex: null
         x: 133.13990391795716
@@ -1314,7 +1445,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 136
+      - contents: {}
+        id: 136
         name: ""
         deckIndex: null
         x: 140.39375597718865
@@ -1324,7 +1456,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 137
+      - contents: {}
+        id: 137
         name: ""
         deckIndex: null
         x: 140.81897397931291
@@ -1334,7 +1467,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 138
+      - contents: {}
+        id: 138
         name: ""
         deckIndex: null
         x: 141.49391515739626
@@ -1344,7 +1478,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 139
+      - contents: {}
+        id: 139
         name: ""
         deckIndex: null
         x: 133.74439158955977
@@ -1354,7 +1489,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 140
+      - contents: {}
+        id: 140
         name: ""
         deckIndex: null
         x: 132.83766008215585
@@ -1364,7 +1500,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 141
+      - contents: {}
+        id: 141
         name: ""
         deckIndex: null
         x: 96.11503403229644
@@ -1374,7 +1511,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 142
+      - contents: {}
+        id: 142
         name: ""
         deckIndex: null
         x: 95.66166827859448
@@ -1384,7 +1522,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 143
+      - contents: {}
+        id: 143
         name: ""
         deckIndex: null
         x: 95.96391211439578
@@ -1394,7 +1533,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 144
+      - contents: {}
+        id: 144
         name: ""
         deckIndex: null
         x: 189.50837929490183
@@ -1404,7 +1544,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 145
+      - contents: {}
+        id: 145
         name: ""
         deckIndex: null
         x: 181.19667381036575
@@ -1414,7 +1555,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 146
+      - contents: {}
+        id: 146
         name: ""
         deckIndex: null
         x: 180.13882038506117
@@ -1424,7 +1566,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 147
+      - contents: {}
+        id: 147
         name: ""
         deckIndex: null
         x: 265.7854367176611
@@ -1434,7 +1577,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 148
+      - contents: {}
+        id: 148
         name: ""
         deckIndex: null
         x: 270.9630930433554
@@ -1444,7 +1588,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 149
+      - contents: {}
+        id: 149
         name: ""
         deckIndex: null
         x: 272.47431222236196
@@ -1454,7 +1599,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 150
+      - contents: {}
+        id: 150
         name: ""
         deckIndex: null
         x: 283.3550903112092
@@ -1464,7 +1610,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 151
+      - contents: {}
+        id: 151
         name: ""
         deckIndex: null
         x: 259.47782728290554
@@ -1474,7 +1621,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 152
+      - contents: {}
+        id: 152
         name: ""
         deckIndex: null
         x: 289.0977231914341
@@ -1484,7 +1632,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 153
+      - contents: {}
+        id: 153
         name: ""
         deckIndex: null
         x: 254.0374382384819
@@ -1494,7 +1643,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 154
+      - contents: {}
+        id: 154
         name: ""
         deckIndex: null
         x: 284.4129437365138
@@ -1504,7 +1654,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 155
+      - contents: {}
+        id: 155
         name: ""
         deckIndex: null
         x: 258.2688519397003
@@ -1514,7 +1665,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 156
+      - contents: {}
+        id: 156
         name: ""
         deckIndex: null
         x: 270.81197112545476
@@ -1524,7 +1676,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 157
+      - contents: {}
+        id: 157
         name: ""
         deckIndex: null
         x: 265.97606975263375
@@ -1534,7 +1687,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 158
+      - contents: {}
+        id: 158
         name: Air Pumping Monitoring Station
         deckIndex: null
         x: 75.8764111959458
@@ -1544,7 +1698,8 @@ decks:
         radius: 16
         volume: 12
         flags: []
-      - id: 159
+      - contents: {}
+        id: 159
         name: Air Conditioning Control
         deckIndex: null
         x: 112.28507924766663
@@ -1556,7 +1711,8 @@ decks:
         flags:
           - cargo
           - lifeSupport
-      - id: 160
+      - contents: {}
+        id: 160
         name: Air Filtration Control
         deckIndex: null
         x: 112.32825430313828
@@ -1568,7 +1724,8 @@ decks:
         flags:
           - cargo
           - lifeSupport
-      - id: 161
+      - contents: {}
+        id: 161
         name: Heating Control
         deckIndex: null
         x: 150.0477112209248
@@ -1579,7 +1736,8 @@ decks:
         volume: 3
         flags:
           - cargo
-      - id: 162
+      - contents: {}
+        id: 162
         name: Zoology
         deckIndex: null
         x: 118.81039143816626
@@ -1589,7 +1747,8 @@ decks:
         radius: 17
         volume: 12
         flags: []
-      - id: 163
+      - contents: {}
+        id: 163
         name: Damage Control Center
         deckIndex: null
         x: 163.55247880746953
@@ -1601,7 +1760,8 @@ decks:
         flags:
           - cargo
           - maintenance
-      - id: 164
+      - contents: {}
+        id: 164
         name: Security Information Center
         deckIndex: null
         x: 223.07976019228897
@@ -1613,7 +1773,8 @@ decks:
         flags:
           - cargo
           - security
-      - id: 165
+      - contents: {}
+        id: 165
         name: Mission Lounge
         deckIndex: null
         x: 303.53030829563903
@@ -1627,7 +1788,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       5-l61dw2c810.svg
     nodes:
-      - id: 166
+      - contents: {}
+        id: 166
         name: ""
         deckIndex: null
         x: 117.5
@@ -1637,7 +1799,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 167
+      - contents: {}
+        id: 167
         name: ""
         deckIndex: null
         x: 118
@@ -1647,7 +1810,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 168
+      - contents: {}
+        id: 168
         name: ""
         deckIndex: null
         x: 106.73136154647536
@@ -1657,7 +1821,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 169
+      - contents: {}
+        id: 169
         name: ""
         deckIndex: null
         x: 106.5
@@ -1667,7 +1832,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 170
+      - contents: {}
+        id: 170
         name: ""
         deckIndex: null
         x: 59
@@ -1677,7 +1843,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 171
+      - contents: {}
+        id: 171
         name: ""
         deckIndex: null
         x: 106.5
@@ -1687,7 +1854,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 172
+      - contents: {}
+        id: 172
         name: ""
         deckIndex: null
         x: 117.5
@@ -1697,7 +1865,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 173
+      - contents: {}
+        id: 173
         name: ""
         deckIndex: null
         x: 117.52888651819252
@@ -1707,7 +1876,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 174
+      - contents: {}
+        id: 174
         name: ""
         deckIndex: null
         x: 117
@@ -1717,7 +1887,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 175
+      - contents: {}
+        id: 175
         name: ""
         deckIndex: null
         x: 117.5
@@ -1727,7 +1898,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 176
+      - contents: {}
+        id: 176
         name: ""
         deckIndex: null
         x: 209.41727384023662
@@ -1737,7 +1909,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 177
+      - contents: {}
+        id: 177
         name: ""
         deckIndex: null
         x: 204
@@ -1747,7 +1920,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 178
+      - contents: {}
+        id: 178
         name: ""
         deckIndex: null
         x: 203
@@ -1757,7 +1931,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 179
+      - contents: {}
+        id: 179
         name: ""
         deckIndex: null
         x: 209.5
@@ -1767,7 +1942,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 180
+      - contents: {}
+        id: 180
         name: ""
         deckIndex: null
         x: 177
@@ -1777,7 +1953,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 181
+      - contents: {}
+        id: 181
         name: ""
         deckIndex: null
         x: 265.3722493828269
@@ -1787,7 +1964,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 182
+      - contents: {}
+        id: 182
         name: ""
         deckIndex: null
         x: 265.8189261092552
@@ -1797,7 +1975,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 183
+      - contents: {}
+        id: 183
         name: ""
         deckIndex: null
         x: 272.8049535927738
@@ -1807,7 +1986,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 184
+      - contents: {}
+        id: 184
         name: ""
         deckIndex: null
         x: 289.56654784863605
@@ -1817,7 +1997,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 185
+      - contents: {}
+        id: 185
         name: ""
         deckIndex: null
         x: 285.15450817447675
@@ -1827,7 +2008,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 186
+      - contents: {}
+        id: 186
         name: ""
         deckIndex: null
         x: 271.0359812171671
@@ -1837,7 +2019,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 187
+      - contents: {}
+        id: 187
         name: ""
         deckIndex: null
         x: 260.1161830236229
@@ -1847,7 +2030,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 188
+      - contents: {}
+        id: 188
         name: ""
         deckIndex: null
         x: 284.16179924779095
@@ -1857,7 +2041,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 189
+      - contents: {}
+        id: 189
         name: ""
         deckIndex: null
         x: 253.60842450423797
@@ -1867,7 +2052,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 190
+      - contents: {}
+        id: 190
         name: ""
         deckIndex: null
         x: 270.7050782416051
@@ -1877,7 +2063,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 191
+      - contents: {}
+        id: 191
         name: ""
         deckIndex: null
         x: 258.6822701295211
@@ -1887,7 +2074,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 192
+      - contents: {}
+        id: 192
         name: Kitchen
         deckIndex: null
         x: 176.80584716796875
@@ -1897,7 +2085,8 @@ decks:
         radius: 20
         volume: 12
         flags: []
-      - id: 193
+      - contents: {}
+        id: 193
         name: ""
         deckIndex: null
         x: 166.2713995033083
@@ -1907,7 +2096,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 194
+      - contents: {}
+        id: 194
         name: Refrigeration Units
         deckIndex: null
         x: 188.03383970078931
@@ -1918,7 +2108,8 @@ decks:
         volume: 3
         flags:
           - cargo
-      - id: 195
+      - contents: {}
+        id: 195
         name: Officers Messroom
         deckIndex: null
         x: 134.0529248696809
@@ -1929,7 +2120,8 @@ decks:
         volume: 12
         flags:
           - cafeteria
-      - id: 196
+      - contents: {}
+        id: 196
         name: Officers Quarters
         deckIndex: null
         x: 132.3558910361439
@@ -1940,7 +2132,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 197
+      - contents: {}
+        id: 197
         name: Officers Quarters
         deckIndex: null
         x: 95.30261899552048
@@ -1951,7 +2144,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 198
+      - contents: {}
+        id: 198
         name: Officers Quarters
         deckIndex: null
         x: 102.3972071279233
@@ -1962,7 +2156,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 199
+      - contents: {}
+        id: 199
         name: Officers Quarters
         deckIndex: null
         x: 132.92114922309148
@@ -1973,7 +2168,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 200
+      - contents: {}
+        id: 200
         name: Briefing Room
         deckIndex: null
         x: 78.92194906244923
@@ -1983,7 +2179,8 @@ decks:
         radius: 16
         volume: 12
         flags: []
-      - id: 201
+      - contents: {}
+        id: 201
         name: ""
         deckIndex: null
         x: 91.09204338897213
@@ -1993,7 +2190,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 202
+      - contents: {}
+        id: 202
         name: Upper Aft Sensors
         deckIndex: null
         x: 48.69767936790523
@@ -2004,7 +2202,8 @@ decks:
         volume: 4
         flags:
           - cargo
-      - id: 203
+      - contents: {}
+        id: 203
         name: Phaser Battery
         deckIndex: null
         x: 52.08922848959059
@@ -2015,7 +2214,8 @@ decks:
         volume: 3
         flags:
           - cargo
-      - id: 204
+      - contents: {}
+        id: 204
         name: Phaser Battery
         deckIndex: null
         x: 51.754695322958945
@@ -2026,7 +2226,8 @@ decks:
         volume: 3
         flags:
           - cargo
-      - id: 205
+      - contents: {}
+        id: 205
         name: Officers Quarters
         deckIndex: null
         x: 67.23083911661834
@@ -2037,7 +2238,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 206
+      - contents: {}
+        id: 206
         name: Officers Quarters
         deckIndex: null
         x: 91.08907517004647
@@ -2048,7 +2250,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 207
+      - contents: {}
+        id: 207
         name: Officers Quarters
         deckIndex: null
         x: 94.972974062465
@@ -2059,7 +2262,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 208
+      - contents: {}
+        id: 208
         name: Officers Quarters
         deckIndex: null
         x: 101.76979712419742
@@ -2070,7 +2274,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 209
+      - contents: {}
+        id: 209
         name: Officers Quarters
         deckIndex: null
         x: 133.03349334911658
@@ -2081,7 +2286,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 210
+      - contents: {}
+        id: 210
         name: Officers Quarters
         deckIndex: null
         x: 132.28614556462875
@@ -2092,7 +2298,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 211
+      - contents: {}
+        id: 211
         name: Sickbay
         deckIndex: null
         x: 230.17730755993497
@@ -2104,7 +2311,8 @@ decks:
         flags:
           - medical
           - cargo
-      - id: 212
+      - contents: {}
+        id: 212
         name: Morgue
         deckIndex: null
         x: 236.5749481315052
@@ -2114,7 +2322,8 @@ decks:
         radius: 10
         volume: 12
         flags: []
-      - id: 213
+      - contents: {}
+        id: 213
         name: Cultural Studies Center
         deckIndex: null
         x: 305.17187203778593
@@ -2128,7 +2337,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       6-l61dwah32x.svg
     nodes:
-      - id: 214
+      - contents: {}
+        id: 214
         name: ""
         deckIndex: null
         x: 272
@@ -2138,7 +2348,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 215
+      - contents: {}
+        id: 215
         name: ""
         deckIndex: null
         x: 270.5
@@ -2148,7 +2359,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 216
+      - contents: {}
+        id: 216
         name: ""
         deckIndex: null
         x: 265.3612951266242
@@ -2158,7 +2370,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 217
+      - contents: {}
+        id: 217
         name: ""
         deckIndex: null
         x: 210
@@ -2168,7 +2381,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 218
+      - contents: {}
+        id: 218
         name: ""
         deckIndex: null
         x: 205
@@ -2178,7 +2392,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 219
+      - contents: {}
+        id: 219
         name: ""
         deckIndex: null
         x: 203
@@ -2188,7 +2403,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 220
+      - contents: {}
+        id: 220
         name: ""
         deckIndex: null
         x: 209.5
@@ -2198,7 +2414,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 221
+      - contents: {}
+        id: 221
         name: ""
         deckIndex: null
         x: 225
@@ -2208,7 +2425,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 222
+      - contents: {}
+        id: 222
         name: ""
         deckIndex: null
         x: 246.92854460191944
@@ -2218,7 +2436,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 223
+      - contents: {}
+        id: 223
         name: ""
         deckIndex: null
         x: 265.60072326660156
@@ -2228,7 +2447,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 224
+      - contents: {}
+        id: 224
         name: ""
         deckIndex: null
         x: 270.5
@@ -2238,7 +2458,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 225
+      - contents: {}
+        id: 225
         name: ""
         deckIndex: null
         x: 283
@@ -2248,7 +2469,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 226
+      - contents: {}
+        id: 226
         name: ""
         deckIndex: null
         x: 288.5131697813456
@@ -2258,7 +2480,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 227
+      - contents: {}
+        id: 227
         name: ""
         deckIndex: null
         x: 283
@@ -2268,7 +2491,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 228
+      - contents: {}
+        id: 228
         name: ""
         deckIndex: null
         x: 260.5
@@ -2278,7 +2502,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 229
+      - contents: {}
+        id: 229
         name: ""
         deckIndex: null
         x: 256.16246795654297
@@ -2288,7 +2513,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 230
+      - contents: {}
+        id: 230
         name: ""
         deckIndex: null
         x: 259.5
@@ -2298,7 +2524,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 231
+      - contents: {}
+        id: 231
         name: Mr. Williamson's Quarters
         deckIndex: null
         x: 234
@@ -2308,7 +2535,8 @@ decks:
         radius: 14
         volume: 12
         flags: []
-      - id: 232
+      - contents: {}
+        id: 232
         name: ""
         deckIndex: null
         x: 226
@@ -2318,7 +2546,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 233
+      - contents: {}
+        id: 233
         name: ""
         deckIndex: null
         x: 245.81452239906082
@@ -2328,7 +2557,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 234
+      - contents: {}
+        id: 234
         name: ""
         deckIndex: null
         x: 157
@@ -2338,7 +2568,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 235
+      - contents: {}
+        id: 235
         name: ""
         deckIndex: null
         x: 135
@@ -2348,7 +2579,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 236
+      - contents: {}
+        id: 236
         name: ""
         deckIndex: null
         x: 113.97235981696728
@@ -2358,7 +2590,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 237
+      - contents: {}
+        id: 237
         name: ""
         deckIndex: null
         x: 155.3988506622773
@@ -2368,7 +2601,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 238
+      - contents: {}
+        id: 238
         name: ""
         deckIndex: null
         x: 135.09227019444847
@@ -2378,7 +2612,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 239
+      - contents: {}
+        id: 239
         name: ""
         deckIndex: null
         x: 112.5
@@ -2388,7 +2623,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 240
+      - contents: {}
+        id: 240
         name: ""
         deckIndex: null
         x: 107.04083575404384
@@ -2398,7 +2634,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 241
+      - contents: {}
+        id: 241
         name: ""
         deckIndex: null
         x: 106.90772980555153
@@ -2408,7 +2645,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 242
+      - contents: {}
+        id: 242
         name: ""
         deckIndex: null
         x: 106.5
@@ -2418,7 +2656,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 243
+      - contents: {}
+        id: 243
         name: ""
         deckIndex: null
         x: 90.84892025295106
@@ -2428,7 +2667,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 244
+      - contents: {}
+        id: 244
         name: ""
         deckIndex: null
         x: 70.20882295934291
@@ -2438,7 +2678,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 245
+      - contents: {}
+        id: 245
         name: ""
         deckIndex: null
         x: 46
@@ -2448,7 +2689,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 246
+      - contents: {}
+        id: 246
         name: ""
         deckIndex: null
         x: 47.5
@@ -2458,7 +2700,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 247
+      - contents: {}
+        id: 247
         name: ""
         deckIndex: null
         x: 69.5
@@ -2468,7 +2711,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 248
+      - contents: {}
+        id: 248
         name: ""
         deckIndex: null
         x: 91.15374501850998
@@ -2478,7 +2722,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 249
+      - contents: {}
+        id: 249
         name: Crew Quarters
         deckIndex: null
         x: 246.13244706727158
@@ -2489,7 +2734,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 250
+      - contents: {}
+        id: 250
         name: Crew Quarters
         deckIndex: null
         x: 225.04222214250407
@@ -2500,7 +2746,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 251
+      - contents: {}
+        id: 251
         name: Crew Quarters
         deckIndex: null
         x: 225.60591824066515
@@ -2511,7 +2758,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 252
+      - contents: {}
+        id: 252
         name: Crew Quarters
         deckIndex: null
         x: 247.35335714345192
@@ -2522,7 +2770,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 253
+      - contents: {}
+        id: 253
         name: Kitchen
         deckIndex: null
         x: 175.17049049281025
@@ -2532,7 +2781,8 @@ decks:
         radius: 19
         volume: 12
         flags: []
-      - id: 254
+      - contents: {}
+        id: 254
         name: Food Storage
         deckIndex: null
         x: 188.68412100434017
@@ -2543,7 +2793,8 @@ decks:
         volume: 4
         flags:
           - cargo
-      - id: 255
+      - contents: {}
+        id: 255
         name: Messhall
         deckIndex: null
         x: 132.6990803137161
@@ -2554,7 +2805,8 @@ decks:
         volume: 12
         flags:
           - cafeteria
-      - id: 256
+      - contents: {}
+        id: 256
         name: Crew Quarters
         deckIndex: null
         x: 156.35547479734862
@@ -2565,7 +2817,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 257
+      - contents: {}
+        id: 257
         name: Crew Quarters
         deckIndex: null
         x: 135.59485828047255
@@ -2576,7 +2829,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 258
+      - contents: {}
+        id: 258
         name: Crew Quarters
         deckIndex: null
         x: 114.0374000835081
@@ -2587,7 +2841,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 259
+      - contents: {}
+        id: 259
         name: Crew Quarters
         deckIndex: null
         x: 155.86530404776747
@@ -2598,7 +2853,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 260
+      - contents: {}
+        id: 260
         name: Crew Quarters
         deckIndex: null
         x: 134.9513520656378
@@ -2609,7 +2865,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 261
+      - contents: {}
+        id: 261
         name: Crew Quarters
         deckIndex: null
         x: 113.07214076125597
@@ -2620,7 +2877,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 262
+      - contents: {}
+        id: 262
         name: Crew Quarters
         deckIndex: null
         x: 91.51468256429153
@@ -2631,7 +2889,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 263
+      - contents: {}
+        id: 263
         name: Crew Quarters
         deckIndex: null
         x: 70.74948932708686
@@ -2642,7 +2901,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 264
+      - contents: {}
+        id: 264
         name: Crew Quarters
         deckIndex: null
         x: 91.95185132054762
@@ -2653,7 +2913,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 265
+      - contents: {}
+        id: 265
         name: Crew Quarters
         deckIndex: null
         x: 70.45501207717768
@@ -2664,7 +2925,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 266
+      - contents: {}
+        id: 266
         name: Laundry
         deckIndex: null
         x: 91.48878296931105
@@ -2674,7 +2936,8 @@ decks:
         radius: 12
         volume: 12
         flags: []
-      - id: 267
+      - contents: {}
+        id: 267
         name: Torpedo Casing Storage
         deckIndex: null
         x: 68.5198707282131
@@ -2686,7 +2949,8 @@ decks:
         flags:
           - torpedoStorage
           - cargo
-      - id: 268
+      - contents: {}
+        id: 268
         name: Aft Torpedo Launcher
         deckIndex: null
         x: 33.13641425271123
@@ -2696,7 +2960,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 269
+      - contents: {}
+        id: 269
         name: Aft Torpedo Launcher
         deckIndex: null
         x: 30.82677246928703
@@ -2706,7 +2971,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 270
+      - contents: {}
+        id: 270
         name: Torpedo/Probe Maintenance
         deckIndex: null
         x: 47.36223698612493
@@ -2716,7 +2982,8 @@ decks:
         radius: 12
         volume: 12
         flags: []
-      - id: 271
+      - contents: {}
+        id: 271
         name: Gymnasium
         deckIndex: null
         x: 311.5922405596428
@@ -2726,7 +2993,8 @@ decks:
         radius: 22
         volume: 12
         flags: []
-      - id: 272
+      - contents: {}
+        id: 272
         name: ""
         deckIndex: null
         x: 106.14566605542689
@@ -2736,7 +3004,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 273
+      - contents: {}
+        id: 273
         name: ""
         deckIndex: null
         x: 105.9256864467334
@@ -2750,7 +3019,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       7-l61dwd525t.svg
     nodes:
-      - id: 274
+      - contents: {}
+        id: 274
         name: ""
         deckIndex: null
         x: 46.44657644396052
@@ -2760,7 +3030,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 275
+      - contents: {}
+        id: 275
         name: ""
         deckIndex: null
         x: 70.20361717594676
@@ -2770,7 +3041,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 276
+      - contents: {}
+        id: 276
         name: ""
         deckIndex: null
         x: 92.9277430934988
@@ -2780,7 +3052,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 277
+      - contents: {}
+        id: 277
         name: ""
         deckIndex: null
         x: 107.01352357592576
@@ -2790,7 +3063,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 278
+      - contents: {}
+        id: 278
         name: ""
         deckIndex: null
         x: 107.01352357592576
@@ -2800,7 +3074,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 279
+      - contents: {}
+        id: 279
         name: ""
         deckIndex: null
         x: 113.0509299851764
@@ -2810,7 +3085,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 280
+      - contents: {}
+        id: 280
         name: ""
         deckIndex: null
         x: 135.20390619997534
@@ -2820,7 +3096,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 281
+      - contents: {}
+        id: 281
         name: ""
         deckIndex: null
         x: 155.12167359997343
@@ -2830,7 +3107,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 282
+      - contents: {}
+        id: 282
         name: ""
         deckIndex: null
         x: 210.6800319389958
@@ -2840,7 +3118,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 283
+      - contents: {}
+        id: 283
         name: ""
         deckIndex: null
         x: 203.44962823795652
@@ -2850,7 +3129,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 284
+      - contents: {}
+        id: 284
         name: ""
         deckIndex: null
         x: 256.45833244575823
@@ -2860,7 +3140,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 285
+      - contents: {}
+        id: 285
         name: ""
         deckIndex: null
         x: 208.95850724827216
@@ -2870,7 +3151,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 286
+      - contents: {}
+        id: 286
         name: ""
         deckIndex: null
         x: 154.94736365838708
@@ -2880,7 +3162,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 287
+      - contents: {}
+        id: 287
         name: ""
         deckIndex: null
         x: 134.5886406090109
@@ -2890,7 +3173,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 288
+      - contents: {}
+        id: 288
         name: ""
         deckIndex: null
         x: 113.58603938218249
@@ -2900,7 +3184,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 289
+      - contents: {}
+        id: 289
         name: ""
         deckIndex: null
         x: 105.92401355600958
@@ -2910,7 +3195,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 290
+      - contents: {}
+        id: 290
         name: ""
         deckIndex: null
         x: 105.97464492180457
@@ -2920,7 +3206,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 291
+      - contents: {}
+        id: 291
         name: ""
         deckIndex: null
         x: 106.69994061928793
@@ -2930,7 +3217,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 292
+      - contents: {}
+        id: 292
         name: ""
         deckIndex: null
         x: 91.75006932906423
@@ -2940,7 +3228,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 293
+      - contents: {}
+        id: 293
         name: ""
         deckIndex: null
         x: 70.29144154528171
@@ -2950,7 +3239,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 294
+      - contents: {}
+        id: 294
         name: ""
         deckIndex: null
         x: 265.08021216586286
@@ -2960,7 +3250,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 295
+      - contents: {}
+        id: 295
         name: ""
         deckIndex: null
         x: 269.900481299889
@@ -2970,7 +3261,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 296
+      - contents: {}
+        id: 296
         name: ""
         deckIndex: null
         x: 260.25994303183666
@@ -2980,7 +3272,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 297
+      - contents: {}
+        id: 297
         name: ""
         deckIndex: null
         x: 283.67267882567813
@@ -2990,7 +3283,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 298
+      - contents: {}
+        id: 298
         name: ""
         deckIndex: null
         x: 289.52586277413855
@@ -3000,7 +3294,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 299
+      - contents: {}
+        id: 299
         name: ""
         deckIndex: null
         x: 271.52022755211004
@@ -3010,7 +3305,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 300
+      - contents: {}
+        id: 300
         name: ""
         deckIndex: null
         x: 260.9485529081261
@@ -3020,7 +3316,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 301
+      - contents: {}
+        id: 301
         name: ""
         deckIndex: null
         x: 284.0169837638229
@@ -3030,7 +3327,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 302
+      - contents: {}
+        id: 302
         name: ""
         deckIndex: null
         x: 271.004148550963
@@ -3040,7 +3338,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 303
+      - contents: {}
+        id: 303
         name: ""
         deckIndex: null
         x: 265.08021216586286
@@ -3050,7 +3349,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 304
+      - contents: {}
+        id: 304
         name: Crew Quarters
         deckIndex: null
         x: 155.59124183583933
@@ -3061,7 +3361,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 305
+      - contents: {}
+        id: 305
         name: Crew Quarters
         deckIndex: null
         x: 135.27725048530036
@@ -3072,7 +3373,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 306
+      - contents: {}
+        id: 306
         name: Crew Quarters
         deckIndex: null
         x: 113.93034432032722
@@ -3083,7 +3385,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 307
+      - contents: {}
+        id: 307
         name: Crew Quarters
         deckIndex: null
         x: 92.9277430934988
@@ -3094,7 +3397,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 308
+      - contents: {}
+        id: 308
         name: Crew Quarters
         deckIndex: null
         x: 71.9251418666704
@@ -3105,7 +3409,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 309
+      - contents: {}
+        id: 309
         name: Crew Quarters
         deckIndex: null
         x: 70.22080626224418
@@ -3116,7 +3421,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 310
+      - contents: {}
+        id: 310
         name: Crew Quarters
         deckIndex: null
         x: 91.77494519390936
@@ -3127,7 +3433,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 311
+      - contents: {}
+        id: 311
         name: Crew Quarters
         deckIndex: null
         x: 113.93034432032722
@@ -3138,7 +3445,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 312
+      - contents: {}
+        id: 312
         name: Crew Quarters
         deckIndex: null
         x: 134.65078678659364
@@ -3148,7 +3456,8 @@ decks:
         radius: 8
         volume: 12
         flags: []
-      - id: 313
+      - contents: {}
+        id: 313
         name: Crew Quarters
         deckIndex: null
         x: 155.0672747251888
@@ -3159,7 +3468,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 314
+      - contents: {}
+        id: 314
         name: Crew Quarters
         deckIndex: null
         x: 81.56568013472278
@@ -3170,7 +3480,8 @@ decks:
         volume: 10
         flags:
           - cargo
-      - id: 315
+      - contents: {}
+        id: 315
         name: Geology Lab
         deckIndex: null
         x: 134
@@ -3181,7 +3492,8 @@ decks:
         volume: 12
         flags:
           - science
-      - id: 316
+      - contents: {}
+        id: 316
         name: Theater
         deckIndex: null
         x: 178.09332275390625
@@ -3192,7 +3504,8 @@ decks:
         volume: 12
         flags:
           - recreation
-      - id: 317
+      - contents: {}
+        id: 317
         name: Maintenance Airlock
         deckIndex: null
         x: 43.61162102350218
@@ -3202,7 +3515,8 @@ decks:
         radius: 12
         volume: 12
         flags: []
-      - id: 318
+      - contents: {}
+        id: 318
         name: ""
         deckIndex: null
         x: 47.5
@@ -3212,7 +3526,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 319
+      - contents: {}
+        id: 319
         name: Flight Simulation Center
         deckIndex: null
         x: 231.271240234375
@@ -3223,7 +3538,8 @@ decks:
         volume: 12
         flags:
           - recreation
-      - id: 320
+      - contents: {}
+        id: 320
         name: Security Training Center
         deckIndex: null
         x: 235
@@ -3234,7 +3550,8 @@ decks:
         volume: 12
         flags:
           - recreation
-      - id: 321
+      - contents: {}
+        id: 321
         name: Bow Phaser Banks
         deckIndex: null
         x: 299.52087410831183
@@ -3244,7 +3561,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 322
+      - contents: {}
+        id: 322
         name: Bow Phaser Banks
         deckIndex: null
         x: 301
@@ -3254,7 +3572,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 323
+      - contents: {}
+        id: 323
         name: Bow Torpedo Launcher
         deckIndex: null
         x: 313
@@ -3264,7 +3583,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 324
+      - contents: {}
+        id: 324
         name: Bow Torpedo Launcher
         deckIndex: null
         x: 313
@@ -3274,7 +3594,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 325
+      - contents: {}
+        id: 325
         name: Swimming Pool
         deckIndex: null
         x: 304.5
@@ -3285,7 +3606,8 @@ decks:
         volume: 12
         flags:
           - recreation
-      - id: 326
+      - contents: {}
+        id: 326
         name: Navigational Deflector Array
         deckIndex: null
         x: 323.97912589168817
@@ -3295,7 +3617,8 @@ decks:
         radius: 11
         volume: 12
         flags: []
-      - id: 327
+      - contents: {}
+        id: 327
         name: ""
         deckIndex: null
         x: 231.20993968007133
@@ -3309,7 +3632,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       8-l61dwjwr0o.svg
     nodes:
-      - id: 328
+      - contents: {}
+        id: 328
         name: ""
         deckIndex: null
         x: 54.151454263977854
@@ -3319,7 +3643,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 329
+      - contents: {}
+        id: 329
         name: ""
         deckIndex: null
         x: 53.78635893586309
@@ -3329,7 +3654,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 330
+      - contents: {}
+        id: 330
         name: ""
         deckIndex: null
         x: 53.96890659992047
@@ -3339,7 +3665,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 331
+      - contents: {}
+        id: 331
         name: ""
         deckIndex: null
         x: 107.82046749684703
@@ -3349,7 +3676,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 332
+      - contents: {}
+        id: 332
         name: ""
         deckIndex: null
         x: 106.54263384844538
@@ -3359,7 +3687,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 333
+      - contents: {}
+        id: 333
         name: ""
         deckIndex: null
         x: 126.4403292306996
@@ -3369,7 +3698,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 334
+      - contents: {}
+        id: 334
         name: ""
         deckIndex: null
         x: 126.25778156664222
@@ -3379,7 +3709,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 335
+      - contents: {}
+        id: 335
         name: ""
         deckIndex: null
         x: 106.36008618438801
@@ -3389,7 +3720,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 336
+      - contents: {}
+        id: 336
         name: ""
         deckIndex: null
         x: 126.85900861596825
@@ -3399,7 +3731,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 337
+      - contents: {}
+        id: 337
         name: ""
         deckIndex: null
         x: 126.18174419001676
@@ -3409,7 +3742,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 338
+      - contents: {}
+        id: 338
         name: ""
         deckIndex: null
         x: 211.14244535332307
@@ -3419,7 +3753,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 339
+      - contents: {}
+        id: 339
         name: ""
         deckIndex: null
         x: 224.46842482951166
@@ -3429,7 +3764,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 340
+      - contents: {}
+        id: 340
         name: ""
         deckIndex: null
         x: 191.6192696851305
@@ -3439,7 +3775,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 341
+      - contents: {}
+        id: 341
         name: ""
         deckIndex: null
         x: 209.86461170492143
@@ -3449,7 +3786,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 342
+      - contents: {}
+        id: 342
         name: ""
         deckIndex: null
         x: 265.90674457053655
@@ -3459,7 +3797,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 343
+      - contents: {}
+        id: 343
         name: ""
         deckIndex: null
         x: 266.08929223459387
@@ -3469,7 +3808,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 344
+      - contents: {}
+        id: 344
         name: ""
         deckIndex: null
         x: 271.0180791641431
@@ -3479,7 +3819,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 345
+      - contents: {}
+        id: 345
         name: ""
         deckIndex: null
         x: 261.69248709154925
@@ -3489,7 +3830,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 346
+      - contents: {}
+        id: 346
         name: ""
         deckIndex: null
         x: 279.7803670388973
@@ -3499,7 +3841,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 347
+      - contents: {}
+        id: 347
         name: ""
         deckIndex: null
         x: 254.95388472709382
@@ -3509,7 +3852,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 348
+      - contents: {}
+        id: 348
         name: ""
         deckIndex: null
         x: 289.13381986595857
@@ -3519,7 +3863,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 349
+      - contents: {}
+        id: 349
         name: ""
         deckIndex: null
         x: 259.3350286644709
@@ -3529,7 +3874,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 350
+      - contents: {}
+        id: 350
         name: ""
         deckIndex: null
         x: 283.97896331221693
@@ -3539,7 +3885,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 351
+      - contents: {}
+        id: 351
         name: ""
         deckIndex: null
         x: 270.8355315000857
@@ -3549,7 +3896,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 352
+      - contents: {}
+        id: 352
         name: ""
         deckIndex: null
         x: 272.4449681500545
@@ -3559,7 +3907,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 353
+      - contents: {}
+        id: 353
         name: Impulse Engines
         deckIndex: null
         x: 42.28585610024827
@@ -3569,7 +3918,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 354
+      - contents: {}
+        id: 354
         name: Impulse Engines
         deckIndex: null
         x: 43.38114208459254
@@ -3579,7 +3929,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 355
+      - contents: {}
+        id: 355
         name: Warp Engine Control
         deckIndex: null
         x: 78.97793657578129
@@ -3590,7 +3941,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 356
+      - contents: {}
+        id: 356
         name: Impulse Engine Control
         deckIndex: null
         x: 77.83730336287783
@@ -3601,7 +3953,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 357
+      - contents: {}
+        id: 357
         name: Warp Engines
         deckIndex: null
         x: 114.57473106697002
@@ -3611,7 +3964,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 358
+      - contents: {}
+        id: 358
         name: Thrusters
         deckIndex: null
         x: 133.0344784621856
@@ -3621,7 +3975,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 359
+      - contents: {}
+        id: 359
         name: Warp Engines
         deckIndex: null
         x: 114.48586196893866
@@ -3631,7 +3986,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 360
+      - contents: {}
+        id: 360
         name: Thrusters
         deckIndex: null
         x: 134.08793910403966
@@ -3641,7 +3997,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 361
+      - contents: {}
+        id: 361
         name: Upper Computer Core
         deckIndex: null
         x: 144.78376121490226
@@ -3651,7 +4008,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 362
+      - contents: {}
+        id: 362
         name: Computer Maintenance
         deckIndex: null
         x: 159.6906520968246
@@ -3662,7 +4020,8 @@ decks:
         volume: 3
         flags:
           - cargo
-      - id: 363
+      - contents: {}
+        id: 363
         name: Medical Center
         deckIndex: null
         x: 191.69404333780582
@@ -3674,7 +4033,8 @@ decks:
         flags:
           - medical
           - cargo
-      - id: 364
+      - contents: {}
+        id: 364
         name: Operating Room
         deckIndex: null
         x: 190.09387377575678
@@ -3686,7 +4046,8 @@ decks:
         flags:
           - medical
           - cargo
-      - id: 365
+      - contents: {}
+        id: 365
         name: Stealth Field Control Room
         deckIndex: null
         x: 241.2992997613267
@@ -3697,7 +4058,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 366
+      - contents: {}
+        id: 366
         name: Navigational Sensors Complex
         deckIndex: null
         x: 307.30629419585046
@@ -3711,7 +4073,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       9-l61dwn523v.svg
     nodes:
-      - id: 367
+      - contents: {}
+        id: 367
         name: Lower Computer Core
         deckIndex: null
         x: 137.31903076171875
@@ -3722,7 +4085,8 @@ decks:
         volume: 6
         flags:
           - cargo
-      - id: 368
+      - contents: {}
+        id: 368
         name: ""
         deckIndex: null
         x: 58
@@ -3732,7 +4096,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 369
+      - contents: {}
+        id: 369
         name: ""
         deckIndex: null
         x: 88.5
@@ -3742,7 +4107,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 370
+      - contents: {}
+        id: 370
         name: ""
         deckIndex: null
         x: 105.5
@@ -3752,7 +4118,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 371
+      - contents: {}
+        id: 371
         name: ""
         deckIndex: null
         x: 106
@@ -3762,7 +4129,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 372
+      - contents: {}
+        id: 372
         name: ""
         deckIndex: null
         x: 87.5
@@ -3772,7 +4140,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 373
+      - contents: {}
+        id: 373
         name: ""
         deckIndex: null
         x: 57.5
@@ -3782,7 +4151,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 374
+      - contents: {}
+        id: 374
         name: ""
         deckIndex: null
         x: 107.5
@@ -3792,7 +4162,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 375
+      - contents: {}
+        id: 375
         name: ""
         deckIndex: null
         x: 176.5
@@ -3802,7 +4173,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 376
+      - contents: {}
+        id: 376
         name: ""
         deckIndex: null
         x: 265.5
@@ -3812,7 +4184,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 377
+      - contents: {}
+        id: 377
         name: ""
         deckIndex: null
         x: 173
@@ -3822,7 +4195,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 378
+      - contents: {}
+        id: 378
         name: ""
         deckIndex: null
         x: 171.8238002232143
@@ -3832,7 +4206,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 379
+      - contents: {}
+        id: 379
         name: ""
         deckIndex: null
         x: 227.39313616071428
@@ -3842,7 +4217,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 380
+      - contents: {}
+        id: 380
         name: ""
         deckIndex: null
         x: 178.8549815854547
@@ -3852,7 +4228,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 381
+      - contents: {}
+        id: 381
         name: ""
         deckIndex: null
         x: 107.43555254212438
@@ -3862,7 +4239,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 382
+      - contents: {}
+        id: 382
         name: ""
         deckIndex: null
         x: 266
@@ -3872,7 +4250,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 383
+      - contents: {}
+        id: 383
         name: ""
         deckIndex: null
         x: 272
@@ -3882,7 +4261,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 384
+      - contents: {}
+        id: 384
         name: ""
         deckIndex: null
         x: 271.5
@@ -3892,7 +4272,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 385
+      - contents: {}
+        id: 385
         name: ""
         deckIndex: null
         x: 271
@@ -3902,7 +4283,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 386
+      - contents: {}
+        id: 386
         name: ""
         deckIndex: null
         x: 283.5
@@ -3912,7 +4294,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 387
+      - contents: {}
+        id: 387
         name: ""
         deckIndex: null
         x: 258
@@ -3922,7 +4305,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 388
+      - contents: {}
+        id: 388
         name: ""
         deckIndex: null
         x: 254.51502316000057
@@ -3932,7 +4316,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 389
+      - contents: {}
+        id: 389
         name: ""
         deckIndex: null
         x: 290
@@ -3942,7 +4327,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 390
+      - contents: {}
+        id: 390
         name: ""
         deckIndex: null
         x: 283.85222854809786
@@ -3952,7 +4338,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 391
+      - contents: {}
+        id: 391
         name: ""
         deckIndex: null
         x: 261
@@ -3962,7 +4349,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 392
+      - contents: {}
+        id: 392
         name: Engineering Lounge
         deckIndex: null
         x: 59
@@ -3973,7 +4361,8 @@ decks:
         volume: 12
         flags:
           - recreation
-      - id: 393
+      - contents: {}
+        id: 393
         name: Life Support Control
         deckIndex: null
         x: 85.5
@@ -3985,7 +4374,8 @@ decks:
         flags:
           - cargo
           - lifeSupport
-      - id: 394
+      - contents: {}
+        id: 394
         name: Weapons Locker
         deckIndex: null
         x: 88
@@ -3997,7 +4387,8 @@ decks:
         flags:
           - cargo
           - security
-      - id: 395
+      - contents: {}
+        id: 395
         name: Maintenance Locker
         deckIndex: null
         x: 90.5
@@ -4009,7 +4400,8 @@ decks:
         flags:
           - cargo
           - maintenance
-      - id: 396
+      - contents: {}
+        id: 396
         name: Greenhouse
         deckIndex: null
         x: 199.5
@@ -4019,7 +4411,8 @@ decks:
         radius: 16
         volume: 12
         flags: []
-      - id: 397
+      - contents: {}
+        id: 397
         name: Botany Lab
         deckIndex: null
         x: 198.83416748046875
@@ -4030,7 +4423,8 @@ decks:
         volume: 12
         flags:
           - science
-      - id: 398
+      - contents: {}
+        id: 398
         name: ""
         deckIndex: null
         x: 173.5
@@ -4040,7 +4434,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 399
+      - contents: {}
+        id: 399
         name: Power Distribution Center
         deckIndex: null
         x: 239.5
@@ -4050,7 +4445,8 @@ decks:
         radius: 14
         volume: 12
         flags: []
-      - id: 400
+      - contents: {}
+        id: 400
         name: Shield Generator Room
         deckIndex: null
         x: 288.5
@@ -4061,7 +4457,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 401
+      - contents: {}
+        id: 401
         name: Reception Room
         deckIndex: null
         x: 300.5
@@ -4071,7 +4468,8 @@ decks:
         radius: 9
         volume: 12
         flags: []
-      - id: 402
+      - contents: {}
+        id: 402
         name: Forward Airlock
         deckIndex: null
         x: 316.5
@@ -4081,7 +4479,8 @@ decks:
         radius: 9
         volume: 12
         flags: []
-      - id: 403
+      - contents: {}
+        id: 403
         name: Tractor Beam Control
         deckIndex: null
         x: 41
@@ -4096,7 +4495,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       10-l61dwrr00m.svg
     nodes:
-      - id: 404
+      - contents: {}
+        id: 404
         name: ""
         deckIndex: null
         x: 108
@@ -4106,7 +4506,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 405
+      - contents: {}
+        id: 405
         name: ""
         deckIndex: null
         x: 108
@@ -4116,7 +4517,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 406
+      - contents: {}
+        id: 406
         name: ""
         deckIndex: null
         x: 138
@@ -4126,7 +4528,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 407
+      - contents: {}
+        id: 407
         name: ""
         deckIndex: null
         x: 209.98359153334752
@@ -4136,7 +4539,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 408
+      - contents: {}
+        id: 408
         name: ""
         deckIndex: null
         x: 265.85093269941376
@@ -4146,7 +4550,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 409
+      - contents: {}
+        id: 409
         name: ""
         deckIndex: null
         x: 138.47652370352475
@@ -4156,7 +4561,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 410
+      - contents: {}
+        id: 410
         name: ""
         deckIndex: null
         x: 210.67309000915697
@@ -4166,7 +4572,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 411
+      - contents: {}
+        id: 411
         name: ""
         deckIndex: null
         x: 266.37956841318737
@@ -4176,7 +4583,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 412
+      - contents: {}
+        id: 412
         name: ""
         deckIndex: null
         x: 205.5
@@ -4186,7 +4594,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 413
+      - contents: {}
+        id: 413
         name: ""
         deckIndex: null
         x: 204
@@ -4196,7 +4605,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 414
+      - contents: {}
+        id: 414
         name: ""
         deckIndex: null
         x: 205.5
@@ -4206,7 +4616,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 415
+      - contents: {}
+        id: 415
         name: ""
         deckIndex: null
         x: 137.72013092041016
@@ -4216,7 +4627,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 417
+      - contents: {}
+        id: 417
         name: ""
         deckIndex: null
         x: 108.5
@@ -4226,7 +4638,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 418
+      - contents: {}
+        id: 418
         name: ""
         deckIndex: null
         x: 255
@@ -4236,8 +4649,9 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 419
-        name: ""
+      - contents: {}
+        id: 419
+        name: Deck 10 Turbolift
         deckIndex: null
         x: 271.5
         y: 134
@@ -4246,7 +4660,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 420
+      - contents: {}
+        id: 420
         name: ""
         deckIndex: null
         x: 288.5
@@ -4256,7 +4671,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 421
+      - contents: {}
+        id: 421
         name: ""
         deckIndex: null
         x: 271.5
@@ -4266,7 +4682,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 422
+      - contents: {}
+        id: 422
         name: ""
         deckIndex: null
         x: 283.5
@@ -4276,7 +4693,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 423
+      - contents: {}
+        id: 423
         name: ""
         deckIndex: null
         x: 260.5
@@ -4286,7 +4704,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 424
+      - contents: {}
+        id: 424
         name: ""
         deckIndex: null
         x: 282.5
@@ -4296,7 +4715,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 425
+      - contents: {}
+        id: 425
         name: ""
         deckIndex: null
         x: 259
@@ -4306,7 +4726,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 426
+      - contents: {}
+        id: 426
         name: ""
         deckIndex: null
         x: 271
@@ -4316,7 +4737,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 427
+      - contents: {}
+        id: 427
         name: Escape Pod Control Room
         deckIndex: null
         x: 310.13263957004875
@@ -4326,7 +4748,8 @@ decks:
         radius: 18
         volume: 12
         flags: []
-      - id: 428
+      - contents: {}
+        id: 428
         name: Wardroom
         deckIndex: null
         x: 233.5
@@ -4337,7 +4760,8 @@ decks:
         volume: 12
         flags:
           - cafeteria
-      - id: 429
+      - contents: {}
+        id: 429
         name: Messhall B
         deckIndex: null
         x: 234
@@ -4348,7 +4772,8 @@ decks:
         volume: 12
         flags:
           - cafeteria
-      - id: 430
+      - contents: {}
+        id: 430
         name: Kitchen
         deckIndex: null
         x: 180
@@ -4358,7 +4783,8 @@ decks:
         radius: 14
         volume: 12
         flags: []
-      - id: 431
+      - contents: {}
+        id: 431
         name: Crew Quarters
         deckIndex: null
         x: 154
@@ -4369,7 +4795,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 432
+      - contents: {}
+        id: 432
         name: Crew Quarters
         deckIndex: null
         x: 121
@@ -4380,7 +4807,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 433
+      - contents: {}
+        id: 433
         name: Crew Quarters
         deckIndex: null
         x: 154.5
@@ -4390,7 +4818,8 @@ decks:
         radius: 8
         volume: 12
         flags: []
-      - id: 434
+      - contents: {}
+        id: 434
         name: Crew Quarters
         deckIndex: null
         x: 121
@@ -4401,7 +4830,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 435
+      - contents: {}
+        id: 435
         name: Crew Quarters
         deckIndex: null
         x: 154.5
@@ -4412,7 +4842,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 436
+      - contents: {}
+        id: 436
         name: Crew Quarters
         deckIndex: null
         x: 121.5
@@ -4423,7 +4854,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 437
+      - contents: {}
+        id: 437
         name: Crew Quarters
         deckIndex: null
         x: 155
@@ -4434,7 +4866,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 438
+      - contents: {}
+        id: 438
         name: Crew Quarters
         deckIndex: null
         x: 121.5
@@ -4445,7 +4878,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 439
+      - contents: {}
+        id: 439
         name: Fuel Tank
         deckIndex: null
         x: 140
@@ -4457,7 +4891,8 @@ decks:
         flags:
           - cargo
           - fuelStorage
-      - id: 440
+      - contents: {}
+        id: 440
         name: Coolant Tank
         deckIndex: null
         x: 139.5
@@ -4469,7 +4904,8 @@ decks:
         flags:
           - cargo
           - coolantStorage
-      - id: 441
+      - contents: {}
+        id: 441
         name: Voice Recognition Subprocessor
         deckIndex: null
         x: 113
@@ -4479,7 +4915,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 442
+      - contents: {}
+        id: 442
         name: Chief Engineer Office
         deckIndex: null
         x: 111.5
@@ -4489,7 +4926,8 @@ decks:
         radius: 9
         volume: 12
         flags: []
-      - id: 443
+      - contents: {}
+        id: 443
         name: Upper Main Engineering
         deckIndex: null
         x: 97
@@ -4500,7 +4938,8 @@ decks:
         volume: 12
         flags:
           - maintenance
-      - id: 445
+      - contents: {}
+        id: 445
         name: ""
         deckIndex: null
         x: 137.57109734495774
@@ -4510,7 +4949,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 446
+      - contents: {}
+        id: 446
         name: ""
         deckIndex: null
         x: 137.4131180705358
@@ -4520,7 +4960,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 447
+      - contents: {}
+        id: 447
         name: ""
         deckIndex: null
         x: 137.39969108762685
@@ -4530,7 +4971,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 448
+      - contents: {}
+        id: 448
         name: ""
         deckIndex: null
         x: 137.2197170202374
@@ -4544,7 +4986,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       11-l61dx18x4z.svg
     nodes:
-      - id: 444
+      - contents: {}
+        id: 444
         name: Lower Main Engineering
         deckIndex: null
         x: 70
@@ -4556,7 +4999,8 @@ decks:
         flags:
           - cargo
           - maintenance
-      - id: 449
+      - contents: {}
+        id: 449
         name: ""
         deckIndex: null
         x: 107
@@ -4566,7 +5010,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 450
+      - contents: {}
+        id: 450
         name: ""
         deckIndex: null
         x: 107.5
@@ -4576,7 +5021,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 451
+      - contents: {}
+        id: 451
         name: ""
         deckIndex: null
         x: 137.53888779753737
@@ -4586,7 +5032,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 452
+      - contents: {}
+        id: 452
         name: ""
         deckIndex: null
         x: 137
@@ -4596,7 +5043,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 453
+      - contents: {}
+        id: 453
         name: ""
         deckIndex: null
         x: 137.5
@@ -4606,7 +5054,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 454
+      - contents: {}
+        id: 454
         name: ""
         deckIndex: null
         x: 137
@@ -4616,7 +5065,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 455
+      - contents: {}
+        id: 455
         name: ""
         deckIndex: null
         x: 106.5
@@ -4626,7 +5076,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 456
+      - contents: {}
+        id: 456
         name: ""
         deckIndex: null
         x: 137.17220587699822
@@ -4636,7 +5087,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 457
+      - contents: {}
+        id: 457
         name: ""
         deckIndex: null
         x: 137.5221960548346
@@ -4646,7 +5098,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 458
+      - contents: {}
+        id: 458
         name: ""
         deckIndex: null
         x: 137.38562289704026
@@ -4656,7 +5109,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 459
+      - contents: {}
+        id: 459
         name: ""
         deckIndex: null
         x: 209.57770633808894
@@ -4666,7 +5120,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 460
+      - contents: {}
+        id: 460
         name: ""
         deckIndex: null
         x: 205
@@ -4676,7 +5131,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 461
+      - contents: {}
+        id: 461
         name: ""
         deckIndex: null
         x: 202.9089930841523
@@ -4686,7 +5142,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 462
+      - contents: {}
+        id: 462
         name: ""
         deckIndex: null
         x: 206
@@ -4696,7 +5153,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 463
+      - contents: {}
+        id: 463
         name: ""
         deckIndex: null
         x: 209.5
@@ -4706,7 +5164,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 464
+      - contents: {}
+        id: 464
         name: ""
         deckIndex: null
         x: 266.1324531762585
@@ -4716,7 +5175,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 465
+      - contents: {}
+        id: 465
         name: ""
         deckIndex: null
         x: 272.5
@@ -4726,7 +5186,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 466
+      - contents: {}
+        id: 466
         name: ""
         deckIndex: null
         x: 255.5
@@ -4736,7 +5197,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 467
+      - contents: {}
+        id: 467
         name: ""
         deckIndex: null
         x: 287
@@ -4746,7 +5208,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 468
+      - contents: {}
+        id: 468
         name: ""
         deckIndex: null
         x: 283.5
@@ -4756,7 +5219,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 469
+      - contents: {}
+        id: 469
         name: ""
         deckIndex: null
         x: 261
@@ -4766,7 +5230,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 470
+      - contents: {}
+        id: 470
         name: ""
         deckIndex: null
         x: 271
@@ -4776,7 +5241,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 471
+      - contents: {}
+        id: 471
         name: ""
         deckIndex: null
         x: 265.0379536373492
@@ -4786,7 +5252,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 472
+      - contents: {}
+        id: 472
         name: ""
         deckIndex: null
         x: 271
@@ -4796,7 +5263,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 473
+      - contents: {}
+        id: 473
         name: ""
         deckIndex: null
         x: 284
@@ -4806,7 +5274,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 474
+      - contents: {}
+        id: 474
         name: ""
         deckIndex: null
         x: 258.53885316904444
@@ -4816,7 +5285,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 475
+      - contents: {}
+        id: 475
         name: Transporter Room
         deckIndex: null
         x: 182.53975593722123
@@ -4827,7 +5297,8 @@ decks:
         volume: 10
         flags:
           - cargo
-      - id: 476
+      - contents: {}
+        id: 476
         name: Crew Quarters
         deckIndex: null
         x: 154.5
@@ -4838,7 +5309,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 477
+      - contents: {}
+        id: 477
         name: Crew Quarters
         deckIndex: null
         x: 121.4488525390625
@@ -4849,7 +5321,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 478
+      - contents: {}
+        id: 478
         name: Crew Quarters
         deckIndex: null
         x: 120.48733051289376
@@ -4860,7 +5333,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 479
+      - contents: {}
+        id: 479
         name: Crew Quarters
         deckIndex: null
         x: 154.24484756874085
@@ -4871,7 +5345,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 480
+      - contents: {}
+        id: 480
         name: Crew Quarters
         deckIndex: null
         x: 120.48733051289376
@@ -4882,7 +5357,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 481
+      - contents: {}
+        id: 481
         name: Crew Quarters
         deckIndex: null
         x: 154.34977190225666
@@ -4893,7 +5369,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 482
+      - contents: {}
+        id: 482
         name: Crew Quarters
         deckIndex: null
         x: 154.24484756874085
@@ -4904,7 +5381,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 483
+      - contents: {}
+        id: 483
         name: Crew Quarters
         deckIndex: null
         x: 120.77100712680844
@@ -4915,7 +5393,8 @@ decks:
         volume: 12
         flags:
           - crewQuarters
-      - id: 484
+      - contents: {}
+        id: 484
         name: Training Room
         deckIndex: null
         x: 130.09348221694844
@@ -4925,7 +5404,8 @@ decks:
         radius: 9
         volume: 12
         flags: []
-      - id: 485
+      - contents: {}
+        id: 485
         name: Robotics Lab
         deckIndex: null
         x: 233.95797607876636
@@ -4936,7 +5416,8 @@ decks:
         volume: 12
         flags:
           - science
-      - id: 486
+      - contents: {}
+        id: 486
         name: Phaser Capacitors
         deckIndex: null
         x: 233.10694623702233
@@ -4946,7 +5427,8 @@ decks:
         radius: 15
         volume: 12
         flags: []
-      - id: 487
+      - contents: {}
+        id: 487
         name: Escape Pods
         deckIndex: null
         x: 309.6996319939864
@@ -4960,7 +5442,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       12-l61dx72v11.svg
     nodes:
-      - id: 488
+      - contents: {}
+        id: 488
         name: ""
         deckIndex: null
         x: 95.81859611529246
@@ -4970,7 +5453,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 489
+      - contents: {}
+        id: 489
         name: ""
         deckIndex: null
         x: 130.342529296875
@@ -4980,7 +5464,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 490
+      - contents: {}
+        id: 490
         name: ""
         deckIndex: null
         x: 96
@@ -4990,7 +5475,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 491
+      - contents: {}
+        id: 491
         name: ""
         deckIndex: null
         x: 131.5
@@ -5000,7 +5486,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 492
+      - contents: {}
+        id: 492
         name: ""
         deckIndex: null
         x: 141.50207859152042
@@ -5010,7 +5497,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 493
+      - contents: {}
+        id: 493
         name: ""
         deckIndex: null
         x: 140
@@ -5020,7 +5508,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 494
+      - contents: {}
+        id: 494
         name: ""
         deckIndex: null
         x: 140
@@ -5030,7 +5519,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 495
+      - contents: {}
+        id: 495
         name: ""
         deckIndex: null
         x: 182
@@ -5040,7 +5530,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 496
+      - contents: {}
+        id: 496
         name: ""
         deckIndex: null
         x: 190
@@ -5050,7 +5541,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 497
+      - contents: {}
+        id: 497
         name: ""
         deckIndex: null
         x: 165
@@ -5060,7 +5552,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 498
+      - contents: {}
+        id: 498
         name: ""
         deckIndex: null
         x: 180.7742909582393
@@ -5070,7 +5563,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 499
+      - contents: {}
+        id: 499
         name: ""
         deckIndex: null
         x: 255
@@ -5080,7 +5574,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 500
+      - contents: {}
+        id: 500
         name: ""
         deckIndex: null
         x: 270
@@ -5090,7 +5585,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 501
+      - contents: {}
+        id: 501
         name: ""
         deckIndex: null
         x: 270.98781005659663
@@ -5100,7 +5596,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 502
+      - contents: {}
+        id: 502
         name: ""
         deckIndex: null
         x: 265.0110829636975
@@ -5110,7 +5607,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 503
+      - contents: {}
+        id: 503
         name: ""
         deckIndex: null
         x: 226.54261188546698
@@ -5120,7 +5618,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 504
+      - contents: {}
+        id: 504
         name: ""
         deckIndex: null
         x: 224.74682998882056
@@ -5130,7 +5629,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 505
+      - contents: {}
+        id: 505
         name: ""
         deckIndex: null
         x: 288.75986154529284
@@ -5140,7 +5640,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 506
+      - contents: {}
+        id: 506
         name: ""
         deckIndex: null
         x: 283.6367334460871
@@ -5150,7 +5651,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 507
+      - contents: {}
+        id: 507
         name: ""
         deckIndex: null
         x: 260.5
@@ -5160,7 +5662,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 508
+      - contents: {}
+        id: 508
         name: ""
         deckIndex: null
         x: 285.5
@@ -5170,7 +5673,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 509
+      - contents: {}
+        id: 509
         name: ""
         deckIndex: null
         x: 259
@@ -5180,7 +5684,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 510
+      - contents: {}
+        id: 510
         name: Probe Launcher
         deckIndex: null
         x: 307.5
@@ -5191,7 +5696,8 @@ decks:
         volume: 4
         flags:
           - cargo
-      - id: 511
+      - contents: {}
+        id: 511
         name: Sensor Array
         deckIndex: null
         x: 298.5
@@ -5202,7 +5708,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 512
+      - contents: {}
+        id: 512
         name: Shield Generator
         deckIndex: null
         x: 297.505859375
@@ -5213,7 +5720,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 513
+      - contents: {}
+        id: 513
         name: ""
         deckIndex: null
         x: 272.5
@@ -5223,7 +5731,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 514
+      - contents: {}
+        id: 514
         name: Adaptive Alien Quarters
         deckIndex: null
         x: 224.5
@@ -5233,7 +5742,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 515
+      - contents: {}
+        id: 515
         name: VIP Quarters
         deckIndex: null
         x: 224
@@ -5243,7 +5753,8 @@ decks:
         radius: 13
         volume: 12
         flags: []
-      - id: 516
+      - contents: {}
+        id: 516
         name: Electronics Maintenance Center
         deckIndex: null
         x: 164.5
@@ -5253,7 +5764,8 @@ decks:
         radius: 17
         volume: 12
         flags: []
-      - id: 517
+      - contents: {}
+        id: 517
         name: Metallurgy Lab
         deckIndex: null
         x: 163
@@ -5264,7 +5776,8 @@ decks:
         volume: 12
         flags:
           - science
-      - id: 518
+      - contents: {}
+        id: 518
         name: Machine Shop
         deckIndex: null
         x: 117
@@ -5274,7 +5787,8 @@ decks:
         radius: 16
         volume: 12
         flags: []
-      - id: 519
+      - contents: {}
+        id: 519
         name: Water Storage
         deckIndex: null
         x: 82.70977783203125
@@ -5286,7 +5800,8 @@ decks:
         flags:
           - cargo
           - waterStorage
-      - id: 520
+      - contents: {}
+        id: 520
         name: Water Storage
         deckIndex: null
         x: 81
@@ -5298,7 +5813,8 @@ decks:
         flags:
           - cargo
           - waterStorage
-      - id: 521
+      - contents: {}
+        id: 521
         name: ""
         deckIndex: null
         x: 265.36834716796875
@@ -5312,17 +5828,19 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       13-l61dxbpd2p.svg
     nodes:
-      - id: 522
+      - contents: {}
+        id: 522
         name: Bridge
         deckIndex: null
         x: 171.5
         y: 129
-        isRoom: true
+        isRoom: false
         icon: ""
         radius: 0
         volume: 12
         flags: []
-      - id: 523
+      - contents: {}
+        id: 523
         name: ""
         deckIndex: null
         x: 152
@@ -5332,7 +5850,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 524
+      - contents: {}
+        id: 524
         name: ""
         deckIndex: null
         x: 186
@@ -5342,7 +5861,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 525
+      - contents: {}
+        id: 525
         name: ""
         deckIndex: null
         x: 193
@@ -5352,7 +5872,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 526
+      - contents: {}
+        id: 526
         name: ""
         deckIndex: null
         x: 233
@@ -5362,7 +5883,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 527
+      - contents: {}
+        id: 527
         name: ""
         deckIndex: null
         x: 233.5
@@ -5372,7 +5894,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 528
+      - contents: {}
+        id: 528
         name: ""
         deckIndex: null
         x: 232.5
@@ -5382,7 +5905,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 529
+      - contents: {}
+        id: 529
         name: ""
         deckIndex: null
         x: 194.63702392578125
@@ -5392,7 +5916,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 530
+      - contents: {}
+        id: 530
         name: ""
         deckIndex: null
         x: 182.5
@@ -5402,7 +5927,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 531
+      - contents: {}
+        id: 531
         name: ""
         deckIndex: null
         x: 153.5
@@ -5412,7 +5938,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 532
+      - contents: {}
+        id: 532
         name: ""
         deckIndex: null
         x: 272
@@ -5422,17 +5949,19 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 533
+      - contents: {}
+        id: 533
         name: Briefing Room
         deckIndex: null
         x: 306
         y: 132.5
-        isRoom: true
+        isRoom: false
         icon: ""
         radius: 0
         volume: 12
         flags: []
-      - id: 534
+      - contents: {}
+        id: 534
         name: Upper Cargo Bay
         deckIndex: null
         x: 105.5
@@ -5446,7 +5975,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       14-l61dxi7c3z.svg
     nodes:
-      - id: 535
+      - contents: {}
+        id: 535
         name: Lower Cargo Bay
         deckIndex: null
         x: 105
@@ -5457,7 +5987,8 @@ decks:
         volume: 100
         flags:
           - cargo
-      - id: 536
+      - contents: {}
+        id: 536
         name: ""
         deckIndex: null
         x: 272
@@ -5467,7 +5998,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 537
+      - contents: {}
+        id: 537
         name: ""
         deckIndex: null
         x: 152
@@ -5477,7 +6009,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 538
+      - contents: {}
+        id: 538
         name: ""
         deckIndex: null
         x: 152.20602579170782
@@ -5487,7 +6020,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 539
+      - contents: {}
+        id: 539
         name: ""
         deckIndex: null
         x: 168.65926939875933
@@ -5497,7 +6031,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 540
+      - contents: {}
+        id: 540
         name: ""
         deckIndex: null
         x: 183.97780655015214
@@ -5507,7 +6042,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 541
+      - contents: {}
+        id: 541
         name: ""
         deckIndex: null
         x: 185.67986623364024
@@ -5517,7 +6053,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 542
+      - contents: {}
+        id: 542
         name: ""
         deckIndex: null
         x: 197.11294513979897
@@ -5527,7 +6064,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 543
+      - contents: {}
+        id: 543
         name: ""
         deckIndex: null
         x: 231.42793287562142
@@ -5537,7 +6075,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 544
+      - contents: {}
+        id: 544
         name: ""
         deckIndex: null
         x: 232.202830915648
@@ -5547,7 +6086,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 545
+      - contents: {}
+        id: 545
         name: ""
         deckIndex: null
         x: 254.04593018707848
@@ -5557,7 +6097,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 546
+      - contents: {}
+        id: 546
         name: ""
         deckIndex: null
         x: 259.71946246537215
@@ -5567,7 +6108,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 547
+      - contents: {}
+        id: 547
         name: ""
         deckIndex: null
         x: 273.05226331936217
@@ -5577,7 +6119,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 548
+      - contents: {}
+        id: 548
         name: ""
         deckIndex: null
         x: 271.06652702195936
@@ -5587,7 +6130,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 549
+      - contents: {}
+        id: 549
         name: ""
         deckIndex: null
         x: 258.60695782059594
@@ -5597,7 +6141,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 550
+      - contents: {}
+        id: 550
         name: ""
         deckIndex: null
         x: 286.66874078726687
@@ -5607,7 +6152,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 551
+      - contents: {}
+        id: 551
         name: ""
         deckIndex: null
         x: 286.3850641733522
@@ -5617,7 +6163,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 552
+      - contents: {}
+        id: 552
         name: ""
         deckIndex: null
         x: 289.82803670937284
@@ -5627,7 +6174,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 553
+      - contents: {}
+        id: 553
         name: ""
         deckIndex: null
         x: 232.77018414347737
@@ -5637,7 +6185,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 554
+      - contents: {}
+        id: 554
         name: ""
         deckIndex: null
         x: 202.41678645460644
@@ -5647,7 +6196,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 555
+      - contents: {}
+        id: 555
         name: ""
         deckIndex: null
         x: 187.09824930321363
@@ -5657,7 +6207,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 556
+      - contents: {}
+        id: 556
         name: ""
         deckIndex: null
         x: 183.69412993623746
@@ -5667,7 +6218,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 557
+      - contents: {}
+        id: 557
         name: ""
         deckIndex: null
         x: 151.92234917779314
@@ -5677,7 +6229,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 558
+      - contents: {}
+        id: 558
         name: Torpedo Launcher
         deckIndex: null
         x: 49.51509155459309
@@ -5689,7 +6242,8 @@ decks:
         flags:
           - cargo
           - torpedoStorage
-      - id: 559
+      - contents: {}
+        id: 559
         name: Airlock
         deckIndex: null
         x: 68.80510130079143
@@ -5699,7 +6253,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 560
+      - contents: {}
+        id: 560
         name: Torpedo Launcher
         deckIndex: null
         x: 51.217151238081186
@@ -5710,7 +6265,8 @@ decks:
         volume: 4
         flags:
           - cargo
-      - id: 561
+      - contents: {}
+        id: 561
         name: Security Control Center
         deckIndex: null
         x: 168.09191617092998
@@ -5721,7 +6277,8 @@ decks:
         volume: 12
         flags:
           - security
-      - id: 562
+      - contents: {}
+        id: 562
         name: Biological Storage
         deckIndex: null
         x: 166.67353310135658
@@ -5733,7 +6290,8 @@ decks:
         flags:
           - cargo
           - science
-      - id: 563
+      - contents: {}
+        id: 563
         name: Brig
         deckIndex: null
         x: 167.24088632918594
@@ -5743,17 +6301,19 @@ decks:
         radius: 10
         volume: 12
         flags: []
-      - id: 564
+      - contents: {}
+        id: 564
         name: Holding Cell
         deckIndex: null
-        x: 199.58002031545965
-        y: 106.83203017587587
+        x: 199.58002031545962
+        y: 106.83203017587589
         isRoom: true
         icon: ""
         radius: 11
         volume: 12
         flags: []
-      - id: 565
+      - contents: {}
+        id: 565
         name: Biochemistry Lab
         deckIndex: null
         x: 225.39459218169566
@@ -5764,7 +6324,8 @@ decks:
         volume: 12
         flags:
           - science
-      - id: 566
+      - contents: {}
+        id: 566
         name: Sickbay
         deckIndex: null
         x: 199.01266708763026
@@ -5776,7 +6337,8 @@ decks:
         flags:
           - cargo
           - medical
-      - id: 567
+      - contents: {}
+        id: 567
         name: Auxiliary Engineering
         deckIndex: null
         x: 224.27504876570768
@@ -5788,7 +6350,8 @@ decks:
         flags:
           - cargo
           - maintenance
-      - id: 568
+      - contents: {}
+        id: 568
         name: Fuel Distribution Center
         deckIndex: null
         x: 307.0934569891239
@@ -5802,7 +6365,8 @@ decks:
     backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       15-l61dxmiy2z.svg
     nodes:
-      - id: 569
+      - contents: {}
+        id: 569
         name: ""
         deckIndex: null
         x: 270.9327142915326
@@ -5812,7 +6376,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 570
+      - contents: {}
+        id: 570
         name: ""
         deckIndex: null
         x: 250.8139213537903
@@ -5822,7 +6387,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 571
+      - contents: {}
+        id: 571
         name: ""
         deckIndex: null
         x: 251.66531244055457
@@ -5832,7 +6398,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 572
+      - contents: {}
+        id: 572
         name: ""
         deckIndex: null
         x: 270.9635104072111
@@ -5842,7 +6409,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 573
+      - contents: {}
+        id: 573
         name: ""
         deckIndex: null
         x: 251.23961689717243
@@ -5852,7 +6420,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 574
+      - contents: {}
+        id: 574
         name: ""
         deckIndex: null
         x: 271.13716895154306
@@ -5862,7 +6431,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 575
+      - contents: {}
+        id: 575
         name: ""
         deckIndex: null
         x: 152.7620478614398
@@ -5872,7 +6442,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 576
+      - contents: {}
+        id: 576
         name: ""
         deckIndex: null
         x: 151.48496123129343
@@ -5882,7 +6453,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 577
+      - contents: {}
+        id: 577
         name: ""
         deckIndex: null
         x: 75.99495153819579
@@ -5892,7 +6464,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 578
+      - contents: {}
+        id: 578
         name: ""
         deckIndex: null
         x: 152.05255528913625
@@ -5902,7 +6475,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 579
+      - contents: {}
+        id: 579
         name: ""
         deckIndex: null
         x: 75.85305302373509
@@ -5912,7 +6486,8 @@ decks:
         radius: 0
         volume: 12
         flags: []
-      - id: 580
+      - contents: {}
+        id: 580
         name: Phaser Bank
         deckIndex: null
         x: 58.8252312884499
@@ -5922,7 +6497,8 @@ decks:
         radius: 7
         volume: 12
         flags: []
-      - id: 581
+      - contents: {}
+        id: 581
         name: Sensors Array
         deckIndex: null
         x: 129.6325900043441
@@ -5933,7 +6509,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 582
+      - contents: {}
+        id: 582
         name: Shield Generator
         deckIndex: null
         x: 127.50411228743346
@@ -5944,7 +6521,8 @@ decks:
         volume: 5
         flags:
           - cargo
-      - id: 583
+      - contents: {}
+        id: 583
         name: Cargo Airlock
         deckIndex: null
         x: 140.70067413227946
@@ -5955,7 +6533,8 @@ decks:
         volume: 6
         flags:
           - cargo
-      - id: 584
+      - contents: {}
+        id: 584
         name: Phaser Bank
         deckIndex: null
         x: 56.83865208599997
@@ -5965,7 +6544,8 @@ decks:
         radius: 5
         volume: 12
         flags: []
-      - id: 585
+      - contents: {}
+        id: 585
         name: Water Pumping
         deckIndex: null
         x: 234.9212877341908
@@ -5975,7 +6555,8 @@ decks:
         radius: 10
         volume: 12
         flags: []
-      - id: 586
+      - contents: {}
+        id: 586
         name: Recycling Center
         deckIndex: null
         x: 235.34698327757292
@@ -5986,7 +6567,8 @@ decks:
         volume: 4
         flags:
           - cargo
-      - id: 587
+      - contents: {}
+        id: 587
         name: Waste Processing Center
         deckIndex: null
         x: 262.5914980540292
@@ -5996,7 +6578,8 @@ decks:
         radius: 9
         volume: 12
         flags: []
-      - id: 588
+      - contents: {}
+        id: 588
         name: Shield Generator
         deckIndex: null
         x: 302.0148311032615
@@ -10169,6 +10752,36 @@ deckEdges:
   - id: 710
     to: 536
     from: 569
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 711
+    to: 513
+    from: 536
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 712
+    to: 419
+    from: 383
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 713
+    to: 352
+    from: 383
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 714
+    to: 299
+    from: 352
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 715
+    to: 214
+    from: 299
     weight: 1
     isOpen: true
     flags: []
