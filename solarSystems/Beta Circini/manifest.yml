@@ -11,5 +11,48 @@ tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
 skyboxKey: Random Key
-stars: []
-planets: []
+stars:
+  - name: Beta Circini  A
+    description: ""
+    tags: []
+    solarMass: 0.4659
+    age: 19853541037.32523
+    spectralType: K
+    hue: 37.66502
+    isWhite: false
+    radius: 0.84588
+    temperature: 4086.69222
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 0
+      orbitalArc: 12.274734499241262
+      showOrbit: false
+      parentId: Beta Circini
+planets:
+  - name: Beta Circini Planet
+    description: ""
+    tags: []
+    isPlanet:
+      age: 1364638362.58512
+      classification: F
+      radius: 6520.34963
+      terranMass: 0.10691
+      isHabitable: true
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/default/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/default/rings/ring_texturesDust.png
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 55262724
+      orbitalArc: 284.05321968656733
+      showOrbit: true
+      parentId: Beta Circini
+    population: 0
+    temperature: 767.59357
