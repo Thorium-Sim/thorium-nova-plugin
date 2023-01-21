@@ -10,3 +10,4 @@ directionMaxSpeed: 1
 directionThrust: 437500000000
 rotationMaxSpeed: 5
 rotationThrust: 437500000000
+allowMultiple: false

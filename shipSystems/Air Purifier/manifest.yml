@@ -1,10 +1,9 @@
-name: Inertial Dampeners
+name: Air Purifier
 apiVersion: shipSystems/v1
 kind: shipSystems
-type: inertialDampeners
+allowMultiple: true
+type: generic
 description: ""
 tags: []
 assets:
   soundEffects: []
-dampening: 1
-allowMultiple: false

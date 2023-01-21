@@ -19,17 +19,21 @@ length: 350
 shipSystems:
   - systemId: Class IV Impulse Engines
     pluginId: Thorium Default
+    id: sys-impulse
     overrides:
       thrust: 437500000000
-  - systemId: Inertial Dampeners
-    pluginId: Thorium Default
   - systemId: Warp Engines
     pluginId: Thorium Default
+    id: sys-warp
   - systemId: Thrusters
     pluginId: Thorium Default
+    id: sys-thrusters
     overrides:
       directionThrust: 437500000000
       rotationThrust: 437500000000
+  - id: ssys-ld59offs17
+    systemId: Inertial Dampeners
+    pluginId: Thorium Default
 theme:
   themeId: Default
   pluginId: Thorium Default
@@ -3922,7 +3926,7 @@ decks:
         id: 354
         name: Impulse Engines
         deckIndex: null
-        x: 43.38114208459254
+        x: 43.44559520959254
         y: 171.95937587626588
         isRoom: true
         icon: ""

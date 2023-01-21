@@ -10,3 +10,4 @@ interstellarCruisingSpeed: 599600000000
 solarCruisingSpeed: 29980000
 minSpeedMultiplier: 0.01
 warpFactorCount: 5
+allowMultiple: false

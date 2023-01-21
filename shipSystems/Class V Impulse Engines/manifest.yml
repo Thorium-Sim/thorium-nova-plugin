@@ -9,3 +9,4 @@ assets:
 cruisingSpeed: 1500
 emergencySpeed: 2000
 thrust: 12500
+allowMultiple: false
