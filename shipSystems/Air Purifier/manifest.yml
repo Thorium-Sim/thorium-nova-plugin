@@ -7,3 +7,11 @@ description: ""
 tags: []
 assets:
   soundEffects: []
+requiredPower: 5
+defaultPower: 10
+maxSafePower: 20
+coolantHeatTransferRate: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500

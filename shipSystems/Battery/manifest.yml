@@ -1,15 +1,12 @@
-name: Class IV Impulse Engines
+name: Battery
 apiVersion: shipSystems/v1
 kind: shipSystems
-type: impulseEngines
+type: battery
 description: ""
 tags: []
 assets:
   soundEffects: []
-cruisingSpeed: 1500
-emergencySpeed: 2000
-thrust: 437500000000
-allowMultiple: false
+allowMultiple: true
 requiredPower: 5
 defaultPower: 10
 maxSafePower: 20
@@ -18,4 +15,6 @@ heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
-powerNode: navigation
+capacity: 46
+chargeRate: 180
+dischargeRate: 120

@@ -10,3 +10,12 @@ cruisingSpeed: 1500
 emergencySpeed: 2000
 thrust: 12500
 allowMultiple: false
+requiredPower: 5
+defaultPower: 10
+maxSafePower: 20
+coolantHeatTransferRate: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+powerNode: navigation

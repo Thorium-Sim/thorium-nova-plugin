@@ -1,15 +1,14 @@
-name: Class IV Impulse Engines
+name: Fusion Reactor
 apiVersion: shipSystems/v1
 kind: shipSystems
-type: impulseEngines
+allowMultiple: false
+type: reactor
 description: ""
 tags: []
 assets:
   soundEffects: []
-cruisingSpeed: 1500
-emergencySpeed: 2000
-thrust: 437500000000
-allowMultiple: false
+optimalOutputPercent: 0.5
+reactorCount: 4
 requiredPower: 5
 defaultPower: 10
 maxSafePower: 20
@@ -18,4 +17,4 @@ heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
-powerNode: navigation
+powerMultiplier: 1
