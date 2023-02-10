@@ -3,7 +3,7 @@ kind: inventory
 name: Type I Torpedo Casing
 plural: Type I Torpedo Casings
 description: A standard torpedo warhead delivery mechanism.
-volume: 0.886
+volume: 886
 assets:
   ? image
 continuous: false

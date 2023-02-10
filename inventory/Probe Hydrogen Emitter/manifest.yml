@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Hydrogen Emitter
 plural: Probe Hydrogen Emitters
 description: A Hydrogen Emitter allows the probe to interact with hydrogen particles.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

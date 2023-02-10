@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Radio Transceiver
 plural: Probe Radio Transceivers
 description: A radio transceiver is used to let the probe communicate.
-volume: 0.002
+volume: 2
 assets:
   ? image
 continuous: false

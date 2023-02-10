@@ -3,7 +3,7 @@ kind: inventory
 name: Wiring Kit
 plural: Wiring Kits
 description: Supplies needed for replacing broken wires and cables.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

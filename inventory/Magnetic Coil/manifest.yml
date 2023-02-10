@@ -3,7 +3,7 @@ kind: inventory
 name: Magnetic Coil
 plural: Magnetic Coils
 description: A carefully wound cable which produces electromagnetism when powered.
-volume: 0.003
+volume: 3
 assets:
   ? image
 continuous: false

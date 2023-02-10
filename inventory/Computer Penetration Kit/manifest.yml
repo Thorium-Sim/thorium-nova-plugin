@@ -4,7 +4,7 @@ name: Computer Penetration Kit
 plural: Computer Penetration Kits
 description: Tools to help determine the security of a computer network.
   Intended only for test purposes.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

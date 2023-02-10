@@ -3,7 +3,7 @@ kind: inventory
 name: Transporter Buffer
 plural: Transporter Buffers
 description: A critical component that is required for transporters to operate.
-volume: 3
+volume: 3000
 assets:
   ? image
 continuous: false

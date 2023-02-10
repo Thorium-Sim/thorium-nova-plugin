@@ -4,7 +4,7 @@ name: Probe Self-Destruct Kit
 plural: Probe Self-Destruct Kits
 description: A Self-Destruct Kit allows the probe to receive a self-destruct
   signal from the station.
-volume: 0.002
+volume: 2
 assets:
   ? image
 continuous: false

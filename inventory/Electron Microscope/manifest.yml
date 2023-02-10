@@ -4,7 +4,7 @@ name: Electron Microscope
 plural: Electron Microscopes
 description: A powerful microscope which pulses electrons over an object to
   obtain a picture of their shape.
-volume: 0.02
+volume: 20
 assets:
   ? image
 continuous: false

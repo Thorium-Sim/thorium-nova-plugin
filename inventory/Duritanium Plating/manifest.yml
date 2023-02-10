@@ -4,7 +4,7 @@ name: Duritanium Plating
 plural: Duritanium Plating
 description: Exceptionally strong material. Every atom is under compression,
   which makes it resistant to impacts. Necessary for external hull repairs.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

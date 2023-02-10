@@ -3,7 +3,7 @@ kind: inventory
 name: Medkit
 plural: Medkits
 description: Equipped with the necessary supplies to address most field medical situations.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

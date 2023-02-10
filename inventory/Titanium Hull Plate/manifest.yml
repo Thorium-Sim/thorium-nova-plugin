@@ -3,7 +3,7 @@ kind: inventory
 name: Titanium Hull Plate
 plural: Titanium Hull Plates
 description: A strong material commonly used for internal repairs.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

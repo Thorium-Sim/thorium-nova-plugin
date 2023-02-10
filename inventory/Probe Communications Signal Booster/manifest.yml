@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Communications Signal Booster
 plural: Probe Communications Signal Boosters
 description: A Communications Signal Booster gives the probe's radio more range.
-volume: 0.004
+volume: 4
 assets:
   ? image
 continuous: false

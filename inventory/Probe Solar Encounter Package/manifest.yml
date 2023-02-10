@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Solar Encounter Package
 plural: Probe Solar Encounter Packages
 description: A Solar Encounter Package allows the probe to research a star.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

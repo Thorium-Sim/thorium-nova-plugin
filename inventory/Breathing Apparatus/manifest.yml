@@ -4,7 +4,7 @@ name: Breathing Apparatus
 plural: Breathing Apparatuses
 description: Uses chemical processes to convert CO2 into breathable oxygen,
   allowing the wearer to stay alive in low-oxygen environments.
-volume: 0.0005
+volume: 0.5
 assets:
   ? image
 continuous: false

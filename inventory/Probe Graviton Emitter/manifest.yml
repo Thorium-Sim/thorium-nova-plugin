@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Graviton Emitter
 plural: Probe Graviton Emitters
 description: A Graviton Emitter allows the probe to interact with graviton particles.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

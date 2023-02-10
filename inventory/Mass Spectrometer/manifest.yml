@@ -4,7 +4,7 @@ name: Mass Spectrometer
 plural: Mass Spectrometers
 description: Used to determine the chemical composition of a material with just
   a few photons of light.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

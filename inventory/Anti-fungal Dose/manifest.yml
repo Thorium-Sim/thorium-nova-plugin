@@ -3,7 +3,7 @@ kind: inventory
 name: Anti-fungal Dose
 plural: Anti-fungal Doses
 description: Medicine for curing patients of diseases involving fungus and other mycelia
-volume: 0.000014999999999999999
+volume: 0.015
 assets:
   ? image
 continuous: false

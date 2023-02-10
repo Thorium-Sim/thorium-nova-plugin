@@ -3,7 +3,7 @@ kind: inventory
 name: Protective Glasses
 plural: Protective Glasses
 description: Glasses made from a durable polymer that is resistant to reasonable impacts.
-volume: 0.00015
+volume: 0.15
 assets:
   ? image
 continuous: false

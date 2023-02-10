@@ -3,7 +3,7 @@ kind: inventory
 name: Taser Wand
 plural: Taser Wands
 description: Imparts an electric shock on the target, temporarily incapacitating them.
-volume: 0.00008999999999999999
+volume: 0.09
 assets:
   ? image
 continuous: false

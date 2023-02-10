@@ -3,9 +3,9 @@ kind: inventory
 name: Flashbang Grenade
 plural: Flashbang Grenades
 description: Releases a burst of light which disorients anyone who witnesses it.
-volume: 0.000019999999999999998
+volume: 0.06
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

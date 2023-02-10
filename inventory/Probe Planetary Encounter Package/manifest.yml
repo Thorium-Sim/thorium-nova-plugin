@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Planetary Encounter Package
 plural: Probe Planetary Encounter Packages
 description: A Planetary Encounter Package allows the probe to research a planet.
-volume: 0.008
+volume: 8
 assets:
   ? image
 continuous: false

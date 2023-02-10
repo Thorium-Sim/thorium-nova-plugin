@@ -3,7 +3,7 @@ kind: inventory
 name: Pipe
 plural: Pipes
 description: Used to transfer liquids throughout the ship.
-volume: 0.062
+volume: 62
 assets:
   ? image
 continuous: false

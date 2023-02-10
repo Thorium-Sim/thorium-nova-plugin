@@ -3,7 +3,7 @@ kind: inventory
 name: Burn Kit
 plural: Burn Kits
 description: Supplies for relieving pain and healing burn sites.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

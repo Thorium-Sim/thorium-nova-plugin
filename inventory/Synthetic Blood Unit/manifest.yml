@@ -3,9 +3,9 @@ kind: inventory
 name: Synthetic Blood Unit
 plural: Synthetic Blood Units
 description: Universal blood which can be transfused into most humanoids.
-volume: 0.000473
+volume: 0.473
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

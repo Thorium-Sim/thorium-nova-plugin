@@ -3,7 +3,7 @@ kind: inventory
 name: Network Node
 plural: Network Nodes
 description: Connects multiple computers together into a single network.
-volume: 0.00011999999999999999
+volume: 0.12
 assets:
   ? image
 continuous: false

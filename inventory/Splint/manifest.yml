@@ -2,10 +2,11 @@ apiVersion: inventory/v1
 kind: inventory
 name: Splint
 plural: Splints
-description: Used to bind a broken bone for a short time until it can be treated further.
-volume: 0.000019999999999999998
+description:
+  Used to bind a broken bone for a short time until it can be treated further.
+volume: 0.02
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

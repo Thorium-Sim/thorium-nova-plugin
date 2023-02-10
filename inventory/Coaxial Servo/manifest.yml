@@ -3,7 +3,7 @@ kind: inventory
 name: Coaxial Servo
 plural: Coaxial Servos
 description: Mechanical rotors with two degrees of freedom.
-volume: 0.003
+volume: 3
 assets:
   ? image
 continuous: false

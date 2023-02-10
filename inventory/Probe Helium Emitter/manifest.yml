@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Helium Emitter
 plural: Probe Helium Emitters
 description: A Helium Emitter allows the probe to interact with helium particles.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

@@ -3,7 +3,7 @@ kind: inventory
 name: Anti-viral Dose
 plural: Anti-viral Doses
 description: "Medicine for eradicating viral infection in patients "
-volume: 0.000014999999999999999
+volume: 0.015
 assets:
   ? image
 continuous: false

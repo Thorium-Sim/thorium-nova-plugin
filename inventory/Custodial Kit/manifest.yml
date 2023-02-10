@@ -3,7 +3,7 @@ kind: inventory
 name: Custodial Kit
 plural: Custodial Kits
 description: Supplies for cleaning up messes of all varieties.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

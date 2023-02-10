@@ -3,7 +3,7 @@ kind: inventory
 name: Water Filtration Unit
 plural: Water Filtration Units
 description: Filters contaminants from water.
-volume: 0.09
+volume: 90
 assets:
   ? image
 continuous: false

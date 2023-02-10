@@ -3,7 +3,7 @@ kind: inventory
 name: Phaser Bank Element
 plural: Phaser Bank Elements
 description: Converts electrical energy into a beam of leptons.
-volume: 0.075
+volume: 75
 assets:
   ? image
 continuous: false

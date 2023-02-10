@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Extra Fuel Cell
 plural: Probe Extra Fuel Cells
 description: An Extra Fuel Cell lets the probe travel further and perform longer.
-volume: 0.004
+volume: 4
 assets:
   ? image
 continuous: false

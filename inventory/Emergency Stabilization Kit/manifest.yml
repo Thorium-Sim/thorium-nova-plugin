@@ -3,7 +3,7 @@ kind: inventory
 name: Emergency Stabilization Kit
 plural: Emergency Stabilization Kits
 description: Supplies for quickly stabilizing a critical patient.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

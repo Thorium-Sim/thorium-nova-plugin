@@ -3,7 +3,7 @@ kind: inventory
 name: Electrical Kit
 plural: Electrical Kit
 description: Supplies for repairing, maintaining, and improving electrical systems.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Hazmat Suit
 plural: Hazmat Suits
-description: Hermetically sealed suit which protects the wearer from contagious
-  or toxic materials.
-volume: 0.0319
+description:
+  Hermetically sealed suit which protects the wearer from contagious or toxic
+  materials.
+volume: 32
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

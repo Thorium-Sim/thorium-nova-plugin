@@ -3,7 +3,7 @@ kind: inventory
 name: Thermo Coupling
 plural: Thermo Couplings
 description: Used for connecting parts in extreme temperatures.
-volume: 0.0005
+volume: 0.5
 assets:
   ? image
 continuous: false

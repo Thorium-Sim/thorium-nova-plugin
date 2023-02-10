@@ -4,7 +4,7 @@ name: Type II Probe Casing
 plural: Type II Probe Casings
 description: This medium-sized probe can hold 10 units of equipment. Use for
   probe networks and general purposes.
-volume: 0.25
+volume: 250
 assets:
   ? image
 continuous: false

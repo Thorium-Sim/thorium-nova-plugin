@@ -3,7 +3,7 @@ kind: inventory
 name: Tool Kit
 plural: Tool Kits
 description: Basic tools used for repairs.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

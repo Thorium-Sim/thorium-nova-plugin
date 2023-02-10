@@ -3,7 +3,7 @@ kind: inventory
 name: Power Wrench
 plural: Power Wrenches
 description: Quickly secures two objects together. Must be used with bolts.
-volume: 0.00008999999999999999
+volume: 0.09
 assets:
   ? image
 continuous: false

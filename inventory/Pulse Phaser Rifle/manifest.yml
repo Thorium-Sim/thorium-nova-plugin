@@ -3,7 +3,7 @@ kind: inventory
 name: Pulse Phaser Rifle
 plural: Pulse Phaser Rifle
 description: A more powerful, more accurate, handheld phaser weapon.
-volume: 0.00015
+volume: 0.15
 assets:
   ? image
 continuous: false

@@ -3,7 +3,7 @@ kind: inventory
 name: Targeting Sensors Pallet
 plural: Targeting Sensors Pallets
 description: Low-latency sensor equipment necessary for target locks in space.
-volume: 3.5
+volume: 3500
 assets:
   ? image
 continuous: false

@@ -3,7 +3,7 @@ kind: inventory
 name: Network Adapter
 plural: Network Adapters
 description: Equipment which translates computer signals between two interfaces.
-volume: 0.0005
+volume: 0.5
 assets:
   ? image
 continuous: false

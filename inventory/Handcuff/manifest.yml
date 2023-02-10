@@ -2,10 +2,11 @@ apiVersion: inventory/v1
 kind: inventory
 name: Handcuff
 plural: Handcuffs
-description: Used for securing the hands of a prisoner to decrease their resistance.
-volume: 0.000019999999999999998
+description:
+  Used for securing the hands of a prisoner to decrease their resistance.
+volume: 0.02
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

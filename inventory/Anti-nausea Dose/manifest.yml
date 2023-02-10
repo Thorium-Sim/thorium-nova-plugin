@@ -3,7 +3,7 @@ kind: inventory
 name: Anti-nausea Dose
 plural: Anti-nausea Dose
 description: Medicine for patience experiencing nausea symptoms
-volume: 0.000014999999999999999
+volume: 0.015
 assets:
   ? image
 continuous: false

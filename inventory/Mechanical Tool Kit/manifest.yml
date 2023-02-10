@@ -3,7 +3,7 @@ kind: inventory
 name: Mechanical Tool Kit
 plural: Mechanical Tool Kits
 description: Supplies for repairing, maintaining, and improving mechanical systems.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

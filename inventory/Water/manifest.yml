@@ -4,7 +4,7 @@ name: Water
 plural: Water
 description: Hundreds of uses, including cooking, hydration, cleaning,
   lubrication, and heat transfer.
-volume: 0.001
+volume: 1
 assets:
   ? image
 continuous: true

@@ -4,7 +4,7 @@ name: Stealth Facilitator
 plural: Stealth Facilitators
 description: A mysterious device which can cause an entire ship to become mostly
   invisible on sensors.
-volume: 0.6
+volume: 600
 assets:
   ? image
 continuous: false

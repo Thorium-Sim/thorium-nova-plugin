@@ -4,7 +4,7 @@ name: Sensor Array
 plural: Sensor Arrays
 description: Powerful equipment that works together to detect objects and
   particles in space.
-volume: 2
+volume: 2000
 assets:
   ? image
 continuous: false

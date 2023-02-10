@@ -4,7 +4,7 @@ name: Probe Proximity Destruct
 plural: Probe Proximity Destructs
 description: A Proximity Self-Destruct detector tells the probe to blow-up when
   an enemy is near.
-volume: 0.002
+volume: 2
 assets:
   ? image
 continuous: false

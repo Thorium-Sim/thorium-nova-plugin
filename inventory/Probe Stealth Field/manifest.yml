@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Stealth Field
 plural: Probe Stealth Fields
 description: A stealth field masks the probe making it harder to detect.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

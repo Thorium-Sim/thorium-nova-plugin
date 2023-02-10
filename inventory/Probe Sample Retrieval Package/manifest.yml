@@ -4,7 +4,7 @@ name: Probe Sample Retrieval Package
 plural: Probe Sample Retrieval Packages
 description: A Sample Retrieval Package lets the probe get something and return
   it to the ship.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

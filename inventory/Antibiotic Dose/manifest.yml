@@ -3,7 +3,7 @@ kind: inventory
 name: Antibiotic Dose
 plural: Antibiotic Doses
 description: Medicine for eradicating bacterial infection in patients.
-volume: 0.000014999999999999999
+volume: 0.015
 assets:
   ? image
 continuous: false

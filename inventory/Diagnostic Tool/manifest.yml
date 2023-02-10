@@ -3,7 +3,7 @@ kind: inventory
 name: Diagnostic Tool
 plural: Diagnostic Tools
 description: Used for troubleshooting system failures.
-volume: 0.001
+volume: 1
 assets:
   ? image
 continuous: false

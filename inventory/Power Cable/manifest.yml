@@ -3,9 +3,9 @@ kind: inventory
 name: Power Cable
 plural: Power Cables
 description: Cables which transfer high-voltage power.
-volume: 0.00009999999999999999
+volume: 0.1
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

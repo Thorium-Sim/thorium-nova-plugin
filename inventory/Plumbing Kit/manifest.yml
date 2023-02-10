@@ -3,7 +3,7 @@ kind: inventory
 name: Plumbing Kit
 plural: Plumbing Kit
 description: Supplies for repairing, maintaining, and improving plumbing systems.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

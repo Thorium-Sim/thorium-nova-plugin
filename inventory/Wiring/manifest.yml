@@ -3,9 +3,9 @@ kind: inventory
 name: Wiring
 plural: Wiring
 description: Used to send electrical signals throughout the ship.
-volume: 0.00009999999999999999
+volume: 0.1
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

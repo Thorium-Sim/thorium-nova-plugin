@@ -3,7 +3,7 @@ kind: inventory
 name: Sonic Debilitator
 plural: Sonic Debilitators
 description: Releases a loud sound which debilitates most humanoids with ears.
-volume: 0.00015
+volume: 0.15
 assets:
   ? image
 continuous: false

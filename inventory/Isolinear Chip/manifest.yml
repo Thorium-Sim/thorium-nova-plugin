@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Isolinear Chip
 plural: Isolinear Chips
-description: Contains instructions and data used by computers. Capable of being
-  overwritten with new data.
-volume: 0.000049999999999999996
+description:
+  Contains instructions and data used by computers. Capable of being overwritten
+  with new data.
+volume: 0.05
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

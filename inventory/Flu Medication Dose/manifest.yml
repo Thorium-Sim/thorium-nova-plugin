@@ -3,7 +3,7 @@ kind: inventory
 name: Flu Medication Dose
 plural: Flu Medication Doses
 description: Medicine for addressing the symptoms of flu-like viruses.
-volume: 0.000014999999999999999
+volume: 0.015
 assets:
   ? image
 continuous: false

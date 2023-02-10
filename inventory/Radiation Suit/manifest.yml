@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Radiation Suit
 plural: Radiation Suits
-description: Protects the wearer from most forms of radiation while allowing
-  visible light through the visor.
-volume: 0.0319
+description:
+  Protects the wearer from most forms of radiation while allowing visible light
+  through the visor.
+volume: 32
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

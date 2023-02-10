@@ -3,7 +3,7 @@ kind: inventory
 name: Carbon Fiber Strut
 plural: Carbon Fiber Struts
 description: Carefully crafted load-bearing pylons. Used for repairing structural damage.
-volume: 0.003
+volume: 3
 assets:
   ? image
 continuous: false

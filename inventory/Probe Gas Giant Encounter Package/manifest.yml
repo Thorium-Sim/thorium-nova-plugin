@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Gas Giant Encounter Package
 plural: Probe Gas Giant Encounter Packages
 description: A Gas Giant Encounter Package allows the probe to research a gas giant.
-volume: 0.008
+volume: 8
 assets:
   ? image
 continuous: false

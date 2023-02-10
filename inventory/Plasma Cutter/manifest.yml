@@ -3,7 +3,7 @@ kind: inventory
 name: Plasma Cutter
 plural: Plasma Cutters
 description: Uses powerful arcs of energy to cut through most materials.
-volume: 0.004
+volume: 4
 assets:
   ? image
 continuous: false

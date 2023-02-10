@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Transporter Relay
 plural: Probe Transporter Relays
 description: A transporter relay extends the transporter range of this ship.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

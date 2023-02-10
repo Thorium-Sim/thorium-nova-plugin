@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Sensor Array
 plural: Probe Sensor Arrays
 description: The Sensor Array gives the probe general scanning abilities.
-volume: 0.004
+volume: 4
 assets:
   ? image
 continuous: false

@@ -4,7 +4,7 @@ name: Probe Network Package
 plural: Probe Network Packages
 description: A probe network package instructs the probe to network with up to 7
   other probes.
-volume: 0.0005
+volume: 0.5
 assets:
   ? image
 continuous: false

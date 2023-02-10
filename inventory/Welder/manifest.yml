@@ -3,7 +3,7 @@ kind: inventory
 name: Welder
 plural: Welders
 description: Used for joining two pieces of metal together using high heat.
-volume: 0.002
+volume: 2
 assets:
   ? image
 continuous: false

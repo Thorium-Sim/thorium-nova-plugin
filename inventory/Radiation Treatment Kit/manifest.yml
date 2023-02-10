@@ -3,7 +3,7 @@ kind: inventory
 name: Radiation Treatment Kit
 plural: Radiation Treatment Kits
 description: Supplies for addressing acute radiation poisoning.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

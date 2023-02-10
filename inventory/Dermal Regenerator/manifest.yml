@@ -3,9 +3,9 @@ kind: inventory
 name: Dermal Regenerator
 plural: Dermal Regenerators
 description: "Aides in the skin healing process. "
-volume: 0.00019999999999999998
+volume: 0.2
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

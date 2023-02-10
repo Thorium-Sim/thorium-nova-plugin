@@ -4,7 +4,7 @@ name: Hypospray
 plural: Hyposprays
 description: A universal medication delivery system, with multiple medications
   available in each.
-volume: 0.00015
+volume: 0.15
 assets:
   ? image
 continuous: false

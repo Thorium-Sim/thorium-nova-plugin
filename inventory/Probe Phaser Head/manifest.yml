@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Phaser Head
 plural: Probe Phaser Heads
 description: A Phaser Head allows the probe to fire one phaser shot at an enemy ship.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

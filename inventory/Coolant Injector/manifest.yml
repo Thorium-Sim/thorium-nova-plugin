@@ -3,7 +3,7 @@ kind: inventory
 name: Coolant Injector
 plural: Coolant Injectors
 description: Used for delivering coolant into the hottest of environments.
-volume: 0.004
+volume: 4
 assets:
   ? image
 continuous: false

@@ -3,7 +3,7 @@ kind: inventory
 name: Cylindrical Grinder
 plural: Cylindrical Grinders
 description: A tool for carefully removing material from objects.
-volume: 0.005
+volume: 5
 assets:
   ? image
 continuous: false

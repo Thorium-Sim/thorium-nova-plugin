@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Encoding Sequencer
 plural: Probe Encoding Sequencers
 description: Encodes and encrypts signals, making them more secure.
-volume: 0.004
+volume: 4
 assets:
   ? image
 continuous: false

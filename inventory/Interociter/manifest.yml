@@ -2,10 +2,11 @@ apiVersion: inventory/v1
 kind: inventory
 name: Interociter
 plural: Interociters
-description: It emits a low hum when powered. There’s no limit to what it can do!
-volume: 0.0007999999999999999
+description:
+  It emits a low hum when powered. There’s no limit to what it can do!
+volume: 0.8
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

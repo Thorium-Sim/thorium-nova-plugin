@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Photon Torpedo Warhead
 plural: Photon Torpedo Warheads
-description: Uses packets of photons to disrupt the electron shells of atoms,
-  causing an explosive reaction. Launch with a torpedo casing.
-volume: 0.08499999999999999
+description:
+  Uses packets of photons to disrupt the electron shells of atoms, causing an
+  explosive reaction. Launch with a torpedo casing.
+volume: 85
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

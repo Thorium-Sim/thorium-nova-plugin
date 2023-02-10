@@ -4,7 +4,7 @@ name: Communication Antenna
 plural: Communications Antennas
 description: Generates communication signals which can be sent through normal
   space or sub-space.
-volume: 3.5
+volume: 3500
 assets:
   ? image
 continuous: false

@@ -3,7 +3,7 @@ kind: inventory
 name: Liquid Oxygen Tank
 plural: Liquid Oxygen Tanks
 description: A container of compressed liquid oxygen. Highly flammable.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

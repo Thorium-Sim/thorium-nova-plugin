@@ -3,7 +3,7 @@ kind: inventory
 name: Welding Kit
 plural: Welding Kit
 description: Supplies needed for joining metal pieces together.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

@@ -3,9 +3,9 @@ kind: inventory
 name: Bolts
 plural: Bolts
 description: Used to join two objects together.
-volume: 0.00009
+volume: 0.09
 assets:
-  ? image
+  image:
 continuous: true
 durability: 1
 abundance: 1

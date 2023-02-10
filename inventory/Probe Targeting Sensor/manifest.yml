@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Targeting Sensor
 plural: Probe Targeting Sensors
 description: Targeting sensors extends the targeting range of the probe.
-volume: 0.002
+volume: 2
 assets:
   ? image
 continuous: false

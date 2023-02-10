@@ -4,7 +4,7 @@ name: Science Probe Casing
 plural: Science Probe Casings
 description: This probe can use special emitters and detectors for specific
   scientific experiments. It holds 12 units of equipment.
-volume: 0.3
+volume: 300
 assets:
   ? image
 continuous: false

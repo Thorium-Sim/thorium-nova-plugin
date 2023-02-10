@@ -3,7 +3,7 @@ kind: inventory
 name: Heating Coil
 plural: Heating Coils
 description: A high-resistance cable which releases heat when supplied with energy.
-volume: 0.003
+volume: 3
 assets:
   ? image
 continuous: false

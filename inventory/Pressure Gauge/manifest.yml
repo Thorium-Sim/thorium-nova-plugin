@@ -3,9 +3,9 @@ kind: inventory
 name: Pressure Gauge
 plural: Pressure Gauges
 description: Determines the pressure of liquids and gasses.
-volume: 0.00010999999999999999
+volume: 0.11
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

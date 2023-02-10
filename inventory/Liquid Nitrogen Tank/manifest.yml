@@ -3,7 +3,7 @@ kind: inventory
 name: Liquid Nitrogen Tank
 plural: Liquid Nitrogen Tanks
 description: A container of compressed liquid nitrogen.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

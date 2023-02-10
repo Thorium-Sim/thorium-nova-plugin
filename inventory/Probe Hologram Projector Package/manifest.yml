@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Hologram Projector Package
 plural: Probe Hologram Projector Packages
 description: A Hologram Projector Package makes the probe look like a ship.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

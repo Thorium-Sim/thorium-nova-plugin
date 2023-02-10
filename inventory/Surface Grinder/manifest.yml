@@ -3,7 +3,7 @@ kind: inventory
 name: Surface Grinder
 plural: Surface Grinders
 description: Used to remove material from the surface of an object.
-volume: 0.005
+volume: 5
 assets:
   ? image
 continuous: false

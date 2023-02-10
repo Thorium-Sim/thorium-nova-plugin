@@ -3,7 +3,7 @@ kind: inventory
 name: Air Filter
 plural: Air Filters
 description: Removes contaminants from the air.
-volume: 0.0095
+volume: 9.5
 assets:
   ? image
 continuous: false

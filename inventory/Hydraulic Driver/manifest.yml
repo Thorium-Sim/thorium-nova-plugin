@@ -3,9 +3,9 @@ kind: inventory
 name: Hydraulic Driver
 plural: Hydraulic Drivers
 description: Uses a hydraulic fluid to push objects apart.
-volume: 0.000049999999999999996
+volume: 0.05
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

@@ -4,7 +4,7 @@ name: EPS Step-Down Conduit
 plural: EPS Step-Down Conduits
 description: Necessary for altering the relative power of energy as it moves
   through the ship.
-volume: 0.005
+volume: 5
 assets:
   ? image
 continuous: false

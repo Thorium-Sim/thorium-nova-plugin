@@ -3,7 +3,7 @@ kind: inventory
 name: Detonator
 plural: Detonators
 description: Used with explosives to remotely detonate the charge.
-volume: 0.000064
+volume: 0.064
 assets:
   ? image
 continuous: false

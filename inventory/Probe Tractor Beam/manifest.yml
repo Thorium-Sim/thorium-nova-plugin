@@ -4,7 +4,7 @@ name: Probe Tractor Beam
 plural: Probe Tractor Beams
 description: Projects dark matter particles to create areas of negative
   gravitation. Can be used to pull objects towards the probe.
-volume: 0.01
+volume: 10
 assets:
   ? image
 continuous: false

@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Video Camera
 plural: Probe Video Cameras
 description: A Video Camera can take still or moving pictures.
-volume: 0.002
+volume: 2
 assets:
   ? image
 continuous: false

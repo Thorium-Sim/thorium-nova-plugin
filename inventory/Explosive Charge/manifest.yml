@@ -3,7 +3,7 @@ kind: inventory
 name: Explosive Charge
 plural: Explosive Charges
 description: Powerful explosives which can be remotely detonated or used with a timer.
-volume: 0.00011999999999999999
+volume: 0.12
 assets:
   ? image
 continuous: false

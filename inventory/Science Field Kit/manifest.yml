@@ -4,7 +4,7 @@ name: Science Field Kit
 plural: Science Field Kits
 description: A miniaturized science lab for doing scientific research away from
   the ship, including vessels for collecting samples.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

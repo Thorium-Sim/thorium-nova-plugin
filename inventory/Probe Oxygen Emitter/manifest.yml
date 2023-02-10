@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Oxygen Emitter
 plural: Probe Oxygen Emitters
 description: An Oxygen Emitter allows the probe to interact with oxygen particles.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

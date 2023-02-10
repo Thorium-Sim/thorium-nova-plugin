@@ -3,7 +3,7 @@ kind: inventory
 name: Plasma Tool Kit
 plural: Plasma Tool Kit
 description: Supplies for repairing, maintaining, and improving plasma systems.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

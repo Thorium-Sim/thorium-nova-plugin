@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Radiation Shielding
 plural: Probe Radiation Shielding
 description: Protects the probe from moderate levels of radiation.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

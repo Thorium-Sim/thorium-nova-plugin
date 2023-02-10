@@ -3,7 +3,7 @@ kind: inventory
 name: Neural Pad
 plural: Neural Pads
 description: Suppresses neural activity for patients with traumatic brain injuries.
-volume: 0.0006
+volume: 0.6
 assets:
   ? image
 continuous: false

@@ -3,7 +3,7 @@ kind: inventory
 name: Micro Router
 plural: Micro Routers
 description: Used for drilling or boring very precise shapes and figures.
-volume: 0.00011999999999999999
+volume: 0.12
 assets:
   ? image
 continuous: false

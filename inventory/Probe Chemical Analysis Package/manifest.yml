@@ -4,7 +4,7 @@ name: Probe Chemical Analysis Package
 plural: Probe Chemical Analysis Packages
 description: A Chemical Analysis Package lets the probe research what chemicals
   it has found.
-volume: 0.006
+volume: 6
 assets:
   ? image
 continuous: false

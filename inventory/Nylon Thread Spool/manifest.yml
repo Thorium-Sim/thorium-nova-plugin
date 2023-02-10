@@ -3,9 +3,9 @@ kind: inventory
 name: Nylon Thread Spool
 plural: Nylon Thread Spools
 description: Spools of nylon thread. Used for repairing upholstery.
-volume: 0.000049999999999999996
+volume: 0.05
 assets:
-  ? image
+  image:
 continuous: false
 durability: 1
 abundance: 1

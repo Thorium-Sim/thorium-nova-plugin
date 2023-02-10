@@ -3,7 +3,7 @@ kind: inventory
 name: Blood Analyzer Unit
 plural: Blood Analyzer Units
 description: Analyzes blood to find abnormalities or pathogens.
-volume: 0.0003
+volume: 0.3
 assets:
   ? image
 continuous: false

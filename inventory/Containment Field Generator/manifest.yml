@@ -3,7 +3,7 @@ kind: inventory
 name: Containment Field Generator
 plural: Containment Field Generators
 description: Creates a low-powered force field which will contain most humanoid lifeforms.
-volume: 0.008
+volume: 8
 assets:
   ? image
 continuous: false

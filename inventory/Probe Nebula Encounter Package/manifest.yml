@@ -3,7 +3,7 @@ kind: inventory
 name: Probe Nebula Encounter Package
 plural: Probe Nebula Encounter Packages
 description: A Nebula Encounter Package allows the probe to research a nebula.
-volume: 0.008
+volume: 8
 assets:
   ? image
 continuous: false
