@@ -2,11 +2,10 @@ apiVersion: inventory/v1
 kind: inventory
 name: Conduit
 plural: Conduits
-description:
-  Hollow tubing which cables and other small objects can pass through.
+description: Hollow tubing which cables and other small objects can pass through.
 volume: 0.2
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1

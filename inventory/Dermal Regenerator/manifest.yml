@@ -5,7 +5,7 @@ plural: Dermal Regenerators
 description: "Aides in the skin healing process. "
 volume: 0.2
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1

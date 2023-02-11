@@ -2,11 +2,10 @@ apiVersion: inventory/v1
 kind: inventory
 name: Alignment Laser
 plural: Alignment Lasers
-description:
-  Ensures that two objects are precisely aligned with nanometer precision.
+description: Ensures that two objects are precisely aligned with nanometer precision.
 volume: 7
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1

@@ -2,11 +2,10 @@ apiVersion: inventory/v1
 kind: inventory
 name: Isolinear Rod
 plural: Isolinear Rods
-description:
-  Rods which contain instructions and data. Can be overwritten with new data.
+description: Rods which contain instructions and data. Can be overwritten with new data.
 volume: 0.02
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1

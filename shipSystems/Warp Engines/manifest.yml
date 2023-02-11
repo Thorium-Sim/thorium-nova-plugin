@@ -20,3 +20,4 @@ nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
 powerNode: navigation
+powerToHeat: 10

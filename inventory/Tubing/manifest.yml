@@ -2,11 +2,10 @@ apiVersion: inventory/v1
 kind: inventory
 name: Tubing
 plural: Tubing
-description:
-  A hollow conduit which wires and other small things can be passed through.
+description: A hollow conduit which wires and other small things can be passed through.
 volume: 0.2
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1

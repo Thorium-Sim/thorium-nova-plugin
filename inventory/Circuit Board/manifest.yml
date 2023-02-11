@@ -5,7 +5,7 @@ plural: Circuit Boards
 description: Can be printed with the necessary circuit connections.
 volume: 0.05
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1

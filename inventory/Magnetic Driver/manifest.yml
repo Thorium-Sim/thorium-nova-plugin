@@ -5,7 +5,7 @@ plural: Magnetic Drivers
 description: Uses electromagnetic fields to push objects apart.
 volume: 0.05
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1

@@ -5,7 +5,7 @@ plural: Resistors
 description: Electrical components that impede current.
 volume: 0.005
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1

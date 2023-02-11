@@ -18,3 +18,4 @@ nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
 powerMultiplier: 1
+powerToHeat: 10

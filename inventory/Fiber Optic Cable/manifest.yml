@@ -2,11 +2,10 @@ apiVersion: inventory/v1
 kind: inventory
 name: Fiber Optic Cable
 plural: Fiber Optic Cables
-description:
-  Transmits packets of light to send information quickly across the cable.
+description: Transmits packets of light to send information quickly across the cable.
 volume: 0.1
 assets:
-  image:
+  ? image
 continuous: false
 durability: 1
 abundance: 1
