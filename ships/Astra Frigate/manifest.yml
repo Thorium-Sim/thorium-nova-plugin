@@ -53,8 +53,7 @@ theme:
   pluginId: Thorium Default
 decks:
   - name: Deck 1
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       1-l0bp2ara0g.svg
     nodes:
       - id: 1
@@ -707,8 +706,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 2
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       2-l0nts6vw3w.svg
     nodes:
       - id: 50
@@ -1127,8 +1125,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 3
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       3-l61d6ymb0p.svg
     nodes:
       - id: 91
@@ -1563,8 +1560,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 4
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       4-l61dvxmw2d.svg
     nodes:
       - id: 134
@@ -1961,8 +1957,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 5
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       5-l61dw2c810.svg
     nodes:
       - id: 166
@@ -2559,8 +2554,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 6
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       6-l61dwah32x.svg
     nodes:
       - id: 214
@@ -3302,8 +3296,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 7
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       7-l61dwd525t.svg
     nodes:
       - id: 274
@@ -3970,8 +3963,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 8
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       8-l61dwjwr0o.svg
     nodes:
       - id: 328
@@ -4451,8 +4443,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 9
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       9-l61dwn523v.svg
     nodes:
       - id: 367
@@ -4911,8 +4902,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 10
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       10-l61dwrr00m.svg
     nodes:
       - id: 404
@@ -5446,8 +5436,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 11
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       11-l61dx18x4z.svg
     nodes:
       - id: 444
@@ -5943,8 +5932,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 12
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       12-l61dx72v11.svg
     nodes:
       - id: 488
@@ -6364,8 +6352,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 13
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       13-l61dxbpd2p.svg
     nodes:
       - id: 522
@@ -6525,8 +6512,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 14
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       14-l61dxi7c3z.svg
     nodes:
       - id: 535
@@ -6950,8 +6936,7 @@ decks:
         systems: []
         contents: {}
   - name: Deck 15
-    backgroundUrl:
-      /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Frigate/assets/deck-Deck
       15-l61dxmiy2z.svg
     nodes:
       - id: 569
