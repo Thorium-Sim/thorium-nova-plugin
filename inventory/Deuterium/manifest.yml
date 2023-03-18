@@ -1,0 +1,17 @@
+name: Deuterium
+apiVersion: inventory/v1
+kind: inventory
+abundance: 1
+plural: Deuterium
+description: Deuterium is a stable isotope of hydrogen that is used as fuel in
+  fusion reactors. When deuterium is heated to extremely high temperatures, it
+  can undergo nuclear fusion with other isotopes to release large amounts of
+  energy.
+volume: 1
+assets: {}
+continuous: false
+durability: 1
+flags:
+  fuel:
+    fuelDensity: 5
+tags: []

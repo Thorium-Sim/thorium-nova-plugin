@@ -19,3 +19,4 @@ capacity: 46
 chargeRate: 180
 dischargeRate: 120
 powerToHeat: 10
+powerNode: null

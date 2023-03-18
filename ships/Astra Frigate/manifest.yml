@@ -1530,8 +1530,11 @@ decks:
         icon: ""
         radius: 15
         volume: 12000
-        flags: []
-        systems: []
+        flags:
+          - fuelStorage
+        systems:
+          - reactor
+          - battery
         contents: {}
       - id: 132
         name: Power Distribution Center
