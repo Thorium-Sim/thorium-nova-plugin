@@ -2,7 +2,7 @@ name: Warp Engines
 apiVersion: shipSystems/v1
 kind: shipSystems
 type: warpEngines
-description: ""
+description: ''
 tags: []
 assets:
   soundEffects: []

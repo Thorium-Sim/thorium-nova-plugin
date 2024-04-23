@@ -5,7 +5,7 @@ plural: Probe Warp Nacelles
 description: A Warp Nacelle (warp core included) allows the probe to travel at warp speed.
 volume: 2
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

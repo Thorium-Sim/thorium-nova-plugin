@@ -1,8 +1,8 @@
 id: Thorium Default
 name: Thorium Default
-author: ""
-description: "Wow, what an amazing plugin. #soblessed"
-tags: []
-active: true
+author: ''
+description: A great plugin
 default: true
-coverImage: coverImage.svg
+active: true
+tags: []
+coverImage: ''

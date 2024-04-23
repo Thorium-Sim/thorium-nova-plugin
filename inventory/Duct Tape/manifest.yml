@@ -5,7 +5,7 @@ plural: Duct Tape
 description: A sticky adhesive tape which can hold two things together in a pinch.
 volume: 0.06
 assets:
-  ? image
+  image: null
 continuous: true
 durability: 1
 abundance: 1

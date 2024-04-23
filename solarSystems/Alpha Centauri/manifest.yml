@@ -1,8 +1,8 @@
 name: Alpha Centauri
 position:
-  x: 2463889.8677763375
-  y: 178180.98892468214
-  z: -9709031.279105807
+  x: 569964.1193200249
+  'y': -1808841.1555847004
+  z: -3488000.170652462
 apiVersion: solarSystem/v1
 kind: solarSystems
 assets: {}
@@ -13,7 +13,7 @@ habitableZoneOuter: 3
 skyboxKey: wooden half copy
 stars:
   - name: Alpha Centauri A
-    description: ""
+    description: ''
     tags: []
     solarMass: 0.61404
     age: 21252488898.68934
@@ -32,8 +32,16 @@ stars:
       parentId: Alpha Centauri
 planets:
   - name: Alpha Centauri I
-    description: ""
+    description: ''
     tags: []
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 41269671
+      orbitalArc: 278.57310579796876
+      showOrbit: true
+      parentId: Alpha Centauri
     isPlanet:
       age: 9803639861.00678
       classification: M
@@ -46,19 +54,19 @@ planets:
       textureMapAsset: /plugins/Thorium Default/assets/default/planets/Terrestrial3.jpg
       cloudMapAsset: null
       ringMapAsset: /plugins/Thorium Default/assets/default/rings/rings3.png
+    population: 4571757137.59504
+    temperature: 301.5044
+  - name: Alpha Centauri II (1)
+    description: ''
+    tags: []
     satellite:
       axialTilt: 0
       eccentricity: 0
       inclination: 0
-      semiMajorAxis: 41269671
-      orbitalArc: 278.57310579796876
+      semiMajorAxis: 2703899383
+      orbitalArc: 318.49802093127335
       showOrbit: true
       parentId: Alpha Centauri
-    population: 4571757137.59504
-    temperature: 301.5044
-  - name: Alpha Centauri II
-    description: ""
-    tags: []
     isPlanet:
       age: 4912364220.39899
       classification: I
@@ -71,16 +79,9 @@ planets:
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
       textureMapAsset: /plugins/Thorium Default/assets/default/planets/2k_jupiter.jpg
-      cloudMapAsset: /plugins/Thorium
+      cloudMapAsset: >-
+        /plugins/Thorium
         Default/assets/default/clouds/clouds_textureGiantSharp.png
       ringMapAsset: null
-    satellite:
-      axialTilt: 0
-      eccentricity: 0
-      inclination: 0
-      semiMajorAxis: 2703899383
-      orbitalArc: 318.49802093127335
-      showOrbit: true
-      parentId: Alpha Centauri
     population: 0
     temperature: 307.32178

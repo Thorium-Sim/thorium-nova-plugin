@@ -5,7 +5,7 @@ plural: Interociters
 description: It emits a low hum when powered. There’s no limit to what it can do!
 volume: 0.8
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

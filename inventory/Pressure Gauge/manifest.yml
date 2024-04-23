@@ -5,7 +5,7 @@ plural: Pressure Gauges
 description: Determines the pressure of liquids and gasses.
 volume: 0.11
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

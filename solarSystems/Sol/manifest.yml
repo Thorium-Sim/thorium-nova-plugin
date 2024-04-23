@@ -1,8 +1,8 @@
 name: Sol
 position:
-  x: -9064.700049608247
-  y: 17325.8553968817
-  z: 55242.37552487501
+  x: 89989.2977332485
+  'y': 17328.756671637297
+  z: 241142.51917124967
 apiVersion: solarSystem/v1
 kind: solarSystems
 assets: {}
@@ -13,7 +13,7 @@ habitableZoneOuter: 3
 skyboxKey: Random Key
 stars:
   - name: Sol A
-    description: ""
+    description: ''
     tags: []
     solarMass: 1.31402
     age: 6686969520.18435
@@ -32,8 +32,16 @@ stars:
       parentId: Sol
 planets:
   - name: Earth
-    description: ""
+    description: ''
     tags: []
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 184000873
+      orbitalArc: 194.485154000049
+      showOrbit: true
+      parentId: Sol
     isPlanet:
       age: 7409271211.72022
       classification: M
@@ -46,19 +54,19 @@ planets:
       textureMapAsset: /plugins/Thorium Default/assets/default/planets/Terrestrial2.jpg
       cloudMapAsset: null
       ringMapAsset: /plugins/Thorium Default/assets/default/rings/rings3.png
-    satellite:
-      axialTilt: 0
-      eccentricity: 0
-      inclination: 0
-      semiMajorAxis: 184520873
-      orbitalArc: 194.285154000049
-      showOrbit: true
-      parentId: Sol
     population: 7713541106.94464
     temperature: 297.95614
   - name: Mars
-    description: ""
+    description: ''
     tags: []
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: -5
+      semiMajorAxis: 253928407
+      orbitalArc: 194
+      showOrbit: true
+      parentId: Sol
     isPlanet:
       age: 6685321809.42561
       classification: L
@@ -72,13 +80,5 @@ planets:
       textureMapAsset: /plugins/Thorium Default/assets/default/planets/Martian.jpg
       cloudMapAsset: /plugins/Thorium Default/assets/default/clouds/Clouds1.png
       ringMapAsset: null
-    satellite:
-      axialTilt: 0
-      eccentricity: 0
-      inclination: -5
-      semiMajorAxis: 253928407
-      orbitalArc: 194
-      showOrbit: true
-      parentId: Sol
     population: 3328.46145
     temperature: 270.973

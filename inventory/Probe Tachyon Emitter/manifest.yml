@@ -5,7 +5,7 @@ plural: Probe Tachyon Emitters
 description: A Tachyon Emitter allows the probe to interact with tachyon particles.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

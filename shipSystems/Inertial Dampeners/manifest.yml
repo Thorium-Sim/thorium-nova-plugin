@@ -2,11 +2,11 @@ name: Inertial Dampeners
 apiVersion: shipSystems/v1
 kind: shipSystems
 type: inertialDampeners
-description: ""
+description: ''
 tags: []
 assets:
   soundEffects: []
-dampening: 1
+dampening: 5
 allowMultiple: false
 requiredPower: 5
 defaultPower: 10

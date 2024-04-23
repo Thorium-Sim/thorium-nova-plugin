@@ -5,7 +5,7 @@ plural: Probe Solar Encounter Packages
 description: A Solar Encounter Package allows the probe to research a star.
 volume: 10
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

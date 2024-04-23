@@ -5,7 +5,7 @@ plural: Anti-nausea Dose
 description: Medicine for patience experiencing nausea symptoms
 volume: 0.015
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

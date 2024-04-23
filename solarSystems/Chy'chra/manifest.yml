@@ -1,0 +1,84 @@
+name: Chy'chra
+position:
+  x: 27025416.652028464
+  'y': 584315.0718019605
+  z: 42885122.67165792
+apiVersion: solarSystem/v1
+kind: solarSystems
+assets: {}
+description: A solar system named Chy'chra
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Random Key
+stars:
+  - name: Chy'chra A
+    description: ''
+    tags: []
+    solarMass: 0.86458
+    age: 9183105794.48507
+    spectralType: G
+    hue: 48.45898
+    isWhite: false
+    radius: 1.12865
+    temperature: 6295.04694
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 0
+      orbitalArc: 242.79346597372242
+      showOrbit: false
+      parentId: Chy'chra
+planets:
+  - name: Chy'chra I
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 2000000
+      orbitalArc: 83.58433451465895
+      showOrbit: true
+      parentId: Chy'chra
+    isPlanet:
+      age: 8482562354.34447
+      classification: M
+      radius: 6706.26766
+      terranMass: 1.01783
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Terrestrial2.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 9292620166.179
+    temperature: 291.90106
+  - name: Chy'chra II
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 4000000
+      orbitalArc: 129.360552683821
+      showOrbit: true
+      parentId: Chy'chra
+    isPlanet:
+      age: 6180093015.99727
+      classification: L
+      radius: 6194.78919
+      terranMass: 0.16726
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/default/rings/ring_texturesDust.png
+    population: 42494.287
+    temperature: 300.49955

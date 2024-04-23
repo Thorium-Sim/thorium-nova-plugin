@@ -5,7 +5,7 @@ plural: Metal Rods
 description: Rods of carbon-refined steel.
 volume: 0.1
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

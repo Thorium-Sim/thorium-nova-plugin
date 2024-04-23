@@ -5,7 +5,7 @@ plural: Type I Torpedo Casings
 description: A standard torpedo warhead delivery mechanism.
 volume: 886
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

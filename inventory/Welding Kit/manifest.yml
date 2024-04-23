@@ -5,7 +5,7 @@ plural: Welding Kit
 description: Supplies needed for joining metal pieces together.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

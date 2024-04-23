@@ -2,7 +2,7 @@ name: Class V Impulse Engines
 apiVersion: shipSystems/v1
 kind: shipSystems
 type: impulseEngines
-description: ""
+description: ''
 tags: []
 assets:
   soundEffects: []

@@ -2,7 +2,7 @@ name: Class IV Impulse Engines
 apiVersion: shipSystems/v1
 kind: shipSystems
 type: impulseEngines
-description: ""
+description: ''
 tags: []
 assets:
   soundEffects: []

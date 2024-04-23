@@ -5,7 +5,7 @@ plural: Magnetic Coils
 description: A carefully wound cable which produces electromagnetism when powered.
 volume: 3
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

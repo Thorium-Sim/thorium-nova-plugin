@@ -1,0 +1,17 @@
+name: Magnetic Torpedo Guidance
+apiVersion: inventory/v1
+kind: inventory
+plural: Magnetic Torpedo Guidance
+description: >-
+  Attracted to metallic object by detecting faint magnetic fields. Ineffective
+  against non-ferrous targets.
+volume: 60
+assets: {}
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoGuidance:
+    guidanceMode: magnetic
+    color: '#88B04B'

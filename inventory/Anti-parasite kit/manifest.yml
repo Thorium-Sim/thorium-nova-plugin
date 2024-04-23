@@ -5,7 +5,7 @@ plural: Anti-parasite kit
 description: Supplies for removing parasites from a patient.
 volume: 0.035
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

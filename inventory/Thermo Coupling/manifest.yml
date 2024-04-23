@@ -5,7 +5,7 @@ plural: Thermo Couplings
 description: Used for connecting parts in extreme temperatures.
 volume: 0.5
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

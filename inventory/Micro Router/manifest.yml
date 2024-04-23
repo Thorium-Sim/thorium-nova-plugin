@@ -5,7 +5,7 @@ plural: Micro Routers
 description: Used for drilling or boring very precise shapes and figures.
 volume: 0.12
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

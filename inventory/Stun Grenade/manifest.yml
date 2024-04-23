@@ -5,7 +5,7 @@ plural: Stun Grenades
 description: Creates a concussive shockwave which disorients anyone in the vicinity.
 volume: 0.06
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

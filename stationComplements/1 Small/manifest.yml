@@ -9,29 +9,48 @@ stations:
     cards:
       - name: Pilot
         component: Pilot
-        icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot Card.svg
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot
+          Card.svg
       - name: Navigation
         component: Navigation
-        icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Navigation.svg
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1
+          Small/assets/Navigation.svg
       - name: Cargo Control
         component: CargoControl
-        icon: /plugins/Thorium Default/StationComplements/1
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1
           Small/assets/CargoControl.svg
       - name: Officers Log
         component: OfficersLog
-        icon: /plugins/Thorium Default/StationComplements/1 Small/assets/OfficersLog.svg
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1
+          Small/assets/OfficersLog.svg
       - name: Alert Level
         component: AlertLevel
-        icon: /plugins/Thorium Default/StationComplements/1
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1
           Small/assets/AlertCondition.svg
       - name: Power Grid
         component: PowerGrid
-        icon: /plugins/Thorium Default/StationComplements/1 Small/assets/PowerGrid.svg
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1
+          Small/assets/PowerGrid.svg
+    widgets:
+      - name: Remote Access
+        component: RemoteAccess
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1
+          Small/assets/RemoteAccess.svg
+        size: sm
 assets:
   Pilot-logo: /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot.svg
   Pilot-Pilot-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot Card.svg
   Pilot-Navigation-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Navigation.svg
   Pilot-Cargo Control-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/CargoControl.svg
   Pilot-Officers Log-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/OfficersLog.svg
-  Pilot-Alert Level-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/AlertCondition.svg
+  Pilot-Alert Level-icon: >-
+    /plugins/Thorium Default/StationComplements/1
+    Small/assets/AlertCondition.svg
   Pilot-Power Grid-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/PowerGrid.svg

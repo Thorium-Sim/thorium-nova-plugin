@@ -5,7 +5,7 @@ plural: Radiation Treatment Kits
 description: Supplies for addressing acute radiation poisoning.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

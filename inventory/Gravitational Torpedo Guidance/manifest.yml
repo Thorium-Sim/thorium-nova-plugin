@@ -1,0 +1,18 @@
+name: Gravitational Torpedo Guidance
+apiVersion: inventory/v1
+kind: inventory
+plural: Gravitational Torpedo Guidance
+description: >-
+  Detects the faint curve in spacetime caused by massive objects. Counteracts
+  any torpedo jammers, but provides weak guidance. Works better the more massive
+  the target is.
+volume: 60
+assets: {}
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoGuidance:
+    guidanceMode: gravitational
+    color: cadetblue

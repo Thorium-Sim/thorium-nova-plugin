@@ -7,9 +7,9 @@ tags: []
 assets:
   soundEffects: []
 directionMaxSpeed: 1
-directionThrust: 437500000000
+directionThrust: 437500000
 rotationMaxSpeed: 5
-rotationThrust: 437500000000
+rotationThrust: 437500000
 allowMultiple: false
 requiredPower: 5
 defaultPower: 10

@@ -5,7 +5,7 @@ plural: Taser Wands
 description: Imparts an electric shock on the target, temporarily incapacitating them.
 volume: 0.09
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

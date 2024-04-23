@@ -5,7 +5,7 @@ plural: Pipes
 description: Used to transfer liquids throughout the ship.
 volume: 62
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

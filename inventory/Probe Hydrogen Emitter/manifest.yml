@@ -5,7 +5,7 @@ plural: Probe Hydrogen Emitters
 description: A Hydrogen Emitter allows the probe to interact with hydrogen particles.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

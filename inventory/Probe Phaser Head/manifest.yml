@@ -5,7 +5,7 @@ plural: Probe Phaser Heads
 description: A Phaser Head allows the probe to fire one phaser shot at an enemy ship.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

@@ -2,7 +2,7 @@ name: Battery
 apiVersion: shipSystems/v1
 kind: shipSystems
 type: battery
-description: ""
+description: ''
 tags: []
 assets:
   soundEffects: []

@@ -5,7 +5,7 @@ plural: Wiring
 description: Used to send electrical signals throughout the ship.
 volume: 0.1
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

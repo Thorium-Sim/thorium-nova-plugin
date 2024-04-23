@@ -1,0 +1,166 @@
+name: Eclipse
+apiVersion: ships/v1
+kind: timelines
+description: >-
+  A secret, but routine, weapons test takes the crew to an uninhabited system.
+  What could possibly go wrong?
+category: ''
+tags: []
+isMission: true
+assets:
+  cover: /plugins/Thorium Default/timelines/Eclipse/assets/logo.jpeg
+steps:
+  - id: ms-llvltmbu5f
+    name: Timeline Initialization
+    description: >-
+      Initialize anything that needs to be present at the beginning of this
+      timeline.
+    tags: []
+    actions:
+      - id: act-llvltmbv1i
+        name: Advance Timeline
+        action: triggers.create
+        values:
+          name: Advance Timeline
+          active: true
+          conditions:
+            - type: eventListener
+              event: alertLevel.update
+              values:
+                shipId:
+                  query:
+                    - component: isPlayerShip
+                      property: isPresent
+                      comparison: null
+                      value: ''
+                  select:
+                    component: id
+                    property: isPresent
+                    matchType: first
+                    comparison: null
+                alertLevel: '1'
+          actions:
+            - action: timeline.advance
+              id: act-blahblahblah
+              name: 'Timeline: Advance'
+              values: {}
+      - id: act-lmibnoge60
+        name: 'Thorium: Debug'
+        action: thorium.debug
+        values:
+          message: This is a test
+  - id: ms-lmibpezx5m
+    name: Step 1
+    description: ''
+    tags: []
+    actions:
+      - id: act-lmibpezy0r
+        name: 'Trigger: Advance Timeline'
+        action: triggers.create
+        values:
+          name: Advance Timeline
+          active: true
+          conditions:
+            - type: entityMatch
+              query:
+                - component: isPlayerShip
+                  property: isPresent
+                  comparison: null
+                  value: ''
+                - component: isShip
+                  property: alertLevel
+                  comparison: '='
+                  value: '5'
+              matchCount: '>=1'
+          actions:
+            - id: act-lmibpezz52
+              name: 'Timeline: Advance'
+              action: timeline.advance
+              values: {}
+      - id: act-lmibpub621
+        name: 'Thorium: Debug'
+        action: thorium.debug
+        values:
+          message: Step 1
+      - id: act-lmibpyvu21
+        name: 'Thorium: Delay'
+        action: thorium.delay
+        values:
+          milliseconds: '5000'
+      - id: act-lmibq4mp3o
+        name: 'Thorium: Debug'
+        action: thorium.debug
+        values:
+          message: After delay!
+      - id: act-lmibqai74u
+        name: 'Thorium: Debug'
+        action: thorium.debug
+        values:
+          message:
+            query:
+              - component: isPlayerShip
+                property: isPresent
+                comparison: null
+                value: ''
+            select:
+              component: identity
+              property: name
+              matchType: first
+              comparison: '='
+  - id: ms-lmj1c5934a
+    name: Step 2
+    description: ''
+    tags: []
+    actions:
+      - id: act-lmj1c5944h
+        name: 'Trigger: Advance Timeline'
+        action: triggers.create
+        values:
+          name: Advance Timeline
+          active: true
+          conditions:
+            - type: distance
+              entityA:
+                - component: isPlayerShip
+                  property: isPresent
+                  comparison: null
+                  value: ''
+              entityB:
+                - component: identity
+                  property: name
+                  comparison: '='
+                  value: Mars
+              condition: lessThan
+              distance: '50000'
+          actions:
+            - id: act-lmj1c59530
+              name: 'Timeline: Advance'
+              action: timeline.advance
+              values: {}
+      - id: act-lmj1d61e2s
+        name: 'Thorium: Debug'
+        action: thorium.debug
+        values:
+          message: 'Reached step 2. '
+  - id: ms-lmj1eycl47
+    name: Step 3
+    description: ''
+    tags: []
+    actions:
+      - id: act-lmj1eycm5m
+        name: 'Trigger: Advance Timeline'
+        action: triggers.create
+        values:
+          name: Advance Timeline
+          active: true
+          conditions: []
+          actions:
+            - id: act-lmj1eycn3a
+              name: 'Timeline: Advance'
+              action: timeline.advance
+              values: {}
+      - id: act-lmj1f2a94l
+        name: 'Thorium: Debug'
+        action: thorium.debug
+        values:
+          message: Got to step 3

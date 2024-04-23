@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Probe Proximity Destruct
 plural: Probe Proximity Destructs
-description: A Proximity Self-Destruct detector tells the probe to blow-up when
-  an enemy is near.
+description: >-
+  A Proximity Self-Destruct detector tells the probe to blow-up when an enemy is
+  near.
 volume: 2
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

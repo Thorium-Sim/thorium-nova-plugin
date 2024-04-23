@@ -2,10 +2,10 @@ apiVersion: inventory/v1
 kind: inventory
 name: Dermal Regenerator
 plural: Dermal Regenerators
-description: "Aides in the skin healing process. "
+description: 'Aides in the skin healing process. '
 volume: 0.2
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

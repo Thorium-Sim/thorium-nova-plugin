@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Hypospray
 plural: Hyposprays
-description: A universal medication delivery system, with multiple medications
-  available in each.
+description: >-
+  A universal medication delivery system, with multiple medications available in
+  each.
 volume: 0.15
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

@@ -5,7 +5,7 @@ plural: Probe Resonance Emitters
 description: A Resonance Emitter allows the probe to interact with resonating particles.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

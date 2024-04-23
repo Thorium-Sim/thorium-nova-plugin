@@ -5,7 +5,7 @@ plural: Handcuffs
 description: Used for securing the hands of a prisoner to decrease their resistance.
 volume: 0.02
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

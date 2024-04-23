@@ -5,7 +5,7 @@ plural: Flu Medication Doses
 description: Medicine for addressing the symptoms of flu-like viruses.
 volume: 0.015
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

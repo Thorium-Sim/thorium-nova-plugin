@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Water
 plural: Water
-description: Hundreds of uses, including cooking, hydration, cleaning,
-  lubrication, and heat transfer.
+description: >-
+  Hundreds of uses, including cooking, hydration, cleaning, lubrication, and
+  heat transfer.
 volume: 1
 assets:
-  ? image
+  image: null
 continuous: true
 durability: 1
 abundance: 1

@@ -5,7 +5,7 @@ plural: Medkits
 description: Equipped with the necessary supplies to address most field medical situations.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

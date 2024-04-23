@@ -5,7 +5,7 @@ plural: Titanium Hull Plates
 description: A strong material commonly used for internal repairs.
 volume: 10
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

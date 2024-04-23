@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Type III Probe Casing
 plural: Type III Probe Casings
-description: This is the largest standard probe. It can hold up to 16 units of
-  equipment. Use for probe networks and general purposes.
+description: >-
+  This is the largest standard probe. It can hold up to 16 units of equipment.
+  Use for probe networks and general purposes.
 volume: 400
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

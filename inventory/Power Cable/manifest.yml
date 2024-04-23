@@ -5,7 +5,7 @@ plural: Power Cables
 description: Cables which transfer high-voltage power.
 volume: 0.1
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

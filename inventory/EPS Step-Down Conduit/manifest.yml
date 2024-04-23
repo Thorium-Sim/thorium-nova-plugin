@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: EPS Step-Down Conduit
 plural: EPS Step-Down Conduits
-description: Necessary for altering the relative power of energy as it moves
-  through the ship.
+description: >-
+  Necessary for altering the relative power of energy as it moves through the
+  ship.
 volume: 5
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

@@ -5,7 +5,7 @@ plural: Detonators
 description: Used with explosives to remotely detonate the charge.
 volume: 0.064
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

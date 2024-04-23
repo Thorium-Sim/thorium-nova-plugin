@@ -5,7 +5,7 @@ plural: Probe Targeting Sensors
 description: Targeting sensors extends the targeting range of the probe.
 volume: 2
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

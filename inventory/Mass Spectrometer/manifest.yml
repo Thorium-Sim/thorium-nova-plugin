@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Mass Spectrometer
 plural: Mass Spectrometers
-description: Used to determine the chemical composition of a material with just
-  a few photons of light.
+description: >-
+  Used to determine the chemical composition of a material with just a few
+  photons of light.
 volume: 10
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

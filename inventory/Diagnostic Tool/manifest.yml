@@ -5,7 +5,7 @@ plural: Diagnostic Tools
 description: Used for troubleshooting system failures.
 volume: 1
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

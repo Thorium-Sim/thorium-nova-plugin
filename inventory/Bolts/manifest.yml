@@ -5,7 +5,7 @@ plural: Bolts
 description: Used to join two objects together.
 volume: 0.09
 assets:
-  ? image
+  image: null
 continuous: true
 durability: 1
 abundance: 1

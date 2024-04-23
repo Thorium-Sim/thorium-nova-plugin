@@ -5,7 +5,7 @@ plural: Probe Radiation Emitters
 description: A Radiation Emitter allows the probe to interact with radioactive particles.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

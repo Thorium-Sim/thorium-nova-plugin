@@ -5,7 +5,7 @@ plural: Sonic Wrenches
 description: Uses sound waves to secure objects together. Must be used with bolts.
 volume: 0.09
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Probe Decoy Package
 plural: Probe Decoy Packages
-description: A Decoy Package sends out signals to make sensor devices detect the
-  probe as a ship.
+description: >-
+  A Decoy Package sends out signals to make sensor devices detect the probe as a
+  ship.
 volume: 8
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

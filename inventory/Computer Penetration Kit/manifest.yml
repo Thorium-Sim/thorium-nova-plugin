@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Computer Penetration Kit
 plural: Computer Penetration Kits
-description: Tools to help determine the security of a computer network.
-  Intended only for test purposes.
+description: >-
+  Tools to help determine the security of a computer network. Intended only for
+  test purposes.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

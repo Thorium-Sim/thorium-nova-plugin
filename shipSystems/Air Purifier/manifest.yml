@@ -3,7 +3,7 @@ apiVersion: shipSystems/v1
 kind: shipSystems
 allowMultiple: true
 type: generic
-description: ""
+description: ''
 tags: []
 assets:
   soundEffects: []

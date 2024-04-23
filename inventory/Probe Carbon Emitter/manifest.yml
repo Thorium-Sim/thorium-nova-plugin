@@ -5,7 +5,7 @@ plural: Probe Carbon Emitters
 description: A Carbon Emitter allows the probe to interact with carbon particles.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

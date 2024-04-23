@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Science Probe Casing
 plural: Science Probe Casings
-description: This probe can use special emitters and detectors for specific
-  scientific experiments. It holds 12 units of equipment.
+description: >-
+  This probe can use special emitters and detectors for specific scientific
+  experiments. It holds 12 units of equipment.
 volume: 300
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

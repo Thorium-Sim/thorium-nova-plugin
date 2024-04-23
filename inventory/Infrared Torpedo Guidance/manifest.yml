@@ -1,0 +1,18 @@
+name: Infrared Torpedo Guidance
+apiVersion: inventory/v1
+kind: inventory
+plural: Infrared Torpedo Guidance
+description: >-
+  Uses high-gain silicon/arsenic (Si:As) detectors to track targets using heat
+  signatures. Effective against most forms of torpedo jamming, but can easily be
+  spoofed with decoys.
+volume: 60
+assets: {}
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoGuidance:
+    color: tomato
+    guidanceMode: infrared

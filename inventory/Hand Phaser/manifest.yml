@@ -2,10 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Hand Phaser
 plural: Hand Phasers
-description: Smaller phaser weapons which can stun the target for several moments at a time.
+description: >-
+  Smaller phaser weapons which can stun the target for several moments at a
+  time.
 volume: 0.075
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

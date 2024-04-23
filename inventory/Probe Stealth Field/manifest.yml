@@ -5,7 +5,7 @@ plural: Probe Stealth Fields
 description: A stealth field masks the probe making it harder to detect.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

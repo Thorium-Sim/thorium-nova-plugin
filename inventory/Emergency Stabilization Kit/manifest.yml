@@ -5,7 +5,7 @@ plural: Emergency Stabilization Kits
 description: Supplies for quickly stabilizing a critical patient.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

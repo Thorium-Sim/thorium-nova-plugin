@@ -5,7 +5,7 @@ plural: Coaxial Servos
 description: Mechanical rotors with two degrees of freedom.
 volume: 3
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

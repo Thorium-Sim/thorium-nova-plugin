@@ -5,7 +5,7 @@ plural: Tubing
 description: A hollow conduit which wires and other small things can be passed through.
 volume: 0.2
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

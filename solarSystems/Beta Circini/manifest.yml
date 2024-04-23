@@ -1,7 +1,7 @@
 name: Beta Circini
 position:
   x: 5359271.418075276
-  y: -967835.6536721587
+  'y': -967835.6536721587
   z: 31279151.1250102
 apiVersion: solarSystem/v1
 kind: solarSystems
@@ -13,7 +13,7 @@ habitableZoneOuter: 3
 skyboxKey: Random Key
 stars:
   - name: Beta Circini  A
-    description: ""
+    description: ''
     tags: []
     solarMass: 0.4659
     age: 19853541037.32523
@@ -32,8 +32,16 @@ stars:
       parentId: Beta Circini
 planets:
   - name: Beta Circini Planet
-    description: ""
+    description: ''
     tags: []
+    satellite:
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      semiMajorAxis: 55262724
+      orbitalArc: 284.05321968656733
+      showOrbit: true
+      parentId: Beta Circini
     isPlanet:
       age: 1364638362.58512
       classification: F
@@ -43,16 +51,10 @@ planets:
       lifeforms:
         - None
       atmosphericComposition: []
-      textureMapAsset: /plugins/Thorium Default/assets/default/planets/planet_textureCrimson.jpg
+      textureMapAsset: >-
+        /plugins/Thorium
+        Default/assets/default/planets/planet_textureCrimson.jpg
       cloudMapAsset: null
       ringMapAsset: /plugins/Thorium Default/assets/default/rings/ring_texturesDust.png
-    satellite:
-      axialTilt: 0
-      eccentricity: 0
-      inclination: 0
-      semiMajorAxis: 55262724
-      orbitalArc: 284.05321968656733
-      showOrbit: true
-      parentId: Beta Circini
     population: 0
     temperature: 767.59357

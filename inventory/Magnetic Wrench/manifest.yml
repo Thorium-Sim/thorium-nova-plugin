@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Magnetic Wrench
 plural: Magnetic Wrenches
-description: Uses electromagnetic fields to secure objects together. Must be
-  used with bolts.
+description: >-
+  Uses electromagnetic fields to secure objects together. Must be used with
+  bolts.
 volume: 0.09
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

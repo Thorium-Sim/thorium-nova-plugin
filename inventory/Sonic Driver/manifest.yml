@@ -5,7 +5,7 @@ plural: Sonic Drivers
 description: Uses sound waves to push two objects apart.
 volume: 0.05
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

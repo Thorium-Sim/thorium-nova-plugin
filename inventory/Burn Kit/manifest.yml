@@ -5,7 +5,7 @@ plural: Burn Kits
 description: Supplies for relieving pain and healing burn sites.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Breathing Apparatus
 plural: Breathing Apparatuses
-description: Uses chemical processes to convert CO2 into breathable oxygen,
-  allowing the wearer to stay alive in low-oxygen environments.
+description: >-
+  Uses chemical processes to convert CO2 into breathable oxygen, allowing the
+  wearer to stay alive in low-oxygen environments.
 volume: 0.5
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

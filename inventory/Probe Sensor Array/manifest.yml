@@ -5,7 +5,7 @@ plural: Probe Sensor Arrays
 description: The Sensor Array gives the probe general scanning abilities.
 volume: 4
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

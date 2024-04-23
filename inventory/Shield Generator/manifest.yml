@@ -5,7 +5,7 @@ plural: Shield Generators
 description: Generates a powerful energy shield around the ship.
 volume: 3700
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

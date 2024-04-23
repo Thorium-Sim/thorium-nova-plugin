@@ -5,7 +5,7 @@ plural: Water Filtration Units
 description: Filters contaminants from water.
 volume: 90
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

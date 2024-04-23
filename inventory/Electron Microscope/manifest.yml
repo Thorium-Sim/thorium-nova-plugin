@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Electron Microscope
 plural: Electron Microscopes
-description: A powerful microscope which pulses electrons over an object to
-  obtain a picture of their shape.
+description: >-
+  A powerful microscope which pulses electrons over an object to obtain a
+  picture of their shape.
 volume: 20
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

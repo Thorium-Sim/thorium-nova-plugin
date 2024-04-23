@@ -5,7 +5,7 @@ plural: Coolant Injectors
 description: Used for delivering coolant into the hottest of environments.
 volume: 4
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

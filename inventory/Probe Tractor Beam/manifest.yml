@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Probe Tractor Beam
 plural: Probe Tractor Beams
-description: Projects dark matter particles to create areas of negative
-  gravitation. Can be used to pull objects towards the probe.
+description: >-
+  Projects dark matter particles to create areas of negative gravitation. Can be
+  used to pull objects towards the probe.
 volume: 10
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

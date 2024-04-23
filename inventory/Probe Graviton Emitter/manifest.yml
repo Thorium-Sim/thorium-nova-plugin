@@ -5,7 +5,7 @@ plural: Probe Graviton Emitters
 description: A Graviton Emitter allows the probe to interact with graviton particles.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

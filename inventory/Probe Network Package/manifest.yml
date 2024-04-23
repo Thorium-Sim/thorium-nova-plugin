@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Probe Network Package
 plural: Probe Network Packages
-description: A probe network package instructs the probe to network with up to 7
-  other probes.
+description: >-
+  A probe network package instructs the probe to network with up to 7 other
+  probes.
 volume: 0.5
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Probe Metaphasic Shield Generator
 plural: Probe Metaphasic Shield Generators
-description: Shield Generator that can construct a Shield Grid with other probes
-  up to 2,500 Km protecting from radiation.
+description: >-
+  Shield Generator that can construct a Shield Grid with other probes up to
+  2,500 Km protecting from radiation.
 volume: 12
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

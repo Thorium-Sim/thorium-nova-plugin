@@ -5,7 +5,7 @@ plural: Liquid Oxygen Tanks
 description: A container of compressed liquid oxygen. Highly flammable.
 volume: 10
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

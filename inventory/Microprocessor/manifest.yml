@@ -5,7 +5,7 @@ plural: Microprocessor
 description: A necessary component of computer systems.
 volume: 0.06
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

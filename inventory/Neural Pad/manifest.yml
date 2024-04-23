@@ -5,7 +5,7 @@ plural: Neural Pads
 description: Suppresses neural activity for patients with traumatic brain injuries.
 volume: 0.6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

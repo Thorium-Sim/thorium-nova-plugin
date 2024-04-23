@@ -5,7 +5,7 @@ plural: Mechanical Tool Kits
 description: Supplies for repairing, maintaining, and improving mechanical systems.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

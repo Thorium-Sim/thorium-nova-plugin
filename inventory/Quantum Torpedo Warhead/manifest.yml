@@ -2,15 +2,19 @@ apiVersion: inventory/v1
 kind: inventory
 name: Quantum Torpedo Warhead
 plural: Quantum Torpedo Warheads
-description: Upon detonation it alters the spin of the quarks that make up
-  protons and neutrons, turning them into anti-matter. When this combines with
-  neighboring matter, destruction ensues.
+description: >-
+  Upon detonation it alters the spin of the quarks that make up protons and
+  neutrons, turning them into anti-matter. When this combines with neighboring
+  matter, destruction ensues.
 volume: 85
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1
 flags:
-  torpedoWarhead: {}
+  torpedoWarhead:
+    damageType: radiation
+    color: rebeccapurple
+    yield: 2000
 tags: []

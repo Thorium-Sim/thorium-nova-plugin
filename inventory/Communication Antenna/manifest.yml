@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Communication Antenna
 plural: Communications Antennas
-description: Generates communication signals which can be sent through normal
-  space or sub-space.
+description: >-
+  Generates communication signals which can be sent through normal space or
+  sub-space.
 volume: 3500
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

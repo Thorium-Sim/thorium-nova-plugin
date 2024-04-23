@@ -1,0 +1,15 @@
+name: Visual Torpedo Guidance
+apiVersion: inventory/v1
+kind: inventory
+plural: Visual Torpedo Guidance
+description: Uses cameras visible light to guide torpedo based on a visual target.
+volume: 60
+assets: {}
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoGuidance:
+    guidanceMode: visual
+    color: goldenrod

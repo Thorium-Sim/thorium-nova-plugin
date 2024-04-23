@@ -5,7 +5,7 @@ plural: Liquid Nitrogen Tanks
 description: A container of compressed liquid nitrogen.
 volume: 10
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

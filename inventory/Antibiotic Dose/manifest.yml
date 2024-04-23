@@ -5,7 +5,7 @@ plural: Antibiotic Doses
 description: Medicine for eradicating bacterial infection in patients.
 volume: 0.015
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

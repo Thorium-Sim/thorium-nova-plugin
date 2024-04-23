@@ -5,7 +5,7 @@ plural: Network Nodes
 description: Connects multiple computers together into a single network.
 volume: 0.12
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

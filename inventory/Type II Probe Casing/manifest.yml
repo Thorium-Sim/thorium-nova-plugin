@@ -2,11 +2,12 @@ apiVersion: inventory/v1
 kind: inventory
 name: Type II Probe Casing
 plural: Type II Probe Casings
-description: This medium-sized probe can hold 10 units of equipment. Use for
-  probe networks and general purposes.
+description: >-
+  This medium-sized probe can hold 10 units of equipment. Use for probe networks
+  and general purposes.
 volume: 250
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

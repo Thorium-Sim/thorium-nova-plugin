@@ -1,0 +1,30 @@
+name: Sandbox
+apiVersion: ships/v1
+kind: timelines
+description: What could possibly go wrong?
+category: Training
+tags:
+  - training
+isMission: true
+assets:
+  cover: /plugins/Thorium Default/timelines/Sandbox/assets/logo.jpeg
+steps:
+  - id: ms-lm6zxfee0o
+    name: Timeline Initialization
+    description: >-
+      Initialize anything that needs to be present at the beginning of this
+      timeline.
+    tags: []
+    actions:
+      - id: act-lm6zxfef3o
+        name: 'Trigger: Advance Timeline'
+        action: triggers.create
+        values:
+          name: Advance Timeline
+          active: true
+          conditions: []
+          actions:
+            - id: act-lm6zxfeg4o
+              name: 'Timeline: Advance'
+              action: timeline.advance
+              values: {}

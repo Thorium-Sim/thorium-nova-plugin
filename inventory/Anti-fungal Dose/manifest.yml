@@ -5,7 +5,7 @@ plural: Anti-fungal Doses
 description: Medicine for curing patients of diseases involving fungus and other mycelia
 volume: 0.015
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

@@ -5,7 +5,7 @@ plural: Splints
 description: Used to bind a broken bone for a short time until it can be treated further.
 volume: 0.02
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

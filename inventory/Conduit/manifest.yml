@@ -5,7 +5,7 @@ plural: Conduits
 description: Hollow tubing which cables and other small objects can pass through.
 volume: 0.2
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1

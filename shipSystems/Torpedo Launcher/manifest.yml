@@ -1,0 +1,22 @@
+name: Torpedo Launcher
+apiVersion: shipSystems/v1
+kind: shipSystems
+description: ''
+type: torpedoLauncher
+tags: []
+assets:
+  soundEffects: []
+allowMultiple: false
+requiredPower: 2
+defaultPower: 2
+maxSafePower: 5
+powerNode: offense
+powerToHeat: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+loadTime: 5000
+fireTime: 1000
+headingDegree: 0
+pitchDegree: 0

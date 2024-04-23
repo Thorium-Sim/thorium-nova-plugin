@@ -5,7 +5,7 @@ plural: Surgical Kits
 description: Supplies for performing minor surgical procedures away from the sickbay.
 volume: 6
 assets:
-  ? image
+  image: null
 continuous: false
 durability: 1
 abundance: 1
