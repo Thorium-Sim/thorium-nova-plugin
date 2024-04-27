@@ -1,0 +1,23 @@
+name: Quantum Torpedo
+apiVersion: inventory/v1
+kind: inventory
+plural: Quantum Torpedoes
+description: >-
+  A standard torpedo which alters the spin of the quarks that make up protons
+  and neutrons, turning them into anti-matter. Uses visible light to track
+  targets.
+volume: 85
+assets: {}
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoCasing: {}
+  torpedoWarhead:
+    yield: 2000
+    damageType: radiation
+    color: blue
+  torpedoGuidance:
+    guidanceMode: visual
+    color: rebeccapurple

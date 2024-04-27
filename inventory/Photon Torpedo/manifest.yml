@@ -1,0 +1,19 @@
+name: Photon Torpedo
+apiVersion: inventory/v1
+kind: inventory
+plural: Photon Torpedoes
+description: >-
+  A standard torpedo that uses packets of photons to disrupt the electron shells
+  of atoms, causing an explosive reaction. Uses visible light to track targets.
+volume: 85
+assets: {}
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoCasing: {}
+  torpedoWarhead: {}
+  torpedoGuidance:
+    guidanceMode: visual
+    color: rebeccapurple
