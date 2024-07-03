@@ -164,3 +164,33 @@ steps:
         action: thorium.debug
         values:
           message: Got to step 3
+      - id: act-lwv998241a
+        name: 'Effects: Trigger'
+        action: effects.trigger
+        values:
+          voice: Albert
+          config:
+            message: test
+            voice: Aaron
+            duration: '6'
+      - id: act-lwwf9vjj0k
+        name: 'Cargo Control: Add Item To Room'
+        action: cargoControl.addItemToRoom
+        values: {}
+      - id: act-lx2gfcew4t
+        name: 'Starmap Core: Set Ships Behavior'
+        action: starmapCore.setShipsBehavior
+        values: {}
+      - id: act-lx2hn3551w
+        name: 'Waypoints: Spawn'
+        action: waypoints.spawn
+        values:
+          position:
+            'y': '1'
+      - id: act-lxtn0oy56m
+        name: 'Ship: Spawn'
+        action: ship.spawn
+        values:
+          template:
+            pluginId: Thorium Default
+            name: Astra Frigate

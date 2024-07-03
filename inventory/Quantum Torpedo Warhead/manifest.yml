@@ -16,5 +16,5 @@ flags:
   torpedoWarhead:
     damageType: radiation
     color: rebeccapurple
-    yield: 2000
+    yield: 7.2
 tags: []

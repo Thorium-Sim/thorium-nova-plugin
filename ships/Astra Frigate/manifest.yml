@@ -45,6 +45,20 @@ shipSystems:
   - id: ssys-ldjjvf8x19
     systemId: Battery
     pluginId: Thorium Default
+  - id: ssys-lvn3bfms2r
+    systemId: Targeting
+    pluginId: Thorium Default
+  - id: ssys-lvvltrfu2n
+    systemId: Torpedo Launcher
+    pluginId: Thorium Default
+    overrides:
+      name: Fore Launcher
+  - id: ssys-lvvlu5n63a
+    systemId: Torpedo Launcher
+    pluginId: Thorium Default
+    overrides:
+      name: Aft Launcher
+      headingDegree: 180
 theme:
   themeId: Default
   pluginId: Thorium Default
@@ -3232,26 +3246,32 @@ decks:
       - id: 268
         name: Aft Torpedo Launcher
         deckIndex: null
-        x: 33.13641425271123
-        'y': 100.94416071009947
+        x: 32.36102362771123
+        'y': 101.89142633509947
         isRoom: true
         icon: ''
         radius: 0
-        volume: 12000
-        flags: []
-        systems: []
+        volume: 2000
+        flags:
+          - torpedoStorage
+          - cargo
+        systems:
+          - torpedoLauncher
         contents: {}
       - id: 269
         name: Aft Torpedo Launcher
         deckIndex: null
-        x: 30.82677246928703
-        'y': 169.09460997479476
+        x: 30.85606934428703
+        'y': 169.25867247479476
         isRoom: true
         icon: ''
         radius: 0
-        volume: 12000
-        flags: []
-        systems: []
+        volume: 2000
+        flags:
+          - torpedoStorage
+          - cargo
+        systems:
+          - torpedoLauncher
         contents: {}
       - id: 270
         name: Torpedo/Probe Maintenance
@@ -3911,26 +3931,32 @@ decks:
       - id: 323
         name: Bow Torpedo Launcher
         deckIndex: null
-        x: 313
-        'y': 168
+        x: 314.537109375
+        'y': 168.234375
         isRoom: true
         icon: ''
         radius: 0
-        volume: 12000
-        flags: []
-        systems: []
+        volume: 2000
+        flags:
+          - cargo
+          - torpedoStorage
+        systems:
+          - torpedoLauncher
         contents: {}
       - id: 324
-        name: Bow Torpedo Launcher
+        name: Fore Torpedo Launcher
         deckIndex: null
-        x: 313
-        'y': 100.5
+        x: 312.99609375
+        'y': 101.22265625
         isRoom: true
         icon: ''
         radius: 0
-        volume: 12000
-        flags: []
-        systems: []
+        volume: 2000
+        flags:
+          - cargo
+          - torpedoStorage
+        systems:
+          - torpedoLauncher
         contents: {}
       - id: 325
         name: Swimming Pool
@@ -3948,8 +3974,8 @@ decks:
       - id: 326
         name: Navigational Deflector Array
         deckIndex: null
-        x: 323.97912589168817
-        'y': 133.5
+        x: 324.53186026668817
+        'y': 134.802734375
         isRoom: true
         icon: ''
         radius: 11
@@ -4441,8 +4467,8 @@ decks:
       - id: 366
         name: Navigational Sensors Complex
         deckIndex: null
-        x: 307.30629419585046
-        'y': 134.47068535024167
+        x: 308.17543482085046
+        'y': 136.78123222524167
         isRoom: true
         icon: ''
         radius: 20
@@ -4864,7 +4890,7 @@ decks:
         name: Shield Generator Room
         deckIndex: null
         x: 288.5
-        'y': 102.94033813476562
+        'y': 102.64346313476562
         isRoom: true
         icon: ''
         radius: 9
@@ -4888,8 +4914,8 @@ decks:
       - id: 402
         name: Forward Airlock
         deckIndex: null
-        x: 316.5
-        'y': 134.5
+        x: 317.302734375
+        'y': 135
         isRoom: true
         icon: ''
         radius: 9
@@ -4901,7 +4927,7 @@ decks:
         name: Tractor Beam Control
         deckIndex: null
         x: 41
-        'y': 133
+        'y': 134.1015625
         isRoom: true
         icon: ''
         radius: 5
@@ -5183,7 +5209,7 @@ decks:
         name: Escape Pod Control Room
         deckIndex: null
         x: 310.13263957004875
-        'y': 136.23865982514332
+        'y': 135.32459732514332
         isRoom: true
         icon: ''
         radius: 18
@@ -5933,8 +5959,8 @@ decks:
       - id: 487
         name: Escape Pods
         deckIndex: null
-        x: 309.6996319939864
-        'y': 132.00159874749457
+        x: 310.0082257439864
+        'y': 132.92542687249457
         isRoom: true
         icon: ''
         radius: 20
@@ -6214,8 +6240,8 @@ decks:
       - id: 510
         name: Probe Launcher
         deckIndex: null
-        x: 307.5
-        'y': 135.06932067871094
+        x: 308.908203125
+        'y': 133.97557067871094
         isRoom: true
         icon: ''
         radius: 11
@@ -6266,7 +6292,7 @@ decks:
         name: Adaptive Alien Quarters
         deckIndex: null
         x: 224.5
-        'y': 114
+        'y': 115.83984375
         isRoom: true
         icon: ''
         radius: 0
@@ -6806,43 +6832,16 @@ decks:
         flags: []
         systems: []
         contents: {}
-      - id: 558
-        name: Torpedo Launcher
-        deckIndex: null
-        x: 49.51509155459309
-        'y': 77.61333894266367
-        isRoom: true
-        icon: ''
-        radius: 7
-        volume: 2000
-        flags:
-          - cargo
-          - torpedoStorage
-        systems: []
-        contents: {}
       - id: 559
         name: Airlock
         deckIndex: null
         x: 68.80510130079143
-        'y': 134.91601495342934
+        'y': 134.02538995342934
         isRoom: true
         icon: ''
         radius: 0
         volume: 12000
         flags: []
-        systems: []
-        contents: {}
-      - id: 560
-        name: Torpedo Launcher
-        deckIndex: null
-        x: 51.217151238081186
-        'y': 192.5023719066713
-        isRoom: true
-        icon: ''
-        radius: 8
-        volume: 4000
-        flags:
-          - cargo
         systems: []
         contents: {}
       - id: 561
@@ -6940,8 +6939,8 @@ decks:
       - id: 568
         name: Fuel Distribution Center
         deckIndex: null
-        x: 307.0934569891239
-        'y': 133.49763188385595
+        x: 307.6461913641239
+        'y': 134.64411625885595
         isRoom: true
         icon: ''
         radius: 13
@@ -11180,18 +11179,6 @@ deckEdges:
     flags: []
   - id: 680
     to: 559
-    from: 535
-    weight: 1
-    isOpen: true
-    flags: []
-  - id: 681
-    to: 558
-    from: 535
-    weight: 1
-    isOpen: true
-    flags: []
-  - id: 682
-    to: 560
     from: 535
     weight: 1
     isOpen: true

@@ -15,7 +15,7 @@ tags: []
 flags:
   torpedoCasing: {}
   torpedoWarhead:
-    yield: 2000
+    yield: 7.2
     damageType: radiation
     color: blue
   torpedoGuidance:

@@ -1,8 +1,8 @@
 name: Air Purifier
 apiVersion: shipSystems/v1
 kind: shipSystems
-allowMultiple: true
-type: generic
+allowMultiple: false
+type: targeting
 description: ''
 tags: []
 assets:
