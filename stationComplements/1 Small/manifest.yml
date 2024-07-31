@@ -37,12 +37,23 @@ stations:
         icon: >-
           /plugins/Thorium Default/StationComplements/1
           Small/assets/Targeting.svg
+      - name: Officers Log
+        component: OfficersLog
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1
+          Small/assets/OfficersLog.svg
     widgets:
       - name: Remote Access
         component: RemoteAccess
         icon: >-
           /plugins/Thorium Default/StationComplements/1
           Small/assets/RemoteAccess.svg
+        size: sm
+      - name: Objectives
+        component: Objectives
+        icon: >-
+          /plugins/Thorium Default/StationComplements/1
+          Small/assets/Objectives.svg
         size: sm
       - name: Officers Log
         component: OfficersLog
@@ -59,3 +70,4 @@ assets:
     Small/assets/AlertCondition.svg
   Pilot-Power Grid-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/PowerGrid.svg
   Pilot-Targeting-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Targeting.svg
+  Pilot-Officers Log-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/OfficersLog.svg
