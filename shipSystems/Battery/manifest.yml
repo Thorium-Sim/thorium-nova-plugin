@@ -15,8 +15,8 @@ heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
-capacity: 46
-chargeRate: 180
-dischargeRate: 120
+capacity: 2
+chargeRate: 4
+dischargeRate: 6
 powerToHeat: 10
 powerNode: null

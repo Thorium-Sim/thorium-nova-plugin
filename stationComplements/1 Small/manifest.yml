@@ -27,11 +27,11 @@ stations:
         icon: >-
           /plugins/Thorium Default/StationComplements/1
           Small/assets/AlertCondition.svg
-      - name: Power Grid
-        component: PowerGrid
+      - name: Systems Monitor
+        component: SystemsMonitor
         icon: >-
           /plugins/Thorium Default/StationComplements/1
-          Small/assets/PowerGrid.svg
+          Small/assets/SystemsMonitor.svg
       - name: Targeting
         component: Targeting
         icon: >-
@@ -68,6 +68,6 @@ assets:
   Pilot-Alert Level-icon: >-
     /plugins/Thorium Default/StationComplements/1
     Small/assets/AlertCondition.svg
-  Pilot-Power Grid-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/PowerGrid.svg
+  Pilot-Systems Monitor-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/SystemsMonitor.svg
   Pilot-Targeting-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Targeting.svg
   Pilot-Officers Log-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/OfficersLog.svg
