@@ -68,6 +68,8 @@ assets:
   Pilot-Alert Level-icon: >-
     /plugins/Thorium Default/StationComplements/1
     Small/assets/AlertCondition.svg
-  Pilot-Systems Monitor-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/SystemsMonitor.svg
+  Pilot-Systems Monitor-icon: >-
+    /plugins/Thorium Default/StationComplements/1
+    Small/assets/SystemsMonitor.svg
   Pilot-Targeting-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Targeting.svg
   Pilot-Officers Log-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/OfficersLog.svg
