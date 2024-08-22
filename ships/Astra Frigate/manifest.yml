@@ -48,17 +48,9 @@ shipSystems:
   - id: ssys-lvn3bfms2r
     systemId: Targeting
     pluginId: Thorium Default
-  - id: ssys-lvvltrfu2n
+  - id: ssys-m04mwecg3t
     systemId: Torpedo Launcher
     pluginId: Thorium Default
-    overrides:
-      name: Fore Launcher
-  - id: ssys-lvvlu5n63a
-    systemId: Torpedo Launcher
-    pluginId: Thorium Default
-    overrides:
-      name: Aft Launcher
-      headingDegree: 180
 theme:
   themeId: Default
   pluginId: Thorium Default

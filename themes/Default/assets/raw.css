@@ -16,6 +16,12 @@
       format("truetype");
 }
 
+.card-frame, .card-switcher-holder {
+  --frame-offset: 50px;
+  --card-multiply: 2;
+  --station-multiply: 2.2;
+  --ship-multiply: 2.2;
+}
 .card-frame {
   height: 100%;
   width: 100%;
@@ -79,10 +85,11 @@
   z-index: 100;
   position: absolute;
   top: 30px;
-  width: 100%;
+  left: calc(var(--card-name-width) * var(--card-multiply) * 2);
+  right: calc(var(--station-name-width) * var(--station-multiply) * 2);
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .card-switcher {
   display: flex;
@@ -131,10 +138,7 @@
   transition: filter 0.2s ease;
 }
 .doodad-1::after {
-  --frame-offset: 50px;
-  --card-multiply: 4.5;
-  --station-multiply: 4.5;
-  --ship-multiply: 4.5;
+  font-family: "Battlefield";
   content: "";
   transition: background-color 0.2s ease;
   display: flex;
