@@ -1,0 +1,20 @@
+name: Shields
+apiVersion: shipSystems/v1
+kind: shipSystems
+description: ''
+type: shields
+tags: []
+assets:
+  soundEffects: []
+allowMultiple: false
+requiredPower: 5
+defaultPower: 10
+maxSafePower: 20
+powerToHeat: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+maxStrength: 5
+shieldCount: 6
+direction: ventral

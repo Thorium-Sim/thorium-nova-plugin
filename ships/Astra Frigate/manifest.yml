@@ -51,6 +51,9 @@ shipSystems:
   - id: ssys-m04mwecg3t
     systemId: Torpedo Launcher
     pluginId: Thorium Default
+  - id: ssys-m05tj0452d
+    systemId: Shields
+    pluginId: Thorium Default
 theme:
   themeId: Default
   pluginId: Thorium Default
