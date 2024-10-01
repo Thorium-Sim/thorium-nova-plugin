@@ -297,7 +297,7 @@
 }
 .theme-container.viewscreen .doodad-1 {
   --card-name-width: 0px;
-  --card-multiply: 0px;
+  --card-multiply: 1;
 }
 .theme-container.viewscreen .doodad-1:after {
   clip-path: polygon(0px var(--frame-offset), 0px calc(100% - var(--frame-offset)), calc(var(--ship-name-width) * var(--ship-multiply)) calc(100% - var(--frame-offset)), calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset)) 100%, calc(100% - var(--frame-offset)) 100%, 100% calc(100% - var(--frame-offset)), 100% var(--frame-offset), calc(100% - (var(--station-name-width) * var(--station-multiply))) var(--frame-offset), calc(100% - (var(--station-name-width) * var(--station-multiply)) - var(--frame-offset)) 0, calc((var(--card-name-width) * var(--card-multiply)) + var(--frame-offset)) 0, calc(var(--card-name-width) * var(--card-multiply)) var(--frame-offset), 0px var(--frame-offset), 2px calc(var(--frame-offset) + 2px), calc((var(--card-name-width) * var(--card-multiply)) + 2px) calc(var(--frame-offset) + 2px), calc((var(--card-name-width) * var(--card-multiply)) + 2px + var(--frame-offset)) 2px, calc(100% - (var(--station-name-width) * var(--station-multiply)) - var(--frame-offset)) 2px, calc(100% - var(--station-name-width) * var(--station-multiply)) calc(var(--frame-offset) + 2px), calc(100% - 2px) calc(var(--frame-offset) + 2px), calc(100% - 2px) calc(100% - var(--frame-offset) - 2px), calc(100% - var(--frame-offset) - 2px) calc(100% - 2px), calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset) + 2px) calc(100% - 2px), calc(var(--ship-name-width) * var(--ship-multiply) + 2px) calc(100% - var(--frame-offset) - 2px), 2px calc(100% - var(--frame-offset) - 2px), 2px calc(var(--frame-offset) + 2px), 0 calc(var(--frame-offset)));

@@ -297,7 +297,7 @@
   }
   .doodad-1 {
     --card-name-width: 0px;
-    --card-multiply: 0px;
+    --card-multiply: 1;
   }
   .doodad-1:after {
       // This complicated clip path creates the line around the outer edge of the screen.

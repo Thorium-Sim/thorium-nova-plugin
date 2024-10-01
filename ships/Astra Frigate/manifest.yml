@@ -54,6 +54,16 @@ shipSystems:
   - id: ssys-m05tj0452d
     systemId: Shields
     pluginId: Thorium Default
+  - id: ssys-m0yr43dc3y
+    systemId: Phasers
+    pluginId: Thorium Default
+    overrides:
+      headingDegree: 30
+  - id: ssys-m0yr443p53
+    systemId: Phasers
+    pluginId: Thorium Default
+    overrides:
+      headingDegree: 330
 theme:
   themeId: Default
   pluginId: Thorium Default
