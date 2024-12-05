@@ -20,3 +20,52 @@ maxSafeHeat: 1000
 maxHeat: 2500
 powerNode: navigation
 powerToHeat: 10
+soundEffects:
+  powerUp:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Class IV Impulse
+        Engines/assets/Impulse Start.ogg
+      volume:
+        - 0.5
+        - 0.5
+      playbackRate:
+        - 1
+        - 1
+      loop: false
+      loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null
+  powerDown:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Class IV Impulse
+        Engines/assets/Impulse End.ogg
+      volume:
+        - 0.5
+        - 0.5
+      playbackRate:
+        - 1
+        - 1
+      loop: false
+      loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null
+  ambiance:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Class IV Impulse
+        Engines/assets/Impulse Ambiance.wav
+      volume:
+        - 0
+        - 0.5
+      playbackRate:
+        - 0.8
+        - 1.2
+      loop: false
+      loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null

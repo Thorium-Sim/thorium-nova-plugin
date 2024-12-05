@@ -20,3 +20,22 @@ loadTime: 5000
 fireTime: 1000
 headingDegree: 0
 pitchDegree: 0
+soundEffects:
+  fire:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Torpedo Launcher/assets/Torpedo
+        Fired.ogg
+      volume:
+        - 1
+        - 1
+      playbackRate:
+        - 0.9
+        - 1.2
+      loop: false
+      loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null
+  load: []
+  unload: []

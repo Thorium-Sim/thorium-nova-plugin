@@ -21,3 +21,18 @@ maxSafeHeat: 1000
 maxHeat: 2500
 powerNode: navigation
 powerToHeat: 10
+soundEffects:
+  thrust:
+    - url: /plugins/Thorium Default/shipSystems/Thrusters/assets/Thruster Loop.mp3
+      volume:
+        - 0.5
+        - 0.5
+      playbackRate:
+        - 0.9
+        - 1.1
+      loop: true
+      loopStart: 0.166666667
+      loopEnd: 0.83333333
+      delay: 0
+      loopGap: 0
+      channel: null

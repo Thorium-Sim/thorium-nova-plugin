@@ -20,3 +20,36 @@ maxHeat: 2500
 powerMultiplier: 1
 powerToHeat: 10
 powerNode: null
+soundEffects:
+  ambiance:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Fusion
+        Reactor/assets/Reactor Loop.m4a
+      volume:
+        - 0
+        - 0.5
+      playbackRate:
+        - 1
+        - 1
+      loop: false
+      loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null
+  overheatAlert:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Fusion
+        Reactor/assets/Reactor Overheat.mp3
+      volume:
+        - 1
+        - 1
+      playbackRate:
+        - 1
+        - 1
+      loop: false
+      loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null

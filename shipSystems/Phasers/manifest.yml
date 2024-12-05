@@ -21,3 +21,18 @@ headingDegree: 330
 pitchDegree: 0
 yieldMultiplier: 10
 fullChargeYield: 0.1
+soundEffects:
+  fire:
+    - url: /plugins/Thorium Default/shipSystems/Phasers/assets/Phasers Short.ogg
+      volume:
+        - 1
+        - 1
+      playbackRate:
+        - 0.95
+        - 1.05
+      loop: true
+      loopStart: 0.6
+      loopEnd: 0.7
+      delay: 0
+      loopGap: 0
+      channel: null
