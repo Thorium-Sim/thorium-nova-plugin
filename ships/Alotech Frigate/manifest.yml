@@ -1,0 +1,22 @@
+name: Alotech Frigate
+apiVersion: ships/v1
+kind: ships
+description: Exploration vessels
+category: Cruiser
+tags: []
+assets:
+  logo: /plugins/Thorium Default/ships/Alotech Frigate/assets/logo.svg
+  model: /plugins/Thorium Default/ships/Alotech Frigate/assets/model.glb
+  vanity: /plugins/Thorium Default/ships/Alotech Frigate/assets/vanity.png
+  topView: /plugins/Thorium Default/ships/Alotech Frigate/assets/top.png
+  sideView: /plugins/Thorium Default/ships/Alotech Frigate/assets/side.png
+mass: 700000000
+length: 350
+shipSystems: []
+theme:
+  themeId: Default
+  pluginId: Thorium Default
+decks: []
+deckEdges: []
+cargoContainers: 4
+cargoContainerVolume: 4000

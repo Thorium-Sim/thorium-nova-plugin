@@ -23,8 +23,8 @@ powerNode: null
 soundEffects:
   ambiance:
     - url: >-
-        /plugins/Thorium Default/shipSystems/Fusion
-        Reactor/assets/Reactor Loop.m4a
+        /plugins/Thorium Default/shipSystems/Fusion Reactor/assets/Reactor
+        Loop.m4a
       volume:
         - 0
         - 0.5
@@ -39,8 +39,8 @@ soundEffects:
       channel: null
   overheatAlert:
     - url: >-
-        /plugins/Thorium Default/shipSystems/Fusion
-        Reactor/assets/Reactor Overheat.mp3
+        /plugins/Thorium Default/shipSystems/Fusion Reactor/assets/Reactor
+        Overheat.mp3
       volume:
         - 1
         - 1

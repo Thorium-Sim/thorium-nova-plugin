@@ -22,6 +22,9 @@ stations:
         icon: >-
           /plugins/Thorium Default/StationComplements/1
           Small/assets/CargoControl.svg
+      - name: Sensors
+        component: Sensors
+        icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Sensors.svg
       - name: Alert Level
         component: AlertLevel
         icon: >-
@@ -65,6 +68,7 @@ assets:
   Pilot-Pilot-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Pilot Card.svg
   Pilot-Navigation-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Navigation.svg
   Pilot-Cargo Control-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/CargoControl.svg
+  Pilot-Sensors-icon: /plugins/Thorium Default/StationComplements/1 Small/assets/Sensors.svg
   Pilot-Alert Level-icon: >-
     /plugins/Thorium Default/StationComplements/1
     Small/assets/AlertCondition.svg

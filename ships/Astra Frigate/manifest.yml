@@ -64,6 +64,9 @@ shipSystems:
     pluginId: Thorium Default
     overrides:
       headingDegree: 330
+  - id: ssys-m6wkv4553e
+    systemId: Standard Sensors
+    pluginId: Thorium Default
 theme:
   themeId: Default
   pluginId: Thorium Default

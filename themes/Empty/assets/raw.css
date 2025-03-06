@@ -256,25 +256,21 @@
 }
 
 // Card Transitions
-.card-transition-enter {
+.card-transition {
+  opacity: 1;
+  transform: translateX(0);
+}
+.card-transition[data-enter] {
   transition: opacity 0.2s ease 0.2s, transform 0.2s ease 0.2s;
 }
-.card-transition-enter-from {
+.card-transition[data-closed][data-enter] {
   opacity: 0;
   transform: translateX(-100%);
 }
-.card-transition-enter-to {
-  opacity: 1;
-  transform: translateX(0);
-}
-.card-transition-leave {
+.card-transition[data-leave] {
   transition: opacity 1s ease, transform 1s ease;
 }
-.card-transition-leave-from {
-  opacity: 1;
-  transform: translateX(0);
-}
-.card-transition-leave-to {
+.card-transition[data-leave][data-closed] {
   opacity: 0;
   transform: translateX(100%);
 }

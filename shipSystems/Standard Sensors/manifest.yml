@@ -1,0 +1,24 @@
+name: Standard Sensors
+apiVersion: shipSystems/v1
+kind: shipSystems
+description: ''
+type: sensors
+tags: []
+assets: {}
+soundEffects:
+  ambiance: []
+  scanComplete: []
+allowMultiple: false
+requiredPower: 1
+defaultPower: 5
+maxSafePower: 7
+powerToHeat: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+passiveRange: 1000000
+activeRange: 100000
+minScanEnergyCost: 5
+maxScanEnergyCost: 15
+shieldPenaltyMultiplier: 2

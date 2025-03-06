@@ -258,25 +258,21 @@
 .theme-container .alertLevel-p .doodad-1::after {
   background-color: #7a24cf;
 }
-.theme-container .card-transition-enter {
-  transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+.theme-container .card-transition {
+  opacity: 1;
+  transform: translateX(0);
 }
-.theme-container .card-transition-enter-from {
+.theme-container .card-transition[data-enter] {
+  transition: opacity 0.2s ease 0.2s, transform 0.2s ease 0.2s;
+}
+.theme-container .card-transition[data-closed][data-enter] {
   opacity: 0;
   transform: translateX(-100%);
 }
-.theme-container .card-transition-enter-to {
-  opacity: 1;
-  transform: translateX(0);
+.theme-container .card-transition[data-leave] {
+  transition: opacity 1s ease, transform 1s ease;
 }
-.theme-container .card-transition-leave {
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-.theme-container .card-transition-leave-from {
-  opacity: 1;
-  transform: translateX(0);
-}
-.theme-container .card-transition-leave-to {
+.theme-container .card-transition[data-leave][data-closed] {
   opacity: 0;
   transform: translateX(100%);
 }
@@ -542,6 +538,248 @@
 }
 .theme-container .btn.btn-muted:active,
 .theme-container .btn.btn-muted.active {
+  color: white;
+  background: rgba(154, 154, 154, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #715c5c, 0px 0px 10px -2px #a48f8f, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button {
+  background: rgba(143, 143, 143, 0.3);
+  border: solid 1px #8f8f8f;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(154, 132, 132, 0.5), 0px 0px 15px -2px #9a8484, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button:hover:not([disabled]) {
+  color: white;
+  background: rgba(143, 143, 143, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #9a8484, 0px 0px 10px -2px #9a8484, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #9a8484, 0px 0px 10px -2px #9a8484, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button:active,
+.theme-container .select-button.active {
+  color: white;
+  background: rgba(143, 143, 143, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #655353, 0px 0px 10px -2px #9a8484, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-default {
+  background: rgba(148, 148, 148, 0.3);
+  border: solid 1px #949494;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(159, 138, 138, 0.5), 0px 0px 15px -2px #9f8a8a, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-default:hover:not([disabled]) {
+  color: white;
+  background: rgba(148, 148, 148, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #9f8a8a, 0px 0px 10px -2px #9f8a8a, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-default:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #9f8a8a, 0px 0px 10px -2px #9f8a8a, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-default:active,
+.theme-container .select-button.select-default.active {
+  color: white;
+  background: rgba(148, 148, 148, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #6b5858, 0px 0px 10px -2px #9f8a8a, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-primary {
+  background: rgba(101, 171, 196, 0.3);
+  border: solid 1px #65abc4;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(90, 176, 207, 0.5), 0px 0px 15px -2px #5ab0cf, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-primary:hover:not([disabled]) {
+  color: white;
+  background: rgba(101, 171, 196, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #5ab0cf, 0px 0px 10px -2px #5ab0cf, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-primary:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #5ab0cf, 0px 0px 10px -2px #5ab0cf, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-primary:active,
+.theme-container .select-button.select-primary.active {
+  color: white;
+  background: rgba(101, 171, 196, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #2c7b97, 0px 0px 10px -2px #5ab0cf, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-secondary {
+  background: rgba(199, 147, 94, 0.3);
+  border: solid 1px #c7935e;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(210, 147, 83, 0.5), 0px 0px 15px -2px #d29353, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-secondary:hover:not([disabled]) {
+  color: white;
+  background: rgba(199, 147, 94, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #d29353, 0px 0px 10px -2px #d29353, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-secondary:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #d29353, 0px 0px 10px -2px #d29353, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-secondary:active,
+.theme-container .select-button.select-secondary.active {
+  color: white;
+  background: rgba(199, 147, 94, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #976028, 0px 0px 10px -2px #d29353, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-accent {
+  background: rgba(245, 166, 206, 0.3);
+  border: solid 1px #f5a6ce;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(250, 161, 206, 0.5), 0px 0px 15px -2px #faa1ce, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-accent:hover:not([disabled]) {
+  color: white;
+  background: rgba(245, 166, 206, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #faa1ce, 0px 0px 10px -2px #faa1ce, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-accent:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #faa1ce, 0px 0px 10px -2px #faa1ce, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-accent:active,
+.theme-container .select-button.select-accent.active {
+  color: white;
+  background: rgba(245, 166, 206, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #f5409b, 0px 0px 10px -2px #faa1ce, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-success {
+  background: rgba(54, 150, 54, 0.3);
+  border: solid 1px #369636;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 44, 0.5), 0px 0px 15px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-success:hover:not([disabled]) {
+  color: white;
+  background: rgba(54, 150, 54, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #2ca02c, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-success:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #2ca02c, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-success:active,
+.theme-container .select-button.select-success.active {
+  color: white;
+  background: rgba(54, 150, 54, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #165016, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-info {
+  background: rgba(54, 150, 150, 0.3);
+  border: solid 1px #369696;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 160, 0.5), 0px 0px 15px -2px #2ca0a0, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-info:hover:not([disabled]) {
+  color: white;
+  background: rgba(54, 150, 150, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #2ca0a0, 0px 0px 10px -2px #2ca0a0, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-info:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #2ca0a0, 0px 0px 10px -2px #2ca0a0, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-info:active,
+.theme-container .select-button.select-info.active {
+  color: white;
+  background: rgba(54, 150, 150, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #165050, 0px 0px 10px -2px #2ca0a0, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-warning {
+  background: rgba(199, 147, 94, 0.3);
+  border: solid 1px #c7935e;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(210, 147, 83, 0.5), 0px 0px 15px -2px #d29353, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-warning:hover:not([disabled]) {
+  color: white;
+  background: rgba(199, 147, 94, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #d29353, 0px 0px 10px -2px #d29353, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-warning:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #d29353, 0px 0px 10px -2px #d29353, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-warning:active,
+.theme-container .select-button.select-warning.active {
+  color: white;
+  background: rgba(199, 147, 94, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #976028, 0px 0px 10px -2px #d29353, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-notice {
+  background: rgba(147, 93, 201, 0.3);
+  border: solid 1px #935dc9;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(147, 82, 212, 0.5), 0px 0px 15px -2px #9352d4, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-notice:hover:not([disabled]) {
+  color: white;
+  background: rgba(147, 93, 201, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #9352d4, 0px 0px 10px -2px #9352d4, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-notice:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #9352d4, 0px 0px 10px -2px #9352d4, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-notice:active,
+.theme-container .select-button.select-notice.active {
+  color: white;
+  background: rgba(147, 93, 201, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #60269a, 0px 0px 10px -2px #9352d4, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-error {
+  background: rgba(196, 99, 99, 0.3);
+  border: solid 1px #c46363;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(207, 88, 88, 0.5), 0px 0px 15px -2px #cf5858, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-error:hover:not([disabled]) {
+  color: white;
+  background: rgba(196, 99, 99, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #cf5858, 0px 0px 10px -2px #cf5858, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-error:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #cf5858, 0px 0px 10px -2px #cf5858, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-error:active,
+.theme-container .select-button.select-error.active {
+  color: white;
+  background: rgba(196, 99, 99, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #962b2b, 0px 0px 10px -2px #cf5858, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-muted {
+  background: rgba(154, 154, 154, 0.3);
+  border: solid 1px #9a9a9a;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(164, 143, 143, 0.5), 0px 0px 15px -2px #a48f8f, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-muted:hover:not([disabled]) {
+  color: white;
+  background: rgba(154, 154, 154, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #a48f8f, 0px 0px 10px -2px #a48f8f, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-muted:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #a48f8f, 0px 0px 10px -2px #a48f8f, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .select-button.select-muted:active,
+.theme-container .select-button.select-muted.active {
   color: white;
   background: rgba(154, 154, 154, 0.3);
   box-shadow: inset 0px 0px 20px 0px #715c5c, 0px 0px 10px -2px #a48f8f, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);

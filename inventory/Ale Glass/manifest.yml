@@ -10,6 +10,7 @@ continuous: false
 durability: 1
 flags:
   forCrew: {}
+  scannable: {}
 tags:
   - random
 abundance: 1
