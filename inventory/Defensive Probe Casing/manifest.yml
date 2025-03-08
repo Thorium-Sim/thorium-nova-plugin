@@ -11,6 +11,6 @@ assets:
 continuous: false
 durability: 1
 abundance: 1
+tags: []
 flags:
   probeCasing: {}
-tags: []

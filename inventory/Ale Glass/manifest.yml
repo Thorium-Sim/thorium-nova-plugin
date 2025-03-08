@@ -1,6 +1,6 @@
-name: Ale Glass
 apiVersion: inventory/v1
 kind: inventory
+name: Ale Glass
 plural: Ale Glasses
 description: A small glass used to hold ale, liquor, and spirits
 volume: 4
@@ -8,9 +8,9 @@ assets:
   image: /plugins/Thorium Default/inventory/Ale Glass/assets/image.png
 continuous: false
 durability: 1
+abundance: 1
+tags:
+  - random
 flags:
   forCrew: {}
   scannable: {}
-tags:
-  - random
-abundance: 1

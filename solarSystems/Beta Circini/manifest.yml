@@ -1,12 +1,11 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
 name: Beta Circini
+description: A solar system named Beta Circini
 position:
   x: 5359271.418075276
   'y': -967835.6536721587
   z: 31279151.1250102
-apiVersion: solarSystem/v1
-kind: solarSystems
-assets: {}
-description: A solar system named Beta Circini
 tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
@@ -58,3 +57,4 @@ planets:
       ringMapAsset: /plugins/Thorium Default/assets/default/rings/ring_texturesDust.png
     population: 0
     temperature: 767.59357
+assets: {}

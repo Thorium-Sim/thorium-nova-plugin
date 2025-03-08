@@ -1,13 +1,11 @@
-name: Sandbox
 apiVersion: ships/v1
 kind: timelines
+name: Sandbox
 description: What could possibly go wrong?
 category: Training
 tags:
   - training
 isMission: true
-assets:
-  cover: /plugins/Thorium Default/timelines/Sandbox/assets/logo.jpeg
 steps:
   - id: ms-lm6zxfee0o
     name: Timeline Initialization
@@ -28,3 +26,5 @@ steps:
               name: 'Timeline: Advance'
               action: timeline.advance
               values: {}
+assets:
+  cover: /plugins/Thorium Default/timelines/Sandbox/assets/logo.jpeg

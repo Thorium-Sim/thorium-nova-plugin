@@ -1,6 +1,6 @@
-name: Targeting
 apiVersion: shipSystems/v1
 kind: shipSystems
+name: Targeting
 description: ''
 type: targeting
 tags: []

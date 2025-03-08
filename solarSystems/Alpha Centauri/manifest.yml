@@ -1,12 +1,11 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
 name: Alpha Centauri
+description: A solar system named Alpha Centauri
 position:
   x: 569964.1193200249
   'y': -1808841.1555847004
   z: -3488000.170652462
-apiVersion: solarSystem/v1
-kind: solarSystems
-assets: {}
-description: A solar system named Alpha Centauri
 tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
@@ -85,3 +84,4 @@ planets:
       ringMapAsset: null
     population: 0
     temperature: 307.32178
+assets: {}

@@ -1,6 +1,6 @@
-name: Photon Torpedo
 apiVersion: inventory/v1
 kind: inventory
+name: Photon Torpedo
 plural: Photon Torpedoes
 description: >-
   A standard torpedo that uses packets of photons to disrupt the electron shells

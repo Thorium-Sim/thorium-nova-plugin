@@ -1,8 +1,8 @@
-name: Battery
 apiVersion: shipSystems/v1
 kind: shipSystems
-type: battery
+name: Battery
 description: ''
+type: battery
 tags: []
 assets:
   soundEffects: []
@@ -10,7 +10,7 @@ allowMultiple: true
 requiredPower: 5
 defaultPower: 10
 maxSafePower: 20
-coolantHeatTransferRate: 10
+powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
@@ -18,5 +18,5 @@ maxHeat: 2500
 capacity: 2
 chargeRate: 4
 dischargeRate: 6
-powerToHeat: 10
+coolantHeatTransferRate: 10
 powerNode: null

@@ -1,6 +1,6 @@
-name: Gravitational Torpedo Guidance
 apiVersion: inventory/v1
 kind: inventory
+name: Gravitational Torpedo Guidance
 plural: Gravitational Torpedo Guidance
 description: >-
   Detects the faint curve in spacetime caused by massive objects. Counteracts

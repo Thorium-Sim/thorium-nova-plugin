@@ -1,14 +1,12 @@
-name: Eclipse
 apiVersion: ships/v1
 kind: timelines
+name: Eclipse
 description: >-
   A secret, but routine, weapons test takes the crew to an uninhabited system.
   What could possibly go wrong?
 category: ''
 tags: []
 isMission: true
-assets:
-  cover: /plugins/Thorium Default/timelines/Eclipse/assets/logo.jpeg
 steps:
   - id: ms-llvltmbu5f
     name: Timeline Initialization
@@ -194,3 +192,5 @@ steps:
           template:
             pluginId: Thorium Default
             name: Astra Frigate
+assets:
+  cover: /plugins/Thorium Default/timelines/Eclipse/assets/logo.jpeg

@@ -12,9 +12,9 @@ assets:
 continuous: false
 durability: 1
 abundance: 1
+tags: []
 flags:
   torpedoWarhead:
     damageType: radiation
     color: rebeccapurple
     yield: 2
-tags: []

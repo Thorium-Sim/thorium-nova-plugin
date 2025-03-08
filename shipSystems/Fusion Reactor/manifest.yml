@@ -1,25 +1,11 @@
-name: Fusion Reactor
 apiVersion: shipSystems/v1
 kind: shipSystems
-allowMultiple: false
-type: reactor
+name: Fusion Reactor
 description: ''
+type: reactor
 tags: []
 assets:
   soundEffects: []
-optimalOutputPercent: 0.5
-reactorCount: 4
-requiredPower: 5
-defaultPower: 10
-maxSafePower: 20
-coolantHeatTransferRate: 10
-heatDissipationRate: 1
-nominalHeat: 295.37
-maxSafeHeat: 1000
-maxHeat: 2500
-powerMultiplier: 1
-powerToHeat: 10
-powerNode: null
 soundEffects:
   ambiance:
     - url: >-
@@ -53,3 +39,17 @@ soundEffects:
       delay: 0
       loopGap: 0
       channel: null
+allowMultiple: false
+requiredPower: 5
+defaultPower: 10
+maxSafePower: 20
+powerToHeat: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+optimalOutputPercent: 0.5
+powerMultiplier: 1
+reactorCount: 4
+coolantHeatTransferRate: 10
+powerNode: null

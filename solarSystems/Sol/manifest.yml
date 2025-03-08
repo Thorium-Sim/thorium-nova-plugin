@@ -1,12 +1,11 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
 name: Sol
+description: A solar system named Sol
 position:
   x: 89989.2977332485
   'y': 17328.756671637297
   z: 241142.51917124967
-apiVersion: solarSystem/v1
-kind: solarSystems
-assets: {}
-description: A solar system named Sol
 tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
@@ -82,3 +81,4 @@ planets:
       ringMapAsset: null
     population: 3328.46145
     temperature: 270.973
+assets: {}

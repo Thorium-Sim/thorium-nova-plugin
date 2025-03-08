@@ -1,6 +1,6 @@
-name: Infrared Torpedo Guidance
 apiVersion: inventory/v1
 kind: inventory
+name: Infrared Torpedo Guidance
 plural: Infrared Torpedo Guidance
 description: >-
   Uses high-gain silicon/arsenic (Si:As) detectors to track targets using heat

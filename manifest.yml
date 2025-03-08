@@ -4,5 +4,5 @@ author: ''
 description: A great plugin
 default: true
 active: true
+coverImage: /plugins/Thorium Default/assets/coverImage.svg
 tags: []
-coverImage: ''

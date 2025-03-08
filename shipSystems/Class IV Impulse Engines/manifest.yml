@@ -1,25 +1,11 @@
-name: Class IV Impulse Engines
 apiVersion: shipSystems/v1
 kind: shipSystems
-type: impulseEngines
+name: Class IV Impulse Engines
 description: ''
+type: impulseEngines
 tags: []
 assets:
   soundEffects: []
-cruisingSpeed: 1500
-emergencySpeed: 2000
-thrust: 437500000000
-allowMultiple: false
-requiredPower: 5
-defaultPower: 10
-maxSafePower: 20
-coolantHeatTransferRate: 10
-heatDissipationRate: 1
-nominalHeat: 295.37
-maxSafeHeat: 1000
-maxHeat: 2500
-powerNode: navigation
-powerToHeat: 10
 soundEffects:
   powerUp:
     - url: >-
@@ -69,3 +55,17 @@ soundEffects:
       delay: 0
       loopGap: 0
       channel: null
+allowMultiple: false
+requiredPower: 5
+defaultPower: 10
+maxSafePower: 20
+powerToHeat: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+cruisingSpeed: 1500
+emergencySpeed: 2000
+thrust: 437500000000
+coolantHeatTransferRate: 10
+powerNode: navigation

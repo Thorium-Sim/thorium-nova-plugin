@@ -1,6 +1,6 @@
-name: Shields
 apiVersion: shipSystems/v1
 kind: shipSystems
+name: Shields
 description: ''
 type: shields
 tags: []

@@ -1,7 +1,6 @@
-name: Deuterium
 apiVersion: inventory/v1
 kind: inventory
-abundance: 1
+name: Deuterium
 plural: Deuterium
 description: >-
   Deuterium is a stable isotope of hydrogen that is used as fuel in fusion
@@ -11,7 +10,8 @@ volume: 1
 assets: {}
 continuous: false
 durability: 1
+abundance: 1
+tags: []
 flags:
   fuel:
     fuelDensity: 5
-tags: []

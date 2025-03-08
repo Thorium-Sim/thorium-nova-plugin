@@ -1,6 +1,6 @@
-name: Standard Sensors
 apiVersion: shipSystems/v1
 kind: shipSystems
+name: Standard Sensors
 description: ''
 type: sensors
 tags: []

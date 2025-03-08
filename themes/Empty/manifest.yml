@@ -1,8 +1,8 @@
-name: Empty
 apiVersion: theme/v1
 kind: themes
+name: Empty
+default: false
 assets:
   rawCSS: /plugins/Thorium Default/themes/Empty/assets/raw.css
   processedCSS: /plugins/Thorium Default/themes/Empty/assets/processed.css
   files: []
-default: false

@@ -1,6 +1,6 @@
-name: Magnetic Torpedo Guidance
 apiVersion: inventory/v1
 kind: inventory
+name: Magnetic Torpedo Guidance
 plural: Magnetic Torpedo Guidance
 description: >-
   Attracted to metallic object by detecting faint magnetic fields. Ineffective

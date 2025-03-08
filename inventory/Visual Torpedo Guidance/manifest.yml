@@ -1,6 +1,6 @@
-name: Visual Torpedo Guidance
 apiVersion: inventory/v1
 kind: inventory
+name: Visual Torpedo Guidance
 plural: Visual Torpedo Guidance
 description: Uses cameras visible light to guide torpedo based on a visual target.
 volume: 60

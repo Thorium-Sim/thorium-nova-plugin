@@ -1,6 +1,6 @@
-name: Default
 apiVersion: theme/v1
 kind: themes
+name: Default
 default: true
 assets:
   rawCSS: /plugins/Thorium Default/themes/Default/assets/raw.css

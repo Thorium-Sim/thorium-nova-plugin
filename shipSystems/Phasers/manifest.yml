@@ -1,26 +1,11 @@
-name: Phasers
 apiVersion: shipSystems/v1
 kind: shipSystems
+name: Phasers
 description: ''
 type: phasers
 tags: []
 assets:
   soundEffects: []
-allowMultiple: true
-requiredPower: 5
-defaultPower: 10
-maxSafePower: 20
-powerToHeat: 10
-heatDissipationRate: 1
-nominalHeat: 295.37
-maxSafeHeat: 1000
-maxHeat: 2500
-maxRange: 10000
-maxArc: 90
-headingDegree: 330
-pitchDegree: 0
-yieldMultiplier: 10
-fullChargeYield: 0.1
 soundEffects:
   fire:
     - url: /plugins/Thorium Default/shipSystems/Phasers/assets/Phasers Short.ogg
@@ -36,3 +21,18 @@ soundEffects:
       delay: 0
       loopGap: 0
       channel: null
+allowMultiple: true
+requiredPower: 5
+defaultPower: 10
+maxSafePower: 20
+powerToHeat: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+maxRange: 10000
+maxArc: 90
+headingDegree: 330
+pitchDegree: 0
+fullChargeYield: 0.1
+yieldMultiplier: 10

@@ -1,20 +1,20 @@
-name: Inertial Dampeners
 apiVersion: shipSystems/v1
 kind: shipSystems
-type: inertialDampeners
+name: Inertial Dampeners
 description: ''
+type: inertialDampeners
 tags: []
 assets:
   soundEffects: []
-dampening: 5
 allowMultiple: false
 requiredPower: 5
 defaultPower: 10
 maxSafePower: 20
-coolantHeatTransferRate: 10
+powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
-powerToHeat: 10
+dampening: 5
+coolantHeatTransferRate: 10
 powerNode: null

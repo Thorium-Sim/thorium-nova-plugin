@@ -11,8 +11,8 @@ assets:
 continuous: false
 durability: 1
 abundance: 1
+tags: []
 flags:
   torpedoWarhead:
     damageType: explosive
     color: blue
-tags: []
