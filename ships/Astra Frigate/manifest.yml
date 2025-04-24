@@ -1,6 +1,6 @@
-name: Astra Frigate
 apiVersion: ships/v1
 kind: ships
+name: Astra Frigate
 description: Boldly going where no one has gone before.
 category: Cruiser
 tags: []

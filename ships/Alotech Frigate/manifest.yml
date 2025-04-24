@@ -1,6 +1,6 @@
-name: Alotech Frigate
 apiVersion: ships/v1
 kind: ships
+name: Alotech Frigate
 description: Exploration vessels
 category: Cruiser
 tags: []

@@ -1,0 +1,56 @@
+apiVersion: stations/v1
+kind: stationComplements
+name: 1 Small
+hasShipMap: false
+stations:
+  - name: Pilot
+    description: A single player position that controls all aspects of the ship.
+    logo: /plugins/Thorium Default/StationComplements/assets/Pilot.svg
+    cards:
+      - name: Pilot
+        component: Pilot
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/Pilot
+          Card.svg
+      - name: Navigation
+        component: Navigation
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/Navigation.svg
+      - name: Cargo Control
+        component: CargoControl
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/CargoControl.svg
+      - name: Sensors
+        component: Sensors
+        icon: /plugins/Thorium Default/StationComplements/assets/Sensors.svg
+      - name: Alert Level
+        component: AlertLevel
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/AlertCondition.svg
+      - name: Systems Monitor
+        component: SystemsMonitor
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/SystemsMonitor.svg
+      - name: Targeting
+        component: Targeting
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/Targeting.svg
+      - name: Officers Log
+        component: OfficersLog
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/OfficersLog.svg
+    widgets:
+      - name: Remote Access
+        component: RemoteAccess
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/RemoteAccess.svg
+        size: sm
+      - name: Objectives
+        component: Objectives
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/Objectives.svg
+        size: sm
+      - name: Officers Log
+        component: OfficersLog
+        icon: >-
+          /plugins/Thorium Default/StationComplements/assets/OfficersLog.svg
