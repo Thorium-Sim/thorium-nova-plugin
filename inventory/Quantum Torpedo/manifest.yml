@@ -13,7 +13,10 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  torpedoCasing: {}
+  torpedoCasing:
+    speed: 1500
+    maxForce: 30000
+    maxRange: 125000
   torpedoWarhead:
     yield: 2
     damageType: radiation

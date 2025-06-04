@@ -30,7 +30,7 @@ heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
-maxRange: 10000
+maxRange: 25000
 maxArc: 90
 headingDegree: 330
 pitchDegree: 0
