@@ -50,11 +50,9 @@ planets:
       lifeforms:
         - None
       atmosphericComposition: []
-      textureMapAsset: >-
-        /plugins/Thorium
-        Default/assets/default/planets/planet_textureCrimson.jpg
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
       cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/default/rings/ring_texturesDust.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
     temperature: 767.59357
 assets: {}

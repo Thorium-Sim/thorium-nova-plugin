@@ -5,7 +5,7 @@ description: What could possibly go wrong?
 category: Training
 tags:
   - training
-isMission: true
+type: mission
 steps:
   - id: ms-lm6zxfee0o
     name: Timeline Initialization

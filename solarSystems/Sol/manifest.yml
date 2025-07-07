@@ -50,9 +50,9 @@ planets:
       lifeforms:
         - Varied and extensive vegetation and animal life, humanoids
       atmosphericComposition: []
-      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Terrestrial2.jpg
+      textureMapAsset: /plugins/Thorium Default/solarSystems/Sol/assets/texture-Earth.jpg
       cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/default/rings/rings3.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 7713541106.94464
     temperature: 297.95614
   - name: Mars
@@ -76,8 +76,8 @@ planets:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
-      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Martian.jpg
-      cloudMapAsset: /plugins/Thorium Default/assets/default/clouds/Clouds1.png
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
       ringMapAsset: null
     population: 3328.46145
     temperature: 270.973

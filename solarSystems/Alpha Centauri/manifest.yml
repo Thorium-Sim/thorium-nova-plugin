@@ -50,9 +50,9 @@ planets:
       lifeforms:
         - Varied and extensive vegetation and animal life, humanoids
       atmosphericComposition: []
-      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Terrestrial3.jpg
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
       cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/default/rings/rings3.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 4571757137.59504
     temperature: 301.5044
   - name: Alpha Centauri II (1)
@@ -77,10 +77,8 @@ planets:
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
-      textureMapAsset: /plugins/Thorium Default/assets/default/planets/2k_jupiter.jpg
-      cloudMapAsset: >-
-        /plugins/Thorium
-        Default/assets/default/clouds/clouds_textureGiantSharp.png
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_jupiter.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
       ringMapAsset: null
     population: 0
     temperature: 307.32178

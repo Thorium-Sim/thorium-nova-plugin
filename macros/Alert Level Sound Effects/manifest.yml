@@ -1,0 +1,205 @@
+apiVersion: ships/v1
+kind: macros
+name: Alert Level Sound Effects
+type: trigger
+description: Plays sound effects whenever the alert level of a player ship changes.
+category: ''
+active: true
+blocks:
+  - event: alertLevel.update
+    multiple: true
+    persist: false
+    triggerBlocks:
+      - id: blo-mckilwz31b
+        type: ResultPropertyIntoVariable
+        property: shipId
+        variable: ship
+      - id: blo-mckiiux22l
+        type: ResultPropertyIntoVariable
+        property: alertLevel
+        variable: level
+      - id: blo-mckilg4t0m
+        type: EntityPropertyIntoVariable
+        entity: $ship
+        component: isPlayerShip
+        property: value
+        variable: player
+      - id: blo-mckii7ml3l
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $player
+            value2: 'true'
+        triggerBlocks:
+          - id: blo-mckimpio6m
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $level
+                value2: '5'
+            triggerBlocks:
+              - id: blo-mclaybqr4k
+                type: Action
+                action: effects.playSound
+                values:
+                  sound:
+                    url: >-
+                      /plugins/Thorium Default/assets/sounds/Alert Level
+                      Changes/alertlevel5.ogg
+                    volume:
+                      - 1
+                      - 1
+                    playbackRate:
+                      - 1
+                      - 1
+                    loop: false
+                    loopStart: null
+                    loopEnd: null
+                    delay: 0
+                    loopGap: 0
+                    channel: null
+                  shipId: $ship
+                  station: ''
+          - id: blo-mckimxs26e
+            type: IfCondition
+            conditions:
+              - value1: $level
+                value2: '4'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mcpd5e373m
+                type: Action
+                action: effects.playSound
+                values:
+                  shipId: $ship
+                  sound:
+                    url: >-
+                      /plugins/Thorium Default/assets/sounds/Alert Level
+                      Changes/alertlevel4.ogg
+                    volume:
+                      - 1
+                      - 1
+                    playbackRate:
+                      - 1
+                      - 1
+                    loop: false
+                    loopStart: null
+                    loopEnd: null
+                    delay: 0
+                    loopGap: 0
+                    channel: null
+          - id: blo-mckin2vo1o
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $level
+                value2: '3'
+            triggerBlocks:
+              - id: blo-mcpd5q932c
+                type: Action
+                action: effects.playSound
+                values:
+                  shipId: $ship
+                  sound:
+                    url: >-
+                      /plugins/Thorium Default/assets/sounds/Alert Level
+                      Changes/alertlevel3.ogg
+                    volume:
+                      - 1
+                      - 1
+                    playbackRate:
+                      - 1
+                      - 1
+                    loop: false
+                    loopStart: null
+                    loopEnd: null
+                    delay: 0
+                    loopGap: 0
+                    channel: null
+          - id: blo-mckin6890o
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $level
+                value2: '2'
+            triggerBlocks:
+              - id: blo-mcpd6e6b4h
+                type: Action
+                action: effects.playSound
+                values:
+                  shipId: $ship
+                  sound:
+                    url: >-
+                      /plugins/Thorium Default/assets/sounds/Alert Level
+                      Changes/alertlevel2.ogg
+                    volume:
+                      - 1
+                      - 1
+                    playbackRate:
+                      - 1
+                      - 1
+                    loop: false
+                    loopStart: null
+                    loopEnd: null
+                    delay: 0
+                    loopGap: 0
+                    channel: null
+          - id: blo-mckin9ez3n
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $level
+                value2: '1'
+            triggerBlocks:
+              - id: blo-mcpd6v563l
+                type: Action
+                action: effects.playSound
+                values:
+                  shipId: $ship
+                  sound:
+                    url: >-
+                      /plugins/Thorium Default/assets/sounds/Alert Level
+                      Changes/alertlevel1.ogg
+                    volume:
+                      - 1
+                      - 1
+                    playbackRate:
+                      - 1
+                      - 1
+                    loop: false
+                    loopStart: null
+                    loopEnd: null
+                    delay: 0
+                    loopGap: 0
+                    channel: null
+          - id: blo-mcpd7g3245
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $level
+                value2: p
+            triggerBlocks:
+              - id: blo-mcpd7lof31
+                type: Action
+                action: effects.playSound
+                values:
+                  shipId: $ship
+                  sound:
+                    url: >-
+                      /plugins/Thorium Default/assets/sounds/Alert Level
+                      Changes/alertlevelp.ogg
+                    volume:
+                      - 1
+                      - 1
+                    playbackRate:
+                      - 1
+                      - 1
+                    loop: false
+                    loopStart: null
+                    loopEnd: null
+                    delay: 0
+                    loopGap: 0
+                    channel: null
+    id: blo-mckigpk16c
+    type: EventCondition
+assets: {}

@@ -50,7 +50,7 @@ planets:
       lifeforms:
         - Varied and extensive vegetation and animal life, humanoids
       atmosphericComposition: []
-      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Terrestrial2.jpg
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
       cloudMapAsset: null
       ringMapAsset: null
     population: 9292620166.179
@@ -76,9 +76,9 @@ planets:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
-      textureMapAsset: /plugins/Thorium Default/assets/default/planets/Martian.jpg
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/default/rings/ring_texturesDust.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 42494.287
     temperature: 300.49955
 assets: {}

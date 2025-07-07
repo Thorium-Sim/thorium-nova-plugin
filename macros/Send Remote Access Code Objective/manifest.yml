@@ -1,0 +1,51 @@
+apiVersion: ships/v1
+kind: macros
+name: Send Remote Access Code Objective
+type: macro
+description: >-
+  Adds an objective to send a remote access code, then clears it when the code
+  is sent.
+category: Misc.
+active: true
+blocks:
+  - action: objectives.add
+    values:
+      shipId: $ship
+      title: Send Remote Access Code
+      description: 'Send this remote access code: BON-45-YINA'
+    id: blo-mces3u1345
+    type: Action
+  - property: objectiveId
+    variable: objective
+    id: blo-mcet2doq1l
+    type: ResultPropertyIntoVariable
+  - event: remoteAccess.send
+    multiple: false
+    persist: false
+    triggerBlocks:
+      - id: blo-mcet36ij6a
+        type: ResultPropertyIntoVariable
+        property: remoteAccessCodeId
+        variable: remoteAccessCode
+      - id: blo-mcet3xcm4x
+        type: EntityPropertyIntoVariable
+        entity: $remoteAccessCode
+        component: remoteAccessCode
+        property: code
+        variable: code
+      - id: blo-mcet4gft1p
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $code
+            value2: BON-45-YINA
+        triggerBlocks:
+          - id: blo-mcet6qkt29
+            type: Action
+            action: objectives.setState
+            values:
+              objectiveId: $objective
+              state: complete
+    id: blo-mcet1tu93g
+    type: EventCondition
+assets: {}

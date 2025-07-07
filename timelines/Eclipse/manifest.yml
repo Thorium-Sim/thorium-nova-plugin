@@ -6,10 +6,71 @@ description: >-
   What could possibly go wrong?
 category: ''
 tags: []
-isMission: true
+type: mission
 steps:
-  - id: ms-llvltmbu5f
+  - id: ms-lmibpezx5m
     name: Timeline Initialization
+    description: ''
+    tags: []
+    blocks:
+      - event: remoteAccess.send
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mc44xtxf4y
+            type: ResultPropertyIntoVariable
+            property: remoteAccessCodeId
+            variable: id
+          - id: blo-mc45byle5z
+            type: EntityPropertyIntoVariable
+            entity: $id
+            component: remoteAccessCode
+            property: shipId
+            variable: ship
+          - id: blo-mc45chb53y
+            type: EntityPropertyIntoVariable
+            entity: $id
+            component: remoteAccessCode
+            property: code
+            variable: code
+          - id: blo-mc45d28i2f
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $code
+                value2: level5
+            triggerBlocks:
+              - id: blo-mc45df7m5j
+                type: Action
+                action: alertLevel.update
+                values:
+                  alertLevel: '5'
+                  shipId: $ship
+              - id: blo-mc4txp1y0r
+                type: Action
+                action: timeline.advance
+                values: {}
+          - id: blo-mc45dse61b
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $code
+                value2: level1
+            triggerBlocks:
+              - id: blo-mc45e22w32
+                type: Action
+                action: alertLevel.update
+                values:
+                  alertLevel: '1'
+                  shipId: $ship
+              - id: blo-mc4txrxr5p
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mc44xrz145
+        type: EventCondition
+  - id: ms-llvltmbu5f
+    name: Step 1
     description: >-
       Initialize anything that needs to be present at the beginning of this
       timeline.
@@ -47,64 +108,19 @@ steps:
         action: thorium.debug
         values:
           message: This is a test
-  - id: ms-lmibpezx5m
-    name: Step 1
-    description: ''
-    tags: []
-    actions:
-      - id: act-lmibpezy0r
-        name: 'Trigger: Advance Timeline'
-        action: triggers.create
+    blocks:
+      - action: waypoints.spawn
         values:
-          name: Advance Timeline
-          active: true
-          conditions:
-            - type: entityMatch
-              query:
-                - component: isPlayerShip
-                  property: isPresent
-                  comparison: null
-                  value: ''
-                - component: isShip
-                  property: alertLevel
-                  comparison: '='
-                  value: '5'
-              matchCount: '>=1'
-          actions:
-            - id: act-lmibpezz52
-              name: 'Timeline: Advance'
-              action: timeline.advance
-              values: {}
-      - id: act-lmibpub621
-        name: 'Thorium: Debug'
-        action: thorium.debug
+          shipId: '#player'
+          entityId: Mars
+        id: blo-mc4u1dd66d
+        type: Action
+      - action: objectives.add
         values:
-          message: Step 1
-      - id: act-lmibpyvu21
-        name: 'Thorium: Delay'
-        action: thorium.delay
-        values:
-          milliseconds: '5000'
-      - id: act-lmibq4mp3o
-        name: 'Thorium: Debug'
-        action: thorium.debug
-        values:
-          message: After delay!
-      - id: act-lmibqai74u
-        name: 'Thorium: Debug'
-        action: thorium.debug
-        values:
-          message:
-            query:
-              - component: isPlayerShip
-                property: isPresent
-                comparison: null
-                value: ''
-            select:
-              component: identity
-              property: name
-              matchType: first
-              comparison: '='
+          shipId: '#player'
+          title: Travel
+        id: blo-mc4u22t445
+        type: Action
   - id: ms-lmj1c5934a
     name: Step 2
     description: ''
@@ -140,6 +156,11 @@ steps:
         action: thorium.debug
         values:
           message: 'Reached step 2. '
+    blocks:
+      - pluginId: Thorium Default
+        macroId: Send Remote Access Code Objective
+        id: blo-mcj2aeby1x
+        type: Macro
   - id: ms-lmj1eycl47
     name: Step 3
     description: ''
