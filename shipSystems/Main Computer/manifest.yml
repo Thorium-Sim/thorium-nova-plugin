@@ -1,15 +1,13 @@
 apiVersion: shipSystems/v1
 kind: shipSystems
-name: Class V Impulse Engines
+name: Main Computer
 description: ''
-type: impulseEngines
+type: mainComputer
 tags: []
-assets:
-  soundEffects: []
+assets: {}
 soundEffects:
-  powerUp: []
-  powerDown: []
   ambiance: []
+  diagnosticComplete: []
 allowMultiple: false
 requiredPower: 5
 defaultPower: 10
@@ -26,9 +24,6 @@ minSignature: 0
 maxSignature: 1
 signatureSpike: 2
 signatureSpikeDuration: 5
-entropyMultiplier: 0.0005
-cruisingSpeed: 1500
-emergencySpeed: 2000
-thrust: 12500
-coolantHeatTransferRate: 10
-powerNode: navigation
+entropyMultiplier: 0.00025
+minDiagnosticEnergyCost: 5
+maxDiagnosticEnergyCost: 15

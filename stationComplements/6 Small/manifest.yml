@@ -31,6 +31,9 @@ stations:
       - name: Officers Log
         component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+      - name: Damage Reports
+        component: DamageReports
+        icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
     widgets:
       - name: Remote Access
         component: RemoteAccess

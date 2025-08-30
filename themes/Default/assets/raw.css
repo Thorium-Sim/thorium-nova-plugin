@@ -542,10 +542,10 @@
     .panel-variant(hotpink);
   }
   &-info {
-    .panel-variant(#198019);
+    .panel-variant(#198080);
   }
   &-success {
-    .panel-variant(#198080);
+    .panel-variant(#198019);
   }
   &-warning {
     .panel-variant(@alert2);

@@ -17,6 +17,14 @@ heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+offlineEfficiency: 0.5
+onlineEfficiency: 0.8
+overloadDamageMultiplier: 0.015
+minSignature: 0
+maxSignature: 1
+signatureSpike: 2
+signatureSpikeDuration: 5
+entropyMultiplier: 0.0005
 passiveRange: 1000000
 activeRange: 100000
 minScanEnergyCost: 5

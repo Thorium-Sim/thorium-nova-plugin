@@ -15,6 +15,6 @@ abundance: 1
 tags: []
 flags:
   torpedoWarhead:
-    damageType: radiation
+    damageType: Radiation
     color: rebeccapurple
     yield: 2

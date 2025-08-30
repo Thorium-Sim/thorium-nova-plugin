@@ -19,7 +19,7 @@ flags:
     maxRange: 125000
   torpedoWarhead:
     yield: 2
-    damageType: radiation
+    damageType: Radiation
     color: blue
   torpedoGuidance:
     guidanceMode: visual

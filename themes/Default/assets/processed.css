@@ -1478,39 +1478,6 @@
   box-shadow: inset 0px 0px 20px 0px rgba(250, 161, 206, 0.7), 0px 0px 10px -2px rgba(250, 161, 206, 0.7);
 }
 .theme-container .panel-info {
-  background: rgba(54, 150, 54, 0.3);
-  border: solid 1px #369636;
-  color: white;
-  text-shadow: 0px 0px 5px #000000;
-  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 44, 0.5), 0px 0px 15px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-  background-color: rgba(25, 128, 25, 0.1);
-}
-.theme-container .panel-info:hover:not([disabled]) {
-  color: white;
-  background: rgba(54, 150, 54, 0.5);
-  box-shadow: inset 0px 0px 20px 0px #2ca02c, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-.theme-container .panel-info:focus {
-  color: white;
-  box-shadow: inset 0px 0px 20px 0px #2ca02c, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-.theme-container .panel-info:active,
-.theme-container .panel-info.active {
-  color: white;
-  background: rgba(54, 150, 54, 0.3);
-  box-shadow: inset 0px 0px 20px 0px #165016, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-.theme-container .panel-info:hover:not([disabled]) {
-  background-color: rgba(25, 128, 25, 0.1);
-  border: solid 1px #369636;
-  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 44, 0.5), 0px 0px 15px -2px #2ca02c;
-}
-.theme-container .panel-info:focus {
-  background-color: transparent;
-  color: white;
-  box-shadow: inset 0px 0px 20px 0px rgba(44, 160, 44, 0.7), 0px 0px 10px -2px rgba(44, 160, 44, 0.7);
-}
-.theme-container .panel-success {
   background: rgba(54, 150, 150, 0.3);
   border: solid 1px #369696;
   color: white;
@@ -1518,30 +1485,63 @@
   box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 160, 0.5), 0px 0px 15px -2px #2ca0a0, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   background-color: rgba(25, 128, 128, 0.1);
 }
-.theme-container .panel-success:hover:not([disabled]) {
+.theme-container .panel-info:hover:not([disabled]) {
   color: white;
   background: rgba(54, 150, 150, 0.5);
   box-shadow: inset 0px 0px 20px 0px #2ca0a0, 0px 0px 10px -2px #2ca0a0, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
-.theme-container .panel-success:focus {
+.theme-container .panel-info:focus {
   color: white;
   box-shadow: inset 0px 0px 20px 0px #2ca0a0, 0px 0px 10px -2px #2ca0a0, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
-.theme-container .panel-success:active,
-.theme-container .panel-success.active {
+.theme-container .panel-info:active,
+.theme-container .panel-info.active {
   color: white;
   background: rgba(54, 150, 150, 0.3);
   box-shadow: inset 0px 0px 20px 0px #165050, 0px 0px 10px -2px #2ca0a0, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
-.theme-container .panel-success:hover:not([disabled]) {
+.theme-container .panel-info:hover:not([disabled]) {
   background-color: rgba(25, 128, 128, 0.1);
   border: solid 1px #369696;
   box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 160, 0.5), 0px 0px 15px -2px #2ca0a0;
 }
-.theme-container .panel-success:focus {
+.theme-container .panel-info:focus {
   background-color: transparent;
   color: white;
   box-shadow: inset 0px 0px 20px 0px rgba(44, 160, 160, 0.7), 0px 0px 10px -2px rgba(44, 160, 160, 0.7);
+}
+.theme-container .panel-success {
+  background: rgba(54, 150, 54, 0.3);
+  border: solid 1px #369636;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 44, 0.5), 0px 0px 15px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  background-color: rgba(25, 128, 25, 0.1);
+}
+.theme-container .panel-success:hover:not([disabled]) {
+  color: white;
+  background: rgba(54, 150, 54, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #2ca02c, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .panel-success:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #2ca02c, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .panel-success:active,
+.theme-container .panel-success.active {
+  color: white;
+  background: rgba(54, 150, 54, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #165016, 0px 0px 10px -2px #2ca02c, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .panel-success:hover:not([disabled]) {
+  background-color: rgba(25, 128, 25, 0.1);
+  border: solid 1px #369636;
+  box-shadow: inset 0px 0px 20px -5px rgba(44, 160, 44, 0.5), 0px 0px 15px -2px #2ca02c;
+}
+.theme-container .panel-success:focus {
+  background-color: transparent;
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px rgba(44, 160, 44, 0.7), 0px 0px 10px -2px rgba(44, 160, 44, 0.7);
 }
 .theme-container .panel-warning {
   background: rgba(199, 147, 94, 0.3);

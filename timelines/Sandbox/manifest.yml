@@ -6,6 +6,7 @@ category: Training
 tags:
   - training
 type: mission
+flightMode: nova
 steps:
   - id: ms-lm6zxfee0o
     name: Timeline Initialization

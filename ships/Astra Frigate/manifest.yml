@@ -67,6 +67,9 @@ shipSystems:
   - id: ssys-m6wkv4553e
     systemId: Standard Sensors
     pluginId: Thorium Default
+  - id: ssys-meiin63n4f
+    systemId: Main Computer
+    pluginId: Thorium Default
 theme:
   themeId: Default
   pluginId: Thorium Default
