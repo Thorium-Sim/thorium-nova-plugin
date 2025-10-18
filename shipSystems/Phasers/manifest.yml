@@ -22,14 +22,17 @@ soundEffects:
       loopGap: 0
       channel: null
 allowMultiple: true
-requiredPower: 5
+powerLevels:
+  - 5
+  - 20
 defaultPower: 10
-maxSafePower: 20
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantTransferRate: 1
+coolantConsumptionRate: 1
 offlineEfficiency: 0.5
 onlineEfficiency: 0.8
 overloadDamageMultiplier: 0.015
@@ -44,3 +47,9 @@ headingDegree: 330
 pitchDegree: 0
 fullChargeYield: 0.1
 yieldMultiplier: 10
+legacyPhaserBanks:
+  - 181
+  - 182
+legacyChargeSpeed: 1
+requiredPower: 5
+maxSafePower: 20

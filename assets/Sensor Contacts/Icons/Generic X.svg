@@ -1,0 +1,6 @@
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41421" viewBox="0 0 32 32"
+  xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="m16 34 6-6zm0-16-6 6h12zm-9-9v12zm18 12h4v-12h-4l-6 6zm0-12v12zm-3-7h-4.5 4.5l-6-6 19 19-6 6 6-6-6-6v12l-7 7h-12l6 6-6-6h12v-4h-12v4l-7-7h4l6-6-6-6h-4v12-12l-1.286 1.286-4.714 4.714 6 6-6-6 4.714-4.714 8.286-8.286 6-6-6 6h7.5-7.5v4l6 6 6-6z"
+    fill="currentColor" transform="matrix(1.21053 0 0 1.21053 -3.36842 -2.15789)" />
+</svg>

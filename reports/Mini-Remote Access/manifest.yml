@@ -1,0 +1,37 @@
+apiVersion: timeline/v1
+kind: reports
+name: Mini-Remote Access
+description: A report for repairing damaged systems.
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - conditions:
+      - comparison: '='
+        value1: $systemType
+        value2: shields
+    triggerBlocks:
+      - id: blo-mgpwcq8g6y
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mgpw4cjq5n
+    type: IfCondition
+autoApplyWhenCompleted: true
+steps:
+  - id: dr-mgp1setz6a
+    name: Step 1
+    description: >-
+      A remote access code must be sent to validate repairs of the {systemName}.
+      Send the following remote access code: {code}.
+    tags: []
+    blocks:
+      - pluginId: Thorium Default
+        macroId: Send Remote Access Code Objective
+        triggerBlocks:
+          - id: blo-mguu793k1x
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-mgtyexom5i
+        type: Macro

@@ -22,14 +22,17 @@ soundEffects:
       loopGap: 0
       channel: null
 allowMultiple: false
-requiredPower: 5
+powerLevels:
+  - 5
+  - 20
 defaultPower: 10
-maxSafePower: 20
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantTransferRate: 1
+coolantConsumptionRate: 1
 offlineEfficiency: 0.5
 onlineEfficiency: 0.8
 overloadDamageMultiplier: 0.015
@@ -42,5 +45,7 @@ directionMaxSpeed: 1
 directionThrust: 437500000
 rotationMaxSpeed: 5
 rotationThrust: 437500000
+requiredPower: 5
+maxSafePower: 20
 coolantHeatTransferRate: 10
 powerNode: navigation

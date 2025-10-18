@@ -6,8 +6,8 @@ description: >-
   What could possibly go wrong?
 category: ''
 tags: []
-type: mission
 flightMode: nova
+prerequisiteBlocks: []
 steps:
   - id: ms-lmibpezx5m
     name: Timeline Initialization
@@ -216,3 +216,4 @@ steps:
             name: Astra Frigate
 assets:
   cover: /plugins/Thorium Default/timelines/Eclipse/assets/logo.jpeg
+type: mission

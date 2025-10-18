@@ -2,19 +2,22 @@ apiVersion: shipSystems/v1
 kind: shipSystems
 name: Air Purifier
 description: ''
-type: targeting
+type: generic
 tags: []
 assets:
   soundEffects: []
 allowMultiple: false
-requiredPower: 5
+powerLevels:
+  - 5
+  - 20
 defaultPower: 10
-maxSafePower: 20
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantTransferRate: 1
+coolantConsumptionRate: 1
 offlineEfficiency: 0.5
 onlineEfficiency: 0.8
 overloadDamageMultiplier: 0.015
@@ -23,5 +26,7 @@ maxSignature: 1
 signatureSpike: 2
 signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
+requiredPower: 5
+maxSafePower: 20
 coolantHeatTransferRate: 10
 powerNode: null

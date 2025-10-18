@@ -258,21 +258,21 @@
 .theme-container .alertLevel-p .doodad-1::after {
   background-color: #7a24cf;
 }
-.theme-container .card-transition {
+.theme-container .card-transition[data-entered] {
   opacity: 1;
   transform: translateX(0);
 }
-.theme-container .card-transition[data-enter] {
+.theme-container .card-transition[data-entering] {
   transition: opacity 0.2s ease 0.2s, transform 0.2s ease 0.2s;
 }
-.theme-container .card-transition[data-closed][data-enter] {
+.theme-container .card-transition[data-exited][data-entering] {
   opacity: 0;
   transform: translateX(-100%);
 }
-.theme-container .card-transition[data-leave] {
-  transition: opacity 1s ease, transform 1s ease;
+.theme-container .card-transition[data-exiting] {
+  transition: opacity 0.2s ease 0s, transform 0.2s ease 0s;
 }
-.theme-container .card-transition[data-leave][data-closed] {
+.theme-container .card-transition[data-exiting][data-exited] {
   opacity: 0;
   transform: translateX(100%);
 }

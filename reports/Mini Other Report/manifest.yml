@@ -1,0 +1,28 @@
+apiVersion: timeline/v1
+kind: reports
+name: Mini Other Report
+description: A report for repairing damaged systems.
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - conditions:
+      - comparison: '!='
+        value1: $systemType
+        value2: shields
+    triggerBlocks:
+      - id: blo-mgrbk3691w
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mgpwdg6b4u
+    type: IfCondition
+autoApplyWhenCompleted: true
+steps:
+  - id: dr-mgpwczep2t
+    name: Step 1
+    description: >-
+      Do something, doesn't matter what. This will only appear for non-shield
+      systems
+    tags: []
+    blocks: []

@@ -40,14 +40,17 @@ soundEffects:
       loopGap: 0
       channel: null
 allowMultiple: false
-requiredPower: 5
+powerLevels:
+  - 5
+  - 20
 defaultPower: 10
-maxSafePower: 20
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantTransferRate: 1
+coolantConsumptionRate: 1
 offlineEfficiency: 0.5
 onlineEfficiency: 0.8
 overloadDamageMultiplier: 0.015
@@ -59,5 +62,32 @@ entropyMultiplier: 0.0005
 optimalOutputPercent: 0.5
 powerMultiplier: 1
 reactorCount: 4
+legacySettings:
+  - name: Overload
+    color: error
+    efficiency: 1.25
+  - name: Cruise
+    color: primary
+    efficiency: 1
+  - name: Silent Running
+    color: notice
+    efficiency: 0.87
+  - name: Reduced
+    color: secondary
+    efficiency: 0.5
+  - name: Auxiliary
+    color: info
+    efficiency: 0.38
+  - name: Minimal
+    color: warning
+    efficiency: 0.27
+  - name: Power Down
+    color: error
+    efficiency: 0
+  - name: External Power
+    color: success
+    efficiency: null
+requiredPower: 5
+maxSafePower: 20
 coolantHeatTransferRate: 10
 powerNode: null

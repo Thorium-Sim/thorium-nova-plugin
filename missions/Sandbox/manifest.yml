@@ -5,8 +5,8 @@ description: What could possibly go wrong?
 category: Training
 tags:
   - training
-type: mission
 flightMode: nova
+prerequisiteBlocks: []
 steps:
   - id: ms-lm6zxfee0o
     name: Timeline Initialization
@@ -29,3 +29,4 @@ steps:
               values: {}
 assets:
   cover: /plugins/Thorium Default/timelines/Sandbox/assets/logo.jpeg
+type: mission

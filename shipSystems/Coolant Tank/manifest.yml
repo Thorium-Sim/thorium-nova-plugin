@@ -1,0 +1,27 @@
+apiVersion: shipSystems/v1
+kind: shipSystems
+name: Coolant Tank
+description: ''
+type: coolantTank
+tags: []
+assets: {}
+allowMultiple: false
+powerLevels:
+  - 5
+  - 20
+defaultPower: 10
+powerToHeat: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+coolantTransferRate: 0.2
+coolantConsumptionRate: 1
+offlineEfficiency: 0.5
+onlineEfficiency: 0.8
+overloadDamageMultiplier: 0.015
+minSignature: 0
+maxSignature: 0
+signatureSpike: 0
+signatureSpikeDuration: 5
+entropyMultiplier: 0.00025

@@ -8,11 +8,17 @@ description: >-
 category: Misc.
 active: true
 blocks:
+  - entity: this step
+    variable: code
+    value: >-
+      {~Alpha,Beta,Gamma,Delta,Zeta,Lambda,Omicron}-RANDOM(100,999)-{~Ansible,Cyber,Matrix,Naidon,Skadov,Memory,Faraday,Bernal,Dyson,Protocol,Vector,Analog,Digital,Buffer,Cache,Crypto,Fragment,System,Duplex,Threading,Hyper,Interlace,Progressive,Simplex,Multiplex,Syntax,Token}
+    id: blo-mgp2vjst3y
+    type: SetVariable
   - action: objectives.add
     values:
-      shipId: $ship
+      shipId: $shipId
       title: Send Remote Access Code
-      description: 'Send this remote access code: BON-45-YINA'
+      description: 'Send this remote access code: {code}'
     id: blo-mces3u1345
     type: Action
   - property: objectiveId
@@ -32,13 +38,13 @@ blocks:
         entity: $remoteAccessCode
         component: remoteAccessCode
         property: code
-        variable: code
+        variable: codeInput
       - id: blo-mcet4gft1p
         type: IfCondition
         conditions:
           - comparison: '='
-            value1: $code
-            value2: BON-45-YINA
+            value1: LOWERCASE({codeInput})
+            value2: LOWERCASE({code})
         triggerBlocks:
           - id: blo-mcet6qkt29
             type: Action
@@ -46,6 +52,8 @@ blocks:
             values:
               objectiveId: $objective
               state: complete
+          - id: blo-mgty82hx19
+            type: MacroSlot
     id: blo-mcet1tu93g
     type: EventCondition
 assets: {}

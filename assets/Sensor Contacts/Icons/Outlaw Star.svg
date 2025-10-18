@@ -1,0 +1,6 @@
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5"
+  viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <path d="m15 17 8 12h-16z" fill="none" stroke="currentColor" stroke-width=".55"
+    transform="matrix(1.875 0 0 1.76471 -12.125 -28.5882)" />
+  <path d="m15 17 8 12h-16z" fill="currentColor" transform="matrix(-1.875 -0 0 -1.76471 44.125 59.6471)" />
+</svg>

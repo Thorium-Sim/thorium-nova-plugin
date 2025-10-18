@@ -70,6 +70,15 @@ shipSystems:
   - id: ssys-meiin63n4f
     systemId: Main Computer
     pluginId: Thorium Default
+  - id: ssys-mfh2qmwu4i
+    systemId: Coolant Tank
+    pluginId: Thorium Default
+  - id: ssys-mg1m5h4b41
+    systemId: Navigation
+    pluginId: Thorium Default
+  - id: ssys-mg29xpew6j
+    systemId: Long Range Comm
+    pluginId: Thorium Default
 theme:
   themeId: Default
   pluginId: Thorium Default
