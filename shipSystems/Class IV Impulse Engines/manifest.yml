@@ -80,7 +80,19 @@ entropyMultiplier: 0.0005
 cruisingSpeed: 1500
 emergencySpeed: 2000
 thrust: 437500000000
+speeds:
+  - label: 1/4 Impulse
+    number: '0.25'
+  - label: 1/2 Impulse
+    number: '0.5'
+  - label: 3/4 Impulse
+    number: '0.75'
+  - label: Full Impulse
+    number: '1.0'
+  - label: Destructive
+    number: '1.25'
 requiredPower: 5
 maxSafePower: 20
 coolantHeatTransferRate: 10
 powerNode: navigation
+lastSaved: 1765847902435

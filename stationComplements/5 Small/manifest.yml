@@ -1,6 +1,6 @@
 apiVersion: stations/v1
 kind: stationComplements
-name: 6 Small
+name: 5 Small
 hasShipMap: false
 stations:
   - name: Pilot
@@ -89,13 +89,5 @@ stations:
         component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
 flightMode: nova
-assets:
-  Pilot-logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
-  Pilot-Pilot-icon: /plugins/Thorium Default/stationComplements/assets/Pilot Card.svg
-  Pilot-Navigation-icon: /plugins/Thorium Default/stationComplements/assets/Navigation.svg
-  Pilot-Cargo Control-icon: /plugins/Thorium Default/stationComplements/assets/CargoControl.svg
-  Pilot-Sensors-icon: /plugins/Thorium Default/stationComplements/assets/Sensors.svg
-  Pilot-Alert Level-icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
-  Pilot-Systems Monitor-icon: /plugins/Thorium Default/stationComplements/assets/SystemsMonitor.svg
-  Pilot-Targeting-icon: /plugins/Thorium Default/stationComplements/assets/Targeting.svg
-  Pilot-Officers Log-icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+assets: {}
+lastSaved: 1765847902438

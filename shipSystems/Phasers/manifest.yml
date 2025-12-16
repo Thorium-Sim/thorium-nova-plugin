@@ -46,10 +46,11 @@ maxArc: 90
 headingDegree: 330
 pitchDegree: 0
 fullChargeYield: 0.1
-yieldMultiplier: 10
+yieldMultiplier: 100
 legacyPhaserBanks:
   - 181
   - 182
 legacyChargeSpeed: 1
 requiredPower: 5
 maxSafePower: 20
+lastSaved: 1765847902435

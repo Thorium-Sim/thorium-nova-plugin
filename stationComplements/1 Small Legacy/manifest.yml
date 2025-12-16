@@ -4,29 +4,60 @@ name: 1 Small Legacy
 hasShipMap: false
 stations:
   - name: Pilot
-    description: A single player position that controls all aspects of the ship.
+    description: Directs the movement of the ship and controls the engines
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
     cards:
+      - name: Engine Control
+        component: LegacyEngineControl
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Navigation
         component: LegacyNavigation
         icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+      - name: Thrusters
+        component: LegacyThrusters
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+    widgets:
+      - name: Objectives
+        component: Objectives
+        icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        size: sm
+      - name: Officers Log
+        component: OfficersLog
+        icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+  - name: Engineer
+    description: Controls the power, reactors, and maintenance of the ship
+    logo: /plugins/Thorium Default/stationComplements/assets/Engineer.svg
+    cards:
+      - name: Power Distribution
+        component: LegacyPowerDistribution
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+      - name: Reactor Control
+        component: LegacyReactorControl
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+      - name: Coolant Control
+        component: LegacyCoolantControl
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+    widgets:
+      - name: Remote Access
+        component: RemoteAccess
+        icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
+        size: sm
+      - name: Objectives
+        component: Objectives
+        icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        size: sm
+      - name: Officers Log
+        component: OfficersLog
+        icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+  - name: Operations
+    description: Assorted other stuff
+    logo: /plugins/Thorium Default/stationComplements/assets/Operations.svg
+    cards:
       - name: Sensor Scans
         component: LegacySensorScans
         icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Sensor Grid
         component: LegacySensorGrid
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
-      - name: Coolant Control
-        component: LegacyCoolantControl
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
-      - name: Reactor Control
-        component: LegacyReactorControl
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
-      - name: Thrusters
-        component: LegacyThrusters
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
-      - name: Power Distribution
-        component: LegacyPowerDistribution
         icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Alert Level
         component: AlertLevel
@@ -38,10 +69,6 @@ stations:
         component: Documents
         icon: /plugins/Thorium Default/stationComplements/assets/Documents.svg
     widgets:
-      - name: Remote Access
-        component: RemoteAccess
-        icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
-        size: sm
       - name: Objectives
         component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
@@ -58,3 +85,4 @@ stations:
         size: lg
 flightMode: legacy
 assets: {}
+lastSaved: 1765847902438

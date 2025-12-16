@@ -29,8 +29,21 @@ entropyMultiplier: 0.0005
 interstellarCruisingSpeed: 599600000000
 solarCruisingSpeed: 29980000
 minSpeedMultiplier: 0.01
-warpFactorCount: 5
+speeds:
+  - label: Warp 1
+    number: '1'
+  - label: Warp 2
+    number: '2'
+  - label: Warp 3
+    number: '3'
+  - label: Warp 4
+    number: '4'
+  - label: Warp 5
+    number: '5'
+  - label: Destructive
+    number: '!!'
 requiredPower: 5
 maxSafePower: 20
 coolantHeatTransferRate: 10
 powerNode: navigation
+lastSaved: 1765847902434

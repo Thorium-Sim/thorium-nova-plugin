@@ -1,0 +1,80 @@
+apiVersion: stations/v1
+kind: stationComplements
+name: 4 Small
+hasShipMap: false
+stations:
+  - name: Pilot
+    description: Controls the movement of the ship
+    logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
+    cards:
+      - name: Pilot
+        component: Pilot
+        icon: /plugins/Thorium Default/stationComplements/assets/Pilot Card.svg
+      - name: Navigation
+        component: Navigation
+        icon: /plugins/Thorium Default/stationComplements/assets/Navigation.svg
+    widgets:
+      - name: Objectives
+        component: Objectives
+        icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        size: sm
+      - name: Officers Log
+        component: OfficersLog
+        icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+  - name: Engineer
+    description: Allocates ship power and manages the engines and reactors
+    logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
+    cards:
+      - name: Systems Monitor
+        component: SystemsMonitor
+        icon: /plugins/Thorium Default/stationComplements/assets/SystemsMonitor.svg
+      - name: Damage Reports
+        component: DamageReports
+        icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+      - name: Cargo Control
+        component: CargoControl
+        icon: /plugins/Thorium Default/stationComplements/assets/CargoControl.svg
+    widgets:
+      - name: Objectives
+        component: Objectives
+        icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        size: sm
+      - name: Officers Log
+        component: OfficersLog
+        icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+  - name: Tactical
+    description: Defends the ship
+    logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
+    cards:
+      - name: Targeting
+        component: Targeting
+        icon: /plugins/Thorium Default/stationComplements/assets/Targeting.svg
+    widgets:
+      - name: Objectives
+        component: Objectives
+        icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        size: sm
+      - name: Officers Log
+        component: OfficersLog
+        icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+  - name: Sensors
+    description: Scans for objects outside of the ship
+    logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
+    cards:
+      - name: Sensors
+        component: Sensors
+        icon: /plugins/Thorium Default/stationComplements/assets/Sensors.svg
+      - name: Alert Level
+        component: AlertLevel
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+    widgets:
+      - name: Objectives
+        component: Objectives
+        icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        size: sm
+      - name: Officers Log
+        component: OfficersLog
+        icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+flightMode: nova
+assets: {}
+lastSaved: 1765847902438

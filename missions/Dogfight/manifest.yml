@@ -1,0 +1,83 @@
+apiVersion: timeline/v1
+kind: missions
+name: Dogfight
+description: A one-on-on combat scenario against equally matched ships. Can you handle it?
+category: Basic
+tags: []
+flightMode: nova
+prerequisiteBlocks: []
+steps:
+  - id: ms-mh2owlda2c
+    name: Timeline Initialization
+    description: Set the ship's starting point and spawn the combatant
+    tags: []
+    blocks:
+      - action: flight.pause
+        values: {}
+        id: blo-miknk69s4q
+        type: Action
+      - action: ship.move
+        values:
+          shipId: '#playerShip'
+          entityId: Earth
+        id: blo-midhbe6i2p
+        type: Action
+      - action: ship.spawn
+        values:
+          template:
+            pluginId: Thorium Default
+            name: Astra Frigate
+          entityId: Earth
+          tags:
+            - enemy
+        id: blo-mh2oyc653k
+        type: Action
+      - property: id
+        variable: enemy
+        id: blo-midgzmxk48
+        type: ResultPropertyIntoVariable
+      - action: starmapCore.setShipsBehavior
+        values:
+          shipIds: $enemy
+          targetId: '#playerShip'
+          objective: attack
+        id: blo-midgz3tu2p
+        type: Action
+      - checks:
+          - component: isPlayerShip
+            property: isPresent
+        match: 'no'
+        persist: true
+        triggerBlocks:
+          - id: blo-midp0um84k
+            type: Action
+            action: flight.failure
+            values:
+              reason: Ship Destroyed
+          - id: blo-midp21md09
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-midp0aj23w
+        type: EntityCondition
+      - checks:
+          - component: tags
+            property: tags
+            value: enemy
+        match: 'no'
+        persist: true
+        triggerBlocks:
+          - id: blo-midp1srm07
+            type: Action
+            action: flight.success
+            values:
+              reason: Enemy Destroyed
+          - id: blo-midp24dw3h
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-midp175f4s
+        type: EntityCondition
+assets:
+  cover: ''
+lastSaved: 1765847902469
