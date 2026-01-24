@@ -1,0 +1,54 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Pilot
+description: 'Training for the Pilot station, '
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - conditions:
+      - comparison: '='
+        value1: $stationComplement
+        value2: 4 Small
+      - value1: $station
+        value2: Pilot
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mjh9vkrz5a
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mjh9u1he6c
+    type: IfCondition
+  - conditions:
+      - comparison: '='
+        value1: $stationComplement
+        value2: 5 Small
+      - value1: $station
+        value2: Pilot
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mjh9w0485c
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mjh9vpvq3s
+    type: IfCondition
+autoApplyWhenCompleted: true
+steps:
+  - id: tr-mjh9ta281t
+    name: Step 1
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setCard
+        values:
+          clientId: $clientId
+          card: Pilot
+        id: blo-mjh9z2dh1f
+        type: Action
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+        id: blo-mjhff5co2c
+        type: Action
+lastSaved: 1769274573325

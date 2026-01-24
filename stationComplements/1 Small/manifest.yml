@@ -10,9 +10,6 @@ stations:
       - name: Pilot
         component: Pilot
         icon: /plugins/Thorium Default/stationComplements/assets/Pilot Card.svg
-      - name: Navigation
-        component: Navigation
-        icon: /plugins/Thorium Default/stationComplements/assets/Navigation.svg
       - name: Cargo Control
         component: CargoControl
         icon: /plugins/Thorium Default/stationComplements/assets/CargoControl.svg
@@ -48,4 +45,4 @@ stations:
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
 flightMode: nova
 assets: {}
-lastSaved: 1765847902438
+lastSaved: 1769274573290

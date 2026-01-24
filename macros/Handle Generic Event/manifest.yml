@@ -1,0 +1,30 @@
+apiVersion: ships/v1
+kind: macros
+name: Handle Generic Event
+type: macro
+description: Performs several actions at once.
+category: Events
+active: true
+blocks:
+  - event: thorium.genericEvent
+    multiple: true
+    persist: false
+    triggerBlocks:
+      - id: blo-mjnh214h12
+        type: ResultPropertyIntoVariable
+        property: clientId
+        variable: eventClientId
+      - id: blo-mjnh23683a
+        type: ResultPropertyIntoVariable
+        property: eventName
+        variable: eventName
+      - id: blo-mjnh24k85b
+        type: ResultPropertyIntoVariable
+        property: properties
+        variable: props
+      - id: blo-mjnh3jgs01
+        type: MacroSlot
+    id: blo-mjnh1tnu50
+    type: EventCondition
+assets: {}
+lastSaved: 1769274573324

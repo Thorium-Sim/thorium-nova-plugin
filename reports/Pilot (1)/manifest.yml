@@ -1,0 +1,16 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Pilot
+description: A training for learning how to use a station.
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-mjhknfie66
+    name: Step 1
+    description: ''
+    tags: []
+    blocks: []
+lastSaved: 1766433095583

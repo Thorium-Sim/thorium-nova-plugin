@@ -1,0 +1,1080 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Pilot
+description: Training for the pilot station
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - conditions:
+      - comparison: '='
+        value1: $station
+        value2: Pilot
+    triggerBlocks:
+      - id: blo-mjhlmfv46e
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $stationComplement
+            value2: 4 Small
+          - value1: ''
+            value2: ''
+            comparison: '='
+        triggerBlocks:
+          - id: blo-mjhlmmva42
+            type: TimelineAvailability
+            isAvailable: true
+      - id: blo-mjhlmpy94r
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $stationComplement
+            value2: 5 Small
+        triggerBlocks:
+          - id: blo-mjhlmwz63g
+            type: TimelineAvailability
+            isAvailable: true
+    id: blo-mjhlm3vs5v
+    type: IfCondition
+steps:
+  - id: tr-mjhljxlp0h
+    name: Step 1 - Welcome
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            Welcome Pilot! It's your job to get your ship from where it is to
+            where it needs to go. Let's take a look into all the engines and
+            controls you use to do that.
+          allowAdvance: true
+        id: blo-mjhlp6qz1w
+        type: Action
+      - action: ship.spawn
+        values:
+          template:
+            pluginId: Thorium Default
+            name: Astra Frigate
+          entityId: $shipId
+          distance: 4500
+        id: blo-mjoep3683b
+        type: Action
+      - property: id
+        variable: id
+        id: blo-mjoephl46l
+        type: ResultPropertyIntoVariable
+      - action: thorium.setEntityComponent
+        values:
+          entityId: $id
+          components:
+            - component: identity
+              property: name
+              comparison: ''
+              value: Training Ship
+        id: blo-mjoepquj0n
+        type: Action
+  - id: ts-mjnaxljy15
+    name: Step 2 - Login
+    description: ''
+    tags: []
+    blocks:
+      - entity: $clientId
+        component: flightClient
+        property: loginName
+        variable: loginName
+        id: blo-mjnb8i6y3o
+        type: EntityPropertyIntoVariable
+      - conditions:
+          - comparison: is not empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbgxxz6t
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-mjnb8svo27
+        type: IfCondition
+      - conditions:
+          - comparison: is empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbhdn32e
+            type: Action
+            action: client.setTraining
+            values:
+              clientId: $clientId
+              text: >-
+                The first thing you need to do is identify yourself by entering
+                your name and logging in. Do that now.
+              selector:
+                - .login-form
+          - id: blo-mjng261d0u
+            type: EventCondition
+            event: client.login
+            multiple: true
+            persist: false
+            triggerBlocks:
+              - id: blo-mjng4er92w
+                type: ResultPropertyIntoVariable
+                property: clientId
+                variable: loginClientId
+              - id: blo-mjng4s9g2h
+                type: IfCondition
+                conditions:
+                  - comparison: '='
+                    value1: $loginClientId
+                    value2: $clientId
+                triggerBlocks:
+                  - id: blo-mjng4zol66
+                    type: Action
+                    action: timeline.advance
+                    values: {}
+        id: blo-mjnbh6hs62
+        type: IfCondition
+  - id: ts-mjnbk6re4b
+    name: Step 3 - Pilot Summary
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This is the screen you'll use to activate your engines, engage
+            autopilot, and use thrusters. You'll probably spend most of your
+            time here.
+          allowAdvance: true
+        id: blo-mjnbk9pj6z
+        type: Action
+  - id: ts-mjnffi5646
+    name: Step 4 - Radar
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            This is your pilot radar. It shows the relative direction and
+            distance from your ship to nearby objects in 3D space.
+
+
+            Your ship is in the very center, with the arrow pointing in the same
+            direction as your ship. As your ship turns and rotates, you'll see
+            the objects in this radar move with your ship. 
+
+
+            It is **crucial** to remember that you are seeing a 2D projection of
+            3D space. Objects might be above or below your ship. Go to the next
+            step to find out how to see what objects are above or below you.
+          selector:
+            - .pilot-radar
+          allowAdvance: true
+        id: blo-mjnffl9l4q
+        type: Action
+  - id: ms-mjnfrr9c3p
+    name: Step 5 - Radar Controls
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjnfrr9b46
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You can use this slider to zoom in and out to better see the
+            movement of ships. Give it a go now - see if you can zoom out all
+            the way.
+          selector:
+            - .pilot-slider
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjngpqbo60
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mjngpynz17
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventName
+          - id: blo-mjngq56b0i
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: zoom
+          - id: blo-mjngqbnj6c
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventClientId
+                value2: $clientId
+              - value1: $eventName
+                value2: radar-zoom
+                comparison: '='
+              - value1: $zoom
+                value2: '0.2'
+                comparison: <=
+            triggerBlocks:
+              - id: blo-mjngtebd27
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjngpdow5i
+        type: EventCondition
+  - id: ms-mjngvme84g
+    name: Step 6 - Tilt Control
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjngvme71y
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Excellent work. You can also tilt the sensor grid to give you a 3D
+            view of space. There are three levels of tilt: directly above, 45˚
+            behind, and 90˚ behind. At the 90˚ tilt, your ship appears to move
+            _into_ the the radar, while up and down correspond to above and
+            below your ship.
+
+
+            Go ahead and switch the tilt to 90˚ behind by clicking the tilt
+            button twice.
+          selector:
+            - .pilot-tilt
+      - pluginId: Thorium Default
+        macroId: Handle Generic Event
+        triggerBlocks:
+          - id: blo-mjnh42oy5c
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventName
+                value2: radar-tilt
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $props
+                value2: '1'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mjnh5adt5b
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjnh3y5q4e
+        type: Macro
+  - id: ms-mjnh5ja93w
+    name: Step 7 - Rotation Thrusters
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjnh5ja80e
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Enough looking at radars. Let's start moving the ship around. Most
+            commonly, you'll use these thrusters to rotate your ship to point in
+            the direction you want to go.
+
+
+            Your thrusters can rotate your ship along three axes. Pitch rotates
+            the nose of your ship up and down. Roll rotates the sides of your
+            ship up and down. The slider underneath yaws your ship by turning
+            the nose to the left (port) or the right (starboard).
+          selector:
+            - .rotation-thrusters
+          allowAdvance: true
+  - id: ms-mjravzbc6s
+    name: Step 8 - Play around with Thrusters
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjravzbb57
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .rotation-thrusters
+            - .pilot-radar
+          text: >-
+            Play around with the rotation thrusters for a few seconds. Notice
+            how little lines appear along the edges of the radar when you
+            activate thrusters, to give a visual indication that your ship is
+            rotating, even if there are no reference objects nearby.
+
+
+            Training will continue when you've used the thrusters for a few
+            moments.
+      - event: pilot.thrusters.setRotationDelta
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjrb2cep6v
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: thrusterShip
+          - id: blo-mjrb2ire6k
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $thrusterShip
+                value2: $shipId
+            triggerBlocks:
+              - id: blo-mjrb2z4i0a
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjrb20dl3g
+        type: EventCondition
+  - id: ms-mjrb38nl41
+    name: Step 9 - Direction Thrusters
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjrb38nk1m
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You also have thrusters which move your ship laterally in 6
+            different directions. These thrusters don't provide a lot of speed,
+            and are used for precise movements.
+
+
+            The circle joystick lets you move up, down, port (left), and
+            starboard (right). This is useful when you need to carefully
+            navigate around ships or other navigational hazards.
+
+
+            The slider on the left lets you thrust forward or reverse.
+          selector:
+            - .direction-thrusters
+          allowAdvance: true
+      - event: pilot.thrusters.setDirection
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjygfmep2p
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: thrusterShip
+          - id: blo-mjygfx8p1f
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $thrusterShip
+                value2: $shipId
+            triggerBlocks:
+              - id: blo-mjyggas002
+                type: Wait
+                time: 3
+                unit: seconds
+              - id: blo-mjyggf7e4c
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjygfg7i06
+        type: EventCondition
+  - id: ms-mjrb5ygj24
+    name: Step 10 - Impulse
+    description: ''
+    tags: []
+    blocks:
+      - count: one
+        entity: $shipId
+        systemType: impulseEngines
+        variable: $impulseEngines
+        id: blo-mjrb79wh1e
+        type: ShipSystemGetter
+      - entity: $impulseEngines
+        component: identity
+        property: name
+        variable: $impulseName
+        id: blo-mjrb9rot13
+        type: EntityPropertyIntoVariable
+      - id: blo-mjrb5ygi2s
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .impulse-speeds
+          text: >-
+            When you really want to go somewhere, you'll want to use your
+            sub-light {impulseName}.  It provides preset speed options which you
+            can access by clicking the buttons here.
+
+
+            Go ahead and choose a speed now.
+      - event: pilot.impulseEngines.setSpeed
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjso4joi5b
+            type: ResultPropertyIntoVariable
+            property: systemId
+            variable: engineId
+          - id: blo-mjso506163
+            type: ResultPropertyIntoVariable
+            property: speed
+            variable: speed
+          - id: blo-mjso54eh3t
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $systemId
+                value2: $impulseEngines
+              - value1: $speed
+                value2: '0'
+                comparison: '>'
+            triggerBlocks:
+              - id: blo-mjso5o4z20
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjso40dk47
+        type: EventCondition
+  - id: ms-mjrbcu0a5a
+    name: Step 11 - Impulse Slider
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjrbcu095l
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .impulse-bar
+          text: >-
+            You can also use this slider for more exact speed selection.
+
+
+            Note that if you choose Destructive, the engines will attempt to use
+            all of the power allocated to them. This can make your engines go
+            faster than designed, but can also cause them to overheat or become
+            damaged, so use caution.
+          allowAdvance: true
+  - id: ms-mjsnvozc1m
+    name: Step 12 - Current Speed
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjsnvozb6s
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .forward-velocity
+          text: >-
+            This is where you can see your current forward velocity and your
+            target velocity. If you chose to go at a high impulse speed, you
+            might notice that your actual speed is much slower. This is most
+            likely due to insufficient power or damage to the engines. If that
+            happens, talk to the rest of your crew to make a plan for getting
+            your engines the power they need.
+          allowAdvance: true
+  - id: ms-mjso950z47
+    name: Step 13 - Warp
+    description: ''
+    tags: []
+    blocks:
+      - count: one
+        entity: $shipId
+        systemType: warpEngines
+        variable: warpEngines
+        id: blo-mjt4oq6u04
+        type: ShipSystemGetter
+      - entity: $warpEngines
+        component: identity
+        property: name
+        variable: name
+        id: blo-mjt4p4nv0a
+        type: EntityPropertyIntoVariable
+      - id: blo-mjso950y44
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Sublight speeds are good for traveling around a planet, but to reach
+            other planets and star systems, you'll have to travel faster than
+            light. You'll use your {name} for that. Click the speed you want to
+            go to get your ship moving.
+          selector:
+            - .warp-speeds
+      - event: pilot.warpEngines.setWarpFactor
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjt4wjps66
+            type: ResultPropertyIntoVariable
+            property: systemId
+            variable: systemId
+          - id: blo-mjt4wt5h1f
+            type: ResultPropertyIntoVariable
+            property: factor
+            variable: factor
+          - id: blo-mjt4wyvo3f
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $systemId
+                value2: $warpEngines
+              - value1: $factor
+                value2: '0'
+                comparison: '>'
+            triggerBlocks:
+              - id: blo-mjt4xekn5j
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjt4w84r5f
+        type: EventCondition
+  - id: ms-mjsnya6i2v
+    name: Step 14 - Full Stop
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjsnya6h1o
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .full-stop
+          text: >-
+            Your most important control on this screen is the full stop button,
+            which rapidly slows your ship to a stop. You'll need to use it
+            frequently to avoid colliding with other ships and planets. Stop the
+            ship now.
+      - count: one
+        entity: $shipId
+        systemType: warpEngines
+        variable: engines
+        id: blo-mjso7jn86e
+        type: ShipSystemGetter
+      - event: pilot.warpEngines.setWarpFactor
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjso81vf5v
+            type: ResultPropertyIntoVariable
+            property: systemId
+            variable: engineId
+          - id: blo-mjso8btq2p
+            type: ResultPropertyIntoVariable
+            property: factor
+            variable: speed
+          - id: blo-mjso8hmq11
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $engineId
+                value2: $engines
+              - value1: $speed
+                value2: '0'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mjso8xq52v
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjso7v6l2g
+        type: EventCondition
+  - id: ms-mjt4y7mx0g
+    name: Step 15 - Navigation
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Now that we know how to move the ship, let's learn how to choose a
+            destination and get our ship there. Click this button to open the
+            navigation screen.
+          selector:
+            - .set-course
+          mediaUrl: ''
+        id: blo-mju26s015y
+        type: Action
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjyten2619
+            type: Macro
+            pluginId: Thorium Default
+            macroId: Handle Generic Event
+            triggerBlocks:
+              - id: blo-mjytewqy14
+                type: IfCondition
+                conditions:
+                  - comparison: '='
+                    value1: $eventClientId
+                    value2: $clientId
+                  - value1: $eventName
+                    value2: navigation-open
+                    comparison: '='
+                  - value1: $props
+                    value2: 'true'
+                    comparison: '='
+                triggerBlocks:
+                  - id: blo-mjytft9s3u
+                    type: Action
+                    action: timeline.advance
+                    values: {}
+        id: blo-mjytcdwy16
+        type: EventCondition
+  - id: ms-mjytg1c60c
+    name: Step 16 - Navigation Overview
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjytg1c536
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This is your navigation map. You can use it to see your ship's
+            position in space. Click and drag on empty space to pan around, and
+            use the zoom slider in the corner to zoom in and out. You can zoom
+            all the way out to see the entire solar system.
+
+
+            You can click the "Interstellar View" button to zoom out even
+            further to see other star systems.
+          card: ''
+          selector:
+            - .navigation-card
+          allowAdvance: true
+  - id: ms-mjytiwtt6x
+    name: Step 17 - Search Bar
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjytiwts6k
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .navigation-search
+          text: >-
+            You can use this search bar to find any solar system, star, planet,
+            or starbase in your navigation computer. Just start typing and
+            results will begin to appear.
+
+
+            Let's search for "Mars". Type that in the search box, and then
+            select is once you've found it.
+      - pluginId: Thorium Default
+        macroId: Handle Generic Event
+        triggerBlocks:
+          - id: blo-mjytocl36a
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventClientId
+                value2: $clientId
+              - value1: $eventName
+                value2: starmap-selected
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mjytp0ta58
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjyto6nb24
+        type: Macro
+  - id: ms-mjyttsgz56
+    name: Step 18 - Navigation Object
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjyttsgy3x
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .navigation-object
+          text: >-
+            You can see the details about any object you selected here. You can
+            also see a "Set Waypoint" button, which allows you to create a
+            waypoint to navigate to. Click the "Set Waypoint" button now.
+      - event: waypoints.spawn
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mk4mdzjj4i
+            type: ResultPropertyIntoVariable
+            property: waypointId
+            variable: waypointId
+          - id: blo-mjytxqy053
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: waypointShip
+          - id: blo-mk4meg3e6k
+            type: SetVariable
+            entity: this timeline
+            variable: waypointId
+            value: $waypointId
+          - id: blo-mjytxyco2u
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $waypointShip
+                value2: $shipId
+            triggerBlocks:
+              - id: blo-mjyty4mh28
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjytwzav04
+        type: EventCondition
+  - id: ms-mjytz33p5b
+    name: Step 19 - Autopilot
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjytz33o58
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Setting the waypoint brings us back to the radar, where you can see
+            a new orange icon. That points in the direction of the waypoint that
+            you just set.
+
+
+            To travel to that waypoint, you'll need to use your yaw, pitch, and
+            roll thrusters so your ship is pointed at that waypoint arrow.
+            You'll know you're pointed in the right direction when the arrow
+            turns blue.
+
+
+            Here's a hint: Set your radar view to be top-down. Then use Yaw to
+            rotate your ship so the waypoint arrow is at the top of the radar. 
+            Then switch your radar view to be 90˚ behind and use the Pitch to
+            rotate your ship so the waypoint arrow overlaps with the front of
+            your ship. If it still doesn't line up, you can use Yaw again to get
+            it in just the right location.
+          selector:
+            - .pilot-radar
+            - .rotation-thrusters
+      - entity: this timeline
+        getVariable: waypointId
+        variable: waypointId
+        id: blo-mk4mmdua1r
+        type: VariableIntoVariable
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mk4mlsfu3c
+            type: Macro
+            pluginId: Thorium Default
+            macroId: Handle Generic Event
+            triggerBlocks:
+              - id: blo-mk4mlxww39
+                type: IfCondition
+                conditions:
+                  - comparison: '='
+                    value1: $eventName
+                    value2: facing-waypoint
+                  - value1: $props
+                    value2: $waypointId
+                    comparison: '='
+                triggerBlocks:
+                  - id: blo-mk4mmo0e0l
+                    type: Action
+                    action: timeline.advance
+                    values: {}
+        id: blo-mk4mlepw2x
+        type: EventCondition
+  - id: ms-mk1z85l65i
+    name: Step 20 - Lock Course
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1z85l571
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Once your ship is pointed at the waypoint, you can lock course. This
+            will allow the thrusters to make the minute adjustments necessary to
+            get you to your destination. Make sure the waypoint arrow is blue
+            and then click this button.
+          selector:
+            - .lock-on-course
+      - event: pilot.autopilot.lockCourse
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mk4mr6bf01
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShip
+          - id: blo-mk4mrgh94m
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventShip
+                value2: $shipId
+            triggerBlocks:
+              - id: blo-mk4mrq9c0f
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mk4mnwjo54
+        type: EventCondition
+  - id: ms-mk1z8czj0z
+    name: Step 21 - Activate Autopilot
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1z8czi4g
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            When you're ready to get going to your destination, click this
+            Activate Autopilot button to activate whichever engines are best -
+            warp for long distances and impulse for short distances. Click the
+            button now.
+          selector:
+            - .activate-autopilot
+      - event: pilot.autopilot.activate
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mk4ms5kn2f
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShip
+          - id: blo-mk4msbbo1x
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventShip
+                value2: $shipId
+            triggerBlocks:
+              - id: blo-mk4msj0p05
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mk4ms05d6o
+        type: EventCondition
+  - id: ms-mk1z8hm870
+    name: Step 22 - Traveling
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1z8hm73l
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Congratulations!  Your ship is now traveling to your destination. If
+            you hurry, you can click on the "Set Course" button to watch your
+            ship as it travels. Click it now.
+          selector:
+            - .set-course
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjyten2619
+            type: Macro
+            pluginId: Thorium Default
+            macroId: Handle Generic Event
+            triggerBlocks:
+              - id: blo-mjytewqy14
+                type: IfCondition
+                conditions:
+                  - comparison: '='
+                    value1: $eventClientId
+                    value2: $clientId
+                  - value1: $eventName
+                    value2: navigation-open
+                    comparison: '='
+                  - value1: $props
+                    value2: 'true'
+                    comparison: '='
+                triggerBlocks:
+                  - id: blo-mjytft9s3u
+                    type: Action
+                    action: timeline.advance
+                    values: {}
+        id: blo-mjytcdwy16
+        type: EventCondition
+  - id: ms-mk1zj3ch0h
+    name: Step 23 - Navigation 2
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zj3cg63
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Look at you go!
+
+
+            There's one last thing on this screen that you need to know about.
+            When you're ready, click the "Next" button to continue.
+          selector:
+            - .navigation-card
+          allowAdvance: true
+  - id: ms-mk1z8o4e4t
+    name: Step 24 - Waypoints
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1z8o4d6b
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Your waypoints appear here, with the active waypoint highlighted. If
+            there were more waypoitns here, you could change the active waypoint
+            by clicking on a different waypoint. You can also remove waypoints
+            that you've created if your list gets too crowded.
+          allowAdvance: true
+          selector:
+            - .waypoints-container
+  - id: ms-mk1zkt8f64
+    name: Step 25 - Clear Waypoint
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zkt8e21
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Finally, if you don't want a waypoint cluttering your radar, you can
+            clear it by clicking this button. Go ahead and do that now.
+          selector:
+            - .clear-waypoint
+      - event: waypoints.deactivate
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mk4mv8zw61
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShip
+          - id: blo-mk4mvgzv56
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventShip
+                value2: $shipId
+            triggerBlocks:
+              - id: blo-mk4mvofb10
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mk4muyta57
+        type: EventCondition
+  - id: ms-mk1zllmy2w
+    name: Step 26 - Officers Log Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zllmx28
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            There are a few extra things unrelated to the Pilot station. The
+            first is your officers log, which you can open by clicking this
+            button. Feel free to use it to write down notes, ideas, or thoughts
+            during the mission.
+          allowAdvance: true
+          selector:
+            - .widget-OfficersLog
+  - id: ms-mk1zpl9n4h
+    name: Step 27 - Objectives Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zpl9m6k
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .widget-Objectives
+          text: >-
+            This will show you your ships current objectives, which can be
+            helpful to know what your team needs to do next.
+          allowAdvance: true
+  - id: ms-mk1zqlko4i
+    name: Step 28 - Settings Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zqlkn2q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          allowAdvance: true
+          selector:
+            - .widget-Settings
+          text: >-
+            Finally, this is the settings for your station, where you can
+            configure audio volume levels and gamepads which you can use to
+            control your station. This can be especially handy for the Pilot,
+            since it allows you to connect joysticks or HOTAS controllers to
+            activate engines and manipulate thrusters.
+  - id: ms-mk1zx1jx3e
+    name: Step 29 - Done
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zx1jw3z
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            That concludes your training. If you don't feel confident, feel free
+            to play around with your controls further until you've mastered
+            using your engines, thrusters, and navigation.
+
+
+            Good luck!
+          allowAdvance: true
+          card: ''
+lastSaved: 1769274573326
