@@ -542,6 +542,28 @@
   background: rgba(154, 154, 154, 0.3);
   box-shadow: inset 0px 0px 20px 0px #715c5c, 0px 0px 10px -2px #a48f8f, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
+.theme-container .btn.btn-locked {
+  background: rgba(25, 121, 230, 0.3);
+  border: solid 1px #1979e6;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+  box-shadow: inset 0px 0px 20px -5px rgba(13, 121, 242, 0.5), 0px 0px 15px -2px #0d79f2, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .btn.btn-locked:hover:not([disabled]) {
+  color: white;
+  background: rgba(25, 121, 230, 0.5);
+  box-shadow: inset 0px 0px 20px 0px #0d79f2, 0px 0px 10px -2px #0d79f2, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .btn.btn-locked:focus {
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px #0d79f2, 0px 0px 10px -2px #0d79f2, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.theme-container .btn.btn-locked:active,
+.theme-container .btn.btn-locked.active {
+  color: white;
+  background: rgba(25, 121, 230, 0.3);
+  box-shadow: inset 0px 0px 20px 0px #084891, 0px 0px 10px -2px #0d79f2, var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
 .theme-container .select-button {
   background: rgba(143, 143, 143, 0.3);
   border: solid 1px #8f8f8f;

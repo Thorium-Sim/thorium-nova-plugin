@@ -415,6 +415,9 @@
   &.btn-muted {
     .button-variant(gray);
   }
+  &.btn-locked {
+    .button-variant(#0060cc);
+  }
 }
 
 .select-button {
