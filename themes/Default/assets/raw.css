@@ -301,7 +301,7 @@
   }
 
   /* Viewscreen */
-  .viewscreen {
+  &.viewscreen {
     .card-area {
       inset: 0px !important;
       width:100%;
