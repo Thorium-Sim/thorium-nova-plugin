@@ -1,12 +1,3 @@
-.theme-container {
-  --alert-color-5: #2ba1cb;
-  --alert-color-4: #36c236;
-  --alert-color-3: #acac34;
-  --alert-color-2: #cc7926;
-  --alert-color-1: #ca2a2a;
-  --alert-color-p: #7a24cf;
-  --alert-color: var(--alert-color-5);
-
 
   /* Fonts */
   @font-face {
@@ -28,6 +19,31 @@
         format("woff"),
       url("/plugins/Thorium Default/themes/Default/assets/Saira.ttf")
         format("truetype");
+  }
+
+.theme-container {
+  --alert-color-5: #2ba1cb;
+  --alert-color-4: #36c236;
+  --alert-color-3: #acac34;
+  --alert-color-2: #cc7926;
+  --alert-color-1: #ca2a2a;
+  --alert-color-p: #7a24cf;
+  --alert-color: var(--alert-color-5);
+  --color-success: #198019;
+  --color-info: #198080;
+  --color-accent: oklch(0.7279 0.1971 351.99);
+  
+  &.vibrant {
+    --alert-color-5: oklch(0.6643 0.1692 227.28);
+    --alert-color-4: oklch(0.7139 0.2889 142.93);
+    --alert-color-3: oklch(0.8383 0.2116 109.41);
+    --alert-color-2: oklch(0.708 0.1746 60.18);
+    --alert-color-1: oklch(0.5475 0.2508 26.64);
+    --alert-color-p: oklch(0.493 0.2736 300.01);
+    --alert-color: var(--alert-color-5);
+    --color-success: oklch(0.6265 0.2111 142.79);
+    --color-info: oklch(0.641 0.1251 194.9);
+    --color-accent: oklch(0.7279 0.1971 351.99);
   }
 
   .card-frame, .card-switcher-holder {
@@ -361,8 +377,8 @@
     color: white;
     font-family: "Saira", sans-serif;
     transition: all 0.1s ease;
-    --background: hsl(from color-mix(in oklab, var(--btn-bg), #fff 10%) h calc(s * 0.8) l);
-    background: rgba(from var(--background),r g b / 0.3);
+    --background: oklch(from var(--btn-bg) calc(l * 1.1) calc(c * 0.8) h);
+    background: rgb(from var(--background) r g b / 0.3);
     border: solid 1px var(--background);
     color: white;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
@@ -384,9 +400,9 @@
     &:active,
     &.active {
       color: white;
-      background: rgba(from var(--background),r g b / 0.3);
+      background: oklch(from var(--background) l calc(c * 1.1) h / 0.8);
       box-shadow: inset 0px 0px 20px 0px
-          oklch(from hsl(from var(--background) h calc(s * 1.1) l) calc(l * 0.8) c h),
+          oklch(from var(--background) calc(l * 1.2) calc(c * 1.2) h),
         0px 0px 10px -2px  hsl(from var(--background) h calc(s * 1.1) l),var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000) , var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
     }
   }
@@ -423,32 +439,42 @@
 
   .btn-default, .btn-primary, .input-primary, .textarea-primary, .panel-primary {
     --btn-bg: var(--alert-color-5);
+    --input-color: var(--alert-color-5);
   }
   .btn-secondary, .input-secondary, .textarea-secondary, .panel-secondary {
     --btn-bg: var(--alert-color-2);
+    --input-color: var(--alert-color-2);
   }
   .btn-accent, .input-accent, .textarea-accent, .panel-accent {
-    --btn-bg: hotpink;
+    --btn-bg: var(--color-accent);
+    --input-color: var(--color-accent);
   }
   .btn-success, .input-success, .textarea-success, .panel-success {
-    --btn-bg: #198019;
+    --btn-bg: var(--color-success);
+    --input-color: var(--color-success);
   }
   .btn-info, .input-info, .textarea-info, .panel-info {
-    --btn-bg: #198080;
+    --btn-bg: var(--color-info);
+    --input-color: var(--color-info);
   }
   .btn-warning, .input-warning, .textarea-warning, .panel-warning {
     --btn-bg: var(--alert-color-2);
+    --input-color: var(--alert-color-2);
   }
   .btn-notice, .input-notice, .textarea-notice, .panel-notice {
     --btn-bg: var(--alert-color-p);
+    --input-color: var(--alert-color-p);
   }
   .btn-error, .input-error, .textarea-error, .panel-error {
     --btn-bg: var(--alert-color-1);
+    --input-color: var(--alert-color-1);
   }
   .btn-muted, .input-muted, .textarea-muted, .panel-muted {
     --btn-bg: gray;
+    --input-color: gray;
   }
   .btn-alert, .input-alert, .textarea-alert, .panel-alert {
     --btn-bg: var(--alert-color);
+    --input-color: var(--alert-color);
   }
 }
