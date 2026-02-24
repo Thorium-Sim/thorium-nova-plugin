@@ -27,7 +27,13 @@ steps:
               name: 'Timeline: Advance'
               action: timeline.advance
               values: {}
+    blocks:
+      - pluginId: Thorium Default
+        macroId: Season 1 - Prelude Init
+        triggerBlocks: []
+        id: blo-mls4ie6g2a
+        type: Macro
 assets:
   cover: /plugins/Thorium Default/timelines/Sandbox/assets/logo.jpeg
 type: mission
-lastSaved: 1769274573321
+lastSaved: 1771902445717

@@ -1,596 +1,454 @@
-@alert5: #2ba1cb;
-@alert4: #36c236;
-@alert3: #acac34;
-@alert2: #cc7926;
-@alert1: #ca2a2a;
-@alertp: #7a24cf;
+.theme-container {
+  --alert-color-5: #2ba1cb;
+  --alert-color-4: #36c236;
+  --alert-color-3: #acac34;
+  --alert-color-2: #cc7926;
+  --alert-color-1: #ca2a2a;
+  --alert-color-p: #7a24cf;
+  --alert-color: var(--alert-color-5);
 
-// Fonts
-@font-face {
-  font-family: "Battlefield";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/plugins/Thorium Default/themes/Default/assets/BATTLE3.woff")
-      format("woff"),
-    url("/plugins/Thorium Default/themes/Default/assets/BATTLE3.TTF")
-      format("truetype");
-}
 
-.card-frame, .card-switcher-holder {
-  --frame-offset: 50px;
-  --card-multiply: 2;
-  --station-multiply: 2.2;
-  --ship-multiply: 2.2;
-}
-.card-frame {
-  height: 100%;
-  width: 100%;
-}
-.card-frame-ship-name,
-.card-frame-station-name,
-.card-frame-login-name,
-.card-frame-card-name {
-  z-index: 11;
-  position: absolute;
-  font-family: "Battlefield";
-  line-height: 0;
-  text-shadow: 0px 0px 10px black;
-}
-.card-frame-ship-name {
-  left: 20px;
-  bottom: 30px;
-  font-size: 2.5rem;
-}
-.card-frame-ship-logo {
-  display: none;
-}
-.card-frame-ship-logo-image {
-}
-.card-frame-station-name {
-  top: 40px;
-  right: 20px;
-  font-size: 2rem;
-  background-size: 10px;
-}
-.card-frame-station-logo {
-  display: none;
-}
-.card-frame-station-logo-image {
-}
-.card-frame-card-name {
-  top: 40px;
-  left: 20px;
-  font-size: 2rem;
-}
-.card-frame-card-icon {
-  display: none;
-}
-.card-frame-card-icon-image {
-}
-.card-frame-login-name {
-  display: none;
-}
-.card-frame-login-profile {
-  display: none;
-}
-.card-area {
-  top: 100px;
-  left: 40px;
-  right: 40px;
-  width: calc(100% - 80px);
-  height: calc(100% - 180px);
-  position: absolute;
-}
-.card-switcher-holder {
-  z-index: 100;
-  position: absolute;
-  top: 30px;
-  left: calc(var(--card-name-width) * var(--card-multiply) * 2);
-  right: calc(var(--station-name-width) * var(--station-multiply) * 2);
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-}
-.card-switcher {
-  display: flex;
-  align-items: flex-start;
-}
-.card-switcher-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.card-switcher-button-icon {
-  margin: 0 20px;
-  padding: 0.4rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-sizing: content-box;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
-  position: relative;
-}
-.card-switcher-button .card-switcher-button-name {
-  display: none;
-  position: absolute;
-  top: 110%;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 0.2rem 0.8rem;
-  border-radius: 3px;
-  border: solid 1px rgba(255, 255, 255, 0.5);
-  color: white;
-  white-space: nowrap;
-}
-.card-switcher-button:hover .card-switcher-button-name {
-  display: block;
-}
-.doodad-1 {
-  z-index: 11;
-  pointer-events: none;
-  width: calc(100% - 40px);
-  height: calc(100% - 40px);
-  left: 20px;
-  top: 20px;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: filter 0.2s ease;
-}
-.doodad-1::after {
-  font-family: "Battlefield";
-  content: "";
-  transition: background-color 0.2s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  // This complicated clip path creates the line around the outer edge of the screen.
-  clip-path: polygon(
-    0px var(--frame-offset),
-    0px calc(100% - var(--frame-offset)),
-    calc(var(--ship-name-width) * var(--ship-multiply))
-      calc(100% - var(--frame-offset)),
-    calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset))
-      100%,
-    calc(100% - var(--frame-offset)) 100%,
-    100% calc(100% - var(--frame-offset)),
-    100% var(--frame-offset),
-    calc(100% - (var(--station-name-width) * var(--station-multiply)))
-      var(--frame-offset),
-    calc(
-        100% - (var(--station-name-width) * var(--station-multiply)) -
-          var(--frame-offset)
-      )
-      0,
-    calc((var(--card-name-width) * var(--card-multiply)) + var(--frame-offset))
-      0,
-    calc((var(--card-name-width) * var(--card-multiply))) var(--frame-offset),
-    0px var(--frame-offset),
-    2px calc(var(--frame-offset) + 2px),
-    calc((var(--card-name-width) * var(--card-multiply)) + 2px)
-      calc(var(--frame-offset) + 2px),
-    calc(
-        (var(--card-name-width) * var(--card-multiply)) + 2px +
-          var(--frame-offset)
-      )
-      2px,
-    calc(
-        100% - (var(--station-name-width) * var(--station-multiply)) -
-          var(--frame-offset)
-      )
-      2px,
-    calc(100% - var(--station-name-width) * var(--station-multiply))
-      calc(var(--frame-offset) + 2px),
-    calc(100% - 2px) calc(var(--frame-offset) + 2px),
-    calc(100% - 2px) calc(100% - var(--frame-offset) - 2px),
-    calc(100% - var(--frame-offset) - 2px) calc(100% - 2px),
-    calc(
-        var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset) +
-          2px
-      )
-      calc(100% - 2px),
-    calc(var(--ship-name-width) * var(--ship-multiply) + 2px)
-      calc(100% - var(--frame-offset) - 2px),
-    2px calc(100% - var(--frame-offset) - 2px),
-    2px calc(var(--frame-offset) + 2px),
-    0 calc(var(--frame-offset))
-  );
-}
-
-.card-switcher-colors(@color) {
-  .card-switcher {
-    .card-switcher-button-icon {
-      color: @color;
-      border: solid 2px @color;
-      &:hover {
-        color: darken(@color, 20%);
-        border: solid 2px darken(@color, 20%);
-      }
-      &.active {
-        color: lighten(@color, 20%);
-        border: solid 2px lighten(@color, 20%);
-      }
-    }
+  /* Fonts */
+  @font-face {
+    font-family: "Battlefield";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/plugins/Thorium Default/themes/Default/assets/BATTLE3.woff")
+        format("woff"),
+      url("/plugins/Thorium Default/themes/Default/assets/BATTLE3.TTF")
+        format("truetype");
   }
-}
-.frame-colors(@color) {
+  @font-face {
+    font-family: "Saira";
+    font-style: normal;
+    font-weight: 100 900;
+    font-variation-settings: "wdth" 100;
+    font-optical-sizing: auto;
+    src: url("/plugins/Thorium Default/themes/Default/assets/Saira.woff2")
+        format("woff"),
+      url("/plugins/Thorium Default/themes/Default/assets/Saira.ttf")
+        format("truetype");
+  }
+
+  .card-frame, .card-switcher-holder {
+    --frame-offset: 50px;
+    --card-multiply: 2;
+    --station-multiply: 2.2;
+    --ship-multiply: 2.2;
+  }
   .card-frame {
-    background: linear-gradient(
-      35deg,
-      #000000 22%,
-      darken(@color, 35%) 53%,
-      #000000 80%
-    );
+    height: 100%;
+    width: 100%;
+  }
+  .card-frame-ship-name,
+  .card-frame-station-name,
+  .card-frame-login-name,
+  .card-frame-card-name {
+    z-index: 11;
+    position: absolute;
+    font-family: "Battlefield";
+    line-height: 0;
+    text-shadow: 0px 0px 10px black;
+  }
+  .card-frame-ship-name {
+    left: 20px;
+    bottom: 30px;
+    font-size: 2.5rem;
+  }
+  .card-frame-ship-logo {
+    display: none;
+  }
+  .card-frame-ship-logo-image {
+  }
+  .card-frame-station-name {
+    top: 40px;
+    right: 20px;
+    font-size: 2rem;
+    background-size: 10px;
+  }
+  .card-frame-station-logo {
+    display: none;
+  }
+  .card-frame-station-logo-image {
+  }
+  .card-frame-card-name {
+    top: 40px;
+    left: 20px;
+    font-size: 2rem;
+  }
+  .card-frame-card-icon {
+    display: none;
+  }
+  .card-frame-card-icon-image {
+  }
+  .card-frame-login-name {
+    display: none;
+  }
+  .card-frame-login-profile {
+    display: none;
+  }
+  .card-area {
+    top: 100px;
+    left: 40px;
+    right: 40px;
+    width: calc(100% - 80px);
+    height: calc(100% - 180px);
+    position: absolute;
+  }
+  .card-switcher-holder {
+    z-index: 100;
+    position: absolute;
+    top: 30px;
+    left: calc(var(--card-name-width) * var(--card-multiply) * 2);
+    right: calc(var(--station-name-width) * var(--station-multiply) * 2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .card-switcher {
+    display: flex;
+    align-items: flex-start;
+  }
+  .card-switcher-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-switcher-button-icon {
+    margin: 0 20px;
+    padding: 0.4rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    position: relative;
+  }
+  .card-switcher-button .card-switcher-button-name {
+    display: none;
+    position: absolute;
+    top: 110%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.2rem 0.8rem;
+    border-radius: 3px;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    color: white;
+    white-space: nowrap;
+  }
+  .card-switcher-button:hover .card-switcher-button-name {
+    display: block;
   }
   .doodad-1 {
-    filter: drop-shadow(0px 0px 5px @color) drop-shadow(0px 0px 10px @color)
-      drop-shadow(0px 0px 2px @color);
+    z-index: 11;
+    pointer-events: none;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 0.2s ease;
   }
   .doodad-1::after {
-    background-color: @color;
+    font-family: "Battlefield";
+    content: "";
+    transition: background-color 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* This complicated clip path creates the line around the outer edge of the screen. */
+    clip-path: polygon(
+      0px var(--frame-offset),
+      0px calc(100% - var(--frame-offset)),
+      calc(var(--ship-name-width) * var(--ship-multiply))
+        calc(100% - var(--frame-offset)),
+      calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset))
+        100%,
+      calc(100% - var(--frame-offset)) 100%,
+      100% calc(100% - var(--frame-offset)),
+      100% var(--frame-offset),
+      calc(100% - (var(--station-name-width) * var(--station-multiply)))
+        var(--frame-offset),
+      calc(
+          100% - (var(--station-name-width) * var(--station-multiply)) -
+            var(--frame-offset)
+        )
+        0,
+      calc((var(--card-name-width) * var(--card-multiply)) + var(--frame-offset))
+        0,
+      calc((var(--card-name-width) * var(--card-multiply))) var(--frame-offset),
+      0px var(--frame-offset),
+      2px calc(var(--frame-offset) + 2px),
+      calc((var(--card-name-width) * var(--card-multiply)) + 2px)
+        calc(var(--frame-offset) + 2px),
+      calc(
+          (var(--card-name-width) * var(--card-multiply)) + 2px +
+            var(--frame-offset)
+        )
+        2px,
+      calc(
+          100% - (var(--station-name-width) * var(--station-multiply)) -
+            var(--frame-offset)
+        )
+        2px,
+      calc(100% - var(--station-name-width) * var(--station-multiply))
+        calc(var(--frame-offset) + 2px),
+      calc(100% - 2px) calc(var(--frame-offset) + 2px),
+      calc(100% - 2px) calc(100% - var(--frame-offset) - 2px),
+      calc(100% - var(--frame-offset) - 2px) calc(100% - 2px),
+      calc(
+          var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset) +
+            2px
+        )
+        calc(100% - 2px),
+      calc(var(--ship-name-width) * var(--ship-multiply) + 2px)
+        calc(100% - var(--frame-offset) - 2px),
+      2px calc(100% - var(--frame-offset) - 2px),
+      2px calc(var(--frame-offset) + 2px),
+      0 calc(var(--frame-offset))
+    );
   }
-}
-.alertLevel-5 {
-  .card-switcher-colors(@alert5);
-  .frame-colors(@alert5);
-}
-.alertLevel-4 {
-  .card-switcher-colors(@alert4);
-  .frame-colors(@alert4);
-}
-.alertLevel-3 {
-  .card-switcher-colors(@alert3);
-  .frame-colors(@alert3);
-}
-.alertLevel-2 {
-  .card-switcher-colors(@alert2);
-  .frame-colors(@alert2);
-}
-.alertLevel-1 {
-  .card-switcher-colors(@alert1);
-  .frame-colors(@alert1);
-}
-.alertLevel-p {
-  .card-switcher-colors(@alertp);
-  .frame-colors(@alertp);
-}
 
-// Card Transitions
-.card-transition[data-entered] {
-  opacity: 1;
-  transform: translateX(0);
-}
-.card-transition[data-entering] {
-  transition: opacity 0.2s ease 0.2s, transform 0.2s ease 0.2s;
-}
-.card-transition[data-exited][data-entering] {
-  opacity: 0;
-  transform: translateX(-100%);
-}
-.card-transition[data-exiting] {
-  transition: opacity 1s ease, transform 1s ease;
-}
-.card-transition[data-exiting][data-exited] {
-  opacity: 0;
-  transform: translateX(100%);
-}
+    .card-switcher {
+      .card-switcher-button-icon {
+        color: var(--alert-color);
+        border: solid 2px var(--alert-color);
+        &:hover {
+          color: color-mix(in oklab, var(--alert-color), #000 20%);
+          border: solid 2px color-mix(in oklab, var(--alert-color), #000 20%);;
+        }
+        &.active {
+          color: color-mix(in oklab, var(--alert-color), #fff 20%);
+          border: solid 2px color-mix(in oklab, var(--alert-color), #fff 20%);
+        }
+      }
+    }
 
-// Viewscreen
-&.viewscreen {
-  .card-area {
-    inset: 0px !important;
-    width:100%;
-    height:100%;
-  }
-  .card-frame-login-name, .card-frame-login-profile, .card-frame-card-name, .card-switcher-holder, .widgets {
-    display:none;
-  }
-  .card-frame {
-    background: black;
-  }
-  .doodad-1 {
-    --card-name-width: 0px;
-    --card-multiply: 1;
-  }
-  .doodad-1:after {
-      // This complicated clip path creates the line around the outer edge of the screen.
-  clip-path: polygon(
-    0px var(--frame-offset),
-    0px calc(100% - var(--frame-offset)),
-    calc(var(--ship-name-width) * var(--ship-multiply))
-      calc(100% - var(--frame-offset)),
-    calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset))
-      100%,
-    calc(100% - var(--frame-offset)) 100%,
-    100% calc(100% - var(--frame-offset)),
-    100% var(--frame-offset),
-    calc(100% - (var(--station-name-width) * var(--station-multiply)))
-      var(--frame-offset),
-    calc(
-        100% - (var(--station-name-width) * var(--station-multiply)) -
-          var(--frame-offset)
-      )
-      0,
-    calc((var(--card-name-width) * var(--card-multiply)) + var(--frame-offset))
-      0,
-    calc((var(--card-name-width) * var(--card-multiply))) var(--frame-offset),
-    0px var(--frame-offset),
-    2px calc(var(--frame-offset) + 2px),
-    calc((var(--card-name-width) * var(--card-multiply)) + 2px)
-      calc(var(--frame-offset) + 2px),
-    calc(
-        (var(--card-name-width) * var(--card-multiply)) + 2px +
-          var(--frame-offset)
-      )
-      2px,
-    calc(
-        100% - (var(--station-name-width) * var(--station-multiply)) -
-          var(--frame-offset)
-      )
-      2px,
-    calc(100% - var(--station-name-width) * var(--station-multiply))
-      calc(var(--frame-offset) + 2px),
-    calc(100% - 2px) calc(var(--frame-offset) + 2px),
-    calc(100% - 2px) calc(100% - var(--frame-offset) - 2px),
-    calc(100% - var(--frame-offset) - 2px) calc(100% - 2px),
-    calc(
-        var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset) +
-          2px
-      )
-      calc(100% - 2px),
-    calc(var(--ship-name-width) * var(--ship-multiply) + 2px)
-      calc(100% - var(--frame-offset) - 2px),
-    2px calc(100% - var(--frame-offset) - 2px),
-    2px calc(var(--frame-offset) + 2px),
-    0 calc(var(--frame-offset))
-  );
-  }
-}
+    .card-frame {
+      background: linear-gradient(
+        35deg,
+        #000000 22%,
+        color-mix(in oklab, var(--alert-color), #000 35%) 53%,
+        #000000 80%
+      );
+    }
+    .doodad-1 {
+      filter: drop-shadow(0px 0px 5px var(--alert-color)) drop-shadow(0px 0px 10px var(--alert-color))
+        drop-shadow(0px 0px 2px var(--alert-color));
+    }
+    .doodad-1::after {
+      background-color: var(--alert-color);
+    }
 
-// Buttons
-.button-variant(@incomingBackground) {
-  @background: lighten(desaturate(@incomingBackground, 20%), 10%);
-  background: rgba(@background, 0.3);
-  border: solid 1px @background;
-  color: white;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
-  box-shadow: inset 0px 0px 20px -5px rgba(saturate(@background, 10%), 0.5),
-    0px 0px 15px -2px rgba(saturate(@background, 10%), 1), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-  &:hover:not([disabled]) {
+  .alertLevel-5 {
+    --alert-color: var(--alert-color-5);
+  }
+  .alertLevel-4 {
+    --alert-color: var(--alert-color-4);
+  }
+  .alertLevel-3 {
+    --alert-color: var(--alert-color-3);
+  }
+  .alertLevel-2 {
+    --alert-color: var(--alert-color-2);
+  }
+  .alertLevel-1 {
+    --alert-color: var(--alert-color-1);
+  }
+  .alertLevel-p {
+    --alert-color: var(--alert-color-p);
+  }
+
+  /* Card Transitions */
+  .card-transition[data-entered] {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .card-transition[data-entering] {
+    transition: opacity 0.2s ease 0.2s, transform 0.2s ease 0.2s;
+  }
+  .card-transition[data-exited][data-entering] {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  .card-transition[data-exiting] {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+  .card-transition[data-exiting][data-exited] {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  /* Viewscreen */
+  .viewscreen {
+    .card-area {
+      inset: 0px !important;
+      width:100%;
+      height:100%;
+    }
+    .card-frame-login-name, .card-frame-login-profile, .card-frame-card-name, .card-switcher-holder, .widgets {
+      display:none;
+    }
+    .card-frame {
+      background: black;
+    }
+    .doodad-1 {
+      --card-name-width: 0px;
+      --card-multiply: 1;
+    }
+    .doodad-1:after {
+        /* This complicated clip path creates the line around the outer edge of the screen. */
+    clip-path: polygon(
+      0px var(--frame-offset),
+      0px calc(100% - var(--frame-offset)),
+      calc(var(--ship-name-width) * var(--ship-multiply))
+        calc(100% - var(--frame-offset)),
+      calc(var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset))
+        100%,
+      calc(100% - var(--frame-offset)) 100%,
+      100% calc(100% - var(--frame-offset)),
+      100% var(--frame-offset),
+      calc(100% - (var(--station-name-width) * var(--station-multiply)))
+        var(--frame-offset),
+      calc(
+          100% - (var(--station-name-width) * var(--station-multiply)) -
+            var(--frame-offset)
+        )
+        0,
+      calc((var(--card-name-width) * var(--card-multiply)) + var(--frame-offset))
+        0,
+      calc((var(--card-name-width) * var(--card-multiply))) var(--frame-offset),
+      0px var(--frame-offset),
+      2px calc(var(--frame-offset) + 2px),
+      calc((var(--card-name-width) * var(--card-multiply)) + 2px)
+        calc(var(--frame-offset) + 2px),
+      calc(
+          (var(--card-name-width) * var(--card-multiply)) + 2px +
+            var(--frame-offset)
+        )
+        2px,
+      calc(
+          100% - (var(--station-name-width) * var(--station-multiply)) -
+            var(--frame-offset)
+        )
+        2px,
+      calc(100% - var(--station-name-width) * var(--station-multiply))
+        calc(var(--frame-offset) + 2px),
+      calc(100% - 2px) calc(var(--frame-offset) + 2px),
+      calc(100% - 2px) calc(100% - var(--frame-offset) - 2px),
+      calc(100% - var(--frame-offset) - 2px) calc(100% - 2px),
+      calc(
+          var(--ship-name-width) * var(--ship-multiply) + var(--frame-offset) +
+            2px
+        )
+        calc(100% - 2px),
+      calc(var(--ship-name-width) * var(--ship-multiply) + 2px)
+        calc(100% - var(--frame-offset) - 2px),
+      2px calc(100% - var(--frame-offset) - 2px),
+      2px calc(var(--frame-offset) + 2px),
+      0 calc(var(--frame-offset))
+    );
+    }
+  }
+
+  /* Buttons */
+  .btn, .select-button, input, textarea, .panel {
     color: white;
-    background: rgba(@background, 0.5);
-    box-shadow: inset 0px 0px 20px 0px rgba(saturate(@background, 10%), 1),
-      0px 0px 10px -2px rgba(saturate(@background, 10%), 1), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-  }
-  &:focus {
+    font-family: "Saira", sans-serif;
+    transition: all 0.1s ease;
+    --background: hsl(from color-mix(in oklab, var(--btn-bg), #fff 10%) h calc(s * 0.8) l);
+    background: rgba(from var(--background),r g b / 0.3);
+    border: solid 1px var(--background);
     color: white;
-    box-shadow: inset 0px 0px 20px 0px rgba(saturate(@background, 10%), 1),
-      0px 0px 10px -2px rgba(saturate(@background, 10%), 1), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 20px -5px hsl(from var(--background) h calc(s * 1.5) l / 0.5),
+      0px 0px 15px -2px hsl(from var(--background) h calc(s * 1.1) l), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   }
-  &:active,
-  &.active {
-    color: white;
-    background: rgba(@background, 0.3);
-    box-shadow: inset 0px 0px 20px 0px
-        rgba(darken(saturate(@background, 10%), 20%), 1),
-      0px 0px 10px -2px rgba(saturate(@background, 10%), 1),var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000) , var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  .btn, .select-button, input, textarea {
+    &:hover:not([disabled]) {
+      color: white;
+      background: rgba(from var(--background) r g b / 0.5);
+      box-shadow: inset 0px 0px 20px 0px  hsl(from var(--background) h calc(s * 1.1) l),
+        0px 0px 10px -2px  hsl(from var(--background) h calc(s * 1.1) l), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+    }
+    &:focus {
+      color: white;
+      box-shadow: inset 0px 0px 20px 0px  hsl(from var(--background) h calc(s * 1.1) l),
+        0px 0px 10px -2px  hsl(from var(--background) h calc(s * 1.1) l), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+    }
+    &:active,
+    &.active {
+      color: white;
+      background: rgba(from var(--background),r g b / 0.3);
+      box-shadow: inset 0px 0px 20px 0px
+          oklch(from hsl(from var(--background) h calc(s * 1.1) l) calc(l * 0.8) c h),
+        0px 0px 10px -2px  hsl(from var(--background) h calc(s * 1.1) l),var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000) , var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+    }
   }
-}
-.btn {
-  color: white;
-  font-family: "Saira", sans-serif;
-  transition: all 0.1s ease;
-  .button-variant(desaturate(theme("colors.gray.500"), 100%));
 
-  &.btn-default {
-    .button-variant(desaturate(@alert5, 100%));
+  .gamepad-focus {
+    --tw-ring-color: color-mix(in oklab, var(--color-blue-500) /* oklch(62.3% 0.214 259.815) */ 50%, transparent);
+    --tw-ring-offset-width: 2px;
+    --tw-ring-offset-shadow: var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-offset-color: var(--color-black);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  &.btn-primary {
-    .button-variant(@alert5);
-  }
-  &.btn-secondary {
-    .button-variant(@alert2);
-  }
-  &.btn-accent {
-    .button-variant(hotpink);
-  }
-  &.btn-success {
-    .button-variant(#198019);
-  }
-  &.btn-info {
-    .button-variant(#198080);
-  }
-  &.btn-warning {
-    .button-variant(@alert2);
-  }
-  &.btn-notice {
-    .button-variant(@alertp);
-  }
-  &.btn-error {
-    .button-variant(@alert1);
-  }
-  &.btn-muted {
-    .button-variant(gray);
-  }
-}
 
-.select-button {
-  .button-variant(desaturate(theme("colors.gray.500"), 100%));
-  &.select-default {
-    .button-variant(desaturate(@alert5, 100%));
+  .input,
+  .textarea {
+    --btn-bg: gray;
+    background: rgba(from var(--btn-bg) r g b / 0.1);
+    &:hover:not([disabled]) {
+      background-color: transparent;
+      box-shadow: inset 0px 0px 20px -5px hsl(from var(--background) h calc(s * 1.1) l / 0.5),
+        0px 0px 15px -2px hsl(from var(--background) h calc(s * 1.1) l);
+    }
+    &:focus {
+      background-color: transparent;
+      color: white;
+      box-shadow: inset 0px 0px 20px 0px hsl(from var(--background) h calc(s * 1.1) l / 0.7),
+        0px 0px 10px -2px hsl(from var(--background) h calc(s * 1.1) l / 0.7);
+    }
   }
-  &.select-primary {
-    .button-variant(@alert5);
+  .panel {
+    --btn-bg: hsl(from var(--alert-color-5) h 0 calc(l * 1.2));
+    background-color: rgba(from var(--btn-bg) r g b / 0.1);
   }
-  &.select-secondary {
-    .button-variant(@alert2);
-  }
-  &.select-accent {
-    .button-variant(hotpink);
-  }
-  &.select-success {
-    .button-variant(#198019);
-  }
-  &.select-info {
-    .button-variant(#198080);
-  }
-  &.select-warning {
-    .button-variant(@alert2);
-  }
-  &.select-notice {
-    .button-variant(@alertp);
-  }
-  &.select-error {
-    .button-variant(@alert1);
-  }
-  &.select-muted {
-    .button-variant(gray);
-  }
-}
 
-
-.gamepad-focus {
-  @apply ring-blue-500/50 ring-offset-2 ring-offset-black;
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-}
-.input-variant(@incomingBackground) {
-  .button-variant(@incomingBackground);
-  background: rgba(@background, 0.1);
-  &:hover:not([disabled]) {
-    background-color: transparent;
-    box-shadow: inset 0px 0px 20px 0px rgba(saturate(@background, 10%), 0.3),
-      0px 0px 10px -2px rgba(saturate(@background, 10%), 0.3);
+  .btn-default, .btn-primary, .input-primary, .textarea-primary, .panel-primary {
+    --btn-bg: var(--alert-color-5);
   }
-  &:focus {
-    background-color: transparent;
-    color: white;
-    box-shadow: inset 0px 0px 20px 0px rgba(saturate(@background, 10%), 0.7),
-      0px 0px 10px -2px rgba(saturate(@background, 10%), 0.7);
+  .btn-secondary, .input-secondary, .textarea-secondary, .panel-secondary {
+    --btn-bg: var(--alert-color-2);
   }
-}
-.input,
-.textarea {
-  .input-variant(desaturate(@alert5, 100%));
-  &.input-primary,
-  &.textarea-primary {
-    .input-variant(@alert5);
+  .btn-accent, .input-accent, .textarea-accent, .panel-accent {
+    --btn-bg: hotpink;
   }
-  &.input-secondary,
-  &.textarea-secondary {
-    .input-variant(@alert2);
+  .btn-success, .input-success, .textarea-success, .panel-success {
+    --btn-bg: #198019;
   }
-  &.input-accent,
-  &.textarea-accent {
-    .input-variant(hotpink);
+  .btn-info, .input-info, .textarea-info, .panel-info {
+    --btn-bg: #198080;
   }
-  &.input-success,
-  &.textarea-success {
-    .input-variant(#198019);
+  .btn-warning, .input-warning, .textarea-warning, .panel-warning {
+    --btn-bg: var(--alert-color-2);
   }
-  &.input-info,
-  &.textarea-info {
-    .input-variant(#198080);
+  .btn-notice, .input-notice, .textarea-notice, .panel-notice {
+    --btn-bg: var(--alert-color-p);
   }
-  &.input-warning,
-  &.textarea-warning {
-    .input-variant(@alert2);
+  .btn-error, .input-error, .textarea-error, .panel-error {
+    --btn-bg: var(--alert-color-1);
   }
-  &.input-notice,
-  &.textarea-notice {
-    .input-variant(@alertp);
+  .btn-muted, .input-muted, .textarea-muted, .panel-muted {
+    --btn-bg: gray;
   }
-  &.input-error,
-  &.textarea-error {
-    .input-variant(@alert1);
+  .btn-alert, .input-alert, .textarea-alert, .panel-alert {
+    --btn-bg: var(--alert-color);
   }
-  &.input-muted,
-  &.textarea-muted {
-    .input-variant(gray);
-  }
-}
-.panel-variant(@incomingBackground) {
-  .button-variant(@incomingBackground);
-  background-color: rgba(@incomingBackground, 0.1);
-  &:hover:not([disabled]) {
-    background-color: rgba(@incomingBackground, 0.1);
-    border: solid 1px @background;
-    box-shadow: inset 0px 0px 20px -5px rgba(saturate(@background, 10%), 0.5),
-      0px 0px 15px -2px rgba(saturate(@background, 10%), 1);
-  }
-  &:focus {
-    background-color: transparent;
-    color: white;
-    box-shadow: inset 0px 0px 20px 0px rgba(saturate(@background, 10%), 0.7),
-      0px 0px 10px -2px rgba(saturate(@background, 10%), 0.7);
-  }
-}
-.panel {
-  .panel-variant(desaturate(@alert5, 100%));
-  &-ghost {
-    .panel-variant(black);
-  }
-  &-primary {
-    .panel-variant(@alert5);
-  }
-  &-secondary {
-    .panel-variant(@alert2);
-  }
-  &-accent {
-    .panel-variant(hotpink);
-  }
-  &-info {
-    .panel-variant(#198080);
-  }
-  &-success {
-    .panel-variant(#198019);
-  }
-  &-warning {
-    .panel-variant(@alert2);
-  }
-  &-notice {
-    .panel-variant(@alertp);
-  }
-  &-error {
-    .panel-variant(@alert1);
-  }
-}
-
-.alert-colors(@alertColor) {
-  .btn-alert {
-    .button-variant(@alertColor);
-  }
-  .input-alert,
-  .textarea-alert {
-    .input-variant(@alertColor);
-  }
-  .panel-alert {
-    .panel-variant(@alertColor);
-  }
-}
-.alertLevel-5 {
-  --alert-color: @alert5;
-  .alert-colors(@alert5);
-}
-.alertLevel-4 {
-  --alert-color: @alert4;
-  .alert-colors(@alert4);
-}
-.alertLevel-3 {
-  --alert-color: @alert3;
-  .alert-colors(@alert3);
-}
-.alertLevel-2 {
-  --alert-color: @alert2;
-  .alert-colors(@alert2);
-}
-.alertLevel-1 {
-  --alert-color: @alert1;
-  .alert-colors(@alert1);
-}
-.alertLevel-p {
-  --alert-color: @alertp;
-  .alert-colors(@alertp);
 }

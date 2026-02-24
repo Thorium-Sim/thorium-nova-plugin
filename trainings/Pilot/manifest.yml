@@ -334,10 +334,15 @@ steps:
                 value1: $thrusterShip
                 value2: $shipId
             triggerBlocks:
+              - id: blo-mkwnt0iq3h
+                type: Wait
+                time: 2
+                unit: seconds
               - id: blo-mjrb2z4i0a
                 type: Action
                 action: timeline.advance
-                values: {}
+                values:
+                  stepId: $nextStep
         id: blo-mjrb20dl3g
         type: EventCondition
   - id: ms-mjrb38nl41
@@ -515,38 +520,12 @@ steps:
           text: >-
             Sublight speeds are good for traveling around a planet, but to reach
             other planets and star systems, you'll have to travel faster than
-            light. You'll use your {name} for that. Click the speed you want to
-            go to get your ship moving.
+            light. You'll use your {name} for that. Don't activate the warp
+            engines now — you'll usually use your autopilot to activate warp,
+            since the speeds require a precision that is impossible for humans.
           selector:
             - .warp-speeds
-      - event: pilot.warpEngines.setWarpFactor
-        multiple: true
-        persist: false
-        triggerBlocks:
-          - id: blo-mjt4wjps66
-            type: ResultPropertyIntoVariable
-            property: systemId
-            variable: systemId
-          - id: blo-mjt4wt5h1f
-            type: ResultPropertyIntoVariable
-            property: factor
-            variable: factor
-          - id: blo-mjt4wyvo3f
-            type: IfCondition
-            conditions:
-              - comparison: '='
-                value1: $systemId
-                value2: $warpEngines
-              - value1: $factor
-                value2: '0'
-                comparison: '>'
-            triggerBlocks:
-              - id: blo-mjt4xekn5j
-                type: Action
-                action: timeline.advance
-                values: {}
-        id: blo-mjt4w84r5f
-        type: EventCondition
+          allowAdvance: true
   - id: ms-mjsnya6i2v
     name: Step 14 - Full Stop
     description: ''
@@ -1077,4 +1056,4 @@ steps:
             Good luck!
           allowAdvance: true
           card: ''
-lastSaved: 1769274573326
+lastSaved: 1771902445723

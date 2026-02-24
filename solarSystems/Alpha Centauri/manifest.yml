@@ -4,8 +4,8 @@ name: Alpha Centauri
 description: A solar system named Alpha Centauri
 position:
   x: 569964.1193200249
-  'y': -1808841.1555847004
-  z: -3488000.170652462
+  'y': -230961.15558470043
+  z: -1910120.1706524622
 tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
@@ -82,5 +82,6 @@ planets:
       ringMapAsset: null
     population: 0
     temperature: 307.32178
+commSatellite: null
 assets: {}
-lastSaved: 1769274573292
+lastSaved: 1771902445691

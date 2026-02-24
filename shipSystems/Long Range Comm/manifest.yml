@@ -108,5 +108,8 @@ cyphers:
     active: true
   - code: BKDE-726
     name: Backgroundese
-    font: /plugins/Thorium Default/shipSystems/Long Range Comm/assets/Backgroundese.woff2
-lastSaved: 1769274573286
+    font: >-
+      /plugins/Thorium Default/shipSystems/Long Range
+      Comm/assets/Backgroundese.woff2
+    active: true
+lastSaved: 1771902445686

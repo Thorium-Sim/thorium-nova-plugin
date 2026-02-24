@@ -3,9 +3,9 @@ kind: solarSystems
 name: Chy'chra
 description: A solar system named Chy'chra
 position:
-  x: 27025416.652028464
+  x: 5461056.652028462
   'y': 584315.0718019605
-  z: 42885122.67165792
+  z: 8171762.67165792
 tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
@@ -81,5 +81,7 @@ planets:
       ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 42494.287
     temperature: 300.49955
+commSatellite:
+  radius: 15
 assets: {}
-lastSaved: 1769274573292
+lastSaved: 1771902445692

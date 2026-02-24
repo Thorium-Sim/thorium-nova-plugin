@@ -3,9 +3,9 @@ kind: solarSystems
 name: Sol
 description: A solar system named Sol
 position:
-  x: 89989.2977332485
-  'y': 17328.756671637297
-  z: 241142.51917124967
+  x: 0
+  'y': 0
+  z: 0
 tags: []
 habitableZoneInner: 0.9
 habitableZoneOuter: 3
@@ -81,5 +81,7 @@ planets:
       ringMapAsset: null
     population: 3328.46145
     temperature: 270.973
+commSatellite:
+  radius: 10
 assets: {}
-lastSaved: 1769274573292
+lastSaved: 1771902445691

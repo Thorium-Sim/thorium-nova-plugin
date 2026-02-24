@@ -55,6 +55,9 @@ stations:
     description: Communications and internal ship management
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
     cards:
+      - name: Long Range Comm
+        component: LongRangeComm
+        icon: /plugins/Thorium Default/stationComplements/assets/LongRangeComm.svg
       - name: Cargo Control
         component: CargoControl
         icon: /plugins/Thorium Default/stationComplements/assets/CargoControl.svg
@@ -90,4 +93,4 @@ stations:
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
 flightMode: nova
 assets: {}
-lastSaved: 1771037867766
+lastSaved: 1771902445690

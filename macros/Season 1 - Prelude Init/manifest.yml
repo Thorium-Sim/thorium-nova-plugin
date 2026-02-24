@@ -1,0 +1,22 @@
+apiVersion: ships/v1
+kind: macros
+name: Season 1 - Prelude Init
+type: macro
+description: Initializes all of the entities that are present during the Season 1 campaign
+category: Campaign
+active: true
+blocks:
+  - entity: '%isPlayerShip'
+    variable: entityId
+    triggerBlocks:
+      - id: blo-mls4d0li59
+        type: Action
+        action: longRangeComm.addToAddressBook
+        values:
+          shipId: $entityId
+          contactId: Earth
+          name: Starfleet Command
+    id: blo-mls46j496q
+    type: ForEachEntity
+assets: {}
+lastSaved: 1771902445719
