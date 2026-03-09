@@ -79,6 +79,9 @@ shipSystems:
   - id: ssys-mg29xpew6j
     systemId: Long Range Comm
     pluginId: Thorium Default
+  - id: ssys-main-camera
+    systemId: Main Camera
+    pluginId: Thorium Default
 theme:
   themeId: Default
   pluginId: Thorium Default
@@ -11410,4 +11413,4 @@ powerNodes:
   - navigation
   - intel
   - internal
-lastSaved: 1771902445660
+lastSaved: 1772904524893
