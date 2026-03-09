@@ -1,0 +1,9 @@
+apiVersion: shipSystems/v1
+kind: shipSystems
+name: Main Camera
+description: ''
+type: mainCamera
+tags: []
+assets: {}
+allowMultiple: false
+fov: 45
