@@ -373,11 +373,11 @@
   }
 
   /* Buttons */
-  .btn, .select-button, input, textarea, .panel {
+  .btn, .select-button, input:not([type="range"]), textarea, .panel {
     color: white;
     font-family: "Saira", sans-serif;
     transition: all 0.1s ease;
-    --background: oklch(from var(--btn-bg) calc(l * 1.1) calc(c * 0.8) h);
+    --background: oklch(from var(--btn-bg, var(--color-neutral)) calc(l * 1.1) calc(c * 0.8) h);
     background: rgb(from var(--background) r g b / 0.3);
     border: solid 1px var(--background);
     color: white;
@@ -385,7 +385,7 @@
     box-shadow: inset 0px 0px 20px -5px hsl(from var(--background) h calc(s * 1.5) l / 0.5),
       0px 0px 15px -2px hsl(from var(--background) h calc(s * 1.1) l), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   }
-  .btn, .select-button, input, textarea {
+  .btn, .select-button, input:not([type="range"]), textarea {
     &:hover:not([disabled]) {
       color: white;
       background: rgba(from var(--background) r g b / 0.5);
@@ -433,47 +433,72 @@
     }
   }
   .panel {
-    --btn-bg: hsl(from var(--alert-color-5) h 0 calc(l * 1.2));
     background-color: rgba(from var(--btn-bg) r g b / 0.1);
   }
+  .panel-opaque {
+    background-color: rgba(from var(--btn-bg) r g b / 0.5);
+  }
 
-  .btn-default, .btn-primary, .input-primary, .textarea-primary, .panel-primary {
+  .select-button {
+    justify-content: space-between;
+  }
+  .range {
+    background-color: transparent;
+    box-shadow: none;
+    &::-webkit-slider-thumb {
+      box-shadow:
+			calc(
+				(var(--range-dir, 1) * -100cqw) -
+				(var(--range-dir, 1) * var(--range-thumb-size) / 2)
+			)
+			0 0 calc(100cqw * var(--range-fill)) oklch(from currentcolor calc(l * 1.5) calc(c * 2) h / 0.3);
+      background-color: transparent;
+    }
+    &::-webkit-slider-runnable-track {
+      box-shadow: inset 0px 0px 10px -5px hsl(from currentColor h calc(s * 1.5) l / 0.5),
+      0px 0px 10px -2px hsl(from currentColor h calc(s * 1.1) l), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+      background-color: oklch(from currentColor calc(l * 0.9) c h / 0.3);
+      		height: calc(var(--range-thumb-size) * 0.3);
+    }
+  }
+
+  .btn-default, .btn-primary, .input-primary, .textarea-primary, .panel-primary, .select-primary {
     --btn-bg: var(--alert-color-5);
     --input-color: var(--alert-color-5);
   }
-  .btn-secondary, .input-secondary, .textarea-secondary, .panel-secondary {
+  .btn-secondary, .input-secondary, .textarea-secondary, .panel-secondary, .select-secondary {
     --btn-bg: var(--alert-color-2);
     --input-color: var(--alert-color-2);
   }
-  .btn-accent, .input-accent, .textarea-accent, .panel-accent {
+  .btn-accent, .input-accent, .textarea-accent, .panel-accent, .select-accent {
     --btn-bg: var(--color-accent);
     --input-color: var(--color-accent);
   }
-  .btn-success, .input-success, .textarea-success, .panel-success {
+  .btn-success, .input-success, .textarea-success, .panel-success, .select-success {
     --btn-bg: var(--color-success);
     --input-color: var(--color-success);
   }
-  .btn-info, .input-info, .textarea-info, .panel-info {
+  .btn-info, .input-info, .textarea-info, .panel-info, .select-info {
     --btn-bg: var(--color-info);
     --input-color: var(--color-info);
   }
-  .btn-warning, .input-warning, .textarea-warning, .panel-warning {
+  .btn-warning, .input-warning, .textarea-warning, .panel-warning, .select-warning {
     --btn-bg: var(--alert-color-2);
     --input-color: var(--alert-color-2);
   }
-  .btn-notice, .input-notice, .textarea-notice, .panel-notice {
+  .btn-notice, .input-notice, .textarea-notice, .panel-notice, .select-notice {
     --btn-bg: var(--alert-color-p);
     --input-color: var(--alert-color-p);
   }
-  .btn-error, .input-error, .textarea-error, .panel-error {
+  .btn-error, .input-error, .textarea-error, .panel-error, .select-error {
     --btn-bg: var(--alert-color-1);
     --input-color: var(--alert-color-1);
   }
-  .btn-muted, .input-muted, .textarea-muted, .panel-muted {
+  .btn-muted, .input-muted, .textarea-muted, .panel-muted, .select-muted {
     --btn-bg: gray;
     --input-color: gray;
   }
-  .btn-alert, .input-alert, .textarea-alert, .panel-alert {
+  .btn-alert, .input-alert, .textarea-alert, .panel-alert, .select-alert {
     --btn-bg: var(--alert-color);
     --input-color: var(--alert-color);
   }

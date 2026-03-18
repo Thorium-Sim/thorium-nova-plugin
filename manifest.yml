@@ -1,9 +1,10 @@
 id: Thorium Default
 name: Thorium Default
+kind: plugins
 author: ''
 description: A great plugin
 default: true
 active: true
 coverImage: /plugins/Thorium Default/assets/coverImage.svg
 tags: []
-lastSaved: 1771901712275
+lastSaved: 1773930520619

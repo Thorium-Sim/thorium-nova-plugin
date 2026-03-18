@@ -61,6 +61,9 @@ stations:
       - name: Cargo Control
         component: CargoControl
         icon: /plugins/Thorium Default/stationComplements/assets/CargoControl.svg
+      - name: Documents
+        component: Documents
+        icon: /plugins/Thorium Default/stationComplements/assets/Documents.svg
       - name: Alert Level
         component: AlertLevel
         icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
@@ -69,6 +72,9 @@ stations:
         component: RemoteAccess
         icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
         size: sm
+      - name: Code Cyphers
+        component: CodeCyphers
+        icon: /plugins/Thorium Default/stationComplements/assets/CodeCyphers.svg
       - name: Objectives
         component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
@@ -93,4 +99,4 @@ stations:
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
 flightMode: nova
 assets: {}
-lastSaved: 1771902445690
+lastSaved: 1773930520716
