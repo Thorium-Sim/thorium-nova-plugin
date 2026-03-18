@@ -370,6 +370,41 @@
       0 calc(var(--frame-offset))
     );
     }
+    .viewscreen-no-signal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .viewscreen-no-signal::before {
+      content: "";
+      position: absolute;
+      top: calc(50% - 2rem - 2rem);
+      left: 0;
+      right: 0;
+      height: 4rem;
+      background: linear-gradient(
+        to right,
+        #ffffff 0% 14.28%,
+        #ffff00 14.28% 28.57%,
+        #00ffff 28.57% 42.85%,
+        #00ff00 42.85% 57.14%,
+        #ff00ff 57.14% 71.42%,
+        #ff0000 71.42% 85.71%,
+        #0000ff 85.71% 100%
+      );
+    }
+    .viewscreen-no-signal::after {
+      content: "No Signal Found\ACameras Offline";
+      white-space: pre;
+      text-align: center;
+      color: white;
+      font-size: 1.875rem;
+      font-weight: bold;
+      letter-spacing: 0.3em;
+      margin-top: 4rem;
+      position: relative;
+    }
   }
 
   /* Buttons */
