@@ -1,0 +1,10 @@
+apiVersion: conversation/v1
+kind: conversations
+name: Initial Taunt
+description: ''
+timelineId: Dogfight
+assets:
+  conversation: >-
+    /plugins/Thorium Default/missions/Dogfight/conversations/Initial
+    Taunt/assets/conversation.ink
+  files: []

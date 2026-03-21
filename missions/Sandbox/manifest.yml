@@ -1,5 +1,5 @@
 apiVersion: ships/v1
-kind: timelines
+kind: missions
 name: Sandbox
 description: What could possibly go wrong?
 category: Training
@@ -36,4 +36,3 @@ steps:
 assets:
   cover: /plugins/Thorium Default/timelines/Sandbox/assets/logo.jpeg
 type: mission
-lastSaved: 1771902445717

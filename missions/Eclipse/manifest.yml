@@ -1,5 +1,5 @@
 apiVersion: ships/v1
-kind: timelines
+kind: missions
 name: Eclipse
 description: >-
   A secret, but routine, weapons test takes the crew to an uninhabited system.
@@ -217,4 +217,3 @@ steps:
 assets:
   cover: /plugins/Thorium Default/timelines/Eclipse/assets/logo.jpeg
 type: mission
-lastSaved: 1771902445717
