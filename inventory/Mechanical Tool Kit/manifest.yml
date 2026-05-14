@@ -11,4 +11,7 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Mechanic
+      - General Engineer

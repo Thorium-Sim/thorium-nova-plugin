@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: CASM Generator
+plural: CASM Generators
+description: A platform for generating CASM signals.
+volume: 0.5
+assets:
+  image: /plugins/Thorium Default/inventory/CASM Generator/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

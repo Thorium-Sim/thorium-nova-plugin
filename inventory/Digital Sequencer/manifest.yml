@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Digital Sequencer
+plural: Digital Sequencers
+description: Modulates and demodulates data by synchronizing regular pulses of information.
+volume: 0.1
+assets:
+  image: /plugins/Thorium Default/inventory/Digital Sequencer/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

@@ -79,6 +79,12 @@ shipSystems:
   - id: ssys-mg29xpew6j
     systemId: Long Range Comm
     pluginId: Thorium Default
+  - id: ssys-mnx7lumj1k
+    systemId: Short Range Comm
+    pluginId: Thorium Default
+  - id: ssys-mop414gj41
+    systemId: Exocomps
+    pluginId: Thorium Default
 theme:
   themeId: Default
   pluginId: Thorium Default
@@ -118,7 +124,7 @@ decks:
         name: Secondary Fuel Tank
         deckIndex: null
         x: 123.7135878739563
-        'y': 161.6753592018079
+        'y': 160.6050467018079
         isRoom: true
         icon: ''
         radius: 14
@@ -131,8 +137,8 @@ decks:
       - id: 4
         name: Main Fuel Tank
         deckIndex: null
-        x: 123.53994530267113
-        'y': 109.26346082671918
+        x: 123.53799217767113
+        'y': 108.48416395171918
         isRoom: true
         icon: ''
         radius: 12
@@ -283,8 +289,8 @@ decks:
       - id: 16
         name: Memorial Room
         deckIndex: null
-        x: 189.52933021785344
-        'y': 136.4574957790405
+        x: 189.18041447070746
+        'y': 135.29116708435535
         isRoom: true
         icon: ''
         radius: 13
@@ -296,7 +302,7 @@ decks:
         name: Memorial Room
         deckIndex: null
         x: 162.6715373384657
-        'y': 135.79286198857966
+        'y': 135.7338903130057
         isRoom: true
         icon: ''
         radius: 10
@@ -331,15 +337,16 @@ decks:
       - id: 20
         name: Gravity Generation Control
         deckIndex: null
-        x: 233.90249868639805
-        'y': 115.3222403539502
+        x: 234.78531118639805
+        'y': 116.4804434789502
         isRoom: true
         icon: ''
         radius: 12
         volume: 12000
         flags:
           - lifeSupport
-        systems: []
+        systems:
+          - inertialDampeners
         contents: {}
       - id: 21
         name: Observation Deck
@@ -1488,7 +1495,8 @@ decks:
         radius: 9
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - sensors
         contents: {}
       - id: 119
         name: Shuttle Hangar
@@ -1514,7 +1522,8 @@ decks:
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - mainComputer
         contents: {}
       - id: 124
         name: Upper Shield Control
@@ -1527,7 +1536,8 @@ decks:
         volume: 6000
         flags:
           - cargo
-        systems: []
+        systems:
+          - shields
         contents: {}
       - id: 125
         name: Vehicle Maintenance Center
@@ -1581,7 +1591,9 @@ decks:
         radius: 15
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - reactor
+          - battery
         contents: {}
       - id: 133
         name: Damage Control Resource Center
@@ -2449,7 +2461,8 @@ decks:
         volume: 4000
         flags:
           - cargo
-        systems: []
+        systems:
+          - sensors
         contents: {}
       - id: 203
         name: Phaser Battery
@@ -2462,7 +2475,8 @@ decks:
         volume: 3000
         flags:
           - cargo
-        systems: []
+        systems:
+          - phasers
         contents: {}
       - id: 204
         name: Phaser Battery
@@ -2475,7 +2489,8 @@ decks:
         volume: 3000
         flags:
           - cargo
-        systems: []
+        systems:
+          - phasers
         contents: {}
       - id: 205
         name: Officers Quarters
@@ -3935,7 +3950,8 @@ decks:
         radius: 0
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - phasers
         contents: {}
       - id: 322
         name: Bow Phaser Banks
@@ -3947,7 +3963,8 @@ decks:
         radius: 0
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - phasers
         contents: {}
       - id: 323
         name: Bow Torpedo Launcher
@@ -4002,7 +4019,8 @@ decks:
         radius: 11
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - navigation
         contents: {}
       - id: 327
         name: ''
@@ -4325,7 +4343,7 @@ decks:
         name: Impulse Engines
         deckIndex: null
         x: 42.28585610024827
-        'y': 97.29738127679822
+        'y': 97.42433440179822
         isRoom: true
         icon: ''
         radius: 0
@@ -4336,8 +4354,8 @@ decks:
       - id: 354
         name: Impulse Engines
         deckIndex: null
-        x: 43.44559520959254
-        'y': 171.95937587626588
+        x: 43.18582958459254
+        'y': 171.26992275126588
         isRoom: true
         icon: ''
         radius: 0
@@ -4348,34 +4366,36 @@ decks:
       - id: 355
         name: Warp Engine Control
         deckIndex: null
-        x: 78.97793657578129
-        'y': 111.35355140921634
+        x: 79.38613970078129
+        'y': 112.86917640921634
         isRoom: true
         icon: ''
         radius: 15
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - warpEngines
         contents: {}
       - id: 356
         name: Impulse Engine Control
         deckIndex: null
-        x: 77.83730336287783
-        'y': 154.48595781715792
+        x: 78.43105336287783
+        'y': 155.43127031715792
         isRoom: true
         icon: ''
         radius: 14
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - impulseEngines
         contents: {}
       - id: 357
         name: Warp Engines
         deckIndex: null
-        x: 114.57473106697002
-        'y': 202.05472704816194
+        x: 114.92434044197002
+        'y': 203.36332079816194
         isRoom: true
         icon: ''
         radius: 0
@@ -4393,7 +4413,8 @@ decks:
         radius: 0
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - thrusters
         contents: {}
       - id: 359
         name: Warp Engines
@@ -4423,7 +4444,7 @@ decks:
         name: Upper Computer Core
         deckIndex: null
         x: 144.78376121490226
-        'y': 135.47270699607088
+        'y': 136.33794137107088
         isRoom: true
         icon: ''
         radius: 0
@@ -4442,7 +4463,8 @@ decks:
         volume: 3000
         flags:
           - cargo
-        systems: []
+        systems:
+          - mainComputer
         contents: {}
       - id: 363
         name: Medical Center
@@ -4495,7 +4517,8 @@ decks:
         radius: 20
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - navigation
         contents: {}
   - name: Deck 9
     backgroundUrl: >-
@@ -4513,7 +4536,8 @@ decks:
         volume: 6000
         flags:
           - cargo
-        systems: []
+        systems:
+          - mainComputer
         contents: {}
       - id: 368
         name: ''
@@ -4905,7 +4929,9 @@ decks:
         radius: 14
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - reactor
+          - battery
         contents: {}
       - id: 400
         name: Shield Generator Room
@@ -4918,7 +4944,8 @@ decks:
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - shields
         contents: {}
       - id: 401
         name: Reception Room
@@ -5229,8 +5256,8 @@ decks:
       - id: 427
         name: Escape Pod Control Room
         deckIndex: null
-        x: 310.13263957004875
-        'y': 135.32459732514332
+        x: 310.32013957004875
+        'y': 134.59412857514332
         isRoom: true
         icon: ''
         radius: 18
@@ -5241,8 +5268,8 @@ decks:
       - id: 428
         name: Wardroom
         deckIndex: null
-        x: 233.5
-        'y': 113.5
+        x: 233.671875
+        'y': 111.970703125
         isRoom: true
         icon: ''
         radius: 15
@@ -5254,8 +5281,8 @@ decks:
       - id: 429
         name: Messhall B
         deckIndex: null
-        x: 234
-        'y': 155
+        x: 234.861328125
+        'y': 155.009765625
         isRoom: true
         icon: ''
         radius: 16
@@ -5267,8 +5294,8 @@ decks:
       - id: 430
         name: Kitchen
         deckIndex: null
-        x: 180
-        'y': 133.5
+        x: 181.306640625
+        'y': 134.59375
         isRoom: true
         icon: ''
         radius: 14
@@ -5318,7 +5345,7 @@ decks:
         name: Crew Quarters
         deckIndex: null
         x: 121
-        'y': 120
+        'y': 120.78065872163975
         isRoom: true
         icon: ''
         radius: 9
@@ -5396,8 +5423,8 @@ decks:
       - id: 440
         name: Coolant Tank
         deckIndex: null
-        x: 139.5
-        'y': 74.5
+        x: 140.359375
+        'y': 75.21875
         isRoom: true
         icon: ''
         radius: 11
@@ -5405,25 +5432,28 @@ decks:
         flags:
           - cargo
           - coolantStorage
-        systems: []
+        systems:
+          - coolantTank
         contents: {}
       - id: 441
-        name: Voice Recognition Subprocessor
+        name: Exocomp Depot
         deckIndex: null
-        x: 113
-        'y': 76
+        x: 113.1744860917898
+        'y': 76.88745287222403
         isRoom: true
         icon: ''
-        radius: 0
-        volume: 12000
-        flags: []
-        systems: []
+        radius: 10
+        volume: 4000
+        flags:
+          - cargo
+        systems:
+          - exocomps
         contents: {}
       - id: 442
         name: Chief Engineer Office
         deckIndex: null
-        x: 111.5
-        'y': 192
+        x: 111.640625
+        'y': 192.3671875
         isRoom: true
         icon: ''
         radius: 9
@@ -5434,8 +5464,8 @@ decks:
       - id: 443
         name: Upper Main Engineering
         deckIndex: null
-        x: 97
-        'y': 132
+        x: 98.12113879059588
+        'y': 133.99773388525642
         isRoom: true
         icon: ''
         radius: 0
@@ -6282,7 +6312,8 @@ decks:
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - sensors
         contents: {}
       - id: 512
         name: Shield Generator
@@ -6295,7 +6326,8 @@ decks:
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - shields
         contents: {}
       - id: 513
         name: ''
@@ -6856,8 +6888,8 @@ decks:
       - id: 559
         name: Airlock
         deckIndex: null
-        x: 68.80510130079143
-        'y': 134.02538995342934
+        x: 68.91838255079143
+        'y': 132.94921807842934
         isRoom: true
         icon: ''
         radius: 0
@@ -7116,7 +7148,8 @@ decks:
         radius: 7
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - phasers
         contents: {}
       - id: 581
         name: Sensors Array
@@ -7129,7 +7162,8 @@ decks:
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - sensors
         contents: {}
       - id: 582
         name: Shield Generator
@@ -7142,7 +7176,8 @@ decks:
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - shields
         contents: {}
       - id: 583
         name: Cargo Airlock
@@ -7167,7 +7202,8 @@ decks:
         radius: 5
         volume: 12000
         flags: []
-        systems: []
+        systems:
+          - phasers
         contents: {}
       - id: 585
         name: Water Pumping
@@ -7217,7 +7253,8 @@ decks:
         volume: 5000
         flags:
           - cargo
-        systems: []
+        systems:
+          - shields
         contents: {}
 deckEdges:
   - id: 1
@@ -11399,6 +11436,18 @@ deckEdges:
   - id: 715
     to: 214
     from: 299
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 716
+    to: 28
+    from: 33
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 717
+    to: 28
+    from: 33
     weight: 1
     isOpen: true
     flags: []

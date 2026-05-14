@@ -5,10 +5,15 @@ plural: Coaxial Servos
 description: Mechanical rotors with two degrees of freedom.
 volume: 3
 assets:
-  image: null
+  image: /plugins/Thorium Default/inventory/Coaxial Servo/assets/image.svg
 continuous: false
 durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - General Engineer
+      - Mechanic
+      - Electrician
+      - Exocomp

@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Gravity Generator
+plural: Gravity Generators
+description: Produces small fields of artificial gravity.
+volume: 4
+assets:
+  image: /plugins/Thorium Default/inventory/Gravity Generator/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

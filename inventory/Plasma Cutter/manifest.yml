@@ -11,4 +11,10 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Custodian
+      - Electrician
+      - General Engineer
+      - Mechanic
+      - Structural Engineer

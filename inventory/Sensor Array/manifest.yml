@@ -7,10 +7,13 @@ description: >-
   space.
 volume: 2000
 assets:
-  image: null
+  image: /plugins/Thorium Default/inventory/Sensor Array/assets/image.svg
 continuous: false
 durability: 1
 abundance: 1
 tags: []
 flags:
   sparePart: {}
+  repair:
+    type:
+      - Exocomp

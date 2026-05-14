@@ -1,0 +1,18 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Fusion Welder
+plural: Fusion Welders
+description: Used for atomically joining two pieces of metal together using high heat.
+volume: 2
+assets:
+  image: /plugins/Thorium Default/inventory/Fusion Welder/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Welder
+      - General Engineer
+      - Exocomp

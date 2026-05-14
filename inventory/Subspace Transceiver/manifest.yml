@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Subspace Transceiver
+plural: Subspace Transceivers
+description: Specialized antennas which can modulate and detect waves in subspace.
+volume: 3
+assets:
+  image: /plugins/Thorium Default/inventory/Subspace Transceiver/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

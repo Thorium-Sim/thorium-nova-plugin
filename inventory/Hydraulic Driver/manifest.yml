@@ -11,4 +11,9 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Mechanic
+      - Structural Engineer
+      - Welder
+      - General Engineer

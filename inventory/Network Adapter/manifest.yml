@@ -5,10 +5,14 @@ plural: Network Adapters
 description: Equipment which translates computer signals between two interfaces.
 volume: 0.5
 assets:
-  image: null
+  image: /plugins/Thorium Default/inventory/Network Adapter/assets/image.svg
 continuous: false
 durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Computer Specialist
+      - General Engineer
+      - Exocomp

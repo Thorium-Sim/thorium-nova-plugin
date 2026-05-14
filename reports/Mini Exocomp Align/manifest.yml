@@ -1,0 +1,101 @@
+apiVersion: timeline/v1
+kind: reports
+name: Mini Exocomp Align
+description: Send an exocomp to the relevant room and have it align the system
+category: Exocomps
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - count: one
+    entity: $shipId
+    systemType: exocomps
+    variable: exocomps
+    id: blo-mp5m1ap924
+    type: ShipSystemGetter
+  - "0":
+      conditions:
+        - comparison: is not empty
+          value1: $exocomps
+          value2: ""
+        - value1: $damageType
+          value2: Structural
+          comparison: "="
+      triggerBlocks:
+        - id: blo-mp5m1apa0w
+          type: TimelineAvailability
+          isAvailable: true
+      id: blo-mp5m1apb3w
+      type: IfCondition
+    "1":
+      conditions:
+        - comparison: is not empty
+          value1: $exocomps
+          value2: ""
+        - value1: $damageType
+          value2: Fatigue
+          comparison: "="
+      triggerBlocks:
+        - id: blo-mp5m1apc4a
+          type: TimelineAvailability
+          isAvailable: true
+      id: blo-mp5m1apd22
+      type: IfCondition
+autoApplyWhenCompleted: true
+steps:
+  - id: dr-mp5m1ape3z
+    name: Step 1
+    description: >-
+      The {systemName} has become misaligned which is causing it to malfunction. Send an
+      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
+      {duration} seconds.
+    tags: []
+    blocks:
+      - action: exocomps.createExocompAssignment
+        values:
+          damageReportId: $damageReportId
+          requiredPartCount: RANDOM(1,3)
+          requiredAction: align
+        id: blo-mp5m1apf3d
+        type: Action
+      - property: action
+        variable: action
+        id: blo-mp5m1apg1h
+        type: ResultPropertyIntoVariable
+      - property: actionDuration
+        variable: duration
+        id: blo-mp5m1aph1r
+        type: ResultPropertyIntoVariable
+      - property: assignmentId
+        variable: assignmentId
+        id: blo-mp5m1api24
+        type: ResultPropertyIntoVariable
+      - property: parts
+        variable: parts
+        id: blo-mp5m1apj3y
+        type: ResultPropertyIntoVariable
+      - property: room
+        variable: room
+        id: blo-mp5m1apk4h
+        type: ResultPropertyIntoVariable
+      - event: damageReports.completeDamageAssignment
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mp5m1apm3l
+            type: ResultPropertyIntoVariable
+            property: damageAssignmentId
+            variable: completedAssignmentId
+          - id: blo-mp5m1apn49
+            type: IfCondition
+            conditions:
+              - comparison: "="
+                value1: $completedAssignmentId
+                value2: $assignmentId
+            triggerBlocks:
+              - id: blo-mp5m1apo4w
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mp5m1apl56
+        type: EventCondition

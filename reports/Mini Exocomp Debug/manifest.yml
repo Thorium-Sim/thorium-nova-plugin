@@ -1,0 +1,87 @@
+apiVersion: timeline/v1
+kind: reports
+name: Mini Exocomp Debug
+description: Send an exocomp to the relevant room and have it debug the system
+category: Exocomps
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - count: one
+    entity: $shipId
+    systemType: exocomps
+    variable: exocomps
+    id: blo-mp5m1arh4u
+    type: ShipSystemGetter
+  - "0":
+      conditions:
+        - comparison: is not empty
+          value1: $exocomps
+          value2: ""
+        - value1: $damageType
+          value2: Computer
+          comparison: "="
+      triggerBlocks:
+        - id: blo-mp5m1ari45
+          type: TimelineAvailability
+          isAvailable: true
+      id: blo-mp5m1arj1v
+      type: IfCondition
+autoApplyWhenCompleted: true
+steps:
+  - id: dr-mp5m1ark14
+    name: Step 1
+    description: >-
+      Software bugs in the {systemName} have been identified and need to be addressed. Send an
+      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
+      {duration} seconds.
+    tags: []
+    blocks:
+      - action: exocomps.createExocompAssignment
+        values:
+          damageReportId: $damageReportId
+          requiredPartCount: RANDOM(1,3)
+          requiredAction: debug
+        id: blo-mp5m1arl2t
+        type: Action
+      - property: action
+        variable: action
+        id: blo-mp5m1arm5w
+        type: ResultPropertyIntoVariable
+      - property: actionDuration
+        variable: duration
+        id: blo-mp5m1arn64
+        type: ResultPropertyIntoVariable
+      - property: assignmentId
+        variable: assignmentId
+        id: blo-mp5m1aro1o
+        type: ResultPropertyIntoVariable
+      - property: parts
+        variable: parts
+        id: blo-mp5m1arp1s
+        type: ResultPropertyIntoVariable
+      - property: room
+        variable: room
+        id: blo-mp5m1arq1r
+        type: ResultPropertyIntoVariable
+      - event: damageReports.completeDamageAssignment
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mp5m1ars5r
+            type: ResultPropertyIntoVariable
+            property: damageAssignmentId
+            variable: completedAssignmentId
+          - id: blo-mp5m1art4n
+            type: IfCondition
+            conditions:
+              - comparison: "="
+                value1: $completedAssignmentId
+                value2: $assignmentId
+            triggerBlocks:
+              - id: blo-mp5m1aru1r
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mp5m1arr0e
+        type: EventCondition

@@ -6,17 +6,7 @@ category: ''
 tags: []
 flightMode: nova
 assets: {}
-prerequisiteBlocks:
-  - conditions:
-      - comparison: '='
-        value1: $systemType
-        value2: shields
-    triggerBlocks:
-      - id: blo-mgpwcq8g6y
-        type: TimelineAvailability
-        isAvailable: true
-    id: blo-mgpw4cjq5n
-    type: IfCondition
+prerequisiteBlocks: []
 autoApplyWhenCompleted: true
 steps:
   - id: dr-mgp1setz6a

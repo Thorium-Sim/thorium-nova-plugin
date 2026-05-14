@@ -5,10 +5,14 @@ plural: Power Cables
 description: Cables which transfer high-voltage power.
 volume: 0.1
 assets:
-  image: null
+  image: /plugins/Thorium Default/inventory/Power Cable/assets/image.svg
 continuous: false
 durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - General Engineer
+      - Electrician
+      - Exocomp

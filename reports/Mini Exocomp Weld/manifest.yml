@@ -1,0 +1,129 @@
+apiVersion: timeline/v1
+kind: reports
+name: Mini Exocomp Weld
+description: Send an exocomp to the relevant room and have it weld the system
+category: Exocomps
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - count: one
+    entity: $shipId
+    systemType: exocomps
+    variable: exocomps
+    id: blo-mp5m1aq550
+    type: ShipSystemGetter
+  - "0":
+      conditions:
+        - comparison: is not empty
+          value1: $exocomps
+          value2: ""
+        - value1: $damageType
+          value2: Structural
+          comparison: "="
+      triggerBlocks:
+        - id: blo-mp5m1aq66u
+          type: TimelineAvailability
+          isAvailable: true
+      id: blo-mp5m1aq742
+      type: IfCondition
+    "1":
+      conditions:
+        - comparison: is not empty
+          value1: $exocomps
+          value2: ""
+        - value1: $damageType
+          value2: Plumbing
+          comparison: "="
+      triggerBlocks:
+        - id: blo-mp5m1aq82e
+          type: TimelineAvailability
+          isAvailable: true
+      id: blo-mp5m1aq96q
+      type: IfCondition
+    "2":
+      conditions:
+        - comparison: is not empty
+          value1: $exocomps
+          value2: ""
+        - value1: $damageType
+          value2: Corrosion
+          comparison: "="
+      triggerBlocks:
+        - id: blo-mp5m1aqa29
+          type: TimelineAvailability
+          isAvailable: true
+      id: blo-mp5m1aqb1h
+      type: IfCondition
+    "3":
+      conditions:
+        - comparison: is not empty
+          value1: $exocomps
+          value2: ""
+        - value1: $damageType
+          value2: Fatigue
+          comparison: "="
+      triggerBlocks:
+        - id: blo-mp5m1aqc36
+          type: TimelineAvailability
+          isAvailable: true
+      id: blo-mp5m1aqd33
+      type: IfCondition
+autoApplyWhenCompleted: true
+steps:
+  - id: dr-mp5m1aqe1o
+    name: Step 1
+    description: >-
+      Joints within the {systemName} have weakened. Send an
+      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
+      {duration} seconds.
+    tags: []
+    blocks:
+      - action: exocomps.createExocompAssignment
+        values:
+          damageReportId: $damageReportId
+          requiredPartCount: RANDOM(1,3)
+          requiredAction: weld
+        id: blo-mp5m1aqf6n
+        type: Action
+      - property: action
+        variable: action
+        id: blo-mp5m1aqg69
+        type: ResultPropertyIntoVariable
+      - property: actionDuration
+        variable: duration
+        id: blo-mp5m1aqh29
+        type: ResultPropertyIntoVariable
+      - property: assignmentId
+        variable: assignmentId
+        id: blo-mp5m1aqi2z
+        type: ResultPropertyIntoVariable
+      - property: parts
+        variable: parts
+        id: blo-mp5m1aqj33
+        type: ResultPropertyIntoVariable
+      - property: room
+        variable: room
+        id: blo-mp5m1aqk3i
+        type: ResultPropertyIntoVariable
+      - event: damageReports.completeDamageAssignment
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mp5m1aqm2p
+            type: ResultPropertyIntoVariable
+            property: damageAssignmentId
+            variable: completedAssignmentId
+          - id: blo-mp5m1aqn0d
+            type: IfCondition
+            conditions:
+              - comparison: "="
+                value1: $completedAssignmentId
+                value2: $assignmentId
+            triggerBlocks:
+              - id: blo-mp5m1aqo29
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mp5m1aql34
+        type: EventCondition

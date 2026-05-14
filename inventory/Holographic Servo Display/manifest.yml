@@ -1,0 +1,18 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Holographic Servo Display
+plural: Holographic Servo Display
+description: Produces holographic images using rapidly moving emitters.
+volume: 0.8
+assets:
+  image: >-
+    /plugins/Thorium Default/inventory/Holographic Servo
+    Display/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

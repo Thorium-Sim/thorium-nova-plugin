@@ -1,16 +1,19 @@
 apiVersion: inventory/v1
 kind: inventory
-name: Computer Penetration Kit
-plural: Computer Penetration Kits
+name: Computer Hacking Kit
+plural: Computer Hacking Kits
 description: >-
   Tools to help determine the security of a computer network. Intended only for
   test purposes.
 volume: 6
 assets:
-  image: null
+  image: /plugins/Thorium Default/inventory/Computer Hacking Kit/assets/image.svg
 continuous: false
 durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Computer Specialist
+      - Exocomp

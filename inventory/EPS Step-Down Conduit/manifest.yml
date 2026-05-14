@@ -7,10 +7,14 @@ description: >-
   ship.
 volume: 5
 assets:
-  image: null
+  image: /plugins/Thorium Default/inventory/EPS Step-Down Conduit/assets/image.svg
 continuous: false
 durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Electrician
+      - General Engineer
+      - Exocomp

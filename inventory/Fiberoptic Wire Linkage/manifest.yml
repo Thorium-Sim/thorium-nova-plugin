@@ -1,0 +1,18 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Fiberoptic Wire Linkage
+plural: Fiberoptic Wire Linkage
+description: >-
+  Allows data transferred over fiber optic wires to be modified or filtered
+  before retransmitting.
+volume: 2
+assets:
+  image: /plugins/Thorium Default/inventory/Fiberoptic Wire Linkage/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

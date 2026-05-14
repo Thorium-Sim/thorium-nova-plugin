@@ -28,6 +28,12 @@ stations:
       - name: Systems Monitor
         component: SystemsMonitor
         icon: /plugins/Thorium Default/stationComplements/assets/SystemsMonitor.svg
+      - name: Damage Reports
+        component: DamageReports
+        icon: /plugins/Thorium Default/stationComplements/assets/DamageReports.svg
+      - name: Exocomps
+        component: Exocomps
+        icon: /plugins/Thorium Default/stationComplements/assets/Exocomps.svg
     widgets:
       - name: Objectives
         component: Objectives
@@ -55,6 +61,9 @@ stations:
     description: Communications and internal ship management
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
     cards:
+      - name: Short Range Comm
+        component: ShortRangeComm
+        icon: /plugins/Thorium Default/stationComplements/assets/ShortRangeComm.svg
       - name: Long Range Comm
         component: LongRangeComm
         icon: /plugins/Thorium Default/stationComplements/assets/LongRangeComm.svg

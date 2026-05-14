@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Power Splitter
+plural: Power Splitters
+description: A distribution node which sub-divides power between multiple systems.
+volume: 3
+assets:
+  image: /plugins/Thorium Default/inventory/Power Splitter/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

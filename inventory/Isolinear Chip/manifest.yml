@@ -13,4 +13,8 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Computer Specialist
+      - General Engineer
+      - Quality Assurance

@@ -11,4 +11,8 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Electrician
+      - Structural Engineer
+      - General Engineer

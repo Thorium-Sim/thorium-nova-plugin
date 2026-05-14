@@ -11,4 +11,9 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - General Engineer
+      - Explosive Expert
+      - Quality Assurance
+      - Hazardous Waste

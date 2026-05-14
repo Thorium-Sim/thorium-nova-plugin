@@ -1,0 +1,110 @@
+apiVersion: shipSystems/v1
+kind: shipSystems
+name: Short Range Comm
+description: ''
+type: shortRangeComm
+tags: []
+assets: {}
+soundEffects:
+  incomingHail:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Short Range Comm/assets/Call
+        Incoming.ogg
+      volume:
+        - 1
+        - 1
+      playbackRate:
+        - 1
+        - 1
+      loop: true
+      loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 3
+      channel: null
+  outgoingHail:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Short Range
+        Comm/assets/hailbeep_clean.ogg
+      volume:
+        - 0.8
+        - 0.8
+      playbackRate:
+        - 1
+        - 1
+      loop: true
+      loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 5
+      channel: null
+  connected:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Short Range
+        Comm/assets/hailbeep3_clean.ogg
+      channel: null
+      volume:
+        - 1
+        - 1
+      loop: false
+      delay: 0
+      gap: 0
+      playbackRate:
+        - 1
+        - 1
+      loopEnd: null
+      loopStart: null
+  disconnected:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Short Range Comm/assets/Call
+        Disconnect.ogg
+      channel: null
+      volume:
+        - 1
+        - 1
+      loop: false
+      delay: 0
+      gap: 0
+      playbackRate:
+        - 1
+        - 1
+      loopEnd: null
+      loopStart: null
+  rejected:
+    - url: >-
+        /plugins/Thorium Default/shipSystems/Short Range Comm/assets/Call
+        Refused.ogg
+      channel: null
+      volume:
+        - 1
+        - 1
+      loop: false
+      delay: 0
+      gap: 0
+      playbackRate:
+        - 1
+        - 1
+      loopEnd: null
+      loopStart: null
+allowMultiple: false
+powerLevels:
+  - 5
+  - 20
+defaultPower: 10
+powerToHeat: 10
+heatDissipationRate: 1
+nominalHeat: 295.37
+maxSafeHeat: 1000
+maxHeat: 2500
+coolantTransferRate: 1
+coolantConsumptionRate: 1
+offlineEfficiency: 0.5
+onlineEfficiency: 0.8
+overloadDamageMultiplier: 0.015
+minSignature: 0
+maxSignature: 1
+signatureSpike: 2
+signatureSpikeDuration: 5
+entropyMultiplier: 0.00025
+minRadius: 10000
+maxRadius: 1000000

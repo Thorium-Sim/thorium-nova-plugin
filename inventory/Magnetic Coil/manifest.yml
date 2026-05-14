@@ -5,10 +5,15 @@ plural: Magnetic Coils
 description: A carefully wound cable which produces electromagnetism when powered.
 volume: 3
 assets:
-  image: null
+  image: /plugins/Thorium Default/inventory/Magnetic Coil/assets/image.svg
 continuous: false
 durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Electrician
+      - Quality Assurance
+      - General Engineer
+      - Exocomp

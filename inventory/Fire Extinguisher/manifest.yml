@@ -1,0 +1,15 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Fire Extinguisher
+plural: Fire Extinguishers
+description: Uses inert chemicals to remove the fuel for fires.
+volume: 4
+assets: {}
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Fire Control

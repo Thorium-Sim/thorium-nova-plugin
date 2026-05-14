@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Prefire Chamber
+plural: Prefire Chambers
+description: Collects charged particles in stasis until they are ready to be used.
+volume: 3
+assets:
+  image: /plugins/Thorium Default/inventory/Prefire Chamber/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

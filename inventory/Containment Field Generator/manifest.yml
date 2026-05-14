@@ -5,10 +5,15 @@ plural: Containment Field Generators
 description: Creates a low-powered force field which will contain most humanoid lifeforms.
 volume: 8
 assets:
-  image: null
+  image: >-
+    /plugins/Thorium Default/inventory/Containment Field
+    Generator/assets/image.svg
 continuous: false
 durability: 1
 abundance: 1
 tags: []
 flags:
   security: {}
+  repair:
+    type:
+      - Exocomp

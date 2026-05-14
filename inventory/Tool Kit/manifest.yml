@@ -11,4 +11,17 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  repair: {}
+  repair:
+    type:
+      - Welder
+      - Structural Engineer
+      - Plumber
+      - Mechanic
+      - Hazardous Waste
+      - General Engineer
+      - Fire Control
+      - Explosive Expert
+      - Electrician
+      - Quality Assurance
+      - Custodian
+      - Computer Specialist

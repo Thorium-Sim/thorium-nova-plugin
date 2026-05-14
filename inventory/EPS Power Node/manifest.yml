@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: EPS Power Node
+plural: EPS Power Nodes
+description: Provides a method for routing power intelligently between multiple places.
+volume: 0.5
+assets:
+  image: /plugins/Thorium Default/inventory/EPS Power Node/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

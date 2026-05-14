@@ -1,0 +1,18 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Residual Power Store
+plural: Residual Power Stores
+description: >-
+  A power storage device which can absorb large amounts of energy in short
+  period of time and dissipate it slowly.
+volume: 2
+assets:
+  image: /plugins/Thorium Default/inventory/Residual Power Store/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

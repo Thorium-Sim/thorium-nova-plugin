@@ -1,0 +1,16 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Fusion Generator
+plural: Fusion Generator
+description: A small fusion generator capable of producing 500 kW of power.
+volume: 10
+assets:
+  image: /plugins/Thorium Default/inventory/Fusion Generator/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp

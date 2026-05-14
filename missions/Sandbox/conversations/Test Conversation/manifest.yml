@@ -1,0 +1,50 @@
+apiVersion: conversation/v1
+kind: conversations
+name: Test Conversation
+description: ''
+timelineId: Sandbox
+tags: []
+assets:
+  conversation: >-
+    /plugins/Thorium Default/missions/Sandbox/conversations/Test
+    Conversation/assets/conversation.ink
+  files:
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerGladPants.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerGoodbye.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerGoodbyeWithRool.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerIntro.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerMontgomery.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerGlad.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerPants.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerTargetCleared.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerTarget1.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerRool.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerTarget2.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerTarget3.ogg
+    - >-
+      /plugins/Thorium Default/missions/Sandbox/conversations/Test
+      Conversation/assets/rangerWormhole.ogg

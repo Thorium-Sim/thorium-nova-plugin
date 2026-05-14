@@ -1,0 +1,18 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Power Coupling
+plural: Power Couplings
+description: >-
+  Connects two power systems together, ensuring their power attributes are
+  matched correctly.
+volume: 1
+assets:
+  image: /plugins/Thorium Default/inventory/Power Coupling/assets/image.svg
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  repair:
+    type:
+      - Exocomp
