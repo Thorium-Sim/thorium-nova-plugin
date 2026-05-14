@@ -587,39 +587,39 @@ steps:
           clientId: $clientId
           text: >-
             Now that we know how to move the ship, let's learn how to choose a
-            destination and get our ship there. Click this button to open the
-            navigation screen.
+            destination and get our ship there. Click this button to switch to
+            the navigation screen.
           selector:
-            - .set-course
+            - .card-button-navigation
           mediaUrl: ''
         id: blo-mju26s015y
         type: Action
-      - event: thorium.genericEvent
+      - event: client.setCard
         multiple: true
         persist: false
         triggerBlocks:
-          - id: blo-mjyten2619
-            type: Macro
-            pluginId: Thorium Default
-            macroId: Handle Generic Event
+          - id: blo-mp5morq504
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: cardClientId
+          - id: blo-mp5mp5t62w
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: changedCard
+          - id: blo-mp5mpbc00l
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $clientId
+                value2: $cardClientId
+              - value1: $changedCard
+                value2: Navigation
+                comparison: '='
             triggerBlocks:
-              - id: blo-mjytewqy14
-                type: IfCondition
-                conditions:
-                  - comparison: '='
-                    value1: $eventClientId
-                    value2: $clientId
-                  - value1: $eventName
-                    value2: navigation-open
-                    comparison: '='
-                  - value1: $props
-                    value2: 'true'
-                    comparison: '='
-                triggerBlocks:
-                  - id: blo-mjytft9s3u
-                    type: Action
-                    action: timeline.advance
-                    values: {}
+              - id: blo-mp5mpsya4n
+                type: Action
+                action: timeline.advance
+                values: {}
         id: blo-mjytcdwy16
         type: EventCondition
   - id: ms-mjytg1c60c
@@ -698,8 +698,8 @@ steps:
             - .navigation-object
           text: >-
             You can see the details about any object you selected here. You can
-            also see a "Set Waypoint" button, which allows you to create a
-            waypoint to navigate to. Click the "Set Waypoint" button now.
+            also see a "Create Waypoint" button, which allows you to create a
+            waypoint to navigate to. Click the "Create Waypoint" button now.
       - event: waypoints.spawn
         multiple: true
         persist: false
@@ -729,6 +729,89 @@ steps:
                 action: timeline.advance
                 values: {}
         id: blo-mjytwzav04
+        type: EventCondition
+  - id: ts-mp5mt10g69
+    name: Step 18.1 - Activate
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          text: >-
+            You can have multiple waypoints at a time, but only one waypoint can
+            be active. To travel to a waypoint, you must first activate it.
+            Activate this waypoint now.
+          selector:
+            - .activate-waypoint-button
+        id: blo-mp5mt3jz17
+        type: Action
+      - entity: this timeline
+        getVariable: waypointId
+        variable: $waypointId
+        id: blo-mp5mv43s1p
+        type: VariableIntoVariable
+      - event: waypoints.activate
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mp5mvmzy6d
+            type: ResultPropertyIntoVariable
+            property: waypointId
+            variable: activatedId
+          - id: blo-mp5mvvsi2o
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $activatedId
+                value2: $waypointId
+            triggerBlocks:
+              - id: blo-mp5mw3ty3c
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mp5mvezb3o
+        type: EventCondition
+  - id: ts-mp5mwer34x
+    name: Step 18.2 - Return to Pilot
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          text: >-
+            Now that our waypoint is activated, we can set course and activate
+            our engines. Return to the Flight Controls screen.
+          selector:
+            - .card-button-flight-controls
+        id: blo-mp5mwwtk0g
+        type: Action
+      - event: client.setCard
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mp5morq504
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: cardClientId
+          - id: blo-mp5mp5t62w
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: changedCard
+          - id: blo-mp5mpbc00l
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $clientId
+                value2: $cardClientId
+              - value1: $changedCard
+                value2: Flight Controls
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mp5mpsya4n
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjytcdwy16
         type: EventCondition
   - id: ms-mjytz33p5b
     name: Step 19 - Autopilot
@@ -766,31 +849,19 @@ steps:
         variable: waypointId
         id: blo-mk4mmdua1r
         type: VariableIntoVariable
-      - event: thorium.genericEvent
-        multiple: true
+      - checks:
+          - component: facingWaypoints
+            property: ids
+            value: $waypointId
+        match: any
         persist: false
         triggerBlocks:
-          - id: blo-mk4mlsfu3c
-            type: Macro
-            pluginId: Thorium Default
-            macroId: Handle Generic Event
-            triggerBlocks:
-              - id: blo-mk4mlxww39
-                type: IfCondition
-                conditions:
-                  - comparison: '='
-                    value1: $eventName
-                    value2: facing-waypoint
-                  - value1: $props
-                    value2: $waypointId
-                    comparison: '='
-                triggerBlocks:
-                  - id: blo-mk4mmo0e0l
-                    type: Action
-                    action: timeline.advance
-                    values: {}
-        id: blo-mk4mlepw2x
-        type: EventCondition
+          - id: blo-mp5npcug12
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-mp5nnhs158
+        type: EntityCondition
   - id: ms-mk1z85l65i
     name: Step 20 - Lock Course
     description: ''
@@ -879,36 +950,36 @@ steps:
           clientId: $clientId
           text: >-
             Congratulations!  Your ship is now traveling to your destination. If
-            you hurry, you can click on the "Set Course" button to watch your
-            ship as it travels. Click it now.
+            you hurry, you can switch to the Navigation screen to watch your
+            ship as it travels. Switch to it now.
           selector:
-            - .set-course
-      - event: thorium.genericEvent
+            - .card-button-navigation
+      - event: client.setCard
         multiple: true
         persist: false
         triggerBlocks:
-          - id: blo-mjyten2619
-            type: Macro
-            pluginId: Thorium Default
-            macroId: Handle Generic Event
+          - id: blo-mp5morq504
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: cardClientId
+          - id: blo-mp5mp5t62w
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: changedCard
+          - id: blo-mp5mpbc00l
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $clientId
+                value2: $cardClientId
+              - value1: $changedCard
+                value2: Navigation
+                comparison: '='
             triggerBlocks:
-              - id: blo-mjytewqy14
-                type: IfCondition
-                conditions:
-                  - comparison: '='
-                    value1: $eventClientId
-                    value2: $clientId
-                  - value1: $eventName
-                    value2: navigation-open
-                    comparison: '='
-                  - value1: $props
-                    value2: 'true'
-                    comparison: '='
-                triggerBlocks:
-                  - id: blo-mjytft9s3u
-                    type: Action
-                    action: timeline.advance
-                    values: {}
+              - id: blo-mp5mpsya4n
+                type: Action
+                action: timeline.advance
+                values: {}
         id: blo-mjytcdwy16
         type: EventCondition
   - id: ms-mk1zj3ch0h
@@ -922,7 +993,8 @@ steps:
         values:
           clientId: $clientId
           text: >-
-            Look at you go!
+            Look at you go! Don't worry, your ship will automatically stop when
+            you reach your destination.
 
 
             There's one last thing on this screen that you need to know about.
@@ -942,8 +1014,8 @@ steps:
           clientId: $clientId
           text: >-
             Your waypoints appear here, with the active waypoint highlighted. If
-            there were more waypoitns here, you could change the active waypoint
-            by clicking on a different waypoint. You can also remove waypoints
+            there were more waypoints here, you could change the active waypoint
+            by switching on a different waypoint. You can also remove waypoints
             that you've created if your list gets too crowded.
           allowAdvance: true
           selector:
@@ -959,10 +1031,10 @@ steps:
         values:
           clientId: $clientId
           text: >-
-            Finally, if you don't want a waypoint cluttering your radar, you can
-            clear it by clicking this button. Go ahead and do that now.
+            Finally, if you don't want the active waypoint cluttering your
+            radar, you can deactivate it. Go ahead and do that now.
           selector:
-            - .clear-waypoint
+            - .waypoints-activate-switch
       - event: waypoints.deactivate
         multiple: true
         persist: false

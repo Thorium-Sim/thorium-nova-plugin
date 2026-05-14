@@ -13,14 +13,14 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1aqp6o
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Radiation
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aqq1v
           type: TimelineAvailability
@@ -32,7 +32,8 @@ steps:
   - id: dr-mp5m1aqs08
     name: Step 1
     description: >-
-      The {systemName} has been radiated with ionizing radiation. This is causing malfunctions and could pose a danger to crew members. Send an
+      The {systemName} has been radiated with ionizing radiation. This is
+      causing malfunctions and could pose a danger to crew members. Send an
       exocomp to {room} with {parts}. Instruct the exocomp to {action} for
       {duration} seconds.
     tags: []
@@ -75,7 +76,7 @@ steps:
           - id: blo-mp5m1ar118
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

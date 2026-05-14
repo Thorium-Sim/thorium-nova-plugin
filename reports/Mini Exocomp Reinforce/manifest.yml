@@ -13,42 +13,42 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1at31d
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Structural
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1at41d
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1at53k
       type: IfCondition
-    "1":
+    '1':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Fatigue
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1at63v
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1at70l
       type: IfCondition
-    "2":
+    '2':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Corrosion
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1at84t
           type: TimelineAvailability
@@ -60,9 +60,9 @@ steps:
   - id: dr-mp5m1ata72
     name: Step 1
     description: >-
-      The {systemName} has suffered damage and could collapse if not reinforced. Send an
-      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
-      {duration} seconds.
+      The {systemName} has suffered damage and could collapse if not reinforced.
+      Send an exocomp to {room} with {parts}. Instruct the exocomp to {action}
+      for {duration} seconds.
     tags: []
     blocks:
       - action: exocomps.createExocompAssignment
@@ -103,7 +103,7 @@ steps:
           - id: blo-mp5m1atj3d
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

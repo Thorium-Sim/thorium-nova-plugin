@@ -13,14 +13,14 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1aof2d
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Heat
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aog40
           type: TimelineAvailability
@@ -75,7 +75,7 @@ steps:
           - id: blo-mp5m1aor3l
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

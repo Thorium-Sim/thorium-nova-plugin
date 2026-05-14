@@ -13,28 +13,28 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1app0g
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Plumbing
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1apq3y
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1apr3d
       type: IfCondition
-    "1":
+    '1':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Corrosion
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aps03
           type: TimelineAvailability
@@ -89,7 +89,7 @@ steps:
           - id: blo-mp5m1aq33v
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

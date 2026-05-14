@@ -13,56 +13,56 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1aq550
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Structural
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aq66u
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1aq742
       type: IfCondition
-    "1":
+    '1':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Plumbing
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aq82e
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1aq96q
       type: IfCondition
-    "2":
+    '2':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Corrosion
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aqa29
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1aqb1h
       type: IfCondition
-    "3":
+    '3':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Fatigue
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aqc36
           type: TimelineAvailability
@@ -74,9 +74,8 @@ steps:
   - id: dr-mp5m1aqe1o
     name: Step 1
     description: >-
-      Joints within the {systemName} have weakened. Send an
-      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
-      {duration} seconds.
+      Joints within the {systemName} have weakened. Send an exocomp to {room}
+      with {parts}. Instruct the exocomp to {action} for {duration} seconds.
     tags: []
     blocks:
       - action: exocomps.createExocompAssignment
@@ -117,7 +116,7 @@ steps:
           - id: blo-mp5m1aqn0d
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

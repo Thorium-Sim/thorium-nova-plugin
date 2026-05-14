@@ -13,28 +13,28 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1ap924
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Structural
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1apa0w
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1apb3w
       type: IfCondition
-    "1":
+    '1':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Fatigue
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1apc4a
           type: TimelineAvailability
@@ -46,9 +46,9 @@ steps:
   - id: dr-mp5m1ape3z
     name: Step 1
     description: >-
-      The {systemName} has become misaligned which is causing it to malfunction. Send an
-      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
-      {duration} seconds.
+      The {systemName} has become misaligned which is causing it to malfunction.
+      Send an exocomp to {room} with {parts}. Instruct the exocomp to {action}
+      for {duration} seconds.
     tags: []
     blocks:
       - action: exocomps.createExocompAssignment
@@ -89,7 +89,7 @@ steps:
           - id: blo-mp5m1apn49
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

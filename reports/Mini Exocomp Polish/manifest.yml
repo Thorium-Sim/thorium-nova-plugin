@@ -13,14 +13,14 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1as913
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Fatigue
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1asa06
           type: TimelineAvailability
@@ -32,9 +32,9 @@ steps:
   - id: dr-mp5m1asc6t
     name: Step 1
     description: >-
-      The precise tolerances of parts for {systemName} have become worn and need to be refurbished. Send an
-      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
-      {duration} seconds.
+      The precise tolerances of parts for {systemName} have become worn and need
+      to be refurbished. Send an exocomp to {room} with {parts}. Instruct the
+      exocomp to {action} for {duration} seconds.
     tags: []
     blocks:
       - action: exocomps.createExocompAssignment
@@ -75,7 +75,7 @@ steps:
           - id: blo-mp5m1asl1r
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

@@ -13,14 +13,14 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1ao12g
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Heat
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1ao23w
           type: TimelineAvailability
@@ -32,9 +32,8 @@ steps:
   - id: dr-mp5m1ao44t
     name: Step 1
     description: >-
-      Fires near the {systemName} are causing damage. Send an
-      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
-      {duration} seconds.
+      Fires near the {systemName} are causing damage. Send an exocomp to {room}
+      with {parts}. Instruct the exocomp to {action} for {duration} seconds.
     tags: []
     blocks:
       - action: exocomps.createExocompAssignment
@@ -75,7 +74,7 @@ steps:
           - id: blo-mp5m1aod6s
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

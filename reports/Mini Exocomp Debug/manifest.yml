@@ -13,14 +13,14 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1arh4u
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Computer
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1ari45
           type: TimelineAvailability
@@ -32,9 +32,9 @@ steps:
   - id: dr-mp5m1ark14
     name: Step 1
     description: >-
-      Software bugs in the {systemName} have been identified and need to be addressed. Send an
-      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
-      {duration} seconds.
+      Software bugs in the {systemName} have been identified and need to be
+      addressed. Send an exocomp to {room} with {parts}. Instruct the exocomp to
+      {action} for {duration} seconds.
     tags: []
     blocks:
       - action: exocomps.createExocompAssignment
@@ -75,7 +75,7 @@ steps:
           - id: blo-mp5m1art4n
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

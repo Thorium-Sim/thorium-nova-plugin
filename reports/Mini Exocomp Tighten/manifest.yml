@@ -13,28 +13,28 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1aot35
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Structural
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aou59
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1aov6m
       type: IfCondition
-    "1":
+    '1':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Fatigue
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aow5j
           type: TimelineAvailability
@@ -46,9 +46,9 @@ steps:
   - id: dr-mp5m1aoy5v
     name: Step 1
     description: >-
-      Sections of the {systemName} have become loose and should be reattached. Send an
-      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
-      {duration} seconds.
+      Sections of the {systemName} have become loose and should be reattached.
+      Send an exocomp to {room} with {parts}. Instruct the exocomp to {action}
+      for {duration} seconds.
     tags: []
     blocks:
       - action: exocomps.createExocompAssignment
@@ -89,7 +89,7 @@ steps:
           - id: blo-mp5m1ap76p
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:

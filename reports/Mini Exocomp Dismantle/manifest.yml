@@ -13,28 +13,28 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1asn4m
     type: ShipSystemGetter
-  - "0":
+  - '0':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Structural
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1aso5m
           type: TimelineAvailability
           isAvailable: true
       id: blo-mp5m1asp4w
       type: IfCondition
-    "1":
+    '1':
       conditions:
         - comparison: is not empty
           value1: $exocomps
-          value2: ""
+          value2: ''
         - value1: $damageType
           value2: Fatigue
-          comparison: "="
+          comparison: '='
       triggerBlocks:
         - id: blo-mp5m1asq26
           type: TimelineAvailability
@@ -46,9 +46,10 @@ steps:
   - id: dr-mp5m1ass4b
     name: Step 1
     description: >-
-      Parts of the {systemName} have lost structural integrity and could suffer a catastrophic failure. Send an
-      exocomp to {room} with {parts}. Instruct the exocomp to {action} for
-      {duration} seconds. The exocomp will also restore the system.
+      Parts of the {systemName} have lost structural integrity and could suffer
+      a catastrophic failure. Send an exocomp to {room} with {parts}. Instruct
+      the exocomp to {action} for {duration} seconds. The exocomp will also
+      restore the system.
     tags: []
     blocks:
       - action: exocomps.createExocompAssignment
@@ -89,7 +90,7 @@ steps:
           - id: blo-mp5m1at132
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $completedAssignmentId
                 value2: $assignmentId
             triggerBlocks:
