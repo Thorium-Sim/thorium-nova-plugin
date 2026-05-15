@@ -642,8 +642,7 @@ steps:
             You can click the "Interstellar View" button to zoom out even
             further to see other star systems.
           card: ''
-          selector:
-            - .navigation-card
+          selector: []
           allowAdvance: true
   - id: ms-mjytiwtt6x
     name: Step 17 - Search Bar
@@ -743,6 +742,7 @@ steps:
             Activate this waypoint now.
           selector:
             - .activate-waypoint-button
+          clientId: $clientId
         id: blo-mp5mt3jz17
         type: Action
       - entity: this timeline
@@ -783,6 +783,7 @@ steps:
             our engines. Return to the Flight Controls screen.
           selector:
             - .card-button-flight-controls
+          clientId: $clientId
         id: blo-mp5mwwtk0g
         type: Action
       - event: client.setCard
@@ -804,7 +805,7 @@ steps:
                 value1: $clientId
                 value2: $cardClientId
               - value1: $changedCard
-                value2: Flight Controls
+                value2: Pilot
                 comparison: '='
             triggerBlocks:
               - id: blo-mp5mpsya4n
@@ -824,9 +825,8 @@ steps:
         values:
           clientId: $clientId
           text: >-
-            Setting the waypoint brings us back to the radar, where you can see
-            a new orange icon. That points in the direction of the waypoint that
-            you just set.
+            With the waypoint activated, you can now see a new orange icon. That
+            points in the direction of the waypoint that you just set.
 
 
             To travel to that waypoint, you'll need to use your yaw, pitch, and
@@ -841,6 +841,10 @@ steps:
             rotate your ship so the waypoint arrow overlaps with the front of
             your ship. If it still doesn't line up, you can use Yaw again to get
             it in just the right location.
+
+
+            Training will continue once your ship is pointing at the waypoint
+            and it turns blue.
           selector:
             - .pilot-radar
             - .rotation-thrusters
@@ -1015,7 +1019,7 @@ steps:
           text: >-
             Your waypoints appear here, with the active waypoint highlighted. If
             there were more waypoints here, you could change the active waypoint
-            by switching on a different waypoint. You can also remove waypoints
+            by activating a different waypoint. You can also remove waypoints
             that you've created if your list gets too crowded.
           allowAdvance: true
           selector:
@@ -1032,30 +1036,10 @@ steps:
           clientId: $clientId
           text: >-
             Finally, if you don't want the active waypoint cluttering your
-            radar, you can deactivate it. Go ahead and do that now.
+            radar, you can deactivate it by clicking the activate switch again.
           selector:
-            - .waypoints-activate-switch
-      - event: waypoints.deactivate
-        multiple: true
-        persist: false
-        triggerBlocks:
-          - id: blo-mk4mv8zw61
-            type: ResultPropertyIntoVariable
-            property: shipId
-            variable: eventShip
-          - id: blo-mk4mvgzv56
-            type: IfCondition
-            conditions:
-              - comparison: '='
-                value1: $eventShip
-                value2: $shipId
-            triggerBlocks:
-              - id: blo-mk4mvofb10
-                type: Action
-                action: timeline.advance
-                values: {}
-        id: blo-mk4muyta57
-        type: EventCondition
+            - .waypoints-container
+          allowAdvance: true
   - id: ms-mk1zllmy2w
     name: Step 26 - Officers Log Widget
     description: ''
