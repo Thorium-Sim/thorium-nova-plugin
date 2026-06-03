@@ -25,7 +25,8 @@ allowMultiple: true
 powerLevels:
   - 5
   - 20
-defaultPower: 10
+powerActivated: true
+connectedBatteryType: none
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
@@ -51,5 +52,6 @@ legacyPhaserBanks:
   - 181
   - 182
 legacyChargeSpeed: 1
+defaultPower: 10
 requiredPower: 5
 maxSafePower: 20

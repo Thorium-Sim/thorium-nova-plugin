@@ -9,7 +9,8 @@ allowMultiple: false
 powerLevels:
   - 5
   - 20
-defaultPower: 10
+powerActivated: true
+connectedBatteryType: none
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
@@ -29,3 +30,4 @@ calculate: true
 thrusters: false
 destinations: []
 presets: []
+defaultPower: 10

@@ -24,7 +24,10 @@ stations:
   - name: Engineer
     description: Allocates ship power and manages the engines and reactors
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
-    cards: null
+    cards:
+      - name: Sensors
+        component: Sensors
+        icon: /plugins/Thorium Default/stationComplements/assets/Sensors.svg
     widgets:
       - name: Objectives
         component: Objectives
@@ -33,6 +36,10 @@ stations:
       - name: Officers Log
         component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+      - name: Remote Access
+        component: RemoteAccess
+        icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
+        size: sm
   - name: Tactical
     description: Defends the ship
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg

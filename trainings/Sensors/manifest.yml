@@ -1,0 +1,349 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Sensors
+description: Training for the sensors station, when it has a single sensors card.
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - conditions:
+      - comparison: '='
+        value1: $station
+        value2: Sensors
+    triggerBlocks:
+      - id: blo-mjhlmfv46e
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $stationComplement
+            value2: 4 Small
+        triggerBlocks:
+          - id: blo-mjhlmmva42
+            type: TimelineAvailability
+            isAvailable: true
+      - id: blo-mjhlmpy94r
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $stationComplement
+            value2: 5 Small
+        triggerBlocks:
+          - id: blo-mjhlmwz63g
+            type: TimelineAvailability
+            isAvailable: true
+    id: blo-mjhlm3vs5v
+    type: IfCondition
+steps:
+  - id: tr-mjhljxlp0h
+    name: Step 1 - Welcome
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            Welcome Sensors! It's your job to get information about everything
+            around your ship to help your crew make decisions. Let's take a look
+            into all the controls you use to do that.
+          allowAdvance: true
+        id: blo-mjhlp6qz1w
+        type: Action
+      - action: ship.spawn
+        values:
+          template:
+            pluginId: Thorium Default
+            name: Astra Frigate
+          entityId: $shipId
+          distance: 15000
+          tags:
+            - html
+        id: blo-mjoep3683b
+        type: Action
+      - property: id
+        variable: id
+        id: blo-mjoephl46l
+        type: ResultPropertyIntoVariable
+      - action: thorium.setEntityComponent
+        values:
+          entityId: $id
+          components:
+            - component: identity
+              property: name
+              comparison: ''
+              value: Target Ship
+        id: blo-mjoepquj0n
+        type: Action
+      - entity: this timeline
+        variable: targetId
+        value: $id
+        id: blo-mplrrjm00r
+        type: SetVariable
+  - id: ts-mjnaxljy15
+    name: Step 2 - Login
+    description: ''
+    tags: []
+    blocks:
+      - entity: $clientId
+        component: flightClient
+        property: loginName
+        variable: loginName
+        id: blo-mjnb8i6y3o
+        type: EntityPropertyIntoVariable
+      - conditions:
+          - comparison: is not empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbgxxz6t
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-mjnb8svo27
+        type: IfCondition
+      - conditions:
+          - comparison: is empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbhdn32e
+            type: Action
+            action: client.setTraining
+            values:
+              clientId: $clientId
+              text: >-
+                The first thing you need to do is identify yourself by entering
+                your name and logging in. Do that now.
+              selector:
+                - .login-form
+          - id: blo-mjng261d0u
+            type: EventCondition
+            event: client.login
+            multiple: true
+            persist: false
+            triggerBlocks:
+              - id: blo-mjng4er92w
+                type: ResultPropertyIntoVariable
+                property: clientId
+                variable: loginClientId
+              - id: blo-mjng4s9g2h
+                type: IfCondition
+                conditions:
+                  - comparison: '='
+                    value1: $loginClientId
+                    value2: $clientId
+                triggerBlocks:
+                  - id: blo-mjng4zol66
+                    type: Action
+                    action: timeline.advance
+                    values: {}
+        id: blo-mjnbh6hs62
+        type: IfCondition
+  - id: ts-mjnbk6re4b
+    name: Step 3 - Sensors Summary
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This is the screen you'll use to see everything around your ship,
+            perform sensor scans, and see processed data.
+          allowAdvance: true
+        id: blo-mjnbk9pj6z
+        type: Action
+  - id: ts-mjnffi5646
+    name: Step 4 - Radar
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            This is your sensors radar. It shows the relative direction and
+            distance from your ship to nearby objects in 3D space.
+
+
+            Your ship is in the very center, with the arrow pointing in the same
+            direction as your ship. As your ship turns and rotates, you'll see
+            the objects in this radar move with your ship.
+
+
+            It is **crucial** to remember that you are seeing a 2D projection of
+            3D space. Objects might be above or below your ship. Go to the next
+            step to find out how to see what objects are above or below you.
+          selector:
+            - .sensors-radar
+          allowAdvance: true
+        id: blo-mjnffl9l4q
+        type: Action
+  - id: ms-mjnfrr9c3p
+    name: Step 5 - Radar Controls
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjnfrr9b46
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You can use this slider to zoom in and out to better see the
+            movement of ships. Give it a go now - see if you can zoom out all
+            the way.
+          selector:
+            - .sensors-slider
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjngpqbo60
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mjngpynz17
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventName
+          - id: blo-mjngq56b0i
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: zoom
+          - id: blo-mjngqbnj6c
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventClientId
+                value2: $clientId
+              - value1: $eventName
+                value2: radar-zoom
+                comparison: '='
+              - value1: $zoom
+                value2: '0.2'
+                comparison: <=
+            triggerBlocks:
+              - id: blo-mjngtebd27
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjngpdow5i
+        type: EventCondition
+  - id: ms-mjngvme84g
+    name: Step 6 - Tilt Control
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjngvme71y
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Excellent work. You can also tilt the radar to give you a 3D view of
+            space. There are three levels of tilt: directly above, 45˚ behind,
+            and 90˚ behind. At the 90˚ tilt, your ship appears to move _into_
+            the the radar, while up and down correspond to above and below your
+            ship.
+
+
+            Go ahead and switch the tilt to 90˚ behind by clicking the tilt
+            button twice.
+          selector:
+            - .sensors-tilt
+      - pluginId: Thorium Default
+        macroId: Handle Generic Event
+        triggerBlocks:
+          - id: blo-mjnh42oy5c
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventName
+                value2: radar-tilt
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $props
+                value2: '1'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mjnh5adt5b
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjnh3y5q4e
+        type: Macro
+  - id: ms-mk1zllmy2w
+    name: Step 26 - Officers Log Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zllmx28
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            There are a few extra things unrelated to the Sensors station. The
+            first is your officers log, which you can open by clicking this
+            button. Feel free to use it to write down notes, ideas, or thoughts
+            during the mission.
+          allowAdvance: true
+          selector:
+            - .widget-OfficersLog
+  - id: ms-mk1zpl9n4h
+    name: Step 27 - Objectives Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zpl9m6k
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .widget-Objectives
+          text: >-
+            This will show you your ships current objectives, which can be
+            helpful to know what your team needs to do next.
+          allowAdvance: true
+  - id: ms-mk1zqlko4i
+    name: Step 28 - Settings Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zqlkn2q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          allowAdvance: true
+          selector:
+            - .widget-Settings
+          text: >-
+            Finally, this is the settings for your station, where you can
+            configure audio volume levels and gamepads which you can use to
+            control your station.
+  - id: ms-mk1zx1jx3e
+    name: Step 29 - Done
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zx1jw3z
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            That concludes your training. If you don't feel confident, feel free
+            to play around with your controls further until you've mastered your
+            radar and scanning.
+
+
+            Good luck!
+          allowAdvance: true
+          card: ''

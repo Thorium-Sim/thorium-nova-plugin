@@ -25,7 +25,8 @@ allowMultiple: false
 powerLevels:
   - 5
   - 20
-defaultPower: 10
+powerActivated: true
+connectedBatteryType: none
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
@@ -45,6 +46,7 @@ directionMaxSpeed: 1
 directionThrust: 437500000
 rotationMaxSpeed: 5
 rotationThrust: 437500000
+defaultPower: 10
 requiredPower: 5
 maxSafePower: 20
 coolantHeatTransferRate: 10

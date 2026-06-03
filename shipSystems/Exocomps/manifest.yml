@@ -12,7 +12,8 @@ allowMultiple: false
 powerLevels:
   - 5
   - 20
-defaultPower: 10
+powerActivated: true
+connectedBatteryType: none
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
@@ -37,3 +38,4 @@ exocompWorkingDischargeRate: 1
 exocompMovingDischargeRate: 0.2
 exocompMovementSpeed: 3
 exocompCargoVolume: 50
+defaultPower: 10

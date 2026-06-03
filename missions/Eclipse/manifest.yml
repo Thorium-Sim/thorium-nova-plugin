@@ -215,5 +215,5 @@ steps:
             pluginId: Thorium Default
             name: Astra Frigate
 assets:
-  cover: /plugins/Thorium Default/timelines/Eclipse/assets/logo.jpeg
+  cover: ''
 type: mission

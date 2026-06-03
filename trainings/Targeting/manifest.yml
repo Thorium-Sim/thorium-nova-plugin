@@ -1,0 +1,813 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Targeting
+description: Training for the targeting station, when it has a single targeting card.
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - conditions:
+      - comparison: '='
+        value1: $station
+        value2: Tactical
+    triggerBlocks:
+      - id: blo-mjhlmfv46e
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $stationComplement
+            value2: 4 Small
+        triggerBlocks:
+          - id: blo-mjhlmmva42
+            type: TimelineAvailability
+            isAvailable: true
+      - id: blo-mjhlmpy94r
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $stationComplement
+            value2: 5 Small
+        triggerBlocks:
+          - id: blo-mjhlmwz63g
+            type: TimelineAvailability
+            isAvailable: true
+    id: blo-mjhlm3vs5v
+    type: IfCondition
+steps:
+  - id: tr-mjhljxlp0h
+    name: Step 1 - Welcome
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            Welcome Tactical! It's your job to protect your ship from danger.
+            Let's take a look into all the weapons and controls you use to do
+            that.
+          allowAdvance: true
+        id: blo-mjhlp6qz1w
+        type: Action
+      - action: ship.spawn
+        values:
+          template:
+            pluginId: Thorium Default
+            name: Astra Frigate
+          entityId: $shipId
+          distance: 15000
+          tags:
+            - html
+        id: blo-mjoep3683b
+        type: Action
+      - property: id
+        variable: id
+        id: blo-mjoephl46l
+        type: ResultPropertyIntoVariable
+      - action: thorium.setEntityComponent
+        values:
+          entityId: $id
+          components:
+            - component: identity
+              property: name
+              comparison: ''
+              value: Target Ship
+        id: blo-mjoepquj0n
+        type: Action
+      - entity: this timeline
+        variable: targetId
+        value: $id
+        id: blo-mplrrjm00r
+        type: SetVariable
+  - id: ts-mjnaxljy15
+    name: Step 2 - Login
+    description: ''
+    tags: []
+    blocks:
+      - entity: $clientId
+        component: flightClient
+        property: loginName
+        variable: loginName
+        id: blo-mjnb8i6y3o
+        type: EntityPropertyIntoVariable
+      - conditions:
+          - comparison: is not empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbgxxz6t
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-mjnb8svo27
+        type: IfCondition
+      - conditions:
+          - comparison: is empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbhdn32e
+            type: Action
+            action: client.setTraining
+            values:
+              clientId: $clientId
+              text: >-
+                The first thing you need to do is identify yourself by entering
+                your name and logging in. Do that now.
+              selector:
+                - .login-form
+          - id: blo-mjng261d0u
+            type: EventCondition
+            event: client.login
+            multiple: true
+            persist: false
+            triggerBlocks:
+              - id: blo-mjng4er92w
+                type: ResultPropertyIntoVariable
+                property: clientId
+                variable: loginClientId
+              - id: blo-mjng4s9g2h
+                type: IfCondition
+                conditions:
+                  - comparison: '='
+                    value1: $loginClientId
+                    value2: $clientId
+                triggerBlocks:
+                  - id: blo-mjng4zol66
+                    type: Action
+                    action: timeline.advance
+                    values: {}
+        id: blo-mjnbh6hs62
+        type: IfCondition
+  - id: ts-mjnbk6re4b
+    name: Step 3 - Targeting Summary
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This is the screen you'll use to activate your shields, engage your
+            phasers, and fire torpedoes. You'll probably spend most of your time
+            here.
+          allowAdvance: true
+        id: blo-mjnbk9pj6z
+        type: Action
+  - id: ts-mjnffi5646
+    name: Step 4 - Radar
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            This is your targeting radar. It shows the relative direction and
+            distance from your ship to nearby objects in 3D space.
+
+
+            Your ship is in the very center, with the arrow pointing in the same
+            direction as your ship. As your ship turns and rotates, you'll see
+            the objects in this radar move with your ship.  You can also see
+            some lines projecting from your ship — we'll talk about those in a
+            minute.
+
+
+            It is **crucial** to remember that you are seeing a 2D projection of
+            3D space. Objects might be above or below your ship. Go to the next
+            step to find out how to see what objects are above or below you.
+          selector:
+            - .targeting-radar
+          allowAdvance: true
+        id: blo-mjnffl9l4q
+        type: Action
+  - id: ms-mjnfrr9c3p
+    name: Step 5 - Radar Controls
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjnfrr9b46
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You can use this slider to zoom in and out to better see the
+            movement of ships. Give it a go now - see if you can zoom out all
+            the way.
+          selector:
+            - .targeting-slider
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mjngpqbo60
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mjngpynz17
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventName
+          - id: blo-mjngq56b0i
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: zoom
+          - id: blo-mjngqbnj6c
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventClientId
+                value2: $clientId
+              - value1: $eventName
+                value2: radar-zoom
+                comparison: '='
+              - value1: $zoom
+                value2: '0.2'
+                comparison: <=
+            triggerBlocks:
+              - id: blo-mjngtebd27
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjngpdow5i
+        type: EventCondition
+  - id: ms-mjngvme84g
+    name: Step 6 - Tilt Control
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mjngvme71y
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Excellent work. You can also tilt the radar to give you a 3D view of
+            space. There are three levels of tilt: directly above, 45˚ behind,
+            and 90˚ behind. At the 90˚ tilt, your ship appears to move _into_
+            the the radar, while up and down correspond to above and below your
+            ship.
+
+
+            Go ahead and switch the tilt to 90˚ behind by clicking the tilt
+            button twice.
+          selector:
+            - .targeting-tilt
+      - pluginId: Thorium Default
+        macroId: Handle Generic Event
+        triggerBlocks:
+          - id: blo-mjnh42oy5c
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventName
+                value2: radar-tilt
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $props
+                value2: '1'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mjnh5adt5b
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mjnh3y5q4e
+        type: Macro
+  - id: ts-mpe1j4ds58
+    name: Step 7 - Hull
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            This is your hull integrity, arguably the most important number on
+            the ship. Whenever you take damage, this number goes down, and
+            there's not much you can do to make it go up. If it reaches 0, your
+            ship will be destroyed. Your goal is to prevent that from happening.
+          selector:
+            - .hull-monitor
+          allowAdvance: true
+        id: blo-mpe1n96b39
+        type: Action
+  - id: ts-mpe1qbgr6z
+    name: Step 8 - Shields
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            These are your shields, your best protection against any incoming
+            danger. They take a lot of power and charge slowly, but if they are
+            sufficiently charged, they can completely protect your hull from
+            incoming damage, though some ship systems may take a little residual
+            damage. Raise the shields now by clicking the button.
+          selector:
+            - .shields-container
+        id: blo-mpe1qegs4r
+        type: Action
+      - event: targeting.shields.setState
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mpvzf0h74z
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: shieldShipId
+          - id: blo-mpvzfaqq4f
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $shipId
+                value2: $shieldShipId
+            triggerBlocks:
+              - id: blo-mpvzfhw706
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mpvzblku01
+        type: EventCondition
+  - id: ts-mpe1xqu368
+    name: Step 9 - Shields Raising
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            Your shields are now raising. The more power allocated to the
+            shields, the faster they'll charge. You can conserve power by
+            lowering the shield when you are no longer in danger.
+          selector:
+            - .shields-container
+          allowAdvance: true
+        id: blo-mpe1xsx25w
+        type: Action
+  - id: ts-mpls9yd00x
+    name: Step 10 - Phasers
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Of course, you might need to supplement your defense with offense.
+            You can use your weapons to attack various objects around your ship,
+            like asteroids, hostile ships, or planetary weapons. 
+
+
+            You have two types of weapons at your disposal. The first are
+            Phasers — energy weapons which almost instantly hit their target and
+            cannot be dodged.
+
+
+            They have to be charged by the reactors before you can fire them.
+            Another station has to divert power into the phase capacitors.
+            Before you need to fire the phasers, make sure you've asked for them
+            to be charged.
+          selector:
+            - .phasers-container
+          allowAdvance: true
+        id: blo-mplsaam00d
+        type: Action
+  - id: ts-mpvydblp25
+    name: Step 11 - Phasers 2
+    tags: []
+    description: ''
+    blocks:
+      - count: all
+        entity: $shipId
+        systemType: battery
+        variable: batteries
+        id: blo-mpvyg19h54
+        type: ShipSystemGetter
+      - entity: $batteries
+        variable: entityId
+        triggerBlocks:
+          - id: blo-mpvyhaac53
+            type: EntityPropertyIntoVariable
+            entity: $entityId
+            component: isPhaseCapacitor
+            property: value
+            variable: isPhaseCapacitor
+          - id: blo-mpvyii052k
+            type: IfCondition
+            conditions:
+              - comparison: is not empty
+                value1: $isPhaseCapacitor
+                value2: ''
+            triggerBlocks:
+              - id: blo-mpvyisob32
+                type: Action
+                action: systemsMonitor.batteries.setStorage
+                values:
+                  batteryId: $entityId
+                  storagePercent: '100'
+        id: blo-mpvygr4h46
+        type: ForEachEntity
+      - action: client.setTraining
+        values:
+          text: >-
+            Your phasers are now charged. You can see the charge level here. You
+            can also see the heat level — if your phasers overheat, you won't be
+            able to fire them until they cool down.
+
+
+            To hit your target, you must direct your phasers so they are
+            pointing at your target. You might need to wait for the target to
+            move into range of your phasers, or ask the Pilot to point the ship
+            at the target.
+
+
+            Fortunately, you do have some control over the phaser targeting
+            range. The slider below is how you control the phaser beam arc. The
+            tighter the beam, the further you can fire. The wider, the closer.
+            You can change the arc to make it easier to hit targets depending on
+            where they are. 
+
+
+            Go ahead and adjust the phaser beam arc of one of your phasers.
+            Notice how it changes the shape of the beam on your targeting radar.
+            Zoom out and tilt the radar if you need to get a better look.
+          clientId: $clientId
+          selector:
+            - .phasers-container
+        id: blo-mpvydkee3d
+        type: Action
+      - event: targeting.phasers.setArc
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mpvzgf4u5t
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: phaserShipId
+          - id: blo-mpvzgm8o3v
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $shipId
+                value2: $phaserShipId
+            triggerBlocks:
+              - id: blo-mpvzgtxm2l
+                type: Wait
+                time: 2
+                unit: seconds
+              - id: blo-mpvzgz9v0p
+                type: Action
+                action: timeline.advance
+                values:
+                  stepId: $nextStep
+        id: blo-mpvzg44i27
+        type: EventCondition
+  - id: ts-mpvzhilr6d
+    name: Step 12 - Torpedos
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Your ship is also equipped with torpedo launchers. Torpedoes are
+            projectiles which track targets and explode on impact. They cause a
+            very large amount of damage very abruptly and are effective at
+            breaking down the shields of your target.
+          selector:
+            - .torpedoes-list
+            - .torpedoes-launchers
+          allowAdvance: true
+        id: blo-mpvzizs86g
+        type: Action
+  - id: ts-mpvzoe815e
+    name: Step 13 - Torpedo Options
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            These are the torpedoes that you can fire. These torpedos are
+            located in the torpedo launcher rooms inside your ship. If you ever
+            need more torpedos, you can ask one of your crew members to move
+            more torpedos into the torpedo launcher rooms.
+
+
+            Different torpedos have different properties. Some are faster with
+            less yield, meaning they do less damage. Others are slower but pack
+            a larger punch. Be thoughtful about which torpedo you choose
+            depending on the type of enemy you are attacking.
+
+
+            For now, pick any type of torpedo to load.
+          selector:
+            - .torpedoes-list
+        id: blo-mpvzol7l4y
+        type: Action
+      - pluginId: Thorium Default
+        macroId: Handle Generic Event
+        triggerBlocks:
+          - id: blo-mpwkku275j
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $clientId
+                value2: $eventClientId
+              - value1: $eventName
+                value2: torpedo-pick
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mpwkln7q60
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mpwkkjn34a
+        type: Macro
+  - id: ts-mpwkly216b
+    name: Step 14 - Load Torpedo
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          station: ''
+          text: >-
+            With the torpedo selected, we can load it into the torpedo launcher
+            by clicking the "Load" button next to the launcher we want to load.
+            This will remove the torpedo from inventory and allow us to fire it.
+          selector:
+            - .torpedoes-launchers
+          clientId: $clientId
+        id: blo-mpwkqnj15a
+        type: Action
+      - event: targeting.torpedoes.load
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mpwkuezz2f
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: torpedoShipId
+          - id: blo-mpwkupfj11
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $shipId
+                value2: $torpedoShipId
+            triggerBlocks:
+              - id: blo-mpwkuxjy6w
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mpwku8c46l
+        type: EventCondition
+  - id: ts-mplrs2gb12
+    name: Step 15 - Targets
+    tags: []
+    description: ''
+    blocks:
+      - entity: this timeline
+        getVariable: targetId
+        variable: targetId
+        id: blo-mplrwz4r1u
+        type: VariableIntoVariable
+      - action: effects.sendClientEvent
+        values:
+          clientId: $clientId
+          name: radarZoomEvent
+          payload: '0.01'
+        id: blo-mpxfpusf32
+        type: Action
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            With our weapons loaded and charged, we are ready to fire them.
+
+
+            Heres a training drone which we use our weapons on. Before we can
+            attack, we must first target the object by clicking on it on the
+            targeting radar. Do that now.
+          selector:
+            - .entity-{targetId}
+        id: blo-mplrs5mi1b
+        type: Action
+      - event: targeting.setTarget
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mpls07y80e
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: targetShipId
+          - id: blo-mpls0g551w
+            type: ResultPropertyIntoVariable
+            property: targetId
+            variable: targetedShipId
+          - id: blo-mpls0now0k
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $shipId
+                value2: $targetShipId
+              - value1: $targetedShipId
+                value2: $targetId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mpls16xx6v
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mplrzwp74e
+        type: EventCondition
+  - id: ts-mpwl0cfr1p
+    name: Step 16 - Fire Phasers
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          station: ''
+          text: >-
+            You can fire at different outputs by clicking and holding on these
+            buttons. Adjust the beam arc so the target is within your phaser
+            range, then click and hold on one of these buttons to fire the
+            phasers.
+          selector:
+            - .phasers-container
+          clientId: $clientId
+        id: blo-mpwl0fek1h
+        type: Action
+      - event: targeting.phasers.fire
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mpwlesf056
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: phaserShipId
+          - id: blo-mpwlfqta5q
+            type: ResultPropertyIntoVariable
+            property: firePercent
+            variable: firePercent
+          - id: blo-mpwlg06r52
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $shipId
+                value2: $phaserShipId
+            triggerBlocks:
+              - id: blo-mpwlgh7c5j
+                type: Wait
+                time: 2
+                unit: seconds
+              - id: blo-mpwlgkvu69
+                type: Action
+                action: timeline.advance
+                values:
+                  stepId: $nextStep
+        id: blo-mpwlejzx0i
+        type: EventCondition
+  - id: ts-mpwliygn5k
+    name: Step 17 - Fire Torpedoes
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          station: ''
+          text: >-
+            Now lets fire that torpedo you loaded. It works best if the torpedo
+            launcher is pointed at the target, but the torpedo should still
+            track the target regardless of which way you're pointing when you
+            fire.
+
+
+            Click the fire torpedo button now.
+          selector:
+            - .torpedoes-launchers
+          clientId: $clientId
+        id: blo-mpwljat80b
+        type: Action
+      - event: targeting.torpedoes.fire
+        multiple: false
+        persist: false
+        triggerBlocks:
+          - id: blo-mpwlpd0w4a
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: torpedoShipId
+          - id: blo-mpwlpju92o
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $shipId
+                value2: $torpedoShipId
+            triggerBlocks:
+              - id: blo-mpwlprwr59
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mpwlp6v30i
+        type: EventCondition
+  - id: ts-mpwlqee73z
+    name: Step 18 - Weapons Done
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            That's all there is to it. Keep firing until the target is either
+            destroyed or disabled. 
+          allowAdvance: true
+        id: blo-mpwlqj8r4q
+        type: Action
+  - id: ms-mk1zllmy2w
+    name: Step 26 - Officers Log Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zllmx28
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            There are a few extra things unrelated to the Tactical station. The
+            first is your officers log, which you can open by clicking this
+            button. Feel free to use it to write down notes, ideas, or thoughts
+            during the mission.
+          allowAdvance: true
+          selector:
+            - .widget-OfficersLog
+  - id: ms-mk1zpl9n4h
+    name: Step 27 - Objectives Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zpl9m6k
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .widget-Objectives
+          text: >-
+            This will show you your ships current objectives, which can be
+            helpful to know what your team needs to do next.
+          allowAdvance: true
+  - id: ms-mk1zqlko4i
+    name: Step 28 - Settings Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zqlkn2q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          allowAdvance: true
+          selector:
+            - .widget-Settings
+          text: >-
+            Finally, this is the settings for your station, where you can
+            configure audio volume levels and gamepads which you can use to
+            control your station.
+  - id: ms-mk1zx1jx3e
+    name: Step 29 - Done
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zx1jw3z
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            That concludes your training. If you don't feel confident, feel free
+            to play around with your controls further until you've mastered
+            using your shields, phasers, and torpedoes.
+
+
+            Good luck!
+          allowAdvance: true
+          card: ''

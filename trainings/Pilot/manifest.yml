@@ -241,11 +241,11 @@ steps:
         values:
           clientId: $clientId
           text: >-
-            Excellent work. You can also tilt the sensor grid to give you a 3D
-            view of space. There are three levels of tilt: directly above, 45˚
-            behind, and 90˚ behind. At the 90˚ tilt, your ship appears to move
-            _into_ the the radar, while up and down correspond to above and
-            below your ship.
+            Excellent work. You can also tilt the radar to give you a 3D view of
+            space. There are three levels of tilt: directly above, 45˚ behind,
+            and 90˚ behind. At the 90˚ tilt, your ship appears to move _into_
+            the the radar, while up and down correspond to above and below your
+            ship.
 
 
             Go ahead and switch the tilt to 90˚ behind by clicking the tilt

@@ -9,7 +9,8 @@ allowMultiple: false
 powerLevels:
   - 5
   - 20
-defaultPower: 10
+powerActivated: true
+connectedBatteryType: none
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
@@ -112,3 +113,4 @@ cyphers:
       /plugins/Thorium Default/shipSystems/Long Range
       Comm/assets/Backgroundese.woff2
     active: true
+defaultPower: 10

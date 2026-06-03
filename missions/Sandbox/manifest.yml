@@ -34,5 +34,5 @@ steps:
         id: blo-mls4ie6g2a
         type: Macro
 assets:
-  cover: /plugins/Thorium Default/timelines/Sandbox/assets/logo.jpeg
+  cover: ''
 type: mission

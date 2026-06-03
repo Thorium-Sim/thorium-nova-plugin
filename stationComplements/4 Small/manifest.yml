@@ -31,6 +31,9 @@ stations:
       - name: Damage Reports
         component: DamageReports
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+      - name: Exocomps
+        component: Exocomps
+        icon: /plugins/Thorium Default/stationComplements/assets/Exocomps.svg
       - name: Cargo Control
         component: CargoControl
         icon: /plugins/Thorium Default/stationComplements/assets/CargoControl.svg
@@ -38,6 +41,10 @@ stations:
       - name: Objectives
         component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        size: sm
+      - name: Remote Access
+        component: RemoteAccess
+        icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
         size: sm
       - name: Officers Log
         component: OfficersLog
@@ -64,6 +71,18 @@ stations:
       - name: Sensors
         component: Sensors
         icon: /plugins/Thorium Default/stationComplements/assets/Sensors.svg
+      - name: Short Range Comm
+        component: ShortRangeComm
+        icon: /plugins/Thorium Default/stationComplements/assets/ShortRangeComm.svg
+      - name: Long Range Comm
+        component: LongRangeComm
+        icon: /plugins/Thorium Default/stationComplements/assets/LongRangeComm.svg
+      - name: Alert Level
+        component: AlertLevel
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+      - name: Documents
+        component: Documents
+        icon: /plugins/Thorium Default/stationComplements/assets/Documents.svg
       - name: Alert Level
         component: AlertLevel
         icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg

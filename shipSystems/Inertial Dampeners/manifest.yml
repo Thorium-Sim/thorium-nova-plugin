@@ -10,7 +10,8 @@ allowMultiple: false
 powerLevels:
   - 5
   - 20
-defaultPower: 10
+powerActivated: true
+connectedBatteryType: none
 powerToHeat: 10
 heatDissipationRate: 1
 nominalHeat: 295.37
@@ -27,6 +28,7 @@ signatureSpike: 2
 signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
 dampening: 5
+defaultPower: 10
 requiredPower: 5
 maxSafePower: 20
 coolantHeatTransferRate: 10

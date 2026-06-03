@@ -34,6 +34,11 @@ stations:
       - name: Exocomps
         component: Exocomps
         icon: /plugins/Thorium Default/stationComplements/assets/Exocomps.svg
+      - name: Engineering Panel
+        component: EngineeringPanels
+        icon: >-
+          /plugins/Thorium
+          Default/stationComplements/assets/EngineeringPanels.svg
     widgets:
       - name: Objectives
         component: Objectives
