@@ -1,0 +1,105 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alshat
+description: A solar system named Alshat
+position:
+  x: 106095272.18463905
+  'y': 29388305.234865624
+  z: 74747450.94773549
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alshat
+stars:
+  - name: Alshat A
+    description: ''
+    tags: []
+    radius: 3.04
+    temperature: 10200
+    solarMass: 2.37
+    age: 1366374587466
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 118
+      semiMajorAxis: 36.480000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alshat
+  - name: Alshat B
+    description: ''
+    tags: []
+    radius: 3.04
+    temperature: 10200
+    solarMass: 2.37
+    age: 1366374587466
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 298
+      semiMajorAxis: 36.480000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alshat
+planets:
+  - name: Alshat 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6266
+      age: 5941779459
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.02883841806856603
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 545
+    satellite:
+      semiMajorAxis: 477876214.999999
+      eccentricity: 0.01
+      inclination: 0.92
+      orbitalArc: 2
+      axialTilt: 16.17
+      parentId: Alshat
+      showOrbit: true
+    satellites: []
+  - name: Alshat 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 148
+      age: 633387437
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0025955716876844962
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 194
+    satellite:
+      semiMajorAxis: 999192064
+      eccentricity: 0
+      inclination: 0.94
+      orbitalArc: 51
+      axialTilt: 33.61
+      parentId: Alshat
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

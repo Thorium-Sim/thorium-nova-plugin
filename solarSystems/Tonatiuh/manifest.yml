@@ -1,0 +1,343 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Tonatiuh
+description: A solar system named Tonatiuh
+position:
+  x: 865537.3020911042
+  'y': -162394132.42523062
+  z: -37763245.97671348
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Tonatiuh
+stars:
+  - name: Tonatiuh A
+    description: ''
+    tags: []
+    radius: 10.64
+    temperature: 4685
+    solarMass: 1.22
+    age: 1290052778007
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 250
+      semiMajorAxis: 127.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tonatiuh
+  - name: Tonatiuh B
+    description: ''
+    tags: []
+    radius: 10.64
+    temperature: 4685
+    solarMass: 1.22
+    age: 1290052778007
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 430
+      semiMajorAxis: 127.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tonatiuh
+planets:
+  - name: Tonatiuh 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 69
+      age: 244268218
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.022371090251831358
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 250
+    satellite:
+      semiMajorAxis: 417638030
+      eccentricity: 0.02
+      inclination: 0.06
+      orbitalArc: 90
+      axialTilt: 25.27
+      parentId: Tonatiuh
+      showOrbit: true
+    satellites: []
+  - name: Tonatiuh 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7182
+      age: 3622448009
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0032566260280452266
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 545
+    satellite:
+      semiMajorAxis: 979590778.0000002
+      eccentricity: 0
+      inclination: 1.65
+      orbitalArc: 36
+      axialTilt: 27.78
+      parentId: Tonatiuh
+      showOrbit: true
+    satellites: []
+  - name: Tonatiuh 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5227
+      age: 9871649718
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.008430984027682508
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 19992
+    temperature: 243
+    satellite:
+      semiMajorAxis: 1164336310.0000014
+      eccentricity: 0.01
+      inclination: 0.49
+      orbitalArc: 112
+      axialTilt: 9.15
+      parentId: Tonatiuh
+      showOrbit: true
+    satellites:
+      - name: Tonatiuh 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 917.5707949762515
+          age: 236286929
+          ringMapAsset: null
+          terranMass: 1.0999998362306413
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 192
+        satellite:
+          semiMajorAxis: 291787.51280244795
+          eccentricity: 0
+          inclination: 1.98
+          orbitalArc: 168
+          axialTilt: 8.75
+          parentId: Tonatiuh 3
+          showOrbit: true
+        satellites: []
+  - name: Tonatiuh 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3899
+      age: 7518405558
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.04038496315035611
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 41621
+    temperature: 296
+    satellite:
+      semiMajorAxis: 1563706556.0000067
+      eccentricity: 0.01
+      inclination: 0.03
+      orbitalArc: 354
+      axialTilt: 32.94
+      parentId: Tonatiuh
+      showOrbit: true
+    satellites: []
+  - name: Tonatiuh 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 41160
+      age: 3651398765
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.03866584652305251
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 271
+    satellite:
+      semiMajorAxis: 2112700477.3333578
+      eccentricity: 0.01
+      inclination: 1.05
+      orbitalArc: 228
+      axialTilt: 16.06
+      parentId: Tonatiuh
+      showOrbit: true
+    satellites: []
+  - name: Tonatiuh 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 30191
+      age: 5597823353
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.9051224207307964
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 217
+    satellite:
+      semiMajorAxis: 3064840152.444477
+      eccentricity: 0.02
+      inclination: 1.74
+      orbitalArc: 301
+      axialTilt: 15.08
+      parentId: Tonatiuh
+      showOrbit: true
+    satellites:
+      - name: Tonatiuh 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3264.2366792615007
+          age: 5462418733
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 0.7000000427690244
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 708
+        satellite:
+          semiMajorAxis: 835131.5968077853
+          eccentricity: 0.01
+          inclination: 0.79
+          orbitalArc: 280
+          axialTilt: 37.39
+          parentId: Tonatiuh 6
+          showOrbit: true
+        satellites: []
+      - name: Tonatiuh 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4191.53843568519
+          age: 5992593463
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.5000000267779162
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 46654
+        temperature: 179
+        satellite:
+          semiMajorAxis: 1881057.3258982077
+          eccentricity: 0.01
+          inclination: 1.17
+          orbitalArc: 65
+          axialTilt: 37.23
+          parentId: Tonatiuh 6
+          showOrbit: true
+        satellites: []
+      - name: Tonatiuh 6c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6643.503015355081
+          age: 281225452
+          ringMapAsset: null
+          terranMass: 1.000000140396228
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 54
+        satellite:
+          semiMajorAxis: 3195524.9503857936
+          eccentricity: 0.02
+          inclination: 1.52
+          orbitalArc: 171
+          axialTilt: 5.56
+          parentId: Tonatiuh 6
+          showOrbit: true
+        satellites: []
+  - name: Tonatiuh 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 166
+      age: 477077684
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.023049221590219902
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 149
+    satellite:
+      semiMajorAxis: 3595214152
+      eccentricity: 0
+      inclination: 1.36
+      orbitalArc: 268
+      axialTilt: 36.92
+      parentId: Tonatiuh
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

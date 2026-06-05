@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Tegmine
+description: A solar system named Tegmine
+position:
+  x: -35035866.14562971
+  'y': -13298367.50606352
+  z: -22798801.390057515
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Tegmine
+stars:
+  - name: Tegmine A
+    description: ''
+    tags: []
+    radius: 1.3242
+    temperature: 6230
+    solarMass: 1.28
+    age: 27946015806880
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 183
+      semiMajorAxis: 15.8904
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tegmine
+  - name: Tegmine B
+    description: ''
+    tags: []
+    radius: 1.3242
+    temperature: 6230
+    solarMass: 1.28
+    age: 27946015806880
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 363
+      semiMajorAxis: 15.8904
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tegmine
+planets: []
+commSatellite: null
+assets: {}

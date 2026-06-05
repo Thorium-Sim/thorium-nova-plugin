@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Menkib
+description: A solar system named Menkib
+position:
+  x: -442211860.8161685
+  'y': -369117078.0839245
+  z: 257980813.09331432
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Menkib
+stars:
+  - name: Menkib A
+    description: ''
+    tags: []
+    radius: 14
+    temperature: 35000
+    solarMass: 26
+    age: 5098170829
+    spectralType: O
+    hue: 220
+    isWhite: false
+    satellite:
+      orbitalArc: 343
+      semiMajorAxis: 168
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Menkib
+  - name: Menkib B
+    description: ''
+    tags: []
+    radius: 14
+    temperature: 35000
+    solarMass: 26
+    age: 5098170829
+    spectralType: O
+    hue: 220
+    isWhite: false
+    satellite:
+      orbitalArc: 523
+      semiMajorAxis: 168
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Menkib
+planets: []
+commSatellite: null
+assets: {}

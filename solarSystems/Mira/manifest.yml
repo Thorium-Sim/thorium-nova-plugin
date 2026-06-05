@@ -1,0 +1,359 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Mira
+description: A solar system named Mira
+position:
+  x: -90012846.78557627
+  'y': 8196491.972527463
+  z: 129335060.50913133
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Mira
+stars:
+  - name: Mira A
+    description: ''
+    tags: []
+    radius: 332
+    temperature: 2918
+    solarMass: 1.18
+    age: 8515967084
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 296
+      semiMajorAxis: 3984
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mira
+  - name: Mira B
+    description: ''
+    tags: []
+    radius: 332
+    temperature: 2918
+    solarMass: 1.18
+    age: 8515967084
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 476
+      semiMajorAxis: 3984
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mira
+planets:
+  - name: Mira 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4649
+      age: 6664510244
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.019512753999854658
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 553
+    satellite:
+      semiMajorAxis: 2439947731.666666
+      eccentricity: 0.01
+      inclination: 0.89
+      orbitalArc: 232
+      axialTilt: 19.33
+      parentId: Mira
+      showOrbit: true
+    satellites: []
+  - name: Mira 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 329
+      age: 780242720
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0038979694666785537
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 331
+    satellite:
+      semiMajorAxis: 3084550094.555556
+      eccentricity: 0.02
+      inclination: 0.14
+      orbitalArc: 235
+      axialTilt: 13.75
+      parentId: Mira
+      showOrbit: true
+    satellites: []
+  - name: Mira 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2698
+      age: 994056310
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.017197292376832627
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 41
+    satellite:
+      semiMajorAxis: 3693177130.7407455
+      eccentricity: 0.01
+      inclination: 1.44
+      orbitalArc: 24
+      axialTilt: 7.24
+      parentId: Mira
+      showOrbit: true
+    satellites:
+      - name: Mira 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 343.7096888424386
+          age: 388332331
+          ringMapAsset: null
+          terranMass: 0.1899997672612106
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 379
+        satellite:
+          semiMajorAxis: 88167.69821642431
+          eccentricity: 0
+          inclination: 1.85
+          orbitalArc: 275
+          axialTilt: 30
+          parentId: Mira 3
+          showOrbit: true
+        satellites: []
+      - name: Mira 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 567.5093931988836
+          age: 6755946355
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 80316
+        temperature: 263
+        satellite:
+          semiMajorAxis: 222463.68213396237
+          eccentricity: 0.02
+          inclination: 0.23
+          orbitalArc: 179
+          axialTilt: 18.66
+          parentId: Mira 3
+          showOrbit: true
+        satellites: []
+  - name: Mira 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1179
+      age: 950696834
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0009549081805408638
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1435
+    satellite:
+      semiMajorAxis: 3917591169.3457227
+      eccentricity: 0.01
+      inclination: 1.67
+      orbitalArc: 212
+      axialTilt: 2.42
+      parentId: Mira
+      showOrbit: true
+    satellites: []
+  - name: Mira 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2787
+      age: 6386660803
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.01828767741250811
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 19856
+    temperature: 147
+    satellite:
+      semiMajorAxis: 4298368267.498128
+      eccentricity: 0.01
+      inclination: 0.03
+      orbitalArc: 187
+      axialTilt: 3.24
+      parentId: Mira
+      showOrbit: true
+    satellites: []
+  - name: Mira 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2835
+      age: 846117562
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.002531524076095459
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 54
+    satellite:
+      semiMajorAxis: 5448012569.332086
+      eccentricity: 0.01
+      inclination: 0.49
+      orbitalArc: 5
+      axialTilt: 36.09
+      parentId: Mira
+      showOrbit: true
+    satellites:
+      - name: Mira 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 162.30722371746256
+          age: 211366918
+          ringMapAsset: null
+          terranMass: 0.979999732225292
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 161
+        satellite:
+          semiMajorAxis: 45088.18914923734
+          eccentricity: 0.02
+          inclination: 1.36
+          orbitalArc: 224
+          axialTilt: 3.03
+          parentId: Mira 6
+          showOrbit: true
+        satellites: []
+      - name: Mira 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 226.57323619428166
+          age: 2070928911
+          ringMapAsset: null
+          terranMass: 1.7000000938173039
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 749
+        satellite:
+          semiMajorAxis: 110959.85792698109
+          eccentricity: 0.01
+          inclination: 0.47
+          orbitalArc: 300
+          axialTilt: 12.89
+          parentId: Mira 6
+          showOrbit: true
+        satellites: []
+      - name: Mira 6c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 580.8216075127879
+          age: 501512896
+          ringMapAsset: null
+          terranMass: 1.0000001981962372
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 47
+        satellite:
+          semiMajorAxis: 156241.01242093992
+          eccentricity: 0.01
+          inclination: 0.6
+          orbitalArc: 161
+          axialTilt: 25.88
+          parentId: Mira 6
+          showOrbit: true
+        satellites: []
+  - name: Mira 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7409
+      age: 8021494552
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.007778755256505393
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 109639210
+    temperature: 302
+    satellite:
+      semiMajorAxis: 6085270009
+      eccentricity: 0
+      inclination: 1.38
+      orbitalArc: 49
+      axialTilt: 18.1
+      parentId: Mira
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

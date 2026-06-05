@@ -1,0 +1,156 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Bellatrix
+description: A solar system named Bellatrix
+position:
+  x: -129173750.13979045
+  'y': -14542335.354441281
+  z: 19806131.809668392
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Bellatrix
+stars:
+  - name: Bellatrix A
+    description: ''
+    tags: []
+    radius: 6.4
+    temperature: 22339
+    solarMass: 8.6
+    age: 48624245473
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 46
+      semiMajorAxis: 76.80000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Bellatrix
+  - name: Bellatrix B
+    description: ''
+    tags: []
+    radius: 6.4
+    temperature: 22339
+    solarMass: 8.6
+    age: 48624245473
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 226
+      semiMajorAxis: 76.80000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Bellatrix
+planets:
+  - name: Bellatrix 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 141
+      age: 600518385
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.008456300642658256
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 233
+    satellite:
+      semiMajorAxis: 2845075578
+      eccentricity: 0.01
+      inclination: 1.92
+      orbitalArc: 50
+      axialTilt: 1.51
+      parentId: Bellatrix
+      showOrbit: true
+    satellites: []
+  - name: Bellatrix 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2894
+      age: 4312590209
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0030496052379057653
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 9528
+    temperature: 271
+    satellite:
+      semiMajorAxis: 6375458586
+      eccentricity: 0
+      inclination: 1.64
+      orbitalArc: 9
+      axialTilt: 9.46
+      parentId: Bellatrix
+      showOrbit: true
+    satellites:
+      - name: Bellatrix 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 322.31885552988825
+          age: 787211349
+          ringMapAsset: null
+          terranMass: 1.6000001128101893
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 46
+        satellite:
+          semiMajorAxis: 50984.35675332191
+          eccentricity: 0.01
+          inclination: 1.81
+          orbitalArc: 79
+          axialTilt: 26.8
+          parentId: Bellatrix 2
+          showOrbit: true
+        satellites: []
+      - name: Bellatrix 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 262.8628927515733
+          age: 5219733852
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.10000014628629908
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 21000
+        temperature: 261
+        satellite:
+          semiMajorAxis: 130642.85769753194
+          eccentricity: 0.01
+          inclination: 0.02
+          orbitalArc: 213
+          axialTilt: 18.17
+          parentId: Bellatrix 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

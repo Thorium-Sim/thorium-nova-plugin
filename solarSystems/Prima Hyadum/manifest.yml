@@ -1,0 +1,386 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Prima Hyadum
+description: A solar system named Prima Hyadum
+position:
+  x: -70665495.75000964
+  'y': -21819560.849630415
+  z: 33029449.88037565
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Prima Hyadum
+stars:
+  - name: Prima Hyadum A
+    description: ''
+    tags: []
+    radius: 13.4
+    temperature: 4844
+    solarMass: 2.7
+    age: 1575095584325
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 290
+      semiMajorAxis: 160.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Prima Hyadum
+  - name: Prima Hyadum B
+    description: ''
+    tags: []
+    radius: 13.4
+    temperature: 4844
+    solarMass: 2.7
+    age: 1575095584325
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 470
+      semiMajorAxis: 160.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Prima Hyadum
+planets:
+  - name: Prima Hyadum 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5372
+      age: 6280448765
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.001138794883024477
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 11815
+    temperature: 288
+    satellite:
+      semiMajorAxis: 534395595.33333385
+      eccentricity: 0
+      inclination: 1.33
+      orbitalArc: 210
+      axialTilt: 38.04
+      parentId: Prima Hyadum
+      showOrbit: true
+    satellites:
+      - name: Prima Hyadum 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1007.3465536955619
+          age: 219132008
+          ringMapAsset: null
+          terranMass: 0.679999915189917
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 216
+        satellite:
+          semiMajorAxis: 439203.09741126496
+          eccentricity: 0.02
+          inclination: 1.21
+          orbitalArc: 277
+          axialTilt: 8
+          parentId: Prima Hyadum 1
+          showOrbit: true
+        satellites: []
+  - name: Prima Hyadum 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 301
+      age: 989485700
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0023823742180830876
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 243
+    satellite:
+      semiMajorAxis: 1176201917.8888912
+      eccentricity: 0.01
+      inclination: 1.31
+      orbitalArc: 331
+      axialTilt: 38.45
+      parentId: Prima Hyadum
+      showOrbit: true
+    satellites: []
+  - name: Prima Hyadum 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3927
+      age: 9699555743
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.012250000788550167
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 25572
+    temperature: 117
+    satellite:
+      semiMajorAxis: 1538176755.6666749
+      eccentricity: 0.01
+      inclination: 1.03
+      orbitalArc: 191
+      axialTilt: 26.87
+      parentId: Prima Hyadum
+      showOrbit: true
+    satellites:
+      - name: Prima Hyadum 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 543.8052676246863
+          age: 70827358
+          ringMapAsset: null
+          terranMass: 0.15999974738316403
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 162
+        satellite:
+          semiMajorAxis: 256676.0863188519
+          eccentricity: 0.01
+          inclination: 0.26
+          orbitalArc: 211
+          axialTilt: 30.68
+          parentId: Prima Hyadum 3
+          showOrbit: true
+        satellites: []
+  - name: Prima Hyadum 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2665
+      age: 889786616
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.007887336933602723
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 39
+    satellite:
+      semiMajorAxis: 1768474245.6666749
+      eccentricity: 0.02
+      inclination: 0.42
+      orbitalArc: 238
+      axialTilt: 3.58
+      parentId: Prima Hyadum
+      showOrbit: true
+    satellites:
+      - name: Prima Hyadum 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 621.2771408989855
+          age: 3770573272
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          classification: G
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 0
+        temperature: 499
+        satellite:
+          semiMajorAxis: 235464.0364007155
+          eccentricity: 0
+          inclination: 1.2
+          orbitalArc: 29
+          axialTilt: 13.88
+          parentId: Prima Hyadum 4
+          showOrbit: true
+        satellites: []
+  - name: Prima Hyadum 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2109
+      age: 710702869
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.002171166887159078
+      textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1606
+    satellite:
+      semiMajorAxis: 2107192710.7778063
+      eccentricity: 0.01
+      inclination: 0.94
+      orbitalArc: 60
+      axialTilt: 27.76
+      parentId: Prima Hyadum
+      showOrbit: true
+    satellites:
+      - name: Prima Hyadum 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 274.945529496855
+          age: 5554639512
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.10000000164895254
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 9246
+        temperature: 286
+        satellite:
+          semiMajorAxis: 35680.463194535696
+          eccentricity: 0.01
+          inclination: 0.61
+          orbitalArc: 284
+          axialTilt: 0.41
+          parentId: Prima Hyadum 5
+          showOrbit: true
+        satellites: []
+      - name: Prima Hyadum 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 254.2921062066551
+          age: 742571563
+          ringMapAsset: null
+          terranMass: 1.2499998662239664
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 174
+        satellite:
+          semiMajorAxis: 75599.30408054918
+          eccentricity: 0
+          inclination: 0.2
+          orbitalArc: 279
+          axialTilt: 29.49
+          parentId: Prima Hyadum 5
+          showOrbit: true
+        satellites: []
+      - name: Prima Hyadum 5c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 335.2270817053218
+          age: 9327132446
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.9000000553637233
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 18882
+        temperature: 153
+        satellite:
+          semiMajorAxis: 116994.2515151573
+          eccentricity: 0.01
+          inclination: 1.64
+          orbitalArc: 357
+          axialTilt: 28.01
+          parentId: Prima Hyadum 5
+          showOrbit: true
+        satellites: []
+  - name: Prima Hyadum 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 154
+      age: 510807146
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.007444005445940198
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 182
+    satellite:
+      semiMajorAxis: 2452762162.185204
+      eccentricity: 0.01
+      inclination: 0.38
+      orbitalArc: 46
+      axialTilt: 26.24
+      parentId: Prima Hyadum
+      showOrbit: true
+    satellites: []
+  - name: Prima Hyadum 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 378
+      age: 756116292
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.008712146581188877
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 332
+    satellite:
+      semiMajorAxis: 2959956644
+      eccentricity: 0.01
+      inclination: 0.06
+      orbitalArc: 94
+      axialTilt: 9.37
+      parentId: Prima Hyadum
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,230 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Nunki
+description: A solar system named Nunki
+position:
+  x: 104398044.14529482
+  'y': 53126454.028054
+  z: 25674229.13149562
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Nunki
+stars:
+  - name: Nunki A
+    description: ''
+    tags: []
+    radius: 4.1
+    temperature: 18890
+    solarMass: 6.5
+    age: 175140705970
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 178
+      semiMajorAxis: 49.199999999999996
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Nunki
+  - name: Nunki B
+    description: ''
+    tags: []
+    radius: 4.1
+    temperature: 18890
+    solarMass: 6.5
+    age: 175140705970
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 358
+      semiMajorAxis: 49.199999999999996
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Nunki
+planets:
+  - name: Nunki 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4785
+      age: 482016395
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.00426455353157181
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 42
+    satellite:
+      semiMajorAxis: 1687798778.6666658
+      eccentricity: 0
+      inclination: 0.49
+      orbitalArc: 222
+      axialTilt: 14.21
+      parentId: Nunki
+      showOrbit: true
+    satellites:
+      - name: Nunki 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 938.2360236825157
+          age: 798127990
+          ringMapAsset: null
+          terranMass: 0.6199999778263681
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 191
+        satellite:
+          semiMajorAxis: 146280.359523566
+          eccentricity: 0.02
+          inclination: 0.58
+          orbitalArc: 246
+          axialTilt: 29.14
+          parentId: Nunki 1
+          showOrbit: true
+        satellites: []
+      - name: Nunki 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 878.3647268788458
+          age: 321243834
+          ringMapAsset: null
+          terranMass: 1.3999997043113461
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 239
+        satellite:
+          semiMajorAxis: 434790.53980502865
+          eccentricity: 0.02
+          inclination: 1.66
+          orbitalArc: 313
+          axialTilt: 22.54
+          parentId: Nunki 1
+          showOrbit: true
+        satellites: []
+  - name: Nunki 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4687
+      age: 1638714211
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.004064424201764339
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1722
+    satellite:
+      semiMajorAxis: 3251764017.2222214
+      eccentricity: 0.01
+      inclination: 0.37
+      orbitalArc: 190
+      axialTilt: 39.76
+      parentId: Nunki
+      showOrbit: true
+    satellites: []
+  - name: Nunki 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6426
+      age: 5693865722
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.009289860984261582
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 150941433
+    temperature: 300
+    satellite:
+      semiMajorAxis: 3780817474.4074073
+      eccentricity: 0.01
+      inclination: 1.2
+      orbitalArc: 324
+      axialTilt: 36.03
+      parentId: Nunki
+      showOrbit: true
+    satellites: []
+  - name: Nunki 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7359
+      age: 5561686356
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.017210045015604712
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 178731
+    temperature: 265
+    satellite:
+      semiMajorAxis: 4181667492.6790133
+      eccentricity: 0.01
+      inclination: 0
+      orbitalArc: 241
+      axialTilt: 38.27
+      parentId: Nunki
+      showOrbit: true
+    satellites: []
+  - name: Nunki 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5475
+      age: 7990404574
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.009610370676291728
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 57400
+    temperature: 260
+    satellite:
+      semiMajorAxis: 4389065560
+      eccentricity: 0.01
+      inclination: 1.84
+      orbitalArc: 50
+      axialTilt: 18.71
+      parentId: Nunki
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

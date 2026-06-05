@@ -1,0 +1,157 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Achernar
+description: A solar system named Achernar
+position:
+  x: -16362004.30675978
+  'y': 61477904.51101589
+  z: 36022160.83515239
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Achernar
+stars:
+  - name: Achernar A
+    description: ''
+    tags: []
+    radius: 6.78
+    temperature: 15000
+    solarMass: 6
+    age: 148694912910
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 161
+      semiMajorAxis: 81.36
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Achernar
+  - name: Achernar B
+    description: ''
+    tags: []
+    radius: 6.78
+    temperature: 15000
+    solarMass: 6
+    age: 148694912910
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 341
+      semiMajorAxis: 81.36
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Achernar
+planets:
+  - name: Achernar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7325
+      age: 4732884087
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.004209606544506633
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 752
+    satellite:
+      semiMajorAxis: 1818937204.3333333
+      eccentricity: 0.02
+      inclination: 1.65
+      orbitalArc: 221
+      axialTilt: 2.81
+      parentId: Achernar
+      showOrbit: true
+    satellites:
+      - name: Achernar 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1054.5202854882855
+          age: 372519592
+          ringMapAsset: null
+          terranMass: 1.3000000980525432
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 48
+        satellite:
+          semiMajorAxis: 480861.2501826582
+          eccentricity: 0
+          inclination: 1.42
+          orbitalArc: 249
+          axialTilt: 26.45
+          parentId: Achernar 1
+          showOrbit: true
+        satellites: []
+  - name: Achernar 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 304
+      age: 371544500
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0019780142148695516
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 362
+    satellite:
+      semiMajorAxis: 2813433577.1111107
+      eccentricity: 0.01
+      inclination: 0.35
+      orbitalArc: 51
+      axialTilt: 6.25
+      parentId: Achernar
+      showOrbit: true
+    satellites: []
+  - name: Achernar 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4312
+      age: 4698047583
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0023276695912963765
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 21935
+    temperature: 256
+    satellite:
+      semiMajorAxis: 4019670035
+      eccentricity: 0.01
+      inclination: 0.76
+      orbitalArc: 139
+      axialTilt: 38.75
+      parentId: Achernar
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

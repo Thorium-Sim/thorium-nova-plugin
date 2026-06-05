@@ -1,0 +1,105 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Algedi
+description: A solar system named Algedi
+position:
+  x: 43150110.98241681
+  'y': 11652532.449621098
+  z: 29671294.714623414
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Algedi
+stars:
+  - name: Algedi A
+    description: ''
+    tags: []
+    radius: 8.38
+    temperature: 5030
+    solarMass: 2.05
+    age: 2630044931539
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 38
+      semiMajorAxis: 100.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Algedi
+  - name: Algedi B
+    description: ''
+    tags: []
+    radius: 8.38
+    temperature: 5030
+    solarMass: 2.05
+    age: 2630044931539
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 218
+      semiMajorAxis: 100.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Algedi
+planets:
+  - name: Algedi 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 393
+      age: 138942672
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.001782482443528794
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 189
+    satellite:
+      semiMajorAxis: 1446194219.000001
+      eccentricity: 0.02
+      inclination: 1.92
+      orbitalArc: 314
+      axialTilt: 1.95
+      parentId: Algedi
+      showOrbit: true
+    satellites: []
+  - name: Algedi 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 51150
+      age: 6927263666
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.4470336575089101
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 242
+    satellite:
+      semiMajorAxis: 2415936511
+      eccentricity: 0.01
+      inclination: 1.1
+      orbitalArc: 182
+      axialTilt: 24.1
+      parentId: Algedi
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

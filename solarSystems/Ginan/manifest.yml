@@ -1,0 +1,105 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Ginan
+description: A solar system named Ginan
+position:
+  x: 5560757.455077058
+  'y': 105184693.37887613
+  z: -59491114.52946244
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Ginan
+stars:
+  - name: Ginan A
+    description: ''
+    tags: []
+    radius: 31
+    temperature: 4210
+    solarMass: 1.4
+    age: 267451814773
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 226
+      semiMajorAxis: 372
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Ginan
+  - name: Ginan B
+    description: ''
+    tags: []
+    radius: 31
+    temperature: 4210
+    solarMass: 1.4
+    age: 267451814773
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 406
+      semiMajorAxis: 372
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Ginan
+planets:
+  - name: Ginan 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5818
+      age: 5602585987
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0013849629618218843
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 775
+    satellite:
+      semiMajorAxis: 1349146730.3333342
+      eccentricity: 0.01
+      inclination: 0.39
+      orbitalArc: 314
+      axialTilt: 11.79
+      parentId: Ginan
+      showOrbit: true
+    satellites: []
+  - name: Ginan 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 322
+      age: 37043817
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.017122930846187066
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 297
+    satellite:
+      semiMajorAxis: 3825753950
+      eccentricity: 0
+      inclination: 0.07
+      orbitalArc: 158
+      axialTilt: 21.11
+      parentId: Ginan
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

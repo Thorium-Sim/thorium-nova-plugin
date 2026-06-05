@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Acrab
+description: A solar system named Acrab
+position:
+  x: 175544200.98578617
+  'y': 72032358.1033034
+  z: -95871633.6634169
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Acrab
+stars:
+  - name: Acrab A
+    description: ''
+    tags: []
+    radius: 6.3
+    temperature: 28000
+    solarMass: 15
+    age: 35460701211
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 341
+      semiMajorAxis: 75.6
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Acrab
+  - name: Acrab B
+    description: ''
+    tags: []
+    radius: 6.3
+    temperature: 28000
+    solarMass: 15
+    age: 35460701211
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 521
+      semiMajorAxis: 75.6
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Acrab
+planets:
+  - name: Acrab 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 396
+      age: 476955387
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.005044164570104413
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 222
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 0.24
+      orbitalArc: 32
+      axialTilt: 9.97
+      parentId: Acrab
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,133 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Rasalgethi
+description: A solar system named Rasalgethi
+position:
+  x: 179825604.4916875
+  'y': -47057392.31451859
+  z: -36057038.6626062
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Rasalgethi
+stars:
+  - name: Rasalgethi A
+    description: ''
+    tags: []
+    radius: 284
+    temperature: 4900
+    solarMass: 2.5
+    age: 3100903798
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 35
+      semiMajorAxis: 3408
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Rasalgethi
+  - name: Rasalgethi B
+    description: ''
+    tags: []
+    radius: 284
+    temperature: 4900
+    solarMass: 2.5
+    age: 3100903798
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 215
+      semiMajorAxis: 3408
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Rasalgethi
+planets:
+  - name: Rasalgethi 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 34500
+      age: 2967655274
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 1.222634835543026
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 192
+    satellite:
+      semiMajorAxis: 3320439191.6666665
+      eccentricity: 0.01
+      inclination: 0.41
+      orbitalArc: 102
+      axialTilt: 14.08
+      parentId: Rasalgethi
+      showOrbit: true
+    satellites: []
+  - name: Rasalgethi 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7412
+      age: 2608025350
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0031481512235540673
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 781
+    satellite:
+      semiMajorAxis: 6456792644
+      eccentricity: 0
+      inclination: 0.15
+      orbitalArc: 295
+      axialTilt: 35.31
+      parentId: Rasalgethi
+      showOrbit: true
+    satellites:
+      - name: Rasalgethi 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 820.1923545616661
+          age: 9694536815
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5000000117736206
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 808
+        satellite:
+          semiMajorAxis: 343660.5965613381
+          eccentricity: 0
+          inclination: 0.25
+          orbitalArc: 190
+          axialTilt: 34.47
+          parentId: Rasalgethi 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

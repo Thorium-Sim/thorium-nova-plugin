@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alpheratz
+description: A solar system named Alpheratz
+position:
+  x: -1631264.9110081801
+  'y': -24804471.420025937
+  z: 44552505.43681724
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alpheratz
+stars:
+  - name: Alpheratz A
+    description: ''
+    tags: []
+    radius: 2.94
+    temperature: 11950
+    solarMass: 3.63
+    age: 1187707851710
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 78
+      semiMajorAxis: 35.28
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alpheratz
+  - name: Alpheratz B
+    description: ''
+    tags: []
+    radius: 2.94
+    temperature: 11950
+    solarMass: 3.63
+    age: 1187707851710
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 258
+      semiMajorAxis: 35.28
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alpheratz
+planets:
+  - name: Alpheratz 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 58
+      age: 685420904
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.00196228533822783
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 224
+    satellite:
+      semiMajorAxis: 733071283
+      eccentricity: 0.01
+      inclination: 0.16
+      orbitalArc: 264
+      axialTilt: 33.59
+      parentId: Alpheratz
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

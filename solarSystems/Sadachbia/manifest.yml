@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sadachbia
+description: A solar system named Sadachbia
+position:
+  x: 35877543.10984342
+  'y': 2088394.4186082038
+  z: 78414198.10536388
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sadachbia
+stars:
+  - name: Sadachbia A
+    description: ''
+    tags: []
+    radius: 2.7
+    temperature: 10637
+    solarMass: 2.72
+    age: 1680869602065
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 97
+      semiMajorAxis: 32.400000000000006
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sadachbia
+  - name: Sadachbia B
+    description: ''
+    tags: []
+    radius: 2.7
+    temperature: 10637
+    solarMass: 2.72
+    age: 1680869602065
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 277
+      semiMajorAxis: 32.400000000000006
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sadachbia
+planets: []
+commSatellite: null
+assets: {}

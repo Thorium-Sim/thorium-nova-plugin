@@ -1,0 +1,78 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Mirach
+description: A solar system named Mirach
+position:
+  x: -25233636.360695865
+  'y': -60346382.775393195
+  z: 80358344.59044246
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Mirach
+stars:
+  - name: Mirach A
+    description: ''
+    tags: []
+    radius: 86.4
+    temperature: 3762
+    solarMass: 2.49
+    age: 96043058494
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 344
+      semiMajorAxis: 1036.8000000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mirach
+  - name: Mirach B
+    description: ''
+    tags: []
+    radius: 86.4
+    temperature: 3762
+    solarMass: 2.49
+    age: 96043058494
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 524
+      semiMajorAxis: 1036.8000000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mirach
+planets:
+  - name: Mirach 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6642
+      age: 7616624498
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0044159444391066085
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 128776
+    temperature: 263
+    satellite:
+      semiMajorAxis: 3937851946
+      eccentricity: 0.01
+      inclination: 0.06
+      orbitalArc: 136
+      axialTilt: 18.18
+      parentId: Mirach
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

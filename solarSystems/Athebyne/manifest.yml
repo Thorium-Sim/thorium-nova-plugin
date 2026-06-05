@@ -1,0 +1,104 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Athebyne
+description: A solar system named Athebyne
+position:
+  x: 21082780.511004236
+  'y': -42530210.282717995
+  z: -9387603.08358895
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Athebyne
+stars:
+  - name: Athebyne A
+    description: ''
+    tags: []
+    radius: 10.46
+    temperature: 5018
+    solarMass: 2.55
+    age: 2119939504542
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 276
+      semiMajorAxis: 125.52000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Athebyne
+  - name: Athebyne B
+    description: ''
+    tags: []
+    radius: 10.46
+    temperature: 5018
+    solarMass: 2.55
+    age: 2119939504542
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 456
+      semiMajorAxis: 125.52000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Athebyne
+planets:
+  - name: Athebyne 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3532
+      age: 4784790805
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.028949392182460825
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 35233
+    temperature: 155
+    satellite:
+      semiMajorAxis: 1440210046
+      eccentricity: 0.01
+      inclination: 0.2
+      orbitalArc: 139
+      axialTilt: 34.18
+      parentId: Athebyne
+      showOrbit: true
+    satellites:
+      - name: Athebyne 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 727.8131123506496
+          age: 584651028
+          ringMapAsset: null
+          terranMass: 0.3399998978376615
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 260
+        satellite:
+          semiMajorAxis: 331882.7792318962
+          eccentricity: 0.02
+          inclination: 0.82
+          orbitalArc: 47
+          axialTilt: 32.03
+          parentId: Athebyne 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

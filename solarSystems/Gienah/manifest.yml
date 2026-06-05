@@ -1,0 +1,180 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Gienah
+description: A solar system named Gienah
+position:
+  x: 5322214.108280701
+  'y': 24413044.466787007
+  z: -77047565.70790473
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Gienah
+stars:
+  - name: Gienah A
+    description: ''
+    tags: []
+    radius: 11.13
+    temperature: 4699
+    solarMass: 1.103
+    age: 1053252959532
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 293
+      semiMajorAxis: 133.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Gienah
+  - name: Gienah B
+    description: ''
+    tags: []
+    radius: 11.13
+    temperature: 4699
+    solarMass: 1.103
+    age: 1053252959532
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 473
+      semiMajorAxis: 133.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Gienah
+planets:
+  - name: Gienah 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 74
+      age: 238668079
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.019305350163583816
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 327
+    satellite:
+      semiMajorAxis: 273828777
+      eccentricity: 0.01
+      inclination: 1.37
+      orbitalArc: 169
+      axialTilt: 36.8
+      parentId: Gienah
+      showOrbit: true
+    satellites: []
+  - name: Gienah 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2190
+      age: 76859117
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.018208592447780555
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 286
+    satellite:
+      semiMajorAxis: 1808399011.6666675
+      eccentricity: 0.01
+      inclination: 1.89
+      orbitalArc: 32
+      axialTilt: 23.39
+      parentId: Gienah
+      showOrbit: true
+    satellites:
+      - name: Gienah 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 358.0381059412701
+          age: 103873815
+          ringMapAsset: null
+          terranMass: 0.3499998164320328
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 399
+        satellite:
+          semiMajorAxis: 66551.63066096918
+          eccentricity: 0
+          inclination: 1.92
+          orbitalArc: 64
+          axialTilt: 38.76
+          parentId: Gienah 2
+          showOrbit: true
+        satellites: []
+      - name: Gienah 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 252.19398646748022
+          age: 9685340779
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.1000001256031848
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 655
+        satellite:
+          semiMajorAxis: 120800.91951792303
+          eccentricity: 0
+          inclination: 1
+          orbitalArc: 175
+          axialTilt: 39.63
+          parentId: Gienah 2
+          showOrbit: true
+        satellites: []
+  - name: Gienah 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 191
+      age: 363517950
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0004134187050388952
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 264
+    satellite:
+      semiMajorAxis: 3336463900
+      eccentricity: 0.02
+      inclination: 1.67
+      orbitalArc: 116
+      axialTilt: 25.93
+      parentId: Gienah
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

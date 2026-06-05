@@ -1,0 +1,208 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Aspidiske
+description: A solar system named Aspidiske
+position:
+  x: -120977665.77973099
+  'y': 311970927.9367017
+  z: -140513182.93512887
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Aspidiske
+stars:
+  - name: Aspidiske A
+    description: ''
+    tags: []
+    radius: 46.4
+    temperature: 4900
+    solarMass: 6.9
+    age: 320625525278
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 55
+      semiMajorAxis: 556.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aspidiske
+  - name: Aspidiske B
+    description: ''
+    tags: []
+    radius: 46.4
+    temperature: 4900
+    solarMass: 6.9
+    age: 320625525278
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 235
+      semiMajorAxis: 556.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aspidiske
+planets:
+  - name: Aspidiske 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6671
+      age: 5835989336
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.017852094719501232
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 1047036966
+    temperature: 303
+    satellite:
+      semiMajorAxis: 2537507152.9999995
+      eccentricity: 0
+      inclination: 1.09
+      orbitalArc: 10
+      axialTilt: 24.82
+      parentId: Aspidiske
+      showOrbit: true
+    satellites:
+      - name: Aspidiske 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 511.39779700463356
+          age: 5889686061
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 165114
+        temperature: 262
+        satellite:
+          semiMajorAxis: 153615.29966159674
+          eccentricity: 0
+          inclination: 0.32
+          orbitalArc: 77
+          axialTilt: 26.93
+          parentId: Aspidiske 1
+          showOrbit: true
+        satellites: []
+      - name: Aspidiske 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 838.3580812268676
+          age: 6090803619
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 121546
+        temperature: 258
+        satellite:
+          semiMajorAxis: 267660.8024498878
+          eccentricity: 0.02
+          inclination: 0.5
+          orbitalArc: 189
+          axialTilt: 4.83
+          parentId: Aspidiske 1
+          showOrbit: true
+        satellites: []
+      - name: Aspidiske 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 954.1437831451402
+          age: 430949991
+          ringMapAsset: null
+          terranMass: 1.0000000084970884
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 40
+        satellite:
+          semiMajorAxis: 399786.24513781373
+          eccentricity: 0
+          inclination: 0.18
+          orbitalArc: 277
+          axialTilt: 19.18
+          parentId: Aspidiske 1
+          showOrbit: true
+        satellites: []
+  - name: Aspidiske 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 38046
+      age: 6954207872
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.3756846668235223
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 316
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 1.83
+      orbitalArc: 128
+      axialTilt: 4.69
+      parentId: Aspidiske
+      showOrbit: true
+    satellites:
+      - name: Aspidiske 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 8688.494386694209
+          age: 660816068
+          ringMapAsset: null
+          terranMass: 1.7000001448398616
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 41
+        satellite:
+          semiMajorAxis: 4309493.215800327
+          eccentricity: 0
+          inclination: 0.97
+          orbitalArc: 120
+          axialTilt: 5.42
+          parentId: Aspidiske 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

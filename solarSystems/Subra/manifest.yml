@@ -1,0 +1,162 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Subra
+description: A solar system named Subra
+position:
+  x: -39832899.508661605
+  'y': -12198366.408755789
+  z: -57499506.04005751
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Subra
+stars:
+  - name: 'Subra '
+    description: ''
+    tags: []
+    radius: 5.73
+    temperature: 6107
+    solarMass: 2.074
+    age: 2619130346756
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 324
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Subra
+planets:
+  - name: Subra 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5274
+      age: 5826170634
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.025468226394841496
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 5228573024
+    temperature: 300
+    satellite:
+      semiMajorAxis: 519341379
+      eccentricity: 0.01
+      inclination: 1.14
+      orbitalArc: 277
+      axialTilt: 29.75
+      parentId: Subra
+      showOrbit: true
+    satellites:
+      - name: Subra 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 316.4590699836982
+          age: 308646363
+          ringMapAsset: null
+          terranMass: 0.18999974047776225
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 367
+        satellite:
+          semiMajorAxis: 43889.50216065073
+          eccentricity: 0
+          inclination: 1.6
+          orbitalArc: 54
+          axialTilt: 10.33
+          parentId: Subra 1
+          showOrbit: true
+        satellites: []
+      - name: Subra 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 377.7415229010027
+          age: 3077020917
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 61781
+        temperature: 260
+        satellite:
+          semiMajorAxis: 214437.16711907194
+          eccentricity: 0.01
+          inclination: 0.08
+          orbitalArc: 201
+          axialTilt: 13.54
+          parentId: Subra 1
+          showOrbit: true
+        satellites: []
+      - name: Subra 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1089.3037796712956
+          age: 313421837
+          ringMapAsset: null
+          terranMass: 1.3000000506988099
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 44
+        satellite:
+          semiMajorAxis: 437900.11942786083
+          eccentricity: 0.02
+          inclination: 0.76
+          orbitalArc: 9
+          axialTilt: 7.66
+          parentId: Subra 1
+          showOrbit: true
+        satellites: []
+  - name: Subra 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7019
+      age: 3477364359
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.009523996089590713
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 9329182505
+    temperature: 301
+    satellite:
+      semiMajorAxis: 1284016839
+      eccentricity: 0.01
+      inclination: 0.09
+      orbitalArc: 160
+      axialTilt: 29.46
+      parentId: Subra
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,437 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Altais
+description: A solar system named Altais
+position:
+  x: 18503188.93573161
+  'y': -47384050.94173292
+  z: 6061628.299219168
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Altais
+stars:
+  - name: Altais A
+    description: ''
+    tags: []
+    radius: 10.62
+    temperature: 4831
+    solarMass: 1.7
+    age: 1595956398963
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 281
+      semiMajorAxis: 127.44
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Altais
+  - name: Altais B
+    description: ''
+    tags: []
+    radius: 10.62
+    temperature: 4831
+    solarMass: 1.7
+    age: 1595956398963
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 461
+      semiMajorAxis: 127.44
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Altais
+planets:
+  - name: Altais 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5409
+      age: 9832473599
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.010150002586347281
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 807
+    satellite:
+      semiMajorAxis: 435109735
+      eccentricity: 0.01
+      inclination: 0.03
+      orbitalArc: 334
+      axialTilt: 27.45
+      parentId: Altais
+      showOrbit: true
+    satellites:
+      - name: Altais 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 480.6345251301035
+          age: 5061000698
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 94065
+        temperature: 270
+        satellite:
+          semiMajorAxis: 199112.2923771908
+          eccentricity: 0.01
+          inclination: 0.93
+          orbitalArc: 90
+          axialTilt: 14.81
+          parentId: Altais 1
+          showOrbit: true
+        satellites: []
+      - name: Altais 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 835.1690547935244
+          age: 505603076
+          ringMapAsset: null
+          terranMass: 0.4000000303440795
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 46
+        satellite:
+          semiMajorAxis: 385012.93425981473
+          eccentricity: 0.01
+          inclination: 0.41
+          orbitalArc: 341
+          axialTilt: 10.93
+          parentId: Altais 1
+          showOrbit: true
+        satellites: []
+  - name: Altais 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6195
+      age: 9298201036
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.00799612247745882
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 83326
+    temperature: 268
+    satellite:
+      semiMajorAxis: 735448207.3333329
+      eccentricity: 0.02
+      inclination: 0.19
+      orbitalArc: 154
+      axialTilt: 15.29
+      parentId: Altais
+      showOrbit: true
+    satellites:
+      - name: Altais 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 749.9559812230771
+          age: 8469548526
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 52039
+        temperature: 258
+        satellite:
+          semiMajorAxis: 214258.72906830764
+          eccentricity: 0.01
+          inclination: 0.93
+          orbitalArc: 303
+          axialTilt: 10.84
+          parentId: Altais 2
+          showOrbit: true
+        satellites: []
+      - name: Altais 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1537.1263189550668
+          age: 534398976
+          ringMapAsset: null
+          terranMass: 0.04999980107392709
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 395
+        satellite:
+          semiMajorAxis: 427321.11666950857
+          eccentricity: 0.02
+          inclination: 1.4
+          orbitalArc: 55
+          axialTilt: 24.88
+          parentId: Altais 2
+          showOrbit: true
+        satellites: []
+  - name: Altais 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6739
+      age: 3856105734
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.002515059564033304
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 484
+    satellite:
+      semiMajorAxis: 903400579.2222202
+      eccentricity: 0.01
+      inclination: 1.46
+      orbitalArc: 151
+      axialTilt: 8.57
+      parentId: Altais
+      showOrbit: true
+    satellites:
+      - name: Altais 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1010.7812139775909
+          age: 9756507333
+          ringMapAsset: null
+          terranMass: 2.0000005677839856
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 255
+        satellite:
+          semiMajorAxis: 327069.2712273495
+          eccentricity: 0.02
+          inclination: 1.8
+          orbitalArc: 332
+          axialTilt: 31.61
+          parentId: Altais 3
+          showOrbit: true
+        satellites: []
+      - name: Altais 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1374.6061590690065
+          age: 836553912
+          ringMapAsset: null
+          terranMass: 0.48999967394313537
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 317
+        satellite:
+          semiMajorAxis: 538845.6143550505
+          eccentricity: 0.01
+          inclination: 1.78
+          orbitalArc: 258
+          axialTilt: 37.91
+          parentId: Altais 3
+          showOrbit: true
+        satellites: []
+  - name: Altais 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 233
+      age: 102309276
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0007936029167737509
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 207
+    satellite:
+      semiMajorAxis: 986712050.1851732
+      eccentricity: 0
+      inclination: 0
+      orbitalArc: 17
+      axialTilt: 32.36
+      parentId: Altais
+      showOrbit: true
+    satellites: []
+  - name: Altais 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6325
+      age: 7064052527
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.013987800767588775
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 34900
+    temperature: 197
+    satellite:
+      semiMajorAxis: 1162393555.296213
+      eccentricity: 0.01
+      inclination: 1.17
+      orbitalArc: 251
+      axialTilt: 33.23
+      parentId: Altais
+      showOrbit: true
+    satellites: []
+  - name: Altais 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 446
+      age: 257812064
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0021609124721110313
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 380
+    satellite:
+      semiMajorAxis: 1350614143.4810667
+      eccentricity: 0.01
+      inclination: 1.23
+      orbitalArc: 335
+      axialTilt: 22.95
+      parentId: Altais
+      showOrbit: true
+    satellites: []
+  - name: Altais 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 257
+      age: 245537539
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.01405309678637084
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 347
+    satellite:
+      semiMajorAxis: 3072663023.974755
+      eccentricity: 0.01
+      inclination: 1.47
+      orbitalArc: 155
+      axialTilt: 22.71
+      parentId: Altais
+      showOrbit: true
+    satellites: []
+  - name: Altais 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3852
+      age: 940246526
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.002521535435711612
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 53
+    satellite:
+      semiMajorAxis: 3968132781
+      eccentricity: 0.01
+      inclination: 0.94
+      orbitalArc: 111
+      axialTilt: 18.84
+      parentId: Altais
+      showOrbit: true
+    satellites:
+      - name: Altais 8a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 554.366261801628
+          age: 9143809832
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 175336
+        temperature: 260
+        satellite:
+          semiMajorAxis: 246692.98650172443
+          eccentricity: 0
+          inclination: 1.75
+          orbitalArc: 262
+          axialTilt: 17.43
+          parentId: Altais 8
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

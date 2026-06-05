@@ -1,0 +1,103 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alnitak
+description: A solar system named Alnitak
+position:
+  x: -659995883.5476525
+  'y': 22464408.825988036
+  z: 55540957.57558121
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alnitak
+stars:
+  - name: Alnitak A
+    description: ''
+    tags: []
+    radius: 20
+    temperature: 29500
+    solarMass: 33
+    age: 6282538651
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 106
+      semiMajorAxis: 240
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alnitak
+  - name: Alnitak B
+    description: ''
+    tags: []
+    radius: 20
+    temperature: 29500
+    solarMass: 33
+    age: 6282538651
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 286
+      semiMajorAxis: 240
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alnitak
+planets:
+  - name: Alnitak 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6926
+      age: 2378254939
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.003297482126678459
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 718
+    satellite:
+      semiMajorAxis: 12682325568
+      eccentricity: 0.02
+      inclination: 1.78
+      orbitalArc: 284
+      axialTilt: 25.18
+      parentId: Alnitak
+      showOrbit: true
+    satellites:
+      - name: Alnitak 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 750.1377094373196
+          age: 3995487620
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          classification: G
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 0
+        temperature: 598
+        satellite:
+          semiMajorAxis: 212288.97177076145
+          eccentricity: 0.01
+          inclination: 0.44
+          orbitalArc: 89
+          axialTilt: 7.92
+          parentId: Alnitak 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

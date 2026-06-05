@@ -1,0 +1,154 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Jabbah
+description: A solar system named Jabbah
+position:
+  x: 207672547.4688009
+  'y': 82357636.09761253
+  z: -105819497.66310494
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Jabbah
+stars:
+  - name: Jabbah A
+    description: ''
+    tags: []
+    radius: 6.51
+    temperature: 13400
+    solarMass: 5.1
+    age: 215257498945
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 156
+      semiMajorAxis: 78.12
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Jabbah
+  - name: Jabbah B
+    description: ''
+    tags: []
+    radius: 6.51
+    temperature: 13400
+    solarMass: 5.1
+    age: 215257498945
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 336
+      semiMajorAxis: 78.12
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Jabbah
+planets:
+  - name: Jabbah 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 436
+      age: 746655142
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0018419026530652294
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 209
+    satellite:
+      semiMajorAxis: 235783492
+      eccentricity: 0.02
+      inclination: 0.37
+      orbitalArc: 55
+      axialTilt: 31.91
+      parentId: Jabbah
+      showOrbit: true
+    satellites: []
+  - name: Jabbah 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4910
+      age: 7921965382
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.03449442491615922
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 532
+    satellite:
+      semiMajorAxis: 429095339.3333355
+      eccentricity: 0
+      inclination: 0.42
+      orbitalArc: 167
+      axialTilt: 39.51
+      parentId: Jabbah
+      showOrbit: true
+    satellites: []
+  - name: Jabbah 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 426
+      age: 865946914
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.008297698792287348
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 340
+    satellite:
+      semiMajorAxis: 1722568561.7777805
+      eccentricity: 0.02
+      inclination: 1.78
+      orbitalArc: 248
+      axialTilt: 27
+      parentId: Jabbah
+      showOrbit: true
+    satellites: []
+  - name: Jabbah 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3148
+      age: 9530925878
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+      terranMass: 0.003461068158508572
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 15823
+    temperature: 283
+    satellite:
+      semiMajorAxis: 3803306281
+      eccentricity: 0
+      inclination: 1.63
+      orbitalArc: 222
+      axialTilt: 23.84
+      parentId: Jabbah
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

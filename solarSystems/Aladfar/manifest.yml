@@ -1,0 +1,262 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Aladfar
+description: A solar system named Aladfar
+position:
+  x: 537875147.5359868
+  'y': -461532300.8768389
+  z: 179339512.75118235
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Aladfar
+stars:
+  - name: Aladfar A
+    description: ''
+    tags: []
+    radius: 4.3
+    temperature: 17360
+    solarMass: 9.97
+    age: 342395973031
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 184
+      semiMajorAxis: 51.599999999999994
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aladfar
+  - name: Aladfar B
+    description: ''
+    tags: []
+    radius: 4.3
+    temperature: 17360
+    solarMass: 9.97
+    age: 342395973031
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 364
+      semiMajorAxis: 51.599999999999994
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aladfar
+planets:
+  - name: Aladfar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6954
+      age: 5632546545
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.015917405526908388
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 818
+    satellite:
+      semiMajorAxis: 2449446370
+      eccentricity: 0
+      inclination: 0.01
+      orbitalArc: 192
+      axialTilt: 35.17
+      parentId: Aladfar
+      showOrbit: true
+    satellites:
+      - name: Aladfar 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 402.10563623071783
+          age: 4180944636
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.9000000986924745
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 23199
+        temperature: 281
+        satellite:
+          semiMajorAxis: 107343.8494104367
+          eccentricity: 0.02
+          inclination: 0.94
+          orbitalArc: 132
+          axialTilt: 16.79
+          parentId: Aladfar 1
+          showOrbit: true
+        satellites: []
+      - name: Aladfar 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 802.2471220628236
+          age: 9597215032
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 103154
+        temperature: 260
+        satellite:
+          semiMajorAxis: 299238.17652943317
+          eccentricity: 0.01
+          inclination: 0.13
+          orbitalArc: 31
+          axialTilt: 16.25
+          parentId: Aladfar 1
+          showOrbit: true
+        satellites: []
+  - name: Aladfar 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6483
+      age: 1420635041
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.018092625478144612
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 883
+    satellite:
+      semiMajorAxis: 3282482806.9999995
+      eccentricity: 0.02
+      inclination: 0.25
+      orbitalArc: 189
+      axialTilt: 23.06
+      parentId: Aladfar
+      showOrbit: true
+    satellites: []
+  - name: Aladfar 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2896
+      age: 4075643403
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.025603777342803478
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 4014
+    temperature: 205
+    satellite:
+      semiMajorAxis: 3576379011.6666656
+      eccentricity: 0
+      inclination: 0.06
+      orbitalArc: 82
+      axialTilt: 0.92
+      parentId: Aladfar
+      showOrbit: true
+    satellites:
+      - name: Aladfar 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 577.6933576083029
+          age: 535070829
+          ringMapAsset: null
+          terranMass: 0.7799998067020553
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 209
+        satellite:
+          semiMajorAxis: 242631.21019548722
+          eccentricity: 0.02
+          inclination: 0.3
+          orbitalArc: 184
+          axialTilt: 20.21
+          parentId: Aladfar 3
+          showOrbit: true
+        satellites: []
+  - name: Aladfar 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7258
+      age: 8069558941
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.008592512880240688
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 409291929
+    temperature: 293
+    satellite:
+      semiMajorAxis: 4049911704
+      eccentricity: 0
+      inclination: 1.48
+      orbitalArc: 174
+      axialTilt: 15.63
+      parentId: Aladfar
+      showOrbit: true
+    satellites:
+      - name: Aladfar 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 600.7679818347256
+          age: 7005513802
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 41255
+        temperature: 260
+        satellite:
+          semiMajorAxis: 194648.82611445108
+          eccentricity: 0.02
+          inclination: 0.94
+          orbitalArc: 188
+          axialTilt: 25.34
+          parentId: Aladfar 4
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

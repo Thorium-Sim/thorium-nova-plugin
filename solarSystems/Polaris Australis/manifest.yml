@@ -1,0 +1,205 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Polaris Australis
+description: A solar system named Polaris Australis
+position:
+  x: 1828928.767701211
+  'y': 147770249.19861674
+  z: 1974729.044449066
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Polaris Australis
+stars:
+  - name: Polaris Australis A
+    description: ''
+    tags: []
+    radius: 4.4
+    temperature: 7415
+    solarMass: 1.59
+    age: 1566810359368
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 208
+      semiMajorAxis: 52.800000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Polaris Australis
+  - name: Polaris Australis B
+    description: ''
+    tags: []
+    radius: 4.4
+    temperature: 7415
+    solarMass: 1.59
+    age: 1566810359368
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 388
+      semiMajorAxis: 52.800000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Polaris Australis
+planets:
+  - name: Polaris Australis 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4675
+      age: 911466810
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.013488487858901204
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 48
+    satellite:
+      semiMajorAxis: 694200319.3333324
+      eccentricity: 0.01
+      inclination: 1.01
+      orbitalArc: 78
+      axialTilt: 3.25
+      parentId: Polaris Australis
+      showOrbit: true
+    satellites:
+      - name: Polaris Australis 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 241.904390297284
+          age: 7117037165
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 116456
+        temperature: 256
+        satellite:
+          semiMajorAxis: 105704.55584786432
+          eccentricity: 0.01
+          inclination: 1.37
+          orbitalArc: 202
+          axialTilt: 1.35
+          parentId: Polaris Australis 1
+          showOrbit: true
+        satellites: []
+      - name: Polaris Australis 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 407.69246284417864
+          age: 9773597641
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.7000001584630592
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 32603
+        temperature: 227
+        satellite:
+          semiMajorAxis: 161038.52282345056
+          eccentricity: 0.01
+          inclination: 0.48
+          orbitalArc: 87
+          axialTilt: 25.68
+          parentId: Polaris Australis 1
+          showOrbit: true
+        satellites: []
+  - name: Polaris Australis 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3254
+      age: 309436255
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.001278556744047059
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 43
+    satellite:
+      semiMajorAxis: 1028872191.555553
+      eccentricity: 0.02
+      inclination: 1.08
+      orbitalArc: 97
+      axialTilt: 34.8
+      parentId: Polaris Australis
+      showOrbit: true
+    satellites:
+      - name: Polaris Australis 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 803.7552156359086
+          age: 616346368
+          ringMapAsset: null
+          terranMass: 0.5000001707404381
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 50
+        satellite:
+          semiMajorAxis: 217817.66343733124
+          eccentricity: 0.02
+          inclination: 0.85
+          orbitalArc: 77
+          axialTilt: 18.77
+          parentId: Polaris Australis 2
+          showOrbit: true
+        satellites: []
+  - name: Polaris Australis 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7043
+      age: 604299467
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.004431922024720284
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1356
+    satellite:
+      semiMajorAxis: 1230664439
+      eccentricity: 0.01
+      inclination: 1.41
+      orbitalArc: 188
+      axialTilt: 16.49
+      parentId: Polaris Australis
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

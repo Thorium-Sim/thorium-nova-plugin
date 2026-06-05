@@ -1,0 +1,207 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Grumium
+description: A solar system named Grumium
+position:
+  x: 32180235.793312818
+  'y': -49332568.14670695
+  z: -908876.7175482954
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Grumium
+stars:
+  - name: Grumium A
+    description: ''
+    tags: []
+    radius: 11.56
+    temperature: 4451
+    solarMass: 1.45
+    age: 1594377810023
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 260
+      semiMajorAxis: 138.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Grumium
+  - name: Grumium B
+    description: ''
+    tags: []
+    radius: 11.56
+    temperature: 4451
+    solarMass: 1.45
+    age: 1594377810023
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 440
+      semiMajorAxis: 138.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Grumium
+planets:
+  - name: Grumium 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6991
+      age: 6480150155
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.00646538726030043
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 87405
+    temperature: 265
+    satellite:
+      semiMajorAxis: 441526678.6666664
+      eccentricity: 0
+      inclination: 1.44
+      orbitalArc: 347
+      axialTilt: 37.25
+      parentId: Grumium
+      showOrbit: true
+    satellites: []
+  - name: Grumium 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5466
+      age: 6933253608
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.007863252569307397
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 165002
+    temperature: 270
+    satellite:
+      semiMajorAxis: 601050008.9999986
+      eccentricity: 0.02
+      inclination: 0.57
+      orbitalArc: 161
+      axialTilt: 9.71
+      parentId: Grumium
+      showOrbit: true
+    satellites: []
+  - name: Grumium 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7277
+      age: 3938612632
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.01813940812266418
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 563361376
+    temperature: 701
+    satellite:
+      semiMajorAxis: 785457628.6666566
+      eccentricity: 0.02
+      inclination: 1.9
+      orbitalArc: 57
+      axialTilt: 31.95
+      parentId: Grumium
+      showOrbit: true
+    satellites: []
+  - name: Grumium 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6587
+      age: 8666525148
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.00664515256745395
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 29512
+    temperature: 261
+    satellite:
+      semiMajorAxis: 1001538856
+      eccentricity: 0.02
+      inclination: 1.97
+      orbitalArc: 50
+      axialTilt: 8.13
+      parentId: Grumium
+      showOrbit: true
+    satellites:
+      - name: Grumium 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 828.304518251739
+          age: 6455965519
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 74106
+        temperature: 267
+        satellite:
+          semiMajorAxis: 86481.1902483522
+          eccentricity: 0
+          inclination: 1.32
+          orbitalArc: 274
+          axialTilt: 34.86
+          parentId: Grumium 4
+          showOrbit: true
+        satellites: []
+      - name: Grumium 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 927.2095380074252
+          age: 6458964927
+          ringMapAsset: null
+          terranMass: 0.7000004742163547
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 231
+        satellite:
+          semiMajorAxis: 252200.99433801963
+          eccentricity: 0.01
+          inclination: 1.56
+          orbitalArc: 113
+          axialTilt: 31.73
+          parentId: Grumium 4
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

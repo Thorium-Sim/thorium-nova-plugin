@@ -1,0 +1,79 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Dziban
+description: A solar system named Dziban
+position:
+  x: 12135126.501911072
+  'y': -37798186.38167593
+  z: -958291.520938592
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Dziban
+stars:
+  - name: Dziban A
+    description: ''
+    tags: []
+    radius: 1.2
+    temperature: 6544
+    solarMass: 1.38
+    age: 30137881164502
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 130
+      semiMajorAxis: 14.399999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Dziban
+  - name: Dziban B
+    description: ''
+    tags: []
+    radius: 1.2
+    temperature: 6544
+    solarMass: 1.38
+    age: 30137881164502
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 310
+      semiMajorAxis: 14.399999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Dziban
+planets:
+  - name: Dziban 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4964
+      age: 6741313401
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
+      terranMass: 0.0007825447963840023
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 32618
+    temperature: 216
+    satellite:
+      semiMajorAxis: 236884207
+      eccentricity: 0.01
+      inclination: 0.22
+      orbitalArc: 34
+      axialTilt: 35.35
+      parentId: Dziban
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,207 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Merak
+description: A solar system named Merak
+position:
+  x: -5826462.967339814
+  'y': -34908118.56936823
+  z: -22465065.196729105
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Merak
+stars:
+  - name: Merak A
+    description: ''
+    tags: []
+    radius: 2.81
+    temperature: 9700
+    solarMass: 2.56
+    age: 2112076638441
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 243
+      semiMajorAxis: 33.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Merak
+  - name: Merak B
+    description: ''
+    tags: []
+    radius: 2.81
+    temperature: 9700
+    solarMass: 2.56
+    age: 2112076638441
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 423
+      semiMajorAxis: 33.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Merak
+planets:
+  - name: Merak 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 451
+      age: 863477716
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.012811521263355576
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 289
+    satellite:
+      semiMajorAxis: 490092648
+      eccentricity: 0.01
+      inclination: 1.79
+      orbitalArc: 189
+      axialTilt: 7.12
+      parentId: Merak
+      showOrbit: true
+    satellites: []
+  - name: Merak 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4403
+      age: 8178031700
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.024662126734764762
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 17800
+    temperature: 129
+    satellite:
+      semiMajorAxis: 1525403831.3333344
+      eccentricity: 0.02
+      inclination: 1.49
+      orbitalArc: 55
+      axialTilt: 23.88
+      parentId: Merak
+      showOrbit: true
+    satellites:
+      - name: Merak 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 882.2008280197043
+          age: 791773898
+          ringMapAsset: null
+          terranMass: 1.1000006566231932
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1757
+        satellite:
+          semiMajorAxis: 247898.4326735369
+          eccentricity: 0.02
+          inclination: 1.05
+          orbitalArc: 197
+          axialTilt: 22.13
+          parentId: Merak 2
+          showOrbit: true
+        satellites: []
+  - name: Merak 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1907
+      age: 712450507
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.001225115094278054
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 38
+    satellite:
+      semiMajorAxis: 2243840130.6666703
+      eccentricity: 0.01
+      inclination: 1.14
+      orbitalArc: 9
+      axialTilt: 20.79
+      parentId: Merak
+      showOrbit: true
+    satellites: []
+  - name: Merak 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 29438
+      age: 5465504606
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.8145449028139805
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 254
+    satellite:
+      semiMajorAxis: 3158535520
+      eccentricity: 0.01
+      inclination: 0.97
+      orbitalArc: 334
+      axialTilt: 39.81
+      parentId: Merak
+      showOrbit: true
+    satellites:
+      - name: Merak 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5708.112751442757
+          age: 794183644
+          ringMapAsset: null
+          terranMass: 1.800000129690229
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 43
+        satellite:
+          semiMajorAxis: 2711353.5569353094
+          eccentricity: 0
+          inclination: 1.41
+          orbitalArc: 94
+          axialTilt: 5.47
+          parentId: Merak 4
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

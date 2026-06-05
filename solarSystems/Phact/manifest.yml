@@ -1,0 +1,104 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Phact
+description: A solar system named Phact
+position:
+  x: -113259210.85570222
+  'y': 76910659.39672166
+  z: 10083699.758454643
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Phact
+stars:
+  - name: Phact A
+    description: ''
+    tags: []
+    radius: 7
+    temperature: 12200
+    solarMass: 4.5
+    age: 239081733169
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 92
+      semiMajorAxis: 84
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Phact
+  - name: Phact B
+    description: ''
+    tags: []
+    radius: 7
+    temperature: 12200
+    solarMass: 4.5
+    age: 239081733169
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 272
+      semiMajorAxis: 84
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Phact
+planets:
+  - name: Phact 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 66
+      age: 883129896
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.005854038413401127
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 246
+    satellite:
+      semiMajorAxis: 2410455441.333333
+      eccentricity: 0.01
+      inclination: 0.6
+      orbitalArc: 214
+      axialTilt: 8.81
+      parentId: Phact
+      showOrbit: true
+    satellites: []
+  - name: Phact 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4761
+      age: 8704793418
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.007924818456032675
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 15678
+    temperature: 149
+    satellite:
+      semiMajorAxis: 3809426761
+      eccentricity: 0
+      inclination: 1.75
+      orbitalArc: 359
+      axialTilt: 25.27
+      parentId: Phact
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

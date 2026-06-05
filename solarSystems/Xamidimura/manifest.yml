@@ -1,0 +1,267 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Xamidimura
+description: A solar system named Xamidimura
+position:
+  x: 198013712.0123033
+  'y': 162077966.44130206
+  z: -60661215.3633673
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Xamidimura
+stars:
+  - name: Xamidimura A
+    description: ''
+    tags: []
+    radius: 3.9
+    temperature: 24000
+    solarMass: 8.3
+    age: 94857832306
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 188
+      semiMajorAxis: 46.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Xamidimura
+  - name: Xamidimura B
+    description: ''
+    tags: []
+    radius: 3.9
+    temperature: 24000
+    solarMass: 8.3
+    age: 94857832306
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 368
+      semiMajorAxis: 46.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Xamidimura
+planets:
+  - name: Xamidimura 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4119
+      age: 6867504119
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0014751237424265211
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 552
+    satellite:
+      semiMajorAxis: 1654879842.9999995
+      eccentricity: 0.02
+      inclination: 1.31
+      orbitalArc: 259
+      axialTilt: 7.85
+      parentId: Xamidimura
+      showOrbit: true
+    satellites: []
+  - name: Xamidimura 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3427927
+      age: 8040028838
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 6.273490617372676
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_jupiter.jpg
+      classification: I
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 218
+    satellite:
+      semiMajorAxis: 2958091373.9999976
+      eccentricity: 0.02
+      inclination: 0.95
+      orbitalArc: 208
+      axialTilt: 16.14
+      parentId: Xamidimura
+      showOrbit: true
+    satellites: []
+  - name: Xamidimura 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 45309
+      age: 8593254176
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.3920988600810755
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 263
+    satellite:
+      semiMajorAxis: 3498484756.3333316
+      eccentricity: 0.01
+      inclination: 1.7
+      orbitalArc: 63
+      axialTilt: 25.69
+      parentId: Xamidimura
+      showOrbit: true
+    satellites:
+      - name: Xamidimura 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6600.999565988372
+          age: 610688495
+          ringMapAsset: null
+          terranMass: 1.7000001000956866
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1124
+        satellite:
+          semiMajorAxis: 1524412.5672794217
+          eccentricity: 0.01
+          inclination: 0.26
+          orbitalArc: 182
+          axialTilt: 35.01
+          parentId: Xamidimura 3
+          showOrbit: true
+        satellites: []
+      - name: Xamidimura 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 8285.301033102569
+          age: 8157142953
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.30000012823335165
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 47381
+        temperature: 283
+        satellite:
+          semiMajorAxis: 2869269.814613924
+          eccentricity: 0
+          inclination: 1
+          orbitalArc: 127
+          axialTilt: 16.98
+          parentId: Xamidimura 3
+          showOrbit: true
+        satellites: []
+      - name: Xamidimura 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7980.366816076455
+          age: 2514511970
+          ringMapAsset: null
+          terranMass: 0.10000004832288614
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 802
+        satellite:
+          semiMajorAxis: 3894419.00624531
+          eccentricity: 0.02
+          inclination: 1.09
+          orbitalArc: 354
+          axialTilt: 21.23
+          parentId: Xamidimura 3
+          showOrbit: true
+        satellites: []
+  - name: Xamidimura 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 66636
+      age: 5027922803
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.06939474652972882
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 271
+    satellite:
+      semiMajorAxis: 4513127220.11111
+      eccentricity: 0.01
+      inclination: 1.65
+      orbitalArc: 139
+      axialTilt: 0.56
+      parentId: Xamidimura
+      showOrbit: true
+    satellites: []
+  - name: Xamidimura 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5234
+      age: 4422357261
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.017943262459114952
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 3791728659
+    temperature: 294
+    satellite:
+      semiMajorAxis: 6233753270
+      eccentricity: 0.01
+      inclination: 1.61
+      orbitalArc: 63
+      axialTilt: 7.52
+      parentId: Xamidimura
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

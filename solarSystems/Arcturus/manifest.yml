@@ -1,0 +1,262 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Arcturus
+description: A solar system named Arcturus
+position:
+  x: 9978265.253212495
+  'y': -6221455.013343536
+  z: -14840663.140408337
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Arcturus
+stars:
+  - name: Arcturus A
+    description: ''
+    tags: []
+    radius: 25.4
+    temperature: 4286
+    solarMass: 1.08
+    age: 286099395291
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 152
+      semiMajorAxis: 304.79999999999995
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Arcturus
+  - name: Arcturus B
+    description: ''
+    tags: []
+    radius: 25.4
+    temperature: 4286
+    solarMass: 1.08
+    age: 286099395291
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 332
+      semiMajorAxis: 304.79999999999995
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Arcturus
+planets:
+  - name: Arcturus 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 599
+      age: 1238102464
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.012571612697768133
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 192
+    satellite:
+      semiMajorAxis: 668973139.6666671
+      eccentricity: 0
+      inclination: 1.6
+      orbitalArc: 357
+      axialTilt: 0.8
+      parentId: Arcturus
+      showOrbit: true
+    satellites: []
+  - name: Arcturus 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6149
+      age: 8598509185
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.005731283886877653
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 93489
+    temperature: 266
+    satellite:
+      semiMajorAxis: 2063207704.7777781
+      eccentricity: 0.02
+      inclination: 1.4
+      orbitalArc: 311
+      axialTilt: 38.98
+      parentId: Arcturus
+      showOrbit: true
+    satellites:
+      - name: Arcturus 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 495.2443116522614
+          age: 9054792667
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 170294
+        temperature: 265
+        satellite:
+          semiMajorAxis: 154920.6751669047
+          eccentricity: 0
+          inclination: 0.49
+          orbitalArc: 247
+          axialTilt: 8
+          parentId: Arcturus 2
+          showOrbit: true
+        satellites: []
+      - name: Arcturus 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 849.1413202986568
+          age: 3710004328
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 28971
+        temperature: 258
+        satellite:
+          semiMajorAxis: 377178.1257328509
+          eccentricity: 0.02
+          inclination: 0.09
+          orbitalArc: 173
+          axialTilt: 7.89
+          parentId: Arcturus 2
+          showOrbit: true
+        satellites: []
+      - name: Arcturus 2c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1256.3466498398682
+          age: 4954158807
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+          classification: 'N'
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 165934001
+        temperature: 408
+        satellite:
+          semiMajorAxis: 532690.9795321041
+          eccentricity: 0
+          inclination: 0.69
+          orbitalArc: 234
+          axialTilt: 7.43
+          parentId: Arcturus 2
+          showOrbit: true
+        satellites: []
+  - name: Arcturus 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 48940
+      age: 7850594283
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.2524685776018232
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 294
+    satellite:
+      semiMajorAxis: 2935151153.777778
+      eccentricity: 0.02
+      inclination: 0.34
+      orbitalArc: 120
+      axialTilt: 7.31
+      parentId: Arcturus
+      showOrbit: true
+    satellites: []
+  - name: Arcturus 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 51507
+      age: 7957090876
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 1.063155080254226
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 304
+    satellite:
+      semiMajorAxis: 3834602823
+      eccentricity: 0
+      inclination: 0.51
+      orbitalArc: 61
+      axialTilt: 27.45
+      parentId: Arcturus
+      showOrbit: true
+    satellites:
+      - name: Arcturus 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5051.091099613356
+          age: 196760904
+          ringMapAsset: null
+          terranMass: 0.05999998136433037
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 233
+        satellite:
+          semiMajorAxis: 1282977.1393017925
+          eccentricity: 0.01
+          inclination: 0.12
+          orbitalArc: 130
+          axialTilt: 18.34
+          parentId: Arcturus 4
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

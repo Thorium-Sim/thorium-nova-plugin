@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Algenib
+description: A solar system named Algenib
+position:
+  x: -11426511.483310638
+  'y': -53724715.451881886
+  z: 197633775.60603374
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Algenib
+stars:
+  - name: Algenib A
+    description: ''
+    tags: []
+    radius: 5.4
+    temperature: 22000
+    solarMass: 8.8
+    age: 74297416688
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 327
+      semiMajorAxis: 64.80000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Algenib
+  - name: Algenib B
+    description: ''
+    tags: []
+    radius: 5.4
+    temperature: 22000
+    solarMass: 8.8
+    age: 74297416688
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 507
+      semiMajorAxis: 64.80000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Algenib
+planets: []
+commSatellite: null
+assets: {}

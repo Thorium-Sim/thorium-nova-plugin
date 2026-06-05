@@ -1,0 +1,384 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Atlas
+description: A solar system named Atlas
+position:
+  x: -132101312.25521943
+  'y': -92395648.9251726
+  z: 159197131.18499655
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Atlas
+stars:
+  - name: Atlas A
+    description: ''
+    tags: []
+    radius: 7.9
+    temperature: 13500
+    solarMass: 4.74
+    age: 131873754090
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 5
+      semiMajorAxis: 94.80000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Atlas
+  - name: Atlas B
+    description: ''
+    tags: []
+    radius: 7.9
+    temperature: 13500
+    solarMass: 4.74
+    age: 131873754090
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 185
+      semiMajorAxis: 94.80000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Atlas
+planets:
+  - name: Atlas 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 464
+      age: 862649844
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0009786079648922753
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 148
+    satellite:
+      semiMajorAxis: 1271431332
+      eccentricity: 0.01
+      inclination: 1.35
+      orbitalArc: 138
+      axialTilt: 12.41
+      parentId: Atlas
+      showOrbit: true
+    satellites: []
+  - name: Atlas 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3766
+      age: 4112525426
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.010867561863502578
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 477
+    satellite:
+      semiMajorAxis: 2811686144.3333335
+      eccentricity: 0
+      inclination: 0.9
+      orbitalArc: 103
+      axialTilt: 1.82
+      parentId: Atlas
+      showOrbit: true
+    satellites:
+      - name: Atlas 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 687.2003564221552
+          age: 5909928557
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.7000000762185814
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 12683
+        temperature: 165
+        satellite:
+          semiMajorAxis: 182108.09445187112
+          eccentricity: 0.01
+          inclination: 0.47
+          orbitalArc: 213
+          axialTilt: 0.75
+          parentId: Atlas 2
+          showOrbit: true
+        satellites: []
+  - name: Atlas 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4750
+      age: 1545484569
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.013205668584804658
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1536
+    satellite:
+      semiMajorAxis: 3567428085.2222214
+      eccentricity: 0
+      inclination: 1.14
+      orbitalArc: 196
+      axialTilt: 21.14
+      parentId: Atlas
+      showOrbit: true
+    satellites:
+      - name: Atlas 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 879.392744674555
+          age: 420130409
+          ringMapAsset: null
+          terranMass: 0.5099996632972428
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 390
+        satellite:
+          semiMajorAxis: 424746.6956778101
+          eccentricity: 0.02
+          inclination: 1.77
+          orbitalArc: 190
+          axialTilt: 29.67
+          parentId: Atlas 3
+          showOrbit: true
+        satellites: []
+  - name: Atlas 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 207
+      age: 723802237
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.024783369234153165
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 213
+    satellite:
+      semiMajorAxis: 3900509954.4444427
+      eccentricity: 0.01
+      inclination: 0.55
+      orbitalArc: 175
+      axialTilt: 17.31
+      parentId: Atlas
+      showOrbit: true
+    satellites: []
+  - name: Atlas 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4002
+      age: 8909851005
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.00010699559717643108
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 3153
+    temperature: 154
+    satellite:
+      semiMajorAxis: 4133771373.333326
+      eccentricity: 0.02
+      inclination: 0.12
+      orbitalArc: 46
+      axialTilt: 3.33
+      parentId: Atlas
+      showOrbit: true
+    satellites:
+      - name: Atlas 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 834.53070019461
+          age: 5689732011
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 2.100000071115418
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 633
+        satellite:
+          semiMajorAxis: 241179.37235624227
+          eccentricity: 0.01
+          inclination: 0.23
+          orbitalArc: 326
+          axialTilt: 13.66
+          parentId: Atlas 5
+          showOrbit: true
+        satellites: []
+  - name: Atlas 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 349
+      age: 275306993
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.01643331139933288
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 228
+    satellite:
+      semiMajorAxis: 4225640560.555542
+      eccentricity: 0.01
+      inclination: 1.5
+      orbitalArc: 277
+      axialTilt: 7.17
+      parentId: Atlas
+      showOrbit: true
+    satellites: []
+  - name: Atlas 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 58
+      age: 521405257
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0072433613911731705
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 179
+    satellite:
+      semiMajorAxis: 4375898406.185059
+      eccentricity: 0.02
+      inclination: 1.69
+      orbitalArc: 317
+      axialTilt: 9.14
+      parentId: Atlas
+      showOrbit: true
+    satellites: []
+  - name: Atlas 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6202
+      age: 2818173107
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.02757694100949249
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 852
+    satellite:
+      semiMajorAxis: 4458281560
+      eccentricity: 0.01
+      inclination: 0.16
+      orbitalArc: 172
+      axialTilt: 20.76
+      parentId: Atlas
+      showOrbit: true
+    satellites:
+      - name: Atlas 8a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1307.1230932767555
+          age: 1025332217
+          ringMapAsset: null
+          terranMass: 0.1000006082888362
+          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1453
+        satellite:
+          semiMajorAxis: 155902.74443321698
+          eccentricity: 0.01
+          inclination: 0.17
+          orbitalArc: 239
+          axialTilt: 7.51
+          parentId: Atlas 8
+          showOrbit: true
+        satellites: []
+      - name: Atlas 8b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1354.8161118417318
+          age: 648232117
+          ringMapAsset: null
+          terranMass: 1.0499997014978464
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 182
+        satellite:
+          semiMajorAxis: 376638.8790920014
+          eccentricity: 0.01
+          inclination: 1.51
+          orbitalArc: 73
+          axialTilt: 2.85
+          parentId: Atlas 8
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

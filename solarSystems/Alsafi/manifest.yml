@@ -1,0 +1,232 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alsafi
+description: A solar system named Alsafi
+position:
+  x: 3156433.5064255777
+  'y': -9256769.085445054
+  z: 1345679.2989161047
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alsafi
+stars:
+  - name: Alsafi A
+    description: ''
+    tags: []
+    radius: 0.772
+    temperature: 5255
+    solarMass: 0.84
+    age: 106591626289800
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 99
+      semiMajorAxis: 9.264
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alsafi
+  - name: Alsafi B
+    description: ''
+    tags: []
+    radius: 0.772
+    temperature: 5255
+    solarMass: 0.84
+    age: 106591626289800
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 279
+      semiMajorAxis: 9.264
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alsafi
+planets:
+  - name: Alsafi 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4363
+      age: 5176193516
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.022002689565018444
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 15522
+    temperature: 257
+    satellite:
+      semiMajorAxis: 439928715.00000024
+      eccentricity: 0.01
+      inclination: 0.77
+      orbitalArc: 344
+      axialTilt: 6.28
+      parentId: Alsafi
+      showOrbit: true
+    satellites:
+      - name: Alsafi 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 260.447525539528
+          age: 761920693
+          ringMapAsset: null
+          terranMass: 1.4000001977429193
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 36
+        satellite:
+          semiMajorAxis: 116680.49144170854
+          eccentricity: 0.01
+          inclination: 0.64
+          orbitalArc: 142
+          axialTilt: 26
+          parentId: Alsafi 1
+          showOrbit: true
+        satellites: []
+  - name: Alsafi 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2335
+      age: 960928641
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.020520663375686716
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 43
+    satellite:
+      semiMajorAxis: 672649027.3333342
+      eccentricity: 0.01
+      inclination: 1.76
+      orbitalArc: 91
+      axialTilt: 12.58
+      parentId: Alsafi
+      showOrbit: true
+    satellites: []
+  - name: Alsafi 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 65422
+      age: 6229826882
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.537580285684108
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 268
+    satellite:
+      semiMajorAxis: 1548444045.666669
+      eccentricity: 0.01
+      inclination: 0.18
+      orbitalArc: 134
+      axialTilt: 33.22
+      parentId: Alsafi
+      showOrbit: true
+    satellites:
+      - name: Alsafi 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3872.266712690929
+          age: 1260824968
+          ringMapAsset: null
+          terranMass: 0.5000000807306372
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 743
+        satellite:
+          semiMajorAxis: 2366648.8323213346
+          eccentricity: 0
+          inclination: 1.38
+          orbitalArc: 82
+          axialTilt: 8.66
+          parentId: Alsafi 3
+          showOrbit: true
+        satellites: []
+      - name: Alsafi 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 13211.534778321033
+          age: 850880232
+          ringMapAsset: null
+          terranMass: 0.6199996273055948
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 381
+        satellite:
+          semiMajorAxis: 5575267.676451475
+          eccentricity: 0.01
+          inclination: 0.96
+          orbitalArc: 176
+          axialTilt: 25.14
+          parentId: Alsafi 3
+          showOrbit: true
+        satellites: []
+  - name: Alsafi 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1413
+      age: 572765704
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0038286605637482124
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 54
+    satellite:
+      semiMajorAxis: 2968970924
+      eccentricity: 0.02
+      inclination: 1.09
+      orbitalArc: 96
+      axialTilt: 2.34
+      parentId: Alsafi
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

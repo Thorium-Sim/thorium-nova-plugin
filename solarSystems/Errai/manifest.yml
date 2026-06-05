@@ -1,0 +1,102 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Errai
+description: A solar system named Errai
+position:
+  x: 455205.585949635
+  'y': -23067562.03664204
+  z: 5037571.0262989905
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Errai
+stars:
+  - name: Errai A
+    description: ''
+    tags: []
+    radius: 4.74
+    temperature: 4806
+    solarMass: 1.27
+    age: 6110563424062
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 121
+      semiMajorAxis: 56.88
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Errai
+  - name: Errai B
+    description: ''
+    tags: []
+    radius: 4.74
+    temperature: 4806
+    solarMass: 1.27
+    age: 6110563424062
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 301
+      semiMajorAxis: 56.88
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Errai
+planets:
+  - name: Errai 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6402
+      age: 1429063597
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.022198158303086128
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 589
+    satellite:
+      semiMajorAxis: 270090741.3333341
+      eccentricity: 0.01
+      inclination: 0.23
+      orbitalArc: 38
+      axialTilt: 18.69
+      parentId: Errai
+      showOrbit: true
+    satellites: []
+  - name: Errai 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 63
+      age: 866313579
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.000836932989665344
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 347
+    satellite:
+      semiMajorAxis: 619278199
+      eccentricity: 0.01
+      inclination: 1.03
+      orbitalArc: 3
+      axialTilt: 28.18
+      parentId: Errai
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,181 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Acrux
+description: A solar system named Acrux
+position:
+  x: 8897855.142093446
+  'y': 151454973.30117622
+  z: -76323599.6125744
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Acrux
+stars:
+  - name: Acrux A
+    description: ''
+    tags: []
+    radius: 7.29
+    temperature: 28840
+    solarMass: 17.8
+    age: 27922429683
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 319
+      semiMajorAxis: 87.48
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Acrux
+  - name: Acrux B
+    description: ''
+    tags: []
+    radius: 7.29
+    temperature: 28840
+    solarMass: 17.8
+    age: 27922429683
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 499
+      semiMajorAxis: 87.48
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Acrux
+planets:
+  - name: Acrux 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2628
+      age: 74175446
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.008295167935738989
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 35
+    satellite:
+      semiMajorAxis: 2334769157.666666
+      eccentricity: 0.02
+      inclination: 0.97
+      orbitalArc: 185
+      axialTilt: 15.68
+      parentId: Acrux
+      showOrbit: true
+    satellites: []
+  - name: Acrux 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 503
+      age: 895694807
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.004227861677383323
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 38
+    satellite:
+      semiMajorAxis: 4548686550.111111
+      eccentricity: 0.01
+      inclination: 1.3
+      orbitalArc: 210
+      axialTilt: 16.19
+      parentId: Acrux
+      showOrbit: true
+    satellites: []
+  - name: Acrux 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5809
+      age: 9789651251
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.02621895831280327
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 26909
+    temperature: 158
+    satellite:
+      semiMajorAxis: 7021066498.074074
+      eccentricity: 0.01
+      inclination: 0.39
+      orbitalArc: 2
+      axialTilt: 34.93
+      parentId: Acrux
+      showOrbit: true
+    satellites:
+      - name: Acrux 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 300.1108900011892
+          age: 5364757938
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 47906
+        temperature: 265
+        satellite:
+          semiMajorAxis: 127547.12825050541
+          eccentricity: 0.01
+          inclination: 1.02
+          orbitalArc: 275
+          axialTilt: 34.4
+          parentId: Acrux 3
+          showOrbit: true
+        satellites: []
+  - name: Acrux 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6979
+      age: 6605211938
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.022499895764049118
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 81776
+    temperature: 255
+    satellite:
+      semiMajorAxis: 11298179031
+      eccentricity: 0.01
+      inclination: 1.93
+      orbitalArc: 155
+      axialTilt: 28.96
+      parentId: Acrux
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

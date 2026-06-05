@@ -1,0 +1,336 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Suhail
+description: A solar system named Suhail
+position:
+  x: -141966952.50144535
+  'y': 197070828.0260164
+  z: -152235553.3436017
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Suhail
+stars:
+  - name: Suhail A
+    description: ''
+    tags: []
+    radius: 211
+    temperature: 3835
+    solarMass: 70
+    age: 419218983633
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 70
+      semiMajorAxis: 2532
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Suhail
+  - name: Suhail B
+    description: ''
+    tags: []
+    radius: 211
+    temperature: 3835
+    solarMass: 70
+    age: 419218983633
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 250
+      semiMajorAxis: 2532
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Suhail
+planets:
+  - name: Suhail 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3238131
+      age: 5708018447
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 7.777705903576619
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBlueGiant.jpg
+      classification: I
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 297
+    satellite:
+      semiMajorAxis: 1505618473.9999995
+      eccentricity: 0.01
+      inclination: 0.16
+      orbitalArc: 328
+      axialTilt: 34.59
+      parentId: Suhail
+      showOrbit: true
+    satellites:
+      - name: Suhail 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 779561.7025074154
+          age: 170078684
+          ringMapAsset: null
+          terranMass: 0.700000052440397
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 930
+        satellite:
+          semiMajorAxis: 159043942.79554224
+          eccentricity: 0.01
+          inclination: 0.63
+          orbitalArc: 141
+          axialTilt: 20.05
+          parentId: Suhail 1
+          showOrbit: true
+        satellites: []
+      - name: Suhail 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 578308.2120962698
+          age: 1412556612
+          ringMapAsset: null
+          terranMass: 0.5000000204218339
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1204
+        satellite:
+          semiMajorAxis: 224882595.1681242
+          eccentricity: 0.02
+          inclination: 0.84
+          orbitalArc: 212
+          axialTilt: 5.02
+          parentId: Suhail 1
+          showOrbit: true
+        satellites: []
+      - name: Suhail 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 807055.2425348015
+          age: 555933317
+          ringMapAsset: null
+          terranMass: 0.06999988235402664
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 269
+        satellite:
+          semiMajorAxis: 342191422.83475584
+          eccentricity: 0
+          inclination: 0.78
+          orbitalArc: 15
+          axialTilt: 38.2
+          parentId: Suhail 1
+          showOrbit: true
+        satellites: []
+  - name: Suhail 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5140
+      age: 7628511044
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.016504892887083088
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 175440
+    temperature: 267
+    satellite:
+      semiMajorAxis: 3903828581.333333
+      eccentricity: 0.02
+      inclination: 0.21
+      orbitalArc: 83
+      axialTilt: 37.07
+      parentId: Suhail
+      showOrbit: true
+    satellites:
+      - name: Suhail 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 459.17697196644195
+          age: 4977367652
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.9000000866880988
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 729
+        satellite:
+          semiMajorAxis: 94589.71748582562
+          eccentricity: 0
+          inclination: 0.13
+          orbitalArc: 234
+          axialTilt: 29.97
+          parentId: Suhail 2
+          showOrbit: true
+        satellites: []
+      - name: Suhail 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 972.2252445931607
+          age: 5063580036
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 115400
+        temperature: 264
+        satellite:
+          semiMajorAxis: 247917.43737125598
+          eccentricity: 0.01
+          inclination: 0.28
+          orbitalArc: 269
+          axialTilt: 17.99
+          parentId: Suhail 2
+          showOrbit: true
+        satellites: []
+  - name: Suhail 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6522
+      age: 1450711747
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0030325039611524586
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 730
+    satellite:
+      semiMajorAxis: 5259889685.222222
+      eccentricity: 0.01
+      inclination: 1.64
+      orbitalArc: 285
+      axialTilt: 31.07
+      parentId: Suhail
+      showOrbit: true
+    satellites:
+      - name: Suhail 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 706.7764559282168
+          age: 664281312
+          ringMapAsset: null
+          terranMass: 0.2399999071253125
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 272
+        satellite:
+          semiMajorAxis: 306740.9818728461
+          eccentricity: 0.02
+          inclination: 1.22
+          orbitalArc: 186
+          axialTilt: 34.23
+          parentId: Suhail 3
+          showOrbit: true
+        satellites: []
+  - name: Suhail 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 898
+      age: 69760053
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0031210828934475237
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 44
+    satellite:
+      semiMajorAxis: 6978503630.481482
+      eccentricity: 0.01
+      inclination: 0.24
+      orbitalArc: 79
+      axialTilt: 38.08
+      parentId: Suhail
+      showOrbit: true
+    satellites: []
+  - name: Suhail 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5564
+      age: 8109643913
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.014577903789951911
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 133909
+    temperature: 255
+    satellite:
+      semiMajorAxis: 8957949813
+      eccentricity: 0.01
+      inclination: 0.11
+      orbitalArc: 238
+      axialTilt: 16.1
+      parentId: Suhail
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

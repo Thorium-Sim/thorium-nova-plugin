@@ -1,0 +1,102 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Nihal
+description: A solar system named Nihal
+position:
+  x: -77935955.1048764
+  'y': 29827832.97890058
+  z: 10868103.54355807
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Nihal
+stars:
+  - name: Nihal A
+    description: ''
+    tags: []
+    radius: 15.9
+    temperature: 5434
+    solarMass: 3.5
+    age: 915723888597
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 33
+      semiMajorAxis: 190.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Nihal
+  - name: Nihal B
+    description: ''
+    tags: []
+    radius: 15.9
+    temperature: 5434
+    solarMass: 3.5
+    age: 915723888597
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 213
+      semiMajorAxis: 190.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Nihal
+planets:
+  - name: Nihal 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 177
+      age: 515098881
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.018143792297808988
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 279
+    satellite:
+      semiMajorAxis: 2055062465
+      eccentricity: 0.01
+      inclination: 1.47
+      orbitalArc: 113
+      axialTilt: 16.44
+      parentId: Nihal
+      showOrbit: true
+    satellites: []
+  - name: Nihal 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 324
+      age: 455860787
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.016075723649349925
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 213
+    satellite:
+      semiMajorAxis: 3545324043
+      eccentricity: 0.01
+      inclination: 0.66
+      orbitalArc: 58
+      axialTilt: 15.26
+      parentId: Nihal
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

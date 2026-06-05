@@ -1,0 +1,494 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Aldulfin
+description: A solar system named Aldulfin
+position:
+  x: 133563183.7813174
+  'y': -34019432.26050598
+  z: 105494019.87369177
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Aldulfin
+stars:
+  - name: Aldulfin A
+    description: ''
+    tags: []
+    radius: 4.6
+    temperature: 13614
+    solarMass: 6.435
+    age: 510574578213
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 176
+      semiMajorAxis: 55.199999999999996
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aldulfin
+  - name: Aldulfin B
+    description: ''
+    tags: []
+    radius: 4.6
+    temperature: 13614
+    solarMass: 6.435
+    age: 510574578213
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 356
+      semiMajorAxis: 55.199999999999996
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aldulfin
+planets:
+  - name: Aldulfin 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7167
+      age: 9836420127
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.01665930149940758
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 8814917063
+    temperature: 302
+    satellite:
+      semiMajorAxis: 2159875774.666666
+      eccentricity: 0.01
+      inclination: 1.17
+      orbitalArc: 23
+      axialTilt: 22.43
+      parentId: Aldulfin
+      showOrbit: true
+    satellites:
+      - name: Aldulfin 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 666.7363365557711
+          age: 4738717456
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 48995
+        temperature: 257
+        satellite:
+          semiMajorAxis: 192020.0649280621
+          eccentricity: 0.01
+          inclination: 1
+          orbitalArc: 216
+          axialTilt: 17.67
+          parentId: Aldulfin 1
+          showOrbit: true
+        satellites: []
+  - name: Aldulfin 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3018
+      age: 842521073
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.008401515379406905
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 46
+    satellite:
+      semiMajorAxis: 2545269945.2222214
+      eccentricity: 0
+      inclination: 0.04
+      orbitalArc: 211
+      axialTilt: 27.71
+      parentId: Aldulfin
+      showOrbit: true
+    satellites:
+      - name: Aldulfin 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 564.907790204931
+          age: 6193838702
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 44935804
+        temperature: 300
+        satellite:
+          semiMajorAxis: 146876.02545328205
+          eccentricity: 0.01
+          inclination: 1.09
+          orbitalArc: 179
+          axialTilt: 8.03
+          parentId: Aldulfin 2
+          showOrbit: true
+        satellites: []
+  - name: Aldulfin 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3011
+      age: 5094791931
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.001853908134576487
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 13465
+    temperature: 278
+    satellite:
+      semiMajorAxis: 2940117498.444444
+      eccentricity: 0.01
+      inclination: 0.91
+      orbitalArc: 63
+      axialTilt: 4.6
+      parentId: Aldulfin
+      showOrbit: true
+    satellites:
+      - name: Aldulfin 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 165.35031010184912
+          age: 655515559
+          ringMapAsset: null
+          terranMass: 0.3000001265128195
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1241
+        satellite:
+          semiMajorAxis: 88708.575236051
+          eccentricity: 0.01
+          inclination: 1.53
+          orbitalArc: 71
+          axialTilt: 13.13
+          parentId: Aldulfin 3
+          showOrbit: true
+        satellites: []
+      - name: Aldulfin 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 664.9641873082413
+          age: 6083525905
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 2.300000045044683
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 9427
+        temperature: 162
+        satellite:
+          semiMajorAxis: 252021.42698982346
+          eccentricity: 0.01
+          inclination: 0.15
+          orbitalArc: 250
+          axialTilt: 38.34
+          parentId: Aldulfin 3
+          showOrbit: true
+        satellites: []
+  - name: Aldulfin 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7350
+      age: 1850502175
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0027383718676046885
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 756
+    satellite:
+      semiMajorAxis: 3497698219.592595
+      eccentricity: 0.02
+      inclination: 0.81
+      orbitalArc: 228
+      axialTilt: 28.24
+      parentId: Aldulfin
+      showOrbit: true
+    satellites:
+      - name: Aldulfin 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 948.9040188739086
+          age: 9019000661
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 2.3000000970399057
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 7109
+        temperature: 167
+        satellite:
+          semiMajorAxis: 296751.8918615505
+          eccentricity: 0.01
+          inclination: 1.73
+          orbitalArc: 205
+          axialTilt: 12.95
+          parentId: Aldulfin 4
+          showOrbit: true
+        satellites: []
+      - name: Aldulfin 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1409.2644908690743
+          age: 463768886
+          ringMapAsset: null
+          terranMass: 1.0000001743700055
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 49
+        satellite:
+          semiMajorAxis: 508744.4812037358
+          eccentricity: 0.01
+          inclination: 0.39
+          orbitalArc: 62
+          axialTilt: 36.5
+          parentId: Aldulfin 4
+          showOrbit: true
+        satellites: []
+  - name: Aldulfin 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 56334
+      age: 9459456392
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.25290345229159655
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 217
+    satellite:
+      semiMajorAxis: 3798556107.950634
+      eccentricity: 0.01
+      inclination: 1.78
+      orbitalArc: 45
+      axialTilt: 11.48
+      parentId: Aldulfin
+      showOrbit: true
+    satellites:
+      - name: Aldulfin 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3662.40527145581
+          age: 177608280
+          ringMapAsset: null
+          terranMass: 1.1999996822923025
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 360
+        satellite:
+          semiMajorAxis: 1642306.57309634
+          eccentricity: 0.02
+          inclination: 1.33
+          orbitalArc: 68
+          axialTilt: 29.62
+          parentId: Aldulfin 5
+          showOrbit: true
+        satellites: []
+      - name: Aldulfin 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7253.258873707048
+          age: 7094645480
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.3000000328080774
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 46108
+        temperature: 153
+        satellite:
+          semiMajorAxis: 3147914.351188859
+          eccentricity: 0
+          inclination: 1.32
+          orbitalArc: 268
+          axialTilt: 5.79
+          parentId: Aldulfin 5
+          showOrbit: true
+        satellites: []
+  - name: Aldulfin 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 309
+      age: 329587972
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.004220217598710428
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 202
+    satellite:
+      semiMajorAxis: 3920409503.2430406
+      eccentricity: 0.01
+      inclination: 0.27
+      orbitalArc: 130
+      axialTilt: 22.41
+      parentId: Aldulfin
+      showOrbit: true
+    satellites: []
+  - name: Aldulfin 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 766
+      age: 430528615
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.005063010667909856
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 38
+    satellite:
+      semiMajorAxis: 3953113829.1081734
+      eccentricity: 0.02
+      inclination: 0.68
+      orbitalArc: 262
+      axialTilt: 11.95
+      parentId: Aldulfin
+      showOrbit: true
+    satellites:
+      - name: Aldulfin 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 133.12042380073584
+          age: 787518663
+          ringMapAsset: null
+          terranMass: 0.7000001604489071
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 34
+        satellite:
+          semiMajorAxis: 34478.18976439058
+          eccentricity: 0.01
+          inclination: 1.97
+          orbitalArc: 342
+          axialTilt: 3.53
+          parentId: Aldulfin 7
+          showOrbit: true
+        satellites: []
+  - name: Aldulfin 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 60183
+      age: 8150735205
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.9101113164820969
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 318
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 0.44
+      orbitalArc: 236
+      axialTilt: 31.17
+      parentId: Aldulfin
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

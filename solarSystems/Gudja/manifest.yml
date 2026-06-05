@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Gudja
+description: A solar system named Gudja
+position:
+  x: 159621315.01340023
+  'y': -62231079.166799165
+  z: -102928455.04605821
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Gudja
+stars:
+  - name: Gudja A
+    description: ''
+    tags: []
+    radius: 71.31
+    temperature: 3863
+    solarMass: 2.7
+    age: 137509702704
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 97
+      semiMajorAxis: 855.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Gudja
+  - name: Gudja B
+    description: ''
+    tags: []
+    radius: 71.31
+    temperature: 3863
+    solarMass: 2.7
+    age: 137509702704
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 277
+      semiMajorAxis: 855.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Gudja
+planets:
+  - name: Gudja 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6050
+      age: 1869932921
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.018153817196800783
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 832
+    satellite:
+      semiMajorAxis: 3659038236
+      eccentricity: 0
+      inclination: 1.61
+      orbitalArc: 98
+      axialTilt: 7.36
+      parentId: Gudja
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

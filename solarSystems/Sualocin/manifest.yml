@@ -1,0 +1,288 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sualocin
+description: A solar system named Sualocin
+position:
+  x: 98547834.0883548
+  'y': -36626336.27122731
+  z: 82426633.8860606
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sualocin
+stars:
+  - name: Sualocin A
+    description: ''
+    tags: []
+    radius: 3.92
+    temperature: 11643
+    solarMass: 3.83
+    age: 782233362005
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 289
+      semiMajorAxis: 47.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sualocin
+  - name: Sualocin B
+    description: ''
+    tags: []
+    radius: 3.92
+    temperature: 11643
+    solarMass: 3.83
+    age: 782233362005
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 469
+      semiMajorAxis: 47.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sualocin
+planets:
+  - name: Sualocin 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3449
+      age: 6579634781
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.002672081839421585
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 42231
+    temperature: 194
+    satellite:
+      semiMajorAxis: 746062132.9999998
+      eccentricity: 0.01
+      inclination: 0.11
+      orbitalArc: 335
+      axialTilt: 15.9
+      parentId: Sualocin
+      showOrbit: true
+    satellites: []
+  - name: Sualocin 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6439
+      age: 8730051529
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.012306072879537493
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 126969
+    temperature: 267
+    satellite:
+      semiMajorAxis: 2139875590.6666656
+      eccentricity: 0.02
+      inclination: 1.04
+      orbitalArc: 352
+      axialTilt: 33.69
+      parentId: Sualocin
+      showOrbit: true
+    satellites:
+      - name: Sualocin 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 968.7658382743867
+          age: 1667546135
+          ringMapAsset: null
+          terranMass: 1.100000009285838
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1492
+        satellite:
+          semiMajorAxis: 437306.21382955625
+          eccentricity: 0.01
+          inclination: 1.99
+          orbitalArc: 23
+          axialTilt: 12.93
+          parentId: Sualocin 2
+          showOrbit: true
+        satellites: []
+      - name: Sualocin 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1608.1871429536347
+          age: 7644173908
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 2.3000000996751466
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 9747
+        temperature: 243
+        satellite:
+          semiMajorAxis: 731725.1500439039
+          eccentricity: 0.02
+          inclination: 0.35
+          orbitalArc: 173
+          axialTilt: 9.02
+          parentId: Sualocin 2
+          showOrbit: true
+        satellites: []
+  - name: Sualocin 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7014
+      age: 3816329563
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0024296652152970594
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 4595629870
+    temperature: 301
+    satellite:
+      semiMajorAxis: 3187452103.1111093
+      eccentricity: 0.02
+      inclination: 1.09
+      orbitalArc: 168
+      axialTilt: 19.05
+      parentId: Sualocin
+      showOrbit: true
+    satellites: []
+  - name: Sualocin 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 28545
+      age: 4812710111
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 1.1981744110964179
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 226
+    satellite:
+      semiMajorAxis: 3546527548.5925827
+      eccentricity: 0.01
+      inclination: 0.9
+      orbitalArc: 38
+      axialTilt: 6.38
+      parentId: Sualocin
+      showOrbit: true
+    satellites:
+      - name: Sualocin 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6226.262226952126
+          age: 9028643127
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 459389422
+        temperature: 295
+        satellite:
+          semiMajorAxis: 1606198.233461016
+          eccentricity: 0.01
+          inclination: 0.31
+          orbitalArc: 197
+          axialTilt: 31.86
+          parentId: Sualocin 4
+          showOrbit: true
+        satellites: []
+      - name: Sualocin 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6251.364715642207
+          age: 9654414083
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 84025700
+        temperature: 294
+        satellite:
+          semiMajorAxis: 3094425.534242892
+          eccentricity: 0
+          inclination: 0.1
+          orbitalArc: 350
+          axialTilt: 21.6
+          parentId: Sualocin 4
+          showOrbit: true
+        satellites: []
+  - name: Sualocin 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 156
+      age: 553205838
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0004173308642729641
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 226
+    satellite:
+      semiMajorAxis: 3845324272
+      eccentricity: 0.01
+      inclination: 0.09
+      orbitalArc: 65
+      axialTilt: 28.17
+      parentId: Sualocin
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

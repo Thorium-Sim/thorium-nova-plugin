@@ -1,0 +1,597 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Maia
+description: A solar system named Maia
+position:
+  x: -135962503.146719
+  'y': -92981774.58996764
+  z: 100600392.59550402
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Maia
+stars:
+  - name: Maia A
+    description: ''
+    tags: []
+    radius: 6.61
+    temperature: 12550
+    solarMass: 4.74
+    age: 252214356562
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 214
+      semiMajorAxis: 79.32000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Maia
+  - name: Maia B
+    description: ''
+    tags: []
+    radius: 6.61
+    temperature: 12550
+    solarMass: 4.74
+    age: 252214356562
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 394
+      semiMajorAxis: 79.32000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Maia
+planets:
+  - name: Maia 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1492
+      age: 1193578563
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0005039563518173994
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 402
+    satellite:
+      semiMajorAxis: 1474327987.333334
+      eccentricity: 0.01
+      inclination: 0.54
+      orbitalArc: 51
+      axialTilt: 34.86
+      parentId: Maia
+      showOrbit: true
+    satellites:
+      - name: Maia 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 146.71167102598392
+          age: 9683493881
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.5000000725446782
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 4346
+        temperature: 295
+        satellite:
+          semiMajorAxis: 44918.13223499431
+          eccentricity: 0.02
+          inclination: 1.68
+          orbitalArc: 320
+          axialTilt: 17.43
+          parentId: Maia 1
+          showOrbit: true
+        satellites: []
+      - name: Maia 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 251.68998037052575
+          age: 534921582
+          ringMapAsset: null
+          terranMass: 0.30000012271337473
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 44
+        satellite:
+          semiMajorAxis: 89349.94303153663
+          eccentricity: 0
+          inclination: 1.72
+          orbitalArc: 67
+          axialTilt: 21.36
+          parentId: Maia 1
+          showOrbit: true
+        satellites: []
+  - name: Maia 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 76
+      age: 105868252
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.009576299301070021
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 381
+    satellite:
+      semiMajorAxis: 2215311892.444444
+      eccentricity: 0
+      inclination: 1.59
+      orbitalArc: 114
+      axialTilt: 35.5
+      parentId: Maia
+      showOrbit: true
+    satellites: []
+  - name: Maia 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7102
+      age: 9182416533
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.011766895195298572
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 7798436454
+    temperature: 293
+    satellite:
+      semiMajorAxis: 2712630968.925925
+      eccentricity: 0
+      inclination: 0.9
+      orbitalArc: 221
+      axialTilt: 34.73
+      parentId: Maia
+      showOrbit: true
+    satellites:
+      - name: Maia 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 592.6457448232327
+          age: 6390216407
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.7000000386627532
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 544
+        satellite:
+          semiMajorAxis: 116123.36618638225
+          eccentricity: 0
+          inclination: 1.93
+          orbitalArc: 236
+          axialTilt: 36.54
+          parentId: Maia 3
+          showOrbit: true
+        satellites: []
+      - name: Maia 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 973.7413522804253
+          age: 1381076852
+          ringMapAsset: null
+          terranMass: 0.5000000662882521
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 765
+        satellite:
+          semiMajorAxis: 332917.3095912287
+          eccentricity: 0.01
+          inclination: 1.78
+          orbitalArc: 260
+          axialTilt: 34.45
+          parentId: Maia 3
+          showOrbit: true
+        satellites: []
+      - name: Maia 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1485.6045336984807
+          age: 8724174362
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+          classification: 'N'
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 238695974
+        temperature: 399
+        satellite:
+          semiMajorAxis: 514019.16865967435
+          eccentricity: 0.01
+          inclination: 1.15
+          orbitalArc: 314
+          axialTilt: 5.39
+          parentId: Maia 3
+          showOrbit: true
+        satellites: []
+  - name: Maia 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5547
+      age: 1882595844
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.00560392144160042
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 623
+    satellite:
+      semiMajorAxis: 3377342527.851848
+      eccentricity: 0.02
+      inclination: 0.74
+      orbitalArc: 301
+      axialTilt: 10.15
+      parentId: Maia
+      showOrbit: true
+    satellites:
+      - name: Maia 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 381.03343890020244
+          age: 246924360
+          ringMapAsset: null
+          terranMass: 0.8199999020098125
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 242
+        satellite:
+          semiMajorAxis: 66628.68190258669
+          eccentricity: 0.02
+          inclination: 0.09
+          orbitalArc: 117
+          axialTilt: 12.8
+          parentId: Maia 4
+          showOrbit: true
+        satellites: []
+      - name: Maia 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 476.24013595031346
+          age: 9074776644
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+          classification: M
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 932335829
+        temperature: 297
+        satellite:
+          semiMajorAxis: 219002.82445756986
+          eccentricity: 0.02
+          inclination: 1.07
+          orbitalArc: 190
+          axialTilt: 23.67
+          parentId: Maia 4
+          showOrbit: true
+        satellites: []
+      - name: Maia 4c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1127.9574311111373
+          age: 9451806381
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 25716
+        temperature: 263
+        satellite:
+          semiMajorAxis: 305676.4638311182
+          eccentricity: 0.02
+          inclination: 1.54
+          orbitalArc: 76
+          axialTilt: 14.32
+          parentId: Maia 4
+          showOrbit: true
+        satellites: []
+  - name: Maia 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4178
+      age: 8814942250
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0177557612287208
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 16435
+    temperature: 272
+    satellite:
+      semiMajorAxis: 3661773871.1110888
+      eccentricity: 0.02
+      inclination: 1.73
+      orbitalArc: 172
+      axialTilt: 10.39
+      parentId: Maia
+      showOrbit: true
+    satellites: []
+  - name: Maia 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 281
+      age: 958195690
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.003912878555140234
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 246
+    satellite:
+      semiMajorAxis: 3829380447.6665273
+      eccentricity: 0.02
+      inclination: 1.27
+      orbitalArc: 216
+      axialTilt: 24.9
+      parentId: Maia
+      showOrbit: true
+    satellites: []
+  - name: Maia 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 49826
+      age: 2012527078
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.6262505512245117
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 150
+    satellite:
+      semiMajorAxis: 3895050493.9991584
+      eccentricity: 0.01
+      inclination: 1.51
+      orbitalArc: 190
+      axialTilt: 22.78
+      parentId: Maia
+      showOrbit: true
+    satellites:
+      - name: Maia 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3713.7937606487185
+          age: 6297990876
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 52645
+        temperature: 264
+        satellite:
+          semiMajorAxis: 1636800.3651269278
+          eccentricity: 0
+          inclination: 1.9
+          orbitalArc: 6
+          axialTilt: 6.5
+          parentId: Maia 7
+          showOrbit: true
+        satellites: []
+      - name: Maia 7b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6096.510168564462
+          age: 4630039513
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.1000000050756467
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 3052
+        temperature: 170
+        satellite:
+          semiMajorAxis: 2454449.233354671
+          eccentricity: 0
+          inclination: 1.21
+          orbitalArc: 236
+          axialTilt: 22.42
+          parentId: Maia 7
+          showOrbit: true
+        satellites: []
+      - name: Maia 7c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 11452.978638466328
+          age: 876618217
+          ringMapAsset: null
+          terranMass: 0.8099999576039478
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 326
+        satellite:
+          semiMajorAxis: 3974183.587547816
+          eccentricity: 0.01
+          inclination: 1.96
+          orbitalArc: 75
+          axialTilt: 1.41
+          parentId: Maia 7
+          showOrbit: true
+        satellites: []
+  - name: Maia 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 29159
+      age: 7196603686
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.769875768022583
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 155
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 1.99
+      orbitalArc: 1
+      axialTilt: 19.54
+      parentId: Maia
+      showOrbit: true
+    satellites:
+      - name: Maia 8a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1669.920350796932
+          age: 509365274
+          ringMapAsset: null
+          terranMass: 0.18999972252558028
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 387
+        satellite:
+          semiMajorAxis: 1502755.0766267972
+          eccentricity: 0.01
+          inclination: 0.13
+          orbitalArc: 49
+          axialTilt: 23.8
+          parentId: Maia 8
+          showOrbit: true
+        satellites: []
+      - name: Maia 8b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5944.661352421206
+          age: 413968902
+          ringMapAsset: null
+          terranMass: 0.07999982789503667
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 172
+        satellite:
+          semiMajorAxis: 2354085.8955587978
+          eccentricity: 0.01
+          inclination: 1.35
+          orbitalArc: 243
+          axialTilt: 5.48
+          parentId: Maia 8
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

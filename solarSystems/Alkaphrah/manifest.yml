@@ -1,0 +1,59 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alkaphrah
+description: A solar system named Alkaphrah
+position:
+  x: -89591702.14908123
+  'y': -138830864.7478668
+  z: -92472018.13927172
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alkaphrah
+stars:
+  - name: 'Alkaphrah '
+    description: ''
+    tags: []
+    radius: 7.87
+    temperature: 9060
+    solarMass: 3.79
+    age: 523776777050
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 194
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alkaphrah
+planets:
+  - name: Alkaphrah 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 500
+      age: 77813297
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.00032192962948490337
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 370
+    satellite:
+      semiMajorAxis: 3786103656
+      eccentricity: 0.02
+      inclination: 0.42
+      orbitalArc: 22
+      axialTilt: 37.87
+      parentId: Alkaphrah
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

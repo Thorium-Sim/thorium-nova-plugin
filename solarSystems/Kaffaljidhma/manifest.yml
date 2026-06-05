@@ -1,0 +1,264 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Kaffaljidhma
+description: A solar system named Kaffaljidhma
+position:
+  x: -27463977.623195726
+  'y': -2375051.33634167
+  z: 31789088.73343724
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Kaffaljidhma
+stars:
+  - name: Kaffaljidhma A
+    description: ''
+    tags: []
+    radius: 1.9
+    temperature: 8551
+    solarMass: 1.88
+    age: 5617619324202
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 307
+      semiMajorAxis: 22.799999999999997
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kaffaljidhma
+  - name: Kaffaljidhma B
+    description: ''
+    tags: []
+    radius: 1.9
+    temperature: 8551
+    solarMass: 1.88
+    age: 5617619324202
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 487
+      semiMajorAxis: 22.799999999999997
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kaffaljidhma
+planets:
+  - name: Kaffaljidhma 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6832
+      age: 7121030171
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.014381569453895541
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 898
+    satellite:
+      semiMajorAxis: 122882068.66666587
+      eccentricity: 0.01
+      inclination: 0.13
+      orbitalArc: 115
+      axialTilt: 4.52
+      parentId: Kaffaljidhma
+      showOrbit: true
+    satellites:
+      - name: Kaffaljidhma 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 738.4703680072143
+          age: 8304323433
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 0.3000000886280544
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 41262
+        temperature: 223
+        satellite:
+          semiMajorAxis: 245562.90257319354
+          eccentricity: 0
+          inclination: 0.51
+          orbitalArc: 272
+          axialTilt: 29.84
+          parentId: Kaffaljidhma 1
+          showOrbit: true
+        satellites: []
+      - name: Kaffaljidhma 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1421.0353910474653
+          age: 896788089
+          ringMapAsset: null
+          terranMass: 1.3899997615043092
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 239
+        satellite:
+          semiMajorAxis: 501625.49303975527
+          eccentricity: 0
+          inclination: 0.62
+          orbitalArc: 168
+          axialTilt: 15.56
+          parentId: Kaffaljidhma 1
+          showOrbit: true
+        satellites: []
+  - name: Kaffaljidhma 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3869
+      age: 3950828976
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0056959936068088825
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 537
+    satellite:
+      semiMajorAxis: 458389352.8888867
+      eccentricity: 0
+      inclination: 1.03
+      orbitalArc: 108
+      axialTilt: 9.73
+      parentId: Kaffaljidhma
+      showOrbit: true
+    satellites:
+      - name: Kaffaljidhma 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 932.209988749926
+          age: 458578773
+          ringMapAsset: null
+          terranMass: 0.500000184418336
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 53
+        satellite:
+          semiMajorAxis: 384070.5153649695
+          eccentricity: 0.01
+          inclination: 1.86
+          orbitalArc: 3
+          axialTilt: 20.69
+          parentId: Kaffaljidhma 2
+          showOrbit: true
+        satellites: []
+  - name: Kaffaljidhma 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 55752
+      age: 7108821409
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.1780509274518236
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 191
+    satellite:
+      semiMajorAxis: 1063895013
+      eccentricity: 0
+      inclination: 0.24
+      orbitalArc: 172
+      axialTilt: 3.44
+      parentId: Kaffaljidhma
+      showOrbit: true
+    satellites:
+      - name: Kaffaljidhma 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5824.669084238138
+          age: 6461101577
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 0.5000000088708075
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 16692
+        temperature: 302
+        satellite:
+          semiMajorAxis: 1932531.2303267308
+          eccentricity: 0
+          inclination: 1.88
+          orbitalArc: 12
+          axialTilt: 9.82
+          parentId: Kaffaljidhma 3
+          showOrbit: true
+        satellites: []
+      - name: Kaffaljidhma 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7535.487830383304
+          age: 4731518246
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.9000000305358062
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 8353
+        temperature: 214
+        satellite:
+          semiMajorAxis: 3164904.8887609877
+          eccentricity: 0
+          inclination: 0.74
+          orbitalArc: 236
+          axialTilt: 20.14
+          parentId: Kaffaljidhma 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

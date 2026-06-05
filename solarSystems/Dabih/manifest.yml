@@ -1,0 +1,237 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Dabih
+description: A solar system named Dabih
+position:
+  x: 136215767.914495
+  'y': 44014060.806302235
+  z: 96277779.59746456
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Dabih
+stars:
+  - name: Dabih A
+    description: ''
+    tags: []
+    radius: 35
+    temperature: 4900
+    solarMass: 6.22
+    age: 507971399020
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 267
+      semiMajorAxis: 420
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Dabih
+  - name: Dabih B
+    description: ''
+    tags: []
+    radius: 35
+    temperature: 4900
+    solarMass: 6.22
+    age: 507971399020
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 447
+      semiMajorAxis: 420
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Dabih
+planets:
+  - name: Dabih 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 433
+      age: 822925839
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0022032133426897337
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 161
+    satellite:
+      semiMajorAxis: 1511279471.9999998
+      eccentricity: 0
+      inclination: 1.55
+      orbitalArc: 256
+      axialTilt: 32.34
+      parentId: Dabih
+      showOrbit: true
+    satellites: []
+  - name: Dabih 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4061
+      age: 6149592332
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.016329755962156148
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 40676
+    temperature: 207
+    satellite:
+      semiMajorAxis: 2340761705
+      eccentricity: 0.01
+      inclination: 0.8
+      orbitalArc: 348
+      axialTilt: 2.69
+      parentId: Dabih
+      showOrbit: true
+    satellites:
+      - name: Dabih 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 217.2595580745278
+          age: 3418757476
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+          classification: 'N'
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 278907201
+        temperature: 626
+        satellite:
+          semiMajorAxis: 83644.9298586932
+          eccentricity: 0.02
+          inclination: 1.78
+          orbitalArc: 350
+          axialTilt: 5.11
+          parentId: Dabih 2
+          showOrbit: true
+        satellites: []
+  - name: Dabih 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3377
+      age: 6502291132
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.00254969888052906
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 3774
+    temperature: 233
+    satellite:
+      semiMajorAxis: 2909681283.9999986
+      eccentricity: 0
+      inclination: 1.33
+      orbitalArc: 187
+      axialTilt: 7
+      parentId: Dabih
+      showOrbit: true
+    satellites:
+      - name: Dabih 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 397.18559525488774
+          age: 3286285994
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          classification: G
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 0
+        temperature: 470
+        satellite:
+          semiMajorAxis: 174364.4763168957
+          eccentricity: 0.02
+          inclination: 0.73
+          orbitalArc: 25
+          axialTilt: 10.14
+          parentId: Dabih 3
+          showOrbit: true
+        satellites: []
+  - name: Dabih 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 31199
+      age: 6306677599
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 1.6170438177434365
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 305
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 0.21
+      orbitalArc: 218
+      axialTilt: 25.6
+      parentId: Dabih
+      showOrbit: true
+    satellites:
+      - name: Dabih 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3380.3680308998373
+          age: 4304745195
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 183960
+        temperature: 255
+        satellite:
+          semiMajorAxis: 1507644.1417813275
+          eccentricity: 0
+          inclination: 0.16
+          orbitalArc: 231
+          axialTilt: 8.92
+          parentId: Dabih 4
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

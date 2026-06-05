@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Wazn
+description: A solar system named Wazn
+position:
+  x: -37184283.90050264
+  'y': 26807751.993611842
+  z: 1467495.2384130117
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Wazn
+stars:
+  - name: Wazn A
+    description: ''
+    tags: []
+    radius: 11.5
+    temperature: 4545
+    solarMass: 1.1
+    age: 1124166757364
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 325
+      semiMajorAxis: 138
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Wazn
+  - name: Wazn B
+    description: ''
+    tags: []
+    radius: 11.5
+    temperature: 4545
+    solarMass: 1.1
+    age: 1124166757364
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 505
+      semiMajorAxis: 138
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Wazn
+planets: []
+commSatellite: null
+assets: {}

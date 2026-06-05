@@ -1,0 +1,208 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Elkurud
+description: A solar system named Elkurud
+position:
+  x: -301264710.56974816
+  'y': 229234868.80558848
+  z: -9898183.997605858
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Elkurud
+stars:
+  - name: Elkurud A
+    description: ''
+    tags: []
+    radius: 7.377
+    temperature: 9916
+    solarMass: 4.13
+    age: 452703338032
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 214
+      semiMajorAxis: 88.524
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Elkurud
+  - name: Elkurud B
+    description: ''
+    tags: []
+    radius: 7.377
+    temperature: 9916
+    solarMass: 4.13
+    age: 452703338032
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 394
+      semiMajorAxis: 88.524
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Elkurud
+planets:
+  - name: Elkurud 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 269
+      age: 31448392
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.015631748015061026
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 162
+    satellite:
+      semiMajorAxis: 1454823620.3333333
+      eccentricity: 0.02
+      inclination: 0.84
+      orbitalArc: 212
+      axialTilt: 2.8
+      parentId: Elkurud
+      showOrbit: true
+    satellites: []
+  - name: Elkurud 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 46685
+      age: 5172262723
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 0.14298326650820284
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 241
+    satellite:
+      semiMajorAxis: 2326301556.3333335
+      eccentricity: 0
+      inclination: 1.68
+      orbitalArc: 146
+      axialTilt: 5.96
+      parentId: Elkurud
+      showOrbit: true
+    satellites:
+      - name: Elkurud 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4169.380259446714
+          age: 837209597
+          ringMapAsset: null
+          terranMass: 0.2199996656700669
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 321
+        satellite:
+          semiMajorAxis: 1277983.8297863957
+          eccentricity: 0
+          inclination: 0.91
+          orbitalArc: 187
+          axialTilt: 34.83
+          parentId: Elkurud 2
+          showOrbit: true
+        satellites: []
+      - name: Elkurud 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7721.708563780404
+          age: 883845892
+          ringMapAsset: null
+          terranMass: 0.26999980935425794
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 237
+        satellite:
+          semiMajorAxis: 2602215.785993996
+          eccentricity: 0.01
+          inclination: 1.01
+          orbitalArc: 84
+          axialTilt: 28.32
+          parentId: Elkurud 2
+          showOrbit: true
+        satellites: []
+  - name: Elkurud 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 32705
+      age: 3547841980
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.9597113383549061
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 222
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 1.49
+      orbitalArc: 59
+      axialTilt: 15.55
+      parentId: Elkurud
+      showOrbit: true
+    satellites:
+      - name: Elkurud 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4201.4963772391775
+          age: 436429670
+          ringMapAsset: null
+          terranMass: 0.6399999724937115
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 269
+        satellite:
+          semiMajorAxis: 1365486.3226027326
+          eccentricity: 0.02
+          inclination: 1.16
+          orbitalArc: 223
+          axialTilt: 14.49
+          parentId: Elkurud 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

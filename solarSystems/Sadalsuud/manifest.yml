@@ -1,0 +1,59 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sadalsuud
+description: A solar system named Sadalsuud
+position:
+  x: 170553372.8862769
+  'y': 27573135.286967266
+  z: 225427861.5125495
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sadalsuud
+stars:
+  - name: 'Sadalsuud '
+    description: ''
+    tags: []
+    radius: 47.88
+    temperature: 5608
+    solarMass: 4.97
+    age: 126411146397
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 344
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sadalsuud
+planets:
+  - name: Sadalsuud 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 145
+      age: 560276375
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.00012613697730528263
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 400
+    satellite:
+      semiMajorAxis: 4350131666
+      eccentricity: 0.01
+      inclination: 0.55
+      orbitalArc: 64
+      axialTilt: 32.08
+      parentId: Sadalsuud
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,411 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Furud
+description: A solar system named Furud
+position:
+  x: -164136870.21826398
+  'y': 95381062.93805969
+  z: -14586167.759527322
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Furud
+stars:
+  - name: Furud A
+    description: ''
+    tags: []
+    radius: 5.72
+    temperature: 18700
+    solarMass: 7.7
+    age: 110994517054
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 242
+      semiMajorAxis: 68.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Furud
+  - name: Furud B
+    description: ''
+    tags: []
+    radius: 5.72
+    temperature: 18700
+    solarMass: 7.7
+    age: 110994517054
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 422
+      semiMajorAxis: 68.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Furud
+planets:
+  - name: Furud 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2742
+      age: 703451378
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.010419163153907108
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 55
+    satellite:
+      semiMajorAxis: 1576941053.9999995
+      eccentricity: 0.01
+      inclination: 1.45
+      orbitalArc: 86
+      axialTilt: 23.76
+      parentId: Furud
+      showOrbit: true
+    satellites:
+      - name: Furud 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 285.3240611256157
+          age: 377711720
+          ringMapAsset: null
+          terranMass: 0.3899996227678788
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 209
+        satellite:
+          semiMajorAxis: 39198.921074926926
+          eccentricity: 0.02
+          inclination: 0.55
+          orbitalArc: 69
+          axialTilt: 8.78
+          parentId: Furud 1
+          showOrbit: true
+        satellites: []
+      - name: Furud 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 295.80341922773596
+          age: 4983376573
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.10000009650315
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 33188
+        temperature: 137
+        satellite:
+          semiMajorAxis: 175178.95232447822
+          eccentricity: 0.02
+          inclination: 1.22
+          orbitalArc: 81
+          axialTilt: 1.7
+          parentId: Furud 1
+          showOrbit: true
+        satellites: []
+      - name: Furud 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 668.8136581939445
+          age: 457878018
+          ringMapAsset: null
+          terranMass: 0.23999992921843094
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 221
+        satellite:
+          semiMajorAxis: 281570.55009965063
+          eccentricity: 0
+          inclination: 1.08
+          orbitalArc: 85
+          axialTilt: 33.36
+          parentId: Furud 1
+          showOrbit: true
+        satellites: []
+  - name: Furud 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 66951
+      age: 9083744091
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.8097337421401716
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 333
+    satellite:
+      semiMajorAxis: 2904873251.999999
+      eccentricity: 0.01
+      inclination: 0.26
+      orbitalArc: 38
+      axialTilt: 30.72
+      parentId: Furud
+      showOrbit: true
+    satellites:
+      - name: Furud 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6356.081821303776
+          age: 1856670879
+          ringMapAsset: null
+          terranMass: 1.3000000690081563
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 898
+        satellite:
+          semiMajorAxis: 1408833.6129353442
+          eccentricity: 0.02
+          inclination: 1.69
+          orbitalArc: 117
+          axialTilt: 0.39
+          parentId: Furud 2
+          showOrbit: true
+        satellites: []
+      - name: Furud 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 12476.393764402052
+          age: 9728634994
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 159878
+        temperature: 255
+        satellite:
+          semiMajorAxis: 3393579.103917358
+          eccentricity: 0.02
+          inclination: 1.17
+          orbitalArc: 345
+          axialTilt: 22.72
+          parentId: Furud 2
+          showOrbit: true
+        satellites: []
+  - name: Furud 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 74
+      age: 169630633
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.005100140221475222
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 246
+    satellite:
+      semiMajorAxis: 3298737792.333327
+      eccentricity: 0.01
+      inclination: 1.66
+      orbitalArc: 6
+      axialTilt: 28.51
+      parentId: Furud
+      showOrbit: true
+    satellites: []
+  - name: Furud 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4941
+      age: 219860226
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.031465011941812344
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 39
+    satellite:
+      semiMajorAxis: 3667617577.66663
+      eccentricity: 0.01
+      inclination: 0.51
+      orbitalArc: 91
+      axialTilt: 2.02
+      parentId: Furud
+      showOrbit: true
+    satellites: []
+  - name: Furud 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 233
+      age: 178424168
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0006860395135574555
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 288
+    satellite:
+      semiMajorAxis: 3987631784.6666303
+      eccentricity: 0.01
+      inclination: 1.22
+      orbitalArc: 315
+      axialTilt: 30.74
+      parentId: Furud
+      showOrbit: true
+    satellites: []
+  - name: Furud 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4677
+      age: 5316422196
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.008260995670060155
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 9236
+    temperature: 215
+    satellite:
+      semiMajorAxis: 4303443760.999774
+      eccentricity: 0.01
+      inclination: 1
+      orbitalArc: 264
+      axialTilt: 0.65
+      parentId: Furud
+      showOrbit: true
+    satellites:
+      - name: Furud 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 713.3442766099224
+          age: 7666823516
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 28913
+        temperature: 268
+        satellite:
+          semiMajorAxis: 228983.5127917851
+          eccentricity: 0.02
+          inclination: 0.32
+          orbitalArc: 180
+          axialTilt: 34.12
+          parentId: Furud 6
+          showOrbit: true
+        satellites: []
+  - name: Furud 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 333
+      age: 927899173
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0063584051808164704
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 214
+    satellite:
+      semiMajorAxis: 5082521514.999327
+      eccentricity: 0.02
+      inclination: 0.02
+      orbitalArc: 174
+      axialTilt: 0.99
+      parentId: Furud
+      showOrbit: true
+    satellites: []
+  - name: Furud 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 185
+      age: 822277161
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.009348028118624792
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 229
+    satellite:
+      semiMajorAxis: 5714815705
+      eccentricity: 0.01
+      inclination: 0.79
+      orbitalArc: 291
+      axialTilt: 3.28
+      parentId: Furud
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

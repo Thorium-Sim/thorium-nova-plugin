@@ -1,0 +1,106 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Mahasim
+description: A solar system named Mahasim
+position:
+  x: -69532869.54122974
+  'y': -52802435.93312052
+  z: 84596.10293598607
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Mahasim
+stars:
+  - name: Mahasim A
+    description: ''
+    tags: []
+    radius: 4.68
+    temperature: 10200
+    solarMass: 3.24
+    age: 788173631659
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 106
+      semiMajorAxis: 56.16
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mahasim
+  - name: Mahasim B
+    description: ''
+    tags: []
+    radius: 4.68
+    temperature: 10200
+    solarMass: 3.24
+    age: 788173631659
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 286
+      semiMajorAxis: 56.16
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mahasim
+planets:
+  - name: Mahasim 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 59788
+      age: 4463426013
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 1.7424858570453912
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 174
+    satellite:
+      semiMajorAxis: 3351029077
+      eccentricity: 0.02
+      inclination: 0.05
+      orbitalArc: 211
+      axialTilt: 36.58
+      parentId: Mahasim
+      showOrbit: true
+    satellites:
+      - name: Mahasim 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 10735.786092035005
+          age: 9177091843
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 46631
+        temperature: 263
+        satellite:
+          semiMajorAxis: 5013612.104980348
+          eccentricity: 0
+          inclination: 1.41
+          orbitalArc: 262
+          axialTilt: 30.41
+          parentId: Mahasim 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

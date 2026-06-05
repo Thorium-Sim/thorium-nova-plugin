@@ -1,0 +1,34 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Muliphein
+description: A solar system named Muliphein
+position:
+  x: -214292622.45312136
+  'y': 62363552.09103084
+  z: -61202831.262232244
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Muliphein
+stars:
+  - name: 'Muliphein '
+    description: ''
+    tags: []
+    radius: 6.08
+    temperature: 11732
+    solarMass: 4.15
+    age: 341760609372
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 197
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Muliphein
+planets: []
+commSatellite: null
+assets: {}

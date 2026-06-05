@@ -1,0 +1,105 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alchiba
+description: A solar system named Alchiba
+position:
+  x: 853909.5645914868
+  'y': 10715078.79096118
+  z: -23249684.524278987
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alchiba
+stars:
+  - name: Alchiba A
+    description: ''
+    tags: []
+    radius: 1.42
+    temperature: 6985
+    solarMass: 1.34
+    age: 16100217842103
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 113
+      semiMajorAxis: 17.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alchiba
+  - name: Alchiba B
+    description: ''
+    tags: []
+    radius: 1.42
+    temperature: 6985
+    solarMass: 1.34
+    age: 16100217842103
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 293
+      semiMajorAxis: 17.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alchiba
+planets:
+  - name: Alchiba 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 109
+      age: 593012317
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0041228715415777125
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 371
+    satellite:
+      semiMajorAxis: 316356051.33333385
+      eccentricity: 0.01
+      inclination: 1.05
+      orbitalArc: 259
+      axialTilt: 30.6
+      parentId: Alchiba
+      showOrbit: true
+    satellites: []
+  - name: Alchiba 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 34383
+      age: 5103792188
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.03729201571603585
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 315
+    satellite:
+      semiMajorAxis: 866894516
+      eccentricity: 0.01
+      inclination: 1.91
+      orbitalArc: 344
+      axialTilt: 15.89
+      parentId: Alchiba
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

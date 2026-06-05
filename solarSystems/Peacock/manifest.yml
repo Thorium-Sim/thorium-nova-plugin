@@ -1,0 +1,181 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Peacock
+description: A solar system named Peacock
+position:
+  x: 41558800.29935113
+  'y': 78720263.22368854
+  z: 30653119.868252248
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Peacock
+stars:
+  - name: Peacock A
+    description: ''
+    tags: []
+    radius: 4.83
+    temperature: 17711
+    solarMass: 5.91
+    age: 148487594456
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 174
+      semiMajorAxis: 57.96
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Peacock
+  - name: Peacock B
+    description: ''
+    tags: []
+    radius: 4.83
+    temperature: 17711
+    solarMass: 5.91
+    age: 148487594456
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 354
+      semiMajorAxis: 57.96
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Peacock
+planets:
+  - name: Peacock 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 66906
+      age: 9303089543
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 1.316243210259416
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 192
+    satellite:
+      semiMajorAxis: 2453981425.333333
+      eccentricity: 0.01
+      inclination: 0.41
+      orbitalArc: 33
+      axialTilt: 19.06
+      parentId: Peacock
+      showOrbit: true
+    satellites: []
+  - name: Peacock 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 338
+      age: 399284865
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0035971609346996925
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 190
+    satellite:
+      semiMajorAxis: 3503766455.4444437
+      eccentricity: 0.02
+      inclination: 1.59
+      orbitalArc: 152
+      axialTilt: 12.22
+      parentId: Peacock
+      showOrbit: true
+    satellites: []
+  - name: Peacock 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6374
+      age: 3420697775
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.00505389235274724
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 486
+    satellite:
+      semiMajorAxis: 4141766033
+      eccentricity: 0.01
+      inclination: 1.41
+      orbitalArc: 207
+      axialTilt: 11.7
+      parentId: Peacock
+      showOrbit: true
+    satellites:
+      - name: Peacock 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1065.3309665138906
+          age: 408824869
+          ringMapAsset: null
+          terranMass: 1.229999636752493
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 163
+        satellite:
+          semiMajorAxis: 237130.23103536104
+          eccentricity: 0.02
+          inclination: 1.23
+          orbitalArc: 303
+          axialTilt: 38.81
+          parentId: Peacock 3
+          showOrbit: true
+        satellites: []
+      - name: Peacock 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1130.3947794462313
+          age: 343467242
+          ringMapAsset: null
+          terranMass: 0.8299997240234245
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 248
+        satellite:
+          semiMajorAxis: 449897.1222196
+          eccentricity: 0.01
+          inclination: 0.33
+          orbitalArc: 23
+          axialTilt: 19.03
+          parentId: Peacock 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,370 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alshain
+description: A solar system named Alshain
+position:
+  x: 20468101.78881702
+  'y': -2623438.298029848
+  z: 11265604.869193656
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alshain
+stars:
+  - name: Alshain A
+    description: ''
+    tags: []
+    radius: 3.096
+    temperature: 5090
+    solarMass: 1.24
+    age: 11115216756391
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 285
+      semiMajorAxis: 37.152
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alshain
+  - name: Alshain B
+    description: ''
+    tags: []
+    radius: 3.096
+    temperature: 5090
+    solarMass: 1.24
+    age: 11115216756391
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 465
+      semiMajorAxis: 37.152
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alshain
+planets:
+  - name: Alshain 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 458
+      age: 510377903
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0016115186866081917
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 283
+    satellite:
+      semiMajorAxis: 176871839
+      eccentricity: 0.01
+      inclination: 0.57
+      orbitalArc: 271
+      axialTilt: 9.37
+      parentId: Alshain
+      showOrbit: true
+    satellites: []
+  - name: Alshain 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2179
+      age: 921033929
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0010389274507106127
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 35
+    satellite:
+      semiMajorAxis: 921873402.3333334
+      eccentricity: 0.01
+      inclination: 1.7
+      orbitalArc: 329
+      axialTilt: 18.16
+      parentId: Alshain
+      showOrbit: true
+    satellites: []
+  - name: Alshain 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3197
+      age: 851470189
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.016766976022024132
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 36
+    satellite:
+      semiMajorAxis: 1556389367.9999993
+      eccentricity: 0.02
+      inclination: 0.84
+      orbitalArc: 264
+      axialTilt: 25.43
+      parentId: Alshain
+      showOrbit: true
+    satellites:
+      - name: Alshain 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 211.05332134424322
+          age: 5389597564
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 57689
+        temperature: 268
+        satellite:
+          semiMajorAxis: 89275.55492861487
+          eccentricity: 0.01
+          inclination: 1.87
+          orbitalArc: 244
+          axialTilt: 3.02
+          parentId: Alshain 3
+          showOrbit: true
+        satellites: []
+  - name: Alshain 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 42344
+      age: 5597384637
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 1.2706375783741561
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 339
+    satellite:
+      semiMajorAxis: 2162170938.333333
+      eccentricity: 0.01
+      inclination: 1.66
+      orbitalArc: 90
+      axialTilt: 6.6
+      parentId: Alshain
+      showOrbit: true
+    satellites:
+      - name: Alshain 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4260.165388885458
+          age: 5023930680
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 2.1000000140192956
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 762
+        satellite:
+          semiMajorAxis: 990171.4949829052
+          eccentricity: 0
+          inclination: 2
+          orbitalArc: 233
+          axialTilt: 25.45
+          parentId: Alshain 4
+          showOrbit: true
+        satellites: []
+      - name: Alshain 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6401.894135249196
+          age: 261362597
+          ringMapAsset: null
+          terranMass: 1.5000000741689932
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1771
+        satellite:
+          semiMajorAxis: 1843745.5109517684
+          eccentricity: 0.01
+          inclination: 0.09
+          orbitalArc: 229
+          axialTilt: 17.56
+          parentId: Alshain 4
+          showOrbit: true
+        satellites: []
+  - name: Alshain 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 56114
+      age: 9815187105
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 0.18516478250971177
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 256
+    satellite:
+      semiMajorAxis: 3186696335.888886
+      eccentricity: 0
+      inclination: 1.98
+      orbitalArc: 353
+      axialTilt: 19.89
+      parentId: Alshain
+      showOrbit: true
+    satellites:
+      - name: Alshain 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 9238.578672596504
+          age: 595336188
+          ringMapAsset: null
+          terranMass: 0.48999988337361544
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 177
+        satellite:
+          semiMajorAxis: 2512893.3989462494
+          eccentricity: 0.01
+          inclination: 0.52
+          orbitalArc: 122
+          axialTilt: 26.66
+          parentId: Alshain 5
+          showOrbit: true
+        satellites: []
+  - name: Alshain 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4258677
+      age: 2468492075
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 4.920308011828528
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureFluorescent.jpg
+      classification: I
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 221
+    satellite:
+      semiMajorAxis: 3708362676
+      eccentricity: 0.01
+      inclination: 1.7
+      orbitalArc: 107
+      axialTilt: 38.73
+      parentId: Alshain
+      showOrbit: true
+    satellites:
+      - name: Alshain 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 488985.360914579
+          age: 6649165938
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.1000000116023627
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 40820
+        temperature: 275
+        satellite:
+          semiMajorAxis: 134201165.97535987
+          eccentricity: 0.01
+          inclination: 1.61
+          orbitalArc: 279
+          axialTilt: 13.44
+          parentId: Alshain 6
+          showOrbit: true
+        satellites: []
+      - name: Alshain 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 790169.0589211112
+          age: 8922810029
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.7000001122749658
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 899
+        satellite:
+          semiMajorAxis: 343723540.63068336
+          eccentricity: 0.01
+          inclination: 0.81
+          orbitalArc: 20
+          axialTilt: 31.48
+          parentId: Alshain 6
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

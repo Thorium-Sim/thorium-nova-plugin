@@ -1,0 +1,261 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Taiyi
+description: A solar system named Taiyi
+position:
+  x: 5025644.46501475
+  'y': -45875562.03020126
+  z: -20354982.74709465
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Taiyi
+stars:
+  - name: Taiyi A
+    description: ''
+    tags: []
+    radius: 1.5
+    temperature: 7129
+    solarMass: 1.56
+    age: 15480924971644
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 48
+      semiMajorAxis: 18
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Taiyi
+  - name: Taiyi B
+    description: ''
+    tags: []
+    radius: 1.5
+    temperature: 7129
+    solarMass: 1.56
+    age: 15480924971644
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 228
+      semiMajorAxis: 18
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Taiyi
+planets:
+  - name: Taiyi 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6728
+      age: 8368143478
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0056591649577962255
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 626
+    satellite:
+      semiMajorAxis: 169130405
+      eccentricity: 0.02
+      inclination: 1.98
+      orbitalArc: 200
+      axialTilt: 36.19
+      parentId: Taiyi
+      showOrbit: true
+    satellites: []
+  - name: Taiyi 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3637
+      age: 1623207722
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.024056199587765354
+      textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1491
+    satellite:
+      semiMajorAxis: 238708728.00000075
+      eccentricity: 0.02
+      inclination: 1.04
+      orbitalArc: 75
+      axialTilt: 12.3
+      parentId: Taiyi
+      showOrbit: true
+    satellites: []
+  - name: Taiyi 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2361
+      age: 788512904
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.01632972473493473
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1537
+    satellite:
+      semiMajorAxis: 297142014.0000178
+      eccentricity: 0.02
+      inclination: 1.33
+      orbitalArc: 170
+      axialTilt: 12.43
+      parentId: Taiyi
+      showOrbit: true
+    satellites:
+      - name: Taiyi 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 362.99613682675323
+          age: 9958614710
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 2.100000007396242
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 12177
+        temperature: 218
+        satellite:
+          semiMajorAxis: 172786.16112953454
+          eccentricity: 0
+          inclination: 0.57
+          orbitalArc: 162
+          axialTilt: 33.24
+          parentId: Taiyi 3
+          showOrbit: true
+        satellites: []
+  - name: Taiyi 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5269
+      age: 3052333995
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.009161973814866966
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 59610
+    temperature: 261
+    satellite:
+      semiMajorAxis: 364589782.0002538
+      eccentricity: 0.01
+      inclination: 0.8
+      orbitalArc: 92
+      axialTilt: 0.99
+      parentId: Taiyi
+      showOrbit: true
+    satellites: []
+  - name: Taiyi 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7382
+      age: 7698828711
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.028778643078701257
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 96401
+    temperature: 257
+    satellite:
+      semiMajorAxis: 498530235
+      eccentricity: 0.01
+      inclination: 1.16
+      orbitalArc: 182
+      axialTilt: 2.28
+      parentId: Taiyi
+      showOrbit: true
+    satellites:
+      - name: Taiyi 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 714.1499706218135
+          age: 844344959
+          ringMapAsset: null
+          terranMass: 1.109999719311838
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 156
+        satellite:
+          semiMajorAxis: 179276.84637262954
+          eccentricity: 0.01
+          inclination: 1.65
+          orbitalArc: 286
+          axialTilt: 29.95
+          parentId: Taiyi 5
+          showOrbit: true
+        satellites: []
+      - name: Taiyi 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1020.0398939047801
+          age: 6400882436
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.7000000110834325
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 47863
+        temperature: 285
+        satellite:
+          semiMajorAxis: 375374.6809569591
+          eccentricity: 0
+          inclination: 0.62
+          orbitalArc: 239
+          axialTilt: 28.98
+          parentId: Taiyi 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,129 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Copernicus
+description: A solar system named Copernicus
+position:
+  x: -13750426.400598489
+  'y': -10161236.45525975
+  z: -12889591.924059618
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Copernicus
+stars:
+  - name: Copernicus A
+    description: ''
+    tags: []
+    radius: 0.98
+    temperature: 5172
+    solarMass: 0.905
+    age: 75950676659497
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 276
+      semiMajorAxis: 11.76
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Copernicus
+  - name: Copernicus B
+    description: ''
+    tags: []
+    radius: 0.98
+    temperature: 5172
+    solarMass: 0.905
+    age: 75950676659497
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 456
+      semiMajorAxis: 11.76
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Copernicus
+planets:
+  - name: Copernicus 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2762
+      age: 5993511895
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0070684946826607845
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 25002
+    temperature: 273
+    satellite:
+      semiMajorAxis: 51379321
+      eccentricity: 0.01
+      inclination: 1.8
+      orbitalArc: 95
+      axialTilt: 21.03
+      parentId: Copernicus
+      showOrbit: true
+    satellites:
+      - name: Copernicus 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 640.6069345871701
+          age: 666305905
+          ringMapAsset: null
+          terranMass: 0.5000001895638387
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 51
+        satellite:
+          semiMajorAxis: 263930.0570499141
+          eccentricity: 0
+          inclination: 1.51
+          orbitalArc: 23
+          axialTilt: 36.76
+          parentId: Copernicus 1
+          showOrbit: true
+        satellites: []
+  - name: Copernicus 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 72
+      age: 528187190
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0083194697094885
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 373
+    satellite:
+      semiMajorAxis: 115908357
+      eccentricity: 0.01
+      inclination: 1.41
+      orbitalArc: 26
+      axialTilt: 38.82
+      parentId: Copernicus
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

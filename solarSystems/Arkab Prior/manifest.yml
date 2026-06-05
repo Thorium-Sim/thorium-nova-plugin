@@ -1,0 +1,159 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Arkab Prior
+description: A solar system named Arkab Prior
+position:
+  x: 108891877.61359863
+  'y': 114198242.75329125
+  z: 41058984.4931097
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Arkab Prior
+stars:
+  - name: Arkab Prior A
+    description: ''
+    tags: []
+    radius: 2.73
+    temperature: 11960
+    solarMass: 3.67
+    age: 1387986800268
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 21
+      semiMajorAxis: 32.76
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Arkab Prior
+  - name: Arkab Prior B
+    description: ''
+    tags: []
+    radius: 2.73
+    temperature: 11960
+    solarMass: 3.67
+    age: 1387986800268
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 201
+      semiMajorAxis: 32.76
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Arkab Prior
+planets:
+  - name: Arkab Prior 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 38351
+      age: 8316655804
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.6229555951775879
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 229
+    satellite:
+      semiMajorAxis: 1793137138
+      eccentricity: 0
+      inclination: 0.75
+      orbitalArc: 80
+      axialTilt: 17.64
+      parentId: Arkab Prior
+      showOrbit: true
+    satellites:
+      - name: Arkab Prior 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6515.588494774731
+          age: 908870950
+          ringMapAsset: null
+          terranMass: 0.9199999395270042
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 252
+        satellite:
+          semiMajorAxis: 1707084.1856309795
+          eccentricity: 0.02
+          inclination: 1.31
+          orbitalArc: 94
+          axialTilt: 24.16
+          parentId: Arkab Prior 1
+          showOrbit: true
+        satellites: []
+  - name: Arkab Prior 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3526670
+      age: 2287317969
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 12.171102182454455
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_jupiter.jpg
+      classification: I
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 164
+    satellite:
+      semiMajorAxis: 3874182708
+      eccentricity: 0.01
+      inclination: 1.48
+      orbitalArc: 270
+      axialTilt: 33.48
+      parentId: Arkab Prior
+      showOrbit: true
+    satellites:
+      - name: Arkab Prior 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 580945.9857160443
+          age: 7527602387
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 185198
+        temperature: 256
+        satellite:
+          semiMajorAxis: 187064607.40056628
+          eccentricity: 0
+          inclination: 0.95
+          orbitalArc: 93
+          axialTilt: 37.8
+          parentId: Arkab Prior 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

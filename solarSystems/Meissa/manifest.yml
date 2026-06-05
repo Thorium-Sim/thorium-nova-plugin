@@ -1,0 +1,85 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Meissa
+description: A solar system named Meissa
+position:
+  x: -566531568.8299696
+  'y': -99810356.37735705
+  z: 61700238.36970381
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Meissa
+stars:
+  - name: 'Meissa '
+    description: ''
+    tags: []
+    radius: 10
+    temperature: 36000
+    solarMass: 34
+    age: 11674497551
+    spectralType: O
+    hue: 220
+    isWhite: false
+    satellite:
+      orbitalArc: 322
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Meissa
+planets:
+  - name: Meissa 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6035
+      age: 8076093561
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.002247752128110209
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 291176605
+    temperature: 290
+    satellite:
+      semiMajorAxis: 21902679040
+      eccentricity: 0.01
+      inclination: 1.2
+      orbitalArc: 114
+      axialTilt: 9.39
+      parentId: Meissa
+      showOrbit: true
+    satellites: []
+  - name: Meissa 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 355
+      age: 322022130
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.009601252142294965
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 335
+    satellite:
+      semiMajorAxis: 33789038481
+      eccentricity: 0.01
+      inclination: 0.47
+      orbitalArc: 322
+      axialTilt: 19.56
+      parentId: Meissa
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

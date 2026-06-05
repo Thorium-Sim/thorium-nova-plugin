@@ -1,0 +1,392 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Homam
+description: A solar system named Homam
+position:
+  x: 35584685.12329046
+  'y': -20261762.500914313
+  z: 99743329.20187101
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Homam
+stars:
+  - name: Homam A
+    description: ''
+    tags: []
+    radius: 4.23
+    temperature: 12300
+    solarMass: 3.22
+    age: 453444329906
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 251
+      semiMajorAxis: 50.760000000000005
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Homam
+  - name: Homam B
+    description: ''
+    tags: []
+    radius: 4.23
+    temperature: 12300
+    solarMass: 3.22
+    age: 453444329906
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 431
+      semiMajorAxis: 50.760000000000005
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Homam
+planets:
+  - name: Homam 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 257
+      age: 150789533
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.009336612240892418
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 286
+    satellite:
+      semiMajorAxis: 753910345.9999998
+      eccentricity: 0.02
+      inclination: 0.1
+      orbitalArc: 107
+      axialTilt: 10.35
+      parentId: Homam
+      showOrbit: true
+    satellites: []
+  - name: Homam 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2672
+      age: 9308717821
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.011162791352593562
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 9416
+    temperature: 252
+    satellite:
+      semiMajorAxis: 1938584092.6666656
+      eccentricity: 0
+      inclination: 0.8
+      orbitalArc: 152
+      axialTilt: 4.06
+      parentId: Homam
+      showOrbit: true
+    satellites: []
+  - name: Homam 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3074
+      age: 7170829740
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.010241905226511376
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 45153
+    temperature: 241
+    satellite:
+      semiMajorAxis: 2450133394.1111093
+      eccentricity: 0.01
+      inclination: 0.69
+      orbitalArc: 241
+      axialTilt: 16.67
+      parentId: Homam
+      showOrbit: true
+    satellites:
+      - name: Homam 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 327.1580325526321
+          age: 5172045077
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 143059
+        temperature: 259
+        satellite:
+          semiMajorAxis: 97820.251733237
+          eccentricity: 0
+          inclination: 0.61
+          orbitalArc: 227
+          axialTilt: 29.45
+          parentId: Homam 3
+          showOrbit: true
+        satellites: []
+  - name: Homam 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6409
+      age: 3900828653
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.021336146983978375
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 58937
+    temperature: 263
+    satellite:
+      semiMajorAxis: 2920386677.703695
+      eccentricity: 0.01
+      inclination: 0.02
+      orbitalArc: 96
+      axialTilt: 24.3
+      parentId: Homam
+      showOrbit: true
+    satellites: []
+  - name: Homam 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2708
+      age: 428291645
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.012359565364212139
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 52
+    satellite:
+      semiMajorAxis: 3334754790.9382606
+      eccentricity: 0.02
+      inclination: 0.51
+      orbitalArc: 10
+      axialTilt: 3.03
+      parentId: Homam
+      showOrbit: true
+    satellites:
+      - name: Homam 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 671.4700200678013
+          age: 775733636
+          ringMapAsset: null
+          terranMass: 0.05999985440971111
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 158
+        satellite:
+          semiMajorAxis: 265902.12794684933
+          eccentricity: 0.01
+          inclination: 1.8
+          orbitalArc: 227
+          axialTilt: 22.57
+          parentId: Homam 5
+          showOrbit: true
+        satellites: []
+  - name: Homam 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6176
+      age: 2904778917
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.026489944320157867
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 755
+    satellite:
+      semiMajorAxis: 3698859649.773622
+      eccentricity: 0.01
+      inclination: 1.08
+      orbitalArc: 279
+      axialTilt: 4.15
+      parentId: Homam
+      showOrbit: true
+    satellites: []
+  - name: Homam 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 59228
+      age: 6600587531
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 1.1311236285222983
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 240
+    satellite:
+      semiMajorAxis: 3869496037.2834644
+      eccentricity: 0.01
+      inclination: 1.5
+      orbitalArc: 38
+      axialTilt: 32.36
+      parentId: Homam
+      showOrbit: true
+    satellites:
+      - name: Homam 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7172.052944429744
+          age: 668552150
+          ringMapAsset: null
+          terranMass: 1.8000000322671514
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 46
+        satellite:
+          semiMajorAxis: 1316486.9641651206
+          eccentricity: 0.01
+          inclination: 1.74
+          orbitalArc: 335
+          axialTilt: 26.72
+          parentId: Homam 7
+          showOrbit: true
+        satellites: []
+      - name: Homam 7b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7676.965403173112
+          age: 8703383985
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+          classification: 'N'
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 289402679
+        temperature: 486
+        satellite:
+          semiMajorAxis: 2675163.7537685307
+          eccentricity: 0.02
+          inclination: 1.77
+          orbitalArc: 25
+          axialTilt: 39.96
+          parentId: Homam 7
+          showOrbit: true
+        satellites: []
+      - name: Homam 7c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 13847.521848752007
+          age: 5697001935
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.9000000080328316
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 43483
+        temperature: 307
+        satellite:
+          semiMajorAxis: 4625072.29748317
+          eccentricity: 0
+          inclination: 0.42
+          orbitalArc: 162
+          axialTilt: 4.53
+          parentId: Homam 7
+          showOrbit: true
+        satellites: []
+  - name: Homam 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 31325
+      age: 9291107635
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.5270846559787367
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 133
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 0.48
+      orbitalArc: 78
+      axialTilt: 18.8
+      parentId: Homam
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

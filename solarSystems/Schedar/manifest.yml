@@ -1,0 +1,310 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Schedar
+description: A solar system named Schedar
+position:
+  x: -11626177.116357202
+  'y': -100041757.09956397
+  z: 65092369.925708905
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Schedar
+stars:
+  - name: Schedar A
+    description: ''
+    tags: []
+    radius: 42.15
+    temperature: 4625
+    solarMass: 3.98
+    age: 282364601252
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 135
+      semiMajorAxis: 505.79999999999995
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Schedar
+  - name: Schedar B
+    description: ''
+    tags: []
+    radius: 42.15
+    temperature: 4625
+    solarMass: 3.98
+    age: 282364601252
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 315
+      semiMajorAxis: 505.79999999999995
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Schedar
+planets:
+  - name: Schedar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4221
+      age: 6113262077
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0005930212206996153
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 691
+    satellite:
+      semiMajorAxis: 981701125
+      eccentricity: 0.01
+      inclination: 0.2
+      orbitalArc: 289
+      axialTilt: 28.95
+      parentId: Schedar
+      showOrbit: true
+    satellites: []
+  - name: Schedar 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 155
+      age: 618075684
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0009646382524650667
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 391
+    satellite:
+      semiMajorAxis: 2233920923
+      eccentricity: 0.01
+      inclination: 1.23
+      orbitalArc: 312
+      axialTilt: 11.9
+      parentId: Schedar
+      showOrbit: true
+    satellites: []
+  - name: Schedar 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7260
+      age: 3845690853
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.002962086380101294
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 491
+    satellite:
+      semiMajorAxis: 2688093922.0000033
+      eccentricity: 0.02
+      inclination: 1.15
+      orbitalArc: 297
+      axialTilt: 26.56
+      parentId: Schedar
+      showOrbit: true
+    satellites:
+      - name: Schedar 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 751.1570468568609
+          age: 3641519230
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 156345
+        temperature: 256
+        satellite:
+          semiMajorAxis: 240481.49076081213
+          eccentricity: 0
+          inclination: 0.75
+          orbitalArc: 337
+          axialTilt: 9.11
+          parentId: Schedar 3
+          showOrbit: true
+        satellites: []
+      - name: Schedar 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 991.5714458810565
+          age: 271332007
+          ringMapAsset: null
+          terranMass: 0.2899996579813584
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 187
+        satellite:
+          semiMajorAxis: 377788.7208806825
+          eccentricity: 0
+          inclination: 1.96
+          orbitalArc: 161
+          axialTilt: 19.33
+          parentId: Schedar 3
+          showOrbit: true
+        satellites: []
+  - name: Schedar 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7066
+      age: 4787976370
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+      terranMass: 0.0021651012100385616
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 28168
+    temperature: 292
+    satellite:
+      semiMajorAxis: 3196256688.000014
+      eccentricity: 0.01
+      inclination: 1.36
+      orbitalArc: 142
+      axialTilt: 38.45
+      parentId: Schedar
+      showOrbit: true
+    satellites: []
+  - name: Schedar 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6144
+      age: 3119884347
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.009566914887881584
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 129098331
+    temperature: 424
+    satellite:
+      semiMajorAxis: 3701163266.33337
+      eccentricity: 0.02
+      inclination: 0.23
+      orbitalArc: 275
+      axialTilt: 26.36
+      parentId: Schedar
+      showOrbit: true
+    satellites:
+      - name: Schedar 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1081.447153510118
+          age: 253673770
+          ringMapAsset: null
+          terranMass: 0.9000000089504677
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 49
+        satellite:
+          semiMajorAxis: 428469.15748602967
+          eccentricity: 0.01
+          inclination: 0.8
+          orbitalArc: 278
+          axialTilt: 5.56
+          parentId: Schedar 5
+          showOrbit: true
+        satellites: []
+      - name: Schedar 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1381.037085449378
+          age: 375144011
+          ringMapAsset: null
+          terranMass: 0.8799998869426398
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 344
+        satellite:
+          semiMajorAxis: 654611.5785030052
+          eccentricity: 0.02
+          inclination: 0.68
+          orbitalArc: 110
+          axialTilt: 20.76
+          parentId: Schedar 5
+          showOrbit: true
+        satellites: []
+  - name: Schedar 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 365
+      age: 272518153
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.006439966827996747
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 235
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 1.02
+      orbitalArc: 227
+      axialTilt: 23.89
+      parentId: Schedar
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

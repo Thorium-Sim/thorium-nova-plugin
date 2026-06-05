@@ -1,0 +1,236 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alsephina
+description: A solar system named Alsephina
+position:
+  x: -18434490.21862432
+  'y': 34601781.731873214
+  z: -16124509.737806747
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alsephina
+stars:
+  - name: Alsephina A
+    description: ''
+    tags: []
+    radius: 2.79
+    temperature: 9440
+    solarMass: 2.43
+    age: 2267144358302
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 348
+      semiMajorAxis: 33.480000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alsephina
+  - name: Alsephina B
+    description: ''
+    tags: []
+    radius: 2.79
+    temperature: 9440
+    solarMass: 2.43
+    age: 2267144358302
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 528
+      semiMajorAxis: 33.480000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alsephina
+planets:
+  - name: Alsephina 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3834
+      age: 9468920251
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.004739381648107869
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 10209
+    temperature: 196
+    satellite:
+      semiMajorAxis: 320430178.666667
+      eccentricity: 0
+      inclination: 0.02
+      orbitalArc: 37
+      axialTilt: 15.43
+      parentId: Alsephina
+      showOrbit: true
+    satellites: []
+  - name: Alsephina 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6421
+      age: 7547214977
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.009928642984579468
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 577729799
+    temperature: 296
+    satellite:
+      semiMajorAxis: 691156252.7777783
+      eccentricity: 0.01
+      inclination: 1.91
+      orbitalArc: 166
+      axialTilt: 17.64
+      parentId: Alsephina
+      showOrbit: true
+    satellites:
+      - name: Alsephina 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1459.366211515343
+          age: 5229417014
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 187416
+        temperature: 256
+        satellite:
+          semiMajorAxis: 674227.1897200884
+          eccentricity: 0.01
+          inclination: 0.99
+          orbitalArc: 140
+          axialTilt: 12.69
+          parentId: Alsephina 2
+          showOrbit: true
+        satellites: []
+  - name: Alsephina 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6805
+      age: 9750577569
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.005661588171068949
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 631222836
+    temperature: 464
+    satellite:
+      semiMajorAxis: 1382138677.7407417
+      eccentricity: 0.02
+      inclination: 0.69
+      orbitalArc: 44
+      axialTilt: 5.96
+      parentId: Alsephina
+      showOrbit: true
+    satellites: []
+  - name: Alsephina 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 56352
+      age: 2690624550
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.4817901002922539
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 287
+    satellite:
+      semiMajorAxis: 2522054255.481485
+      eccentricity: 0.01
+      inclination: 1.15
+      orbitalArc: 4
+      axialTilt: 2.64
+      parentId: Alsephina
+      showOrbit: true
+    satellites: []
+  - name: Alsephina 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 762
+      age: 612349967
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0011823140266879794
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1462
+    satellite:
+      semiMajorAxis: 3362758238
+      eccentricity: 0.02
+      inclination: 1.09
+      orbitalArc: 34
+      axialTilt: 9.53
+      parentId: Alsephina
+      showOrbit: true
+    satellites:
+      - name: Alsephina 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 102.51028238251112
+          age: 4992952384
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 362882248
+        temperature: 300
+        satellite:
+          semiMajorAxis: 47769.791590250185
+          eccentricity: 0.01
+          inclination: 0.86
+          orbitalArc: 131
+          axialTilt: 21.2
+          parentId: Alsephina 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

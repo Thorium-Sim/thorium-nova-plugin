@@ -1,0 +1,361 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Keid
+description: A solar system named Keid
+position:
+  x: -7606280.241763127
+  'y': 1138893.1421861951
+  z: 3739786.3448140062
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Keid
+stars:
+  - name: Keid A
+    description: ''
+    tags: []
+    radius: 0.804
+    temperature: 5126
+    solarMass: 0.78
+    age: 100794627046233
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 101
+      semiMajorAxis: 9.648
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Keid
+  - name: Keid B
+    description: ''
+    tags: []
+    radius: 0.804
+    temperature: 5126
+    solarMass: 0.78
+    age: 100794627046233
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 281
+      semiMajorAxis: 9.648
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Keid
+planets:
+  - name: Keid 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 240
+      age: 608540463
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.025791201167970502
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 365
+    satellite:
+      semiMajorAxis: 11874374
+      eccentricity: 0.01
+      inclination: 1
+      orbitalArc: 238
+      axialTilt: 12.28
+      parentId: Keid
+      showOrbit: true
+    satellites: []
+  - name: Keid 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 273
+      age: 809505935
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.00023912954282682145
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 266
+    satellite:
+      semiMajorAxis: 52544833.33333437
+      eccentricity: 0.01
+      inclination: 1.85
+      orbitalArc: 58
+      axialTilt: 25.79
+      parentId: Keid
+      showOrbit: true
+    satellites: []
+  - name: Keid 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5509
+      age: 4504785065
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
+      terranMass: 0.02627606715266969
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 26409
+    temperature: 321
+    satellite:
+      semiMajorAxis: 82446372.66675642
+      eccentricity: 0
+      inclination: 1.42
+      orbitalArc: 0
+      axialTilt: 7.02
+      parentId: Keid
+      showOrbit: true
+    satellites:
+      - name: Keid 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 994.5014995175767
+          age: 6553539194
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+          classification: M
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 4620126502
+        temperature: 298
+        satellite:
+          semiMajorAxis: 201232.54264420702
+          eccentricity: 0
+          inclination: 1.77
+          orbitalArc: 38
+          axialTilt: 19.99
+          parentId: Keid 3
+          showOrbit: true
+        satellites: []
+      - name: Keid 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 810.3482625676315
+          age: 783499489
+          ringMapAsset: null
+          terranMass: 0.0699997848138587
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 303
+        satellite:
+          semiMajorAxis: 304758.628383744
+          eccentricity: 0.01
+          inclination: 0.74
+          orbitalArc: 244
+          axialTilt: 3.69
+          parentId: Keid 3
+          showOrbit: true
+        satellites: []
+      - name: Keid 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 978.6765131866388
+          age: 977970681
+          ringMapAsset: null
+          terranMass: 1.3299997736032678
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 361
+        satellite:
+          semiMajorAxis: 457041.9316581603
+          eccentricity: 0.01
+          inclination: 0.84
+          orbitalArc: 26
+          axialTilt: 22.96
+          parentId: Keid 3
+          showOrbit: true
+        satellites: []
+  - name: Keid 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2704
+      age: 9453698800
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0038920480449693953
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 7130
+    temperature: 172
+    satellite:
+      semiMajorAxis: 95980130.45563756
+      eccentricity: 0.02
+      inclination: 0.36
+      orbitalArc: 106
+      axialTilt: 3.79
+      parentId: Keid
+      showOrbit: true
+    satellites: []
+  - name: Keid 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4901
+      age: 9014134696
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+      terranMass: 0.0016127093062976113
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 41747
+    temperature: 242
+    satellite:
+      semiMajorAxis: 104499248.24306418
+      eccentricity: 0.02
+      inclination: 1.16
+      orbitalArc: 218
+      axialTilt: 30.52
+      parentId: Keid
+      showOrbit: true
+    satellites:
+      - name: Keid 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 658.6707321570535
+          age: 8937509924
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 164967
+        temperature: 270
+        satellite:
+          semiMajorAxis: 262809.62213066436
+          eccentricity: 0.01
+          inclination: 1.06
+          orbitalArc: 24
+          axialTilt: 27.97
+          parentId: Keid 5
+          showOrbit: true
+        satellites: []
+  - name: Keid 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5849
+      age: 6458145488
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.025981845477009623
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 190445592
+    temperature: 531
+    satellite:
+      semiMajorAxis: 2041807430.8287094
+      eccentricity: 0.01
+      inclination: 0.77
+      orbitalArc: 23
+      axialTilt: 31.19
+      parentId: Keid
+      showOrbit: true
+    satellites:
+      - name: Keid 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 892.2516190779633
+          age: 717700103
+          ringMapAsset: null
+          terranMass: 1.2399999734262044
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 374
+        satellite:
+          semiMajorAxis: 443449.05468174774
+          eccentricity: 0.02
+          inclination: 1.78
+          orbitalArc: 237
+          axialTilt: 18.47
+          parentId: Keid 6
+          showOrbit: true
+        satellites: []
+  - name: Keid 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 360
+      age: 669816460
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.011691857781406188
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 259
+    satellite:
+      semiMajorAxis: 3199842133
+      eccentricity: 0.01
+      inclination: 0.59
+      orbitalArc: 172
+      axialTilt: 35.22
+      parentId: Keid
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

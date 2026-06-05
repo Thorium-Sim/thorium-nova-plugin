@@ -1,0 +1,78 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Rasalas
+description: A solar system named Rasalas
+position:
+  x: -30895430.923835825
+  'y': -28597258.66067059
+  z: -49811568.170925796
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Rasalas
+stars:
+  - name: Rasalas A
+    description: ''
+    tags: []
+    radius: 11.89
+    temperature: 4519
+    solarMass: 1.5
+    age: 1467328891889
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 176
+      semiMajorAxis: 142.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Rasalas
+  - name: Rasalas B
+    description: ''
+    tags: []
+    radius: 11.89
+    temperature: 4519
+    solarMass: 1.5
+    age: 1467328891889
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 356
+      semiMajorAxis: 142.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Rasalas
+planets:
+  - name: Rasalas 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5451
+      age: 4930469612
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.009943607266164294
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 536964660
+    temperature: 299
+    satellite:
+      semiMajorAxis: 1105633237
+      eccentricity: 0.01
+      inclination: 1.8
+      orbitalArc: 166
+      axialTilt: 11.02
+      parentId: Rasalas
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

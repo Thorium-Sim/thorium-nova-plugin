@@ -1,0 +1,205 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Minelauva
+description: A solar system named Minelauva
+position:
+  x: 24974928.713601694
+  'y': -6171580.081018118
+  z: -100912441.2422001
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Minelauva
+stars:
+  - name: Minelauva A
+    description: ''
+    tags: []
+    radius: 67.4
+    temperature: 3643
+    solarMass: 1.19
+    age: 85774810607
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 60
+      semiMajorAxis: 808.8000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Minelauva
+  - name: Minelauva B
+    description: ''
+    tags: []
+    radius: 67.4
+    temperature: 3643
+    solarMass: 1.19
+    age: 85774810607
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 240
+      semiMajorAxis: 808.8000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Minelauva
+planets:
+  - name: Minelauva 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 94
+      age: 677531841
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.02596342454079188
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 221
+    satellite:
+      semiMajorAxis: 1650338085.3333333
+      eccentricity: 0.01
+      inclination: 1.74
+      orbitalArc: 84
+      axialTilt: 20.98
+      parentId: Minelauva
+      showOrbit: true
+    satellites: []
+  - name: Minelauva 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4975
+      age: 1304852226
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.012630880275052807
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1483
+    satellite:
+      semiMajorAxis: 2790143357.5555553
+      eccentricity: 0
+      inclination: 1.23
+      orbitalArc: 10
+      axialTilt: 17.26
+      parentId: Minelauva
+      showOrbit: true
+    satellites: []
+  - name: Minelauva 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3076
+      age: 211901644
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.01767726062843949
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 51
+    satellite:
+      semiMajorAxis: 3249078970.1851845
+      eccentricity: 0
+      inclination: 0.57
+      orbitalArc: 208
+      axialTilt: 15.08
+      parentId: Minelauva
+      showOrbit: true
+    satellites: []
+  - name: Minelauva 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 264
+      age: 38532058
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.006498670080127367
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 350
+    satellite:
+      semiMajorAxis: 3606079648.432099
+      eccentricity: 0.01
+      inclination: 1.59
+      orbitalArc: 29
+      axialTilt: 37.94
+      parentId: Minelauva
+      showOrbit: true
+    satellites: []
+  - name: Minelauva 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 49805
+      age: 6797199197
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.11653202033520955
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 329
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 0.83
+      orbitalArc: 204
+      axialTilt: 27.01
+      parentId: Minelauva
+      showOrbit: true
+    satellites:
+      - name: Minelauva 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6469.209115418945
+          age: 518424740
+          ringMapAsset: null
+          terranMass: 1.5000000170460361
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1439
+        satellite:
+          semiMajorAxis: 3027589.866016066
+          eccentricity: 0.02
+          inclination: 1.4
+          orbitalArc: 270
+          axialTilt: 33.36
+          parentId: Minelauva 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

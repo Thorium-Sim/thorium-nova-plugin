@@ -1,0 +1,216 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Achird
+description: A solar system named Achird
+position:
+  x: -1156802.615377128
+  'y': -8644580.575547956
+  z: 5316178.673824069
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Achird
+stars:
+  - name: Achird A
+    description: ''
+    tags: []
+    radius: 1.0336
+    temperature: 6012
+    solarMass: 1.0258
+    age: 42388796883606
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 57
+      semiMajorAxis: 12.403200000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Achird
+  - name: Achird B
+    description: ''
+    tags: []
+    radius: 1.0336
+    temperature: 6012
+    solarMass: 1.0258
+    age: 42388796883606
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 237
+      semiMajorAxis: 12.403200000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Achird
+planets:
+  - name: Achird 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3899
+      age: 7926729635
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0011660145077497205
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 7088
+    temperature: 259
+    satellite:
+      semiMajorAxis: 183919152.33333263
+      eccentricity: 0
+      inclination: 0.83
+      orbitalArc: 0
+      axialTilt: 23.76
+      parentId: Achird
+      showOrbit: true
+    satellites:
+      - name: Achird 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 677.4338716241028
+          age: 4326187713
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.3000001236150367
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 26624
+        temperature: 284
+        satellite:
+          semiMajorAxis: 118634.42675629881
+          eccentricity: 0.01
+          inclination: 1.26
+          orbitalArc: 0
+          axialTilt: 8.65
+          parentId: Achird 1
+          showOrbit: true
+        satellites: []
+      - name: Achird 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 815.7801274634735
+          age: 6390473344
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 376570218
+        temperature: 295
+        satellite:
+          semiMajorAxis: 346706.5541719762
+          eccentricity: 0.01
+          inclination: 1.33
+          orbitalArc: 168
+          axialTilt: 34.79
+          parentId: Achird 1
+          showOrbit: true
+        satellites: []
+  - name: Achird 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 44535
+      age: 5307159043
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.40975083592574835
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 210
+    satellite:
+      semiMajorAxis: 422251876.4444351
+      eccentricity: 0.01
+      inclination: 0.15
+      orbitalArc: 98
+      axialTilt: 35.84
+      parentId: Achird
+      showOrbit: true
+    satellites: []
+  - name: Achird 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 49132
+      age: 5105611956
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 1.2962629922249502
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 287
+    satellite:
+      semiMajorAxis: 926724500.3333042
+      eccentricity: 0.01
+      inclination: 0.4
+      orbitalArc: 43
+      axialTilt: 24.65
+      parentId: Achird
+      showOrbit: true
+    satellites: []
+  - name: Achird 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 32585
+      age: 7931793080
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.20857716864058215
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 268
+    satellite:
+      semiMajorAxis: 1851080706
+      eccentricity: 0
+      inclination: 0
+      orbitalArc: 149
+      axialTilt: 1.33
+      parentId: Achird
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

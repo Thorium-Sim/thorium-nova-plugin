@@ -1,0 +1,388 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Phecda
+description: A solar system named Phecda
+position:
+  x: -697366.6791400594
+  'y': -35264948.1421968
+  z: -25900260.80369423
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Phecda
+stars:
+  - name: Phecda A
+    description: ''
+    tags: []
+    radius: 3.385
+    temperature: 6751
+    solarMass: 2.412
+    age: 5844627133257
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 190
+      semiMajorAxis: 40.62
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Phecda
+  - name: Phecda B
+    description: ''
+    tags: []
+    radius: 3.385
+    temperature: 6751
+    solarMass: 2.412
+    age: 5844627133257
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 370
+      semiMajorAxis: 40.62
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Phecda
+planets:
+  - name: Phecda 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6613
+      age: 6976258756
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0008473848706759024
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 518
+    satellite:
+      semiMajorAxis: 336016709.3333342
+      eccentricity: 0
+      inclination: 1.57
+      orbitalArc: 294
+      axialTilt: 2.78
+      parentId: Phecda
+      showOrbit: true
+    satellites: []
+  - name: Phecda 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5415
+      age: 1137131840
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.009830452016354182
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1227
+    satellite:
+      semiMajorAxis: 583718490.0000058
+      eccentricity: 0.02
+      inclination: 1.19
+      orbitalArc: 67
+      axialTilt: 13.53
+      parentId: Phecda
+      showOrbit: true
+    satellites:
+      - name: Phecda 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 482.4922285394842
+          age: 182841282
+          ringMapAsset: null
+          terranMass: 0.40999973337053874
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 189
+        satellite:
+          semiMajorAxis: 173646.34380837102
+          eccentricity: 0.01
+          inclination: 1.83
+          orbitalArc: 115
+          axialTilt: 6.08
+          parentId: Phecda 2
+          showOrbit: true
+        satellites: []
+      - name: Phecda 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1078.4559551626924
+          age: 535548937
+          ringMapAsset: null
+          terranMass: 1.269999759492767
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 314
+        satellite:
+          semiMajorAxis: 466971.4285854458
+          eccentricity: 0.01
+          inclination: 1.62
+          orbitalArc: 188
+          axialTilt: 21.19
+          parentId: Phecda 2
+          showOrbit: true
+        satellites: []
+  - name: Phecda 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 345
+      age: 88235798
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.002163098855807304
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 207
+    satellite:
+      semiMajorAxis: 700774084.0000728
+      eccentricity: 0.02
+      inclination: 0.09
+      orbitalArc: 6
+      axialTilt: 7.31
+      parentId: Phecda
+      showOrbit: true
+    satellites: []
+  - name: Phecda 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3679
+      age: 6086944178
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.01047729853963599
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 12747
+    temperature: 140
+    satellite:
+      semiMajorAxis: 776582607.6685421
+      eccentricity: 0.01
+      inclination: 1.67
+      orbitalArc: 73
+      axialTilt: 26.75
+      parentId: Phecda
+      showOrbit: true
+    satellites:
+      - name: Phecda 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 836.6641083997708
+          age: 3191219891
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          classification: G
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 0
+        temperature: 494
+        satellite:
+          semiMajorAxis: 354745.58196150284
+          eccentricity: 0
+          inclination: 1.39
+          orbitalArc: 189
+          axialTilt: 10.96
+          parentId: Phecda 4
+          showOrbit: true
+        satellites: []
+  - name: Phecda 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4194
+      age: 4021418379
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
+      terranMass: 0.022570236271055005
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 14133
+    temperature: 268
+    satellite:
+      semiMajorAxis: 925819811.2359757
+      eccentricity: 0.02
+      inclination: 1.32
+      orbitalArc: 235
+      axialTilt: 10.5
+      parentId: Phecda
+      showOrbit: true
+    satellites:
+      - name: Phecda 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 522.7020541694952
+          age: 9975705751
+          ringMapAsset: null
+          terranMass: 0.9000006920367646
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 607
+        satellite:
+          semiMajorAxis: 172069.72467155918
+          eccentricity: 0
+          inclination: 0.96
+          orbitalArc: 346
+          axialTilt: 4.28
+          parentId: Phecda 5
+          showOrbit: true
+        satellites: []
+      - name: Phecda 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 757.3729448075112
+          age: 366209712
+          ringMapAsset: null
+          terranMass: 1.0899997059198194
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 339
+        satellite:
+          semiMajorAxis: 314547.27176969865
+          eccentricity: 0.01
+          inclination: 0.55
+          orbitalArc: 41
+          axialTilt: 39.87
+          parentId: Phecda 5
+          showOrbit: true
+        satellites: []
+      - name: Phecda 5c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 847.7227427434696
+          age: 453099628
+          ringMapAsset: null
+          terranMass: 0.5299998564124453
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 153
+        satellite:
+          semiMajorAxis: 409450.0847450958
+          eccentricity: 0.02
+          inclination: 0.22
+          orbitalArc: 300
+          axialTilt: 18.98
+          parentId: Phecda 5
+          showOrbit: true
+        satellites: []
+  - name: Phecda 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 28962
+      age: 4108235998
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 1.3880558806641623
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 247
+    satellite:
+      semiMajorAxis: 1942271499.2359753
+      eccentricity: 0.01
+      inclination: 0.36
+      orbitalArc: 220
+      axialTilt: 1.15
+      parentId: Phecda
+      showOrbit: true
+    satellites: []
+  - name: Phecda 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 148
+      age: 908787490
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0038035218119773697
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 359
+    satellite:
+      semiMajorAxis: 3136140670
+      eccentricity: 0.01
+      inclination: 0.42
+      orbitalArc: 229
+      axialTilt: 31.89
+      parentId: Phecda
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

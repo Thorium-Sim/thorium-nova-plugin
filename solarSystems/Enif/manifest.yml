@@ -1,0 +1,132 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Enif
+description: A solar system named Enif
+position:
+  x: 199690810.86393204
+  'y': -62239260.17651968
+  z: 296572528.43603843
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Enif
+stars:
+  - name: Enif A
+    description: ''
+    tags: []
+    radius: 183
+    temperature: 4100
+    solarMass: 11
+    age: 67038511571
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 61
+      semiMajorAxis: 2196
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Enif
+  - name: Enif B
+    description: ''
+    tags: []
+    radius: 183
+    temperature: 4100
+    solarMass: 11
+    age: 67038511571
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 241
+      semiMajorAxis: 2196
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Enif
+planets:
+  - name: Enif 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4044
+      age: 6318279992
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0037659452951427992
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 719
+    satellite:
+      semiMajorAxis: 4341015877
+      eccentricity: 0.01
+      inclination: 1.9
+      orbitalArc: 44
+      axialTilt: 9
+      parentId: Enif
+      showOrbit: true
+    satellites:
+      - name: Enif 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 256.7884585173308
+          age: 7753162662
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.1000001034023565
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 22745
+        temperature: 186
+        satellite:
+          semiMajorAxis: 98212.77390111634
+          eccentricity: 0.02
+          inclination: 0.25
+          orbitalArc: 330
+          axialTilt: 9.67
+          parentId: Enif 1
+          showOrbit: true
+        satellites: []
+      - name: Enif 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 390.5416429269923
+          age: 356352822
+          ringMapAsset: null
+          terranMass: 1.9000001906435027
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 41
+        satellite:
+          semiMajorAxis: 156216.65717079694
+          eccentricity: 0
+          inclination: 1.74
+          orbitalArc: 295
+          axialTilt: 4.34
+          parentId: Enif 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

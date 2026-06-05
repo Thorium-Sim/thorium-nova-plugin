@@ -1,0 +1,146 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Aldhibah
+description: A solar system named Aldhibah
+position:
+  x: 69609806.24551572
+  'y': -158207650.19413406
+  z: -15819240.081377847
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Aldhibah
+stars:
+  - name: 'Aldhibah '
+    description: ''
+    tags: []
+    radius: 6.19
+    temperature: 15000
+    solarMass: 5.94
+    age: 176607602608
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 169
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aldhibah
+planets:
+  - name: Aldhibah 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 39722
+      age: 7382625331
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.6860594852282804
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 159
+    satellite:
+      semiMajorAxis: 2348452839.9999995
+      eccentricity: 0.01
+      inclination: 1.27
+      orbitalArc: 106
+      axialTilt: 11.13
+      parentId: Aldhibah
+      showOrbit: true
+    satellites: []
+  - name: Aldhibah 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 53278
+      age: 3616131313
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.7337042269305569
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 207
+    satellite:
+      semiMajorAxis: 3386424564.999998
+      eccentricity: 0.02
+      inclination: 1.14
+      orbitalArc: 240
+      axialTilt: 22.91
+      parentId: Aldhibah
+      showOrbit: true
+    satellites: []
+  - name: Aldhibah 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 39217
+      age: 5650691484
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 1.820380682171178
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 156
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 1.09
+      orbitalArc: 138
+      axialTilt: 25.67
+      parentId: Aldhibah
+      showOrbit: true
+    satellites:
+      - name: Aldhibah 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7852.905899275969
+          age: 8839167472
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.1000001271866893
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 577
+        satellite:
+          semiMajorAxis: 2143843.3105023396
+          eccentricity: 0.02
+          inclination: 1.4
+          orbitalArc: 238
+          axialTilt: 39.71
+          parentId: Aldhibah 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

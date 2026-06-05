@@ -1,0 +1,206 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Meridiana
+description: A solar system named Meridiana
+position:
+  x: 49510021.65280714
+  'y': 40390230.42509968
+  z: 15485220.926610041
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Meridiana
+stars:
+  - name: Meridiana A
+    description: ''
+    tags: []
+    radius: 2.21
+    temperature: 9916
+    solarMass: 2.57
+    age: 3138858860737
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 197
+      semiMajorAxis: 26.52
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Meridiana
+  - name: Meridiana B
+    description: ''
+    tags: []
+    radius: 2.21
+    temperature: 9916
+    solarMass: 2.57
+    age: 3138858860737
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 377
+      semiMajorAxis: 26.52
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Meridiana
+planets:
+  - name: Meridiana 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 195
+      age: 836247359
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.01743601893681616
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 384
+    satellite:
+      semiMajorAxis: 938024595.6666672
+      eccentricity: 0.01
+      inclination: 0.13
+      orbitalArc: 133
+      axialTilt: 12.8
+      parentId: Meridiana
+      showOrbit: true
+    satellites: []
+  - name: Meridiana 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 423
+      age: 488528718
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0008434434766491157
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 264
+    satellite:
+      semiMajorAxis: 1591753598.0000017
+      eccentricity: 0
+      inclination: 1.47
+      orbitalArc: 104
+      axialTilt: 27.89
+      parentId: Meridiana
+      showOrbit: true
+    satellites: []
+  - name: Meridiana 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 29434
+      age: 3021564820
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.2269135132774044
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 136
+    satellite:
+      semiMajorAxis: 2491931026
+      eccentricity: 0
+      inclination: 0.82
+      orbitalArc: 199
+      axialTilt: 33.24
+      parentId: Meridiana
+      showOrbit: true
+    satellites:
+      - name: Meridiana 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4470.538143349868
+          age: 666337147
+          ringMapAsset: null
+          terranMass: 0.5199997580743483
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 215
+        satellite:
+          semiMajorAxis: 1225394.4923862647
+          eccentricity: 0.01
+          inclination: 0.36
+          orbitalArc: 156
+          axialTilt: 39.86
+          parentId: Meridiana 3
+          showOrbit: true
+        satellites: []
+      - name: Meridiana 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5267.512558190714
+          age: 8161613228
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 363879119
+        temperature: 298
+        satellite:
+          semiMajorAxis: 1850876.8803529763
+          eccentricity: 0.02
+          inclination: 1.41
+          orbitalArc: 175
+          axialTilt: 12.46
+          parentId: Meridiana 3
+          showOrbit: true
+        satellites: []
+      - name: Meridiana 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6333.792143947327
+          age: 618142483
+          ringMapAsset: null
+          terranMass: 0.10000000791392463
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 55
+        satellite:
+          semiMajorAxis: 2831205.088344455
+          eccentricity: 0
+          inclination: 0.07
+          orbitalArc: 71
+          axialTilt: 10.93
+          parentId: Meridiana 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

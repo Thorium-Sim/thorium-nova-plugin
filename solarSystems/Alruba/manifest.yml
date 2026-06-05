@@ -1,0 +1,130 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alruba
+description: A solar system named Alruba
+position:
+  x: 141607982.34734434
+  'y': -193968231.64063326
+  z: -9910718.538949614
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alruba
+stars:
+  - name: Alruba A
+    description: ''
+    tags: []
+    radius: 4.739
+    temperature: 9226
+    solarMass: 2.97
+    age: 1052685195552
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 356
+      semiMajorAxis: 56.867999999999995
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alruba
+  - name: Alruba B
+    description: ''
+    tags: []
+    radius: 4.739
+    temperature: 9226
+    solarMass: 2.97
+    age: 1052685195552
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 536
+      semiMajorAxis: 56.867999999999995
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alruba
+planets:
+  - name: Alruba 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 239
+      age: 488844053
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0014274259363198586
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 354
+    satellite:
+      semiMajorAxis: 1195570604.3333342
+      eccentricity: 0.01
+      inclination: 1.11
+      orbitalArc: 318
+      axialTilt: 34.41
+      parentId: Alruba
+      showOrbit: true
+    satellites: []
+  - name: Alruba 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 35110
+      age: 3180538124
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 1.4132824906726094
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 294
+    satellite:
+      semiMajorAxis: 2173915832.3333344
+      eccentricity: 0.01
+      inclination: 1.22
+      orbitalArc: 151
+      axialTilt: 27.72
+      parentId: Alruba
+      showOrbit: true
+    satellites: []
+  - name: Alruba 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1345
+      age: 683986156
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.012633702883637596
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 54
+    satellite:
+      semiMajorAxis: 3653384370
+      eccentricity: 0.02
+      inclination: 1.36
+      orbitalArc: 285
+      axialTilt: 12.99
+      parentId: Alruba
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

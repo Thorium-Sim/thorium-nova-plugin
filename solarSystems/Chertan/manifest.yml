@@ -1,0 +1,213 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Chertan
+description: A solar system named Chertan
+position:
+  x: -16592356.98363786
+  'y': -23089041.42648669
+  z: -81993587.37909634
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Chertan
+stars:
+  - name: Chertan A
+    description: ''
+    tags: []
+    radius: 4.03
+    temperature: 9480
+    solarMass: 2.8
+    age: 1231073191967
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 34
+      semiMajorAxis: 48.36
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Chertan
+  - name: Chertan B
+    description: ''
+    tags: []
+    radius: 4.03
+    temperature: 9480
+    solarMass: 2.8
+    age: 1231073191967
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 214
+      semiMajorAxis: 48.36
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Chertan
+planets:
+  - name: Chertan 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4674
+      age: 7137895067
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.014836094596380174
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 580
+    satellite:
+      semiMajorAxis: 506121471.00000036
+      eccentricity: 0.01
+      inclination: 1.22
+      orbitalArc: 26
+      axialTilt: 10.28
+      parentId: Chertan
+      showOrbit: true
+    satellites: []
+  - name: Chertan 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 266
+      age: 156422754
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.004076767286996559
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 324
+    satellite:
+      semiMajorAxis: 1289836155.0000005
+      eccentricity: 0.02
+      inclination: 0.22
+      orbitalArc: 155
+      axialTilt: 5.95
+      parentId: Chertan
+      showOrbit: true
+    satellites: []
+  - name: Chertan 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2833
+      age: 8327422236
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.028944358994899097
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 30874
+    temperature: 124
+    satellite:
+      semiMajorAxis: 1680775592.666668
+      eccentricity: 0.01
+      inclination: 1.01
+      orbitalArc: 34
+      axialTilt: 15.45
+      parentId: Chertan
+      showOrbit: true
+    satellites:
+      - name: Chertan 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 258.9773065078136
+          age: 9223951960
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.3000000430809187
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 26244
+        temperature: 170
+        satellite:
+          semiMajorAxis: 51975.33977039738
+          eccentricity: 0
+          inclination: 1.3
+          orbitalArc: 309
+          axialTilt: 18.23
+          parentId: Chertan 3
+          showOrbit: true
+        satellites: []
+      - name: Chertan 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 208.24552472487457
+          age: 6696627350
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.3000000564302788
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 46917
+        temperature: 329
+        satellite:
+          semiMajorAxis: 100166.09739266467
+          eccentricity: 0
+          inclination: 1.81
+          orbitalArc: 4
+          axialTilt: 9.91
+          parentId: Chertan 3
+          showOrbit: true
+        satellites: []
+  - name: Chertan 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2574
+      age: 9089380376
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
+      terranMass: 0.01105198503622602
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 37536
+    temperature: 249
+    satellite:
+      semiMajorAxis: 2282225876
+      eccentricity: 0
+      inclination: 0.93
+      orbitalArc: 68
+      axialTilt: 17.41
+      parentId: Chertan
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Kornephoros
+description: A solar system named Kornephoros
+position:
+  x: 62873005.0347143
+  'y': -26781998.71397547
+  z: -25972173.224876806
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Kornephoros
+stars:
+  - name: Kornephoros A
+    description: ''
+    tags: []
+    radius: 15.92
+    temperature: 5092
+    solarMass: 2.91
+    age: 984969010362
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 5
+      semiMajorAxis: 191.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kornephoros
+  - name: Kornephoros B
+    description: ''
+    tags: []
+    radius: 15.92
+    temperature: 5092
+    solarMass: 2.91
+    age: 984969010362
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 185
+      semiMajorAxis: 191.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kornephoros
+planets: []
+commSatellite: null
+assets: {}

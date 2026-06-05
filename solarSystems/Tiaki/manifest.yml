@@ -1,0 +1,130 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Tiaki
+description: A solar system named Tiaki
+position:
+  x: 21064555.896660842
+  'y': 67957272.66449073
+  z: 60039634.46496749
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Tiaki
+stars:
+  - name: Tiaki A
+    description: ''
+    tags: []
+    radius: 154
+    temperature: 3508
+    solarMass: 2.4
+    age: 38539026995
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 25
+      semiMajorAxis: 1848
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tiaki
+  - name: Tiaki B
+    description: ''
+    tags: []
+    radius: 154
+    temperature: 3508
+    solarMass: 2.4
+    age: 38539026995
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 205
+      semiMajorAxis: 1848
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tiaki
+planets:
+  - name: Tiaki 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7390
+      age: 8256998596
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.02115537559124645
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 37327
+    temperature: 307
+    satellite:
+      semiMajorAxis: 2009318529
+      eccentricity: 0
+      inclination: 0.66
+      orbitalArc: 72
+      axialTilt: 3.07
+      parentId: Tiaki
+      showOrbit: true
+    satellites:
+      - name: Tiaki 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1789.106682317007
+          age: 8301448622
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+          classification: M
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 3546938344
+        temperature: 299
+        satellite:
+          semiMajorAxis: 873084.0609706994
+          eccentricity: 0.01
+          inclination: 1.2
+          orbitalArc: 84
+          axialTilt: 8.96
+          parentId: Tiaki 1
+          showOrbit: true
+        satellites: []
+  - name: Tiaki 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5806
+      age: 1863602365
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.007972742403099267
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 791
+    satellite:
+      semiMajorAxis: 4580102151
+      eccentricity: 0.01
+      inclination: 0.84
+      orbitalArc: 46
+      axialTilt: 26.96
+      parentId: Tiaki
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,313 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Taygeta
+description: A solar system named Taygeta
+position:
+  x: -143689598.14514294
+  'y': -95848993.69221182
+  z: 116866236.23710726
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Taygeta
+stars:
+  - name: Taygeta A
+    description: ''
+    tags: []
+    radius: 4.36
+    temperature: 13696
+    solarMass: 4.41
+    age: 380241842792
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 44
+      semiMajorAxis: 52.32000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Taygeta
+  - name: Taygeta B
+    description: ''
+    tags: []
+    radius: 4.36
+    temperature: 13696
+    solarMass: 4.41
+    age: 380241842792
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 224
+      semiMajorAxis: 52.32000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Taygeta
+planets:
+  - name: Taygeta 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 475
+      age: 226252117
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0028003225592099666
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 300
+    satellite:
+      semiMajorAxis: 1390756752.3333335
+      eccentricity: 0
+      inclination: 0.63
+      orbitalArc: 9
+      axialTilt: 30.28
+      parentId: Taygeta
+      showOrbit: true
+    satellites: []
+  - name: Taygeta 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5682
+      age: 3582033550
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.004112945637109909
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 142138
+    temperature: 260
+    satellite:
+      semiMajorAxis: 1999291368.8888888
+      eccentricity: 0
+      inclination: 1.12
+      orbitalArc: 318
+      axialTilt: 37.39
+      parentId: Taygeta
+      showOrbit: true
+    satellites: []
+  - name: Taygeta 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6571
+      age: 8080140369
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.004109148090148611
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 50492
+    temperature: 257
+    satellite:
+      semiMajorAxis: 2451699810.185185
+      eccentricity: 0
+      inclination: 0.96
+      orbitalArc: 265
+      axialTilt: 6.23
+      parentId: Taygeta
+      showOrbit: true
+    satellites:
+      - name: Taygeta 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1285.3788731058894
+          age: 4043988790
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.3000001486206427
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 23876
+        temperature: 217
+        satellite:
+          semiMajorAxis: 510295.4126230381
+          eccentricity: 0.02
+          inclination: 0.88
+          orbitalArc: 359
+          axialTilt: 20.88
+          parentId: Taygeta 3
+          showOrbit: true
+        satellites: []
+  - name: Taygeta 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5989
+      age: 5535351573
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.016678051663138453
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 184800364
+    temperature: 721
+    satellite:
+      semiMajorAxis: 2908414318.91358
+      eccentricity: 0.01
+      inclination: 0.32
+      orbitalArc: 16
+      axialTilt: 37.19
+      parentId: Taygeta
+      showOrbit: true
+    satellites:
+      - name: Taygeta 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1474.6035691461652
+          age: 7090697200
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.10000005991348351
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 754
+        satellite:
+          semiMajorAxis: 625231.9133179741
+          eccentricity: 0
+          inclination: 1.8
+          orbitalArc: 75
+          axialTilt: 38.42
+          parentId: Taygeta 4
+          showOrbit: true
+        satellites: []
+  - name: Taygeta 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 164
+      age: 936922287
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.010684313814968548
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 390
+    satellite:
+      semiMajorAxis: 3277724872.34979
+      eccentricity: 0.01
+      inclination: 0.78
+      orbitalArc: 268
+      axialTilt: 35.69
+      parentId: Taygeta
+      showOrbit: true
+    satellites: []
+  - name: Taygeta 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 111
+      age: 124807539
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.002933859894178768
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 371
+    satellite:
+      semiMajorAxis: 3746774543.632354
+      eccentricity: 0.01
+      inclination: 0.39
+      orbitalArc: 56
+      axialTilt: 38.41
+      parentId: Taygeta
+      showOrbit: true
+    satellites: []
+  - name: Taygeta 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 416
+      age: 823201386
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0027974231044100655
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 370
+    satellite:
+      semiMajorAxis: 3915167126.3382406
+      eccentricity: 0
+      inclination: 1.1
+      orbitalArc: 135
+      axialTilt: 20.56
+      parentId: Taygeta
+      showOrbit: true
+    satellites: []
+  - name: Taygeta 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 55782
+      age: 4463116338
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.7364642237339784
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 133
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 0.06
+      orbitalArc: 135
+      axialTilt: 7.45
+      parentId: Taygeta
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

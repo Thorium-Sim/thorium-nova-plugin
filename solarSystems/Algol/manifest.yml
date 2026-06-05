@@ -1,0 +1,204 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Algol
+description: A solar system named Algol
+position:
+  x: -26163312.778997656
+  'y': -31027808.827512033
+  z: 24361668.84168046
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Algol
+stars:
+  - name: Algol A
+    description: ''
+    tags: []
+    radius: 2.73
+    temperature: 13000
+    solarMass: 3.17
+    age: 858874766252
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 312
+      semiMajorAxis: 32.76
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Algol
+  - name: Algol B
+    description: ''
+    tags: []
+    radius: 2.73
+    temperature: 13000
+    solarMass: 3.17
+    age: 858874766252
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 492
+      semiMajorAxis: 32.76
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Algol
+planets:
+  - name: Algol 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3920
+      age: 6132626759
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.008897279545500025
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 9893
+    temperature: 271
+    satellite:
+      semiMajorAxis: 1120687959.999999
+      eccentricity: 0.02
+      inclination: 0.28
+      orbitalArc: 94
+      axialTilt: 16.12
+      parentId: Algol
+      showOrbit: true
+    satellites:
+      - name: Algol 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 582.4231654727886
+          age: 852879444
+          ringMapAsset: null
+          terranMass: 0.20999989621296167
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 240
+        satellite:
+          semiMajorAxis: 211836.92963212146
+          eccentricity: 0.02
+          inclination: 0.57
+          orbitalArc: 247
+          axialTilt: 9.92
+          parentId: Algol 1
+          showOrbit: true
+        satellites: []
+      - name: Algol 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 740.1415409390213
+          age: 1515626203
+          ringMapAsset: null
+          terranMass: 1.100000127260075
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 504
+        satellite:
+          semiMajorAxis: 359708.78889636433
+          eccentricity: 0
+          inclination: 0.1
+          orbitalArc: 318
+          axialTilt: 38.93
+          parentId: Algol 1
+          showOrbit: true
+        satellites: []
+  - name: Algol 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6825
+      age: 689838447
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.005538637778590479
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1064
+    satellite:
+      semiMajorAxis: 2168958431
+      eccentricity: 0.02
+      inclination: 1.94
+      orbitalArc: 246
+      axialTilt: 32.81
+      parentId: Algol
+      showOrbit: true
+    satellites:
+      - name: Algol 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1052.9046026289357
+          age: 2840391688
+          ringMapAsset: null
+          terranMass: 0.10000005486076438
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 573
+        satellite:
+          semiMajorAxis: 171401.36126231131
+          eccentricity: 0.01
+          inclination: 1.05
+          orbitalArc: 123
+          axialTilt: 13.24
+          parentId: Algol 2
+          showOrbit: true
+        satellites: []
+      - name: Algol 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1163.412454015264
+          age: 4985464898
+          ringMapAsset: null
+          terranMass: 1.100000235110285
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 304
+        satellite:
+          semiMajorAxis: 457221.09442799876
+          eccentricity: 0.01
+          inclination: 1.48
+          orbitalArc: 176
+          axialTilt: 7.54
+          parentId: Algol 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,157 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Wurren
+description: A solar system named Wurren
+position:
+  x: -26442669.508511335
+  'y': 129639367.9129041
+  z: 85973673.0656911
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Wurren
+stars:
+  - name: Wurren A
+    description: ''
+    tags: []
+    radius: 2.835
+    temperature: 14400
+    solarMass: 3.908
+    age: 652180402783
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 87
+      semiMajorAxis: 34.019999999999996
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Wurren
+  - name: Wurren B
+    description: ''
+    tags: []
+    radius: 2.835
+    temperature: 14400
+    solarMass: 3.908
+    age: 652180402783
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 267
+      semiMajorAxis: 34.019999999999996
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Wurren
+planets:
+  - name: Wurren 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 446
+      age: 662802439
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.005630578232239117
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 288
+    satellite:
+      semiMajorAxis: 375077793.3333335
+      eccentricity: 0.01
+      inclination: 1.02
+      orbitalArc: 76
+      axialTilt: 11.4
+      parentId: Wurren
+      showOrbit: true
+    satellites: []
+  - name: Wurren 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4180
+      age: 4572641195
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.01644088595144413
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 713
+    satellite:
+      semiMajorAxis: 803059038.777777
+      eccentricity: 0.01
+      inclination: 0.06
+      orbitalArc: 164
+      axialTilt: 26.72
+      parentId: Wurren
+      showOrbit: true
+    satellites:
+      - name: Wurren 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 792.807753343556
+          age: 9883284459
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.9000001256348974
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 34333
+        temperature: 196
+        satellite:
+          semiMajorAxis: 280653.94468361884
+          eccentricity: 0.01
+          inclination: 0.34
+          orbitalArc: 197
+          axialTilt: 15.7
+          parentId: Wurren 2
+          showOrbit: true
+        satellites: []
+  - name: Wurren 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 334
+      age: 797957778
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.00042002633384869526
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 173
+    satellite:
+      semiMajorAxis: 1196422141
+      eccentricity: 0.02
+      inclination: 1.75
+      orbitalArc: 279
+      axialTilt: 6.48
+      parentId: Wurren
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

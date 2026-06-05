@@ -1,0 +1,386 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Felis
+description: A solar system named Felis
+position:
+  x: -136853911.89495772
+  'y': 90797934.24823086
+  z: -225240339.44376194
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Felis
+stars:
+  - name: Felis A
+    description: ''
+    tags: []
+    radius: 56.7
+    temperature: 3875
+    solarMass: 6.4
+    age: 509209284094
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 181
+      semiMajorAxis: 680.4000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Felis
+  - name: Felis B
+    description: ''
+    tags: []
+    radius: 56.7
+    temperature: 3875
+    solarMass: 6.4
+    age: 509209284094
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 361
+      semiMajorAxis: 680.4000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Felis
+planets:
+  - name: Felis 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 88
+      age: 355394803
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0033180971374448687
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 147
+    satellite:
+      semiMajorAxis: 1885196428
+      eccentricity: 0.02
+      inclination: 0.09
+      orbitalArc: 15
+      axialTilt: 26.58
+      parentId: Felis
+      showOrbit: true
+    satellites: []
+  - name: Felis 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6769
+      age: 298127268
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.030760250551568967
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 834
+    satellite:
+      semiMajorAxis: 2474752303
+      eccentricity: 0.01
+      inclination: 0.25
+      orbitalArc: 8
+      axialTilt: 3.28
+      parentId: Felis
+      showOrbit: true
+    satellites:
+      - name: Felis 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1107.9510705092925
+          age: 348513360
+          ringMapAsset: null
+          terranMass: 0.039999903790158824
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 234
+        satellite:
+          semiMajorAxis: 282694.18313413905
+          eccentricity: 0
+          inclination: 1.77
+          orbitalArc: 262
+          axialTilt: 39.08
+          parentId: Felis 2
+          showOrbit: true
+        satellites: []
+      - name: Felis 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1003.8035832374015
+          age: 511945506
+          ringMapAsset: null
+          terranMass: 0.6000001836516108
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 55
+        satellite:
+          semiMajorAxis: 435650.7551250323
+          eccentricity: 0.02
+          inclination: 1.94
+          orbitalArc: 305
+          axialTilt: 30.07
+          parentId: Felis 2
+          showOrbit: true
+        satellites: []
+  - name: Felis 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7492
+      age: 3250497803
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.015772494579030315
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 551
+    satellite:
+      semiMajorAxis: 3191173575
+      eccentricity: 0.01
+      inclination: 1.26
+      orbitalArc: 200
+      axialTilt: 38.85
+      parentId: Felis
+      showOrbit: true
+    satellites:
+      - name: Felis 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 799.6013018704489
+          age: 1805389718
+          ringMapAsset: null
+          terranMass: 0.9000000364866428
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1088
+        satellite:
+          semiMajorAxis: 235622.470223565
+          eccentricity: 0
+          inclination: 0.36
+          orbitalArc: 88
+          axialTilt: 3.63
+          parentId: Felis 3
+          showOrbit: true
+        satellites: []
+      - name: Felis 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1564.7319858316641
+          age: 5501634647
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.3000001245280655
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 45995
+        temperature: 327
+        satellite:
+          semiMajorAxis: 400665.92603374884
+          eccentricity: 0.02
+          inclination: 0.53
+          orbitalArc: 227
+          axialTilt: 6.33
+          parentId: Felis 3
+          showOrbit: true
+        satellites: []
+      - name: Felis 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1214.9663089742808
+          age: 6562837726
+          ringMapAsset: null
+          terranMass: 2.0000002254261458
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 625
+        satellite:
+          semiMajorAxis: 580753.8956897062
+          eccentricity: 0.02
+          inclination: 0.08
+          orbitalArc: 67
+          axialTilt: 11.09
+          parentId: Felis 3
+          showOrbit: true
+        satellites: []
+  - name: Felis 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 51709
+      age: 7571670906
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.1471986531017345
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 274
+    satellite:
+      semiMajorAxis: 3529042243.0000043
+      eccentricity: 0.01
+      inclination: 0.15
+      orbitalArc: 355
+      axialTilt: 38.34
+      parentId: Felis
+      showOrbit: true
+    satellites:
+      - name: Felis 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5034.858245386675
+          age: 8321963570
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 142473
+        temperature: 255
+        satellite:
+          semiMajorAxis: 983730.6853829324
+          eccentricity: 0.01
+          inclination: 0.01
+          orbitalArc: 256
+          axialTilt: 27.09
+          parentId: Felis 4
+          showOrbit: true
+        satellites: []
+      - name: Felis 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3367.794048535462
+          age: 4708908366
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.9000001413049302
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 45318
+        temperature: 156
+        satellite:
+          semiMajorAxis: 1457283.0916100058
+          eccentricity: 0.02
+          inclination: 0.08
+          orbitalArc: 216
+          axialTilt: 37.23
+          parentId: Felis 4
+          showOrbit: true
+        satellites: []
+      - name: Felis 4c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4031.798888467543
+          age: 2352451785
+          ringMapAsset: null
+          terranMass: 0.5000000655598223
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 672
+        satellite:
+          semiMajorAxis: 1717546.3264871733
+          eccentricity: 0
+          inclination: 1.7
+          orbitalArc: 6
+          axialTilt: 2.19
+          parentId: Felis 4
+          showOrbit: true
+        satellites: []
+  - name: Felis 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 346
+      age: 321050776
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0017055632748837674
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 169
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.77
+      orbitalArc: 255
+      axialTilt: 34.38
+      parentId: Felis
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

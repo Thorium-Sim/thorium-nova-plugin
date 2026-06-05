@@ -1,0 +1,155 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Diphda
+description: A solar system named Diphda
+position:
+  x: -9079065.154309317
+  'y': 15591709.280001182
+  z: 47158534.74311232
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Diphda
+stars:
+  - name: Diphda A
+    description: ''
+    tags: []
+    radius: 17.52
+    temperature: 4792
+    solarMass: 3.5
+    age: 1247101746995
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 339
+      semiMajorAxis: 210.24
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Diphda
+  - name: Diphda B
+    description: ''
+    tags: []
+    radius: 17.52
+    temperature: 4792
+    solarMass: 3.5
+    age: 1247101746995
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 519
+      semiMajorAxis: 210.24
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Diphda
+planets:
+  - name: Diphda 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4684
+      age: 8990834286
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.013171078463357558
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 11150
+    temperature: 219
+    satellite:
+      semiMajorAxis: 1581665066.666667
+      eccentricity: 0.01
+      inclination: 1.85
+      orbitalArc: 262
+      axialTilt: 33.67
+      parentId: Diphda
+      showOrbit: true
+    satellites:
+      - name: Diphda 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1119.0761743634187
+          age: 112701144
+          ringMapAsset: null
+          terranMass: 0.9599999488710489
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 344
+        satellite:
+          semiMajorAxis: 320055.7858679377
+          eccentricity: 0.01
+          inclination: 1.03
+          orbitalArc: 56
+          axialTilt: 17.57
+          parentId: Diphda 1
+          showOrbit: true
+        satellites: []
+  - name: Diphda 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7323
+      age: 5484390417
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0016154838106863863
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 93108000
+    temperature: 626
+    satellite:
+      semiMajorAxis: 2928035250.111111
+      eccentricity: 0.02
+      inclination: 0.96
+      orbitalArc: 98
+      axialTilt: 20.99
+      parentId: Diphda
+      showOrbit: true
+    satellites: []
+  - name: Diphda 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 435
+      age: 659155152
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.00037418310127854126
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 175
+    satellite:
+      semiMajorAxis: 3899759119
+      eccentricity: 0.02
+      inclination: 1.82
+      orbitalArc: 169
+      axialTilt: 14.49
+      parentId: Diphda
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

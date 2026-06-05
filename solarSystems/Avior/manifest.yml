@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Avior
+description: A solar system named Avior
+position:
+  x: -132318051.76527838
+  'y': 276468258.70144945
+  z: -94829939.0223863
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Avior
+stars:
+  - name: Avior A
+    description: ''
+    tags: []
+    radius: 151
+    temperature: 4460
+    solarMass: 10.5
+    age: 67122056507
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 330
+      semiMajorAxis: 1812
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Avior
+  - name: Avior B
+    description: ''
+    tags: []
+    radius: 151
+    temperature: 4460
+    solarMass: 10.5
+    age: 67122056507
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 510
+      semiMajorAxis: 1812
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Avior
+planets: []
+commSatellite: null
+assets: {}

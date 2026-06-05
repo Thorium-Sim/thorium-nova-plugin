@@ -1,0 +1,105 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alfirk
+description: A solar system named Alfirk
+position:
+  x: 74085261.98346749
+  'y': -342224465.8118734
+  z: 95389721.82776777
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alfirk
+stars:
+  - name: Alfirk A
+    description: ''
+    tags: []
+    radius: 7.22
+    temperature: 23600
+    solarMass: 7.4
+    age: 26392382526
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 266
+      semiMajorAxis: 86.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alfirk
+  - name: Alfirk B
+    description: ''
+    tags: []
+    radius: 7.22
+    temperature: 23600
+    solarMass: 7.4
+    age: 26392382526
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 446
+      semiMajorAxis: 86.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alfirk
+planets:
+  - name: Alfirk 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 34701
+      age: 7183474955
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.322777313511534
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 328
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.35
+      orbitalArc: 343
+      axialTilt: 16.46
+      parentId: Alfirk
+      showOrbit: true
+    satellites:
+      - name: Alfirk 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4159.837630092699
+          age: 744847674
+          ringMapAsset: null
+          terranMass: 0.10000013820704493
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1328
+        satellite:
+          semiMajorAxis: 1688894.0778176358
+          eccentricity: 0
+          inclination: 0.12
+          orbitalArc: 109
+          axialTilt: 6.73
+          parentId: Alfirk 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

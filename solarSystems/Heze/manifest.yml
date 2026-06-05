@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Heze
+description: A solar system named Heze
+position:
+  x: 15626771.156825721
+  'y': 404733.40782934707
+  z: -35643899.46067049
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Heze
+stars:
+  - name: Heze A
+    description: ''
+    tags: []
+    radius: 2.079
+    temperature: 8247
+    solarMass: 2.041
+    age: 5887342911185
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 104
+      semiMajorAxis: 24.948
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Heze
+  - name: Heze B
+    description: ''
+    tags: []
+    radius: 2.079
+    temperature: 8247
+    solarMass: 2.041
+    age: 5887342911185
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 284
+      semiMajorAxis: 24.948
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Heze
+planets:
+  - name: Heze 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 456
+      age: 947689770
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0075693384566919075
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 256
+    satellite:
+      semiMajorAxis: 1597927728
+      eccentricity: 0.02
+      inclination: 0.79
+      orbitalArc: 91
+      axialTilt: 31.7
+      parentId: Heze
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

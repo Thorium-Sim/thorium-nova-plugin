@@ -1,0 +1,187 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Procyon
+description: A solar system named Procyon
+position:
+  x: -5447773.5413190555
+  'y': -548906.4064390024
+  z: -2520166.807470653
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Procyon
+stars:
+  - name: Procyon A
+    description: ''
+    tags: []
+    radius: 2.043
+    temperature: 6582
+    solarMass: 1.478
+    age: 10881166941555
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 93
+      semiMajorAxis: 24.516000000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Procyon
+  - name: Procyon B
+    description: ''
+    tags: []
+    radius: 2.043
+    temperature: 6582
+    solarMass: 1.478
+    age: 10881166941555
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 273
+      semiMajorAxis: 24.516000000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Procyon
+planets:
+  - name: Procyon 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5996
+      age: 7282177632
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.008318533302910304
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 551
+    satellite:
+      semiMajorAxis: 44504303
+      eccentricity: 0.01
+      inclination: 0.8
+      orbitalArc: 174
+      axialTilt: 22.37
+      parentId: Procyon
+      showOrbit: true
+    satellites:
+      - name: Procyon 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1332.0043486304128
+          age: 8904556840
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 60695
+        temperature: 259
+        satellite:
+          semiMajorAxis: 519481.69596586097
+          eccentricity: 0.01
+          inclination: 1.11
+          orbitalArc: 236
+          axialTilt: 27.55
+          parentId: Procyon 1
+          showOrbit: true
+        satellites: []
+  - name: Procyon 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6897
+      age: 5505675545
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.032915903783353094
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 783
+    satellite:
+      semiMajorAxis: 197524001
+      eccentricity: 0.01
+      inclination: 1.57
+      orbitalArc: 87
+      axialTilt: 3.03
+      parentId: Procyon
+      showOrbit: true
+    satellites:
+      - name: Procyon 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1372.5331982426305
+          age: 6918824736
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 0.300000034939332
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 866
+        satellite:
+          semiMajorAxis: 580581.5428566327
+          eccentricity: 0
+          inclination: 1.21
+          orbitalArc: 237
+          axialTilt: 5.97
+          parentId: Procyon 2
+          showOrbit: true
+        satellites: []
+  - name: Procyon 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 303
+      age: 81321605
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0007267918360113831
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 292
+    satellite:
+      semiMajorAxis: 295901813
+      eccentricity: 0
+      inclination: 1.23
+      orbitalArc: 79
+      axialTilt: 31.38
+      parentId: Procyon
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

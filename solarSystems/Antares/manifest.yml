@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Antares
+description: A solar system named Antares
+position:
+  x: 239062736.32170776
+  'y': 128767883.01944071
+  z: -99747690.1440294
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Antares
+stars:
+  - name: Antares A
+    description: ''
+    tags: []
+    radius: 680
+    temperature: 3660
+    solarMass: 13
+    age: 9035880314
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 306
+      semiMajorAxis: 8160
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Antares
+  - name: Antares B
+    description: ''
+    tags: []
+    radius: 680
+    temperature: 3660
+    solarMass: 13
+    age: 9035880314
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 486
+      semiMajorAxis: 8160
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Antares
+planets:
+  - name: Antares 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 354
+      age: 501937062
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.008416684729197718
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 355
+    satellite:
+      semiMajorAxis: 16948115307
+      eccentricity: 0.01
+      inclination: 0.92
+      orbitalArc: 50
+      axialTilt: 30.49
+      parentId: Antares
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

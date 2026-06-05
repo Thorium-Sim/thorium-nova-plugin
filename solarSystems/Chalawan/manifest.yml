@@ -1,0 +1,131 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Chalawan
+description: A solar system named Chalawan
+position:
+  x: -4797507.122317968
+  'y': -15656334.25282779
+  z: -17739172.34656497
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Chalawan
+stars:
+  - name: Chalawan A
+    description: ''
+    tags: []
+    radius: 1.23
+    temperature: 5880
+    solarMass: 1.02
+    age: 32527443338882
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 292
+      semiMajorAxis: 14.76
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Chalawan
+  - name: Chalawan B
+    description: ''
+    tags: []
+    radius: 1.23
+    temperature: 5880
+    solarMass: 1.02
+    age: 32527443338882
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 472
+      semiMajorAxis: 14.76
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Chalawan
+planets:
+  - name: Chalawan 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 41766
+      age: 8262884230
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 1.9653954996588632
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 196
+    satellite:
+      semiMajorAxis: 1501396909.6666665
+      eccentricity: 0.02
+      inclination: 1.42
+      orbitalArc: 40
+      axialTilt: 15.13
+      parentId: Chalawan
+      showOrbit: true
+    satellites:
+      - name: Chalawan 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 2883.542247038205
+          age: 4618181961
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 30735
+        temperature: 260
+        satellite:
+          semiMajorAxis: 1110163.765109709
+          eccentricity: 0.02
+          inclination: 0.85
+          orbitalArc: 178
+          axialTilt: 9.97
+          parentId: Chalawan 1
+          showOrbit: true
+        satellites: []
+  - name: Chalawan 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 315
+      age: 955983628
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0032596602675337687
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 381
+    satellite:
+      semiMajorAxis: 3141636311
+      eccentricity: 0
+      inclination: 1.82
+      orbitalArc: 275
+      axialTilt: 37.87
+      parentId: Chalawan
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

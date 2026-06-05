@@ -1,0 +1,377 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Rasalhague
+description: A solar system named Rasalhague
+position:
+  x: 24800860.767837677
+  'y': -5558700.75159821
+  z: -2723308.390698312
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Rasalhague
+stars:
+  - name: 'Rasalhague '
+    description: ''
+    tags: []
+    radius: 2.858
+    temperature: 7569
+    solarMass: 2.2
+    age: 4732749250789
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 302
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Rasalhague
+planets:
+  - name: Rasalhague 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5642
+      age: 5063789027
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0051299568562838144
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 108550
+    temperature: 262
+    satellite:
+      semiMajorAxis: 407410539.0000004
+      eccentricity: 0.02
+      inclination: 1.26
+      orbitalArc: 6
+      axialTilt: 0.4
+      parentId: Rasalhague
+      showOrbit: true
+    satellites:
+      - name: Rasalhague 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 755.8661882045599
+          age: 3062821829
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 38151
+        temperature: 258
+        satellite:
+          semiMajorAxis: 253971.03923673212
+          eccentricity: 0
+          inclination: 0.71
+          orbitalArc: 137
+          axialTilt: 18.23
+          parentId: Rasalhague 1
+          showOrbit: true
+        satellites: []
+  - name: Rasalhague 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4757
+      age: 7183334876
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.005681031943194963
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 14751
+    temperature: 279
+    satellite:
+      semiMajorAxis: 732657220.3333344
+      eccentricity: 0
+      inclination: 1.65
+      orbitalArc: 207
+      axialTilt: 16.11
+      parentId: Rasalhague
+      showOrbit: true
+    satellites:
+      - name: Rasalhague 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 871.5423012270109
+          age: 6584538234
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 154379
+        temperature: 260
+        satellite:
+          semiMajorAxis: 293709.75551350263
+          eccentricity: 0
+          inclination: 1.15
+          orbitalArc: 79
+          axialTilt: 7.36
+          parentId: Rasalhague 2
+          showOrbit: true
+        satellites: []
+  - name: Rasalhague 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4511
+      age: 4087521052
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0035362626474978063
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 41290
+    temperature: 122
+    satellite:
+      semiMajorAxis: 881474191.6666692
+      eccentricity: 0.01
+      inclination: 0.76
+      orbitalArc: 318
+      axialTilt: 26.4
+      parentId: Rasalhague
+      showOrbit: true
+    satellites: []
+  - name: Rasalhague 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 114
+      age: 56978466
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0036474854136771756
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 276
+    satellite:
+      semiMajorAxis: 968342821.6666925
+      eccentricity: 0.01
+      inclination: 1.26
+      orbitalArc: 171
+      axialTilt: 12.08
+      parentId: Rasalhague
+      showOrbit: true
+    satellites: []
+  - name: Rasalhague 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4606
+      age: 9397224663
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.02772718377617381
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 8190
+    temperature: 180
+    satellite:
+      semiMajorAxis: 1118290588.444646
+      eccentricity: 0.01
+      inclination: 0.04
+      orbitalArc: 232
+      axialTilt: 21.12
+      parentId: Rasalhague
+      showOrbit: true
+    satellites:
+      - name: Rasalhague 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 942.1885449587576
+          age: 262847201
+          ringMapAsset: null
+          terranMass: 0.21999989484068538
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 191
+        satellite:
+          semiMajorAxis: 413620.7712368946
+          eccentricity: 0
+          inclination: 0.67
+          orbitalArc: 197
+          axialTilt: 38.64
+          parentId: Rasalhague 5
+          showOrbit: true
+        satellites: []
+  - name: Rasalhague 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 49276
+      age: 8007456376
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.9647200683166088
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 224
+    satellite:
+      semiMajorAxis: 1286747535.9267988
+      eccentricity: 0
+      inclination: 1.4
+      orbitalArc: 32
+      axialTilt: 8.02
+      parentId: Rasalhague
+      showOrbit: true
+    satellites:
+      - name: Rasalhague 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3400.023067522008
+          age: 6662716544
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.5000000550551293
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 842
+        satellite:
+          semiMajorAxis: 866125.642355016
+          eccentricity: 0
+          inclination: 1.59
+          orbitalArc: 170
+          axialTilt: 12.03
+          parentId: Rasalhague 6
+          showOrbit: true
+        satellites: []
+      - name: Rasalhague 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6189.770556176262
+          age: 1147317579
+          ringMapAsset: null
+          terranMass: 1.1000000597559025
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 813
+        satellite:
+          semiMajorAxis: 2665819.7287816554
+          eccentricity: 0.01
+          inclination: 1.66
+          orbitalArc: 154
+          axialTilt: 28.8
+          parentId: Rasalhague 6
+          showOrbit: true
+        satellites: []
+      - name: Rasalhague 6c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 12053.630082479453
+          age: 256950719
+          ringMapAsset: null
+          terranMass: 0.20999982789283167
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 170
+        satellite:
+          semiMajorAxis: 5749581.549342698
+          eccentricity: 0.01
+          inclination: 1.46
+          orbitalArc: 299
+          axialTilt: 29.91
+          parentId: Rasalhague 6
+          showOrbit: true
+        satellites: []
+  - name: Rasalhague 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 25791
+      age: 4023684680
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.1642226430853416
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 187
+    satellite:
+      semiMajorAxis: 1416948562
+      eccentricity: 0.01
+      inclination: 1.38
+      orbitalArc: 149
+      axialTilt: 26.68
+      parentId: Rasalhague
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

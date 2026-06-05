@@ -1,0 +1,342 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Menkar
+description: A solar system named Menkar
+position:
+  x: -93283907.00402689
+  'y': -9340195.35505312
+  z: 91446450.00170922
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Menkar
+stars:
+  - name: 'Menkar '
+    description: ''
+    tags: []
+    radius: 100.2
+    temperature: 3738
+    solarMass: 2.3
+    age: 67671295270
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 161
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Menkar
+planets:
+  - name: Menkar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4075
+      age: 9729173388
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.009146937118032071
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 570
+    satellite:
+      semiMajorAxis: 2126531560.3333333
+      eccentricity: 0
+      inclination: 1.04
+      orbitalArc: 49
+      axialTilt: 37.78
+      parentId: Menkar
+      showOrbit: true
+    satellites:
+      - name: Menkar 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 287.859163904006
+          age: 6722110611
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 201934148
+        temperature: 295
+        satellite:
+          semiMajorAxis: 96432.819907842
+          eccentricity: 0
+          inclination: 0.35
+          orbitalArc: 150
+          axialTilt: 6.01
+          parentId: Menkar 1
+          showOrbit: true
+        satellites: []
+  - name: Menkar 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 50975
+      age: 2065569334
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 0.27500603570370147
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 207
+    satellite:
+      semiMajorAxis: 2919502536.777778
+      eccentricity: 0
+      inclination: 0.21
+      orbitalArc: 163
+      axialTilt: 4.34
+      parentId: Menkar
+      showOrbit: true
+    satellites:
+      - name: Menkar 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3455.1520729656104
+          age: 3785714528
+          ringMapAsset: null
+          terranMass: 1.9000005772370216
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 138
+        satellite:
+          semiMajorAxis: 684387.0646068119
+          eccentricity: 0.02
+          inclination: 0.56
+          orbitalArc: 256
+          axialTilt: 26.09
+          parentId: Menkar 2
+          showOrbit: true
+        satellites: []
+      - name: Menkar 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5490.526361545612
+          age: 577237409
+          ringMapAsset: null
+          terranMass: 1.0999996631968194
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 310
+        satellite:
+          semiMajorAxis: 1605355.6128038072
+          eccentricity: 0.01
+          inclination: 1.88
+          orbitalArc: 165
+          axialTilt: 29.96
+          parentId: Menkar 2
+          showOrbit: true
+        satellites: []
+      - name: Menkar 2c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5763.381454162796
+          age: 9788695924
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 45231
+        temperature: 268
+        satellite:
+          semiMajorAxis: 2247718.7671234906
+          eccentricity: 0
+          inclination: 1.03
+          orbitalArc: 51
+          axialTilt: 17.58
+          parentId: Menkar 2
+          showOrbit: true
+        satellites: []
+  - name: Menkar 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 390
+      age: 606562187
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.003364874864600678
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 374
+    satellite:
+      semiMajorAxis: 3330112497.333337
+      eccentricity: 0.01
+      inclination: 1.12
+      orbitalArc: 307
+      axialTilt: 38.29
+      parentId: Menkar
+      showOrbit: true
+    satellites: []
+  - name: Menkar 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2630
+      age: 106006764
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.002927236750364649
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 718
+    satellite:
+      semiMajorAxis: 3829167391.3333507
+      eccentricity: 0.01
+      inclination: 0.2
+      orbitalArc: 16
+      axialTilt: 18.56
+      parentId: Menkar
+      showOrbit: true
+    satellites:
+      - name: Menkar 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 335.8642570635687
+          age: 535149061
+          ringMapAsset: null
+          terranMass: 0.5799997377146304
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 330
+        satellite:
+          semiMajorAxis: 83817.43443633709
+          eccentricity: 0.02
+          inclination: 0.56
+          orbitalArc: 237
+          axialTilt: 13.63
+          parentId: Menkar 4
+          showOrbit: true
+        satellites: []
+      - name: Menkar 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 499.04907855497424
+          age: 6313641180
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+          classification: 'N'
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 270710206
+        temperature: 493
+        satellite:
+          semiMajorAxis: 137238.4966026179
+          eccentricity: 0.02
+          inclination: 0.5
+          orbitalArc: 50
+          axialTilt: 37.02
+          parentId: Menkar 4
+          showOrbit: true
+        satellites: []
+  - name: Menkar 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6929
+      age: 9303837498
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.006225427606544791
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 7599959122
+    temperature: 296
+    satellite:
+      semiMajorAxis: 4319202237
+      eccentricity: 0.01
+      inclination: 1.69
+      orbitalArc: 105
+      axialTilt: 15.53
+      parentId: Menkar
+      showOrbit: true
+    satellites:
+      - name: Menkar 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1212.8373586611563
+          age: 5002730766
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 135530
+        temperature: 263
+        satellite:
+          semiMajorAxis: 379618.0932609419
+          eccentricity: 0
+          inclination: 1.92
+          orbitalArc: 62
+          axialTilt: 10.38
+          parentId: Menkar 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

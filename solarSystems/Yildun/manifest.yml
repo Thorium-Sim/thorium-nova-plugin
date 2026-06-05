@@ -1,0 +1,519 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Yildun
+description: A solar system named Yildun
+position:
+  x: 5346963.392159732
+  'y': -90304615.60712104
+  z: -651397.8411161603
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Yildun
+stars:
+  - name: Yildun A
+    description: ''
+    tags: []
+    radius: 2.8
+    temperature: 9911
+    solarMass: 2.35
+    age: 1791641772193
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 35
+      semiMajorAxis: 33.599999999999994
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Yildun
+  - name: Yildun B
+    description: ''
+    tags: []
+    radius: 2.8
+    temperature: 9911
+    solarMass: 2.35
+    age: 1791641772193
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 215
+      semiMajorAxis: 33.599999999999994
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Yildun
+planets:
+  - name: Yildun 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 412
+      age: 423243171
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0187199075929963
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 262
+    satellite:
+      semiMajorAxis: 324707330.6666659
+      eccentricity: 0.01
+      inclination: 1.75
+      orbitalArc: 179
+      axialTilt: 28.06
+      parentId: Yildun
+      showOrbit: true
+    satellites: []
+  - name: Yildun 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 197
+      age: 263182646
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.002654396366958904
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 342
+    satellite:
+      semiMajorAxis: 1052623702.444443
+      eccentricity: 0.02
+      inclination: 0.49
+      orbitalArc: 284
+      axialTilt: 10.43
+      parentId: Yildun
+      showOrbit: true
+    satellites: []
+  - name: Yildun 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4017
+      age: 7531320644
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
+      terranMass: 0.022265614187293014
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 23571
+    temperature: 277
+    satellite:
+      semiMajorAxis: 1245248109.2962866
+      eccentricity: 0.01
+      inclination: 1.56
+      orbitalArc: 10
+      axialTilt: 30.7
+      parentId: Yildun
+      showOrbit: true
+    satellites:
+      - name: Yildun 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 354.6268859458335
+          age: 619462661
+          ringMapAsset: null
+          terranMass: 0.6999996629795688
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 348
+        satellite:
+          semiMajorAxis: 143781.14209616245
+          eccentricity: 0
+          inclination: 0.71
+          orbitalArc: 90
+          axialTilt: 37.09
+          parentId: Yildun 3
+          showOrbit: true
+        satellites: []
+      - name: Yildun 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 878.9444596711068
+          age: 9987901685
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+          classification: M
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 1328329389
+        temperature: 289
+        satellite:
+          semiMajorAxis: 267090.7162606399
+          eccentricity: 0.01
+          inclination: 0.02
+          orbitalArc: 286
+          axialTilt: 27.55
+          parentId: Yildun 3
+          showOrbit: true
+        satellites: []
+      - name: Yildun 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 790.050704631745
+          age: 9578626047
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 101385
+        temperature: 257
+        satellite:
+          semiMajorAxis: 329451.1438314377
+          eccentricity: 0.01
+          inclination: 1.54
+          orbitalArc: 215
+          axialTilt: 27.35
+          parentId: Yildun 3
+          showOrbit: true
+        satellites: []
+  - name: Yildun 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7060
+      age: 9629330267
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.008375832662190273
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 433181847
+    temperature: 623
+    satellite:
+      semiMajorAxis: 1444183577.0617158
+      eccentricity: 0
+      inclination: 1.71
+      orbitalArc: 349
+      axialTilt: 37.02
+      parentId: Yildun
+      showOrbit: true
+    satellites:
+      - name: Yildun 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 530.2808260422388
+          age: 6081495369
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 157349
+        temperature: 260
+        satellite:
+          semiMajorAxis: 173401.83011581207
+          eccentricity: 0
+          inclination: 1.33
+          orbitalArc: 304
+          axialTilt: 38.24
+          parentId: Yildun 4
+          showOrbit: true
+        satellites: []
+  - name: Yildun 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5084
+      age: 3533076404
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.009585579368771422
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 512
+    satellite:
+      semiMajorAxis: 1569923618.1234324
+      eccentricity: 0.01
+      inclination: 1.24
+      orbitalArc: 186
+      axialTilt: 14.36
+      parentId: Yildun
+      showOrbit: true
+    satellites:
+      - name: Yildun 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 305.9071764340874
+          age: 5023490757
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 93574
+        temperature: 255
+        satellite:
+          semiMajorAxis: 152695.19671077316
+          eccentricity: 0.01
+          inclination: 0.01
+          orbitalArc: 246
+          axialTilt: 38.4
+          parentId: Yildun 5
+          showOrbit: true
+        satellites: []
+      - name: Yildun 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1070.7257464660624
+          age: 7620605858
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.5000000251966865
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 7348
+        temperature: 168
+        satellite:
+          semiMajorAxis: 434714.6530652213
+          eccentricity: 0
+          inclination: 1.97
+          orbitalArc: 124
+          axialTilt: 9.13
+          parentId: Yildun 5
+          showOrbit: true
+        satellites: []
+  - name: Yildun 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7221
+      age: 4473808977
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.013868129579668898
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 24844
+    temperature: 260
+    satellite:
+      semiMajorAxis: 1650104335.234324
+      eccentricity: 0.01
+      inclination: 1.86
+      orbitalArc: 80
+      axialTilt: 27.72
+      parentId: Yildun
+      showOrbit: true
+    satellites:
+      - name: Yildun 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 395.8153616899311
+          age: 9782711192
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 51639
+        temperature: 268
+        satellite:
+          semiMajorAxis: 144230.91522696294
+          eccentricity: 0.01
+          inclination: 0.31
+          orbitalArc: 324
+          axialTilt: 38.07
+          parentId: Yildun 6
+          showOrbit: true
+        satellites: []
+      - name: Yildun 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1015.0653541633664
+          age: 586262480
+          ringMapAsset: null
+          terranMass: 1.0599999510632745
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 151
+        satellite:
+          semiMajorAxis: 314142.40011153056
+          eccentricity: 0.01
+          inclination: 1.33
+          orbitalArc: 234
+          axialTilt: 13.03
+          parentId: Yildun 6
+          showOrbit: true
+        satellites: []
+      - name: Yildun 6c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1100.4017059548878
+          age: 9826514929
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+          classification: M
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 8853646332
+        temperature: 297
+        satellite:
+          semiMajorAxis: 468771.1267367822
+          eccentricity: 0.02
+          inclination: 1.33
+          orbitalArc: 110
+          axialTilt: 19.88
+          parentId: Yildun 6
+          showOrbit: true
+        satellites: []
+  - name: Yildun 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7085
+      age: 8600783587
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.022263426168301008
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 266207480
+    temperature: 296
+    satellite:
+      semiMajorAxis: 1767541985
+      eccentricity: 0.01
+      inclination: 0.95
+      orbitalArc: 88
+      axialTilt: 24.99
+      parentId: Yildun
+      showOrbit: true
+    satellites:
+      - name: Yildun 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 502.14370863428195
+          age: 866657854
+          ringMapAsset: null
+          terranMass: 1.000000039349664
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 43
+        satellite:
+          semiMajorAxis: 114160.30143688543
+          eccentricity: 0.01
+          inclination: 1.72
+          orbitalArc: 350
+          axialTilt: 18.99
+          parentId: Yildun 7
+          showOrbit: true
+        satellites: []
+      - name: Yildun 7b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 776.7628923025944
+          age: 7535008526
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.100000119725269
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 740
+        satellite:
+          semiMajorAxis: 252447.93999834318
+          eccentricity: 0.01
+          inclination: 1.04
+          orbitalArc: 319
+          axialTilt: 15.74
+          parentId: Yildun 7
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

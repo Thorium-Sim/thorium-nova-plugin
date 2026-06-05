@@ -1,0 +1,105 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Fafnir
+description: A solar system named Fafnir
+position:
+  x: 68098136.76085073
+  'y': -150836045.9187266
+  z: 7754475.615041467
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Fafnir
+stars:
+  - name: Fafnir A
+    description: ''
+    tags: []
+    radius: 19.78
+    temperature: 4449
+    solarMass: 1.07
+    age: 402578766280
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 103
+      semiMajorAxis: 237.36
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Fafnir
+  - name: Fafnir B
+    description: ''
+    tags: []
+    radius: 19.78
+    temperature: 4449
+    solarMass: 1.07
+    age: 402578766280
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 283
+      semiMajorAxis: 237.36
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Fafnir
+planets:
+  - name: Fafnir 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 65499
+      age: 3786565635
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.10853163721238536
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 267
+    satellite:
+      semiMajorAxis: 3767844751
+      eccentricity: 0.01
+      inclination: 0.55
+      orbitalArc: 273
+      axialTilt: 7.71
+      parentId: Fafnir
+      showOrbit: true
+    satellites:
+      - name: Fafnir 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 15616.660462131029
+          age: 1271808735
+          ringMapAsset: null
+          terranMass: 2.100000120113529
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 655
+        satellite:
+          semiMajorAxis: 5137881.292041109
+          eccentricity: 0.01
+          inclination: 0.85
+          orbitalArc: 336
+          axialTilt: 28.66
+          parentId: Fafnir 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

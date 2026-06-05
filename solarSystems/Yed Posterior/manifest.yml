@@ -1,0 +1,156 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Yed Posterior
+description: A solar system named Yed Posterior
+position:
+  x: 50185554.84654862
+  'y': 4560952.378342271
+  z: -23850923.278652214
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Yed Posterior
+stars:
+  - name: Yed Posterior A
+    description: ''
+    tags: []
+    radius: 10.39
+    temperature: 4918
+    solarMass: 1.85
+    age: 1689490756911
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 329
+      semiMajorAxis: 124.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Yed Posterior
+  - name: Yed Posterior B
+    description: ''
+    tags: []
+    radius: 10.39
+    temperature: 4918
+    solarMass: 1.85
+    age: 1689490756911
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 509
+      semiMajorAxis: 124.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Yed Posterior
+planets:
+  - name: Yed Posterior 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4193
+      age: 6472297650
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.018882352818015435
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 31775
+    temperature: 142
+    satellite:
+      semiMajorAxis: 833332223
+      eccentricity: 0.01
+      inclination: 0.16
+      orbitalArc: 57
+      axialTilt: 33.05
+      parentId: Yed Posterior
+      showOrbit: true
+    satellites:
+      - name: Yed Posterior 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 218.55130703737987
+          age: 788367436
+          ringMapAsset: null
+          terranMass: 1.6000000453963565
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 34
+        satellite:
+          semiMajorAxis: 41724.50194607466
+          eccentricity: 0.02
+          inclination: 1.05
+          orbitalArc: 293
+          axialTilt: 30.66
+          parentId: Yed Posterior 1
+          showOrbit: true
+        satellites: []
+      - name: Yed Posterior 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 299.8825650437112
+          age: 41285531
+          ringMapAsset: null
+          terranMass: 1.3699997662208363
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 283
+        satellite:
+          semiMajorAxis: 88995.49463676361
+          eccentricity: 0.01
+          inclination: 0.83
+          orbitalArc: 217
+          axialTilt: 23.72
+          parentId: Yed Posterior 1
+          showOrbit: true
+        satellites: []
+      - name: Yed Posterior 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 387.39164299430365
+          age: 8087196358
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.500000144004289
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 45603
+        temperature: 246
+        satellite:
+          semiMajorAxis: 163866.66498659045
+          eccentricity: 0.01
+          inclination: 0.75
+          orbitalArc: 245
+          axialTilt: 34.7
+          parentId: Yed Posterior 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

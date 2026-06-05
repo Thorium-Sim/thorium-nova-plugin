@@ -1,0 +1,207 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sham
+description: A solar system named Sham
+position:
+  x: 173132477.94620204
+  'y': -62133006.01362167
+  z: 80821797.92282228
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sham
+stars:
+  - name: Sham A
+    description: ''
+    tags: []
+    radius: 21
+    temperature: 5333
+    solarMass: 4.11
+    age: 664486530708
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 165
+      semiMajorAxis: 252
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sham
+  - name: Sham B
+    description: ''
+    tags: []
+    radius: 21
+    temperature: 5333
+    solarMass: 4.11
+    age: 664486530708
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 345
+      semiMajorAxis: 252
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sham
+planets:
+  - name: Sham 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5937
+      age: 8954235296
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.02207681027464029
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 68200011
+    temperature: 676
+    satellite:
+      semiMajorAxis: 1415658363
+      eccentricity: 0.02
+      inclination: 0.73
+      orbitalArc: 35
+      axialTilt: 12.5
+      parentId: Sham
+      showOrbit: true
+    satellites:
+      - name: Sham 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 587.8775265627838
+          age: 3994648407
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+          classification: 'N'
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 442048285
+        temperature: 618
+        satellite:
+          semiMajorAxis: 131800.16923554015
+          eccentricity: 0
+          inclination: 1.25
+          orbitalArc: 182
+          axialTilt: 31.79
+          parentId: Sham 1
+          showOrbit: true
+        satellites: []
+      - name: Sham 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 847.4028668987688
+          age: 620518122
+          ringMapAsset: null
+          terranMass: 0.8299999051141669
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 155
+        satellite:
+          semiMajorAxis: 500103.8413339942
+          eccentricity: 0.01
+          inclination: 1.14
+          orbitalArc: 187
+          axialTilt: 39.9
+          parentId: Sham 1
+          showOrbit: true
+        satellites: []
+      - name: Sham 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1460.9717794911057
+          age: 1895994685
+          ringMapAsset: null
+          terranMass: 0.7000001535539776
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 717
+        satellite:
+          semiMajorAxis: 699805.4823762396
+          eccentricity: 0.02
+          inclination: 1.1
+          orbitalArc: 243
+          axialTilt: 7.09
+          parentId: Sham 1
+          showOrbit: true
+        satellites: []
+  - name: Sham 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3058
+      age: 9310022792
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.01588261698787948
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 46586
+    temperature: 119
+    satellite:
+      semiMajorAxis: 2976067962
+      eccentricity: 0.02
+      inclination: 0.77
+      orbitalArc: 314
+      axialTilt: 33
+      parentId: Sham
+      showOrbit: true
+    satellites:
+      - name: Sham 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 659.2430592916309
+          age: 7532466756
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 602856614
+        temperature: 300
+        satellite:
+          semiMajorAxis: 321710.61293431587
+          eccentricity: 0.01
+          inclination: 0.03
+          orbitalArc: 231
+          axialTilt: 7.64
+          parentId: Sham 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

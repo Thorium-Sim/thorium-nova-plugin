@@ -1,0 +1,343 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Hadar
+description: A solar system named Hadar
+position:
+  x: 52159657.50904398
+  'y': 178306922.15698552
+  z: -86959939.71250187
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Hadar
+stars:
+  - name: Hadar A
+    description: ''
+    tags: []
+    radius: 9.16
+    temperature: 25000
+    solarMass: 12.02
+    age: 21150603805
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 116
+      semiMajorAxis: 109.92
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Hadar
+  - name: Hadar B
+    description: ''
+    tags: []
+    radius: 9.16
+    temperature: 25000
+    solarMass: 12.02
+    age: 21150603805
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 296
+      semiMajorAxis: 109.92
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Hadar
+planets:
+  - name: Hadar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 46118
+      age: 2301627053
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.8321387804362781
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 202
+    satellite:
+      semiMajorAxis: 2473298116.333333
+      eccentricity: 0
+      inclination: 0.85
+      orbitalArc: 348
+      axialTilt: 38.79
+      parentId: Hadar
+      showOrbit: true
+    satellites: []
+  - name: Hadar 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2517090
+      age: 9698715217
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 12.609845189531297
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureFluorescent.jpg
+      classification: I
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 336
+    satellite:
+      semiMajorAxis: 3068589191.3333325
+      eccentricity: 0
+      inclination: 1.33
+      orbitalArc: 265
+      axialTilt: 38.73
+      parentId: Hadar
+      showOrbit: true
+    satellites:
+      - name: Hadar 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 130301.88571490963
+          age: 5206327194
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 124893
+        temperature: 266
+        satellite:
+          semiMajorAxis: 45150512.17382337
+          eccentricity: 0.01
+          inclination: 0.06
+          orbitalArc: 175
+          axialTilt: 32.47
+          parentId: Hadar 2
+          showOrbit: true
+        satellites: []
+      - name: Hadar 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 271369.8604768246
+          age: 3483994556
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 56557
+        temperature: 262
+        satellite:
+          semiMajorAxis: 72455752.74731216
+          eccentricity: 0.02
+          inclination: 1.68
+          orbitalArc: 353
+          axialTilt: 10.16
+          parentId: Hadar 2
+          showOrbit: true
+        satellites: []
+  - name: Hadar 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 30233
+      age: 7460145659
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.465397286175377
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 268
+    satellite:
+      semiMajorAxis: 4680902454.888888
+      eccentricity: 0.02
+      inclination: 0.85
+      orbitalArc: 70
+      axialTilt: 35.19
+      parentId: Hadar
+      showOrbit: true
+    satellites:
+      - name: Hadar 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6222.631562076528
+          age: 652891366
+          ringMapAsset: null
+          terranMass: 1.9000000490746625
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1072
+        satellite:
+          semiMajorAxis: 3098870.517914111
+          eccentricity: 0.01
+          inclination: 0.69
+          orbitalArc: 167
+          axialTilt: 14.96
+          parentId: Hadar 3
+          showOrbit: true
+        satellites: []
+  - name: Hadar 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7038
+      age: 4848066730
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.017441567992278365
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 747
+    satellite:
+      semiMajorAxis: 10141025328.592592
+      eccentricity: 0
+      inclination: 1.88
+      orbitalArc: 199
+      axialTilt: 31.2
+      parentId: Hadar
+      showOrbit: true
+    satellites:
+      - name: Hadar 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 542.600085494225
+          age: 138043189
+          ringMapAsset: null
+          terranMass: 1.7000001680694319
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1569
+        satellite:
+          semiMajorAxis: 191944.90666753185
+          eccentricity: 0
+          inclination: 0.62
+          orbitalArc: 353
+          axialTilt: 4.69
+          parentId: Hadar 4
+          showOrbit: true
+        satellites: []
+      - name: Hadar 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 643.140137832854
+          age: 1637530610
+          ringMapAsset: null
+          terranMass: 1.900000146183503
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1218
+        satellite:
+          semiMajorAxis: 295844.46340311284
+          eccentricity: 0.02
+          inclination: 1.51
+          orbitalArc: 23
+          axialTilt: 16.55
+          parentId: Hadar 4
+          showOrbit: true
+        satellites: []
+  - name: Hadar 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7204
+      age: 5967279799
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0013572307498793193
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 81666
+    temperature: 261
+    satellite:
+      semiMajorAxis: 13166156218.395061
+      eccentricity: 0
+      inclination: 1.01
+      orbitalArc: 330
+      axialTilt: 8.32
+      parentId: Hadar
+      showOrbit: true
+    satellites: []
+  - name: Hadar 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5084
+      age: 3167073154
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.022809747266655266
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 54663
+    temperature: 268
+    satellite:
+      semiMajorAxis: 16878348168
+      eccentricity: 0.01
+      inclination: 0.28
+      orbitalArc: 260
+      axialTilt: 1.05
+      parentId: Hadar
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

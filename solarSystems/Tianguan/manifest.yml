@@ -1,0 +1,185 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Tianguan
+description: A solar system named Tianguan
+position:
+  x: -214818395.2330138
+  'y': -83471619.90602846
+  z: 21020774.52274726
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Tianguan
+stars:
+  - name: Tianguan A
+    description: ''
+    tags: []
+    radius: 5.5
+    temperature: 15500
+    solarMass: 11.2
+    age: 369943273740
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 254
+      semiMajorAxis: 66
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tianguan
+  - name: Tianguan B
+    description: ''
+    tags: []
+    radius: 5.5
+    temperature: 15500
+    solarMass: 11.2
+    age: 369943273740
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 434
+      semiMajorAxis: 66
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tianguan
+planets:
+  - name: Tianguan 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 53803
+      age: 8616892302
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 0.19154035537539527
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 168
+    satellite:
+      semiMajorAxis: 1932980725.6666658
+      eccentricity: 0.02
+      inclination: 1.28
+      orbitalArc: 359
+      axialTilt: 17.59
+      parentId: Tianguan
+      showOrbit: true
+    satellites: []
+  - name: Tianguan 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 32797
+      age: 4937888325
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 1.3441292674709413
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 252
+    satellite:
+      semiMajorAxis: 3277549808.666666
+      eccentricity: 0.01
+      inclination: 0
+      orbitalArc: 301
+      axialTilt: 33.47
+      parentId: Tianguan
+      showOrbit: true
+    satellites: []
+  - name: Tianguan 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6338
+      age: 9634135822
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0006146010507630652
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 74493
+    temperature: 270
+    satellite:
+      semiMajorAxis: 4043731103
+      eccentricity: 0.02
+      inclination: 1.8
+      orbitalArc: 272
+      axialTilt: 21.01
+      parentId: Tianguan
+      showOrbit: true
+    satellites:
+      - name: Tianguan 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 352.6033428032658
+          age: 3632939161
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 87727
+        temperature: 264
+        satellite:
+          semiMajorAxis: 218874.5528949622
+          eccentricity: 0.01
+          inclination: 1.04
+          orbitalArc: 118
+          axialTilt: 28.06
+          parentId: Tianguan 3
+          showOrbit: true
+        satellites: []
+      - name: Tianguan 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1272.1540658647787
+          age: 707519928
+          ringMapAsset: null
+          terranMass: 1.8000000247624603
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 53
+        satellite:
+          semiMajorAxis: 485962.85316034546
+          eccentricity: 0.02
+          inclination: 1.77
+          orbitalArc: 356
+          axialTilt: 10.55
+          parentId: Tianguan 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

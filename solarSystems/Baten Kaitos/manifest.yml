@@ -1,0 +1,127 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Baten Kaitos
+description: A solar system named Baten Kaitos
+position:
+  x: -56832640.412040085
+  'y': 22174436.897133797
+  z: 107496295.99409825
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Baten Kaitos
+stars:
+  - name: Baten Kaitos A
+    description: ''
+    tags: []
+    radius: 25
+    temperature: 4581
+    solarMass: 2.34
+    age: 490302330354
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 139
+      semiMajorAxis: 300
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Baten Kaitos
+  - name: Baten Kaitos B
+    description: ''
+    tags: []
+    radius: 25
+    temperature: 4581
+    solarMass: 2.34
+    age: 490302330354
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 319
+      semiMajorAxis: 300
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Baten Kaitos
+planets:
+  - name: Baten Kaitos 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 239
+      age: 741307940
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.003965761480359351
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 361
+    satellite:
+      semiMajorAxis: 1191416915.0000005
+      eccentricity: 0
+      inclination: 1.82
+      orbitalArc: 51
+      axialTilt: 15.67
+      parentId: Baten Kaitos
+      showOrbit: true
+    satellites: []
+  - name: Baten Kaitos 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5216
+      age: 2249153626
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0012636459031167935
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 625
+    satellite:
+      semiMajorAxis: 3500278250
+      eccentricity: 0.02
+      inclination: 1.11
+      orbitalArc: 187
+      axialTilt: 20.55
+      parentId: Baten Kaitos
+      showOrbit: true
+    satellites:
+      - name: Baten Kaitos 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 895.9834513019733
+          age: 527371884
+          ringMapAsset: null
+          terranMass: 0.8000001187914599
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 36
+        satellite:
+          semiMajorAxis: 351225.51291037357
+          eccentricity: 0.02
+          inclination: 0.05
+          orbitalArc: 224
+          axialTilt: 0.01
+          parentId: Baten Kaitos 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

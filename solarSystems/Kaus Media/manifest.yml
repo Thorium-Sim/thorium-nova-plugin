@@ -1,0 +1,366 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Kaus Media
+description: A solar system named Kaus Media
+position:
+  x: 158120273.66604543
+  'y': 91041068.39397751
+  z: 14525059.824468886
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Kaus Media
+stars:
+  - name: Kaus Media A
+    description: ''
+    tags: []
+    radius: 76.83
+    temperature: 4203
+    solarMass: 3.21
+    age: 100502089350
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 60
+      semiMajorAxis: 921.96
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kaus Media
+  - name: Kaus Media B
+    description: ''
+    tags: []
+    radius: 76.83
+    temperature: 4203
+    solarMass: 3.21
+    age: 100502089350
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 240
+      semiMajorAxis: 921.96
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kaus Media
+planets:
+  - name: Kaus Media 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1670
+      age: 164224960
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0024597729952990826
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 42
+    satellite:
+      semiMajorAxis: 1540895263.3333333
+      eccentricity: 0.01
+      inclination: 0.08
+      orbitalArc: 66
+      axialTilt: 19.14
+      parentId: Kaus Media
+      showOrbit: true
+    satellites:
+      - name: Kaus Media 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 328.7429468087486
+          age: 8319855457
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+          classification: 'N'
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 438620206
+        temperature: 464
+        satellite:
+          semiMajorAxis: 62205.7603374722
+          eccentricity: 0.01
+          inclination: 0.36
+          orbitalArc: 231
+          axialTilt: 30.64
+          parentId: Kaus Media 1
+          showOrbit: true
+        satellites: []
+      - name: Kaus Media 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 276.96602535258654
+          age: 425919613
+          ringMapAsset: null
+          terranMass: 0.579999796296472
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 311
+        satellite:
+          semiMajorAxis: 119582.92503130191
+          eccentricity: 0.02
+          inclination: 0.94
+          orbitalArc: 5
+          axialTilt: 27.03
+          parentId: Kaus Media 1
+          showOrbit: true
+        satellites: []
+      - name: Kaus Media 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 407.81635054231543
+          age: 98749867
+          ringMapAsset: null
+          terranMass: 0.2899999588704054
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 197
+        satellite:
+          semiMajorAxis: 164757.80561909542
+          eccentricity: 0
+          inclination: 0.3
+          orbitalArc: 196
+          axialTilt: 19.7
+          parentId: Kaus Media 1
+          showOrbit: true
+        satellites: []
+  - name: Kaus Media 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 28911
+      age: 4736794717
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.5758075622424501
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 300
+    satellite:
+      semiMajorAxis: 3038608260.6666675
+      eccentricity: 0.01
+      inclination: 1.28
+      orbitalArc: 225
+      axialTilt: 2.37
+      parentId: Kaus Media
+      showOrbit: true
+    satellites:
+      - name: Kaus Media 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5282.431211458747
+          age: 5145434465
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.3000000518320557
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 39198
+        temperature: 185
+        satellite:
+          semiMajorAxis: 1991476.5667199478
+          eccentricity: 0.02
+          inclination: 0.72
+          orbitalArc: 342
+          axialTilt: 30.3
+          parentId: Kaus Media 2
+          showOrbit: true
+        satellites: []
+  - name: Kaus Media 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6790
+      age: 5465266991
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0008753145726805819
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 2697019087
+    temperature: 291
+    satellite:
+      semiMajorAxis: 3653704257.6666665
+      eccentricity: 0.01
+      inclination: 0.51
+      orbitalArc: 119
+      axialTilt: 11.31
+      parentId: Kaus Media
+      showOrbit: true
+    satellites: []
+  - name: Kaus Media 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6201
+      age: 3464092578
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.018817253274916963
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 569279826
+    temperature: 290
+    satellite:
+      semiMajorAxis: 3868029561.555555
+      eccentricity: 0.02
+      inclination: 0.07
+      orbitalArc: 142
+      axialTilt: 39.57
+      parentId: Kaus Media
+      showOrbit: true
+    satellites:
+      - name: Kaus Media 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 902.7642177117556
+          age: 9568990916
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 50370
+        temperature: 258
+        satellite:
+          semiMajorAxis: 365619.508173261
+          eccentricity: 0
+          inclination: 0.14
+          orbitalArc: 322
+          axialTilt: 21.32
+          parentId: Kaus Media 4
+          showOrbit: true
+        satellites: []
+  - name: Kaus Media 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5517
+      age: 7196910640
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.017133060748370614
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 147916
+    temperature: 261
+    satellite:
+      semiMajorAxis: 4233677566
+      eccentricity: 0.01
+      inclination: 0.25
+      orbitalArc: 234
+      axialTilt: 3.08
+      parentId: Kaus Media
+      showOrbit: true
+    satellites:
+      - name: Kaus Media 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 999.9533608827749
+          age: 4927610566
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.3000001326880533
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 894
+        satellite:
+          semiMajorAxis: 180775.4003510091
+          eccentricity: 0.02
+          inclination: 0.15
+          orbitalArc: 180
+          axialTilt: 37.1
+          parentId: Kaus Media 5
+          showOrbit: true
+        satellites: []
+      - name: Kaus Media 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1258.69252169089
+          age: 9550219079
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+          classification: M
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 2227202892
+        temperature: 297
+        satellite:
+          semiMajorAxis: 504735.7011980469
+          eccentricity: 0.01
+          inclination: 1.99
+          orbitalArc: 191
+          axialTilt: 31.8
+          parentId: Kaus Media 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

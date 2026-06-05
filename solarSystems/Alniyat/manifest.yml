@@ -1,0 +1,388 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alniyat
+description: A solar system named Alniyat
+position:
+  x: 244777796.37933114
+  'y': 129049683.27975096
+  z: -112599964.33104694
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alniyat
+stars:
+  - name: Alniyat A
+    description: ''
+    tags: []
+    radius: 12.7
+    temperature: 26150
+    solarMass: 18.4
+    age: 14069960971
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 65
+      semiMajorAxis: 152.39999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alniyat
+  - name: Alniyat B
+    description: ''
+    tags: []
+    radius: 12.7
+    temperature: 26150
+    solarMass: 18.4
+    age: 14069960971
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 245
+      semiMajorAxis: 152.39999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alniyat
+planets:
+  - name: Alniyat 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2808
+      age: 759748488
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.015018983614436049
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 54
+    satellite:
+      semiMajorAxis: 4721527378.333334
+      eccentricity: 0.01
+      inclination: 1.83
+      orbitalArc: 121
+      axialTilt: 18.18
+      parentId: Alniyat
+      showOrbit: true
+    satellites:
+      - name: Alniyat 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 149.58954365486036
+          age: 9743479884
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 118759
+        temperature: 266
+        satellite:
+          semiMajorAxis: 42454.9647128191
+          eccentricity: 0.02
+          inclination: 1.95
+          orbitalArc: 357
+          axialTilt: 0.93
+          parentId: Alniyat 1
+          showOrbit: true
+        satellites: []
+      - name: Alniyat 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 178.16229567196274
+          age: 7223461361
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.10000001669613826
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 779
+        satellite:
+          semiMajorAxis: 69126.97072072154
+          eccentricity: 0.01
+          inclination: 0.15
+          orbitalArc: 5
+          axialTilt: 26.79
+          parentId: Alniyat 1
+          showOrbit: true
+        satellites: []
+  - name: Alniyat 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5672
+      age: 1834447043
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0008185910457614006
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1056
+    satellite:
+      semiMajorAxis: 9100171667.222223
+      eccentricity: 0.02
+      inclination: 0.35
+      orbitalArc: 341
+      axialTilt: 9.05
+      parentId: Alniyat
+      showOrbit: true
+    satellites:
+      - name: Alniyat 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1323.8785403991767
+          age: 52861465
+          ringMapAsset: null
+          terranMass: 0.8499998447579744
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 163
+        satellite:
+          semiMajorAxis: 314943.0824934344
+          eccentricity: 0.01
+          inclination: 1.36
+          orbitalArc: 174
+          axialTilt: 33.54
+          parentId: Alniyat 2
+          showOrbit: true
+        satellites: []
+      - name: Alniyat 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1334.9840570783672
+          age: 8627810893
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 2.300000031149264
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 27784
+        temperature: 190
+        satellite:
+          semiMajorAxis: 580718.0648290897
+          eccentricity: 0.01
+          inclination: 1.12
+          orbitalArc: 221
+          axialTilt: 12.85
+          parentId: Alniyat 2
+          showOrbit: true
+        satellites: []
+  - name: Alniyat 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5449
+      age: 1199772601
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0012179844971289086
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1362
+    satellite:
+      semiMajorAxis: 13712293714.481482
+      eccentricity: 0.01
+      inclination: 1.79
+      orbitalArc: 316
+      axialTilt: 0.45
+      parentId: Alniyat
+      showOrbit: true
+    satellites:
+      - name: Alniyat 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 350.42540454703277
+          age: 457844842
+          ringMapAsset: null
+          terranMass: 0.6199998785237593
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 274
+        satellite:
+          semiMajorAxis: 163693.92059495836
+          eccentricity: 0
+          inclination: 1.45
+          orbitalArc: 190
+          axialTilt: 11.74
+          parentId: Alniyat 3
+          showOrbit: true
+        satellites: []
+      - name: Alniyat 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 799.428691712273
+          age: 7849514656
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+          classification: M
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 9755276164
+        temperature: 299
+        satellite:
+          semiMajorAxis: 270433.5755301488
+          eccentricity: 0.01
+          inclination: 0.44
+          orbitalArc: 0
+          axialTilt: 32.07
+          parentId: Alniyat 3
+          showOrbit: true
+        satellites: []
+      - name: Alniyat 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 819.087760102455
+          age: 4710240016
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 168833
+        temperature: 269
+        satellite:
+          semiMajorAxis: 325996.9285207771
+          eccentricity: 0.01
+          inclination: 1.51
+          orbitalArc: 40
+          axialTilt: 9.96
+          parentId: Alniyat 3
+          showOrbit: true
+        satellites: []
+  - name: Alniyat 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6810
+      age: 2838110554
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.006539312340529991
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 732
+    satellite:
+      semiMajorAxis: 18159078088.65432
+      eccentricity: 0.01
+      inclination: 1.99
+      orbitalArc: 212
+      axialTilt: 35.7
+      parentId: Alniyat
+      showOrbit: true
+    satellites:
+      - name: Alniyat 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1178.064826796894
+          age: 1833204098
+          ringMapAsset: null
+          terranMass: 0.10000012582090348
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1222
+        satellite:
+          semiMajorAxis: 406432.36524492846
+          eccentricity: 0
+          inclination: 1.07
+          orbitalArc: 96
+          axialTilt: 10.85
+          parentId: Alniyat 4
+          showOrbit: true
+        satellites: []
+  - name: Alniyat 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5390
+      age: 6855318245
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0013728665270821936
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 669
+    satellite:
+      semiMajorAxis: 21578819978
+      eccentricity: 0.02
+      inclination: 1.01
+      orbitalArc: 312
+      axialTilt: 7.7
+      parentId: Alniyat
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

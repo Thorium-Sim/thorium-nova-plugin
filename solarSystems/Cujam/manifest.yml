@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Cujam
+description: A solar system named Cujam
+position:
+  x: 116855385.18677661
+  'y': -31884398.032812674
+  z: -51164677.41455275
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Cujam
+stars:
+  - name: Cujam A
+    description: ''
+    tags: []
+    radius: 3.3
+    temperature: 10052
+    solarMass: 2.14
+    age: 1110056945130
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 271
+      semiMajorAxis: 39.599999999999994
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Cujam
+  - name: Cujam B
+    description: ''
+    tags: []
+    radius: 3.3
+    temperature: 10052
+    solarMass: 2.14
+    age: 1110056945130
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 451
+      semiMajorAxis: 39.599999999999994
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Cujam
+planets: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Talitha
+description: A solar system named Talitha
+position:
+  x: -11801952.435368052
+  'y': -18500035.69108262
+  z: -11720618.780527042
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Talitha
+stars:
+  - name: Talitha A
+    description: ''
+    tags: []
+    radius: 1.67
+    temperature: 8242
+    solarMass: 1.7
+    age: 7618243026041
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 320
+      semiMajorAxis: 20.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Talitha
+  - name: Talitha B
+    description: ''
+    tags: []
+    radius: 1.67
+    temperature: 8242
+    solarMass: 1.7
+    age: 7618243026041
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 500
+      semiMajorAxis: 20.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Talitha
+planets: []
+commSatellite: null
+assets: {}

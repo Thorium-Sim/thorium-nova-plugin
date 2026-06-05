@@ -1,0 +1,78 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Ainalrami
+description: A solar system named Ainalrami
+position:
+  x: 660202176.1145284
+  'y': 284691139.9799452
+  z: 159017382.08938152
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Ainalrami
+stars:
+  - name: Ainalrami A
+    description: ''
+    tags: []
+    radius: 101
+    temperature: 4401
+    solarMass: 10.264
+    age: 154681261749
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 156
+      semiMajorAxis: 1212
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Ainalrami
+  - name: Ainalrami B
+    description: ''
+    tags: []
+    radius: 101
+    temperature: 4401
+    solarMass: 10.264
+    age: 154681261749
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 336
+      semiMajorAxis: 1212
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Ainalrami
+planets:
+  - name: Ainalrami 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5713
+      age: 4987583365
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.029719982800823636
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 104964062
+    temperature: 296
+    satellite:
+      semiMajorAxis: 5120399496
+      eccentricity: 0
+      inclination: 1.67
+      orbitalArc: 72
+      axialTilt: 21.16
+      parentId: Ainalrami
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

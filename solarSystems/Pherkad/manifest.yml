@@ -1,0 +1,180 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Pherkad
+description: A solar system named Pherkad
+position:
+  x: 61337482.92070921
+  'y': -243375690.3487488
+  z: -51136846.678026825
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Pherkad
+stars:
+  - name: Pherkad A
+    description: ''
+    tags: []
+    radius: 15
+    temperature: 8280
+    solarMass: 7.396
+    age: 403331667310
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 121
+      semiMajorAxis: 180
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Pherkad
+  - name: Pherkad B
+    description: ''
+    tags: []
+    radius: 15
+    temperature: 8280
+    solarMass: 7.396
+    age: 403331667310
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 301
+      semiMajorAxis: 180
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Pherkad
+planets:
+  - name: Pherkad 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2998
+      age: 1858851222
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.01914109476819866
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1536
+    satellite:
+      semiMajorAxis: 2084168129.3333333
+      eccentricity: 0.01
+      inclination: 0.48
+      orbitalArc: 4
+      axialTilt: 10.14
+      parentId: Pherkad
+      showOrbit: true
+    satellites: []
+  - name: Pherkad 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 58931
+      age: 4422294704
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.6345980997673698
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 319
+    satellite:
+      semiMajorAxis: 3123116436.333333
+      eccentricity: 0
+      inclination: 1.25
+      orbitalArc: 319
+      axialTilt: 20.25
+      parentId: Pherkad
+      showOrbit: true
+    satellites:
+      - name: Pherkad 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6622.496845529753
+          age: 130374464
+          ringMapAsset: null
+          terranMass: 0.42999996701078946
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 160
+        satellite:
+          semiMajorAxis: 1883295.1926859943
+          eccentricity: 0.01
+          inclination: 1.51
+          orbitalArc: 155
+          axialTilt: 37.38
+          parentId: Pherkad 2
+          showOrbit: true
+        satellites: []
+      - name: Pherkad 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 13488.914365004672
+          age: 5696779459
+          ringMapAsset: null
+          terranMass: 0.20000048789267702
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 408
+        satellite:
+          semiMajorAxis: 4356919.339896509
+          eccentricity: 0.02
+          inclination: 1.79
+          orbitalArc: 179
+          axialTilt: 22.61
+          parentId: Pherkad 2
+          showOrbit: true
+        satellites: []
+  - name: Pherkad 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 93
+      age: 747478233
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.02223830611463795
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 244
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 1.48
+      orbitalArc: 324
+      axialTilt: 0.2
+      parentId: Pherkad
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

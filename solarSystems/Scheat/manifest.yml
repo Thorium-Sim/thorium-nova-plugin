@@ -1,0 +1,180 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Scheat
+description: A solar system named Scheat
+position:
+  x: 22090042.519583847
+  'y': -48528423.24287579
+  z: 88228061.81271859
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Scheat
+stars:
+  - name: Scheat A
+    description: ''
+    tags: []
+    radius: 109
+    temperature: 3606
+    solarMass: 1.7
+    age: 48804775615
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 148
+      semiMajorAxis: 1308
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Scheat
+  - name: Scheat B
+    description: ''
+    tags: []
+    radius: 109
+    temperature: 3606
+    solarMass: 1.7
+    age: 48804775615
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 328
+      semiMajorAxis: 1308
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Scheat
+planets:
+  - name: Scheat 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 389
+      age: 176553719
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.00822471178726655
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 383
+    satellite:
+      semiMajorAxis: 2341880705.0000005
+      eccentricity: 0.01
+      inclination: 0.88
+      orbitalArc: 201
+      axialTilt: 16.56
+      parentId: Scheat
+      showOrbit: true
+    satellites: []
+  - name: Scheat 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4942
+      age: 4226705189
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+      terranMass: 0.0062579214966380905
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 26397
+    temperature: 269
+    satellite:
+      semiMajorAxis: 3279986163.9999995
+      eccentricity: 0.01
+      inclination: 0.32
+      orbitalArc: 310
+      axialTilt: 15.01
+      parentId: Scheat
+      showOrbit: true
+    satellites:
+      - name: Scheat 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 518.0303684766243
+          age: 604291163
+          ringMapAsset: null
+          terranMass: 1.5000001780207701
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 39
+        satellite:
+          semiMajorAxis: 251762.7590796394
+          eccentricity: 0.01
+          inclination: 0.87
+          orbitalArc: 177
+          axialTilt: 12.45
+          parentId: Scheat 2
+          showOrbit: true
+        satellites: []
+  - name: Scheat 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5971
+      age: 4194716823
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0027783435083176813
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 141653
+    temperature: 256
+    satellite:
+      semiMajorAxis: 4422903414
+      eccentricity: 0
+      inclination: 1.94
+      orbitalArc: 139
+      axialTilt: 15.39
+      parentId: Scheat
+      showOrbit: true
+    satellites:
+      - name: Scheat 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 761.2494798098223
+          age: 188861540
+          ringMapAsset: null
+          terranMass: 0.0499998296425963
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 157
+        satellite:
+          semiMajorAxis: 341039.7669548004
+          eccentricity: 0.01
+          inclination: 0.33
+          orbitalArc: 147
+          axialTilt: 39.04
+          parentId: Scheat 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

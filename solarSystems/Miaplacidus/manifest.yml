@@ -1,0 +1,283 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Miaplacidus
+description: A solar system named Miaplacidus
+position:
+  x: -13705667.004935388
+  'y': 55748193.53479737
+  z: -15382852.611495765
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Miaplacidus
+stars:
+  - name: Miaplacidus A
+    description: ''
+    tags: []
+    radius: 5.82
+    temperature: 9150
+    solarMass: 3.88
+    age: 942476791433
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 314
+      semiMajorAxis: 69.84
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Miaplacidus
+  - name: Miaplacidus B
+    description: ''
+    tags: []
+    radius: 5.82
+    temperature: 9150
+    solarMass: 3.88
+    age: 942476791433
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 494
+      semiMajorAxis: 69.84
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Miaplacidus
+planets:
+  - name: Miaplacidus 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5100
+      age: 6935054563
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0021255241787586183
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 179476
+    temperature: 263
+    satellite:
+      semiMajorAxis: 973138387.333334
+      eccentricity: 0.02
+      inclination: 0.33
+      orbitalArc: 310
+      axialTilt: 1.5
+      parentId: Miaplacidus
+      showOrbit: true
+    satellites:
+      - name: Miaplacidus 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 357.94155171442344
+          age: 9227275645
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.3000001327572543
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 5869
+        temperature: 297
+        satellite:
+          semiMajorAxis: 89485.38792860587
+          eccentricity: 0
+          inclination: 0.89
+          orbitalArc: 269
+          axialTilt: 11.69
+          parentId: Miaplacidus 1
+          showOrbit: true
+        satellites: []
+  - name: Miaplacidus 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7229
+      age: 9415566028
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0008103605277753075
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 35690
+    temperature: 307
+    satellite:
+      semiMajorAxis: 1824824343.333334
+      eccentricity: 0.01
+      inclination: 1.63
+      orbitalArc: 115
+      axialTilt: 0.32
+      parentId: Miaplacidus
+      showOrbit: true
+    satellites:
+      - name: Miaplacidus 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 952.6095610243873
+          age: 209796698
+          ringMapAsset: null
+          terranMass: 0.9000004801409197
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1664
+        satellite:
+          semiMajorAxis: 345797.2706518526
+          eccentricity: 0.01
+          inclination: 2
+          orbitalArc: 254
+          axialTilt: 33.13
+          parentId: Miaplacidus 2
+          showOrbit: true
+        satellites: []
+  - name: Miaplacidus 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1837
+      age: 671119361
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.00901933793495187
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 38
+    satellite:
+      semiMajorAxis: 2461092131.444444
+      eccentricity: 0.01
+      inclination: 0.53
+      orbitalArc: 152
+      axialTilt: 7
+      parentId: Miaplacidus
+      showOrbit: true
+    satellites:
+      - name: Miaplacidus 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 387.850197472307
+          age: 3259865780
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          classification: G
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 0
+        temperature: 598
+        satellite:
+          semiMajorAxis: 87115.74350492857
+          eccentricity: 0
+          inclination: 1.97
+          orbitalArc: 218
+          axialTilt: 1.98
+          parentId: Miaplacidus 3
+          showOrbit: true
+        satellites: []
+      - name: Miaplacidus 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 315.29432235032886
+          age: 53607040
+          ringMapAsset: null
+          terranMass: 0.15999967086473332
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 346
+        satellite:
+          semiMajorAxis: 123054.24790811782
+          eccentricity: 0.01
+          inclination: 1.13
+          orbitalArc: 7
+          axialTilt: 17.21
+          parentId: Miaplacidus 3
+          showOrbit: true
+        satellites: []
+      - name: Miaplacidus 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 385.2915899328752
+          age: 283488603
+          ringMapAsset: null
+          terranMass: 0.3599999263396467
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 336
+        satellite:
+          semiMajorAxis: 167601.8416208007
+          eccentricity: 0.01
+          inclination: 1.01
+          orbitalArc: 167
+          axialTilt: 0.33
+          parentId: Miaplacidus 3
+          showOrbit: true
+        satellites: []
+  - name: Miaplacidus 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1998
+      age: 498712902
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.004229780269121279
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 35
+    satellite:
+      semiMajorAxis: 3704518525
+      eccentricity: 0.01
+      inclination: 0.95
+      orbitalArc: 164
+      axialTilt: 20.68
+      parentId: Miaplacidus
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

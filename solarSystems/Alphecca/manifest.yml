@@ -1,0 +1,206 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alphecca
+description: A solar system named Alphecca
+position:
+  x: 28387694.49769242
+  'y': -17733323.15492646
+  z: -20874239.147538587
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alphecca
+stars:
+  - name: Alphecca A
+    description: ''
+    tags: []
+    radius: 3.059
+    temperature: 9700
+    solarMass: 2.581
+    age: 1796848237402
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 225
+      semiMajorAxis: 36.708
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alphecca
+  - name: Alphecca B
+    description: ''
+    tags: []
+    radius: 3.059
+    temperature: 9700
+    solarMass: 2.581
+    age: 1796848237402
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 405
+      semiMajorAxis: 36.708
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alphecca
+planets:
+  - name: Alphecca 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6048
+      age: 5054968531
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.008279353578290752
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 154318
+    temperature: 266
+    satellite:
+      semiMajorAxis: 915884663
+      eccentricity: 0
+      inclination: 0.21
+      orbitalArc: 153
+      axialTilt: 2.77
+      parentId: Alphecca
+      showOrbit: true
+    satellites:
+      - name: Alphecca 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 763.3381715499186
+          age: 1242400040
+          ringMapAsset: null
+          terranMass: 0.50000017353697
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 318
+        satellite:
+          semiMajorAxis: 149976.52104415494
+          eccentricity: 0.02
+          inclination: 0.26
+          orbitalArc: 52
+          axialTilt: 24.82
+          parentId: Alphecca 1
+          showOrbit: true
+        satellites: []
+      - name: Alphecca 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 916.0071153780461
+          age: 9255145325
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 35913
+        temperature: 263
+        satellite:
+          semiMajorAxis: 371082.98809135624
+          eccentricity: 0.01
+          inclination: 1.71
+          orbitalArc: 49
+          axialTilt: 19.5
+          parentId: Alphecca 1
+          showOrbit: true
+        satellites: []
+      - name: Alphecca 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1425.1490883036402
+          age: 9501100463
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 168543
+        temperature: 265
+        satellite:
+          semiMajorAxis: 628490.7479419053
+          eccentricity: 0.02
+          inclination: 1.91
+          orbitalArc: 109
+          axialTilt: 38.67
+          parentId: Alphecca 1
+          showOrbit: true
+        satellites: []
+  - name: Alphecca 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5227
+      age: 7595065910
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.028140183232175233
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 36336
+    temperature: 269
+    satellite:
+      semiMajorAxis: 1847265321
+      eccentricity: 0.01
+      inclination: 1.23
+      orbitalArc: 335
+      axialTilt: 11.58
+      parentId: Alphecca
+      showOrbit: true
+    satellites:
+      - name: Alphecca 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 735.816322751801
+          age: 192755618
+          ringMapAsset: null
+          terranMass: 0.2799998702358797
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 289
+        satellite:
+          semiMajorAxis: 309042.8555557564
+          eccentricity: 0
+          inclination: 1.77
+          orbitalArc: 192
+          axialTilt: 13.29
+          parentId: Alphecca 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

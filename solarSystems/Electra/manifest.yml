@@ -1,0 +1,435 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Electra
+description: A solar system named Electra
+position:
+  x: -159605614.80682614
+  'y': -85950893.25267905
+  z: 106770403.79806387
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Electra
+stars:
+  - name: Electra A
+    description: ''
+    tags: []
+    radius: 6.06
+    temperature: 13484
+    solarMass: 4.6
+    age: 218527900048
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 28
+      semiMajorAxis: 72.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Electra
+  - name: Electra B
+    description: ''
+    tags: []
+    radius: 6.06
+    temperature: 13484
+    solarMass: 4.6
+    age: 218527900048
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 208
+      semiMajorAxis: 72.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Electra
+planets:
+  - name: Electra 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 362
+      age: 741227722
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.005885203822745906
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 287
+    satellite:
+      semiMajorAxis: 1747536372.3333342
+      eccentricity: 0.02
+      inclination: 0.69
+      orbitalArc: 29
+      axialTilt: 30.82
+      parentId: Electra
+      showOrbit: true
+    satellites: []
+  - name: Electra 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6511
+      age: 7708117561
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.008276767363021329
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 101926
+    temperature: 263
+    satellite:
+      semiMajorAxis: 2967627595.333334
+      eccentricity: 0.01
+      inclination: 0.58
+      orbitalArc: 124
+      axialTilt: 37.86
+      parentId: Electra
+      showOrbit: true
+    satellites:
+      - name: Electra 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 325.72378923643237
+          age: 777088168
+          ringMapAsset: null
+          terranMass: 0.30999981128144793
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 317
+        satellite:
+          semiMajorAxis: 83923.89168906608
+          eccentricity: 0.01
+          inclination: 1.06
+          orbitalArc: 253
+          axialTilt: 9.77
+          parentId: Electra 2
+          showOrbit: true
+        satellites: []
+      - name: Electra 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 580.2813741414416
+          age: 8289315014
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 80459
+        temperature: 270
+        satellite:
+          semiMajorAxis: 391908.9684279697
+          eccentricity: 0.01
+          inclination: 0.17
+          orbitalArc: 218
+          axialTilt: 34.02
+          parentId: Electra 2
+          showOrbit: true
+        satellites: []
+      - name: Electra 2c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1492.4117805029177
+          age: 2764865193
+          ringMapAsset: null
+          terranMass: 2.3000000796905216
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 695
+        satellite:
+          semiMajorAxis: 608904.0064451904
+          eccentricity: 0
+          inclination: 1.81
+          orbitalArc: 85
+          axialTilt: 34.56
+          parentId: Electra 2
+          showOrbit: true
+        satellites: []
+  - name: Electra 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6142
+      age: 3557890439
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0006373270259092857
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 473
+    satellite:
+      semiMajorAxis: 3329243915.222222
+      eccentricity: 0
+      inclination: 0.81
+      orbitalArc: 197
+      axialTilt: 25.58
+      parentId: Electra
+      showOrbit: true
+    satellites: []
+  - name: Electra 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3981
+      age: 7434223257
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.03943953549554751
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 5944
+    temperature: 178
+    satellite:
+      semiMajorAxis: 3534211508.851851
+      eccentricity: 0
+      inclination: 1.77
+      orbitalArc: 210
+      axialTilt: 26.8
+      parentId: Electra
+      showOrbit: true
+    satellites:
+      - name: Electra 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 296.7815347438286
+          age: 287310858
+          ringMapAsset: null
+          terranMass: 0.8299996964540537
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 339
+        satellite:
+          semiMajorAxis: 94673.30958328133
+          eccentricity: 0
+          inclination: 0.34
+          orbitalArc: 174
+          axialTilt: 6.65
+          parentId: Electra 4
+          showOrbit: true
+        satellites: []
+  - name: Electra 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2867
+      age: 9672187318
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0003494608763114581
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 20884
+    temperature: 292
+    satellite:
+      semiMajorAxis: 3646327206.925914
+      eccentricity: 0
+      inclination: 0.96
+      orbitalArc: 210
+      axialTilt: 21.69
+      parentId: Electra
+      showOrbit: true
+    satellites:
+      - name: Electra 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 647.3336781648183
+          age: 2152080244
+          ringMapAsset: null
+          terranMass: 1.3000001132279784
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 513
+        satellite:
+          semiMajorAxis: 256344.13655326804
+          eccentricity: 0.02
+          inclination: 1.55
+          orbitalArc: 269
+          axialTilt: 20.9
+          parentId: Electra 5
+          showOrbit: true
+        satellites: []
+  - name: Electra 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6950
+      age: 5446280171
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.018127991872753015
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 146650
+    temperature: 270
+    satellite:
+      semiMajorAxis: 3825123460.9382024
+      eccentricity: 0.01
+      inclination: 1.45
+      orbitalArc: 156
+      axialTilt: 29.15
+      parentId: Electra
+      showOrbit: true
+    satellites:
+      - name: Electra 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1666.136201395103
+          age: 84379844
+          ringMapAsset: null
+          terranMass: 1.2899997534080347
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 256
+        satellite:
+          semiMajorAxis: 654791.5271482754
+          eccentricity: 0.01
+          inclination: 0.69
+          orbitalArc: 112
+          axialTilt: 3.6
+          parentId: Electra 6
+          showOrbit: true
+        satellites: []
+  - name: Electra 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 422
+      age: 332231259
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0006548527706368574
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 400
+    satellite:
+      semiMajorAxis: 3897252870.1423254
+      eccentricity: 0
+      inclination: 1.44
+      orbitalArc: 271
+      axialTilt: 36.7
+      parentId: Electra
+      showOrbit: true
+    satellites: []
+  - name: Electra 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 890
+      age: 350613924
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.003881419670927126
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 52
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 1.59
+      orbitalArc: 112
+      axialTilt: 37.56
+      parentId: Electra
+      showOrbit: true
+    satellites:
+      - name: Electra 8a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 89.6713143843625
+          age: 342099865
+          ringMapAsset: null
+          terranMass: 0.5899999490234109
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 346
+        satellite:
+          semiMajorAxis: 37392.93809827916
+          eccentricity: 0.01
+          inclination: 0.97
+          orbitalArc: 84
+          axialTilt: 31.17
+          parentId: Electra 8
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,102 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Torcular
+description: A solar system named Torcular
+position:
+  x: -64529106.1483013
+  'y': -23438271.977074135
+  z: 130287149.48094444
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Torcular
+stars:
+  - name: Torcular A
+    description: ''
+    tags: []
+    radius: 14.38
+    temperature: 5004
+    solarMass: 3.03
+    age: 1347798400904
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 7
+      semiMajorAxis: 172.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Torcular
+  - name: Torcular B
+    description: ''
+    tags: []
+    radius: 14.38
+    temperature: 5004
+    solarMass: 3.03
+    age: 1347798400904
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 187
+      semiMajorAxis: 172.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Torcular
+planets:
+  - name: Torcular 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 389
+      age: 212715067
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0017628442554022356
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 274
+    satellite:
+      semiMajorAxis: 933870450.3333334
+      eccentricity: 0.02
+      inclination: 0.85
+      orbitalArc: 210
+      axialTilt: 36.88
+      parentId: Torcular
+      showOrbit: true
+    satellites: []
+  - name: Torcular 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 72
+      age: 199032032
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.011682686973852854
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 368
+    satellite:
+      semiMajorAxis: 2115204388
+      eccentricity: 0.02
+      inclination: 1.95
+      orbitalArc: 131
+      axialTilt: 8.35
+      parentId: Torcular
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

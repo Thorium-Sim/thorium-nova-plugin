@@ -1,0 +1,111 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Mizar
+description: A solar system named Mizar
+position:
+  x: 8971554.011801094
+  'y': -35684127.085949354
+  z: -23394358.761680294
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Mizar
+stars:
+  - name: 'Mizar '
+    description: ''
+    tags: []
+    radius: 2.4
+    temperature: 9000
+    solarMass: 2.2224
+    age: 3391555994550
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 293
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mizar
+planets:
+  - name: Mizar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4056
+      age: 7143622172
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+      terranMass: 0.014605449268458442
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 8616
+    temperature: 245
+    satellite:
+      semiMajorAxis: 1068191996
+      eccentricity: 0.01
+      inclination: 1.39
+      orbitalArc: 38
+      axialTilt: 3.77
+      parentId: Mizar
+      showOrbit: true
+    satellites:
+      - name: Mizar 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 430.0890423840119
+          age: 314692029
+          ringMapAsset: null
+          terranMass: 1.4000000217060409
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 40
+        satellite:
+          semiMajorAxis: 216006.47036918675
+          eccentricity: 0.01
+          inclination: 1.79
+          orbitalArc: 236
+          axialTilt: 38.99
+          parentId: Mizar 1
+          showOrbit: true
+        satellites: []
+      - name: Mizar 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1009.5451643871947
+          age: 767955567
+          ringMapAsset: null
+          terranMass: 2.10000014125488
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1189
+        satellite:
+          semiMajorAxis: 359398.0785218413
+          eccentricity: 0.02
+          inclination: 1.62
+          orbitalArc: 63
+          axialTilt: 11.73
+          parentId: Mizar 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

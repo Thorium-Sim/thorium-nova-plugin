@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Zaniah
+description: A solar system named Zaniah
+position:
+  x: 12089887.938307483
+  'y': 1622023.6676178914
+  z: -138844592.23614314
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Zaniah
+stars:
+  - name: Zaniah A
+    description: ''
+    tags: []
+    radius: 1.9102
+    temperature: 9333
+    solarMass: 2.5039
+    age: 5216071306889
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 158
+      semiMajorAxis: 22.9224
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zaniah
+  - name: Zaniah B
+    description: ''
+    tags: []
+    radius: 1.9102
+    temperature: 9333
+    solarMass: 2.5039
+    age: 5216071306889
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 338
+      semiMajorAxis: 22.9224
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zaniah
+planets:
+  - name: Zaniah 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5772
+      age: 1389628824
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.006253158081908486
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1357
+    satellite:
+      semiMajorAxis: 874524734
+      eccentricity: 0.01
+      inclination: 1.68
+      orbitalArc: 36
+      axialTilt: 8.39
+      parentId: Zaniah
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

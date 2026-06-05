@@ -1,0 +1,520 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alnair
+description: A solar system named Alnair
+position:
+  x: 16988381.970031317
+  'y': 38826256.27361633
+  z: 32029038.94994952
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alnair
+stars:
+  - name: Alnair A
+    description: ''
+    tags: []
+    radius: 3.91
+    temperature: 14245
+    solarMass: 3.82
+    age: 349968791852
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 245
+      semiMajorAxis: 46.92
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alnair
+  - name: Alnair B
+    description: ''
+    tags: []
+    radius: 3.91
+    temperature: 14245
+    solarMass: 3.82
+    age: 349968791852
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 425
+      semiMajorAxis: 46.92
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alnair
+planets:
+  - name: Alnair 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 243
+      age: 134725852
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.007281443504103799
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 344
+    satellite:
+      semiMajorAxis: 666313649.6666666
+      eccentricity: 0
+      inclination: 0.93
+      orbitalArc: 97
+      axialTilt: 39.51
+      parentId: Alnair
+      showOrbit: true
+    satellites: []
+  - name: Alnair 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5706
+      age: 5514445647
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.019542749663474558
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 689
+    satellite:
+      semiMajorAxis: 1648904579.4444444
+      eccentricity: 0.01
+      inclination: 1.2
+      orbitalArc: 178
+      axialTilt: 0.39
+      parentId: Alnair
+      showOrbit: true
+    satellites:
+      - name: Alnair 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 406.56608460980146
+          age: 563851276
+          ringMapAsset: null
+          terranMass: 1.3599999952324848
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 357
+        satellite:
+          semiMajorAxis: 152210.2082818757
+          eccentricity: 0.01
+          inclination: 0.72
+          orbitalArc: 222
+          axialTilt: 13.77
+          parentId: Alnair 2
+          showOrbit: true
+        satellites: []
+      - name: Alnair 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 648.3169180593493
+          age: 6502396175
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 174161
+        temperature: 256
+        satellite:
+          semiMajorAxis: 242354.6616876474
+          eccentricity: 0.01
+          inclination: 1.78
+          orbitalArc: 302
+          axialTilt: 0.22
+          parentId: Alnair 2
+          showOrbit: true
+        satellites: []
+      - name: Alnair 2c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 843.4473141129006
+          age: 9792400708
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.9000000492042498
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 643
+        satellite:
+          semiMajorAxis: 336535.47833104734
+          eccentricity: 0.01
+          inclination: 1.31
+          orbitalArc: 68
+          axialTilt: 35.09
+          parentId: Alnair 2
+          showOrbit: true
+        satellites: []
+  - name: Alnair 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3840
+      age: 7370603151
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
+      terranMass: 0.027016668633820438
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 27380
+    temperature: 211
+    satellite:
+      semiMajorAxis: 2496415867.0740747
+      eccentricity: 0
+      inclination: 0.23
+      orbitalArc: 159
+      axialTilt: 24.48
+      parentId: Alnair
+      showOrbit: true
+    satellites:
+      - name: Alnair 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 274.1676837099175
+          age: 957948075
+          ringMapAsset: null
+          terranMass: 0.1099999019333293
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 247
+        satellite:
+          semiMajorAxis: 46928.76136965713
+          eccentricity: 0.01
+          inclination: 1.71
+          orbitalArc: 287
+          axialTilt: 23.3
+          parentId: Alnair 3
+          showOrbit: true
+        satellites: []
+      - name: Alnair 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 342.75136983924347
+          age: 858158576
+          ringMapAsset: null
+          terranMass: 1.099999674394035
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 202
+        satellite:
+          semiMajorAxis: 156131.0940951021
+          eccentricity: 0.02
+          inclination: 0.73
+          orbitalArc: 62
+          axialTilt: 18.2
+          parentId: Alnair 3
+          showOrbit: true
+        satellites: []
+      - name: Alnair 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 686.8975256939647
+          age: 7376252470
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 30844
+        temperature: 256
+        satellite:
+          semiMajorAxis: 250030.69935260314
+          eccentricity: 0.02
+          inclination: 0.83
+          orbitalArc: 188
+          axialTilt: 33.47
+          parentId: Alnair 3
+          showOrbit: true
+        satellites: []
+  - name: Alnair 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2948
+      age: 6338366550
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.013346659077917959
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 6752
+    temperature: 178
+    satellite:
+      semiMajorAxis: 3320099749.3827167
+      eccentricity: 0.01
+      inclination: 1.65
+      orbitalArc: 191
+      axialTilt: 18.08
+      parentId: Alnair
+      showOrbit: true
+    satellites: []
+  - name: Alnair 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4837
+      age: 759906173
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.022579713897997622
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 40
+    satellite:
+      semiMajorAxis: 3574569261.3827167
+      eccentricity: 0
+      inclination: 1.62
+      orbitalArc: 145
+      axialTilt: 12.67
+      parentId: Alnair
+      showOrbit: true
+    satellites:
+      - name: Alnair 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 545.998098112002
+          age: 690199688
+          ringMapAsset: null
+          terranMass: 0.9399998242264462
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 309
+        satellite:
+          semiMajorAxis: 144143.49790156854
+          eccentricity: 0.01
+          inclination: 1.23
+          orbitalArc: 78
+          axialTilt: 2.34
+          parentId: Alnair 5
+          showOrbit: true
+        satellites: []
+  - name: Alnair 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 452
+      age: 379613161
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.003336921903110343
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 239
+    satellite:
+      semiMajorAxis: 3727322954.444442
+      eccentricity: 0
+      inclination: 1.59
+      orbitalArc: 198
+      axialTilt: 0.49
+      parentId: Alnair
+      showOrbit: true
+    satellites: []
+  - name: Alnair 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5999
+      age: 9735596336
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.006183363762377613
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 157012
+    temperature: 267
+    satellite:
+      semiMajorAxis: 3880577637.1481314
+      eccentricity: 0.02
+      inclination: 0.55
+      orbitalArc: 262
+      axialTilt: 31.41
+      parentId: Alnair
+      showOrbit: true
+    satellites:
+      - name: Alnair 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 359.242414975444
+          age: 914826871
+          ringMapAsset: null
+          terranMass: 1.199999686968171
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 291
+        satellite:
+          semiMajorAxis: 135434.39044574238
+          eccentricity: 0.01
+          inclination: 0.37
+          orbitalArc: 163
+          axialTilt: 30.75
+          parentId: Alnair 7
+          showOrbit: true
+        satellites: []
+  - name: Alnair 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 49782
+      age: 8482170765
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.1533671360354328
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 178
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 0.69
+      orbitalArc: 235
+      axialTilt: 2.12
+      parentId: Alnair
+      showOrbit: true
+    satellites:
+      - name: Alnair 8a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3243.3255719955137
+          age: 9139693987
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.3000000862264014
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 36596
+        temperature: 185
+        satellite:
+          semiMajorAxis: 1159802.9228140488
+          eccentricity: 0.02
+          inclination: 0.51
+          orbitalArc: 124
+          axialTilt: 39.64
+          parentId: Alnair 8
+          showOrbit: true
+        satellites: []
+      - name: Alnair 8b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 8052.823148939648
+          age: 7254263082
+          ringMapAsset: null
+          terranMass: 1.5000003741863872
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 267
+        satellite:
+          semiMajorAxis: 3349974.4299588935
+          eccentricity: 0.01
+          inclination: 0.29
+          orbitalArc: 104
+          axialTilt: 22.42
+          parentId: Alnair 8
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

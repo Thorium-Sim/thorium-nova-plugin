@@ -1,0 +1,351 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Adhil
+description: A solar system named Adhil
+position:
+  x: -27892196.322500695
+  'y': -80807756.94968581
+  z: 74264698.88154756
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Adhil
+stars:
+  - name: 'Adhil '
+    description: ''
+    tags: []
+    radius: 10
+    temperature: 4842
+    solarMass: 2.5
+    age: 2623071644293
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 327
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Adhil
+planets:
+  - name: Adhil 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4467
+      age: 7787129505
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.03216913917128241
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 547
+    satellite:
+      semiMajorAxis: 464761339
+      eccentricity: 0.01
+      inclination: 1.5
+      orbitalArc: 240
+      axialTilt: 29.13
+      parentId: Adhil
+      showOrbit: true
+    satellites:
+      - name: Adhil 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 504.74105445483957
+          age: 662347133
+          ringMapAsset: null
+          terranMass: 0.10999984957145979
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 383
+        satellite:
+          semiMajorAxis: 229657.179776952
+          eccentricity: 0
+          inclination: 1.77
+          orbitalArc: 355
+          axialTilt: 16.67
+          parentId: Adhil 1
+          showOrbit: true
+        satellites: []
+  - name: Adhil 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5784
+      age: 6775520619
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.002301155385747821
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 145022
+    temperature: 257
+    satellite:
+      semiMajorAxis: 715008445
+      eccentricity: 0
+      inclination: 1.9
+      orbitalArc: 89
+      axialTilt: 31.85
+      parentId: Adhil
+      showOrbit: true
+    satellites: []
+  - name: Adhil 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4514
+      age: 738756209
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.019539461863303204
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 51
+    satellite:
+      semiMajorAxis: 1056079633.3333313
+      eccentricity: 0.01
+      inclination: 0.04
+      orbitalArc: 193
+      axialTilt: 17.61
+      parentId: Adhil
+      showOrbit: true
+    satellites: []
+  - name: Adhil 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 42957
+      age: 9008751124
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.2620324363762123
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 259
+    satellite:
+      semiMajorAxis: 1498074893.222216
+      eccentricity: 0.01
+      inclination: 1.9
+      orbitalArc: 243
+      axialTilt: 36.7
+      parentId: Adhil
+      showOrbit: true
+    satellites:
+      - name: Adhil 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3862.479182290688
+          age: 862145026
+          ringMapAsset: null
+          terranMass: 0.5899999599964698
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 166
+        satellite:
+          semiMajorAxis: 1803777.7781297513
+          eccentricity: 0.01
+          inclination: 0.79
+          orbitalArc: 336
+          axialTilt: 18.71
+          parentId: Adhil 4
+          showOrbit: true
+        satellites: []
+  - name: Adhil 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 59624
+      age: 9553568935
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.03637547206747706
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 318
+    satellite:
+      semiMajorAxis: 1704289575.6295865
+      eccentricity: 0.02
+      inclination: 1.55
+      orbitalArc: 178
+      axialTilt: 38.22
+      parentId: Adhil
+      showOrbit: true
+    satellites:
+      - name: Adhil 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 12220.81611574004
+          age: 6872830174
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 195790
+        temperature: 263
+        satellite:
+          semiMajorAxis: 3397386.8801757307
+          eccentricity: 0.02
+          inclination: 1.56
+          orbitalArc: 88
+          axialTilt: 15.79
+          parentId: Adhil 5
+          showOrbit: true
+        satellites: []
+  - name: Adhil 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 31886
+      age: 5579887315
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 1.3796666979649261
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 246
+    satellite:
+      semiMajorAxis: 1918574977.1479301
+      eccentricity: 0.02
+      inclination: 1.66
+      orbitalArc: 293
+      axialTilt: 37.85
+      parentId: Adhil
+      showOrbit: true
+    satellites: []
+  - name: Adhil 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 54288
+      age: 2045650790
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.2275474375294399
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 236
+    satellite:
+      semiMajorAxis: 2194204994.011837
+      eccentricity: 0.01
+      inclination: 1.41
+      orbitalArc: 333
+      axialTilt: 7.08
+      parentId: Adhil
+      showOrbit: true
+    satellites: []
+  - name: Adhil 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 434
+      age: 776955681
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.021317106814092594
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 212
+    satellite:
+      semiMajorAxis: 3229964032.6942863
+      eccentricity: 0
+      inclination: 0.42
+      orbitalArc: 319
+      axialTilt: 31.99
+      parentId: Adhil
+      showOrbit: true
+    satellites: []
+  - name: Adhil 9
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 69
+      age: 828128082
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.011894594288554144
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 325
+    satellite:
+      semiMajorAxis: 3777342435
+      eccentricity: 0.01
+      inclination: 1.05
+      orbitalArc: 223
+      axialTilt: 37.02
+      parentId: Adhil
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,129 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Chamukuy
+description: A solar system named Chamukuy
+position:
+  x: -73203215.99507049
+  'y': -22582016.964019038
+  z: 30823549.622556623
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Chamukuy
+stars:
+  - name: Chamukuy A
+    description: ''
+    tags: []
+    radius: 4.4
+    temperature: 7800
+    solarMass: 2.86
+    age: 2301715031110
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 122
+      semiMajorAxis: 52.800000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Chamukuy
+  - name: Chamukuy B
+    description: ''
+    tags: []
+    radius: 4.4
+    temperature: 7800
+    solarMass: 2.86
+    age: 2301715031110
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 302
+      semiMajorAxis: 52.800000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Chamukuy
+planets:
+  - name: Chamukuy 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 122
+      age: 167389336
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0030636388849048343
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 387
+    satellite:
+      semiMajorAxis: 378002854.3333324
+      eccentricity: 0.02
+      inclination: 0.27
+      orbitalArc: 170
+      axialTilt: 37.43
+      parentId: Chamukuy
+      showOrbit: true
+    satellites: []
+  - name: Chamukuy 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5762
+      age: 1881891457
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.018404193380750795
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 609
+    satellite:
+      semiMajorAxis: 777135963.6666652
+      eccentricity: 0.02
+      inclination: 1.03
+      orbitalArc: 274
+      axialTilt: 12.36
+      parentId: Chamukuy
+      showOrbit: true
+    satellites: []
+  - name: Chamukuy 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4420
+      age: 7939792807
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.02606196927173193
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 14696
+    temperature: 155
+    satellite:
+      semiMajorAxis: 1176044207
+      eccentricity: 0.01
+      inclination: 0.49
+      orbitalArc: 323
+      axialTilt: 28.85
+      parentId: Chamukuy
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

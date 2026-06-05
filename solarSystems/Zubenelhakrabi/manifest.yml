@@ -1,0 +1,80 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Zubenelhakrabi
+description: A solar system named Zubenelhakrabi
+position:
+  x: 66959543.1477415
+  'y': 21884604.729228877
+  z: -48860723.69789009
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Zubenelhakrabi
+stars:
+  - name: Zubenelhakrabi A
+    description: ''
+    tags: []
+    radius: 11.14
+    temperature: 4826
+    solarMass: 1.15
+    age: 985252335081
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 271
+      semiMajorAxis: 133.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zubenelhakrabi
+  - name: Zubenelhakrabi B
+    description: ''
+    tags: []
+    radius: 11.14
+    temperature: 4826
+    solarMass: 1.15
+    age: 985252335081
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 451
+      semiMajorAxis: 133.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zubenelhakrabi
+planets:
+  - name: Zubenelhakrabi 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 66781
+      age: 3832141465
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 0.2778867520270606
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 330
+    satellite:
+      semiMajorAxis: 2352541665
+      eccentricity: 0
+      inclination: 1.05
+      orbitalArc: 75
+      axialTilt: 20
+      parentId: Zubenelhakrabi
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

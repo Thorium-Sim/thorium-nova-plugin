@@ -1,0 +1,178 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Menkalinan
+description: A solar system named Menkalinan
+position:
+  x: -30189487.50001716
+  'y': -30134206.244116258
+  z: 62080.67419040197
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Menkalinan
+stars:
+  - name: Menkalinan A
+    description: ''
+    tags: []
+    radius: 2.762
+    temperature: 8985
+    solarMass: 2.3885
+    age: 2770606544867
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 269
+      semiMajorAxis: 33.144
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Menkalinan
+  - name: Menkalinan B
+    description: ''
+    tags: []
+    radius: 2.762
+    temperature: 8985
+    solarMass: 2.3885
+    age: 2770606544867
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 449
+      semiMajorAxis: 33.144
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Menkalinan
+planets:
+  - name: Menkalinan 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 835
+      age: 316423515
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0048941789898665645
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 55
+    satellite:
+      semiMajorAxis: 495348377.333333
+      eccentricity: 0
+      inclination: 0.78
+      orbitalArc: 322
+      axialTilt: 24.9
+      parentId: Menkalinan
+      showOrbit: true
+    satellites:
+      - name: Menkalinan 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 41.840583375559795
+          age: 1945815265
+          ringMapAsset: null
+          terranMass: 1.30000008871247
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 755
+        satellite:
+          semiMajorAxis: 23475.545542543994
+          eccentricity: 0.01
+          inclination: 0.55
+          orbitalArc: 353
+          axialTilt: 32.34
+          parentId: Menkalinan 1
+          showOrbit: true
+        satellites: []
+      - name: Menkalinan 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 122.26309605338916
+          age: 7663305714
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 47770
+        temperature: 270
+        satellite:
+          semiMajorAxis: 46826.76578844805
+          eccentricity: 0.02
+          inclination: 0.42
+          orbitalArc: 248
+          axialTilt: 7.25
+          parentId: Menkalinan 1
+          showOrbit: true
+        satellites: []
+  - name: Menkalinan 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5176
+      age: 1268468883
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.03181108509357165
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1335
+    satellite:
+      semiMajorAxis: 1218302095
+      eccentricity: 0
+      inclination: 0.89
+      orbitalArc: 156
+      axialTilt: 37.05
+      parentId: Menkalinan
+      showOrbit: true
+    satellites:
+      - name: Menkalinan 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 336.2593036505998
+          age: 162402832
+          ringMapAsset: null
+          terranMass: 0.8899999090312518
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 256
+        satellite:
+          semiMajorAxis: 138202.57380039652
+          eccentricity: 0.02
+          inclination: 1.32
+          orbitalArc: 166
+          axialTilt: 15.32
+          parentId: Menkalinan 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

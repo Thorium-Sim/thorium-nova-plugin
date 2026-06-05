@@ -1,0 +1,188 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Kurhah
+description: A solar system named Kurhah
+position:
+  x: 9411986.746926459
+  'y': -40869634.66985308
+  z: 16943197.79681581
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Kurhah
+stars:
+  - name: 'Kurhah '
+    description: ''
+    tags: []
+    radius: 1.3594
+    temperature: 7943
+    solarMass: 1.721
+    age: 13493275055982
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 119
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kurhah
+planets:
+  - name: Kurhah 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5156
+      age: 5708257546
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0021139949116888448
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 162958
+    temperature: 268
+    satellite:
+      semiMajorAxis: 264287921.33333293
+      eccentricity: 0
+      inclination: 0.3
+      orbitalArc: 178
+      axialTilt: 7.05
+      parentId: Kurhah
+      showOrbit: true
+    satellites:
+      - name: Kurhah 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1232.3981386769094
+          age: 7225383087
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 167413
+        temperature: 261
+        satellite:
+          semiMajorAxis: 474473.28339061013
+          eccentricity: 0
+          inclination: 0.05
+          orbitalArc: 311
+          axialTilt: 38.64
+          parentId: Kurhah 1
+          showOrbit: true
+        satellites: []
+  - name: Kurhah 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6294
+      age: 1820673426
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.008695051709138984
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1137
+    satellite:
+      semiMajorAxis: 366845418.88888365
+      eccentricity: 0
+      inclination: 0.06
+      orbitalArc: 239
+      axialTilt: 25.09
+      parentId: Kurhah
+      showOrbit: true
+    satellites:
+      - name: Kurhah 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1394.1663998066604
+          age: 3409405473
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+          classification: M
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 2158800214
+        temperature: 298
+        satellite:
+          semiMajorAxis: 606462.3839158972
+          eccentricity: 0.01
+          inclination: 0.64
+          orbitalArc: 239
+          axialTilt: 2
+          parentId: Kurhah 2
+          showOrbit: true
+        satellites: []
+  - name: Kurhah 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5723
+      age: 9186886670
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.011827582185931405
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 23387
+    temperature: 265
+    satellite:
+      semiMajorAxis: 502170846.8147141
+      eccentricity: 0.01
+      inclination: 1.34
+      orbitalArc: 181
+      axialTilt: 23.06
+      parentId: Kurhah
+      showOrbit: true
+    satellites: []
+  - name: Kurhah 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 61
+      age: 278183911
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.002831782741955782
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 249
+    satellite:
+      semiMajorAxis: 571266502
+      eccentricity: 0.01
+      inclination: 0.02
+      orbitalArc: 286
+      axialTilt: 38.7
+      parentId: Kurhah
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

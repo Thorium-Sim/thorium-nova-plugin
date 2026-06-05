@@ -1,0 +1,130 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Zaurak
+description: A solar system named Zaurak
+position:
+  x: -89457758.78381352
+  'y': 24940364.18234683
+  z: 52679169.536386475
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Zaurak
+stars:
+  - name: Zaurak A
+    description: ''
+    tags: []
+    radius: 58.7
+    temperature: 3779
+    solarMass: 1.55
+    age: 127208816593
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 161
+      semiMajorAxis: 704.4000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zaurak
+  - name: Zaurak B
+    description: ''
+    tags: []
+    radius: 58.7
+    temperature: 3779
+    solarMass: 1.55
+    age: 127208816593
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 341
+      semiMajorAxis: 704.4000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zaurak
+planets:
+  - name: Zaurak 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5445
+      age: 4441938360
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.025646775280865477
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 642
+    satellite:
+      semiMajorAxis: 1417704394.666667
+      eccentricity: 0.01
+      inclination: 0.84
+      orbitalArc: 320
+      axialTilt: 38.15
+      parentId: Zaurak
+      showOrbit: true
+    satellites: []
+  - name: Zaurak 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3974
+      age: 1387676345
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.022562251822036455
+      textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1637
+    satellite:
+      semiMajorAxis: 2869573963.8888893
+      eccentricity: 0.02
+      inclination: 1.6
+      orbitalArc: 157
+      axialTilt: 39.97
+      parentId: Zaurak
+      showOrbit: true
+    satellites: []
+  - name: Zaurak 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 412
+      age: 443011046
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0061814072494653614
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 292
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.76
+      orbitalArc: 150
+      axialTilt: 12.56
+      parentId: Zaurak
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

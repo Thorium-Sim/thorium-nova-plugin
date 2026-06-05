@@ -1,0 +1,340 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Marfik
+description: A solar system named Marfik
+position:
+  x: 84152496.10911426
+  'y': -3149970.9888350214
+  z: -34464644.50623872
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Marfik
+stars:
+  - name: Marfik A
+    description: ''
+    tags: []
+    radius: 2.45
+    temperature: 9550
+    solarMass: 2.39
+    age: 2760714716399
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 305
+      semiMajorAxis: 29.400000000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Marfik
+  - name: Marfik B
+    description: ''
+    tags: []
+    radius: 2.45
+    temperature: 9550
+    solarMass: 2.39
+    age: 2760714716399
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 485
+      semiMajorAxis: 29.400000000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Marfik
+planets:
+  - name: Marfik 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 267
+      age: 84854528
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.002337049957714273
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 322
+    satellite:
+      semiMajorAxis: 425741005.33333355
+      eccentricity: 0.01
+      inclination: 1.56
+      orbitalArc: 149
+      axialTilt: 10.6
+      parentId: Marfik
+      showOrbit: true
+    satellites: []
+  - name: Marfik 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5628
+      age: 5014873614
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.010224066272546553
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 86743
+    temperature: 260
+    satellite:
+      semiMajorAxis: 1020769827.2222224
+      eccentricity: 0
+      inclination: 0.3
+      orbitalArc: 149
+      axialTilt: 32.06
+      parentId: Marfik
+      showOrbit: true
+    satellites:
+      - name: Marfik 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 385.6923615406949
+          age: 9480915919
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 93008
+        temperature: 255
+        satellite:
+          semiMajorAxis: 200287.90580810272
+          eccentricity: 0
+          inclination: 1.72
+          orbitalArc: 96
+          axialTilt: 18.98
+          parentId: Marfik 2
+          showOrbit: true
+        satellites: []
+      - name: Marfik 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 976.7374923657014
+          age: 6885682089
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 124630
+        temperature: 257
+        satellite:
+          semiMajorAxis: 476647.8962744623
+          eccentricity: 0.02
+          inclination: 1.71
+          orbitalArc: 27
+          axialTilt: 33.99
+          parentId: Marfik 2
+          showOrbit: true
+        satellites: []
+  - name: Marfik 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6784
+      age: 433304041
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.014271276484700259
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 861
+    satellite:
+      semiMajorAxis: 1356368299.3333328
+      eccentricity: 0.02
+      inclination: 1.34
+      orbitalArc: 241
+      axialTilt: 8
+      parentId: Marfik
+      showOrbit: true
+    satellites:
+      - name: Marfik 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 528.2975595765508
+          age: 6941768718
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.5000000799273997
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 10179
+        temperature: 237
+        satellite:
+          semiMajorAxis: 120181.34111243319
+          eccentricity: 0.01
+          inclination: 1.28
+          orbitalArc: 236
+          axialTilt: 1.47
+          parentId: Marfik 3
+          showOrbit: true
+        satellites: []
+      - name: Marfik 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1060.919184200121
+          age: 3443308729
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 70252
+        temperature: 255
+        satellite:
+          semiMajorAxis: 268960.286901028
+          eccentricity: 0.01
+          inclination: 0.48
+          orbitalArc: 340
+          axialTilt: 8.36
+          parentId: Marfik 3
+          showOrbit: true
+        satellites: []
+      - name: Marfik 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1074.072153784072
+          age: 1173708286
+          ringMapAsset: null
+          terranMass: 1.900000509302958
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 220
+        satellite:
+          semiMajorAxis: 361962.3158252323
+          eccentricity: 0
+          inclination: 0.06
+          orbitalArc: 179
+          axialTilt: 16.4
+          parentId: Marfik 3
+          showOrbit: true
+        satellites: []
+  - name: Marfik 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 37380
+      age: 9623166974
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 1.765861756132418
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 183
+    satellite:
+      semiMajorAxis: 2318323761.666666
+      eccentricity: 0.02
+      inclination: 1.04
+      orbitalArc: 352
+      axialTilt: 0.96
+      parentId: Marfik
+      showOrbit: true
+    satellites:
+      - name: Marfik 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4527.102673376934
+          age: 8615041482
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 48762
+        temperature: 264
+        satellite:
+          semiMajorAxis: 2249970.028668336
+          eccentricity: 0.01
+          inclination: 1.59
+          orbitalArc: 167
+          axialTilt: 6.82
+          parentId: Marfik 4
+          showOrbit: true
+        satellites: []
+  - name: Marfik 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 25443
+      age: 6879124520
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 0.523311067400107
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 193
+    satellite:
+      semiMajorAxis: 3204041084
+      eccentricity: 0.02
+      inclination: 0.23
+      orbitalArc: 191
+      axialTilt: 34.41
+      parentId: Marfik
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,131 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Diadem
+description: A solar system named Diadem
+position:
+  x: 8745812.185154641
+  'y': -9188186.347758755
+  z: -27743188.589692794
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Diadem
+stars:
+  - name: Diadem A
+    description: ''
+    tags: []
+    radius: 1.0807
+    temperature: 6365
+    solarMass: 1.237
+    age: 37216458985755
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 26
+      semiMajorAxis: 12.968399999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Diadem
+  - name: Diadem B
+    description: ''
+    tags: []
+    radius: 1.0807
+    temperature: 6365
+    solarMass: 1.237
+    age: 37216458985755
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 206
+      semiMajorAxis: 12.968399999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Diadem
+planets:
+  - name: Diadem 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 411
+      age: 305617223
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0014781716257772164
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 181
+    satellite:
+      semiMajorAxis: 360095534
+      eccentricity: 0
+      inclination: 1.33
+      orbitalArc: 208
+      axialTilt: 38.08
+      parentId: Diadem
+      showOrbit: true
+    satellites: []
+  - name: Diadem 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 56710
+      age: 6347466614
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 0.02322692231350274
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 227
+    satellite:
+      semiMajorAxis: 845893587
+      eccentricity: 0.01
+      inclination: 0.9
+      orbitalArc: 113
+      axialTilt: 40
+      parentId: Diadem
+      showOrbit: true
+    satellites:
+      - name: Diadem 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 4450.879838278141
+          age: 7657603531
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 50613
+        temperature: 269
+        satellite:
+          semiMajorAxis: 1629022.0208097994
+          eccentricity: 0.01
+          inclination: 1.12
+          orbitalArc: 211
+          axialTilt: 21.24
+          parentId: Diadem 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

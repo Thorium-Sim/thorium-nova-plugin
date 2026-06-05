@@ -1,0 +1,178 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Tarazed
+description: A solar system named Tarazed
+position:
+  x: 182642335.1357158
+  'y': -38263932.00069264
+  z: 91320624.95219381
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Tarazed
+stars:
+  - name: Tarazed A
+    description: ''
+    tags: []
+    radius: 91.81
+    temperature: 4098
+    solarMass: 3.51
+    age: 85154697373
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 60
+      semiMajorAxis: 1101.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tarazed
+  - name: Tarazed B
+    description: ''
+    tags: []
+    radius: 91.81
+    temperature: 4098
+    solarMass: 3.51
+    age: 85154697373
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 240
+      semiMajorAxis: 1101.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tarazed
+planets:
+  - name: Tarazed 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 977
+      age: 615161896
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.003933104630346146
+      textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1696
+    satellite:
+      semiMajorAxis: 1882980903.6666658
+      eccentricity: 0
+      inclination: 0.9
+      orbitalArc: 281
+      axialTilt: 17.69
+      parentId: Tarazed
+      showOrbit: true
+    satellites: []
+  - name: Tarazed 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 405
+      age: 574013227
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.004850940696500456
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 293
+    satellite:
+      semiMajorAxis: 2766841343.777777
+      eccentricity: 0
+      inclination: 1.64
+      orbitalArc: 283
+      axialTilt: 21.09
+      parentId: Tarazed
+      showOrbit: true
+    satellites: []
+  - name: Tarazed 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1857
+      age: 41800844
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.00558577906007529
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 51
+    satellite:
+      semiMajorAxis: 3867407858.555556
+      eccentricity: 0.01
+      inclination: 1.68
+      orbitalArc: 119
+      axialTilt: 15.99
+      parentId: Tarazed
+      showOrbit: true
+    satellites:
+      - name: Tarazed 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 262.30483467773416
+          age: 673766319
+          ringMapAsset: null
+          terranMass: 0.5699996945490844
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 292
+        satellite:
+          semiMajorAxis: 123020.96746385732
+          eccentricity: 0.01
+          inclination: 1.39
+          orbitalArc: 214
+          axialTilt: 37.07
+          parentId: Tarazed 3
+          showOrbit: true
+        satellites: []
+  - name: Tarazed 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6212
+      age: 9602559276
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.012767982541180212
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 155449312
+    temperature: 369
+    satellite:
+      semiMajorAxis: 4748660599
+      eccentricity: 0.01
+      inclination: 1.97
+      orbitalArc: 52
+      axialTilt: 16.8
+      parentId: Tarazed
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

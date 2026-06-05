@@ -4,7 +4,7 @@ name: Sol
 description: Home of humanity
 position:
   x: 0
-  "y": 0
+  'y': 0
   z: 0
 tags: []
 habitableZoneInner: 0.9
@@ -12,7 +12,7 @@ habitableZoneOuter: 3
 skyboxKey: Random Key
 stars:
   - name: Sol A
-    description: ""
+    description: ''
     tags: []
     solarMass: 1.31402
     age: 6686969520.18435
@@ -31,7 +31,7 @@ stars:
       parentId: Sol
 planets:
   - name: Earth
-    description: ""
+    description: ''
     tags: []
     satellite:
       axialTilt: 0
@@ -50,12 +50,39 @@ planets:
       lifeforms:
         - Varied and extensive vegetation and animal life, humanoids
       atmosphericComposition: []
-      textureMapAsset: /plugins/Thorium Default/assets/2k_earth_daymap.jpg
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_earth_daymap.jpg
       cloudMapAsset: /plugins/Thorium Default/assets/clouds/2k_earth_clouds.jpg
     population: 7713541106
     temperature: 297.95614
+    satellites:
+      - name: Luna
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1737.4
+          age: 4510000000
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.0123
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 160
+        satellite:
+          semiMajorAxis: 384400
+          eccentricity: 0
+          inclination: 5.1
+          orbitalArc: 120
+          axialTilt: 6.56
+          parentId: Earth
+          showOrbit: true
+        satellites: []
   - name: Mars
-    description: ""
+    description: ''
     tags: []
     satellite:
       axialTilt: 0

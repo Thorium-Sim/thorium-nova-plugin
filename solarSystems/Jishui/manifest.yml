@@ -1,0 +1,155 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Jishui
+description: A solar system named Jishui
+position:
+  x: -65256532.044131815
+  'y': -49558436.912106805
+  z: -30140847.69895378
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Jishui
+stars:
+  - name: Jishui A
+    description: ''
+    tags: []
+    radius: 4
+    temperature: 6470
+    solarMass: 2
+    age: 4113979987914
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 253
+      semiMajorAxis: 48
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Jishui
+  - name: Jishui B
+    description: ''
+    tags: []
+    radius: 4
+    temperature: 6470
+    solarMass: 2
+    age: 4113979987914
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 433
+      semiMajorAxis: 48
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Jishui
+planets:
+  - name: Jishui 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 335
+      age: 782940582
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.007858140537253968
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 348
+    satellite:
+      semiMajorAxis: 296007194.33333325
+      eccentricity: 0.01
+      inclination: 0.18
+      orbitalArc: 16
+      axialTilt: 0.53
+      parentId: Jishui
+      showOrbit: true
+    satellites: []
+  - name: Jishui 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2238
+      age: 239289000
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.021070876299981355
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 43
+    satellite:
+      semiMajorAxis: 889768293.8888888
+      eccentricity: 0
+      inclination: 1.08
+      orbitalArc: 232
+      axialTilt: 15.51
+      parentId: Jishui
+      showOrbit: true
+    satellites: []
+  - name: Jishui 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 55889
+      age: 8805723827
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.6062342439734456
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 290
+    satellite:
+      semiMajorAxis: 2379605970.8888884
+      eccentricity: 0
+      inclination: 1.65
+      orbitalArc: 293
+      axialTilt: 25.08
+      parentId: Jishui
+      showOrbit: true
+    satellites: []
+  - name: Jishui 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 100
+      age: 245566388
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.001586940856211499
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 296
+    satellite:
+      semiMajorAxis: 3968454217
+      eccentricity: 0.01
+      inclination: 0.51
+      orbitalArc: 248
+      axialTilt: 38.43
+      parentId: Jishui
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

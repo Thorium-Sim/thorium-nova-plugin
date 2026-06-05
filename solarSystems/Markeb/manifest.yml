@@ -1,0 +1,238 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Markeb
+description: A solar system named Markeb
+position:
+  x: -109282989.37566143
+  'y': 245611498.8924228
+  z: -132704864.16396537
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Markeb
+stars:
+  - name: Markeb A
+    description: ''
+    tags: []
+    radius: 11.6
+    temperature: 18200
+    solarMass: 9.44
+    age: 36875655440
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 166
+      semiMajorAxis: 139.2
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Markeb
+  - name: Markeb B
+    description: ''
+    tags: []
+    radius: 11.6
+    temperature: 18200
+    solarMass: 9.44
+    age: 36875655440
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 346
+      semiMajorAxis: 139.2
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Markeb
+planets:
+  - name: Markeb 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5558
+      age: 5823966033
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0005704698010115418
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 847
+    satellite:
+      semiMajorAxis: 2202351455.9999995
+      eccentricity: 0.01
+      inclination: 0.18
+      orbitalArc: 272
+      axialTilt: 34.4
+      parentId: Markeb
+      showOrbit: true
+    satellites:
+      - name: Markeb 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 970.9716462095435
+          age: 3061070183
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          classification: G
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 0
+        temperature: 463
+        satellite:
+          semiMajorAxis: 455385.70207227586
+          eccentricity: 0
+          inclination: 1.35
+          orbitalArc: 146
+          axialTilt: 7.09
+          parentId: Markeb 1
+          showOrbit: true
+        satellites: []
+  - name: Markeb 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7077
+      age: 9196392457
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.016258622311534167
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 774
+    satellite:
+      semiMajorAxis: 3705196282.666666
+      eccentricity: 0
+      inclination: 1.59
+      orbitalArc: 260
+      axialTilt: 18.97
+      parentId: Markeb
+      showOrbit: true
+    satellites: []
+  - name: Markeb 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 93
+      age: 386468491
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.008624709140943227
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 270
+    satellite:
+      semiMajorAxis: 5780460027.111111
+      eccentricity: 0.02
+      inclination: 0.4
+      orbitalArc: 259
+      axialTilt: 16.52
+      parentId: Markeb
+      showOrbit: true
+    satellites: []
+  - name: Markeb 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6741
+      age: 4981035542
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.021610049146485993
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 8550047357
+    temperature: 298
+    satellite:
+      semiMajorAxis: 7992196295.111111
+      eccentricity: 0
+      inclination: 0.64
+      orbitalArc: 4
+      axialTilt: 31.57
+      parentId: Markeb
+      showOrbit: true
+    satellites: []
+  - name: Markeb 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4994
+      age: 5393744253
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+      terranMass: 0.016602549321754492
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 26742
+    temperature: 189
+    satellite:
+      semiMajorAxis: 10295379504
+      eccentricity: 0.02
+      inclination: 1.92
+      orbitalArc: 121
+      axialTilt: 11.82
+      parentId: Markeb
+      showOrbit: true
+    satellites:
+      - name: Markeb 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 520.1664037475983
+          age: 3632490833
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          classification: G
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 0
+        temperature: 474
+        satellite:
+          semiMajorAxis: 180497.74210041662
+          eccentricity: 0.01
+          inclination: 0.18
+          orbitalArc: 107
+          axialTilt: 32.27
+          parentId: Markeb 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

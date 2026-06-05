@@ -1,0 +1,295 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Minchir
+description: A solar system named Minchir
+position:
+  x: -149497726.1646223
+  'y': -11342760.104485597
+  z: -124068350.24235508
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Minchir
+stars:
+  - name: 'Minchir '
+    description: ''
+    tags: []
+    radius: 27.6
+    temperature: 4491
+    solarMass: 3.07
+    age: 571369791726
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 179
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Minchir
+planets:
+  - name: Minchir 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5519
+      age: 8774039240
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.008689705216240273
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 545
+    satellite:
+      semiMajorAxis: 906757421.333334
+      eccentricity: 0.01
+      inclination: 1.04
+      orbitalArc: 70
+      axialTilt: 34.86
+      parentId: Minchir
+      showOrbit: true
+    satellites: []
+  - name: Minchir 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3326
+      age: 1660472850
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0033512698959151286
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1719
+    satellite:
+      semiMajorAxis: 2279794469.8888893
+      eccentricity: 0.02
+      inclination: 1.57
+      orbitalArc: 148
+      axialTilt: 29.95
+      parentId: Minchir
+      showOrbit: true
+    satellites:
+      - name: Minchir 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 312.37537960090566
+          age: 4391092095
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 24852
+        temperature: 269
+        satellite:
+          semiMajorAxis: 130572.90867317856
+          eccentricity: 0.01
+          inclination: 0.25
+          orbitalArc: 172
+          axialTilt: 38.57
+          parentId: Minchir 2
+          showOrbit: true
+        satellites: []
+  - name: Minchir 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 46190
+      age: 6490400227
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.19804303454538874
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 233
+    satellite:
+      semiMajorAxis: 3130162435.3703694
+      eccentricity: 0.01
+      inclination: 0.91
+      orbitalArc: 195
+      axialTilt: 4.45
+      parentId: Minchir
+      showOrbit: true
+    satellites:
+      - name: Minchir 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 11395.984510114298
+          age: 7893894878
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 66560
+        temperature: 263
+        satellite:
+          semiMajorAxis: 5458676.580344749
+          eccentricity: 0
+          inclination: 0.59
+          orbitalArc: 264
+          axialTilt: 19.05
+          parentId: Minchir 3
+          showOrbit: true
+        satellites: []
+  - name: Minchir 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4484735
+      age: 2018216716
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 10.530138722203006
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBlueGiant.jpg
+      classification: I
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 283
+    satellite:
+      semiMajorAxis: 3625749782.5678954
+      eccentricity: 0
+      inclination: 0.1
+      orbitalArc: 132
+      axialTilt: 36.25
+      parentId: Minchir
+      showOrbit: true
+    satellites: []
+  - name: Minchir 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2723
+      age: 840195635
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.000783466171178389
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 55
+    satellite:
+      semiMajorAxis: 3838467313.839477
+      eccentricity: 0.01
+      inclination: 0.41
+      orbitalArc: 343
+      axialTilt: 14.39
+      parentId: Minchir
+      showOrbit: true
+    satellites:
+      - name: Minchir 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 171.8570474202761
+          age: 252161818
+          ringMapAsset: null
+          terranMass: 1.1000000835229597
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 913
+        satellite:
+          semiMajorAxis: 62081.59799789009
+          eccentricity: 0.02
+          inclination: 0.83
+          orbitalArc: 46
+          axialTilt: 12.36
+          parentId: Minchir 5
+          showOrbit: true
+        satellites: []
+      - name: Minchir 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 355.357515278018
+          age: 594839824
+          ringMapAsset: null
+          terranMass: 1.0599996524516306
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 249
+        satellite:
+          semiMajorAxis: 176257.32757789694
+          eccentricity: 0.01
+          inclination: 0.78
+          orbitalArc: 13
+          axialTilt: 34.92
+          parentId: Minchir 5
+          showOrbit: true
+        satellites: []
+  - name: Minchir 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 268
+      age: 34935592
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0029825298578494384
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 343
+    satellite:
+      semiMajorAxis: 3972317070
+      eccentricity: 0.02
+      inclination: 1.14
+      orbitalArc: 330
+      axialTilt: 30.45
+      parentId: Minchir
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

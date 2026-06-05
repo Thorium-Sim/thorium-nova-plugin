@@ -1,0 +1,80 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Saclateni
+description: A solar system named Saclateni
+position:
+  x: -238121598.87512603
+  'y': -214263270.12179607
+  z: 61052720.56925752
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Saclateni
+stars:
+  - name: Saclateni A
+    description: ''
+    tags: []
+    radius: 148
+    temperature: 3960
+    solarMass: 5.8
+    age: 62100214964
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 164
+      semiMajorAxis: 1776
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Saclateni
+  - name: Saclateni B
+    description: ''
+    tags: []
+    radius: 148
+    temperature: 3960
+    solarMass: 5.8
+    age: 62100214964
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 344
+      semiMajorAxis: 1776
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Saclateni
+planets:
+  - name: Saclateni 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 35699
+      age: 8371450643
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 0.7356160110143517
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 295
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 0.3
+      orbitalArc: 62
+      axialTilt: 13.31
+      parentId: Saclateni
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

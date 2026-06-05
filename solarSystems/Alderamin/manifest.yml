@@ -1,0 +1,157 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alderamin
+description: A solar system named Alderamin
+position:
+  x: 7683540.321674287
+  'y': -22877826.695797727
+  z: 9042471.983028226
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alderamin
+stars:
+  - name: Alderamin A
+    description: ''
+    tags: []
+    radius: 2.175
+    temperature: 8440
+    solarMass: 2
+    age: 4805194496827
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 216
+      semiMajorAxis: 26.099999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alderamin
+  - name: Alderamin B
+    description: ''
+    tags: []
+    radius: 2.175
+    temperature: 8440
+    solarMass: 2
+    age: 4805194496827
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 396
+      semiMajorAxis: 26.099999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alderamin
+planets:
+  - name: Alderamin 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2669
+      age: 8209329453
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.01372260568880034
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 32575
+    temperature: 186
+    satellite:
+      semiMajorAxis: 459275257.99999934
+      eccentricity: 0.01
+      inclination: 1.24
+      orbitalArc: 103
+      axialTilt: 4.92
+      parentId: Alderamin
+      showOrbit: true
+    satellites:
+      - name: Alderamin 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 342.47566426818395
+          age: 5626355572
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 116038
+        temperature: 260
+        satellite:
+          semiMajorAxis: 141442.44934275997
+          eccentricity: 0.02
+          inclination: 0.93
+          orbitalArc: 277
+          axialTilt: 39.65
+          parentId: Alderamin 1
+          showOrbit: true
+        satellites: []
+  - name: Alderamin 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5722
+      age: 4008517494
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.00994121409776649
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 253935248
+    temperature: 295
+    satellite:
+      semiMajorAxis: 764486960
+      eccentricity: 0.01
+      inclination: 1.39
+      orbitalArc: 50
+      axialTilt: 38.68
+      parentId: Alderamin
+      showOrbit: true
+    satellites:
+      - name: Alderamin 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1178.8621690705797
+          age: 5472039554
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 139105
+        temperature: 270
+        satellite:
+          semiMajorAxis: 447967.6242468203
+          eccentricity: 0
+          inclination: 0.84
+          orbitalArc: 227
+          axialTilt: 12.21
+          parentId: Alderamin 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

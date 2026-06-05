@@ -1,0 +1,183 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Wasat
+description: A solar system named Wasat
+position:
+  x: -27722283.356485695
+  'y': -11911092.419060051
+  z: -10106937.935088238
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Wasat
+stars:
+  - name: Wasat A
+    description: ''
+    tags: []
+    radius: 2.31
+    temperature: 6900
+    solarMass: 1.57
+    age: 7485979166201
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 355
+      semiMajorAxis: 27.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Wasat
+  - name: Wasat B
+    description: ''
+    tags: []
+    radius: 2.31
+    temperature: 6900
+    solarMass: 1.57
+    age: 7485979166201
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 535
+      semiMajorAxis: 27.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Wasat
+planets:
+  - name: Wasat 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 432
+      age: 438753070
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.025705727526169828
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 292
+    satellite:
+      semiMajorAxis: 626855393
+      eccentricity: 0.01
+      inclination: 1.55
+      orbitalArc: 158
+      axialTilt: 7.56
+      parentId: Wasat
+      showOrbit: true
+    satellites: []
+  - name: Wasat 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 34794
+      age: 8852575561
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 1.3576045733533346
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 242
+    satellite:
+      semiMajorAxis: 1025953911
+      eccentricity: 0.01
+      inclination: 0.48
+      orbitalArc: 27
+      axialTilt: 9.89
+      parentId: Wasat
+      showOrbit: true
+    satellites:
+      - name: Wasat 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1965.3736622291324
+          age: 9088495611
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.900000112354001
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 42927
+        temperature: 260
+        satellite:
+          semiMajorAxis: 988906.5395605871
+          eccentricity: 0.02
+          inclination: 1.36
+          orbitalArc: 63
+          axialTilt: 21.96
+          parentId: Wasat 2
+          showOrbit: true
+        satellites: []
+      - name: Wasat 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6579.534746761629
+          age: 105506099
+          ringMapAsset: null
+          terranMass: 0.5000001089380411
+          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1562
+        satellite:
+          semiMajorAxis: 2035265.2106977263
+          eccentricity: 0.02
+          inclination: 0.51
+          orbitalArc: 188
+          axialTilt: 38.17
+          parentId: Wasat 2
+          showOrbit: true
+        satellites: []
+      - name: Wasat 2c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7822.503573857017
+          age: 4369049267
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 134486
+        temperature: 255
+        satellite:
+          semiMajorAxis: 2737876.2508499557
+          eccentricity: 0
+          inclination: 1.6
+          orbitalArc: 34
+          axialTilt: 28.42
+          parentId: Wasat 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

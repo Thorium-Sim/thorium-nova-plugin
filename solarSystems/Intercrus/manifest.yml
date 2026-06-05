@@ -1,0 +1,208 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Intercrus
+description: A solar system named Intercrus
+position:
+  x: -63198828.0761765
+  'y': -105222199.30031542
+  z: -81377492.94272085
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Intercrus
+stars:
+  - name: Intercrus A
+    description: ''
+    tags: []
+    radius: 11.13
+    temperature: 4797
+    solarMass: 1.07
+    age: 940770865964
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 144
+      semiMajorAxis: 133.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Intercrus
+  - name: Intercrus B
+    description: ''
+    tags: []
+    radius: 11.13
+    temperature: 4797
+    solarMass: 1.07
+    age: 940770865964
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 324
+      semiMajorAxis: 133.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Intercrus
+planets:
+  - name: Intercrus 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 426
+      age: 481526261
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.011019198337904011
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 374
+    satellite:
+      semiMajorAxis: 615787117.9999999
+      eccentricity: 0
+      inclination: 1.07
+      orbitalArc: 273
+      axialTilt: 32.07
+      parentId: Intercrus
+      showOrbit: true
+    satellites: []
+  - name: Intercrus 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7379
+      age: 5469626990
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.002126329120860046
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 61515
+    temperature: 263
+    satellite:
+      semiMajorAxis: 1366755235
+      eccentricity: 0.02
+      inclination: 1.06
+      orbitalArc: 236
+      axialTilt: 0.13
+      parentId: Intercrus
+      showOrbit: true
+    satellites: []
+  - name: Intercrus 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 57459
+      age: 5566637508
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 1.036454004629388
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 152
+    satellite:
+      semiMajorAxis: 2510018987.3333325
+      eccentricity: 0
+      inclination: 0.69
+      orbitalArc: 118
+      axialTilt: 33.66
+      parentId: Intercrus
+      showOrbit: true
+    satellites:
+      - name: Intercrus 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3175.9646288377503
+          age: 7015821068
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 0.10000001371855607
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 32217
+        temperature: 275
+        satellite:
+          semiMajorAxis: 2663381.68273015
+          eccentricity: 0.01
+          inclination: 1.65
+          orbitalArc: 355
+          axialTilt: 26.91
+          parentId: Intercrus 3
+          showOrbit: true
+        satellites: []
+      - name: Intercrus 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 14178.442603330172
+          age: 364666358
+          ringMapAsset: null
+          terranMass: 0.8999999620728978
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 152
+        satellite:
+          semiMajorAxis: 6678046.466168511
+          eccentricity: 0.01
+          inclination: 1.72
+          orbitalArc: 55
+          axialTilt: 8.23
+          parentId: Intercrus 3
+          showOrbit: true
+        satellites: []
+  - name: Intercrus 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 253
+      age: 909746056
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.012112779791423826
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 265
+    satellite:
+      semiMajorAxis: 3783673452
+      eccentricity: 0.02
+      inclination: 0.91
+      orbitalArc: 212
+      axialTilt: 14.42
+      parentId: Intercrus
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

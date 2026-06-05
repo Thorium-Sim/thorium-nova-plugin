@@ -1,0 +1,155 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Dschubba
+description: A solar system named Dschubba
+position:
+  x: 57229309.962818965
+  'y': 27513880.08757232
+  z: -32930434.215477314
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Dschubba
+stars:
+  - name: Dschubba A
+    description: ''
+    tags: []
+    radius: 8.5
+    temperature: 27400
+    solarMass: 13
+    age: 18410794652
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 66
+      semiMajorAxis: 102
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Dschubba
+  - name: Dschubba B
+    description: ''
+    tags: []
+    radius: 8.5
+    temperature: 27400
+    solarMass: 13
+    age: 18410794652
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 246
+      semiMajorAxis: 102
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Dschubba
+planets:
+  - name: Dschubba 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 248
+      age: 761899874
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0004221364806139144
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 163
+    satellite:
+      semiMajorAxis: 2282109419
+      eccentricity: 0.01
+      inclination: 0.8
+      orbitalArc: 6
+      axialTilt: 22.89
+      parentId: Dschubba
+      showOrbit: true
+    satellites: []
+  - name: Dschubba 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2756
+      age: 9986150644
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.011188126792935864
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 15607
+    temperature: 147
+    satellite:
+      semiMajorAxis: 5750313838.333334
+      eccentricity: 0.01
+      inclination: 1.12
+      orbitalArc: 178
+      axialTilt: 29.37
+      parentId: Dschubba
+      showOrbit: true
+    satellites: []
+  - name: Dschubba 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 164
+      age: 227954653
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.006340460562236894
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 263
+    satellite:
+      semiMajorAxis: 11087066354.555555
+      eccentricity: 0.01
+      inclination: 0.25
+      orbitalArc: 273
+      axialTilt: 36.45
+      parentId: Dschubba
+      showOrbit: true
+    satellites: []
+  - name: Dschubba 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6163
+      age: 3338480092
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.006456452684699663
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 158598
+    temperature: 263
+    satellite:
+      semiMajorAxis: 14152744811
+      eccentricity: 0.01
+      inclination: 0.13
+      orbitalArc: 296
+      axialTilt: 19.58
+      parentId: Dschubba
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

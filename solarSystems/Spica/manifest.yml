@@ -1,0 +1,180 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Spica
+description: A solar system named Spica
+position:
+  x: 46856823.4072553
+  'y': 25452789.32513344
+  z: -120192402.90364301
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Spica
+stars:
+  - name: Spica A
+    description: ''
+    tags: []
+    radius: 7.47
+    temperature: 25300
+    solarMass: 11.43
+    age: 28833158975
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 284
+      semiMajorAxis: 89.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Spica
+  - name: Spica B
+    description: ''
+    tags: []
+    radius: 7.47
+    temperature: 25300
+    solarMass: 11.43
+    age: 28833158975
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 464
+      semiMajorAxis: 89.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Spica
+planets:
+  - name: Spica 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 494
+      age: 320083010
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.010608131784876712
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 216
+    satellite:
+      semiMajorAxis: 2402711651
+      eccentricity: 0.01
+      inclination: 1.09
+      orbitalArc: 109
+      axialTilt: 19.49
+      parentId: Spica
+      showOrbit: true
+    satellites: []
+  - name: Spica 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 264
+      age: 106851985
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.01630219502127228
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 391
+    satellite:
+      semiMajorAxis: 4522454543.666665
+      eccentricity: 0.01
+      inclination: 0.85
+      orbitalArc: 29
+      axialTilt: 34.95
+      parentId: Spica
+      showOrbit: true
+    satellites: []
+  - name: Spica 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 293
+      age: 136862440
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.021669998124748978
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 240
+    satellite:
+      semiMajorAxis: 5443755954.666666
+      eccentricity: 0.01
+      inclination: 0.86
+      orbitalArc: 349
+      axialTilt: 10.24
+      parentId: Spica
+      showOrbit: true
+    satellites: []
+  - name: Spica 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7334
+      age: 6680927107
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0061922172966162245
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 2658303087
+    temperature: 299
+    satellite:
+      semiMajorAxis: 9411612463.444445
+      eccentricity: 0.02
+      inclination: 1.1
+      orbitalArc: 123
+      axialTilt: 11.67
+      parentId: Spica
+      showOrbit: true
+    satellites: []
+  - name: Spica 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3621
+      age: 6254369322
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.008637176286998803
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 47971
+    temperature: 170
+    satellite:
+      semiMajorAxis: 12687482394
+      eccentricity: 0.01
+      inclination: 0.03
+      orbitalArc: 265
+      axialTilt: 12.32
+      parentId: Spica
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

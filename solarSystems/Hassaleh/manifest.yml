@@ -1,0 +1,80 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Hassaleh
+description: A solar system named Hassaleh
+position:
+  x: -207633368.9065423
+  'y': -140990594.65495688
+  z: 58564843.648056686
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Hassaleh
+stars:
+  - name: Hassaleh A
+    description: ''
+    tags: []
+    radius: 126
+    temperature: 4059
+    solarMass: 7.1
+    age: 95018974218
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 288
+      semiMajorAxis: 1512
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Hassaleh
+  - name: Hassaleh B
+    description: ''
+    tags: []
+    radius: 126
+    temperature: 4059
+    solarMass: 7.1
+    age: 95018974218
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 468
+      semiMajorAxis: 1512
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Hassaleh
+planets:
+  - name: Hassaleh 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 37990
+      age: 4924941926
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.20453462993133223
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 248
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 1.64
+      orbitalArc: 170
+      axialTilt: 13.71
+      parentId: Hassaleh
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

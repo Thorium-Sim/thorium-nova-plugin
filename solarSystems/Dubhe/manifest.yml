@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Dubhe
+description: A solar system named Dubhe
+position:
+  x: -7442795.471926421
+  'y': -56988088.12235291
+  z: -29701131.419668358
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Dubhe
+stars:
+  - name: Dubhe A
+    description: ''
+    tags: []
+    radius: 27.33
+    temperature: 4810
+    solarMass: 3.7
+    age: 533717495776
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 86
+      semiMajorAxis: 327.96
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Dubhe
+  - name: Dubhe B
+    description: ''
+    tags: []
+    radius: 27.33
+    temperature: 4810
+    solarMass: 3.7
+    age: 533717495776
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 266
+      semiMajorAxis: 327.96
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Dubhe
+planets:
+  - name: Dubhe 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 187
+      age: 669681880
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.002259793727451432
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 263
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 0.72
+      orbitalArc: 63
+      axialTilt: 12.57
+      parentId: Dubhe
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

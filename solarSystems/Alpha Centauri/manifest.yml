@@ -1,0 +1,379 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alpha Centauri
+description: A solar system named Alpha Centauri
+position:
+  x: 718537.1723448613
+  'y': 2007028.120336072
+  z: -859297.8491430928
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alpha Centauri
+stars:
+  - name: Rigil Kentaurus
+    description: ''
+    tags: []
+    radius: 1.21
+    temperature: 5804
+    solarMass: 1.078
+    age: 37420336590646
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 20
+      semiMajorAxis: 14.52
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Rigil Kentaurus
+  - name: Proxima Centauri
+    description: ''
+    tags: []
+    radius: 0.1542
+    temperature: 2992
+    solarMass: 0.1221
+    age: 3695471388551935
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 167
+      semiMajorAxis: 600.8504
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alpha Centauri
+  - name: Toliman
+    description: ''
+    tags: []
+    radius: 0.8591
+    temperature: 5207
+    solarMass: 0.9092
+    age: 96647575261553
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 237
+      semiMajorAxis: 10.3092
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alpha Centauri
+planets:
+  - name: Alpha Centauri 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5088
+      age: 9670846881
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.5
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 5040935580
+    temperature: 292
+    satellite:
+      semiMajorAxis: 79019850
+      eccentricity: 0.01
+      inclination: 0.52
+      orbitalArc: 82
+      axialTilt: 27.51
+      parentId: Toliman
+      showOrbit: true
+    satellites:
+      - name: Alpha Centauri 2a
+        description: ''
+        tags: []
+        isPlanet:
+          age: 1091303575.46852
+          classification: F
+          radius: 533.9135401753961
+          terranMass: 0.41247
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          ringMapAsset: null
+        satellite:
+          orbitalArc: 323.59587212177877
+          semiMajorAxis: 213493.49324092647
+          showOrbit: true
+          parentId: Alpha Centauri 2
+          axialTilt: 5.44
+          eccentricity: 0.01
+          inclination: 1.31
+        population: 0
+        temperature: 601.71081
+        satellites: []
+      - name: Alpha Centauri 2b
+        description: ''
+        tags: []
+        isPlanet:
+          age: 3561539894.38866
+          classification: G
+          radius: 697.1715306942353
+          terranMass: 0.88445
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          ringMapAsset: null
+        satellite:
+          orbitalArc: 119.45083421695176
+          semiMajorAxis: 296040.820144494
+          showOrbit: true
+          parentId: Alpha Centauri 2
+          axialTilt: 19.25
+          eccentricity: 0
+          inclination: 1.35
+        population: 0
+        temperature: 442.78064
+        satellites: []
+  - name: Alpha Centauri 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 297
+      age: 722764076
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.2299997774679856
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 397
+    satellite:
+      semiMajorAxis: 60990817.99999991
+      eccentricity: 0.01
+      inclination: 1.37
+      orbitalArc: 77
+      axialTilt: 16.87
+      parentId: Rigil Kentaurus
+      showOrbit: true
+    satellites:
+      - name: Alpha Centauri 1a
+        description: ''
+        tags: []
+        isPlanet:
+          age: 543731790.06956
+          classification: D
+          radius: 59.5731922074011
+          terranMass: 0.10444
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          ringMapAsset: null
+        satellite:
+          orbitalArc: 178.42920311791218
+          semiMajorAxis: 16539.028590297454
+          showOrbit: true
+          parentId: Alpha Centauri 1
+          axialTilt: 10.18
+          eccentricity: 0.01
+          inclination: 1.71
+        population: 0
+        temperature: 367.92559
+        satellites: []
+  - name: Alpha Centauri 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3594
+      age: 7343458523
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.10000006723950375
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 28223
+    temperature: 122
+    satellite:
+      semiMajorAxis: 333209899.99999976
+      eccentricity: 0
+      inclination: 1.32
+      orbitalArc: 112
+      axialTilt: 27.03
+      parentId: Rigil Kentaurus
+      showOrbit: true
+    satellites:
+      - name: Alpha Centauri 3b
+        description: ''
+        tags: []
+        isPlanet:
+          age: 9116186104.12157
+          classification: K
+          radius: 605.6689839229114
+          terranMass: 1.35944
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+        satellite:
+          orbitalArc: 142.37658595889582
+          semiMajorAxis: 203559.71014846588
+          showOrbit: true
+          parentId: Alpha Centauri 3
+          axialTilt: 36.42
+          eccentricity: 0.01
+          inclination: 1.23
+        population: 4704.37347
+        temperature: 285.04671
+        satellites: []
+      - name: Alpha Centauri 3c
+        description: ''
+        tags: []
+        isPlanet:
+          age: 290292060.74361
+          classification: D
+          radius: 713.1180639369513
+          terranMass: 0.08206
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          ringMapAsset: null
+        satellite:
+          orbitalArc: 320.5229102870987
+          semiMajorAxis: 227910.36494554684
+          showOrbit: true
+          parentId: Alpha Centauri 3
+          axialTilt: 30.97
+          eccentricity: 0.01
+          inclination: 0.77
+        population: 0
+        temperature: 197.0257
+        satellites: []
+      - name: Alpha Centauri 3a
+        description: ''
+        tags: []
+        isPlanet:
+          age: 6689416254.72655
+          classification: B
+          radius: 281.7487196297489
+          terranMass: 0.11921
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          ringMapAsset: null
+        satellite:
+          orbitalArc: 205.85144925602478
+          semiMajorAxis: 121254.47695970262
+          showOrbit: true
+          parentId: Alpha Centauri 3
+          axialTilt: 14.44
+          eccentricity: 0.01
+          inclination: 0.52
+        population: 0
+        temperature: 327.94273
+        satellites: []
+  - name: Alpha Centauri 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 63480
+      age: 7285581977
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 50
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 318
+    satellite:
+      semiMajorAxis: 1476868348.3333328
+      eccentricity: 0.01
+      inclination: 0.84
+      orbitalArc: 258
+      axialTilt: 37.29
+      parentId: Rigil Kentaurus
+      showOrbit: true
+  - name: Alpha Centauri 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2548
+      age: 12650187
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.8000003096650875
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1732
+    satellite:
+      semiMajorAxis: 2361602047
+      eccentricity: 0.01
+      inclination: 1.6
+      orbitalArc: 35
+      axialTilt: 18.78
+      parentId: Rigil Kentaurus
+      showOrbit: true
+    satellites:
+      - name: Alpha Centauri 5a
+        description: ''
+        tags: []
+        isPlanet:
+          age: 4841715680.00219
+          classification: O
+          radius: 537.1462059519512
+          terranMass: 0.9388
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        satellite:
+          orbitalArc: 219.42319766001364
+          semiMajorAxis: 265222.36015792197
+          showOrbit: true
+          parentId: Alpha Centauri 5
+          axialTilt: 11.59
+          eccentricity: 0.01
+          inclination: 0.26
+        population: 14137399.95801
+        temperature: 302.96738
+        satellites: []
+commSatellite: null
+assets: {}

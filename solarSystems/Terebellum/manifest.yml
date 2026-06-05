@@ -1,0 +1,157 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Terebellum
+description: A solar system named Terebellum
+position:
+  x: 31519506.18678996
+  'y': 17803789.0865985
+  z: 17442676.369272046
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Terebellum
+stars:
+  - name: Terebellum A
+    description: ''
+    tags: []
+    radius: 2.87
+    temperature: 5499
+    solarMass: 1.52
+    age: 11638960658106
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 307
+      semiMajorAxis: 34.44
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Terebellum
+  - name: Terebellum B
+    description: ''
+    tags: []
+    radius: 2.87
+    temperature: 5499
+    solarMass: 1.52
+    age: 11638960658106
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 487
+      semiMajorAxis: 34.44
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Terebellum
+planets:
+  - name: Terebellum 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4587
+      age: 8111858014
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.014502806985848044
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 792
+    satellite:
+      semiMajorAxis: 256886331
+      eccentricity: 0.02
+      inclination: 0.75
+      orbitalArc: 342
+      axialTilt: 36.52
+      parentId: Terebellum
+      showOrbit: true
+    satellites:
+      - name: Terebellum 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 786.6313818916169
+          age: 404428151
+          ringMapAsset: null
+          terranMass: 0.30000010363000695
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 52
+        satellite:
+          semiMajorAxis: 263758.3404291273
+          eccentricity: 0.01
+          inclination: 0.08
+          orbitalArc: 350
+          axialTilt: 23.14
+          parentId: Terebellum 1
+          showOrbit: true
+        satellites: []
+      - name: Terebellum 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 915.8173860682564
+          age: 4203328873
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 126390
+        temperature: 268
+        satellite:
+          semiMajorAxis: 315150.4961563316
+          eccentricity: 0.01
+          inclination: 1.52
+          orbitalArc: 312
+          axialTilt: 14.29
+          parentId: Terebellum 1
+          showOrbit: true
+        satellites: []
+      - name: Terebellum 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 898.4995798377901
+          age: 3298176145
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 177858
+        temperature: 259
+        satellite:
+          semiMajorAxis: 409715.8084060323
+          eccentricity: 0.01
+          inclination: 1.1
+          orbitalArc: 6
+          axialTilt: 36.24
+          parentId: Terebellum 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

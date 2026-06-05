@@ -1,0 +1,464 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Zibal
+description: A solar system named Zibal
+position:
+  x: -43120653.975534044
+  'y': 8870776.075180018
+  z: 37539165.99907721
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Zibal
+stars:
+  - name: Zibal A
+    description: ''
+    tags: []
+    radius: 1.97
+    temperature: 7575
+    solarMass: 1.85
+    age: 8349837274360
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 28
+      semiMajorAxis: 23.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zibal
+  - name: Zibal B
+    description: ''
+    tags: []
+    radius: 1.97
+    temperature: 7575
+    solarMass: 1.85
+    age: 8349837274360
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 208
+      semiMajorAxis: 23.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zibal
+planets:
+  - name: Zibal 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 283
+      age: 209047589
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.005218065775958788
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 208
+    satellite:
+      semiMajorAxis: 281048088.00000066
+      eccentricity: 0.02
+      inclination: 0.43
+      orbitalArc: 189
+      axialTilt: 15.29
+      parentId: Zibal
+      showOrbit: true
+    satellites: []
+  - name: Zibal 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4903
+      age: 4448519617
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0006699208725611713
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 45131
+    temperature: 167
+    satellite:
+      semiMajorAxis: 519814117.0000057
+      eccentricity: 0.01
+      inclination: 0.71
+      orbitalArc: 247
+      axialTilt: 2.91
+      parentId: Zibal
+      showOrbit: true
+    satellites:
+      - name: Zibal 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1104.2544548401154
+          age: 1483221125
+          ringMapAsset: null
+          terranMass: 0.5000000223300723
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 997
+        satellite:
+          semiMajorAxis: 304774.2295358718
+          eccentricity: 0.02
+          inclination: 0.39
+          orbitalArc: 75
+          axialTilt: 32.45
+          parentId: Zibal 2
+          showOrbit: true
+        satellites: []
+  - name: Zibal 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5098
+      age: 7971057088
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0030448382919525813
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 179842
+    temperature: 263
+    satellite:
+      semiMajorAxis: 1412762849.0000134
+      eccentricity: 0.01
+      inclination: 1.12
+      orbitalArc: 112
+      axialTilt: 23.14
+      parentId: Zibal
+      showOrbit: true
+    satellites:
+      - name: Zibal 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 505.2423354311246
+          age: 56238403
+          ringMapAsset: null
+          terranMass: 1.2699999254697503
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 231
+        satellite:
+          semiMajorAxis: 176906.36254266536
+          eccentricity: 0.02
+          inclination: 1.89
+          orbitalArc: 268
+          axialTilt: 30.43
+          parentId: Zibal 3
+          showOrbit: true
+        satellites: []
+      - name: Zibal 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1126.3273933754367
+          age: 66552885
+          ringMapAsset: null
+          terranMass: 1.2099997984623274
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 229
+        satellite:
+          semiMajorAxis: 266749.31288319954
+          eccentricity: 0.01
+          inclination: 1.99
+          orbitalArc: 253
+          axialTilt: 14.44
+          parentId: Zibal 3
+          showOrbit: true
+        satellites: []
+      - name: Zibal 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 950.6613678532563
+          age: 6855712316
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 107210
+        temperature: 269
+        satellite:
+          semiMajorAxis: 368856.61072706344
+          eccentricity: 0.02
+          inclination: 0.02
+          orbitalArc: 167
+          axialTilt: 11.92
+          parentId: Zibal 3
+          showOrbit: true
+        satellites: []
+  - name: Zibal 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 54377
+      age: 9544175434
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.047212553900250365
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 142
+    satellite:
+      semiMajorAxis: 1976837150.3333912
+      eccentricity: 0
+      inclination: 0.54
+      orbitalArc: 242
+      axialTilt: 39.16
+      parentId: Zibal
+      showOrbit: true
+    satellites: []
+  - name: Zibal 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 30315
+      age: 3285131215
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.30159258396169
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 321
+    satellite:
+      semiMajorAxis: 2410101363.2224374
+      eccentricity: 0.01
+      inclination: 1.16
+      orbitalArc: 286
+      axialTilt: 9.59
+      parentId: Zibal
+      showOrbit: true
+    satellites:
+      - name: Zibal 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1777.2543358774867
+          age: 7186131016
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 2.300000139630341
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 41437
+        temperature: 150
+        satellite:
+          semiMajorAxis: 595145.7514322037
+          eccentricity: 0.01
+          inclination: 1.69
+          orbitalArc: 248
+          axialTilt: 24.45
+          parentId: Zibal 5
+          showOrbit: true
+        satellites: []
+      - name: Zibal 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 2666.986867538825
+          age: 680405619
+          ringMapAsset: null
+          terranMass: 0.9000001746218323
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 49
+        satellite:
+          semiMajorAxis: 1154805.3136443114
+          eccentricity: 0.02
+          inclination: 1.63
+          orbitalArc: 335
+          axialTilt: 20.52
+          parentId: Zibal 5
+          showOrbit: true
+        satellites: []
+  - name: Zibal 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3400
+      age: 882117183
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0032889951705222724
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 39
+    satellite:
+      semiMajorAxis: 2996363783.704704
+      eccentricity: 0.01
+      inclination: 1.96
+      orbitalArc: 187
+      axialTilt: 29.3
+      parentId: Zibal
+      showOrbit: true
+    satellites:
+      - name: Zibal 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 200.6560076052919
+          age: 596209582
+          ringMapAsset: null
+          terranMass: 0.03999997865955129
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 174
+        satellite:
+          semiMajorAxis: 162075.62061013596
+          eccentricity: 0.02
+          inclination: 0.96
+          orbitalArc: 120
+          axialTilt: 0.75
+          parentId: Zibal 6
+          showOrbit: true
+        satellites: []
+      - name: Zibal 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 621.766891216805
+          age: 432778647
+          ringMapAsset: null
+          terranMass: 1.300000115117764
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1245
+        satellite:
+          semiMajorAxis: 244354.38824820437
+          eccentricity: 0.02
+          inclination: 0.57
+          orbitalArc: 97
+          axialTilt: 1.44
+          parentId: Zibal 6
+          showOrbit: true
+        satellites: []
+  - name: Zibal 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1189
+      age: 299686878
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0008232911716507606
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 37
+    satellite:
+      semiMajorAxis: 3379983164
+      eccentricity: 0.02
+      inclination: 1.69
+      orbitalArc: 68
+      axialTilt: 16.53
+      parentId: Zibal
+      showOrbit: true
+    satellites:
+      - name: Zibal 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 272.6157663974599
+          age: 879369327
+          ringMapAsset: null
+          terranMass: 1.1499997763292005
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 369
+        satellite:
+          semiMajorAxis: 108773.6907925865
+          eccentricity: 0.01
+          inclination: 1.63
+          orbitalArc: 209
+          axialTilt: 25.61
+          parentId: Zibal 7
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

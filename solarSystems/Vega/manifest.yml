@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Vega
+description: A solar system named Vega
+position:
+  x: 10133200.427775526
+  'y': -8249473.986018334
+  z: 1647525.2659705272
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Vega
+stars:
+  - name: Vega A
+    description: ''
+    tags: []
+    radius: 2.726
+    temperature: 10070
+    solarMass: 2.15
+    age: 1622699712245
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 206
+      semiMajorAxis: 32.712
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Vega
+  - name: Vega B
+    description: ''
+    tags: []
+    radius: 2.726
+    temperature: 10070
+    solarMass: 2.15
+    age: 1622699712245
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 386
+      semiMajorAxis: 32.712
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Vega
+planets: []
+commSatellite: null
+assets: {}

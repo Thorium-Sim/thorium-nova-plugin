@@ -1,0 +1,128 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Castor
+description: A solar system named Castor
+position:
+  x: -20862912.786318526
+  'y': -14170148.634876918
+  z: -9136223.936482865
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Castor
+stars:
+  - name: Castor A
+    description: ''
+    tags: []
+    radius: 2.089
+    temperature: 10286
+    solarMass: 2.371
+    age: 2799225453285
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 161
+      semiMajorAxis: 25.067999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Castor
+  - name: Castor B
+    description: ''
+    tags: []
+    radius: 2.089
+    temperature: 10286
+    solarMass: 2.371
+    age: 2799225453285
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 341
+      semiMajorAxis: 25.067999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Castor
+planets:
+  - name: Castor 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 400
+      age: 963463222
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.00895033070865996
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 248
+    satellite:
+      semiMajorAxis: 461072745.6666667
+      eccentricity: 0
+      inclination: 1.72
+      orbitalArc: 141
+      axialTilt: 25.26
+      parentId: Castor
+      showOrbit: true
+    satellites: []
+  - name: Castor 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7017
+      age: 4257009588
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.004898567263129765
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 353216283
+    temperature: 298
+    satellite:
+      semiMajorAxis: 702141169.7777781
+      eccentricity: 0.01
+      inclination: 0.14
+      orbitalArc: 261
+      axialTilt: 32.64
+      parentId: Castor
+      showOrbit: true
+    satellites: []
+  - name: Castor 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 238
+      age: 738957191
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.001087259667068961
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 346
+    satellite:
+      semiMajorAxis: 925673855
+      eccentricity: 0.02
+      inclination: 1.24
+      orbitalArc: 191
+      axialTilt: 16.3
+      parentId: Castor
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

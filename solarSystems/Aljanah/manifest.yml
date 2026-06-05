@@ -1,0 +1,102 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Aljanah
+description: A solar system named Aljanah
+position:
+  x: 23730930.368911434
+  'y': -21365563.48435095
+  z: 21034403.730919264
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Aljanah
+stars:
+  - name: Aljanah A
+    description: ''
+    tags: []
+    radius: 11.13
+    temperature: 4699
+    solarMass: 1.103
+    age: 1053252959532
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 100
+      semiMajorAxis: 133.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aljanah
+  - name: Aljanah B
+    description: ''
+    tags: []
+    radius: 11.13
+    temperature: 4699
+    solarMass: 1.103
+    age: 1053252959532
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 280
+      semiMajorAxis: 133.56
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aljanah
+planets:
+  - name: Aljanah 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 250
+      age: 601159709
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.008645411817139863
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 255
+    satellite:
+      semiMajorAxis: 520523777
+      eccentricity: 0.02
+      inclination: 0.29
+      orbitalArc: 170
+      axialTilt: 3.39
+      parentId: Aljanah
+      showOrbit: true
+    satellites: []
+  - name: Aljanah 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2490
+      age: 369679199
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.004216454123773057
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 54
+    satellite:
+      semiMajorAxis: 1463905881
+      eccentricity: 0
+      inclination: 1.35
+      orbitalArc: 358
+      axialTilt: 13.22
+      parentId: Aljanah
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

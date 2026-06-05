@@ -1,0 +1,258 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alcor
+description: A solar system named Alcor
+position:
+  x: 8958349.501577526
+  'y': -35194544.14742948
+  z: -22969393.40537419
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alcor
+stars:
+  - name: Alcor A
+    description: ''
+    tags: []
+    radius: 2.002
+    temperature: 7556
+    solarMass: 1.842
+    age: 8131355843339
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 215
+      semiMajorAxis: 24.023999999999997
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alcor
+  - name: Alcor B
+    description: ''
+    tags: []
+    radius: 2.002
+    temperature: 7556
+    solarMass: 1.842
+    age: 8131355843339
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 395
+      semiMajorAxis: 24.023999999999997
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alcor
+planets:
+  - name: Alcor 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 187
+      age: 874860756
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.021679077678758065
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 224
+    satellite:
+      semiMajorAxis: 176363523.33333218
+      eccentricity: 0
+      inclination: 0.38
+      orbitalArc: 21
+      axialTilt: 27.71
+      parentId: Alcor
+      showOrbit: true
+    satellites: []
+  - name: Alcor 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5756
+      age: 3004566273
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.001010791478564681
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 148707
+    temperature: 268
+    satellite:
+      semiMajorAxis: 476819230.666662
+      eccentricity: 0.01
+      inclination: 0.36
+      orbitalArc: 19
+      axialTilt: 0.56
+      parentId: Alcor
+      showOrbit: true
+    satellites: []
+  - name: Alcor 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1408
+      age: 551200158
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.00297950587786209
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 39
+    satellite:
+      semiMajorAxis: 1063898451.7777705
+      eccentricity: 0.01
+      inclination: 0.22
+      orbitalArc: 300
+      axialTilt: 27.14
+      parentId: Alcor
+      showOrbit: true
+    satellites: []
+  - name: Alcor 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 375
+      age: 938056039
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0028229605367740686
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 157
+    satellite:
+      semiMajorAxis: 1656465410.5184934
+      eccentricity: 0
+      inclination: 0.61
+      orbitalArc: 69
+      axialTilt: 32.02
+      parentId: Alcor
+      showOrbit: true
+    satellites: []
+  - name: Alcor 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 43622
+      age: 4550757324
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.05035630224630151
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 300
+    satellite:
+      semiMajorAxis: 2326420352
+      eccentricity: 0.02
+      inclination: 0.34
+      orbitalArc: 325
+      axialTilt: 33.44
+      parentId: Alcor
+      showOrbit: true
+    satellites:
+      - name: Alcor 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 2362.2310516871817
+          age: 4635000079
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 181141
+        temperature: 269
+        satellite:
+          semiMajorAxis: 934066.4537627595
+          eccentricity: 0.02
+          inclination: 0.79
+          orbitalArc: 96
+          axialTilt: 22.6
+          parentId: Alcor 5
+          showOrbit: true
+        satellites: []
+      - name: Alcor 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5939.7348408212965
+          age: 3796619292
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 98040
+        temperature: 264
+        satellite:
+          semiMajorAxis: 2941818.2500789715
+          eccentricity: 0.01
+          inclination: 1.33
+          orbitalArc: 335
+          axialTilt: 16.91
+          parentId: Alcor 5
+          showOrbit: true
+        satellites: []
+      - name: Alcor 5c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 8874.521039255715
+          age: 7706500591
+          ringMapAsset: null
+          terranMass: 1.3000005042832243
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 184
+        satellite:
+          semiMajorAxis: 4091154.1990968846
+          eccentricity: 0.01
+          inclination: 0.07
+          orbitalArc: 237
+          axialTilt: 37.51
+          parentId: Alcor 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

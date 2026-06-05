@@ -1,0 +1,130 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Fulu
+description: A solar system named Fulu
+position:
+  x: -29369391.933763325
+  'y': -250722644.72193548
+  z: 180476764.0169757
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Fulu
+stars:
+  - name: Fulu A
+    description: ''
+    tags: []
+    radius: 6.1
+    temperature: 21500
+    solarMass: 8.96
+    age: 64992581047
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 11
+      semiMajorAxis: 73.19999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Fulu
+  - name: Fulu B
+    description: ''
+    tags: []
+    radius: 6.1
+    temperature: 21500
+    solarMass: 8.96
+    age: 64992581047
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 191
+      semiMajorAxis: 73.19999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Fulu
+planets:
+  - name: Fulu 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5641
+      age: 3099585678
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.005842948756959044
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 511
+    satellite:
+      semiMajorAxis: 5377319709
+      eccentricity: 0.01
+      inclination: 1.88
+      orbitalArc: 261
+      axialTilt: 24.25
+      parentId: Fulu
+      showOrbit: true
+    satellites:
+      - name: Fulu 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 560.8388114765959
+          age: 8710230466
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+          classification: 'N'
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 295599035
+        temperature: 615
+        satellite:
+          semiMajorAxis: 140865.64142585755
+          eccentricity: 0
+          inclination: 1.97
+          orbitalArc: 222
+          axialTilt: 3.82
+          parentId: Fulu 1
+          showOrbit: true
+        satellites: []
+      - name: Fulu 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 873.1258979409877
+          age: 3464222647
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 453182024
+        temperature: 300
+        satellite:
+          semiMajorAxis: 233124.6147502437
+          eccentricity: 0.01
+          inclination: 0.07
+          orbitalArc: 54
+          axialTilt: 14.28
+          parentId: Fulu 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

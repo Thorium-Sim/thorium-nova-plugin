@@ -1,0 +1,442 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Nekkar
+description: A solar system named Nekkar
+position:
+  x: 64273119.38228746
+  'y': -76684318.89575893
+  z: -63190771.80541298
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Nekkar
+stars:
+  - name: Nekkar A
+    description: ''
+    tags: []
+    radius: 18.44
+    temperature: 4997
+    solarMass: 3.23
+    age: 878643247104
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 348
+      semiMajorAxis: 221.28000000000003
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Nekkar
+  - name: Nekkar B
+    description: ''
+    tags: []
+    radius: 18.44
+    temperature: 4997
+    solarMass: 3.23
+    age: 878643247104
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 528
+      semiMajorAxis: 221.28000000000003
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Nekkar
+planets:
+  - name: Nekkar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5287
+      age: 4144371191
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.023000719766249116
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 165546004
+    temperature: 291
+    satellite:
+      semiMajorAxis: 1037824178.6666666
+      eccentricity: 0
+      inclination: 0.57
+      orbitalArc: 19
+      axialTilt: 33.23
+      parentId: Nekkar
+      showOrbit: true
+    satellites: []
+  - name: Nekkar 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1651
+      age: 398082806
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0014260119694977742
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 46
+    satellite:
+      semiMajorAxis: 1914524313.2222223
+      eccentricity: 0.01
+      inclination: 0.26
+      orbitalArc: 2
+      axialTilt: 36.66
+      parentId: Nekkar
+      showOrbit: true
+    satellites: []
+  - name: Nekkar 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5683
+      age: 3641089506
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.01145034011894612
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      classification: G
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 0
+    temperature: 413
+    satellite:
+      semiMajorAxis: 2218981317.8888903
+      eccentricity: 0.02
+      inclination: 0.7
+      orbitalArc: 77
+      axialTilt: 38.43
+      parentId: Nekkar
+      showOrbit: true
+    satellites:
+      - name: Nekkar 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1111.0258602143676
+          age: 8967371882
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 162276
+        temperature: 263
+        satellite:
+          semiMajorAxis: 385525.97349438554
+          eccentricity: 0.02
+          inclination: 1.91
+          orbitalArc: 354
+          axialTilt: 11.41
+          parentId: Nekkar 3
+          showOrbit: true
+        satellites: []
+  - name: Nekkar 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 387
+      age: 484153320
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.009123875634148234
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 266
+    satellite:
+      semiMajorAxis: 2487179133.9259305
+      eccentricity: 0
+      inclination: 0.15
+      orbitalArc: 307
+      axialTilt: 3.97
+      parentId: Nekkar
+      showOrbit: true
+    satellites: []
+  - name: Nekkar 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4885
+      age: 8938840579
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0008358055984296574
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 40356
+    temperature: 292
+    satellite:
+      semiMajorAxis: 2844577046.8765497
+      eccentricity: 0.02
+      inclination: 0.25
+      orbitalArc: 86
+      axialTilt: 20.36
+      parentId: Nekkar
+      showOrbit: true
+    satellites:
+      - name: Nekkar 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 490.83646080179295
+          age: 5105502567
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 120648
+        temperature: 260
+        satellite:
+          semiMajorAxis: 193723.1098653168
+          eccentricity: 0
+          inclination: 1.84
+          orbitalArc: 99
+          axialTilt: 19.69
+          parentId: Nekkar 5
+          showOrbit: true
+        satellites: []
+      - name: Nekkar 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1094.663689535324
+          age: 9114710642
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.10000003140348
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 2712
+        temperature: 272
+        satellite:
+          semiMajorAxis: 263486.98142622365
+          eccentricity: 0.02
+          inclination: 1.43
+          orbitalArc: 13
+          axialTilt: 11.4
+          parentId: Nekkar 5
+          showOrbit: true
+        satellites: []
+      - name: Nekkar 5c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 800.923521845642
+          age: 6704079820
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 184306
+        temperature: 257
+        satellite:
+          semiMajorAxis: 337188.8026970153
+          eccentricity: 0
+          inclination: 0.9
+          orbitalArc: 312
+          axialTilt: 36.38
+          parentId: Nekkar 5
+          showOrbit: true
+        satellites: []
+  - name: Nekkar 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3453
+      age: 8249629350
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.043498438238502586
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 7325
+    temperature: 251
+    satellite:
+      semiMajorAxis: 3196950513.045281
+      eccentricity: 0.01
+      inclination: 0.11
+      orbitalArc: 93
+      axialTilt: 5.71
+      parentId: Nekkar
+      showOrbit: true
+    satellites:
+      - name: Nekkar 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 477.02151184782184
+          age: 4728517339
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.10000011867658457
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 8197
+        temperature: 270
+        satellite:
+          semiMajorAxis: 163141.35705195507
+          eccentricity: 0.01
+          inclination: 1.24
+          orbitalArc: 188
+          axialTilt: 19.71
+          parentId: Nekkar 6
+          showOrbit: true
+        satellites: []
+  - name: Nekkar 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4175
+      age: 1612497456
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.016957786714860493
+      textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1522
+    satellite:
+      semiMajorAxis: 3607921583
+      eccentricity: 0
+      inclination: 0.15
+      orbitalArc: 85
+      axialTilt: 9.24
+      parentId: Nekkar
+      showOrbit: true
+    satellites:
+      - name: Nekkar 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 542.6392728105162
+          age: 1010043520
+          ringMapAsset: null
+          terranMass: 1.100000008931671
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 888
+        satellite:
+          semiMajorAxis: 122280.12119331563
+          eccentricity: 0.01
+          inclination: 0.4
+          orbitalArc: 253
+          axialTilt: 30.29
+          parentId: Nekkar 7
+          showOrbit: true
+        satellites: []
+      - name: Nekkar 7b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 486.6215348652032
+          age: 7266437474
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 161643
+        temperature: 263
+        satellite:
+          semiMajorAxis: 259664.28616462322
+          eccentricity: 0.01
+          inclination: 0.13
+          orbitalArc: 281
+          axialTilt: 24.2
+          parentId: Nekkar 7
+          showOrbit: true
+        satellites: []
+      - name: Nekkar 7c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 914.9247449645017
+          age: 9726100927
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 172858
+        temperature: 255
+        satellite:
+          semiMajorAxis: 349501.25257643964
+          eccentricity: 0.01
+          inclination: 1.17
+          orbitalArc: 31
+          axialTilt: 14.19
+          parentId: Nekkar 7
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

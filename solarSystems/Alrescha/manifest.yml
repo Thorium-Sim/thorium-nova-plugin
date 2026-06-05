@@ -1,0 +1,498 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alrescha
+description: A solar system named Alrescha
+position:
+  x: -40275834.25560927
+  'y': -3829437.643296935
+  z: 68342685.26149957
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alrescha
+stars:
+  - name: Alrescha A
+    description: ''
+    tags: []
+    radius: 2.45
+    temperature: 10233
+    solarMass: 2.55
+    age: 2234423033550
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 28
+      semiMajorAxis: 29.400000000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alrescha
+  - name: Alrescha B
+    description: ''
+    tags: []
+    radius: 2.45
+    temperature: 10233
+    solarMass: 2.55
+    age: 2234423033550
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 208
+      semiMajorAxis: 29.400000000000002
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alrescha
+planets:
+  - name: Alrescha 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6478
+      age: 6053333311
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.008433700045786873
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 600
+    satellite:
+      semiMajorAxis: 81422445.00000033
+      eccentricity: 0.01
+      inclination: 0.07
+      orbitalArc: 145
+      axialTilt: 3.63
+      parentId: Alrescha
+      showOrbit: true
+    satellites:
+      - name: Alrescha 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 347.6955214667123
+          age: 274812034
+          ringMapAsset: null
+          terranMass: 0.9899997038237995
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 251
+        satellite:
+          semiMajorAxis: 132486.42114768212
+          eccentricity: 0.02
+          inclination: 1.69
+          orbitalArc: 3
+          axialTilt: 23.36
+          parentId: Alrescha 1
+          showOrbit: true
+        satellites: []
+      - name: Alrescha 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 713.9516719685523
+          age: 927705102
+          ringMapAsset: null
+          terranMass: 1.0999998764091028
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 386
+        satellite:
+          semiMajorAxis: 174940.91118768405
+          eccentricity: 0.02
+          inclination: 0.36
+          orbitalArc: 293
+          axialTilt: 12.23
+          parentId: Alrescha 1
+          showOrbit: true
+        satellites: []
+      - name: Alrescha 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 566.632985093848
+          age: 9031243004
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.9000001466127237
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 26640
+        temperature: 137
+        satellite:
+          semiMajorAxis: 251585.04538166852
+          eccentricity: 0
+          inclination: 0.19
+          orbitalArc: 294
+          axialTilt: 25.8
+          parentId: Alrescha 1
+          showOrbit: true
+        satellites: []
+  - name: Alrescha 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4829
+      age: 4519010553
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.03870184894982704
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 517
+    satellite:
+      semiMajorAxis: 187823766.3333411
+      eccentricity: 0.01
+      inclination: 1.78
+      orbitalArc: 279
+      axialTilt: 29.83
+      parentId: Alrescha
+      showOrbit: true
+    satellites:
+      - name: Alrescha 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 582.2542568335552
+          age: 41271146
+          ringMapAsset: null
+          terranMass: 0.8999999980353433
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 232
+        satellite:
+          semiMajorAxis: 284140.07733477495
+          eccentricity: 0
+          inclination: 1.49
+          orbitalArc: 252
+          axialTilt: 8.89
+          parentId: Alrescha 2
+          showOrbit: true
+        satellites: []
+  - name: Alrescha 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4784
+      age: 9895184890
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.009745529662309401
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 862
+    satellite:
+      semiMajorAxis: 437640953.44445485
+      eccentricity: 0.01
+      inclination: 0
+      orbitalArc: 309
+      axialTilt: 4.55
+      parentId: Alrescha
+      showOrbit: true
+    satellites: []
+  - name: Alrescha 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4903
+      age: 675528079
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0014579695882475105
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 37
+    satellite:
+      semiMajorAxis: 1126131983.407425
+      eccentricity: 0.01
+      inclination: 1.2
+      orbitalArc: 161
+      axialTilt: 26.39
+      parentId: Alrescha
+      showOrbit: true
+    satellites:
+      - name: Alrescha 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1225.2111655577462
+          age: 799946543
+          ringMapAsset: null
+          terranMass: 0.6099996974778856
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 307
+        satellite:
+          semiMajorAxis: 164333.4091511339
+          eccentricity: 0.01
+          inclination: 0.86
+          orbitalArc: 171
+          axialTilt: 8.5
+          parentId: Alrescha 4
+          showOrbit: true
+        satellites: []
+      - name: Alrescha 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1017.3758052265099
+          age: 547374698
+          ringMapAsset: null
+          terranMass: 1.1999996331671825
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 343
+        satellite:
+          semiMajorAxis: 442558.4752735318
+          eccentricity: 0.01
+          inclination: 1.28
+          orbitalArc: 153
+          axialTilt: 5.02
+          parentId: Alrescha 4
+          showOrbit: true
+        satellites: []
+  - name: Alrescha 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6935
+      age: 6227765570
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0262281862026379
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 438741117
+    temperature: 293
+    satellite:
+      semiMajorAxis: 2173274598.2099
+      eccentricity: 0.01
+      inclination: 1.84
+      orbitalArc: 152
+      axialTilt: 37.99
+      parentId: Alrescha
+      showOrbit: true
+    satellites:
+      - name: Alrescha 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 943.7112408346641
+          age: 6122994472
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 117504
+        temperature: 261
+        satellite:
+          semiMajorAxis: 458643.66304564674
+          eccentricity: 0.02
+          inclination: 0.46
+          orbitalArc: 340
+          axialTilt: 13.92
+          parentId: Alrescha 5
+          showOrbit: true
+        satellites: []
+  - name: Alrescha 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2469
+      age: 946091855
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0081705271253164
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 47
+    satellite:
+      semiMajorAxis: 2797392012.349832
+      eccentricity: 0.02
+      inclination: 1.03
+      orbitalArc: 139
+      axialTilt: 24.03
+      parentId: Alrescha
+      showOrbit: true
+    satellites: []
+  - name: Alrescha 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 52759
+      age: 8485025234
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.29428372948180975
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 263
+    satellite:
+      semiMajorAxis: 3967913610
+      eccentricity: 0.02
+      inclination: 0.77
+      orbitalArc: 129
+      axialTilt: 24.73
+      parentId: Alrescha
+      showOrbit: true
+    satellites:
+      - name: Alrescha 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 6730.624215632858
+          age: 6150865950
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 231408130
+        temperature: 290
+        satellite:
+          semiMajorAxis: 1574517.7061614832
+          eccentricity: 0.02
+          inclination: 2
+          orbitalArc: 142
+          axialTilt: 2.74
+          parentId: Alrescha 7
+          showOrbit: true
+        satellites: []
+      - name: Alrescha 7b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 11064.510346385387
+          age: 8493948501
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.10000004949242394
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 847
+        satellite:
+          semiMajorAxis: 2684595.155012014
+          eccentricity: 0.02
+          inclination: 0.5
+          orbitalArc: 274
+          axialTilt: 31.51
+          parentId: Alrescha 7
+          showOrbit: true
+        satellites: []
+      - name: Alrescha 7c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 11838.431460805932
+          age: 7273370561
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 156995
+        temperature: 264
+        satellite:
+          semiMajorAxis: 4013228.265213211
+          eccentricity: 0.02
+          inclination: 1.79
+          orbitalArc: 347
+          axialTilt: 14.15
+          parentId: Alrescha 7
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

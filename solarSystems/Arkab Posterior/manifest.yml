@@ -1,0 +1,451 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Arkab Posterior
+description: A solar system named Arkab Posterior
+position:
+  x: 46748949.6592605
+  'y': 49661467.91950316
+  z: 17762685.779061846
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Arkab Posterior
+stars:
+  - name: Arkab Posterior A
+    description: ''
+    tags: []
+    radius: 3.17
+    temperature: 7035
+    solarMass: 1.43
+    age: 3350660225949
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 197
+      semiMajorAxis: 38.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Arkab Posterior
+  - name: Arkab Posterior B
+    description: ''
+    tags: []
+    radius: 3.17
+    temperature: 7035
+    solarMass: 1.43
+    age: 3350660225949
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 377
+      semiMajorAxis: 38.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Arkab Posterior
+planets:
+  - name: Arkab Posterior 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7372
+      age: 9152476995
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.005052030188392854
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 235354243
+    temperature: 395
+    satellite:
+      semiMajorAxis: 438960886
+      eccentricity: 0.01
+      inclination: 1.47
+      orbitalArc: 208
+      axialTilt: 26.78
+      parentId: Arkab Posterior
+      showOrbit: true
+    satellites:
+      - name: Arkab Posterior 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 754.7649907606108
+          age: 6275891438
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.5000001109694633
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 25742
+        temperature: 231
+        satellite:
+          semiMajorAxis: 197748.42757928002
+          eccentricity: 0.01
+          inclination: 1.12
+          orbitalArc: 87
+          axialTilt: 34.13
+          parentId: Arkab Posterior 1
+          showOrbit: true
+        satellites: []
+  - name: Arkab Posterior 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 406
+      age: 266676469
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.003933941635419086
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 279
+    satellite:
+      semiMajorAxis: 635459054
+      eccentricity: 0
+      inclination: 0.88
+      orbitalArc: 253
+      axialTilt: 24.52
+      parentId: Arkab Posterior
+      showOrbit: true
+    satellites: []
+  - name: Arkab Posterior 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7463
+      age: 7778995736
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.005530264928944005
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 517426673
+    temperature: 575
+    satellite:
+      semiMajorAxis: 1589770434.3333323
+      eccentricity: 0
+      inclination: 1.07
+      orbitalArc: 86
+      axialTilt: 19.05
+      parentId: Arkab Posterior
+      showOrbit: true
+    satellites:
+      - name: Arkab Posterior 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1185.9444820465276
+          age: 7718855313
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 2.3000001112149446
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 736
+        satellite:
+          semiMajorAxis: 196443.33902050857
+          eccentricity: 0.01
+          inclination: 0.08
+          orbitalArc: 153
+          axialTilt: 5.32
+          parentId: Arkab Posterior 3
+          showOrbit: true
+        satellites: []
+      - name: Arkab Posterior 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1116.977047744656
+          age: 7194653064
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 91504
+        temperature: 261
+        satellite:
+          semiMajorAxis: 348496.83889633266
+          eccentricity: 0
+          inclination: 0.28
+          orbitalArc: 338
+          axialTilt: 22.5
+          parentId: Arkab Posterior 3
+          showOrbit: true
+        satellites: []
+  - name: Arkab Posterior 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 41222
+      age: 7247137927
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.9953300250753131
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 129
+    satellite:
+      semiMajorAxis: 2262818413.8888865
+      eccentricity: 0.01
+      inclination: 0.49
+      orbitalArc: 26
+      axialTilt: 7.38
+      parentId: Arkab Posterior
+      showOrbit: true
+    satellites:
+      - name: Arkab Posterior 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3111.218747084662
+          age: 4442956860
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 68755
+        temperature: 267
+        satellite:
+          semiMajorAxis: 2105565.644301708
+          eccentricity: 0
+          inclination: 1.34
+          orbitalArc: 299
+          axialTilt: 35.44
+          parentId: Arkab Posterior 4
+          showOrbit: true
+        satellites: []
+      - name: Arkab Posterior 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 8161.200600282079
+          age: 4198623386
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 63195
+        temperature: 265
+        satellite:
+          semiMajorAxis: 3207351.835910857
+          eccentricity: 0.01
+          inclination: 1.67
+          orbitalArc: 169
+          axialTilt: 38.35
+          parentId: Arkab Posterior 4
+          showOrbit: true
+        satellites: []
+  - name: Arkab Posterior 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 50359
+      age: 4974037271
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 1.6208512399661943
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 213
+    satellite:
+      semiMajorAxis: 3040335606.4814763
+      eccentricity: 0.01
+      inclination: 1.73
+      orbitalArc: 316
+      axialTilt: 24.01
+      parentId: Arkab Posterior
+      showOrbit: true
+    satellites:
+      - name: Arkab Posterior 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 8609.11688082243
+          age: 4976846111
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.3000000234528284
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 29901
+        temperature: 267
+        satellite:
+          semiMajorAxis: 2281574.768880073
+          eccentricity: 0.01
+          inclination: 1.88
+          orbitalArc: 21
+          axialTilt: 30.06
+          parentId: Arkab Posterior 5
+          showOrbit: true
+        satellites: []
+      - name: Arkab Posterior 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 9145.425941517386
+          age: 756852619
+          ringMapAsset: null
+          terranMass: 0.5000001063208387
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1355
+        satellite:
+          semiMajorAxis: 4572712.970758692
+          eccentricity: 0.02
+          inclination: 1.39
+          orbitalArc: 64
+          axialTilt: 21.33
+          parentId: Arkab Posterior 5
+          showOrbit: true
+        satellites: []
+  - name: Arkab Posterior 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 34718
+      age: 3128729382
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 0.18526022934477318
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 183
+    satellite:
+      semiMajorAxis: 3849747088
+      eccentricity: 0
+      inclination: 1.21
+      orbitalArc: 222
+      axialTilt: 17.2
+      parentId: Arkab Posterior
+      showOrbit: true
+    satellites:
+      - name: Arkab Posterior 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3680.3426726719
+          age: 198604760
+          ringMapAsset: null
+          terranMass: 1.1399997368911066
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 265
+        satellite:
+          semiMajorAxis: 997695.074408585
+          eccentricity: 0.01
+          inclination: 0.67
+          orbitalArc: 25
+          axialTilt: 23.87
+          parentId: Arkab Posterior 6
+          showOrbit: true
+        satellites: []
+      - name: Arkab Posterior 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3942.0778784014237
+          age: 6487471773
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.9000000695368109
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 712
+        satellite:
+          semiMajorAxis: 1742398.4222534292
+          eccentricity: 0.01
+          inclination: 1.86
+          orbitalArc: 61
+          axialTilt: 8.96
+          parentId: Arkab Posterior 6
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

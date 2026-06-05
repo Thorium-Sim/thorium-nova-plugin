@@ -1,0 +1,287 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Segin
+description: A solar system named Segin
+position:
+  x: -45783446.92716022
+  'y': -193271675.81586105
+  z: 83976767.83347063
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Segin
+stars:
+  - name: Segin A
+    description: ''
+    tags: []
+    radius: 6.1
+    temperature: 15174
+    solarMass: 9.2
+    age: 268965838087
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 168
+      semiMajorAxis: 73.19999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Segin
+  - name: Segin B
+    description: ''
+    tags: []
+    radius: 6.1
+    temperature: 15174
+    solarMass: 9.2
+    age: 268965838087
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 348
+      semiMajorAxis: 73.19999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Segin
+planets:
+  - name: Segin 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 51824
+      age: 9918810478
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.030968932426993025
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 308
+    satellite:
+      semiMajorAxis: 1769878648.9999995
+      eccentricity: 0.01
+      inclination: 0.24
+      orbitalArc: 183
+      axialTilt: 3.01
+      parentId: Segin
+      showOrbit: true
+    satellites: []
+  - name: Segin 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6710
+      age: 3715377124
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.009506722346881108
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 9773731655
+    temperature: 295
+    satellite:
+      semiMajorAxis: 2966719023.999999
+      eccentricity: 0.01
+      inclination: 1.9
+      orbitalArc: 290
+      axialTilt: 3.01
+      parentId: Segin
+      showOrbit: true
+    satellites:
+      - name: Segin 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 797.029841552612
+          age: 346669728
+          ringMapAsset: null
+          terranMass: 1.1899997730618914
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 214
+        satellite:
+          semiMajorAxis: 153484.55165131693
+          eccentricity: 0.02
+          inclination: 1.88
+          orbitalArc: 92
+          axialTilt: 28.2
+          parentId: Segin 2
+          showOrbit: true
+        satellites: []
+      - name: Segin 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1220.4551615985006
+          age: 4239976420
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 186724
+        temperature: 255
+        satellite:
+          semiMajorAxis: 410072.9342970962
+          eccentricity: 0.01
+          inclination: 0.61
+          orbitalArc: 151
+          axialTilt: 33
+          parentId: Segin 2
+          showOrbit: true
+        satellites: []
+  - name: Segin 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4345
+      age: 8515277808
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.018607353608716487
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 43370
+    temperature: 119
+    satellite:
+      semiMajorAxis: 3503151369.9999948
+      eccentricity: 0.01
+      inclination: 1.02
+      orbitalArc: 244
+      axialTilt: 2.56
+      parentId: Segin
+      showOrbit: true
+    satellites: []
+  - name: Segin 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 395
+      age: 353820178
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.005249226295573745
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 396
+    satellite:
+      semiMajorAxis: 3808573394.6666465
+      eccentricity: 0
+      inclination: 0.58
+      orbitalArc: 285
+      axialTilt: 17.92
+      parentId: Segin
+      showOrbit: true
+    satellites: []
+  - name: Segin 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6333
+      age: 9193491846
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.01595201101467293
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 157724
+    temperature: 255
+    satellite:
+      semiMajorAxis: 4310716688
+      eccentricity: 0.01
+      inclination: 0.66
+      orbitalArc: 152
+      axialTilt: 22.17
+      parentId: Segin
+      showOrbit: true
+    satellites:
+      - name: Segin 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1244.8233907165177
+          age: 477237527
+          ringMapAsset: null
+          terranMass: 0.7099996723087696
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 330
+        satellite:
+          semiMajorAxis: 255089.42908651137
+          eccentricity: 0.02
+          inclination: 0.12
+          orbitalArc: 245
+          axialTilt: 9.92
+          parentId: Segin 5
+          showOrbit: true
+        satellites: []
+      - name: Segin 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1497.40632446526
+          age: 8530810260
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 2.100000108013511
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 6606
+        temperature: 264
+        satellite:
+          semiMajorAxis: 474677.8048554874
+          eccentricity: 0.01
+          inclination: 1.72
+          orbitalArc: 59
+          axialTilt: 7.58
+          parentId: Segin 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,269 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Biham
+description: A solar system named Biham
+position:
+  x: 22175443.546430252
+  'y': -5224113.163869971
+  z: 42689434.96455025
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Biham
+stars:
+  - name: 'Biham '
+    description: ''
+    tags: []
+    radius: 3.623
+    temperature: 7872
+    solarMass: 2.09
+    age: 2391324761070
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 291
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Biham
+planets:
+  - name: Biham 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6794
+      age: 5321501727
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.001071278081175703
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 5201804067
+    temperature: 300
+    satellite:
+      semiMajorAxis: 507527016
+      eccentricity: 0
+      inclination: 1.26
+      orbitalArc: 319
+      axialTilt: 23.48
+      parentId: Biham
+      showOrbit: true
+    satellites: []
+  - name: Biham 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5943
+      age: 8323090416
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.004760384094496348
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 5669146479
+    temperature: 290
+    satellite:
+      semiMajorAxis: 778531234.6666654
+      eccentricity: 0.01
+      inclination: 1.5
+      orbitalArc: 278
+      axialTilt: 31.59
+      parentId: Biham
+      showOrbit: true
+    satellites:
+      - name: Biham 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 824.5384384930339
+          age: 4011021945
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 87348
+        temperature: 266
+        satellite:
+          semiMajorAxis: 186894.2229788569
+          eccentricity: 0
+          inclination: 1.68
+          orbitalArc: 265
+          axialTilt: 21.37
+          parentId: Biham 2
+          showOrbit: true
+        satellites: []
+      - name: Biham 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1152.401166304981
+          age: 5358374624
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.7000000226672011
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 17374
+        temperature: 304
+        satellite:
+          semiMajorAxis: 495532.50151114183
+          eccentricity: 0.01
+          inclination: 0.21
+          orbitalArc: 86
+          axialTilt: 25.29
+          parentId: Biham 2
+          showOrbit: true
+        satellites: []
+  - name: Biham 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2887
+      age: 7573288620
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0029934293716422154
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 43443
+    temperature: 212
+    satellite:
+      semiMajorAxis: 1509200366.1111102
+      eccentricity: 0
+      inclination: 1.81
+      orbitalArc: 64
+      axialTilt: 9.36
+      parentId: Biham
+      showOrbit: true
+    satellites:
+      - name: Biham 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 282.5230409254956
+          age: 1564690884
+          ringMapAsset: null
+          terranMass: 0.5000001538464275
+          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1764
+        satellite:
+          semiMajorAxis: 140696.4743808968
+          eccentricity: 0.01
+          inclination: 0.8
+          orbitalArc: 83
+          axialTilt: 39.29
+          parentId: Biham 3
+          showOrbit: true
+        satellites: []
+  - name: Biham 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3383
+      age: 697585586
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.02799743560037536
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 47
+    satellite:
+      semiMajorAxis: 2137793004.037034
+      eccentricity: 0.01
+      inclination: 1.99
+      orbitalArc: 329
+      axialTilt: 24.54
+      parentId: Biham
+      showOrbit: true
+    satellites: []
+  - name: Biham 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 57895
+      age: 7788777875
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.520406107215771
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 270
+    satellite:
+      semiMajorAxis: 2797344158.802461
+      eccentricity: 0
+      inclination: 1.93
+      orbitalArc: 268
+      axialTilt: 17.56
+      parentId: Biham
+      showOrbit: true
+    satellites: []
+  - name: Biham 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2609
+      age: 326354710
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.018935426156292155
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 34
+    satellite:
+      semiMajorAxis: 3310759304
+      eccentricity: 0
+      inclination: 1.41
+      orbitalArc: 339
+      axialTilt: 16.53
+      parentId: Biham
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

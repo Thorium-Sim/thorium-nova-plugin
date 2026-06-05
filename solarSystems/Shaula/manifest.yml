@@ -1,0 +1,153 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Shaula
+description: A solar system named Shaula
+position:
+  x: 237517817.0488767
+  'y': 180856024.10362676
+  z: -27472645.624415725
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Shaula
+stars:
+  - name: Shaula A
+    description: ''
+    tags: []
+    radius: 8.8
+    temperature: 25000
+    solarMass: 10.4
+    age: 19827923962
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 235
+      semiMajorAxis: 105.60000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Shaula
+  - name: Shaula B
+    description: ''
+    tags: []
+    radius: 8.8
+    temperature: 25000
+    solarMass: 10.4
+    age: 19827923962
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 415
+      semiMajorAxis: 105.60000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Shaula
+planets:
+  - name: Shaula 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4640
+      age: 146339941
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.007017747939082548
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 38
+    satellite:
+      semiMajorAxis: 11387361506
+      eccentricity: 0.01
+      inclination: 1.09
+      orbitalArc: 181
+      axialTilt: 26.53
+      parentId: Shaula
+      showOrbit: true
+    satellites:
+      - name: Shaula 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 284.0641378546283
+          age: 232695165
+          ringMapAsset: null
+          terranMass: 1.4000000929825909
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 36
+        satellite:
+          semiMajorAxis: 144794.72327158842
+          eccentricity: 0
+          inclination: 1.65
+          orbitalArc: 119
+          axialTilt: 34.98
+          parentId: Shaula 1
+          showOrbit: true
+        satellites: []
+      - name: Shaula 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 773.9622565242374
+          age: 4074427793
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 47065972
+        temperature: 295
+        satellite:
+          semiMajorAxis: 256311.0692781211
+          eccentricity: 0.01
+          inclination: 0.39
+          orbitalArc: 103
+          axialTilt: 10.32
+          parentId: Shaula 1
+          showOrbit: true
+        satellites: []
+      - name: Shaula 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 973.3337160994611
+          age: 483554611
+          ringMapAsset: null
+          terranMass: 0.5000000033102986
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1212
+        satellite:
+          semiMajorAxis: 336773.4657704135
+          eccentricity: 0.02
+          inclination: 1.91
+          orbitalArc: 12
+          axialTilt: 24.25
+          parentId: Shaula 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,127 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Imai
+description: A solar system named Imai
+position:
+  x: 6216434.099103895
+  'y': 155127296.46485445
+  z: -93932051.80893613
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Imai
+stars:
+  - name: Imai A
+    description: ''
+    tags: []
+    radius: 7.21
+    temperature: 20400
+    solarMass: 8.9
+    age: 57012238328
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 115
+      semiMajorAxis: 86.52
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Imai
+  - name: Imai B
+    description: ''
+    tags: []
+    radius: 7.21
+    temperature: 20400
+    solarMass: 8.9
+    age: 57012238328
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 295
+      semiMajorAxis: 86.52
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Imai
+planets:
+  - name: Imai 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2967
+      age: 366270391
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.007606997880662565
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 45
+    satellite:
+      semiMajorAxis: 2986122262.333333
+      eccentricity: 0.02
+      inclination: 0.36
+      orbitalArc: 214
+      axialTilt: 17.39
+      parentId: Imai
+      showOrbit: true
+    satellites: []
+  - name: Imai 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 379
+      age: 210863694
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0004885960637789305
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 296
+    satellite:
+      semiMajorAxis: 6052903199.333332
+      eccentricity: 0.02
+      inclination: 1.45
+      orbitalArc: 170
+      axialTilt: 38.51
+      parentId: Imai
+      showOrbit: true
+    satellites: []
+  - name: Imai 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 68
+      age: 798573590
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.002459235966609203
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 217
+    satellite:
+      semiMajorAxis: 9016835124
+      eccentricity: 0.01
+      inclination: 1.14
+      orbitalArc: 346
+      axialTilt: 19.82
+      parentId: Imai
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

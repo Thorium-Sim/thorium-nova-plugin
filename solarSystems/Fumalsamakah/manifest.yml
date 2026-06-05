@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Fumalsamakah
+description: A solar system named Fumalsamakah
+position:
+  x: 52165130.51002775
+  'y': -14366818.910623938
+  z: 208745193.70328292
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Fumalsamakah
+stars:
+  - name: Fumalsamakah A
+    description: ''
+    tags: []
+    radius: 3.6
+    temperature: 15500
+    solarMass: 4.7
+    age: 362355909281
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 289
+      semiMajorAxis: 43.2
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Fumalsamakah
+  - name: Fumalsamakah B
+    description: ''
+    tags: []
+    radius: 3.6
+    temperature: 15500
+    solarMass: 4.7
+    age: 362355909281
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 469
+      semiMajorAxis: 43.2
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Fumalsamakah
+planets: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,292 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sargas
+description: A solar system named Sargas
+position:
+  x: 114838251.12254836
+  'y': 107606774.5008055
+  z: -11402241.211591415
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sargas
+stars:
+  - name: Sargas A
+    description: ''
+    tags: []
+    radius: 35
+    temperature: 6294
+    solarMass: 3.1
+    age: 93001067863
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 43
+      semiMajorAxis: 420
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sargas
+  - name: Sargas B
+    description: ''
+    tags: []
+    radius: 35
+    temperature: 6294
+    solarMass: 3.1
+    age: 93001067863
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 223
+      semiMajorAxis: 420
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sargas
+planets:
+  - name: Sargas 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 311
+      age: 734045298
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0090931738027175
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 346
+    satellite:
+      semiMajorAxis: 2335152445.333333
+      eccentricity: 0
+      inclination: 1.15
+      orbitalArc: 147
+      axialTilt: 31.04
+      parentId: Sargas
+      showOrbit: true
+    satellites: []
+  - name: Sargas 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 278
+      age: 679423033
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.01464349848596384
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 265
+    satellite:
+      semiMajorAxis: 3010748804.444443
+      eccentricity: 0.02
+      inclination: 1.93
+      orbitalArc: 245
+      axialTilt: 15.08
+      parentId: Sargas
+      showOrbit: true
+    satellites: []
+  - name: Sargas 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 61183
+      age: 8038331263
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.1097209293941783
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 243
+    satellite:
+      semiMajorAxis: 3424842661.8518486
+      eccentricity: 0.01
+      inclination: 0.62
+      orbitalArc: 89
+      axialTilt: 6.62
+      parentId: Sargas
+      showOrbit: true
+    satellites:
+      - name: Sargas 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 12455.009808423782
+          age: 9438241302
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 485008618
+        temperature: 291
+        satellite:
+          semiMajorAxis: 3761412.962143982
+          eccentricity: 0.01
+          inclination: 0.3
+          orbitalArc: 129
+          axialTilt: 31.14
+          parentId: Sargas 3
+          showOrbit: true
+        satellites: []
+  - name: Sargas 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 29035
+      age: 4794608100
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+      terranMass: 0.3373634812835053
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 167
+    satellite:
+      semiMajorAxis: 3662945473.111097
+      eccentricity: 0
+      inclination: 0.83
+      orbitalArc: 48
+      axialTilt: 33.84
+      parentId: Sargas
+      showOrbit: true
+    satellites: []
+  - name: Sargas 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 50453
+      age: 3909363520
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 0.9853979691619514
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 136
+    satellite:
+      semiMajorAxis: 4037974693.851828
+      eccentricity: 0.01
+      inclination: 0.07
+      orbitalArc: 22
+      axialTilt: 20.48
+      parentId: Sargas
+      showOrbit: true
+    satellites: []
+  - name: Sargas 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4644
+      age: 5979014459
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.001957945398967526
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 46017
+    temperature: 209
+    satellite:
+      semiMajorAxis: 4207945636.1727576
+      eccentricity: 0.01
+      inclination: 1.25
+      orbitalArc: 271
+      axialTilt: 5.35
+      parentId: Sargas
+      showOrbit: true
+    satellites:
+      - name: Sargas 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1004.0393616283869
+          age: 6733445938
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 425365979
+        temperature: 290
+        satellite:
+          semiMajorAxis: 418684.41379903734
+          eccentricity: 0.02
+          inclination: 0.19
+          orbitalArc: 81
+          axialTilt: 15.07
+          parentId: Sargas 6
+          showOrbit: true
+        satellites: []
+  - name: Sargas 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3146
+      age: 4368913262
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.04267363723941317
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 1731
+    temperature: 297
+    satellite:
+      semiMajorAxis: 4295334909
+      eccentricity: 0.02
+      inclination: 0.02
+      orbitalArc: 351
+      axialTilt: 38.71
+      parentId: Sargas
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

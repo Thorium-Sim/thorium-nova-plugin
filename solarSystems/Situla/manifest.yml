@@ -1,0 +1,203 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Situla
+description: A solar system named Situla
+position:
+  x: 39422231.97838217
+  'y': 8298323.473972602
+  z: 105098775.09732233
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Situla
+stars:
+  - name: Situla A
+    description: ''
+    tags: []
+    radius: 13
+    temperature: 4581
+    solarMass: 2.554
+    age: 1979075241055
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 14
+      semiMajorAxis: 156
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Situla
+  - name: Situla B
+    description: ''
+    tags: []
+    radius: 13
+    temperature: 4581
+    solarMass: 2.554
+    age: 1979075241055
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 194
+      semiMajorAxis: 156
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Situla
+planets:
+  - name: Situla 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7106
+      age: 2477723529
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.008502363956898787
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 737
+    satellite:
+      semiMajorAxis: 961464188
+      eccentricity: 0.02
+      inclination: 1.13
+      orbitalArc: 16
+      axialTilt: 13.63
+      parentId: Situla
+      showOrbit: true
+    satellites:
+      - name: Situla 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1477.5830656707483
+          age: 37908014
+          ringMapAsset: null
+          terranMass: 0.15999963214238888
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 357
+        satellite:
+          semiMajorAxis: 249178.6346908246
+          eccentricity: 0
+          inclination: 1.52
+          orbitalArc: 167
+          axialTilt: 25.46
+          parentId: Situla 1
+          showOrbit: true
+        satellites: []
+      - name: Situla 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1684.1951947315354
+          age: 8221105958
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 150171
+        temperature: 259
+        satellite:
+          semiMajorAxis: 445415.39930695924
+          eccentricity: 0.02
+          inclination: 1.88
+          orbitalArc: 142
+          axialTilt: 36.88
+          parentId: Situla 1
+          showOrbit: true
+        satellites: []
+      - name: Situla 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1486.1818553953156
+          age: 904146369
+          ringMapAsset: null
+          terranMass: 0.44999971725437704
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 153
+        satellite:
+          semiMajorAxis: 707422.5631681702
+          eccentricity: 0.02
+          inclination: 1.09
+          orbitalArc: 314
+          axialTilt: 34.28
+          parentId: Situla 1
+          showOrbit: true
+        satellites: []
+  - name: Situla 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 438
+      age: 812268618
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0046475131331409235
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 331
+    satellite:
+      semiMajorAxis: 1695754993
+      eccentricity: 0.02
+      inclination: 0.09
+      orbitalArc: 345
+      axialTilt: 8.68
+      parentId: Situla
+      showOrbit: true
+    satellites: []
+  - name: Situla 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 87
+      age: 182622843
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.010116540517005952
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 343
+    satellite:
+      semiMajorAxis: 2906042891
+      eccentricity: 0.01
+      inclination: 1.07
+      orbitalArc: 246
+      axialTilt: 33.95
+      parentId: Situla
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

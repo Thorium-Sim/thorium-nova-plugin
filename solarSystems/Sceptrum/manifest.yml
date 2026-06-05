@@ -1,0 +1,111 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sceptrum
+description: A solar system named Sceptrum
+position:
+  x: -52527141.11538948
+  'y': 14294206.614395691
+  z: 19591976.798397027
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sceptrum
+stars:
+  - name: 'Sceptrum '
+    description: ''
+    tags: []
+    radius: 9.8
+    temperature: 4603
+    solarMass: 1.07
+    age: 1431320894464
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 196
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sceptrum
+planets:
+  - name: Sceptrum 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 209
+      age: 208678852
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.020998439441740218
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 148
+    satellite:
+      semiMajorAxis: 619594706.9999993
+      eccentricity: 0.01
+      inclination: 0.06
+      orbitalArc: 166
+      axialTilt: 9.73
+      parentId: Sceptrum
+      showOrbit: true
+    satellites: []
+  - name: Sceptrum 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5312
+      age: 6606156956
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.01332449299535353
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 458689276
+    temperature: 303
+    satellite:
+      semiMajorAxis: 1363224406
+      eccentricity: 0
+      inclination: 0.69
+      orbitalArc: 127
+      axialTilt: 3.52
+      parentId: Sceptrum
+      showOrbit: true
+    satellites:
+      - name: Sceptrum 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1010.2856960287052
+          age: 8396525266
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 247849463
+        temperature: 299
+        satellite:
+          semiMajorAxis: 473823.99143746274
+          eccentricity: 0.01
+          inclination: 1.6
+          orbitalArc: 54
+          axialTilt: 35.45
+          parentId: Sceptrum 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

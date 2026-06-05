@@ -1,0 +1,414 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Adhara
+description: A solar system named Adhara
+position:
+  x: -191644128.1546518
+  'y': 109676901.77506141
+  z: -50121245.09103227
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Adhara
+stars:
+  - name: Adhara A
+    description: ''
+    tags: []
+    radius: 10.7
+    temperature: 22400
+    solarMass: 13.1
+    age: 26210840726
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 213
+      semiMajorAxis: 128.39999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Adhara
+  - name: Adhara B
+    description: ''
+    tags: []
+    radius: 10.7
+    temperature: 22400
+    solarMass: 13.1
+    age: 26210840726
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 393
+      semiMajorAxis: 128.39999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Adhara
+planets:
+  - name: Adhara 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 129
+      age: 798931547
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0061565695334652665
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 397
+    satellite:
+      semiMajorAxis: 2572626881.333333
+      eccentricity: 0.02
+      inclination: 1.27
+      orbitalArc: 9
+      axialTilt: 27.88
+      parentId: Adhara
+      showOrbit: true
+    satellites: []
+  - name: Adhara 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 32998
+      age: 6255533555
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 1.2509427465861533
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 314
+    satellite:
+      semiMajorAxis: 3187932673.111112
+      eccentricity: 0.02
+      inclination: 0.92
+      orbitalArc: 41
+      axialTilt: 26.96
+      parentId: Adhara
+      showOrbit: true
+    satellites:
+      - name: Adhara 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5244.123317478789
+          age: 8513226041
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 191780
+        temperature: 264
+        satellite:
+          semiMajorAxis: 2228752.4099284853
+          eccentricity: 0.01
+          inclination: 0.36
+          orbitalArc: 330
+          axialTilt: 31.1
+          parentId: Adhara 2
+          showOrbit: true
+        satellites: []
+  - name: Adhara 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 352
+      age: 626289066
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.005299412646706017
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 269
+    satellite:
+      semiMajorAxis: 3827126830.9629636
+      eccentricity: 0
+      inclination: 1.18
+      orbitalArc: 167
+      axialTilt: 38.28
+      parentId: Adhara
+      showOrbit: true
+    satellites: []
+  - name: Adhara 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2830
+      age: 982792666
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.004800501294501007
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 40
+    satellite:
+      semiMajorAxis: 6697803228.641975
+      eccentricity: 0
+      inclination: 1.66
+      orbitalArc: 160
+      axialTilt: 8.65
+      parentId: Adhara
+      showOrbit: true
+    satellites:
+      - name: Adhara 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 684.0698394415831
+          age: 6263744061
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 2.300000036779617
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 26597
+        temperature: 236
+        satellite:
+          semiMajorAxis: 173753.7392181621
+          eccentricity: 0.01
+          inclination: 0.59
+          orbitalArc: 0
+          axialTilt: 18.37
+          parentId: Adhara 4
+          showOrbit: true
+        satellites: []
+  - name: Adhara 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7007
+      age: 9243685790
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.006474686865456098
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 8925283335
+    temperature: 300
+    satellite:
+      semiMajorAxis: 9429418001.09465
+      eccentricity: 0.01
+      inclination: 1.32
+      orbitalArc: 241
+      axialTilt: 16.35
+      parentId: Adhara
+      showOrbit: true
+    satellites: []
+  - name: Adhara 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5159
+      age: 3573841508
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.004867464771346997
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 56208
+    temperature: 257
+    satellite:
+      semiMajorAxis: 11317197160.792864
+      eccentricity: 0
+      inclination: 0.7
+      orbitalArc: 11
+      axialTilt: 9.69
+      parentId: Adhara
+      showOrbit: true
+    satellites:
+      - name: Adhara 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 938.3338438999567
+          age: 350525927
+          ringMapAsset: null
+          terranMass: 0.5699997618751012
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 172
+        satellite:
+          semiMajorAxis: 268363.4793553876
+          eccentricity: 0.02
+          inclination: 1.78
+          orbitalArc: 67
+          axialTilt: 1.27
+          parentId: Adhara 6
+          showOrbit: true
+        satellites: []
+  - name: Adhara 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4912
+      age: 544739108
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.03148694000262409
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1689
+    satellite:
+      semiMajorAxis: 12514184774.792866
+      eccentricity: 0.01
+      inclination: 0.04
+      orbitalArc: 90
+      axialTilt: 20.62
+      parentId: Adhara
+      showOrbit: true
+    satellites:
+      - name: Adhara 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 281.236105479029
+          age: 57156124
+          ringMapAsset: null
+          terranMass: 1.700000412767738
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1578
+        satellite:
+          semiMajorAxis: 58413.816709280654
+          eccentricity: 0.01
+          inclination: 1.44
+          orbitalArc: 136
+          axialTilt: 30.13
+          parentId: Adhara 7
+          showOrbit: true
+        satellites: []
+      - name: Adhara 7b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 352.85605254547113
+          age: 9494146129
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 26031
+        temperature: 263
+        satellite:
+          semiMajorAxis: 126759.75495529213
+          eccentricity: 0.01
+          inclination: 1.75
+          orbitalArc: 247
+          axialTilt: 21.83
+          parentId: Adhara 7
+          showOrbit: true
+        satellites: []
+      - name: Adhara 7c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 422.6974010749481
+          age: 984357602
+          ringMapAsset: null
+          terranMass: 0.7899998726255675
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 253
+        satellite:
+          semiMajorAxis: 204585.54212027488
+          eccentricity: 0.02
+          inclination: 0.28
+          orbitalArc: 306
+          axialTilt: 34.72
+          parentId: Adhara 7
+          showOrbit: true
+        satellites: []
+  - name: Adhara 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7241
+      age: 7386145787
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.03164479480664731
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 675
+    satellite:
+      semiMajorAxis: 13387824719
+      eccentricity: 0
+      inclination: 0.85
+      orbitalArc: 179
+      axialTilt: 0.69
+      parentId: Adhara
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

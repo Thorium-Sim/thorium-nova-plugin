@@ -1,0 +1,265 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Aldebaran
+description: A solar system named Aldebaran
+position:
+  x: -30738025.034043144
+  'y': -9759906.620050779
+  z: 11811434.228313237
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Aldebaran
+stars:
+  - name: 'Aldebaran '
+    description: ''
+    tags: []
+    radius: 45
+    temperature: 3900
+    solarMass: 1.16
+    age: 142805132992
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 264
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Aldebaran
+planets:
+  - name: Aldebaran 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1772
+      age: 1164389626
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0033275667613916343
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 662
+    satellite:
+      semiMajorAxis: 358379806.0000007
+      eccentricity: 0.01
+      inclination: 1.97
+      orbitalArc: 45
+      axialTilt: 33.01
+      parentId: Aldebaran
+      showOrbit: true
+    satellites:
+      - name: Aldebaran 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 193.35722561244788
+          age: 5887058589
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 176550
+        temperature: 257
+        satellite:
+          semiMajorAxis: 32649.610766019257
+          eccentricity: 0.01
+          inclination: 0.26
+          orbitalArc: 228
+          axialTilt: 36.06
+          parentId: Aldebaran 1
+          showOrbit: true
+        satellites: []
+      - name: Aldebaran 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 187.54119083474885
+          age: 8630008972
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 280675070
+        temperature: 300
+        satellite:
+          semiMajorAxis: 61888.592975467116
+          eccentricity: 0.01
+          inclination: 0.15
+          orbitalArc: 353
+          axialTilt: 27.8
+          parentId: Aldebaran 1
+          showOrbit: true
+        satellites: []
+  - name: Aldebaran 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 323
+      age: 723395875
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.00945575715184186
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 166
+    satellite:
+      semiMajorAxis: 1335686711.0000007
+      eccentricity: 0
+      inclination: 1.11
+      orbitalArc: 125
+      axialTilt: 39.89
+      parentId: Aldebaran
+      showOrbit: true
+    satellites: []
+  - name: Aldebaran 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3252
+      age: 8580608845
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.01616247149177288
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 7989
+    temperature: 164
+    satellite:
+      semiMajorAxis: 2302128719.6666675
+      eccentricity: 0.01
+      inclination: 0.31
+      orbitalArc: 14
+      axialTilt: 2.39
+      parentId: Aldebaran
+      showOrbit: true
+    satellites:
+      - name: Aldebaran 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 739.1453911954877
+          age: 94414964
+          ringMapAsset: null
+          terranMass: 0.42999978823254037
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 158
+        satellite:
+          semiMajorAxis: 212873.87266430046
+          eccentricity: 0
+          inclination: 0.23
+          orbitalArc: 204
+          axialTilt: 9.27
+          parentId: Aldebaran 3
+          showOrbit: true
+        satellites: []
+  - name: Aldebaran 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7234
+      age: 1037109652
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.026692693009905535
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1103
+    satellite:
+      semiMajorAxis: 2870515844.000005
+      eccentricity: 0.01
+      inclination: 0.17
+      orbitalArc: 90
+      axialTilt: 39.02
+      parentId: Aldebaran
+      showOrbit: true
+    satellites:
+      - name: Aldebaran 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1032.980071839476
+          age: 142319318
+          ringMapAsset: null
+          terranMass: 0.6000001602549013
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 34
+        satellite:
+          semiMajorAxis: 463808.05225592473
+          eccentricity: 0.01
+          inclination: 1.66
+          orbitalArc: 137
+          axialTilt: 12.56
+          parentId: Aldebaran 4
+          showOrbit: true
+        satellites: []
+  - name: Aldebaran 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3399
+      age: 7640835137
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.013715464850427224
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 46418
+    temperature: 119
+    satellite:
+      semiMajorAxis: 3714261368
+      eccentricity: 0.02
+      inclination: 1.67
+      orbitalArc: 13
+      axialTilt: 35.68
+      parentId: Aldebaran
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

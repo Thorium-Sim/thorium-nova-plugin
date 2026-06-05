@@ -1,0 +1,182 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Pipirima
+description: A solar system named Pipirima
+position:
+  x: 187909896.36398378
+  'y': 153547625.33233005
+  z: -57148933.25934358
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Pipirima
+stars:
+  - name: Pipirima A
+    description: ''
+    tags: []
+    radius: 5.6
+    temperature: 21700
+    solarMass: 9.1
+    age: 75473708015
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 180
+      semiMajorAxis: 67.19999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Pipirima
+  - name: Pipirima B
+    description: ''
+    tags: []
+    radius: 5.6
+    temperature: 21700
+    solarMass: 9.1
+    age: 75473708015
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 360
+      semiMajorAxis: 67.19999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Pipirima
+planets:
+  - name: Pipirima 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 383
+      age: 774403951
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.004667496231535672
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 335
+    satellite:
+      semiMajorAxis: 3000240254.333333
+      eccentricity: 0.01
+      inclination: 0.4
+      orbitalArc: 91
+      axialTilt: 3.11
+      parentId: Pipirima
+      showOrbit: true
+    satellites: []
+  - name: Pipirima 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6697
+      age: 1304526806
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.013603939280226364
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 811
+    satellite:
+      semiMajorAxis: 5475796981
+      eccentricity: 0.01
+      inclination: 0.01
+      orbitalArc: 18
+      axialTilt: 3.75
+      parentId: Pipirima
+      showOrbit: true
+    satellites:
+      - name: Pipirima 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 359.1402833285254
+          age: 6258208007
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5000000313702397
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 35640
+        temperature: 217
+        satellite:
+          semiMajorAxis: 248414.90937249627
+          eccentricity: 0.02
+          inclination: 0.04
+          orbitalArc: 83
+          axialTilt: 16.9
+          parentId: Pipirima 2
+          showOrbit: true
+        satellites: []
+      - name: Pipirima 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1238.7701691957702
+          age: 224413386
+          ringMapAsset: null
+          terranMass: 0.29999998599699107
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 286
+        satellite:
+          semiMajorAxis: 327447.1964459886
+          eccentricity: 0.01
+          inclination: 0.95
+          orbitalArc: 175
+          axialTilt: 15.87
+          parentId: Pipirima 2
+          showOrbit: true
+        satellites: []
+      - name: Pipirima 2c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1360.8162364091877
+          age: 8198214306
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.9000000569294165
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 545
+        satellite:
+          semiMajorAxis: 447708.5417786228
+          eccentricity: 0.01
+          inclination: 0.78
+          orbitalArc: 90
+          axialTilt: 5.19
+          parentId: Pipirima 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

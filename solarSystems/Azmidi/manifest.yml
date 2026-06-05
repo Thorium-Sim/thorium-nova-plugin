@@ -1,0 +1,370 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Azmidi
+description: A solar system named Azmidi
+position:
+  x: -508775495.2316246
+  'y': 265335723.75106287
+  z: -262863645.75063393
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Azmidi
+stars:
+  - name: 'Azmidi '
+    description: ''
+    tags: []
+    radius: 124
+    temperature: 4712
+    solarMass: 9.9
+    age: 75325145909
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 298
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Azmidi
+planets:
+  - name: Azmidi 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1372
+      age: 4419001009
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.001928574584426399
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 725
+    satellite:
+      semiMajorAxis: 2799624081
+      eccentricity: 0.02
+      inclination: 1.32
+      orbitalArc: 132
+      axialTilt: 13.78
+      parentId: Azmidi
+      showOrbit: true
+    satellites:
+      - name: Azmidi 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 86.96152314701155
+          age: 9011968523
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5000000489462882
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 30250
+        temperature: 195
+        satellite:
+          semiMajorAxis: 41393.6850179775
+          eccentricity: 0.01
+          inclination: 0.33
+          orbitalArc: 220
+          axialTilt: 24.3
+          parentId: Azmidi 1
+          showOrbit: true
+        satellites: []
+  - name: Azmidi 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4295
+      age: 6395161517
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.02653618770943043
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 568
+    satellite:
+      semiMajorAxis: 4068547465
+      eccentricity: 0.01
+      inclination: 1.13
+      orbitalArc: 44
+      axialTilt: 3.04
+      parentId: Azmidi
+      showOrbit: true
+    satellites:
+      - name: Azmidi 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 278.2631005311881
+          age: 250700557
+          ringMapAsset: null
+          terranMass: 0.19999970691232227
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 295
+        satellite:
+          semiMajorAxis: 82087.61465670049
+          eccentricity: 0.02
+          inclination: 1.61
+          orbitalArc: 65
+          axialTilt: 1.14
+          parentId: Azmidi 2
+          showOrbit: true
+        satellites: []
+  - name: Azmidi 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5340
+      age: 2066052508
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.006623999758293051
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 859
+    satellite:
+      semiMajorAxis: 4659394570.333331
+      eccentricity: 0.01
+      inclination: 0.36
+      orbitalArc: 35
+      axialTilt: 6.35
+      parentId: Azmidi
+      showOrbit: true
+    satellites:
+      - name: Azmidi 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 363.75792335876224
+          age: 8248295664
+          ringMapAsset: null
+          terranMass: 0.10000032026349218
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 631
+        satellite:
+          semiMajorAxis: 110242.41755572641
+          eccentricity: 0
+          inclination: 0.72
+          orbitalArc: 168
+          axialTilt: 30.51
+          parentId: Azmidi 3
+          showOrbit: true
+        satellites: []
+      - name: Azmidi 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 546.7741567617688
+          age: 7048121669
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 121405
+        temperature: 262
+        satellite:
+          semiMajorAxis: 229764.38541569497
+          eccentricity: 0
+          inclination: 0.06
+          orbitalArc: 329
+          axialTilt: 25.29
+          parentId: Azmidi 3
+          showOrbit: true
+        satellites: []
+      - name: Azmidi 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1246.2323828416954
+          age: 9359907097
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.7000001466787394
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 26998
+        temperature: 189
+        satellite:
+          semiMajorAxis: 449889.89020585205
+          eccentricity: 0.01
+          inclination: 1.12
+          orbitalArc: 73
+          axialTilt: 32.58
+          parentId: Azmidi 3
+          showOrbit: true
+        satellites: []
+  - name: Azmidi 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 85
+      age: 181436640
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0006504017982155337
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 372
+    satellite:
+      semiMajorAxis: 5088360641.555553
+      eccentricity: 0.01
+      inclination: 0.69
+      orbitalArc: 266
+      axialTilt: 0.03
+      parentId: Azmidi
+      showOrbit: true
+    satellites: []
+  - name: Azmidi 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 781
+      age: 96125163
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.017915889925804267
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 35
+    satellite:
+      semiMajorAxis: 6040166178.5555525
+      eccentricity: 0.01
+      inclination: 1.37
+      orbitalArc: 256
+      axialTilt: 35.26
+      parentId: Azmidi
+      showOrbit: true
+    satellites:
+      - name: Azmidi 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 164.53422390236153
+          age: 4724409185
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 464183434
+        temperature: 295
+        satellite:
+          semiMajorAxis: 32160.554899585666
+          eccentricity: 0
+          inclination: 1.98
+          orbitalArc: 209
+          axialTilt: 6.47
+          parentId: Azmidi 5
+          showOrbit: true
+        satellites: []
+      - name: Azmidi 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 166.28302208807625
+          age: 5144540339
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 80360
+        temperature: 266
+        satellite:
+          semiMajorAxis: 63520.11443764513
+          eccentricity: 0.01
+          inclination: 1.13
+          orbitalArc: 219
+          axialTilt: 36.7
+          parentId: Azmidi 5
+          showOrbit: true
+        satellites: []
+  - name: Azmidi 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5012
+      age: 6735593866
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.004169166296876307
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 24269
+    temperature: 255
+    satellite:
+      semiMajorAxis: 6642586779
+      eccentricity: 0.01
+      inclination: 0.07
+      orbitalArc: 77
+      axialTilt: 1.49
+      parentId: Azmidi
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

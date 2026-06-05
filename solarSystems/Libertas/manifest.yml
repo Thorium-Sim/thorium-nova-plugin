@@ -1,0 +1,52 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Libertas
+description: A solar system named Libertas
+position:
+  x: 84073735.33262762
+  'y': -14240101.47896508
+  z: 45766194.80334428
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Libertas
+stars:
+  - name: Libertas A
+    description: ''
+    tags: []
+    radius: 10.17
+    temperature: 4841
+    solarMass: 1.74
+    age: 1766592150148
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 325
+      semiMajorAxis: 122.03999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Libertas
+  - name: Libertas B
+    description: ''
+    tags: []
+    radius: 10.17
+    temperature: 4841
+    solarMass: 1.74
+    age: 1766592150148
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 505
+      semiMajorAxis: 122.03999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Libertas
+planets: []
+commSatellite: null
+assets: {}

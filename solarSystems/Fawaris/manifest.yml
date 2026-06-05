@@ -1,0 +1,156 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Fawaris
+description: A solar system named Fawaris
+position:
+  x: 54913914.22836781
+  'y': -61505071.17729901
+  z: 27072989.47576432
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Fawaris
+stars:
+  - name: Fawaris A
+    description: ''
+    tags: []
+    radius: 4.81
+    temperature: 10400
+    solarMass: 2.93
+    age: 624328836885
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 33
+      semiMajorAxis: 57.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Fawaris
+  - name: Fawaris B
+    description: ''
+    tags: []
+    radius: 4.81
+    temperature: 10400
+    solarMass: 2.93
+    age: 624328836885
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 213
+      semiMajorAxis: 57.72
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Fawaris
+planets:
+  - name: Fawaris 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 181
+      age: 79083559
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.006150352052520129
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 371
+    satellite:
+      semiMajorAxis: 833976133
+      eccentricity: 0.01
+      inclination: 1.29
+      orbitalArc: 84
+      axialTilt: 33.82
+      parentId: Fawaris
+      showOrbit: true
+    satellites: []
+  - name: Fawaris 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4163
+      age: 7454510514
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.013509987886984225
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 35300
+    temperature: 270
+    satellite:
+      semiMajorAxis: 2156899556.6666656
+      eccentricity: 0
+      inclination: 1.8
+      orbitalArc: 150
+      axialTilt: 39.68
+      parentId: Fawaris
+      showOrbit: true
+    satellites: []
+  - name: Fawaris 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5101
+      age: 7775510100
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.006289100449294951
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 9888
+    temperature: 271
+    satellite:
+      semiMajorAxis: 3277993553.11111
+      eccentricity: 0.01
+      inclination: 0.63
+      orbitalArc: 275
+      axialTilt: 19.37
+      parentId: Fawaris
+      showOrbit: true
+    satellites: []
+  - name: Fawaris 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 261
+      age: 333080044
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.004549072957652025
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 267
+    satellite:
+      semiMajorAxis: 3936022860
+      eccentricity: 0.02
+      inclination: 0.33
+      orbitalArc: 350
+      axialTilt: 18.4
+      parentId: Fawaris
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

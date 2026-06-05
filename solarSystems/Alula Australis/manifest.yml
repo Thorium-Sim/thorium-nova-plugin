@@ -1,0 +1,78 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alula Australis
+description: A solar system named Alula Australis
+position:
+  x: -2359131.861275021
+  'y': -7976205.034801302
+  z: -12785295.388434613
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alula Australis
+stars:
+  - name: Alula Australis A
+    description: ''
+    tags: []
+    radius: 1.02
+    temperature: 6005
+    solarMass: 0.97
+    age: 41351248660211
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 129
+      semiMajorAxis: 12.24
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alula Australis
+  - name: Alula Australis B
+    description: ''
+    tags: []
+    radius: 1.02
+    temperature: 6005
+    solarMass: 0.97
+    age: 41351248660211
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 309
+      semiMajorAxis: 12.24
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alula Australis
+planets:
+  - name: Alula Australis 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6968
+      age: 8906790884
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.005841099018776115
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 7630235189
+    temperature: 301
+    satellite:
+      semiMajorAxis: 148407800
+      eccentricity: 0.02
+      inclination: 1.68
+      orbitalArc: 225
+      axialTilt: 35.94
+      parentId: Alula Australis
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

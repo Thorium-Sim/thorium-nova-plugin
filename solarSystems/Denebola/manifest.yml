@@ -1,0 +1,238 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Denebola
+description: A solar system named Denebola
+position:
+  x: -872029.4869753345
+  'y': -4750652.973306645
+  z: -18253750.995298315
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Denebola
+stars:
+  - name: Denebola A
+    description: ''
+    tags: []
+    radius: 1.75
+    temperature: 8262
+    solarMass: 1.78
+    age: 7194033019276
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 14
+      semiMajorAxis: 21
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Denebola
+  - name: Denebola B
+    description: ''
+    tags: []
+    radius: 1.75
+    temperature: 8262
+    solarMass: 1.78
+    age: 7194033019276
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 194
+      semiMajorAxis: 21
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Denebola
+planets:
+  - name: Denebola 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4639
+      age: 9763189326
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0017596995444312744
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 35522
+    temperature: 155
+    satellite:
+      semiMajorAxis: 298473120
+      eccentricity: 0.02
+      inclination: 1.9
+      orbitalArc: 353
+      axialTilt: 26.8
+      parentId: Denebola
+      showOrbit: true
+    satellites:
+      - name: Denebola 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 515.8480838477608
+          age: 9876506022
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.3000000986584562
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 46576
+        temperature: 278
+        satellite:
+          semiMajorAxis: 86086.43315417873
+          eccentricity: 0.02
+          inclination: 1.4
+          orbitalArc: 160
+          axialTilt: 37.89
+          parentId: Denebola 1
+          showOrbit: true
+        satellites: []
+      - name: Denebola 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 673.909218744249
+          age: 9235123817
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 2.3000000295318643
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 31223
+        temperature: 120
+        satellite:
+          semiMajorAxis: 230657.8147054984
+          eccentricity: 0
+          inclination: 1.98
+          orbitalArc: 344
+          axialTilt: 11.11
+          parentId: Denebola 1
+          showOrbit: true
+        satellites: []
+      - name: Denebola 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 809.2757173716151
+          age: 465582096
+          ringMapAsset: null
+          terranMass: 0.5899996741013009
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 285
+        satellite:
+          semiMajorAxis: 348797.8341871661
+          eccentricity: 0.01
+          inclination: 0.75
+          orbitalArc: 178
+          axialTilt: 24.26
+          parentId: Denebola 1
+          showOrbit: true
+        satellites: []
+  - name: Denebola 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4156
+      age: 8227944923
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.01276128681664701
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 30639
+    temperature: 300
+    satellite:
+      semiMajorAxis: 1376241584.666666
+      eccentricity: 0.01
+      inclination: 0.54
+      orbitalArc: 20
+      axialTilt: 22.18
+      parentId: Denebola
+      showOrbit: true
+    satellites: []
+  - name: Denebola 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 59189
+      age: 3315945591
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.2168062410589322
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 332
+    satellite:
+      semiMajorAxis: 2273923057.555554
+      eccentricity: 0.02
+      inclination: 1.97
+      orbitalArc: 17
+      axialTilt: 18.79
+      parentId: Denebola
+      showOrbit: true
+    satellites: []
+  - name: Denebola 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 436
+      age: 952065126
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.008698772700062123
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 361
+    satellite:
+      semiMajorAxis: 3388840992
+      eccentricity: 0
+      inclination: 1.25
+      orbitalArc: 360
+      axialTilt: 14.53
+      parentId: Denebola
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

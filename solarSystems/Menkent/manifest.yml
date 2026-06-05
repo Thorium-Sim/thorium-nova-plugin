@@ -1,0 +1,411 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Menkent
+description: A solar system named Menkent
+position:
+  x: 13074493.927794222
+  'y': 18339283.883705657
+  z: -21193712.77199042
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Menkent
+stars:
+  - name: Menkent A
+    description: ''
+    tags: []
+    radius: 10.77
+    temperature: 4853
+    solarMass: 1.27
+    age: 1138414538840
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 282
+      semiMajorAxis: 129.24
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Menkent
+  - name: Menkent B
+    description: ''
+    tags: []
+    radius: 10.77
+    temperature: 4853
+    solarMass: 1.27
+    age: 1138414538840
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 462
+      semiMajorAxis: 129.24
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Menkent
+planets:
+  - name: Menkent 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 336
+      age: 275762330
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.014324067747107025
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 205
+    satellite:
+      semiMajorAxis: 181727596.33333296
+      eccentricity: 0.01
+      inclination: 1.19
+      orbitalArc: 5
+      axialTilt: 35.67
+      parentId: Menkent
+      showOrbit: true
+    satellites: []
+  - name: Menkent 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4625
+      age: 7245954679
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.02760998290289626
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 278
+    satellite:
+      semiMajorAxis: 636781551.6666657
+      eccentricity: 0.01
+      inclination: 0.07
+      orbitalArc: 330
+      axialTilt: 5.11
+      parentId: Menkent
+      showOrbit: true
+    satellites:
+      - name: Menkent 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 577.3886894128842
+          age: 308224369
+          ringMapAsset: null
+          terranMass: 1.3599996568329595
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 372
+        satellite:
+          semiMajorAxis: 157174.9044065741
+          eccentricity: 0.02
+          inclination: 0.86
+          orbitalArc: 204
+          axialTilt: 36.46
+          parentId: Menkent 2
+          showOrbit: true
+        satellites: []
+      - name: Menkent 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 623.1643824673757
+          age: 817582271
+          ringMapAsset: null
+          terranMass: 1.2499997801442275
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 159
+        satellite:
+          semiMajorAxis: 291017.76661226444
+          eccentricity: 0.02
+          inclination: 0.52
+          orbitalArc: 212
+          axialTilt: 17.28
+          parentId: Menkent 2
+          showOrbit: true
+        satellites: []
+  - name: Menkent 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2536
+      age: 6716731410
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.008782428846354063
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 37866
+    temperature: 133
+    satellite:
+      semiMajorAxis: 827343038.4444314
+      eccentricity: 0.01
+      inclination: 0.03
+      orbitalArc: 38
+      axialTilt: 9.38
+      parentId: Menkent
+      showOrbit: true
+    satellites:
+      - name: Menkent 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 329.703112967057
+          age: 547992735
+          ringMapAsset: null
+          terranMass: 1.6000000643554069
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 37
+        satellite:
+          semiMajorAxis: 104186.18369759001
+          eccentricity: 0.01
+          inclination: 1.42
+          orbitalArc: 14
+          axialTilt: 37.47
+          parentId: Menkent 3
+          showOrbit: true
+        satellites: []
+  - name: Menkent 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5543
+      age: 5343702289
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.010028410654638059
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 75663
+    temperature: 257
+    satellite:
+      semiMajorAxis: 1051145524.8888632
+      eccentricity: 0.02
+      inclination: 0.88
+      orbitalArc: 209
+      axialTilt: 17.95
+      parentId: Menkent
+      showOrbit: true
+    satellites: []
+  - name: Menkent 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3892
+      age: 6362343218
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
+      terranMass: 0.028996890961234097
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 10458
+    temperature: 258
+    satellite:
+      semiMajorAxis: 1693714116.8888636
+      eccentricity: 0.01
+      inclination: 0.56
+      orbitalArc: 279
+      axialTilt: 20.8
+      parentId: Menkent
+      showOrbit: true
+    satellites:
+      - name: Menkent 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 714.7840401833375
+          age: 9977538940
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 94900
+        temperature: 267
+        satellite:
+          semiMajorAxis: 345240.69140855205
+          eccentricity: 0.01
+          inclination: 1.85
+          orbitalArc: 150
+          axialTilt: 28.89
+          parentId: Menkent 5
+          showOrbit: true
+        satellites: []
+  - name: Menkent 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2657
+      age: 206486057
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.03113356167072222
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 55
+    satellite:
+      semiMajorAxis: 2329989621.481438
+      eccentricity: 0.02
+      inclination: 1.72
+      orbitalArc: 49
+      axialTilt: 28.46
+      parentId: Menkent
+      showOrbit: true
+    satellites: []
+  - name: Menkent 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2144
+      age: 243899207
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.00868491115763334
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 43
+    satellite:
+      semiMajorAxis: 3113437666.654292
+      eccentricity: 0.01
+      inclination: 0.2
+      orbitalArc: 196
+      axialTilt: 35.44
+      parentId: Menkent
+      showOrbit: true
+    satellites:
+      - name: Menkent 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 187.55818121739622
+          age: 5473697616
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.10000011736577044
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 35268
+        temperature: 296
+        satellite:
+          semiMajorAxis: 101855.77162601255
+          eccentricity: 0.02
+          inclination: 1.64
+          orbitalArc: 286
+          axialTilt: 31.54
+          parentId: Menkent 7
+          showOrbit: true
+        satellites: []
+      - name: Menkent 7b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 437.20947201559534
+          age: 3663988934
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          classification: G
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 0
+        temperature: 578
+        satellite:
+          semiMajorAxis: 184939.60666259684
+          eccentricity: 0
+          inclination: 1.99
+          orbitalArc: 78
+          axialTilt: 34.4
+          parentId: Menkent 7
+          showOrbit: true
+        satellites: []
+  - name: Menkent 8
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 429
+      age: 952321845
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.0016107846859495394
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 237
+    satellite:
+      semiMajorAxis: 3850894969
+      eccentricity: 0.01
+      inclination: 1.23
+      orbitalArc: 95
+      axialTilt: 24.48
+      parentId: Menkent
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

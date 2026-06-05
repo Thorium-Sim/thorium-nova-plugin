@@ -1,0 +1,78 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Veritate
+description: A solar system named Veritate
+position:
+  x: 12572078.057441367
+  'y': -82171852.13921511
+  z: 99834305.18726
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Veritate
+stars:
+  - name: Veritate A
+    description: ''
+    tags: []
+    radius: 12.67
+    temperature: 4483
+    solarMass: 0.898
+    age: 798762073848
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 83
+      semiMajorAxis: 152.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Veritate
+  - name: Veritate B
+    description: ''
+    tags: []
+    radius: 12.67
+    temperature: 4483
+    solarMass: 0.898
+    age: 798762073848
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 263
+      semiMajorAxis: 152.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Veritate
+planets:
+  - name: Veritate 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5128
+      age: 3548621539
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.01784032492789913
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 661954026
+    temperature: 300
+    satellite:
+      semiMajorAxis: 848126858
+      eccentricity: 0
+      inclination: 1.22
+      orbitalArc: 225
+      axialTilt: 31.97
+      parentId: Veritate
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

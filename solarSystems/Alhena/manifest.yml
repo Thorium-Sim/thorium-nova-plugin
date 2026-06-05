@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alhena
+description: A solar system named Alhena
+position:
+  x: -54254443.1108689
+  'y': -16185842.962346569
+  z: -9008968.467995994
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alhena
+stars:
+  - name: Alhena A
+    description: ''
+    tags: []
+    radius: 5.16
+    temperature: 9190
+    solarMass: 2.81
+    age: 853324383303
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 117
+      semiMajorAxis: 61.92
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alhena
+  - name: Alhena B
+    description: ''
+    tags: []
+    radius: 5.16
+    temperature: 9190
+    solarMass: 2.81
+    age: 853324383303
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 297
+      semiMajorAxis: 61.92
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alhena
+planets:
+  - name: Alhena 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 277
+      age: 797461810
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.004647168031124424
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 186
+    satellite:
+      semiMajorAxis: 365083779
+      eccentricity: 0
+      inclination: 1.24
+      orbitalArc: 315
+      axialTilt: 25.77
+      parentId: Alhena
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

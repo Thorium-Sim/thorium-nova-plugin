@@ -1,0 +1,79 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Gomeisa
+description: A solar system named Gomeisa
+position:
+  x: -77325771.06251185
+  'y': -12132565.944863351
+  z: -30908807.25847482
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Gomeisa
+stars:
+  - name: Gomeisa A
+    description: ''
+    tags: []
+    radius: 4.12
+    temperature: 11772
+    solarMass: 3.64
+    age: 643984215034
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 0
+      semiMajorAxis: 49.44
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Gomeisa
+  - name: Gomeisa B
+    description: ''
+    tags: []
+    radius: 4.12
+    temperature: 11772
+    solarMass: 3.64
+    age: 643984215034
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 180
+      semiMajorAxis: 49.44
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Gomeisa
+planets:
+  - name: Gomeisa 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4677
+      age: 5307480081
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.012149654445328197
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 22664
+    temperature: 128
+    satellite:
+      semiMajorAxis: 2914077202
+      eccentricity: 0.02
+      inclination: 0.01
+      orbitalArc: 215
+      axialTilt: 30.14
+      parentId: Gomeisa
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

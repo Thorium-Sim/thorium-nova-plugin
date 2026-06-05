@@ -1,0 +1,156 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Pleione
+description: A solar system named Pleione
+position:
+  x: -210921150.19546047
+  'y': -84308639.13833135
+  z: 80617269.34986903
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Pleione
+stars:
+  - name: Pleione A
+    description: ''
+    tags: []
+    radius: 4.17
+    temperature: 11058
+    solarMass: 2.888
+    age: 640601602858
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 332
+      semiMajorAxis: 50.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Pleione
+  - name: Pleione B
+    description: ''
+    tags: []
+    radius: 4.17
+    temperature: 11058
+    solarMass: 2.888
+    age: 640601602858
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 512
+      semiMajorAxis: 50.04
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Pleione
+planets:
+  - name: Pleione 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2968
+      age: 1618881351
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.014839657822518653
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1419
+    satellite:
+      semiMajorAxis: 2354469824
+      eccentricity: 0.01
+      inclination: 1.9
+      orbitalArc: 181
+      axialTilt: 6
+      parentId: Pleione
+      showOrbit: true
+    satellites:
+      - name: Pleione 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 231.8666903162996
+          age: 7211876046
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 2.3000001117278384
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 35832
+        temperature: 242
+        satellite:
+          semiMajorAxis: 104311.56044794223
+          eccentricity: 0.02
+          inclination: 1.13
+          orbitalArc: 110
+          axialTilt: 0.7
+          parentId: Pleione 1
+          showOrbit: true
+        satellites: []
+      - name: Pleione 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 644.1925195274391
+          age: 6112371208
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.700000157509558
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 29298
+        temperature: 228
+        satellite:
+          semiMajorAxis: 238995.4247446799
+          eccentricity: 0.01
+          inclination: 1.2
+          orbitalArc: 318
+          axialTilt: 15.11
+          parentId: Pleione 1
+          showOrbit: true
+        satellites: []
+  - name: Pleione 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1029
+      age: 557993149
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0020847951870351733
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 47
+    satellite:
+      semiMajorAxis: 3806851236
+      eccentricity: 0.02
+      inclination: 0.32
+      orbitalArc: 341
+      axialTilt: 13.46
+      parentId: Pleione
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

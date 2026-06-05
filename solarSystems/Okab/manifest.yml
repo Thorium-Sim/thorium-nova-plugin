@@ -1,0 +1,186 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Okab
+description: A solar system named Okab
+position:
+  x: 75947194.86113589
+  'y': -19533853.62308244
+  z: 22284122.639149234
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Okab
+stars:
+  - name: Okab A
+    description: ''
+    tags: []
+    radius: 2.762
+    temperature: 8680
+    solarMass: 2.53
+    age: 3369485225569
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 264
+      semiMajorAxis: 33.144
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Okab
+  - name: Okab B
+    description: ''
+    tags: []
+    radius: 2.762
+    temperature: 8680
+    solarMass: 2.53
+    age: 3369485225569
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 444
+      semiMajorAxis: 33.144
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Okab
+planets:
+  - name: Okab 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4935
+      age: 9031813302
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.024463552322343728
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 650
+    satellite:
+      semiMajorAxis: 391258943
+      eccentricity: 0.01
+      inclination: 0.43
+      orbitalArc: 17
+      axialTilt: 13.73
+      parentId: Okab
+      showOrbit: true
+    satellites: []
+  - name: Okab 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6217
+      age: 3687755392
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.007109772879539471
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 29228
+    temperature: 258
+    satellite:
+      semiMajorAxis: 719709058
+      eccentricity: 0
+      inclination: 1.31
+      orbitalArc: 77
+      axialTilt: 33.62
+      parentId: Okab
+      showOrbit: true
+    satellites:
+      - name: Okab 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 645.8022716393816
+          age: 4990521772
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 2.3000000673299574
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 11768
+        temperature: 183
+        satellite:
+          semiMajorAxis: 234816.52979713172
+          eccentricity: 0.01
+          inclination: 0.48
+          orbitalArc: 96
+          axialTilt: 20.42
+          parentId: Okab 2
+          showOrbit: true
+        satellites: []
+      - name: Okab 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1268.9770026021235
+          age: 7456650724
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 110003
+        temperature: 262
+        satellite:
+          semiMajorAxis: 453024.7899289581
+          eccentricity: 0.02
+          inclination: 0.93
+          orbitalArc: 97
+          axialTilt: 22.07
+          parentId: Okab 2
+          showOrbit: true
+        satellites: []
+  - name: Okab 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3361
+      age: 6326879998
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.003146339386958997
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 31058
+    temperature: 118
+    satellite:
+      semiMajorAxis: 999781796
+      eccentricity: 0.01
+      inclination: 1.22
+      orbitalArc: 353
+      axialTilt: 12.13
+      parentId: Okab
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

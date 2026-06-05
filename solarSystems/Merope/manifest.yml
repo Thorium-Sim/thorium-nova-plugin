@@ -1,0 +1,361 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Merope
+description: A solar system named Merope
+position:
+  x: -152459918.3456952
+  'y': -81127704.37254228
+  z: 100599240.35650238
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Merope
+stars:
+  - name: Merope A
+    description: ''
+    tags: []
+    radius: 4.79
+    temperature: 14550
+    solarMass: 4.25
+    age: 238361008572
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 260
+      semiMajorAxis: 57.480000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Merope
+  - name: Merope B
+    description: ''
+    tags: []
+    radius: 4.79
+    temperature: 14550
+    solarMass: 4.25
+    age: 238361008572
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 440
+      semiMajorAxis: 57.480000000000004
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Merope
+planets:
+  - name: Merope 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5933
+      age: 4307265619
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.005709667754874021
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 159909
+    temperature: 264
+    satellite:
+      semiMajorAxis: 1219588921.666666
+      eccentricity: 0.02
+      inclination: 0.96
+      orbitalArc: 26
+      axialTilt: 29.42
+      parentId: Merope
+      showOrbit: true
+    satellites: []
+  - name: Merope 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5564
+      age: 1459220297
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.00407234008148508
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 967
+    satellite:
+      semiMajorAxis: 2191444970.7777767
+      eccentricity: 0.01
+      inclination: 1.8
+      orbitalArc: 11
+      axialTilt: 33.19
+      parentId: Merope
+      showOrbit: true
+    satellites:
+      - name: Merope 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 355.3044122682662
+          age: 3326463715
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 129961
+        temperature: 263
+        satellite:
+          semiMajorAxis: 138568.72078462382
+          eccentricity: 0.01
+          inclination: 0.19
+          orbitalArc: 231
+          axialTilt: 1.89
+          parentId: Merope 2
+          showOrbit: true
+        satellites: []
+  - name: Merope 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6142
+      age: 9713386074
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.020496487430761684
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 165467
+    temperature: 259
+    satellite:
+      semiMajorAxis: 3090987707.4074025
+      eccentricity: 0
+      inclination: 1.02
+      orbitalArc: 222
+      axialTilt: 11.72
+      parentId: Merope
+      showOrbit: true
+    satellites: []
+  - name: Merope 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3390
+      age: 6486025556
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.032597832070918584
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 35064
+    temperature: 226
+    satellite:
+      semiMajorAxis: 3435633883.407402
+      eccentricity: 0
+      inclination: 1.42
+      orbitalArc: 355
+      axialTilt: 19.47
+      parentId: Merope
+      showOrbit: true
+    satellites:
+      - name: Merope 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 538.4952578055662
+          age: 1256825347
+          ringMapAsset: null
+          terranMass: 1.700000098724912
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 697
+        satellite:
+          semiMajorAxis: 176626.4445602257
+          eccentricity: 0.01
+          inclination: 1.15
+          orbitalArc: 175
+          axialTilt: 20.42
+          parentId: Merope 4
+          showOrbit: true
+        satellites: []
+  - name: Merope 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 64818
+      age: 3397067883
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 1.147360846645283
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 177
+    satellite:
+      semiMajorAxis: 3782265947.543202
+      eccentricity: 0.01
+      inclination: 1.14
+      orbitalArc: 201
+      axialTilt: 14.86
+      parentId: Merope
+      showOrbit: true
+    satellites:
+      - name: Merope 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7616.20241800088
+          age: 921047521
+          ringMapAsset: null
+          terranMass: 0.5399999569149532
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 367
+        satellite:
+          semiMajorAxis: 2302164.4160716794
+          eccentricity: 0.01
+          inclination: 1.22
+          orbitalArc: 345
+          axialTilt: 3.51
+          parentId: Merope 5
+          showOrbit: true
+        satellites: []
+      - name: Merope 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 16037.279163114115
+          age: 135144171
+          ringMapAsset: null
+          terranMass: 1.2699996943572238
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 390
+        satellite:
+          semiMajorAxis: 4394214.490693267
+          eccentricity: 0.02
+          inclination: 0.73
+          orbitalArc: 77
+          axialTilt: 23.6
+          parentId: Merope 5
+          showOrbit: true
+        satellites: []
+  - name: Merope 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1630
+      age: 853181164
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.00319497612680888
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 38
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 1.65
+      orbitalArc: 197
+      axialTilt: 3.1
+      parentId: Merope
+      showOrbit: true
+    satellites:
+      - name: Merope 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 168.4454349325843
+          age: 5947234340
+          ringMapAsset: null
+          terranMass: 0.5000002994315181
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 564
+        satellite:
+          semiMajorAxis: 64784.08415221748
+          eccentricity: 0
+          inclination: 0.06
+          orbitalArc: 14
+          axialTilt: 9.3
+          parentId: Merope 6
+          showOrbit: true
+        satellites: []
+      - name: Merope 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 356.13042589966915
+          age: 9267845034
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 97571
+        temperature: 258
+        satellite:
+          semiMajorAxis: 165956.77846924582
+          eccentricity: 0.02
+          inclination: 0.52
+          orbitalArc: 304
+          axialTilt: 3.34
+          parentId: Merope 6
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,80 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Cervantes
+description: A solar system named Cervantes
+position:
+  x: 16503558.80115063
+  'y': 21048296.2719789
+  z: -1143547.7097431351
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Cervantes
+stars:
+  - name: Cervantes A
+    description: ''
+    tags: []
+    radius: 1.28
+    temperature: 5974
+    solarMass: 1.1
+    age: 30400530147698
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 235
+      semiMajorAxis: 15.36
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Cervantes
+  - name: Cervantes B
+    description: ''
+    tags: []
+    radius: 1.28
+    temperature: 5974
+    solarMass: 1.1
+    age: 30400530147698
+    spectralType: G
+    hue: 45
+    isWhite: false
+    satellite:
+      orbitalArc: 415
+      semiMajorAxis: 15.36
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Cervantes
+planets:
+  - name: Cervantes 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6137
+      age: 8866437854
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.006528697733144525
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 599
+    satellite:
+      semiMajorAxis: 91464573
+      eccentricity: 0
+      inclination: 1.58
+      orbitalArc: 39
+      axialTilt: 7.62
+      parentId: Cervantes
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

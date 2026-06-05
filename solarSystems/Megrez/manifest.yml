@@ -1,0 +1,211 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Megrez
+description: A solar system named Megrez
+position:
+  x: 1549599.6478201435
+  'y': -35522248.18129704
+  z: -22987509.55467372
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Megrez
+stars:
+  - name: Megrez A
+    description: ''
+    tags: []
+    radius: 2.512
+    temperature: 6909
+    solarMass: 2.062
+    age: 8270997785109
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 286
+      semiMajorAxis: 30.144
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Megrez
+  - name: Megrez B
+    description: ''
+    tags: []
+    radius: 2.512
+    temperature: 6909
+    solarMass: 2.062
+    age: 8270997785109
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 466
+      semiMajorAxis: 30.144
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Megrez
+planets:
+  - name: Megrez 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6754
+      age: 8393814288
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.004317892455135516
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 777
+    satellite:
+      semiMajorAxis: 210127830.66666636
+      eccentricity: 0
+      inclination: 0.37
+      orbitalArc: 160
+      axialTilt: 22.04
+      parentId: Megrez
+      showOrbit: true
+    satellites: []
+  - name: Megrez 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4488
+      age: 4606788433
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.03427290947748247
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 49385
+    temperature: 237
+    satellite:
+      semiMajorAxis: 956733106.7777777
+      eccentricity: 0
+      inclination: 1.83
+      orbitalArc: 51
+      axialTilt: 27.44
+      parentId: Megrez
+      showOrbit: true
+    satellites:
+      - name: Megrez 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 621.5292034006513
+          age: 9982233779
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.5000001572916032
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 35004
+        temperature: 277
+        satellite:
+          semiMajorAxis: 126970.87925510338
+          eccentricity: 0.02
+          inclination: 0.55
+          orbitalArc: 204
+          axialTilt: 4.78
+          parentId: Megrez 2
+          showOrbit: true
+        satellites: []
+      - name: Megrez 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1088.0366239500318
+          age: 6171941140
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.500000097955405
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 26253
+        temperature: 201
+        satellite:
+          semiMajorAxis: 248940.43707352798
+          eccentricity: 0
+          inclination: 0.68
+          orbitalArc: 26
+          axialTilt: 10.86
+          parentId: Megrez 2
+          showOrbit: true
+        satellites: []
+      - name: Megrez 2c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 682.1206973979531
+          age: 927004836
+          ringMapAsset: null
+          terranMass: 0.5399997738100584
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 236
+        satellite:
+          semiMajorAxis: 323325.2105666298
+          eccentricity: 0
+          inclination: 1.09
+          orbitalArc: 181
+          axialTilt: 25.87
+          parentId: Megrez 2
+          showOrbit: true
+        satellites: []
+  - name: Megrez 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 356
+      age: 369768798
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.004581595670089552
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 305
+    satellite:
+      semiMajorAxis: 2066615756
+      eccentricity: 0.02
+      inclination: 1.99
+      orbitalArc: 292
+      axialTilt: 37.88
+      parentId: Megrez
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

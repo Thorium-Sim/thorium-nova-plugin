@@ -1,0 +1,234 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Kitalpha
+description: A solar system named Kitalpha
+position:
+  x: 65344464.46927694
+  'y': -9140268.213020723
+  z: 75053587.72222315
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Kitalpha
+stars:
+  - name: Kitalpha A
+    description: ''
+    tags: []
+    radius: 9.2
+    temperature: 5100
+    solarMass: 2.3
+    age: 2316545108701
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 6
+      semiMajorAxis: 110.39999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kitalpha
+  - name: Kitalpha B
+    description: ''
+    tags: []
+    radius: 9.2
+    temperature: 5100
+    solarMass: 2.3
+    age: 2316545108701
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 186
+      semiMajorAxis: 110.39999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kitalpha
+planets:
+  - name: Kitalpha 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 323
+      age: 967924882
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.005616319534059917
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 381
+    satellite:
+      semiMajorAxis: 583355762.6666676
+      eccentricity: 0
+      inclination: 1.08
+      orbitalArc: 346
+      axialTilt: 34.12
+      parentId: Kitalpha
+      showOrbit: true
+    satellites: []
+  - name: Kitalpha 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6212
+      age: 8366472933
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.010397314655803451
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 23612
+    temperature: 263
+    satellite:
+      semiMajorAxis: 928281424.6666715
+      eccentricity: 0.02
+      inclination: 0.44
+      orbitalArc: 52
+      axialTilt: 5.02
+      parentId: Kitalpha
+      showOrbit: true
+    satellites:
+      - name: Kitalpha 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 402.3365902031159
+          age: 4580848778
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.3000001145850585
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 7602
+        temperature: 195
+        satellite:
+          semiMajorAxis: 131834.4846129483
+          eccentricity: 0.02
+          inclination: 1.64
+          orbitalArc: 276
+          axialTilt: 35.53
+          parentId: Kitalpha 2
+          showOrbit: true
+        satellites: []
+      - name: Kitalpha 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 507.9663747337104
+          age: 9804836641
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.9000001182413454
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 4182
+        temperature: 318
+        satellite:
+          semiMajorAxis: 258305.81209108984
+          eccentricity: 0
+          inclination: 1.17
+          orbitalArc: 295
+          axialTilt: 5.82
+          parentId: Kitalpha 2
+          showOrbit: true
+        satellites: []
+      - name: Kitalpha 2c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 722.9559882081943
+          age: 6842502407
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 72168
+        temperature: 259
+        satellite:
+          semiMajorAxis: 331836.7985875612
+          eccentricity: 0.01
+          inclination: 1.52
+          orbitalArc: 169
+          axialTilt: 31.76
+          parentId: Kitalpha 2
+          showOrbit: true
+        satellites: []
+  - name: Kitalpha 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5142
+      age: 6584339832
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.006293562522342793
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 447379522
+    temperature: 290
+    satellite:
+      semiMajorAxis: 1108605605
+      eccentricity: 0.02
+      inclination: 1.31
+      orbitalArc: 202
+      axialTilt: 5.5
+      parentId: Kitalpha
+      showOrbit: true
+    satellites:
+      - name: Kitalpha 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 681.6988866401834
+          age: 160148627
+          ringMapAsset: null
+          terranMass: 0.5499999883742153
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 235
+        satellite:
+          semiMajorAxis: 279496.54352247523
+          eccentricity: 0.02
+          inclination: 0.09
+          orbitalArc: 112
+          axialTilt: 16.9
+          parentId: Kitalpha 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

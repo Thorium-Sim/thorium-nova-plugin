@@ -1,0 +1,133 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Betelgeuse
+description: A solar system named Betelgeuse
+position:
+  x: -365018688.6841074
+  'y': -47463945.907854244
+  z: 7691055.466642229
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Betelgeuse
+stars:
+  - name: Betelgeuse A
+    description: ''
+    tags: []
+    radius: 640
+    temperature: 3600
+    solarMass: 14
+    age: 11736196413
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 320
+      semiMajorAxis: 7680
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Betelgeuse
+  - name: Betelgeuse B
+    description: ''
+    tags: []
+    radius: 640
+    temperature: 3600
+    solarMass: 14
+    age: 11736196413
+    spectralType: M
+    hue: 0
+    isWhite: false
+    satellite:
+      orbitalArc: 500
+      semiMajorAxis: 7680
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Betelgeuse
+planets:
+  - name: Betelgeuse 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4260
+      age: 7803708351
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0017360194244743327
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 16096
+    temperature: 189
+    satellite:
+      semiMajorAxis: 4116148405.6666665
+      eccentricity: 0.01
+      inclination: 0.69
+      orbitalArc: 303
+      axialTilt: 28.11
+      parentId: Betelgeuse
+      showOrbit: true
+    satellites: []
+  - name: Betelgeuse 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7139
+      age: 6236541305
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+      terranMass: 0.02076178097797761
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 690
+    temperature: 165
+    satellite:
+      semiMajorAxis: 11366206205
+      eccentricity: 0.01
+      inclination: 1.13
+      orbitalArc: 163
+      axialTilt: 14.52
+      parentId: Betelgeuse
+      showOrbit: true
+    satellites:
+      - name: Betelgeuse 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 846.6747402249894
+          age: 7206440857
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.7000000506249261
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 31627
+        temperature: 169
+        satellite:
+          semiMajorAxis: 240455.62622389698
+          eccentricity: 0.01
+          inclination: 0.33
+          orbitalArc: 47
+          axialTilt: 4.43
+          parentId: Betelgeuse 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

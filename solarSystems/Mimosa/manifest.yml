@@ -1,0 +1,208 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Mimosa
+description: A solar system named Mimosa
+position:
+  x: 15364767.631860655
+  'y': 127136653.37142041
+  z: -72720662.39092034
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Mimosa
+stars:
+  - name: Mimosa A
+    description: ''
+    tags: []
+    radius: 7.3
+    temperature: 28840
+    solarMass: 14.5
+    age: 22683524885
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 346
+      semiMajorAxis: 87.6
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mimosa
+  - name: Mimosa B
+    description: ''
+    tags: []
+    radius: 7.3
+    temperature: 28840
+    solarMass: 14.5
+    age: 22683524885
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 526
+      semiMajorAxis: 87.6
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Mimosa
+planets:
+  - name: Mimosa 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 770
+      age: 201345691
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.00025775267622422325
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 52
+    satellite:
+      semiMajorAxis: 2564710460.333333
+      eccentricity: 0.01
+      inclination: 0.31
+      orbitalArc: 102
+      axialTilt: 35.33
+      parentId: Mimosa
+      showOrbit: true
+    satellites: []
+  - name: Mimosa 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 391
+      age: 387132508
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.01296884650133799
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 359
+    satellite:
+      semiMajorAxis: 3352575409.7777753
+      eccentricity: 0
+      inclination: 1.09
+      orbitalArc: 232
+      axialTilt: 33.37
+      parentId: Mimosa
+      showOrbit: true
+    satellites: []
+  - name: Mimosa 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4877
+      age: 6757300670
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.0010352174269666222
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 698
+    satellite:
+      semiMajorAxis: 4466673663.555552
+      eccentricity: 0.02
+      inclination: 0.97
+      orbitalArc: 238
+      axialTilt: 7.2
+      parentId: Mimosa
+      showOrbit: true
+    satellites: []
+  - name: Mimosa 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 305
+      age: 621677041
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.00026112013830380655
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 392
+    satellite:
+      semiMajorAxis: 6211385197.407402
+      eccentricity: 0
+      inclination: 1.72
+      orbitalArc: 2
+      axialTilt: 38.3
+      parentId: Mimosa
+      showOrbit: true
+    satellites: []
+  - name: Mimosa 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2849
+      age: 2048560461
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.008983563639911216
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 700
+    satellite:
+      semiMajorAxis: 8321056069
+      eccentricity: 0.01
+      inclination: 1.42
+      orbitalArc: 317
+      axialTilt: 8.52
+      parentId: Mimosa
+      showOrbit: true
+    satellites:
+      - name: Mimosa 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 295.35807245359945
+          age: 6972975712
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.7000000007405731
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 867
+        satellite:
+          semiMajorAxis: 105147.4737934814
+          eccentricity: 0.02
+          inclination: 0.5
+          orbitalArc: 216
+          axialTilt: 36.23
+          parentId: Mimosa 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

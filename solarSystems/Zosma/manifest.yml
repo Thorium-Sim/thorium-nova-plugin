@@ -1,0 +1,133 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Zosma
+description: A solar system named Zosma
+position:
+  x: -5682584.84416382
+  'y': -10695141.72980067
+  z: -27998547.911110613
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Zosma
+stars:
+  - name: Zosma A
+    description: ''
+    tags: []
+    radius: 2.14
+    temperature: 8296
+    solarMass: 2.2
+    age: 5849105368874
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 305
+      semiMajorAxis: 25.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zosma
+  - name: Zosma B
+    description: ''
+    tags: []
+    radius: 2.14
+    temperature: 8296
+    solarMass: 2.2
+    age: 5849105368874
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 485
+      semiMajorAxis: 25.68
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Zosma
+planets:
+  - name: Zosma 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 66464
+      age: 3329542847
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 1.67703192258301
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 278
+    satellite:
+      semiMajorAxis: 2312910640
+      eccentricity: 0.01
+      inclination: 0.05
+      orbitalArc: 34
+      axialTilt: 11.06
+      parentId: Zosma
+      showOrbit: true
+    satellites:
+      - name: Zosma 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 5175.973227274411
+          age: 211563428
+          ringMapAsset: null
+          terranMass: 0.6399997376643645
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 348
+        satellite:
+          semiMajorAxis: 2229224.789819001
+          eccentricity: 0.01
+          inclination: 0.01
+          orbitalArc: 68
+          axialTilt: 16.93
+          parentId: Zosma 1
+          showOrbit: true
+        satellites: []
+      - name: Zosma 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 8993.274919136538
+          age: 9438391511
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.9000000940423692
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 587
+        satellite:
+          semiMajorAxis: 3768182.1911182096
+          eccentricity: 0.02
+          inclination: 1.62
+          orbitalArc: 81
+          axialTilt: 31.12
+          parentId: Zosma 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,180 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Castula
+description: A solar system named Castula
+position:
+  x: -12464092.098653112
+  'y': -85369310.45208341
+  z: 49379829.430301785
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Castula
+stars:
+  - name: Castula A
+    description: ''
+    tags: []
+    radius: 10.44
+    temperature: 4937
+    solarMass: 1.44
+    age: 1282561710348
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 230
+      semiMajorAxis: 125.28
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Castula
+  - name: Castula B
+    description: ''
+    tags: []
+    radius: 10.44
+    temperature: 4937
+    solarMass: 1.44
+    age: 1282561710348
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 410
+      semiMajorAxis: 125.28
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Castula
+planets:
+  - name: Castula 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 389
+      age: 175398010
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.01778385747327954
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 301
+    satellite:
+      semiMajorAxis: 363574799
+      eccentricity: 0.01
+      inclination: 1.79
+      orbitalArc: 84
+      axialTilt: 20.11
+      parentId: Castula
+      showOrbit: true
+    satellites: []
+  - name: Castula 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6032
+      age: 3263780600
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.003974207097542055
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 159798
+    temperature: 257
+    satellite:
+      semiMajorAxis: 792134599.6666648
+      eccentricity: 0.02
+      inclination: 0.86
+      orbitalArc: 0
+      axialTilt: 17.26
+      parentId: Castula
+      showOrbit: true
+    satellites: []
+  - name: Castula 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 559
+      age: 632733897
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.002175867374897478
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 44
+    satellite:
+      semiMajorAxis: 1308775635
+      eccentricity: 0.02
+      inclination: 0.89
+      orbitalArc: 281
+      axialTilt: 25.43
+      parentId: Castula
+      showOrbit: true
+    satellites:
+      - name: Castula 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 32.60560809647562
+          age: 255340133
+          ringMapAsset: null
+          terranMass: 2.1000000750147074
+          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1768
+        satellite:
+          semiMajorAxis: 39948.703378727085
+          eccentricity: 0.02
+          inclination: 0.77
+          orbitalArc: 101
+          axialTilt: 36.79
+          parentId: Castula 3
+          showOrbit: true
+        satellites: []
+      - name: Castula 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 127.64369844989704
+          age: 5368877293
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.30000007946596374
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 45044
+        temperature: 215
+        satellite:
+          semiMajorAxis: 59992.53827145161
+          eccentricity: 0
+          inclination: 0.67
+          orbitalArc: 29
+          axialTilt: 16.56
+          parentId: Castula 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

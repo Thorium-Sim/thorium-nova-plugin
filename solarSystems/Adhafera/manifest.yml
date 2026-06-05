@@ -1,0 +1,392 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Adhafera
+description: A solar system named Adhafera
+position:
+  x: -21026756.68932311
+  'y': -20902974.41734637
+  z: -43442840.37256046
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Adhafera
+stars:
+  - name: Adhafera A
+    description: ''
+    tags: []
+    radius: 10.5
+    temperature: 6900
+    solarMass: 3
+    age: 692333869384
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 17
+      semiMajorAxis: 126
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Adhafera
+  - name: Adhafera B
+    description: ''
+    tags: []
+    radius: 10.5
+    temperature: 6900
+    solarMass: 3
+    age: 692333869384
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 197
+      semiMajorAxis: 126
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Adhafera
+planets:
+  - name: Adhafera 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4012
+      age: 4989741629
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.02209374838013565
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 898
+    satellite:
+      semiMajorAxis: 640137379.0000007
+      eccentricity: 0.01
+      inclination: 0.49
+      orbitalArc: 233
+      axialTilt: 24.7
+      parentId: Adhafera
+      showOrbit: true
+    satellites:
+      - name: Adhafera 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 567.6585668376317
+          age: 770963629
+          ringMapAsset: null
+          terranMass: 0.15999975715051185
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 284
+        satellite:
+          semiMajorAxis: 146363.07196635078
+          eccentricity: 0
+          inclination: 1.79
+          orbitalArc: 317
+          axialTilt: 2.62
+          parentId: Adhafera 1
+          showOrbit: true
+        satellites: []
+      - name: Adhafera 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 980.3334645292102
+          age: 7230631861
+          ringMapAsset: null
+          terranMass: 0.1000004831651026
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 171
+        satellite:
+          semiMajorAxis: 319588.70943652256
+          eccentricity: 0.02
+          inclination: 0.44
+          orbitalArc: 106
+          axialTilt: 21.22
+          parentId: Adhafera 1
+          showOrbit: true
+        satellites: []
+  - name: Adhafera 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 396
+      age: 108002134
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.0002452617355101862
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 209
+    satellite:
+      semiMajorAxis: 930185666.0000017
+      eccentricity: 0.01
+      inclination: 0.92
+      orbitalArc: 358
+      axialTilt: 28.37
+      parentId: Adhafera
+      showOrbit: true
+    satellites: []
+  - name: Adhafera 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 279
+      age: 261835367
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.0029730815671858623
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 363
+    satellite:
+      semiMajorAxis: 1394463800.000005
+      eccentricity: 0.01
+      inclination: 0.57
+      orbitalArc: 350
+      axialTilt: 19.37
+      parentId: Adhafera
+      showOrbit: true
+    satellites: []
+  - name: Adhafera 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6487
+      age: 5422169423
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0033754215333320716
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 126088
+    temperature: 264
+    satellite:
+      semiMajorAxis: 1807349731.000025
+      eccentricity: 0.01
+      inclination: 0.92
+      orbitalArc: 184
+      axialTilt: 38.21
+      parentId: Adhafera
+      showOrbit: true
+    satellites: []
+  - name: Adhafera 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2505
+      age: 5285065316
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.03540685460729007
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      classification: K
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+    population: 21180
+    temperature: 165
+    satellite:
+      semiMajorAxis: 2798867852.0000253
+      eccentricity: 0
+      inclination: 0.55
+      orbitalArc: 314
+      axialTilt: 20.53
+      parentId: Adhafera
+      showOrbit: true
+    satellites:
+      - name: Adhafera 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 622.3763882204952
+          age: 96925467
+          ringMapAsset: null
+          terranMass: 0.19999975097513434
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 325
+        satellite:
+          semiMajorAxis: 285048.3858049868
+          eccentricity: 0.01
+          inclination: 1.96
+          orbitalArc: 56
+          axialTilt: 39.9
+          parentId: Adhafera 5
+          showOrbit: true
+        satellites: []
+  - name: Adhafera 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 46586
+      age: 4962874229
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.41394574534821926
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 269
+    satellite:
+      semiMajorAxis: 3144131690.0000653
+      eccentricity: 0.01
+      inclination: 0.14
+      orbitalArc: 59
+      axialTilt: 18.92
+      parentId: Adhafera
+      showOrbit: true
+    satellites:
+      - name: Adhafera 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 8263.42723398328
+          age: 5177024347
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 2.3000001429715025
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 18507
+        temperature: 276
+        satellite:
+          semiMajorAxis: 1829477.0966369817
+          eccentricity: 0.01
+          inclination: 1.46
+          orbitalArc: 255
+          axialTilt: 25.3
+          parentId: Adhafera 6
+          showOrbit: true
+        satellites: []
+      - name: Adhafera 6b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 10422.076464534686
+          age: 9671918924
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          classification: O
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+        population: 116564191
+        temperature: 293
+        satellite:
+          semiMajorAxis: 4220940.968136548
+          eccentricity: 0.01
+          inclination: 1.61
+          orbitalArc: 195
+          axialTilt: 15.31
+          parentId: Adhafera 6
+          showOrbit: true
+        satellites: []
+  - name: Adhafera 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 770
+      age: 1334261336
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.005314431706920974
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1673
+    satellite:
+      semiMajorAxis: 3571729010
+      eccentricity: 0
+      inclination: 1.19
+      orbitalArc: 195
+      axialTilt: 30.81
+      parentId: Adhafera
+      showOrbit: true
+    satellites:
+      - name: Adhafera 7a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 65.8214209560122
+          age: 6712197956
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.9000000882743703
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 782
+        satellite:
+          semiMajorAxis: 29948.746534985552
+          eccentricity: 0.02
+          inclination: 1.52
+          orbitalArc: 255
+          axialTilt: 38.25
+          parentId: Adhafera 7
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

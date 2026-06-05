@@ -1,0 +1,445 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Angetenar
+description: A solar system named Angetenar
+position:
+  x: -62338448.811224975
+  'y': 35253546.795684785
+  z: 67414515.07327741
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Angetenar
+stars:
+  - name: Angetenar A
+    description: ''
+    tags: []
+    radius: 8.85
+    temperature: 5049
+    solarMass: 2.39
+    age: 2708065479988
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 258
+      semiMajorAxis: 106.19999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Angetenar
+  - name: Angetenar B
+    description: ''
+    tags: []
+    radius: 8.85
+    temperature: 5049
+    solarMass: 2.39
+    age: 2708065479988
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 438
+      semiMajorAxis: 106.19999999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Angetenar
+planets:
+  - name: Angetenar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 220
+      age: 545646713
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.008758910617065388
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 179
+    satellite:
+      semiMajorAxis: 376364686.3333334
+      eccentricity: 0
+      inclination: 0.8
+      orbitalArc: 1
+      axialTilt: 29.74
+      parentId: Angetenar
+      showOrbit: true
+    satellites: []
+  - name: Angetenar 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6707
+      age: 8923990627
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.02891160197512935
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      classification: H
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+        - Draught-resistant plants
+      atmosphericComposition: []
+    population: 0
+    temperature: 567
+    satellite:
+      semiMajorAxis: 679681550.3333343
+      eccentricity: 0.01
+      inclination: 1.78
+      orbitalArc: 176
+      axialTilt: 3.92
+      parentId: Angetenar
+      showOrbit: true
+    satellites:
+      - name: Angetenar 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 611.3838571521766
+          age: 707981568
+          ringMapAsset: null
+          terranMass: 1.1000000790782036
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 43
+        satellite:
+          semiMajorAxis: 366634.4503348302
+          eccentricity: 0
+          inclination: 0.12
+          orbitalArc: 180
+          axialTilt: 12.37
+          parentId: Angetenar 2
+          showOrbit: true
+        satellites: []
+      - name: Angetenar 2b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1559.981733565808
+          age: 7487816342
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 0.5000001455598787
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          classification: L
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+        population: 14895
+        temperature: 215
+        satellite:
+          semiMajorAxis: 599032.9856892703
+          eccentricity: 0.01
+          inclination: 1.35
+          orbitalArc: 110
+          axialTilt: 38.5
+          parentId: Angetenar 2
+          showOrbit: true
+        satellites: []
+  - name: Angetenar 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6153
+      age: 1178472072
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0018827622253695959
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1222
+    satellite:
+      semiMajorAxis: 843162565.2222289
+      eccentricity: 0.01
+      inclination: 0.13
+      orbitalArc: 21
+      axialTilt: 1.38
+      parentId: Angetenar
+      showOrbit: true
+    satellites:
+      - name: Angetenar 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1222.8622670170646
+          age: 7703951693
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 178891
+        temperature: 269
+        satellite:
+          semiMajorAxis: 231310.93153171148
+          eccentricity: 0
+          inclination: 0.19
+          orbitalArc: 80
+          axialTilt: 17.15
+          parentId: Angetenar 3
+          showOrbit: true
+        satellites: []
+      - name: Angetenar 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1090.3649387876073
+          age: 9239224572
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 2.1000000424958642
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          classification: K
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+        population: 32420
+        temperature: 119
+        satellite:
+          semiMajorAxis: 529939.0812078742
+          eccentricity: 0
+          inclination: 1.45
+          orbitalArc: 154
+          axialTilt: 34.05
+          parentId: Angetenar 3
+          showOrbit: true
+        satellites: []
+      - name: Angetenar 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1456.125697241159
+          age: 6385856619
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 80111
+        temperature: 263
+        satellite:
+          semiMajorAxis: 706220.9631619621
+          eccentricity: 0.01
+          inclination: 0.3
+          orbitalArc: 332
+          axialTilt: 32.18
+          parentId: Angetenar 3
+          showOrbit: true
+        satellites: []
+  - name: Angetenar 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6251
+      age: 6045394106
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.02553927089316947
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 42297
+    temperature: 305
+    satellite:
+      semiMajorAxis: 1147565543.8518867
+      eccentricity: 0
+      inclination: 1.26
+      orbitalArc: 182
+      axialTilt: 0.88
+      parentId: Angetenar
+      showOrbit: true
+    satellites:
+      - name: Angetenar 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 562.5759547183584
+          age: 1743109603
+          ringMapAsset: null
+          terranMass: 2.100000041760386
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          classification: E
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 890
+        satellite:
+          semiMajorAxis: 123518.06179850429
+          eccentricity: 0.01
+          inclination: 1.07
+          orbitalArc: 147
+          axialTilt: 36.81
+          parentId: Angetenar 4
+          showOrbit: true
+        satellites: []
+      - name: Angetenar 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 412.17882536452476
+          age: 8998756111
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 170547
+        temperature: 266
+        satellite:
+          semiMajorAxis: 268955.85620743793
+          eccentricity: 0.01
+          inclination: 0.59
+          orbitalArc: 121
+          axialTilt: 21.07
+          parentId: Angetenar 4
+          showOrbit: true
+        satellites: []
+      - name: Angetenar 4c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1200.09197190065
+          age: 8718092251
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+          terranMass: 1.100000142680364
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 727
+        satellite:
+          semiMajorAxis: 502838.5362263723
+          eccentricity: 0
+          inclination: 0.82
+          orbitalArc: 1
+          axialTilt: 21.25
+          parentId: Angetenar 4
+          showOrbit: true
+        satellites: []
+  - name: Angetenar 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4493
+      age: 29677544
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.00218126210377066
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 35
+    satellite:
+      semiMajorAxis: 1564486007.7037742
+      eccentricity: 0.01
+      inclination: 1.03
+      orbitalArc: 76
+      axialTilt: 27.86
+      parentId: Angetenar
+      showOrbit: true
+    satellites: []
+  - name: Angetenar 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 491
+      age: 451200333
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.026281059532350198
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 155
+    satellite:
+      semiMajorAxis: 1826149719.1113238
+      eccentricity: 0.01
+      inclination: 0.87
+      orbitalArc: 137
+      axialTilt: 3.45
+      parentId: Angetenar
+      showOrbit: true
+    satellites: []
+  - name: Angetenar 7
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 39747
+      age: 4174274655
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 1.779219645391968
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 255
+    satellite:
+      semiMajorAxis: 2168454561
+      eccentricity: 0.01
+      inclination: 1.74
+      orbitalArc: 284
+      axialTilt: 27.49
+      parentId: Angetenar
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

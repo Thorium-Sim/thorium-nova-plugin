@@ -1,0 +1,160 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Thuban
+description: A solar system named Thuban
+position:
+  x: 35596839.15673016
+  'y': -143692298.45142597
+  z: -59015863.25701428
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Thuban
+stars:
+  - name: 'Thuban '
+    description: ''
+    tags: []
+    radius: 4.932
+    temperature: 10225
+    solarMass: 3.186
+    age: 691059836934
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 329
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Thuban
+planets:
+  - name: Thuban 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1375
+      age: 541648752
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.009434983657567722
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 38
+    satellite:
+      semiMajorAxis: 2045815305
+      eccentricity: 0
+      inclination: 1.12
+      orbitalArc: 269
+      axialTilt: 26.95
+      parentId: Thuban
+      showOrbit: true
+    satellites:
+      - name: Thuban 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 162.02531094448065
+          age: 910170369
+          ringMapAsset: null
+          terranMass: 0.45999988689310345
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 218
+        satellite:
+          semiMajorAxis: 52310.1449470268
+          eccentricity: 0.01
+          inclination: 1.18
+          orbitalArc: 63
+          axialTilt: 12.68
+          parentId: Thuban 1
+          showOrbit: true
+        satellites: []
+      - name: Thuban 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 217.66404527854505
+          age: 43301932
+          ringMapAsset: null
+          terranMass: 0.22999970647983514
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 223
+        satellite:
+          semiMajorAxis: 75991.79524137093
+          eccentricity: 0.02
+          inclination: 1.11
+          orbitalArc: 98
+          axialTilt: 32.66
+          parentId: Thuban 1
+          showOrbit: true
+        satellites: []
+      - name: Thuban 1c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 212.40738082704075
+          age: 6245239437
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 105370
+        temperature: 263
+        satellite:
+          semiMajorAxis: 103867.20922442293
+          eccentricity: 0
+          inclination: 0.33
+          orbitalArc: 179
+          axialTilt: 0.46
+          parentId: Thuban 1
+          showOrbit: true
+        satellites: []
+  - name: Thuban 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 135
+      age: 744279181
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.011936225176672297
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 180
+    satellite:
+      semiMajorAxis: 3614115603
+      eccentricity: 0.01
+      inclination: 0.36
+      orbitalArc: 162
+      axialTilt: 4.61
+      parentId: Thuban
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

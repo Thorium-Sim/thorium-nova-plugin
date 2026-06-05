@@ -1,0 +1,78 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Piautos
+description: A solar system named Piautos
+position:
+  x: -216083849.27260897
+  'y': -117762860.01469566
+  z: -152057358.15372983
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Piautos
+stars:
+  - name: Piautos A
+    description: ''
+    tags: []
+    radius: 3.69
+    temperature: 10162
+    solarMass: 2.61
+    age: 1036669442433
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 250
+      semiMajorAxis: 44.28
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Piautos
+  - name: Piautos B
+    description: ''
+    tags: []
+    radius: 3.69
+    temperature: 10162
+    solarMass: 2.61
+    age: 1036669442433
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 430
+      semiMajorAxis: 44.28
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Piautos
+planets:
+  - name: Piautos 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5168
+      age: 3622824362
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.029606117663696904
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 150046
+    temperature: 266
+    satellite:
+      semiMajorAxis: 2237319785
+      eccentricity: 0.01
+      inclination: 0.98
+      orbitalArc: 316
+      axialTilt: 31.58
+      parentId: Piautos
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

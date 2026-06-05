@@ -1,0 +1,131 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sadalbari
+description: A solar system named Sadalbari
+position:
+  x: 15242357.33814605
+  'y': -23209782.03913985
+  z: 48344961.511717916
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sadalbari
+stars:
+  - name: Sadalbari A
+    description: ''
+    tags: []
+    radius: 9.32
+    temperature: 4961
+    solarMass: 2.59
+    age: 2838966812606
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 210
+      semiMajorAxis: 111.84
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sadalbari
+  - name: Sadalbari B
+    description: ''
+    tags: []
+    radius: 9.32
+    temperature: 4961
+    solarMass: 2.59
+    age: 2838966812606
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 390
+      semiMajorAxis: 111.84
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sadalbari
+planets:
+  - name: Sadalbari 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 93
+      age: 98384777
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.006395516956626894
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 340
+    satellite:
+      semiMajorAxis: 372204827
+      eccentricity: 0
+      inclination: 0
+      orbitalArc: 4
+      axialTilt: 35.48
+      parentId: Sadalbari
+      showOrbit: true
+    satellites: []
+  - name: Sadalbari 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2849
+      age: 6510684911
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+      terranMass: 0.020859757951225553
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 10669
+    temperature: 168
+    satellite:
+      semiMajorAxis: 731216588
+      eccentricity: 0
+      inclination: 1.99
+      orbitalArc: 241
+      axialTilt: 2.5
+      parentId: Sadalbari
+      showOrbit: true
+    satellites: []
+  - name: Sadalbari 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7064
+      age: 9188243015
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0016916337548892742
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 49072
+    temperature: 274
+    satellite:
+      semiMajorAxis: 1064837738
+      eccentricity: 0.01
+      inclination: 0.93
+      orbitalArc: 260
+      axialTilt: 12.51
+      parentId: Sadalbari
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

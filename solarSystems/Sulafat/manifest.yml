@@ -1,0 +1,127 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sulafat
+description: A solar system named Sulafat
+position:
+  x: 265417816.5464465
+  'y': -176119756.68392348
+  z: 69808978.135713
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sulafat
+stars:
+  - name: Sulafat A
+    description: ''
+    tags: []
+    radius: 16.4
+    temperature: 11000
+    solarMass: 5.76
+    age: 84359370659
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 151
+      semiMajorAxis: 196.79999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sulafat
+  - name: Sulafat B
+    description: ''
+    tags: []
+    radius: 16.4
+    temperature: 11000
+    solarMass: 5.76
+    age: 84359370659
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 331
+      semiMajorAxis: 196.79999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sulafat
+planets:
+  - name: Sulafat 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 92
+      age: 124625157
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.015580450883486552
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 394
+    satellite:
+      semiMajorAxis: 2210416193
+      eccentricity: 0.01
+      inclination: 1.23
+      orbitalArc: 242
+      axialTilt: 33.67
+      parentId: Sulafat
+      showOrbit: true
+    satellites: []
+  - name: Sulafat 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6721
+      age: 1653032524
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.004437167164692941
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1434
+    satellite:
+      semiMajorAxis: 3113866248.6666656
+      eccentricity: 0.01
+      inclination: 1.2
+      orbitalArc: 157
+      axialTilt: 14.94
+      parentId: Sulafat
+      showOrbit: true
+    satellites: []
+  - name: Sulafat 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6245
+      age: 2973858139
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.02264022415587711
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 543
+    satellite:
+      semiMajorAxis: 4803480814
+      eccentricity: 0.01
+      inclination: 1.68
+      orbitalArc: 331
+      axialTilt: 27.24
+      parentId: Sulafat
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,129 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Ascella
+description: A solar system named Ascella
+position:
+  x: 38643527.54428201
+  'y': 23058282.671716567
+  z: 10828040.821678376
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Ascella
+stars:
+  - name: Ascella A
+    description: ''
+    tags: []
+    radius: 1.9
+    temperature: 8230
+    solarMass: 1.83
+    age: 6372558506497
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 173
+      semiMajorAxis: 22.799999999999997
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Ascella
+  - name: Ascella B
+    description: ''
+    tags: []
+    radius: 1.9
+    temperature: 8230
+    solarMass: 1.83
+    age: 6372558506497
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 353
+      semiMajorAxis: 22.799999999999997
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Ascella
+planets:
+  - name: Ascella 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 3043
+      age: 4178390217
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.0037990954946831687
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 623
+    satellite:
+      semiMajorAxis: 315062170.3333331
+      eccentricity: 0
+      inclination: 1.53
+      orbitalArc: 92
+      axialTilt: 23.76
+      parentId: Ascella
+      showOrbit: true
+    satellites:
+      - name: Ascella 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 737.5086541901946
+          age: 503869642
+          ringMapAsset: null
+          terranMass: 0.3000001339338588
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 36
+        satellite:
+          semiMajorAxis: 320816.26457273465
+          eccentricity: 0.02
+          inclination: 1.4
+          orbitalArc: 193
+          axialTilt: 0.13
+          parentId: Ascella 1
+          showOrbit: true
+        satellites: []
+  - name: Ascella 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4669
+      age: 9131966423
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
+      terranMass: 0.004913329185170447
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 44835
+    temperature: 260
+    satellite:
+      semiMajorAxis: 788237954
+      eccentricity: 0.01
+      inclination: 1.56
+      orbitalArc: 259
+      axialTilt: 27.92
+      parentId: Ascella
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

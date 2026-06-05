@@ -1,0 +1,80 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Kaus Australis
+description: A solar system named Kaus Australis
+position:
+  x: 61725162.30864156
+  'y': 42475792.07852144
+  z: 6534408.012396523
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Kaus Australis
+stars:
+  - name: Kaus Australis A
+    description: ''
+    tags: []
+    radius: 8.8
+    temperature: 11720
+    solarMass: 3.8
+    age: 149995106273
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 351
+      semiMajorAxis: 105.60000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kaus Australis
+  - name: Kaus Australis B
+    description: ''
+    tags: []
+    radius: 8.8
+    temperature: 11720
+    solarMass: 3.8
+    age: 149995106273
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 531
+      semiMajorAxis: 105.60000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Kaus Australis
+planets:
+  - name: Kaus Australis 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 57414
+      age: 4422585579
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+      terranMass: 0.4406545794232876
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 153
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 0.2
+      orbitalArc: 93
+      axialTilt: 31.62
+      parentId: Kaus Australis
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

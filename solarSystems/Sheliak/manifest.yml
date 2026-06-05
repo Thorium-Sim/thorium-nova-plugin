@@ -1,0 +1,183 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sheliak
+description: A solar system named Sheliak
+position:
+  x: 411685581.53095675
+  'y': -277674900.5512959
+  z: 91419110.20079952
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sheliak
+stars:
+  - name: Sheliak A
+    description: ''
+    tags: []
+    radius: 15.2
+    temperature: 13300
+    solarMass: 2.97
+    age: 23693651374
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 308
+      semiMajorAxis: 182.39999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sheliak
+  - name: Sheliak B
+    description: ''
+    tags: []
+    radius: 15.2
+    temperature: 13300
+    solarMass: 2.97
+    age: 23693651374
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 488
+      semiMajorAxis: 182.39999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sheliak
+planets:
+  - name: Sheliak 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 49737
+      age: 7683383020
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+      terranMass: 1.8111620081859088
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 254
+    satellite:
+      semiMajorAxis: 3881256627
+      eccentricity: 0.01
+      inclination: 0.02
+      orbitalArc: 303
+      axialTilt: 26.14
+      parentId: Sheliak
+      showOrbit: true
+    satellites:
+      - name: Sheliak 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 3927.9013932529724
+          age: 2368795206
+          ringMapAsset: null
+          terranMass: 1.1000001350507231
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          classification: F
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 751
+        satellite:
+          semiMajorAxis: 2456240.8966446556
+          eccentricity: 0.02
+          inclination: 1.15
+          orbitalArc: 179
+          axialTilt: 21.03
+          parentId: Sheliak 1
+          showOrbit: true
+        satellites: []
+      - name: Sheliak 1b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 11660.052094069519
+          age: 5309989616
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 163828
+        temperature: 264
+        satellite:
+          semiMajorAxis: 4419159.7436523475
+          eccentricity: 0.02
+          inclination: 1.46
+          orbitalArc: 338
+          axialTilt: 36.99
+          parentId: Sheliak 1
+          showOrbit: true
+        satellites: []
+  - name: Sheliak 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7024
+      age: 8767576125
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.020294723349575588
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 103449
+    temperature: 267
+    satellite:
+      semiMajorAxis: 5937839877
+      eccentricity: 0.01
+      inclination: 1.56
+      orbitalArc: 342
+      axialTilt: 3.23
+      parentId: Sheliak
+      showOrbit: true
+    satellites:
+      - name: Sheliak 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1219.267818330058
+          age: 8459311558
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 168372
+        temperature: 262
+        satellite:
+          semiMajorAxis: 508434.68024363415
+          eccentricity: 0.02
+          inclination: 0.93
+          orbitalArc: 335
+          axialTilt: 39.22
+          parentId: Sheliak 2
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

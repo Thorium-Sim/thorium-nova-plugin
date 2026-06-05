@@ -1,0 +1,135 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Ancha
+description: A solar system named Ancha
+position:
+  x: 42399588.40801888
+  'y': 13319821.954336531
+  z: 87740918.90541019
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Ancha
+stars:
+  - name: 'Ancha '
+    description: ''
+    tags: []
+    radius: 12
+    temperature: 4864
+    solarMass: 2.39
+    age: 1710135129130
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 163
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Ancha
+planets:
+  - name: Ancha 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2662
+      age: 7593812149
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.002811859353029019
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      classification: B
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 415
+    satellite:
+      semiMajorAxis: 58980504
+      eccentricity: 0.01
+      inclination: 1.65
+      orbitalArc: 248
+      axialTilt: 3.82
+      parentId: Ancha
+      showOrbit: true
+    satellites: []
+  - name: Ancha 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 172
+      age: 403416097
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.01234827065106963
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 204
+    satellite:
+      semiMajorAxis: 317760072
+      eccentricity: 0.01
+      inclination: 0.13
+      orbitalArc: 271
+      axialTilt: 11.39
+      parentId: Ancha
+      showOrbit: true
+    satellites: []
+  - name: Ancha 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 481
+      age: 664340813
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.013295749469004598
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 369
+    satellite:
+      semiMajorAxis: 737300168.6666657
+      eccentricity: 0.02
+      inclination: 1.76
+      orbitalArc: 249
+      axialTilt: 33.58
+      parentId: Ancha
+      showOrbit: true
+    satellites: []
+  - name: Ancha 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5307
+      age: 5846914952
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0022070995868898693
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 292989593
+    temperature: 428
+    satellite:
+      semiMajorAxis: 978473714
+      eccentricity: 0.01
+      inclination: 1.02
+      orbitalArc: 254
+      axialTilt: 24.98
+      parentId: Ancha
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

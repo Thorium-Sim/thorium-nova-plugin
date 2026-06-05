@@ -1,0 +1,103 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Sheratan
+description: A solar system named Sheratan
+position:
+  x: -14053880.894365547
+  'y': -11135722.035175873
+  z: 25712488.74599543
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Sheratan
+stars:
+  - name: Sheratan A
+    description: ''
+    tags: []
+    radius: 1.985
+    temperature: 8759
+    solarMass: 2.067
+    age: 5140088937130
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 67
+      semiMajorAxis: 23.82
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sheratan
+  - name: Sheratan B
+    description: ''
+    tags: []
+    radius: 1.985
+    temperature: 8759
+    solarMass: 2.067
+    age: 5140088937130
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 247
+      semiMajorAxis: 23.82
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Sheratan
+planets:
+  - name: Sheratan 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 889
+      age: 959300164
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.022093882286039885
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 33
+    satellite:
+      semiMajorAxis: 928030612
+      eccentricity: 0.02
+      inclination: 0.7
+      orbitalArc: 211
+      axialTilt: 18.6
+      parentId: Sheratan
+      showOrbit: true
+    satellites:
+      - name: Sheratan 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 182.12354825739132
+          age: 5200534346
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 135480
+        temperature: 269
+        satellite:
+          semiMajorAxis: 85780.1912292313
+          eccentricity: 0.01
+          inclination: 0.24
+          orbitalArc: 314
+          axialTilt: 8.4
+          parentId: Sheratan 1
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

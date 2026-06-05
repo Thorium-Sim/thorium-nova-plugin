@@ -1,0 +1,78 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Albaldah
+description: A solar system named Albaldah
+position:
+  x: 238872524.8733937
+  'y': 96231681.58916835
+  z: 75045741.56666604
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Albaldah
+stars:
+  - name: Albaldah A
+    description: ''
+    tags: []
+    radius: 28.4
+    temperature: 6590
+    solarMass: 5.9
+    age: 223688139644
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 126
+      semiMajorAxis: 340.79999999999995
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Albaldah
+  - name: Albaldah B
+    description: ''
+    tags: []
+    radius: 28.4
+    temperature: 6590
+    solarMass: 5.9
+    age: 223688139644
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 306
+      semiMajorAxis: 340.79999999999995
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Albaldah
+planets:
+  - name: Albaldah 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6226
+      age: 5308824302
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.009981428303867912
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 600913181
+    temperature: 300
+    satellite:
+      semiMajorAxis: 3951156619
+      eccentricity: 0.01
+      inclination: 1.53
+      orbitalArc: 16
+      axialTilt: 19.05
+      parentId: Albaldah
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

@@ -1,0 +1,387 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alkarab
+description: A solar system named Alkarab
+position:
+  x: 12348372.536182754
+  'y': -35516135.729921915
+  z: 81122389.8363541
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alkarab
+stars:
+  - name: Alkarab A
+    description: ''
+    tags: []
+    radius: 5.97
+    temperature: 6061
+    solarMass: 2.17
+    age: 2601975602045
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 81
+      semiMajorAxis: 71.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alkarab
+  - name: Alkarab B
+    description: ''
+    tags: []
+    radius: 5.97
+    temperature: 6061
+    solarMass: 2.17
+    age: 2601975602045
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 261
+      semiMajorAxis: 71.64
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alkarab
+planets:
+  - name: Alkarab 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 117
+      age: 793413437
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.026416217785424204
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 211
+    satellite:
+      semiMajorAxis: 337407535
+      eccentricity: 0.02
+      inclination: 1.21
+      orbitalArc: 143
+      axialTilt: 23.48
+      parentId: Alkarab
+      showOrbit: true
+    satellites: []
+  - name: Alkarab 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5320
+      age: 835915395
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.017173674759373456
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      classification: E
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1017
+    satellite:
+      semiMajorAxis: 830428808.6666666
+      eccentricity: 0.01
+      inclination: 0.87
+      orbitalArc: 152
+      axialTilt: 11.99
+      parentId: Alkarab
+      showOrbit: true
+    satellites: []
+  - name: Alkarab 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6870
+      age: 7213545233
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.003214057259195032
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 378537462
+    temperature: 296
+    satellite:
+      semiMajorAxis: 971636750.7777778
+      eccentricity: 0
+      inclination: 0.7
+      orbitalArc: 287
+      axialTilt: 25.92
+      parentId: Alkarab
+      showOrbit: true
+    satellites:
+      - name: Alkarab 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 620.7536415029908
+          age: 8072849589
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 24881
+        temperature: 266
+        satellite:
+          semiMajorAxis: 259371.45906961217
+          eccentricity: 0.02
+          inclination: 1.25
+          orbitalArc: 102
+          axialTilt: 13.63
+          parentId: Alkarab 3
+          showOrbit: true
+        satellites: []
+      - name: Alkarab 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1715.3493961046565
+          age: 167535068
+          ringMapAsset: null
+          terranMass: 0.21999967331380144
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 320
+        satellite:
+          semiMajorAxis: 679278.360857444
+          eccentricity: 0.01
+          inclination: 0.92
+          orbitalArc: 270
+          axialTilt: 5.62
+          parentId: Alkarab 3
+          showOrbit: true
+        satellites: []
+  - name: Alkarab 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6890
+      age: 9257516496
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.010128851960792405
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 40695
+    temperature: 256
+    satellite:
+      semiMajorAxis: 2009314201.7777781
+      eccentricity: 0.02
+      inclination: 1.64
+      orbitalArc: 244
+      axialTilt: 34.85
+      parentId: Alkarab
+      showOrbit: true
+    satellites:
+      - name: Alkarab 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 364.45390588253593
+          age: 640329303
+          ringMapAsset: null
+          terranMass: 0.5899999819560542
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 372
+        satellite:
+          semiMajorAxis: 78392.36550257291
+          eccentricity: 0.02
+          inclination: 1.08
+          orbitalArc: 257
+          axialTilt: 10.05
+          parentId: Alkarab 4
+          showOrbit: true
+        satellites: []
+      - name: Alkarab 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 409.0843549993784
+          age: 571103695
+          ringMapAsset: null
+          terranMass: 1.16999965623441
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 274
+        satellite:
+          semiMajorAxis: 244752.93080311822
+          eccentricity: 0.01
+          inclination: 1.78
+          orbitalArc: 18
+          axialTilt: 32.62
+          parentId: Alkarab 4
+          showOrbit: true
+        satellites: []
+      - name: Alkarab 4c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1092.0022910457344
+          age: 117336226
+          ringMapAsset: null
+          terranMass: 1.3999998832789478
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 285
+        satellite:
+          semiMajorAxis: 341796.7170973149
+          eccentricity: 0
+          inclination: 1.48
+          orbitalArc: 148
+          axialTilt: 32.05
+          parentId: Alkarab 4
+          showOrbit: true
+        satellites: []
+  - name: Alkarab 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 45337
+      age: 7673717086
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+      terranMass: 0.5579335036764231
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 294
+    satellite:
+      semiMajorAxis: 3035792201.5555563
+      eccentricity: 0.02
+      inclination: 1.91
+      orbitalArc: 78
+      axialTilt: 30.45
+      parentId: Alkarab
+      showOrbit: true
+    satellites:
+      - name: Alkarab 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 10661.608004551628
+          age: 9641668618
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 59494
+        temperature: 267
+        satellite:
+          semiMajorAxis: 4520521.793929891
+          eccentricity: 0.02
+          inclination: 1.82
+          orbitalArc: 54
+          axialTilt: 32.21
+          parentId: Alkarab 5
+          showOrbit: true
+        satellites: []
+  - name: Alkarab 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 50629
+      age: 2367770028
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.2427995394782162
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 255
+    satellite:
+      semiMajorAxis: 3644536713
+      eccentricity: 0.01
+      inclination: 0.55
+      orbitalArc: 173
+      axialTilt: 7.38
+      parentId: Alkarab
+      showOrbit: true
+    satellites:
+      - name: Alkarab 6a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 7499.690924363336
+          age: 3940915844
+          ringMapAsset: null
+          terranMass: 1.5000006930979581
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          classification: B
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 505
+        satellite:
+          semiMajorAxis: 2242407.5863846377
+          eccentricity: 0
+          inclination: 1.77
+          orbitalArc: 252
+          axialTilt: 22.73
+          parentId: Alkarab 6
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

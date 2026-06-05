@@ -1,0 +1,77 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alkaid
+description: A solar system named Alkaid
+position:
+  x: 16110111.209332723
+  'y': -41438202.41751766
+  z: -31775162.848100435
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alkaid
+stars:
+  - name: Alkaid A
+    description: ''
+    tags: []
+    radius: 3.4
+    temperature: 15540
+    solarMass: 6.1
+    age: 521839834177
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 310
+      semiMajorAxis: 40.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alkaid
+  - name: Alkaid B
+    description: ''
+    tags: []
+    radius: 3.4
+    temperature: 15540
+    solarMass: 6.1
+    age: 521839834177
+    spectralType: B
+    hue: 200
+    isWhite: false
+    satellite:
+      orbitalArc: 490
+      semiMajorAxis: 40.8
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alkaid
+planets:
+  - name: Alkaid 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 481
+      age: 956814143
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.0017471565498824908
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 265
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.96
+      orbitalArc: 342
+      axialTilt: 34.98
+      parentId: Alkaid
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

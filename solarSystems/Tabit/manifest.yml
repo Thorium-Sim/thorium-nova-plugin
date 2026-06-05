@@ -1,0 +1,305 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Tabit
+description: A solar system named Tabit
+position:
+  x: -13102348.533921417
+  'y': -1677782.8704102528
+  z: 4141202.036365892
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Tabit
+stars:
+  - name: Tabit A
+    description: ''
+    tags: []
+    radius: 1.317
+    temperature: 6518
+    solarMass: 1.288
+    age: 23727728972415
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 233
+      semiMajorAxis: 15.803999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tabit
+  - name: Tabit B
+    description: ''
+    tags: []
+    radius: 1.317
+    temperature: 6518
+    solarMass: 1.288
+    age: 23727728972415
+    spectralType: F
+    hue: 60
+    isWhite: false
+    satellite:
+      orbitalArc: 413
+      semiMajorAxis: 15.803999999999998
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Tabit
+planets:
+  - name: Tabit 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5584
+      age: 7351847735
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.006945389255286517
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 125430502
+    temperature: 303
+    satellite:
+      semiMajorAxis: 115974072.66666794
+      eccentricity: 0
+      inclination: 0.65
+      orbitalArc: 105
+      axialTilt: 15.2
+      parentId: Tabit
+      showOrbit: true
+    satellites: []
+  - name: Tabit 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 60
+      age: 632410479
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.0003796400434474173
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      classification: D
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 267
+    satellite:
+      semiMajorAxis: 211710329.444458
+      eccentricity: 0.01
+      inclination: 0.87
+      orbitalArc: 315
+      axialTilt: 22.88
+      parentId: Tabit
+      showOrbit: true
+    satellites: []
+  - name: Tabit 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4243
+      age: 52211033
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+      terranMass: 0.008048429450057765
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 55
+    satellite:
+      semiMajorAxis: 289525575.92618763
+      eccentricity: 0.02
+      inclination: 1.82
+      orbitalArc: 222
+      axialTilt: 3.11
+      parentId: Tabit
+      showOrbit: true
+    satellites:
+      - name: Tabit 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 652.2283276463809
+          age: 161673104
+          ringMapAsset: null
+          terranMass: 1.800000002214686
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          classification: C
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 42
+        satellite:
+          semiMajorAxis: 180667.2467580475
+          eccentricity: 0.01
+          inclination: 1.93
+          orbitalArc: 159
+          axialTilt: 1.94
+          parentId: Tabit 3
+          showOrbit: true
+        satellites: []
+  - name: Tabit 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6206
+      age: 5263303417
+      cloudMapAsset: null
+      ringMapAsset: null
+      terranMass: 0.0026035560947152677
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 668867709
+    temperature: 300
+    satellite:
+      semiMajorAxis: 1693276338.9507918
+      eccentricity: 0.01
+      inclination: 0.78
+      orbitalArc: 326
+      axialTilt: 30.95
+      parentId: Tabit
+      showOrbit: true
+    satellites:
+      - name: Tabit 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 516.6582701652679
+          age: 4390721731
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 106790
+        temperature: 261
+        satellite:
+          semiMajorAxis: 167080.42188342713
+          eccentricity: 0.01
+          inclination: 1.4
+          orbitalArc: 195
+          axialTilt: 17.87
+          parentId: Tabit 4
+          showOrbit: true
+        satellites: []
+      - name: Tabit 4b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1243.5417366256568
+          age: 391387399
+          ringMapAsset: null
+          terranMass: 1.3399998989913342
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 278
+        satellite:
+          semiMajorAxis: 416586.481769595
+          eccentricity: 0.01
+          inclination: 0.73
+          orbitalArc: 31
+          axialTilt: 14.64
+          parentId: Tabit 4
+          showOrbit: true
+        satellites: []
+  - name: Tabit 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 2785
+      age: 881298514
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.0028169363953156187
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 36
+    satellite:
+      semiMajorAxis: 3376407469
+      eccentricity: 0.01
+      inclination: 0.63
+      orbitalArc: 341
+      axialTilt: 22.43
+      parentId: Tabit
+      showOrbit: true
+    satellites:
+      - name: Tabit 5a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 330.5999566022889
+          age: 283690119
+          ringMapAsset: null
+          terranMass: 0.4199999471661815
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 198
+        satellite:
+          semiMajorAxis: 59850.72854186662
+          eccentricity: 0
+          inclination: 0.67
+          orbitalArc: 96
+          axialTilt: 29.8
+          parentId: Tabit 5
+          showOrbit: true
+        satellites: []
+      - name: Tabit 5b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 334.3128018857825
+          age: 1587422631
+          ringMapAsset: null
+          terranMass: 0.200000214162991
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+          classification: A
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 1441
+        satellite:
+          semiMajorAxis: 112997.72703739449
+          eccentricity: 0.01
+          inclination: 0.01
+          orbitalArc: 20
+          axialTilt: 28.53
+          parentId: Tabit 5
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

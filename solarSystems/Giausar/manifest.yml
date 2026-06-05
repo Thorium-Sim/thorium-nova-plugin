@@ -1,0 +1,265 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Giausar
+description: A solar system named Giausar
+position:
+  x: -7693635.935542887
+  'y': -163871598.499505
+  z: -61339759.56596776
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Giausar
+stars:
+  - name: Giausar A
+    description: ''
+    tags: []
+    radius: 69.99
+    temperature: 3761
+    solarMass: 1.53
+    age: 90027542347
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 288
+      semiMajorAxis: 839.8799999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Giausar
+  - name: Giausar B
+    description: ''
+    tags: []
+    radius: 69.99
+    temperature: 3761
+    solarMass: 1.53
+    age: 90027542347
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 468
+      semiMajorAxis: 839.8799999999999
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Giausar
+planets:
+  - name: Giausar 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4118
+      age: 8559522226
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+      terranMass: 0.007042369994967002
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      classification: L
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+    population: 15298
+    temperature: 271
+    satellite:
+      semiMajorAxis: 2213552967.0000005
+      eccentricity: 0
+      inclination: 1.82
+      orbitalArc: 130
+      axialTilt: 21.45
+      parentId: Giausar
+      showOrbit: true
+    satellites: []
+  - name: Giausar 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 1338
+      age: 940895246
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.011903295420853468
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      classification: C
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 42
+    satellite:
+      semiMajorAxis: 3232407576.000001
+      eccentricity: 0.01
+      inclination: 0.44
+      orbitalArc: 76
+      axialTilt: 3.31
+      parentId: Giausar
+      showOrbit: true
+    satellites:
+      - name: Giausar 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 301.48867459203785
+          age: 3549458924
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 175525
+        temperature: 259
+        satellite:
+          semiMajorAxis: 141699.6770582578
+          eccentricity: 0.01
+          inclination: 1.32
+          orbitalArc: 55
+          axialTilt: 15.13
+          parentId: Giausar 2
+          showOrbit: true
+        satellites: []
+  - name: Giausar 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 6846
+      age: 9570637615
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.01605146662647637
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 5018143107
+    temperature: 297
+    satellite:
+      semiMajorAxis: 3521153909.0000057
+      eccentricity: 0
+      inclination: 1.58
+      orbitalArc: 189
+      axialTilt: 36.18
+      parentId: Giausar
+      showOrbit: true
+    satellites: []
+  - name: Giausar 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5531
+      age: 2163167430
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.0065915088882905655
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 698
+    satellite:
+      semiMajorAxis: 3716472943.3333497
+      eccentricity: 0.01
+      inclination: 0.51
+      orbitalArc: 6
+      axialTilt: 15.36
+      parentId: Giausar
+      showOrbit: true
+    satellites:
+      - name: Giausar 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1028.0651222857214
+          age: 7036247058
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.9000000001245678
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 753
+        satellite:
+          semiMajorAxis: 356738.59743314533
+          eccentricity: 0.01
+          inclination: 0.39
+          orbitalArc: 169
+          axialTilt: 33.6
+          parentId: Giausar 4
+          showOrbit: true
+        satellites: []
+  - name: Giausar 5
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 30032
+      age: 9477625520
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+      terranMass: 0.18914872751085754
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 267
+    satellite:
+      semiMajorAxis: 3851046506.1111684
+      eccentricity: 0.02
+      inclination: 1.51
+      orbitalArc: 290
+      axialTilt: 11.69
+      parentId: Giausar
+      showOrbit: true
+    satellites: []
+  - name: Giausar 6
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 31545
+      age: 3640707547
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 2.092084116440286
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 186
+    satellite:
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 1.72
+      orbitalArc: 124
+      axialTilt: 7.52
+      parentId: Giausar
+      showOrbit: true
+    satellites: []
+commSatellite: null
+assets: {}

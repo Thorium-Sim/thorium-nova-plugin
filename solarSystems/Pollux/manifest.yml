@@ -1,0 +1,234 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Pollux
+description: A solar system named Pollux
+position:
+  x: -14056487.467914231
+  'y': -8348240.098452578
+  z: -6955990.677626597
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Pollux
+stars:
+  - name: Pollux A
+    description: ''
+    tags: []
+    radius: 8.97
+    temperature: 4810
+    solarMass: 1.91
+    age: 2557628484780
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 112
+      semiMajorAxis: 107.64000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Pollux
+  - name: Pollux B
+    description: ''
+    tags: []
+    radius: 8.97
+    temperature: 4810
+    solarMass: 1.91
+    age: 2557628484780
+    spectralType: K
+    hue: 30
+    isWhite: false
+    satellite:
+      orbitalArc: 292
+      semiMajorAxis: 107.64000000000001
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Pollux
+planets:
+  - name: Pollux 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5807
+      age: 7486324880
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+      terranMass: 0.007646821558044017
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      classification: O
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 263748468
+    temperature: 291
+    satellite:
+      semiMajorAxis: 659082311.6666667
+      eccentricity: 0.01
+      inclination: 0.79
+      orbitalArc: 112
+      axialTilt: 22.93
+      parentId: Pollux
+      showOrbit: true
+    satellites:
+      - name: Pollux 1a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 309.9694815223849
+          age: 59930609
+          ringMapAsset: null
+          terranMass: 1.1299999173256234
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 224
+        satellite:
+          semiMajorAxis: 110349.13542196903
+          eccentricity: 0.01
+          inclination: 0.88
+          orbitalArc: 337
+          axialTilt: 27.3
+          parentId: Pollux 1
+          showOrbit: true
+        satellites: []
+  - name: Pollux 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7384
+      age: 8859269575
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+      terranMass: 0.015214727132747583
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      classification: M
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 1113980975
+    temperature: 299
+    satellite:
+      semiMajorAxis: 1093514833.3333335
+      eccentricity: 0
+      inclination: 0.78
+      orbitalArc: 100
+      axialTilt: 23.81
+      parentId: Pollux
+      showOrbit: true
+    satellites:
+      - name: Pollux 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1786.7938097095107
+          age: 5203995700
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 37957
+        temperature: 259
+        satellite:
+          semiMajorAxis: 712930.7300740947
+          eccentricity: 0.02
+          inclination: 0.73
+          orbitalArc: 123
+          axialTilt: 19.99
+          parentId: Pollux 2
+          showOrbit: true
+        satellites: []
+  - name: Pollux 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7441
+      age: 3782313716
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.02493483745549685
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      classification: P
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+    population: 172510
+    temperature: 264
+    satellite:
+      semiMajorAxis: 1907873918.4444447
+      eccentricity: 0
+      inclination: 0.73
+      orbitalArc: 83
+      axialTilt: 19.47
+      parentId: Pollux
+      showOrbit: true
+    satellites: []
+  - name: Pollux 4
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 34727
+      age: 3173048080
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+      terranMass: 1.4708860573628653
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      classification: J
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+    population: 0
+    temperature: 309
+    satellite:
+      semiMajorAxis: 3038712994
+      eccentricity: 0.01
+      inclination: 1.87
+      orbitalArc: 345
+      axialTilt: 5.27
+      parentId: Pollux
+      showOrbit: true
+    satellites:
+      - name: Pollux 4a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 2787.2613089310034
+          age: 961147432
+          ringMapAsset: null
+          terranMass: 1.3999999587433185
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 301
+        satellite:
+          semiMajorAxis: 1050797.5134669882
+          eccentricity: 0.01
+          inclination: 0.48
+          orbitalArc: 358
+          axialTilt: 35.49
+          parentId: Pollux 4
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}

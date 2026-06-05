@@ -1,0 +1,215 @@
+apiVersion: solarSystem/v1
+kind: solarSystems
+name: Alioth
+description: A solar system named Alioth
+position:
+  x: 5680164.585037498
+  'y': -35999909.56317772
+  z: -23646333.683375258
+tags: []
+habitableZoneInner: 0.9
+habitableZoneOuter: 3
+skyboxKey: Alioth
+stars:
+  - name: 'Alioth '
+    description: ''
+    tags: []
+    radius: 4.29
+    temperature: 8908
+    solarMass: 2.91
+    age: 1448194372760
+    spectralType: A
+    hue: 180
+    isWhite: true
+    satellite:
+      orbitalArc: 203
+      semiMajorAxis: 0
+      axialTilt: 0
+      eccentricity: 0
+      inclination: 0
+      showOrbit: false
+      parentId: Alioth
+planets:
+  - name: Alioth 1
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 5847
+      age: 9966804608
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+      terranMass: 0.004229905781506073
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      classification: 'N'
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+    population: 66855866
+    temperature: 622
+    satellite:
+      semiMajorAxis: 843761861
+      eccentricity: 0.01
+      inclination: 1.39
+      orbitalArc: 91
+      axialTilt: 25.72
+      parentId: Alioth
+      showOrbit: true
+    satellites: []
+  - name: Alioth 2
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 7182
+      age: 1340455610
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+      terranMass: 0.019449969155920704
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      classification: F
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 599
+    satellite:
+      semiMajorAxis: 1908618089.6666675
+      eccentricity: 0.01
+      inclination: 1.81
+      orbitalArc: 304
+      axialTilt: 19.92
+      parentId: Alioth
+      showOrbit: true
+    satellites:
+      - name: Alioth 2a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1380.8135639335762
+          age: 3145934061
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 0.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 169733
+        temperature: 268
+        satellite:
+          semiMajorAxis: 418386.5098718736
+          eccentricity: 0.01
+          inclination: 0.25
+          orbitalArc: 198
+          axialTilt: 6.29
+          parentId: Alioth 2
+          showOrbit: true
+        satellites: []
+  - name: Alioth 3
+    description: ''
+    tags: []
+    isPlanet:
+      radius: 4797
+      age: 1280548341
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+      terranMass: 0.007719174038311646
+      textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+      classification: A
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+    population: 0
+    temperature: 1696
+    satellite:
+      semiMajorAxis: 3626666523
+      eccentricity: 0
+      inclination: 1.44
+      orbitalArc: 186
+      axialTilt: 31.4
+      parentId: Alioth
+      showOrbit: true
+    satellites:
+      - name: Alioth 3a
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 251.83134793715584
+          age: 5751910557
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+          terranMass: 1.3000000365579139
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          classification: H
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+        population: 0
+        temperature: 708
+        satellite:
+          semiMajorAxis: 178653.20968298707
+          eccentricity: 0.01
+          inclination: 0.11
+          orbitalArc: 219
+          axialTilt: 3.07
+          parentId: Alioth 3
+          showOrbit: true
+        satellites: []
+      - name: Alioth 3b
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 631.8016584774134
+          age: 583279926
+          ringMapAsset: null
+          terranMass: 0.7399998400059384
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          classification: D
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+        population: 0
+        temperature: 178
+        satellite:
+          semiMajorAxis: 314149.8827929082
+          eccentricity: 0.01
+          inclination: 0.22
+          orbitalArc: 29
+          axialTilt: 1.06
+          parentId: Alioth 3
+          showOrbit: true
+        satellites: []
+      - name: Alioth 3c
+        description: ''
+        tags: []
+        isPlanet:
+          radius: 1158.7970720046312
+          age: 7457943197
+          cloudMapAsset: null
+          ringMapAsset: null
+          terranMass: 1.5
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          classification: P
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+        population: 99935
+        temperature: 262
+        satellite:
+          semiMajorAxis: 543475.826770172
+          eccentricity: 0.01
+          inclination: 1.39
+          orbitalArc: 200
+          axialTilt: 20.36
+          parentId: Alioth 3
+          showOrbit: true
+        satellites: []
+commSatellite: null
+assets: {}
