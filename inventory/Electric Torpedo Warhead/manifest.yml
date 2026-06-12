@@ -1,0 +1,18 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Electric Torpedo Warhead
+plural: Electric Torpedoes Warhead
+description: >-
+  Uses a large burst of electric current to overload shields and damage a ship's electrical systems. 
+  Launch with Electric Torpedo casing.
+volume: 85
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoWarhead:
+    damageType: Electric
+    color: deepskyblue
