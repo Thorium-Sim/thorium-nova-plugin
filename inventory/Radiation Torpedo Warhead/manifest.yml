@@ -1,0 +1,18 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Rad Torpedo Warhead
+plural: Rad Torpedoes Warhead
+description: >-
+  Uses refined radioactive material to disrupt DNA and cause cell damage. 
+  Launch with Radiation Torpedo casing.
+volume: 85
+assets:
+  image: null
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoWarhead:
+    damageType: Radiation
+    color: lawngreen

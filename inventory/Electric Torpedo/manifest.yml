@@ -1,0 +1,22 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Electric Torpedo
+plural: Electric Torpedoes
+description: >-
+  A torpedo to launch an Electric warhead.
+  Uses visible light to track targets.
+volume: 85
+assets: {}
+continuous: false
+durability: 1
+abundance: 1
+tags: []
+flags:
+  torpedoCasing:
+    speed: 1500
+    maxForce: 30000
+    maxRange: 125000
+  torpedoWarhead: {}
+  torpedoGuidance:
+    guidanceMode: visual
+    color: darkblue
