@@ -1,0 +1,490 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Operations
+description: Training for the Operations station, combining communications and cargo cards.
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - conditions:
+      - comparison: '='
+        value1: $station
+        value2: Operations
+    triggerBlocks:
+      - id: blo-mjhlmpy94r
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $stationComplement
+            value2: 5 Small
+        triggerBlocks:
+          - id: blo-mjhlmwz63g
+            type: TimelineAvailability
+            isAvailable: true
+    id: blo-mjhlm3vs5v
+    type: IfCondition
+steps:
+  - id: tr-mjhljxlp0h
+    name: Step 1 - Welcome
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            Welcome Operations! Your job includes everything that doesn't fit in
+            another station. Congratulations! That doesn't mean your job isn't
+            important, it just means your responsibilities, including
+            communications and cargo control, are varied.
+          allowAdvance: true
+        id: blo-mjhlp6qz1w
+        type: Action
+      - action: ship.spawn
+        values:
+          template:
+            pluginId: Thorium Default
+            name: Astra Frigate
+          entityId: $shipId
+          distance: 15000
+          tags:
+            - html
+        id: blo-mjoep3683b
+        type: Action
+      - property: id
+        variable: id
+        id: blo-mjoephl46l
+        type: ResultPropertyIntoVariable
+      - action: thorium.setEntityComponent
+        values:
+          entityId: $id
+          components:
+            - component: identity
+              property: name
+              comparison: ''
+              value: Target Ship
+        id: blo-mjoepquj0n
+        type: Action
+      - entity: this timeline
+        variable: contactId
+        value: $id
+        id: blo-mplrrjm00r
+        type: SetVariable
+      - code: |-
+          async function run() {
+              return {a:1, b:2, c:"hi there"}
+          }
+        id: blo-mr9zx0e24j
+        type: Code
+      - debugVariable: ''
+        id: blo-mra01tc84u
+        type: Debug
+  - id: ts-mjnaxljy15
+    name: Step 2 - Login
+    description: ''
+    tags: []
+    blocks:
+      - entity: $clientId
+        component: flightClient
+        property: loginName
+        variable: loginName
+        id: blo-mjnb8i6y3o
+        type: EntityPropertyIntoVariable
+      - debugVariable: ''
+        id: blo-mqmcebjq26
+        type: Debug
+      - conditions:
+          - comparison: is not empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbgxxz6t
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-mjnb8svo27
+        type: IfCondition
+      - conditions:
+          - comparison: is empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbhdn32e
+            type: Action
+            action: client.setTraining
+            values:
+              clientId: $clientId
+              text: >-
+                The first thing you need to do is identify yourself by entering
+                your name and logging in. Do that now.
+              selector:
+                - .login-form
+          - id: blo-mjng261d0u
+            type: EventCondition
+            event: client.login
+            multiple: true
+            persist: false
+            triggerBlocks:
+              - id: blo-mjng4er92w
+                type: ResultPropertyIntoVariable
+                property: clientId
+                variable: loginClientId
+              - id: blo-mjng4s9g2h
+                type: IfCondition
+                conditions:
+                  - comparison: '='
+                    value1: $loginClientId
+                    value2: $clientId
+                triggerBlocks:
+                  - id: blo-mjng4zol66
+                    type: Action
+                    action: timeline.advance
+                    values: {}
+        id: blo-mjnbh6hs62
+        type: IfCondition
+  - id: ms-mqqmly9f2p
+    name: Step 3 - Short Range Card
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Short Range Comm
+        id: blo-mqqlxcqi65
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqqmijbz0g
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqqmhzad3r
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqqmi9i46w
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $spawnedTimelineId
+                value2: $completeTimelineId
+            triggerBlocks:
+              - id: blo-mqqmlkxq73
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqqmhvvu3w
+        type: EventCondition
+  - id: ms-mqs8plox5s
+    name: Step 4 - Move to Long Range Comm
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqs8plow6n
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Now lets learn how to use the Long Range Communications. Go ahead
+            and move to that screen now.
+          selector:
+            - .card-button-long-range-comm
+      - event: client.setCard
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8rbs75f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqs8rbs80y
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: eventCard
+          - id: blo-mqs8rbsb3e
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventCard
+                value2: LongRangeComm
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqzzmh0y01
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8rbsb2r
+        type: EventCondition
+  - id: ms-mqs8s2zy0e
+    name: Step 5 - Long Range Comm
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Long Range Comm
+        id: blo-mqs8s7n56s
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqs8sukt4k
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8t84g4o
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqs8td0q6j
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $completeTimelineId
+                value2: $spawnedTimelineId
+            triggerBlocks:
+              - id: blo-mqs8tkut0t
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8t4960b
+        type: EventCondition
+  - id: ms-mqs8plox5q
+    name: Step 6 - Move to Documents
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqs8plow6q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Lets take a look at the Documents screen. Go ahead and move to that
+            screen now.
+          selector:
+            - .card-button-documents
+      - event: client.setCard
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8rbs75q
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqs8rbs80q
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: eventCard
+          - id: blo-mqs8rbsb3q
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventCard
+                value2: Documents
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqzzmh0y01
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8rbsb21
+        type: EventCondition
+  - id: ms-mqs8s2zy0q
+    name: Step 7 - Documents
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Documents
+        id: blo-mqs8s7n561
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqs8sukt41
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8t84g41
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqs8td0q61
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $completeTimelineId
+                value2: $spawnedTimelineId
+            triggerBlocks:
+              - id: blo-mqs8tkut01
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8t49601
+        type: EventCondition
+  - id: ms-mr49g9x94e
+    name: Step 8 - Move to Cargo Control
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr49g9x85g
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This next screen doesn't have anything to do with communication.
+            Instead, you'll be managing the cargo on the ship. Go ahead and go
+            there now.
+          selector:
+            - .card-button-cargo-control
+      - event: client.setCard
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8rbs75f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqs8rbs80f
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: eventCard
+          - id: blo-mqs8rbsb3f
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventCard
+                value2: CargoControl
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqzzmh0y0f
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8rbsb2f
+        type: EventCondition
+  - id: ms-mqs8s2zy0f
+    name: Step 9 - Cargo Control
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Cargo Control
+        id: blo-mqs8s7n56f
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqs8sukt4f
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8t84g4f
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqs8td0q6f
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $completeTimelineId
+                value2: $spawnedTimelineId
+            triggerBlocks:
+              - id: blo-mqs8tkut0f
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8t4960f
+        type: EventCondition
+  - id: ms-mk1zllmy2w
+    name: Step 26 - Officers Log Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zllmx28
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            There are a few extra things unrelated to your main station. The
+            first is your officers log, which you can open by clicking this
+            button. Feel free to use it to write down notes, ideas, or thoughts
+            during the mission.
+          allowAdvance: true
+          selector:
+            - .widget-OfficersLog
+  - id: ms-mk1zpl9n4h
+    name: Step 27 - Objectives Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zpl9m6k
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .widget-Objectives
+          text: >-
+            This will show you your ships current objectives, which can be
+            helpful to know what your team needs to do next.
+          allowAdvance: true
+  - id: ms-mk1zqlko4i
+    name: Step 28 - Settings Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zqlkn2q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          allowAdvance: true
+          selector:
+            - .widget-Settings
+          text: >-
+            Finally, this is the settings for your station, where you can
+            configure audio volume levels and gamepads which you can use to
+            control your station.
+  - id: ms-mk1zx1jx3e
+    name: Step 29 - Done
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zx1jw3z
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            That concludes your training. If you don't feel confident, feel free
+            to play around with your controls further until you've mastered your
+            communications and cargo controls.
+
+
+            Good luck!
+          allowAdvance: true
+          card: ''

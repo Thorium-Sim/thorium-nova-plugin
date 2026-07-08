@@ -741,6 +741,105 @@ steps:
           allowAdvance: true
         id: blo-mpwlqj8r4q
         type: Action
+  - id: ms-mr4aeun600
+    name: Step 19 - Remote Access
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr4aeun56s
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You also have a smaller, but very important job: sending remote
+            access codes. Think of these like individual commands that you can
+            send out. You might be asked to send remote access codes as part of
+            repairs to your ship. If you know the right code, you can also send
+            commands to control other ships.
+
+
+            Open up the Remote Access widget now.
+          selector:
+            - .widget-RemoteAccess
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr4apo7y64
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr4apo7z6c
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mr4apo806c
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mr4apo814m
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: widget-open
+                comparison: '='
+              - value1: $eventProperties
+                value2: RemoteAccess
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr4apslb3w
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr4apo825d
+        type: EventCondition
+  - id: ts-mr4airco3e
+    name: Step 20 - Remote Access Input
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          selector:
+            - .widget-body-RemoteAccess
+          text: >-
+            Sending a remote access code is simple: enter the code in the input,
+            and click the Send button. Go ahead and do that now, with the code
+            **RMT-TRN-184**. Training will continue once you've sent the code
+            correctly.
+        id: blo-mr4aizxr06
+        type: Action
+      - event: remoteAccess.send
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr4apx0i2y
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr4apx0j2k
+            type: ResultPropertyIntoVariable
+            property: code
+            variable: eventCode
+          - id: blo-mr4apx0m4p
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventCode
+                value2: RMT-TRN-184
+                comparison: '='
+            triggerBlocks: []
+        id: blo-mr4apx0l6r
+        type: EventCondition
   - id: ms-mk1zllmy2w
     name: Step 26 - Officers Log Widget
     description: ''

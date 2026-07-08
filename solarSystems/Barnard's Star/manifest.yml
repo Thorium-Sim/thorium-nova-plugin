@@ -4,7 +4,7 @@ name: Barnard's Star
 description: A solar system named Barnard's Star
 position:
   x: 3118938.6661331607
-  "y": -254697.14334684098
+  'y': -254697.14334684098
   z: -29721.566487301952
 tags: []
 habitableZoneInner: 0.9
@@ -12,7 +12,7 @@ habitableZoneOuter: 3
 skyboxKey: Barnard's Star
 stars:
   - name: Barnard's Star A
-    description: ""
+    description: ''
     tags: []
     radius: 0.187
     temperature: 3195
@@ -23,14 +23,14 @@ stars:
     isWhite: false
     satellite:
       orbitalArc: 59
-      semiMajorAxis: 60.2439999999999998
+      semiMajorAxis: 60.244
       axialTilt: 0
       eccentricity: 0
       inclination: 0
       showOrbit: false
       parentId: Barnard's Star
   - name: Barnard's Star B
-    description: ""
+    description: ''
     tags: []
     radius: 0.187
     temperature: 3195
@@ -41,7 +41,7 @@ stars:
     isWhite: false
     satellite:
       orbitalArc: 239
-      semiMajorAxis: 20.2439999999999998
+      semiMajorAxis: 20.244
       axialTilt: 0
       eccentricity: 0
       inclination: 0
@@ -49,7 +49,7 @@ stars:
       parentId: Barnard's Star
 planets:
   - name: Barnard's Star 1
-    description: ""
+    description: ''
     tags: []
     isPlanet:
       radius: 4037715

@@ -1,0 +1,537 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Cargo Control
+description: A training for learning how to use a station.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-mqqlv0t35q
+    name: Step 1
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          allowAdvance: true
+          timelineId: $timelineId
+          text: >-
+            This screen allows you to see the cargo carrying rooms in your ship,
+            find any cargo throughout your ship, send cargo containers to rooms,
+            and transfer cargo between the containers and the rooms.
+
+
+            There's all kinds of reasons you might need to transfer cargo, such
+            as:
+
+
+            - Sending items to aid in repair
+
+            - Sending fuel to reactors
+
+            - Removing hot coolant from systems and replacing it with cold
+            coolant
+
+            - Sending torpedos to torpedo rooms
+
+
+            There's a lot to cover, so lets get started.
+        id: blo-mr9ewu2r5w
+        type: Action
+  - id: ms-mr9ey96r0l
+    name: Step 2 - Deck View
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr9ey96q1g
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - '#deck-container'
+          text: >-
+            This shows you a map of your ship, one deck at a time. You should be
+            able to see the rooms and corridors outlined. You can also see dots,
+            which represent rooms that can hold cargo. You can see the name of
+            the room by hovering your mouse over it. Go ahead and click on one
+            of the room dots.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr9f5wx81d
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr9f5wx904
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mr9f5wxb6f
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: room-dot-selected
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr9f62jq45
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr9f5wxb5l
+        type: EventCondition
+  - id: ms-mr9f6u7z6y
+    name: Step 3 - Deck Picker
+    description: ''
+    tags: []
+    blocks:
+      - action: cargoControl.addItemToRoom
+        values:
+          flags: cargo
+          shipId: $shipId
+          item: Ale Glass
+          count: '1'
+          avoidContainer: true
+        id: blo-mrb1xuuu1z
+        type: Action
+      - property: deckName
+        variable: deckName
+        id: blo-mranbg5838
+        type: ResultPropertyIntoVariable
+      - property: roomName
+        variable: roomName
+        id: blo-mranb08f5s
+        type: ResultPropertyIntoVariable
+      - property: deckIndex
+        variable: deckIndex
+        id: blo-mranbsu756
+        type: ResultPropertyIntoVariable
+      - property: roomId
+        variable: roomId
+        id: blo-mranao0s6f
+        type: ResultPropertyIntoVariable
+      - entity: this timeline
+        variable: roomId
+        value: $roomId
+        id: blo-mrandf2d5n
+        type: SetVariable
+      - entity: this timeline
+        variable: roomName
+        value: $roomName
+        id: blo-mrandoqm5o
+        type: SetVariable
+      - entity: this timeline
+        variable: deckIndex
+        value: $deckIndex
+        id: blo-mranea2y5o
+        type: SetVariable
+      - id: blo-mr9f6u7y10
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .deck-picker
+            - '#deck-container'
+          text: >-
+            This lists all of the decks on your ship. You can click on a deck to
+            switch to that deck. Go ahead and switch to {deckName}.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr9f8fvy4g
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr9f8fvz1f
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mr9f8fw012
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mr9f8fw13f
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: deck-picked
+                comparison: '='
+              - value1: $eventProperties
+                value2: $deckIndex
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr9f8xq35i
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr9f8fw34u
+        type: EventCondition
+  - id: ms-mrb1yqdm07
+    name: Step 4 - Pick Room
+    description: ''
+    tags: []
+    blocks:
+      - entity: this timeline
+        getVariable: roomId
+        variable: roomId
+        id: blo-mrb1z1fk4q
+        type: VariableIntoVariable
+      - entity: this timeline
+        getVariable: roomName
+        variable: roomName
+        id: blo-mrb1ytld5l
+        type: VariableIntoVariable
+      - id: blo-mrb1yqdl2u
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - '#deck-container'
+          text: >-
+            Now choose {roomName}. It should be somewhere here on the deck.
+            Click on it to select it.
+          allowAdvance: false
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mrb20v0a6s
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mrb20v0b0g
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mrb20v0c0e
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mrb20v0d6p
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: room-dot-selected
+                comparison: '='
+              - value1: $eventProperties
+                value2: $roomId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mrb211jm32
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mrb20v0d2u
+        type: EventCondition
+  - id: ms-mrb21cza0b
+    name: Step 5 - Cargo List
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mrb21cz909
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .selected-room
+          text: >-
+            This area shows the name of the room, the used and total volume of
+            the room in liters, and the cargo in the room. Each line is an item
+            of cargo. You can see the volume per unit and how many units are in
+            the room.
+
+
+            There should be an Ale Glass in the room. If you can't see it,
+            scroll in the list until you can see the Ale Glass.
+
+
+            You can't do anything with it yet. To transfer or move cargo around
+            the ship, you need to use the cargo containers. Click the "Summon
+            Closest Container" button to bring a cargo container to this room. 
+      - entity: this timeline
+        getVariable: roomId
+        variable: roomId
+        id: blo-mrb28bsf47
+        type: VariableIntoVariable
+      - event: cargoControl.containerSummon
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mrb2845e72
+            type: ResultPropertyIntoVariable
+            property: roomId
+            variable: eventRoomId
+          - id: blo-mrb2845f5q
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mrb2p71a3s
+            type: ResultPropertyIntoVariable
+            property: containerId
+            variable: containerId
+          - id: blo-mrb2pgcp07
+            type: SetVariable
+            entity: this timeline
+            variable: containerId
+            value: $containerId
+          - id: blo-mrb2845g6o
+            type: IfCondition
+            conditions:
+              - value1: $eventRoomId
+                value2: $roomId
+                comparison: '='
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mrb2adgm0w
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mrb2845j4w
+        type: EventCondition
+  - id: ms-mrb2mva459
+    name: Step 6 - Container Moving
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mrb2mva36g
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            The cargo container is now moving towards the room. It's the one
+            with the little arrow icon. Click it to find the container on your
+            map.
+          selector:
+            - .cargo-container-list
+      - entity: this timeline
+        getVariable: containerId
+        variable: containerId
+        id: blo-mrb2r45t6b
+        type: VariableIntoVariable
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mrb2qwz32f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mrb2qwz46s
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mrb2qwz56g
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mrb2qwz60s
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: cargo-container-selected
+                comparison: '='
+              - value1: $eventProperties
+                value2: $containerId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mrb2qzd623
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mrb2qwz81q
+        type: EventCondition
+  - id: ms-mrb3vhw613
+    name: Step 7 - Container Arrived
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mrb3vhw54n
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Great. Let's wait for a moment until the container has arrived at
+            the destination.
+
+
+            Keep in mind, you have more than one cargo container, and they all
+            run independently. If you need to move lots of cargo to many
+            different places, you should use as many containers as you can at
+            the same time.
+      - entity: this timeline
+        getVariable: containerId
+        variable: containerId
+        id: blo-mrb3wisb1b
+        type: VariableIntoVariable
+      - entity: this timeline
+        getVariable: roomId
+        variable: roomId
+        id: blo-mrb3xd4q3k
+        type: VariableIntoVariable
+      - entity: $containerId
+        component: passengerMovement
+        property: destinationNode
+        variable: containerRoomId
+        id: blo-mrb3vs9725
+        type: EntityPropertyIntoVariable
+      - conditions:
+          - comparison: '='
+            value1: $containerRoomId
+            value2: $roomId
+        triggerBlocks:
+          - id: blo-mrb3xmts4t
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-mrb3wuxn34
+        type: IfCondition
+  - id: ms-mrbex8bf35
+    name: Step 8 - Transfer Cargo
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mrbex8be4n
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .selected-room
+            - .selected-container
+          text: >-
+            Now that the container has arrived, we can transfer cargo from the
+            room to the container (or from the container to the room, if it had
+            cargo inside of it).
+
+
+            With both the room and container selected, we can see the contents
+            of both. If the container is in the room (which it should be) we can
+            transfer cargo to the container by clicking on the cargo item we
+            want to transfer. Go ahead and move the Ale Glass into the container
+            by clicking on it in the list.
+      - entity: this timeline
+        getVariable: deckIndex
+        variable: deckIndex
+        id: blo-mrbexsp80w
+        type: VariableIntoVariable
+      - entity: this timeline
+        getVariable: roomId
+        variable: roomId
+        id: blo-mrbf044v4r
+        type: VariableIntoVariable
+      - action: effects.sendClientEvent
+        values:
+          clientId: $clientId
+          name: shipMapDeckSelectEvent
+          payload: $deckIndex
+        id: blo-mrbexat63f
+        type: Action
+      - action: effects.sendClientEvent
+        values:
+          clientId: $clientId
+          name: shipMapRoomSelectEvent
+          payload: $roomId
+        id: blo-mrbezh8354
+        type: Action
+      - event: cargoControl.transfer
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mrbffnpu0x
+            type: ResultPropertyIntoVariable
+            property: fromId
+            variable: eventFromId
+          - id: blo-mrbffnpx2q
+            type: ResultPropertyIntoVariable
+            property: fromShipId
+            variable: eventFromShipId
+          - id: blo-mrbffnpz2s
+            type: ResultPropertyIntoVariable
+            property: transferNames
+            variable: eventTransferNames
+          - id: blo-mrbffnq05o
+            type: IfCondition
+            conditions:
+              - value1: $eventFromId
+                value2: $roomId
+                comparison: '='
+              - value1: $eventFromShipId
+                value2: $shipId
+                comparison: '='
+              - value1: $eventTransferNames
+                value2: Ale Glass
+                comparison: includes
+            triggerBlocks:
+              - id: blo-mrbfgt1p52
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mrbffnq242
+        type: EventCondition
+  - id: ms-mrbfkitm6k
+    name: Step 9 - Move Container
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mrbfkitl3f
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .selected-container
+          allowAdvance: true
+          text: >-
+            Great! The Ale Glass is now on the container. Now you can move it to
+            another room to unload your cargo.
+
+
+            Keep in mind — you can put more than one kind of cargo on a
+            container, but you cannot put more cargo on a container than it can
+            hold. Keep an eye on the available space next to the container's
+            name. The same goes for rooms, though rooms can typically hold more
+            than containers.
+  - id: ms-mrc1lup64t
+    name: Step 10 - Search
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mrc1lup510
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .cargo-search
+          text: >-
+            Oh a big ship, it can be difficult to find the room or cargo that
+            you're looking for. Fortunately, you can use this input to search
+            the entire ship. Just type in the name of a piece of cargo or a
+            room, click on the result, and you'll be taken right to it.
+          allowAdvance: true

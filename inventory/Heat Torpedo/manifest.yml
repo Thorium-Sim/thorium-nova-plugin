@@ -2,9 +2,7 @@ apiVersion: inventory/v1
 kind: inventory
 name: Heat Torpedo
 plural: Heat Torpedoes
-description: >-
-  A torpedo to launch a Heat warhead.
-  Uses visible light to track targets.
+description: A torpedo to launch a Heat warhead. Uses visible light to track targets.
 volume: 85
 assets: {}
 continuous: false

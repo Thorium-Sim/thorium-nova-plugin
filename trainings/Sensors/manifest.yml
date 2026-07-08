@@ -77,7 +77,7 @@ steps:
         id: blo-mjoepquj0n
         type: Action
       - entity: this timeline
-        variable: targetId
+        variable: contactId
         value: $id
         id: blo-mplrrjm00r
         type: SetVariable
@@ -92,6 +92,9 @@ steps:
         variable: loginName
         id: blo-mjnb8i6y3o
         type: EntityPropertyIntoVariable
+      - debugVariable: ''
+        id: blo-mqmcebjq26
+        type: Debug
       - conditions:
           - comparison: is not empty
             value1: $loginName
@@ -277,6 +280,370 @@ steps:
                 values: {}
         id: blo-mjnh3y5q4e
         type: Macro
+  - id: ts-mqmdjzvt25
+    name: Step 7 - Tilt Back
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            Perfect. You can use the zoom and tilt to get a better view at the
+            contacts, whether they are above or below you, close to you or far
+            away.
+          allowAdvance: true
+        id: blo-mqmdk8zj2y
+        type: Action
+  - id: ts-mqn4mlvy0d
+    name: Step 8 - Contacts
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          selector:
+            - .sensors-radar
+          text: >-
+            Let's take a closer look at your sensors radar. Your station has the
+            longest radar range, allowing you to see objects incredibly far
+            away. There are already a few contacts visible on the radar. If you
+            can't see all of them, zoom in and out.
+
+
+            The triangle contact represents a ship or object that you haven't
+            identified yet. You'll discover what that contact is in a few
+            moments.
+
+
+            The circles are planets or moons. You can see they have a large dark
+            triangle behind them. This area is blocked by the planet — ships and
+            objects behind the planet can't be seen by your sensors. Likewise,
+            if you are behind the planet, ships on the other side won't be able
+            to see you. Use this to your strategic advantage.
+          allowAdvance: true
+        id: blo-mqn4msfj56
+        type: Action
+      - action: effects.sendClientEvent
+        values:
+          clientId: $clientId
+          name: radarTiltEvent
+          payload: '0'
+        id: blo-mqn57xt43j
+        type: Action
+  - id: ts-mqn4pkjl0d
+    name: Step 9 - Contacts List
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            Any contacts that are visible in your sensor range will appear in
+            this list, which makes it easier to know what's around you. Pay
+            attention to when objects join this list, since it means there's
+            something new approaching your ship.
+
+
+            You can select the contacts by choosing them from this list, or
+            clicking on them in the sensors array. Click on the Unknown contact
+            in the list to select it.
+          selector:
+            - .objects-list
+          allowAdvance: false
+        id: blo-mqn4pmzb54
+        type: Action
+      - entity: this timeline
+        getVariable: contactId
+        variable: contactId
+        id: blo-mqn4zxj55m
+        type: VariableIntoVariable
+      - event: sensors.selectContact
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqn50dg231
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mqn50dg301
+            type: ResultPropertyIntoVariable
+            property: contactId
+            variable: eventContactId
+          - id: blo-mqn50dg40t
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+              - value1: $eventContactId
+                value2: $contactId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqn50n8n0c
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqn50dg52a
+        type: EventCondition
+  - id: ts-mqn539co4q
+    name: Step 10 - Identification Scan
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            This shows you what you know about the contact based on your scans.
+            At this point, you don't know anything, because you haven't scanned
+            this ship yet.
+
+
+            Let's find out who this ship is. Initiate an identity scan on the
+            ship to find out its name.
+          selector:
+            - .scan-options
+        id: blo-mqn53cl760
+        type: Action
+      - event: sensors.scanStart
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqn54ro12t
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mqn54ro26o
+            type: ResultPropertyIntoVariable
+            property: type
+            variable: eventType
+          - id: blo-mqn54ro31v
+            type: ResultPropertyIntoVariable
+            property: target
+            variable: eventTarget
+          - id: blo-mqn54ro501
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+              - value1: $eventType
+                value2: identification
+                comparison: '='
+              - value1: $eventTarget
+                value2: $contactId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqn551jh4o
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqn54ro45d
+        type: EventCondition
+  - id: ts-mqpn4chz0x
+    name: Step 11 - Scan Progress
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            You'll see the scan progress here, and then the scan results when
+            the scan is complete.
+
+
+            Before we look at the results, there are a few things you should
+            know about how scans work.
+
+
+            First, scans provide a snapshot of the ship you scanned. Once the
+            scan is complete, things about the scan might change, requiring you
+            to perform another scan to keep your scan results up-to-date. You
+            can always see the most recent scan result when you select the
+            object.
+
+
+            Second, scans will always pull the maximum possible power to
+            complete as quickly as possible. If you have more than one active
+            scan, the power will be split evenly between them and the scan
+            results will take longer. Keep that in mind as you are running your
+            scans.
+
+
+            Third, if a scan target has its shields raised, it will take more
+            effort to complete the scan, making the scan take longer.
+          selector:
+            - .scans-panel
+          allowAdvance: true
+        id: blo-mqpn4f0j0u
+        type: Action
+  - id: ts-mqpnmn6d3y
+    name: Step 12 - Scan Range
+    tags: []
+    description: ''
+    blocks:
+      - action: effects.sendClientEvent
+        values:
+          name: radarZoomEvent
+          clientId: $clientId
+          payload: '0.0024634853181741997'
+        id: blo-mqpnnfra29
+        type: Action
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          selector:
+            - .sensors-radar
+          text: >-
+            Finally, the distance between your ship and a contact will affect
+            how fast scan results come in. The thin blue line on your radar
+            represents your scan range. You can still scan contacts outside of
+            that range, but it will take significantly longer than for contacts
+            within that range. The closer a contact is, the faster your scans
+            will complete.
+          allowAdvance: true
+        id: blo-mqpnohzc59
+        type: Action
+  - id: ms-mqpo9l5k0a
+    name: Step 13 - Scan Results
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqpo9l5j4d
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          card: ''
+          selector:
+            - .scans-panel
+          text: >-
+            Now, let's take a look at what we discovered. We've learned the name
+            of the ship, its ship classification, and what faction it
+            represents, which is useful to know if the ship is friendly or not.
+            Note that the ship's icon has also changed in the radar, making it
+            easier to identify the ship.
+          allowAdvance: true
+  - id: ts-mqpofes96m
+    name: Step 14 - Scan Options
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            There are many other types of scans you can perform on the target:
+
+
+            **Crew:** How many personnel are present.
+
+            **Cargo:** What notable cargo is present.
+
+            **Shields:** The status and strength of shields.
+
+            **Weapons:** What weapons are present and loaded.
+
+            **Engines:** The forward and rotation speed of the ship.
+
+            **Targeting:** The current weapons target.
+
+            **Damage:** What systems have sustained damage.
+
+            **Communications:** The current antenna frequency and whether comms
+            are active.
+
+            **Life Support:** Oxygen, temperature, and other life-sustaining
+            properties.
+
+
+            Planets and moons have other properties you can scan for as well.
+          allowAdvance: true
+        id: blo-mqpofhs21d
+        type: Action
+  - id: ts-mqpop3204k
+    name: Step 15 - Good Scanning Practice
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            When should you scan ships, and what kinds of scans should you
+            perform? It depends on the situation, but typically you want to
+            follow these guidelines:
+
+
+            - Start by scanning for identification.
+
+            - If it's a friendly ship, only conduct further scans if you have a
+            specific reason.
+
+            - For unknown or enemy ships, create a threat profile by scanning
+            weapons, shields, engines, and targeting.
+
+            - If you want to communicate with the ship, scan communications to
+            know what frequency to tune your antenna to.
+
+            - If the ship seems to be in trouble, scan for damage or life
+            support to know how bad the situation is.
+
+            - If you're attempting to find contraband or illegal cargo, a cargo
+            scan should reveal anything suspicious.
+          allowAdvance: true
+        id: blo-mqpop80p2i
+        type: Action
+  - id: ts-mqpotgqx3j
+    name: Step 16 - Processed Data
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          selector:
+            - .processed-data
+          allowAdvance: true
+          text: >-
+            Active scans can only take you so far. From time to time, the ship's
+            computer will automatically detect anomalies in the sensor grid and
+            deliver that information to you here. It is incredibly important
+            that you read anything that appears in this box aloud, so your crew
+            can hear it. Some of the information might be pertinent to their
+            station.
+        id: blo-mqpou1zn4q
+        type: Action
+      - action: sensors.sendProcessedData
+        values:
+          shipId: $shipId
+          data: >-
+            This is where processed data will appear. You are nearing the end of
+            your training.
+        id: blo-mqpp06in2d
+        type: Action
   - id: ms-mk1zllmy2w
     name: Step 26 - Officers Log Widget
     description: ''
@@ -339,6 +706,11 @@ steps:
         values:
           clientId: $clientId
           text: >-
+            In summary, keep an eye on the radar, let your crew know if
+            something unusual appears, announce the processed data, and perform
+            scans to better understand the space around your ship.
+
+
             That concludes your training. If you don't feel confident, feel free
             to play around with your controls further until you've mastered your
             radar and scanning.

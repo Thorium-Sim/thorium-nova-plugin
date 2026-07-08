@@ -1,0 +1,784 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Long Range Comm
+description: A training for learning how to use a station.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-mqqlupbf2l
+    name: Step 1 - Intro
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            Long Range Communication is all about sending messages between ships
+            over lightyears. This can be helpful for sharing information,
+            requesting assistance, or providing updates.
+
+
+            You'll use this screen for both sending and receiving messages.
+            Let's start with our inbox.
+          allowAdvance: true
+          timelineId: $timelineId
+          selector:
+            - .card-area
+        id: blo-mqqlwg7q57
+        type: Action
+  - id: ms-mqsha4jl4g
+    name: Step 2 - Incoming Messages
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqsha4jk4m
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You should already be on the inbox page, and it looks like you just
+            got a long range message from someone. Click on the message in the
+            list to view it.
+          selector:
+            - .long-range-inbox-sidebar
+      - entity: this timeline
+        getVariable: contactId
+        variable: contactId
+        id: blo-mqtfvbgn5d
+        type: VariableIntoVariable
+      - action: longRangeComm.composeMessage
+        values:
+          senderId: $contactId
+          destinationId: $shipId
+          message: Congratulations on decoding this Long Range Message!
+          senderStation: ''
+          state: sending
+          encoding: rotation
+        id: blo-mqtfudck56
+        type: Action
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr001eib5k
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr001eic21
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mr001eid5h
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mr001eie6n
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: long-range-inbox-pick
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr001tfu6o
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr001eig0r
+        type: EventCondition
+  - id: ms-mquv7si154
+    name: Step 3 - Encoded Message
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mquv7si03h
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          card: ''
+          selector:
+            - .message-area
+          text: >-
+            Uh oh. Looks like the message has been encoded. This is to prevent
+            others who may have intercepted the message from reading it. You'll
+            have to decode it before you can read it.
+          allowAdvance: true
+  - id: ms-mquva3ta1q
+    name: Step 4 - Rotation Decoding
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mquva3t96d
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .decoder-area
+            - .message-area
+          text: >-
+            There are several types of encoding. This one involves rotating all
+            of the letters by some amount. It might be possible for you to
+            decode it manually by hand, but your computer can automatically
+            rotate the letters for you. You just have to drag this slider. Drag
+            it around and see if you can decode what the message says.
+
+
+            Click Next when you're ready to move on.
+          allowAdvance: true
+  - id: ms-mquviabm24
+    name: Step 5 - Add New Messages
+    description: ''
+    tags: []
+    blocks:
+      - entity: this timeline
+        getVariable: contactId
+        variable: contactId
+        id: blo-mquvm1du15
+        type: VariableIntoVariable
+      - action: longRangeComm.composeMessage
+        values:
+          senderId: $contactId
+          destinationId: $shipId
+          message: This message is slightly more difficult to decode. Nice work.
+          senderStation: ''
+          state: sending
+          encoding: waves
+        id: blo-mquvlazf5v
+        type: Action
+      - property: messageId
+        variable: wavesMessageId
+        id: blo-mquvmj5n5m
+        type: ResultPropertyIntoVariable
+      - entity: this timeline
+        variable: wavesMessageId
+        value: $wavesMessageId
+        id: blo-mquvnl181g
+        type: SetVariable
+      - entity: $shipId
+        component: identity
+        property: name
+        variable: shipName
+        id: blo-mquwci2g25
+        type: EntityPropertyIntoVariable
+      - action: longRangeComm.composeMessage
+        values:
+          senderId: $contactId
+          destinationId: $shipId
+          message: |-
+            To: {shipName}
+            From: Earth
+
+            This is the hardest message encoding to decode. Good luck!
+
+            Earth Out
+          senderStation: ''
+          state: sending
+          encoding: replacement
+        id: blo-mquvmzca5n
+        type: Action
+      - property: messageId
+        variable: replacementMessageId
+        id: blo-mquvnwoc59
+        type: ResultPropertyIntoVariable
+      - entity: this timeline
+        variable: replacementMessageId
+        value: $replacementMessageId
+        id: blo-mquvo0cj64
+        type: SetVariable
+      - action: timeline.advance
+        values: {}
+        id: blo-mquw9qmh50
+        type: Action
+  - id: ms-mquw8e7j3b
+    name: Step 6 - Waves Decoding
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mquw8e7i60
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You've received a few more messages. This first one uses a wave
+            encoding pattern. You decode it by finding the frequency, amplitude,
+            and phase that perfectly matches the carrier wave. Drag the sliders
+            back and forth until you've lined it up correctly, and the message
+            should appear below.
+          selector:
+            - .decoder-area
+            - .message-area
+          allowAdvance: true
+      - time: 100
+        unit: milliseconds
+        id: blo-mr21bulg1o
+        type: Wait
+      - entity: this timeline
+        getVariable: wavesMessageId
+        variable: wavesMessageId
+        id: blo-mquw8q6p05
+        type: VariableIntoVariable
+      - action: effects.sendClientEvent
+        values:
+          payload: $wavesMessageId
+          clientId: $clientId
+          name: longRangeCommSelectEvent
+        id: blo-mquw8irz3d
+        type: Action
+  - id: ms-mquwc3l94u
+    name: Step 7 - Replacement Decoding
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mquwc3l85x
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          allowAdvance: true
+          selector:
+            - .decoder-area
+            - .message-area
+          text: >-
+            Here's another message. This one uses a more difficult encoding
+            method where each character has been replaced by a different
+            character. To decode it, you must find patterns in message that
+            match with words or phrases that you're expecting, and then slot the
+            replacement letter into the correct place.
+
+
+            For example, this message should begin with "To: " and then the name
+            of your ship. That should give you a head start when figuring out
+            what the rest of the letters are.
+
+
+            You don't have to decode this message now, but you can come back to
+            it later after training is over if you wish. Go ahead and click
+            "Next".
+      - entity: this timeline
+        getVariable: replacementMessageId
+        variable: replacementMessageId
+        id: blo-mquwf6df04
+        type: VariableIntoVariable
+      - action: effects.sendClientEvent
+        values:
+          payload: $replacementMessageId
+          name: longRangeCommSelectEvent
+          clientId: $clientId
+        id: blo-mquwezci6y
+        type: Action
+  - id: ms-mquwjge539
+    name: Step 8 - Composer
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mquwjge437
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You've now learned how to decode messages sent to you by other
+            ships. Next we'll learn to send your own messages. Click the
+            "Compose Message" button.
+          selector:
+            - .compose-button
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mquwmp4x34
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mquwmp4y2e
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mquwmp4z52
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mquwmp5011
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: longRangePageChange
+                comparison: '='
+              - value1: $eventProperties
+                value2: compose
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mquwmwp409
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mquwmp5205
+        type: EventCondition
+  - id: ms-mqvos93c0s
+    name: Step 9 - Address Book
+    description: ''
+    tags: []
+    blocks:
+      - entity: this timeline
+        getVariable: contactId
+        variable: contactId
+        id: blo-mqvpe9ke4b
+        type: VariableIntoVariable
+      - entity: $contactId
+        component: identity
+        property: name
+        variable: contactName
+        id: blo-mqvpejr63u
+        type: EntityPropertyIntoVariable
+      - id: blo-mqvos93b2h
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You can't just send messages to whoever you want. You can only send
+            messages to people in your address book — people that you have
+            already talked to, or who you have received contact details for. 
+
+
+            Let's send a message back to {contactName} by searching for them in
+            this list.
+          selector:
+            - .address-book-entry
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqvph2ok5r
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqvph2ol6h
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mqvph2om31
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mqvph2on5s
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: longRangeComposerDestinationSet
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqvphbj344
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqvph2oo5w
+        type: EventCondition
+  - id: ms-mqvphjqd2u
+    name: Step 10 - Write Message
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqvphjqc6n
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .compose-message-area
+          text: >-
+            Now you can write a message to them. It can be as long or as short
+            as you want, it just can't be empty. You have to write something.
+
+
+            Click the Next button when you're done writing a message.
+          allowAdvance: true
+  - id: ms-mqvpjdq91n
+    name: Step 11 - Queue Message
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqvpjdq86e
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .queue-button
+          text: >-
+            Then click this button to queue the message for sending. It won't be
+            sent immediately — we'll take care of that in the next part.
+      - event: longRangeComm.composeMessage
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqvpks5n4p
+            type: ResultPropertyIntoVariable
+            property: senderId
+            variable: eventSenderId
+          - id: blo-mqvpks5t5k
+            type: IfCondition
+            conditions:
+              - value1: $eventSenderId
+                value2: $shipId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqvpldum35
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqvpks5s2l
+        type: EventCondition
+  - id: ms-mqvplly12b
+    name: Step 12 - Outbox
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqvplly04y
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Your pending message is now shown in this badge on the Outbox
+            button. Click the button to go to the Outbox page so we can learn
+            how to send it.
+          selector:
+            - .outbox-button
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqvpn5fl39
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqvpn5fm5y
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mqvpn5fn5p
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mqvpn5fo0k
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: longRangePageChange
+                comparison: '='
+              - value1: $eventProperties
+                value2: outbox
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqvpnbfy1l
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqvpn5fq3b
+        type: EventCondition
+  - id: ms-mqvpnlcr5h
+    name: Step 13 - Outbox Page
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqvpnlcq01
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            To send long range messages between ships, they must travel through
+            a relay of comm satellites. That's the only way they can be sent
+            over such long distances. This screen allows you to see nearby
+            satellites, choose one to be the starting relay for your message,
+            encode your message, and send it.
+          allowAdvance: true
+  - id: ms-mqwfneqs31
+    name: Step 14 - Satellite Radar
+    description: ''
+    tags: []
+    blocks:
+      - count: one
+        entity: $shipId
+        systemType: longRangeComm
+        variable: longRangeSys
+        id: blo-mqwg4cyz4k
+        type: ShipSystemGetter
+      - entity: $longRangeSys
+        component: isLongRangeComm
+        property: maxSatelliteRange
+        variable: range
+        id: blo-mqwg51yr4h
+        type: EntityPropertyIntoVariable
+      - id: blo-mqwfneqr6q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This is your satellite radar, which shows all of the satellites
+            within {range} lightyears of your ship. You should see a dot
+            directly in the middle, indicating that the solar system you are in
+            has a comm satellite inside of it. 
+          allowAdvance: true
+          selector:
+            - .satellite-map
+  - id: ms-mqwgiwct65
+    name: Step 15 - Frequency Gain Sliders
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqwgiwcs6h
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Your Long Range Communications antennas send signals that need to be
+            tuned to the frequency of the satellite you want to send your
+            message through. You also need to put enough power into the antenna
+            by increasing the gain so the Long Range Comm range is enough to
+            reach the satellite.
+
+
+            Just remember, as you draw more power into the Long Range
+            Communications you'll have less power for other ship systems, so
+            only pull the power you need to reach the satellite you want to send
+            your message through.
+
+
+            For now, you can increase the gain to the maximum level. You should
+            see the number of satellites in range underneath the radar.
+
+
+            Then drag the frequency slider back and forth. You should see
+            satellites appear and disappear from your radar as you tune to their
+            frequency.
+
+
+            Click Next when you're comfortable.
+          selector:
+            - .sliders-area
+          allowAdvance: true
+          card: ''
+  - id: ms-mqwgsueu49
+    name: Step 16 - Message List
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqwgsuet1d
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Any messages that you or your crew members compose will appear in
+            this list, ready to be sent. Go ahead and click one of the messages
+            to send.
+          selector:
+            - .outgoing-message-list
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqwgz4nf35
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqwgz4ng1b
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mqwgz4ni57
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: pick-outgoing-message
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqwgzdu554
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqwgz4nk1g
+        type: EventCondition
+  - id: ms-mqznmf6r4e
+    name: Step 17 - Pick Satellite
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqznmf6q6j
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Adjust your frequency and gain sliders until you can see one of the
+            satellite dots appear on your radar. Then click on the satellite to
+            select it so we can send your message.
+          selector:
+            - .satellite-map
+            - .sliders-area
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqznpaw21v
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqznpaw30o
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mqznpaw505
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: long-range-comm-satellite-selected
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqznqq4r2t
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqznpawa02
+        type: EventCondition
+  - id: ms-mqznqxkf4l
+    name: Step 18 - Message Encoding
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqznqxke0v
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You can review your message's contents here. Right below the message
+            is where you can choose the encoding you want to use, or if you'd
+            prefer to not encode your message.
+
+
+            Most importantly, the "Send Message" button will relay your message
+            to the satellite you chose, where it will begin its journey to
+            wherever you are sending it. Click "Send Message" now.
+          selector:
+            - .sliders-area
+      - event: longRangeComm.sendMessage
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqznx15748
+            type: ResultPropertyIntoVariable
+            property: senderId
+            variable: eventSenderId
+          - id: blo-mqznx15a28
+            type: IfCondition
+            conditions:
+              - value1: $eventSenderId
+                value2: $shipId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqznxv5r5s
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqznx1586x
+        type: EventCondition
+  - id: ms-mqzzafa66d
+    name: Step 19 - Sent
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqzzafa52e
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            We can see past messages, including if they were properly delivered,
+            by going to the Sent page. Lets go there now.
+          selector:
+            - .sent-button
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqzzbt8t5e
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqzzbt8u26
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mqzzbt8v2r
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mqzzbt8w5j
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: longRangePageChange
+                comparison: '='
+              - value1: $eventProperties
+                value2: sent
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqzzbxca18
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqzzbt8y1p
+        type: EventCondition
+  - id: ms-mqzzc4bu62
+    name: Step 20 - Sent Page
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqzzc4bt50
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .card-area
+          text: >-
+            You can see the messages you've sent on the left, including the
+            destination and which station sent the message. When you click on a
+            message, you'll also be able to see the message delivery status and
+            the contents of the message as well.
+          allowAdvance: true

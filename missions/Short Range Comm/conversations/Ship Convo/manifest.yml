@@ -1,0 +1,11 @@
+apiVersion: conversation/v1
+kind: conversations
+name: Ship Convo
+description: ''
+timelineId: Short Range Comm
+tags: []
+assets:
+  conversation: >-
+    /plugins/Thorium Default/trainings/Short Range Comm/conversations/Ship
+    Convo/assets/conversation.ink
+  files: []

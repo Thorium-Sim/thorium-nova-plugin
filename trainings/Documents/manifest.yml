@@ -1,0 +1,327 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Documents
+description: A training for learning how to use a station.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-mqqlv8n62g
+    name: Step 1
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            Occasionally, you'll receive or intercept documents from other
+            ships. Those will appear here, on this screen.
+          allowAdvance: true
+          timelineId: $timelineId
+        id: blo-mr3t30j554
+        type: Action
+      - action: documents.renderPdf
+        values:
+          shipId: $shipId
+          name: Intercepted Message
+          heading: '== Intercepted Message =='
+          message: Well done! You have successfully decoded this message.
+          fontName: Aurabesh
+        id: blo-mr3t8mbp4c
+        type: Action
+      - property: documentId
+        variable: documentId
+        id: blo-mr3txbkg1j
+        type: ResultPropertyIntoVariable
+      - entity: this timeline
+        variable: documentId
+        value: $documentId
+        id: blo-mr3txjcs4z
+        type: SetVariable
+  - id: ms-mr3tau932r
+    name: Step 2 - Documents List
+    description: ''
+    tags: []
+    blocks:
+      - entity: this timeline
+        getVariable: documentId
+        variable: documentId
+        id: blo-mr3txsk346
+        type: VariableIntoVariable
+      - id: blo-mr3tau9231
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            The list of documents you have received is here. Click on the
+            Intercepted Message document to see what the document says.
+          selector:
+            - .documents-list
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr3tdjt02f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr3tdjt135
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mr3tdjt205
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mr3tdjt32u
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: document-selected
+                comparison: '='
+              - value1: $eventProperties
+                value2: $documentId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr3u4xek41
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr3tdjt72l
+        type: EventCondition
+  - id: ms-mr3tyb342g
+    name: Step 3 - Document Viewer
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr3tyb3355
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .document-viewer
+          text: >-
+            The document appears here. You can see it is an intercepted message,
+            but its encoded. You'll have to find some way to decode it.
+
+
+            Fortunately, you  do have some code cyphers that you can use to
+            decode this message.
+          allowAdvance: true
+  - id: ms-mr3u19um51
+    name: Step 4 - Code Cyphers
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr3u19ul11
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .widget-CodeCyphers
+          text: >-
+            Click the code cyphers icon down here to open your code cyphers
+            window.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr3u4on066
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr3u4on124
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mr3u4on20q
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mr3u4on317
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: widget-open
+                comparison: '='
+              - value1: $eventProperties
+                value2: CodeCyphers
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr3u4sp63y
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr3u4on35w
+        type: EventCondition
+  - id: ms-mr3yst7356
+    name: Step 6 - Break out
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr3yst722y
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .widget-break-out-button
+          allowAdvance: false
+          text: >-
+            By the way, you can break out the cyphers widget by clicking this
+            button, which should allow you to drag it around the screen so it's
+            in a more convenient place. Do that now so the widget doesn't close
+            while you complete training.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr6ifir25f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr6ifir300
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mr6ifir54z
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: widget-break-out
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr6igcmu2i
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr6ifira1n
+        type: EventCondition
+  - id: ms-mr3u5nfj2i
+    name: Step 4 - Cyphers List
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr3u5nfi42
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This is the list of cyphers available to you. You'll have to search
+            through this list until you find one that matches the document that
+            you are trying to decode. 
+
+
+            Training will continue when you've chosen the correct cypher.
+          selector:
+            - .code-cyphers
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr3ub8zo67
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mr3ub8zp0i
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mr3ub8zq65
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mr3ub8zr3n
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: cypher-selected
+                comparison: '='
+              - value1: $eventProperties
+                value2: Aurabesh
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr3ubg3054
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr3ub8zs6c
+        type: EventCondition
+  - id: ms-mr3yrj9f0j
+    name: Step 5 - Cypher
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr3yrj9e5t
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .code-cyphers
+          text: >-
+            Now it's just a matter of matching the letters on the cypher to the
+            letters in the document. Doing that, letter by letter, should allow
+            you to read what the message says.
+          allowAdvance: true
+  - id: ms-mr48fsmy2t
+    name: Step 7 - Annotations
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr48fsmx52
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .document-viewer
+          allowAdvance: true
+          text: >-
+            Another tool you can use is annotations, allowing you to draw
+            directly on the page. This lets you draw the letters directly below
+            the encoded text. You can use the buttons to the side to clear or
+            undo, if needed.
+
+
+            Go ahead and scribble on the page now, just for fun.
+
+
+            There's no need to decode this now. You can click the Next button to
+            continue.
+  - id: ms-mr48iadg4m
+    name: Step 8 - Other Documents
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr48iadf2p
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You might come across other documents during your mission, including
+            other documents, images, movies, or audio. Be sure to visit this
+            screen regularly to see if any new documents have arrived.
+          allowAdvance: true

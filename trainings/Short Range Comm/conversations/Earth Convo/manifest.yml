@@ -1,0 +1,11 @@
+apiVersion: conversation/v1
+kind: conversations
+name: Earth Convo
+description: ''
+timelineId: Short Range Comm
+tags: []
+assets:
+  conversation: >-
+    /plugins/Thorium Default/trainings/Short Range Comm/conversations/Earth
+    Convo/assets/conversation.ink
+  files: []

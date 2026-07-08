@@ -4,7 +4,7 @@ name: Sol
 description: Home of humanity
 position:
   x: 0
-  "y": 0
+  'y': 0
   z: 0
 tags: []
 habitableZoneInner: 0.9
@@ -12,7 +12,7 @@ habitableZoneOuter: 3
 skyboxKey: Random Key
 stars:
   - name: Sol A
-    description: ""
+    description: ''
     tags: []
     solarMass: 1.31402
     age: 6686969520.18435
@@ -32,7 +32,7 @@ stars:
 planets:
   - name: Earth
     keyLocation: true
-    description: ""
+    description: ''
     tags: []
     satellite:
       axialTilt: 0
@@ -58,7 +58,7 @@ planets:
     satellites:
       - name: Luna
         keyLocation: true
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 1737.4
@@ -84,12 +84,12 @@ planets:
           showOrbit: true
         satellites: []
   - name: Mars
-    description: ""
+    description: ''
     tags: []
     satellite:
       axialTilt: 0
       eccentricity: 0.0934
-      inclination: 1.850
+      inclination: 1.85
       semiMajorAxis: 227939366
       orbitalArc: 194
       showOrbit: true
@@ -113,14 +113,14 @@ planets:
     satellites:
       - name: Phobos
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 11.08
           age: 4510000000
           cloudMapAsset: null
           ringMapAsset: null
-          terranMass: 0.000000001781
+          terranMass: 1.781e-9
           textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
           classification: D
           isHabitable: false
@@ -140,14 +140,14 @@ planets:
         satellites: []
       - name: Deimos
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 6.27
           age: 4510000000
           cloudMapAsset: null
           ringMapAsset: null
-          terranMass: 0.0000000002528
+          terranMass: 2.528e-10
           textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
           classification: D
           isHabitable: false
@@ -166,7 +166,7 @@ planets:
           showOrbit: true
         satellites: []
   - name: Mercury
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:
@@ -193,7 +193,7 @@ planets:
     temperature: 437
     satellites: []
   - name: Venus
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:
@@ -206,7 +206,7 @@ planets:
       parentId: Sol
     isPlanet:
       age: 4600000000
-      classification: N
+      classification: 'N'
       radius: 6051.8
       terranMass: 0.815
       isHabitable: false
@@ -220,7 +220,7 @@ planets:
     temperature: 232
     satellites: []
   - name: Ceres
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:
@@ -247,7 +247,7 @@ planets:
     temperature: 172.5
     satellites: []
   - name: Jupiter
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:
@@ -275,7 +275,7 @@ planets:
     satellites:
       - name: Io
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 1821.6
@@ -302,7 +302,7 @@ planets:
         satellites: []
       - name: Europa
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 1560
@@ -329,7 +329,7 @@ planets:
         satellites: []
       - name: Ganymede
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 2634
@@ -356,7 +356,7 @@ planets:
         satellites: []
       - name: Callisto
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 2410.3
@@ -382,7 +382,7 @@ planets:
           showOrbit: true
         satellites: []
   - name: Saturn
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:
@@ -410,7 +410,7 @@ planets:
     satellites:
       - name: Titan
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 2574.73
@@ -419,7 +419,7 @@ planets:
           ringMapAsset: null
           terranMass: 0.0225
           textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
-          classification: N
+          classification: 'N'
           isHabitable: false
           lifeforms:
             - None
@@ -437,7 +437,7 @@ planets:
         satellites: []
       - name: Rhea
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 763.5
@@ -464,7 +464,7 @@ planets:
         satellites: []
       - name: Iapetus
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 734.4
@@ -491,7 +491,7 @@ planets:
         satellites: []
       - name: Dione
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 561.4
@@ -517,7 +517,7 @@ planets:
           showOrbit: true
         satellites: []
   - name: Uranus
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:
@@ -545,7 +545,7 @@ planets:
     satellites:
       - name: Miranda
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 235.8
@@ -572,7 +572,7 @@ planets:
         satellites: []
       - name: Ariel
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 578.9
@@ -591,7 +591,7 @@ planets:
         satellite:
           semiMajorAxis: 190900
           eccentricity: 0.0012
-          inclination: 0.260
+          inclination: 0.26
           orbitalArc: 67
           axialTilt: 0
           parentId: Uranus
@@ -599,7 +599,7 @@ planets:
         satellites: []
       - name: Umbriel
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 584.7
@@ -626,7 +626,7 @@ planets:
         satellites: []
       - name: Titania
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 788
@@ -645,7 +645,7 @@ planets:
         satellite:
           semiMajorAxis: 435910
           eccentricity: 0.0011
-          inclination: 0.340
+          inclination: 0.34
           orbitalArc: 148
           axialTilt: 0
           parentId: Uranus
@@ -653,7 +653,7 @@ planets:
         satellites: []
       - name: Oberon
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 761.4
@@ -679,13 +679,13 @@ planets:
           showOrbit: true
         satellites: []
   - name: Neptune
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:
       axialTilt: 82.23
       eccentricity: 0.008678
-      inclination: 1.770
+      inclination: 1.77
       semiMajorAxis: 4540000000
       orbitalArc: 28.32
       showOrbit: true
@@ -707,7 +707,7 @@ planets:
     satellites:
       - name: Triton
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 1353.4
@@ -734,7 +734,7 @@ planets:
         satellites: []
       - name: Proteus
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 209
@@ -761,7 +761,7 @@ planets:
         satellites: []
       - name: Proteus
         keyLocation: false
-        description: ""
+        description: ''
         tags: []
         isPlanet:
           radius: 178.5
@@ -787,7 +787,7 @@ planets:
           showOrbit: true
         satellites: []
   - name: Pluto
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:
@@ -814,7 +814,7 @@ planets:
     temperature: 44
     satellites: []
   - name: Eris
-    description: ""
+    description: ''
     keyLocation: false
     tags: []
     satellite:

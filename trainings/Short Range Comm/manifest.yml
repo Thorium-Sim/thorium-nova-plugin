@@ -1,0 +1,456 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Short Range Comm
+description: A training for learning how to use a station.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-mqqluiuo66
+    name: Step 1 - Intro
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            This screen is where you control the short-range communication
+            antenna used for direct communication between your ship and people
+            on other ships or planets around you. 
+
+
+            To connect to other ships, you have to tune your antenna properly.
+          allowAdvance: true
+          timelineId: $timelineId
+        id: blo-mqqlvx1713
+        type: Action
+  - id: ms-mqrc0dpx14
+    name: Step 2 - Frequency Slider
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqrc0dpw3s
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This is the frequency slider, which changes the frequency that your
+            antenna is transmitting on. Your frequency must be the same as the
+            frequency of the ship you want to communicate with. Drag it left and
+            right to change the frequency. The number above shows the current
+            frequency value, which you will need to know when connecting.
+          selector:
+            - .frequency-slider
+          allowAdvance: true
+  - id: ms-mqrc2vo520
+    name: Step 3 - Gain Slider
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqrc2vo46l
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Gain is how much power you are putting into your antenna. The higher
+            the gain, the greater the distance you can transmit. If you want to
+            talk to a ship that is far away, you either need to move closer or
+            increase the gain on your antenna. Work with your crew and use
+            Sensors to determine the distance to your conversation target, and
+            have the Pilot move the ship closer, if necesary.
+
+
+            As soon as you activate your antenna by hailing or connecting to
+            another ship, you'll start drawing power based on how high the gain
+            is. Be sure to talk to your crew to make sure there's enough power
+            allocated for a high-gain conversation.
+          selector:
+            - .gain-slider
+          allowAdvance: true
+  - id: ms-mqrd1nfs47
+    name: Step 4 - Incoming Hail
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqrd1nfr3o
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You are now being hailed by Earth, which means they're trying to
+            talk to you. Connect the hail by dragging your frequency slider to
+            the frequency shown on your screen and the gain slider to the
+            appropriate amount — somewhere around 25,000km.
+          selector:
+            - .conversation-area
+            - .frequency-slider
+      - action: shortRangeComm.hail
+        values:
+          targetId: $shipId
+          shipId: Earth
+          frequency: '180'
+          conversationTemplateId: Earth Convo
+        id: blo-mqrdv09d6a
+        type: Action
+      - property: conversationId
+        variable: conversationId
+        id: blo-mqre1c153m
+        type: ResultPropertyIntoVariable
+      - entity: this timeline
+        variable: conversationId
+        value: $conversationId
+        id: blo-mqrfempr11
+        type: SetVariable
+      - event: shortRangeComm.setFrequency
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqrfbuj25w
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mqrfa5e055
+            type: ResultPropertyIntoVariable
+            property: frequency
+            variable: eventFrequency
+          - id: blo-mqrfa5e124
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+              - value1: $eventFrequency
+                value2: '180'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqrfc77k22
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqrfa5e60h
+        type: EventCondition
+  - id: ms-mqrfah7168
+    name: Step 5 - Connect Hail
+    description: ''
+    tags: []
+    blocks:
+      - entity: this timeline
+        getVariable: conversationId
+        variable: conversationId
+        id: blo-mqrff4pq64
+        type: VariableIntoVariable
+      - id: blo-mqrfah704x
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: You can now connect the hail by clicking this button.
+          selector:
+            - .connect-button
+      - event: shortRangeComm.connect
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqrfdjqe4r
+            type: ResultPropertyIntoVariable
+            property: conversationId
+            variable: eventConversationId
+          - id: blo-mqrfdjqg2q
+            type: IfCondition
+            conditions:
+              - value1: $eventConversationId
+                value2: $conversationId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqrfgf5k0j
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqrfdjqg4n
+        type: EventCondition
+  - id: ms-mqrfgmus0o
+    name: Step 6 - Conversation Tree
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqrfgmur40
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Now that the hail is connected, your crew can have your
+            conversation, almost always directed by your Captain.
+
+
+            Sometimes, like in this case, you'll use your station to proceed
+            through the conversation. Here, you'll see what is said by the other
+            ship along with options for how you can respond.
+
+
+            Your job is to make sure the Captain knows what the other ship is
+            saying by repeating their responses to the Captain, and then letting
+            the Captain know how your crew can respond. Then the Captain can
+            tell you what response to choose.
+
+
+            For now, just choose whichever response you prefer.
+          selector:
+            - .conversation-area
+      - entity: this timeline
+        getVariable: conversationId
+        variable: conversationId
+        id: blo-mqrfo6y658
+        type: VariableIntoVariable
+      - event: conversation.selectChoice
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqrfnqwe15
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mqrfnqwf3m
+            type: ResultPropertyIntoVariable
+            property: conversationId
+            variable: eventConversationId
+          - id: blo-mqrfnqwh0y
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+              - value1: $eventConversationId
+                value2: $conversationId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqrfojhx23
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqrfnqwo38
+        type: EventCondition
+  - id: ms-mqs3bp6c12
+    name: Step 7 - Prepare Hail
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqs3bp6b29
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Well, that was pleasant.
+
+
+            You can also initiate hails to other ships. To do this, you have to
+            know the frequency of their own antenna. Your ship can perform
+            sensors scans to find the frequency.
+
+
+            There's a ship nearby that is tuned to a frequency of 232 MHz. Let's
+            give them a call. Change your frequency slider to that frequency.
+          selector:
+            - .frequency-slider
+      - entity: this timeline
+        getVariable: contactId
+        variable: contactId
+        id: blo-mqs80ml60j
+        type: VariableIntoVariable
+      - action: shortRangeComm.setTemplateConversation
+        values:
+          shipId: $contactId
+          templateConversationId: Ship Convo
+        id: blo-mqs95y636u
+        type: Action
+      - action: shortRangeComm.setFrequency
+        values:
+          shipId: $contactId
+          frequency: '232'
+        id: blo-mqs7zxvb2u
+        type: Action
+      - event: shortRangeComm.setFrequency
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs81g6u6d
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mqs81g6v1d
+            type: ResultPropertyIntoVariable
+            property: frequency
+            variable: eventFrequency
+          - id: blo-mqs81g6w3m
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+              - value1: $eventFrequency
+                value2: '232'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqs81nfo11
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs81g6y5y
+        type: EventCondition
+  - id: ms-mqs823mj11
+    name: Step 8 - Initiate Hail
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqs823mi2h
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Now click the "Hail" button to see if the ship will answer. Make
+            sure the frequency is set to 232 MHz. Even if you got the frequency
+            right, the ship might not want to talk to you and could reject your
+            call. 
+
+
+            Don't take it personally.
+          selector:
+            - .hail-button
+      - event: shortRangeComm.hail
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs83lui11
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mqs83luj6d
+            type: ResultPropertyIntoVariable
+            property: conversationId
+            variable: eventConversationId
+          - id: blo-mr12ye5l19
+            type: SetVariable
+            entity: this timeline
+            variable: conversationId
+            value: $eventConversationId
+          - id: blo-mqs83luk5w
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqs83vdg6h
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs83lul5g
+        type: EventCondition
+  - id: ts-mr12w0so2k
+    name: Step 9 - Wait for connect
+    tags: []
+    description: ''
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            You might need to wait a few seconds for the other ship to connect
+            your hail. Hang tight...
+        id: blo-mr12w4fv0s
+        type: Action
+      - entity: this timeline
+        getVariable: conversationId
+        variable: conversationId
+        id: blo-mr12yw8a42
+        type: VariableIntoVariable
+      - event: shortRangeComm.connect
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr12xs5u4q
+            type: ResultPropertyIntoVariable
+            property: hostShipId
+            variable: eventShipId
+          - id: blo-mr12xs5v3b
+            type: ResultPropertyIntoVariable
+            property: conversationId
+            variable: eventConversationId
+          - id: blo-mr12xs5y6t
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+              - value1: $eventConversationId
+                value2: $conversationId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr12zhss5w
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr12xs5w73
+        type: EventCondition
+  - id: ms-mqs8n1wu6v
+    name: Step 9 - Disconnect
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqs8n1wt11
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Nice work.
+
+
+            Typically, you'd want to stick around in a conversation until you've
+            heard everything the other person has to say, but sometimes you've
+            got to leave. Clicking the Disconnect button will close the call and
+            let you move on to other things.
+
+
+            Note: The conversation will also disconnect if you lose power to the
+            Short Range Communications system, or if your ship or the other ship
+            moves out of communications range. Make sure you give yourself a
+            good gain buffer if you're planning to move around while talking.
+
+
+            Go ahead and disconnect this call to continue.
+          selector:
+            - .disconnect-button
+      - event: shortRangeComm.disconnect
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mr135hel0l
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mr135hen0u
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mr135pdx5y
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mr135heo43
+        type: EventCondition
