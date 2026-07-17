@@ -14,71 +14,73 @@ stars:
   - name: 'Merga '
     description: ''
     tags: []
-    radius: 2.51
-    temperature: 6591
     solarMass: 1.6
     age: 7761337652502
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.51
+    temperature: 6591
     satellite:
-      orbitalArc: 319
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 319
       showOrbit: false
       parentId: Merga
 planets:
   - name: Merga 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 2363
-      age: 7071458855
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.018309873545477074
-      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 733
     satellite:
+      axialTilt: 31.02
       semiMajorAxis: 62009985
       eccentricity: 0.01
       inclination: 1.3
       orbitalArc: 139
-      axialTilt: 31.02
-      parentId: Merga
       showOrbit: true
-    satellites: []
-  - name: Merga 2
-    description: ''
-    tags: []
+      parentId: Merga
     isPlanet:
-      radius: 312
-      age: 364064607
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.02001862072002134
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
+      age: 7071458855
+      classification: B
+      radius: 2363
+      terranMass: 0.018309873545477074
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
-    temperature: 329
+    temperature: 733
+    satellites: []
+  - name: Merga 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 0.55
       semiMajorAxis: 168038799
       eccentricity: 0.01
       inclination: 0.97
       orbitalArc: 151
-      axialTilt: 0.55
-      parentId: Merga
       showOrbit: true
+      parentId: Merga
+    isPlanet:
+      age: 364064607
+      classification: D
+      radius: 312
+      terranMass: 0.02001862072002134
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 329
     satellites: []
 commSatellite: null
 assets: {}

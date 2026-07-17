@@ -1,0 +1,9 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Civilian Ships 1
+description: ''
+textPattern: >-
+  {~{#Adjectives},{#Singular Nouns},{#Nouns of Indeterminate Quantity}}
+  {~{#Singular Nouns},{#Plural Nouns}}
+category: Ships
+assets: {}

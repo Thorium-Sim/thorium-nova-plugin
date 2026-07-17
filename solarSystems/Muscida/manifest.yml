@@ -14,505 +14,507 @@ stars:
   - name: Muscida A
     description: ''
     tags: []
-    radius: 13.84
-    temperature: 5242
     solarMass: 2.72
     age: 1084620832614
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 13.84
+    temperature: 5242
     satellite:
-      orbitalArc: 98
-      semiMajorAxis: 166.07999999999998
       axialTilt: 0
+      semiMajorAxis: 166.07999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 98
       showOrbit: false
       parentId: Muscida
   - name: Muscida B
     description: ''
     tags: []
-    radius: 13.84
-    temperature: 5242
     solarMass: 2.72
     age: 1084620832614
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 13.84
+    temperature: 5242
     satellite:
-      orbitalArc: 278
-      semiMajorAxis: 166.07999999999998
       axialTilt: 0
+      semiMajorAxis: 166.07999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 278
       showOrbit: false
       parentId: Muscida
 planets:
   - name: Muscida 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 330
-      age: 647309103
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.007597011714300185
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 310
     satellite:
+      axialTilt: 26.2
       semiMajorAxis: 507884520.9999996
       eccentricity: 0
       inclination: 0.79
       orbitalArc: 305
-      axialTilt: 26.2
-      parentId: Muscida
       showOrbit: true
+      parentId: Muscida
+    isPlanet:
+      age: 647309103
+      classification: D
+      radius: 330
+      terranMass: 0.007597011714300185
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 310
     satellites: []
   - name: Muscida 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5039
-      age: 2910553473
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.020334951723781525
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 798
     satellite:
+      axialTilt: 23.86
       semiMajorAxis: 998124653.3333311
       eccentricity: 0.01
       inclination: 1.51
       orbitalArc: 33
-      axialTilt: 23.86
-      parentId: Muscida
       showOrbit: true
+      parentId: Muscida
+    isPlanet:
+      age: 2910553473
+      classification: F
+      radius: 5039
+      terranMass: 0.020334951723781525
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 798
     satellites:
       - name: Muscida 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 361.34991442791653
-          age: 374825510
-          ringMapAsset: null
-          terranMass: 0.6099997483074022
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 388
         satellite:
+          axialTilt: 3.85
           semiMajorAxis: 201948.46105555288
           eccentricity: 0.02
           inclination: 0
           orbitalArc: 328
-          axialTilt: 3.85
-          parentId: Muscida 2
           showOrbit: true
-        satellites: []
-      - name: Muscida 2b
-        description: ''
-        tags: []
+          parentId: Muscida 2
         isPlanet:
-          radius: 974.5646166638275
-          age: 9025679209
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 2.1000000656039415
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
-          classification: H
+          age: 374825510
+          classification: D
+          radius: 361.34991442791653
+          terranMass: 0.6099997483074022
           isHabitable: false
           lifeforms:
             - None
-            - Primitive single-celled organisms
-            - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 555
+        temperature: 388
+      - name: Muscida 2b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 32.72
           semiMajorAxis: 338173.92198234814
           eccentricity: 0
           inclination: 1.58
           orbitalArc: 82
-          axialTilt: 32.72
+          showOrbit: true
           parentId: Muscida 2
-          showOrbit: true
-        satellites: []
-  - name: Muscida 3
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 1470
-      age: 473751262
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.013342449841504948
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 49
-    satellite:
-      semiMajorAxis: 1268695955.1111023
-      eccentricity: 0.02
-      inclination: 1.09
-      orbitalArc: 10
-      axialTilt: 17.19
-      parentId: Muscida
-      showOrbit: true
-    satellites: []
-  - name: Muscida 4
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 6403
-      age: 442835249
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.010254603924545337
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1345
-    satellite:
-      semiMajorAxis: 1603268118.407346
-      eccentricity: 0.02
-      inclination: 1.45
-      orbitalArc: 227
-      axialTilt: 11.57
-      parentId: Muscida
-      showOrbit: true
-    satellites:
-      - name: Muscida 4a
-        description: ''
-        tags: []
         isPlanet:
-          radius: 369.10223756904077
-          age: 9030220476
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 8013072564
-        temperature: 292
-        satellite:
-          semiMajorAxis: 144061.8046767254
-          eccentricity: 0.02
-          inclination: 1.77
-          orbitalArc: 311
-          axialTilt: 32.08
-          parentId: Muscida 4
-          showOrbit: true
-        satellites: []
-      - name: Muscida 4b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 691.7897537904186
-          age: 801864856
-          ringMapAsset: null
-          terranMass: 1.8000001402471684
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 52
-        satellite:
-          semiMajorAxis: 325710.92961367534
-          eccentricity: 0.02
-          inclination: 1.43
-          orbitalArc: 77
-          axialTilt: 5.03
-          parentId: Muscida 4
-          showOrbit: true
-        satellites: []
-      - name: Muscida 4c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1509.378257345857
-          age: 643882337
-          ringMapAsset: null
-          terranMass: 0.7000001924864708
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 37
-        satellite:
-          semiMajorAxis: 662617.0549748313
-          eccentricity: 0.01
-          inclination: 1.45
-          orbitalArc: 258
-          axialTilt: 39.09
-          parentId: Muscida 4
-          showOrbit: true
-        satellites: []
-  - name: Muscida 5
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 6858
-      age: 1511080361
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.00019066952301147492
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1021
-    satellite:
-      semiMajorAxis: 2112329684.0244853
-      eccentricity: 0.01
-      inclination: 0.14
-      orbitalArc: 182
-      axialTilt: 2.02
-      parentId: Muscida
-      showOrbit: true
-    satellites:
-      - name: Muscida 5a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 405.2151537270554
-          age: 599996454
-          ringMapAsset: null
-          terranMass: 0.7499998519178963
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 273
-        satellite:
-          semiMajorAxis: 282186.2952063704
-          eccentricity: 0.01
-          inclination: 1.34
-          orbitalArc: 303
-          axialTilt: 30.53
-          parentId: Muscida 5
-          showOrbit: true
-        satellites: []
-      - name: Muscida 5b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1280.0618659032884
-          age: 3345484114
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
-          classification: G
-          isHabitable: false
-          lifeforms:
-            - None
-            - Primitive single-celled organisms
-          atmosphericComposition: []
-        population: 0
-        temperature: 473
-        satellite:
-          semiMajorAxis: 446901.5891491619
-          eccentricity: 0.01
-          inclination: 0.18
-          orbitalArc: 197
-          axialTilt: 7.05
-          parentId: Muscida 5
-          showOrbit: true
-        satellites: []
-      - name: Muscida 5c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1430.72389389156
-          age: 6595579266
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.3000001107556396
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
-          classification: K
-          isHabitable: true
-          lifeforms:
-            - None
-            - Primitive single-celled organisms
-          atmosphericComposition: []
-        population: 33882
-        temperature: 228
-        satellite:
-          semiMajorAxis: 589458.2442833227
-          eccentricity: 0.01
-          inclination: 1.98
-          orbitalArc: 194
-          axialTilt: 31.49
-          parentId: Muscida 5
-          showOrbit: true
-        satellites: []
-  - name: Muscida 6
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 58921
-      age: 4888454425
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.4993786255315362
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 212
-    satellite:
-      semiMajorAxis: 2714053849.0652957
-      eccentricity: 0
-      inclination: 1.87
-      orbitalArc: 120
-      axialTilt: 24.8
-      parentId: Muscida
-      showOrbit: true
-    satellites:
-      - name: Muscida 6a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 9555.98616515776
-          age: 4572170991
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 0.5000001414261107
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          age: 9025679209
           classification: H
+          radius: 974.5646166638275
+          terranMass: 2.1000000656039415
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 0
-        temperature: 873
-        satellite:
-          semiMajorAxis: 2723456.0570699614
-          eccentricity: 0.02
-          inclination: 0.62
-          orbitalArc: 202
-          axialTilt: 29.82
-          parentId: Muscida 6
-          showOrbit: true
-        satellites: []
-  - name: Muscida 7
+        temperature: 555
+  - name: Muscida 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 17.19
+      semiMajorAxis: 1268695955.1111023
+      eccentricity: 0.02
+      inclination: 1.09
+      orbitalArc: 10
+      showOrbit: true
+      parentId: Muscida
     isPlanet:
-      radius: 297
-      age: 381701901
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.009198792192183648
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
+      age: 473751262
+      classification: C
+      radius: 1470
+      terranMass: 0.013342449841504948
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
-    temperature: 183
-    satellite:
-      semiMajorAxis: 2960939691.0802116
-      eccentricity: 0.01
-      inclination: 1.77
-      orbitalArc: 15
-      axialTilt: 8.66
-      parentId: Muscida
-      showOrbit: true
+    temperature: 49
     satellites: []
-  - name: Muscida 8
+  - name: Muscida 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 11.57
+      semiMajorAxis: 1603268118.407346
+      eccentricity: 0.02
+      inclination: 1.45
+      orbitalArc: 227
+      showOrbit: true
+      parentId: Muscida
     isPlanet:
-      radius: 38893
-      age: 8124380844
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 1.1743506210586871
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      age: 442835249
+      classification: E
+      radius: 6403
+      terranMass: 0.010254603924545337
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 1345
+    satellites:
+      - name: Muscida 4a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 32.08
+          semiMajorAxis: 144061.8046767254
+          eccentricity: 0.02
+          inclination: 1.77
+          orbitalArc: 311
+          showOrbit: true
+          parentId: Muscida 4
+        isPlanet:
+          age: 9030220476
+          classification: M
+          radius: 369.10223756904077
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 8013072564
+        temperature: 292
+      - name: Muscida 4b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 5.03
+          semiMajorAxis: 325710.92961367534
+          eccentricity: 0.02
+          inclination: 1.43
+          orbitalArc: 77
+          showOrbit: true
+          parentId: Muscida 4
+        isPlanet:
+          age: 801864856
+          classification: C
+          radius: 691.7897537904186
+          terranMass: 1.8000001402471684
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 52
+      - name: Muscida 4c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 39.09
+          semiMajorAxis: 662617.0549748313
+          eccentricity: 0.01
+          inclination: 1.45
+          orbitalArc: 258
+          showOrbit: true
+          parentId: Muscida 4
+        isPlanet:
+          age: 643882337
+          classification: C
+          radius: 1509.378257345857
+          terranMass: 0.7000001924864708
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 37
+  - name: Muscida 5
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 2.02
+      semiMajorAxis: 2112329684.0244853
+      eccentricity: 0.01
+      inclination: 0.14
+      orbitalArc: 182
+      showOrbit: true
+      parentId: Muscida
+    isPlanet:
+      age: 1511080361
+      classification: E
+      radius: 6858
+      terranMass: 0.00019066952301147492
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 1021
+    satellites:
+      - name: Muscida 5a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 30.53
+          semiMajorAxis: 282186.2952063704
+          eccentricity: 0.01
+          inclination: 1.34
+          orbitalArc: 303
+          showOrbit: true
+          parentId: Muscida 5
+        isPlanet:
+          age: 599996454
+          classification: D
+          radius: 405.2151537270554
+          terranMass: 0.7499998519178963
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 273
+      - name: Muscida 5b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 7.05
+          semiMajorAxis: 446901.5891491619
+          eccentricity: 0.01
+          inclination: 0.18
+          orbitalArc: 197
+          showOrbit: true
+          parentId: Muscida 5
+        isPlanet:
+          age: 3345484114
+          classification: G
+          radius: 1280.0618659032884
+          terranMass: 1.5
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 473
+      - name: Muscida 5c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 31.49
+          semiMajorAxis: 589458.2442833227
+          eccentricity: 0.01
+          inclination: 1.98
+          orbitalArc: 194
+          showOrbit: true
+          parentId: Muscida 5
+        isPlanet:
+          age: 6595579266
+          classification: K
+          radius: 1430.72389389156
+          terranMass: 1.3000001107556396
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+        population: 33882
+        temperature: 228
+  - name: Muscida 6
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 24.8
+      semiMajorAxis: 2714053849.0652957
+      eccentricity: 0
+      inclination: 1.87
+      orbitalArc: 120
+      showOrbit: true
+      parentId: Muscida
+    isPlanet:
+      age: 4888454425
       classification: J
+      radius: 58921
+      terranMass: 0.4993786255315362
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
-    temperature: 292
+    temperature: 212
+    satellites:
+      - name: Muscida 6a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 29.82
+          semiMajorAxis: 2723456.0570699614
+          eccentricity: 0.02
+          inclination: 0.62
+          orbitalArc: 202
+          showOrbit: true
+          parentId: Muscida 6
+        isPlanet:
+          age: 4572170991
+          classification: H
+          radius: 9555.98616515776
+          terranMass: 0.5000001414261107
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+            - Draught-resistant plants
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
+        population: 0
+        temperature: 873
+  - name: Muscida 7
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 8.66
+      semiMajorAxis: 2960939691.0802116
+      eccentricity: 0.01
+      inclination: 1.77
+      orbitalArc: 15
+      showOrbit: true
+      parentId: Muscida
+    isPlanet:
+      age: 381701901
+      classification: D
+      radius: 297
+      terranMass: 0.009198792192183648
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 183
+    satellites: []
+  - name: Muscida 8
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 12.34
       semiMajorAxis: 3321824441
       eccentricity: 0.01
       inclination: 0.48
       orbitalArc: 190
-      axialTilt: 12.34
-      parentId: Muscida
       showOrbit: true
+      parentId: Muscida
+    isPlanet:
+      age: 8124380844
+      classification: J
+      radius: 38893
+      terranMass: 1.1743506210586871
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+    population: 0
+    temperature: 292
     satellites:
       - name: Muscida 8a
         description: ''
         tags: []
-        isPlanet:
-          radius: 8052.807041980014
-          age: 346499289
-          ringMapAsset: null
-          terranMass: 0.029999784582037885
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 267
         satellite:
+          axialTilt: 10.21
           semiMajorAxis: 3800924.923814567
           eccentricity: 0.01
           inclination: 0.24
           orbitalArc: 270
-          axialTilt: 10.21
-          parentId: Muscida 8
           showOrbit: true
-        satellites: []
+          parentId: Muscida 8
+        isPlanet:
+          age: 346499289
+          classification: D
+          radius: 8052.807041980014
+          terranMass: 0.029999784582037885
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 267
 commSatellite: null
 assets: {}

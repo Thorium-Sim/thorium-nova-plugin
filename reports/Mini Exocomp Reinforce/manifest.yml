@@ -13,48 +13,45 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1at31d
     type: ShipSystemGetter
-  - '0':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Structural
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1at41d
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1at53k
-      type: IfCondition
-    '1':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Fatigue
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1at63v
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1at70l
-      type: IfCondition
-    '2':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Corrosion
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1at84t
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1at94w
-      type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Structural
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1at41d
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1at53k
+    type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Fatigue
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1at63v
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1at70l
+    type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Corrosion
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1at84t
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1at94w
+    type: IfCondition
 autoApplyWhenCompleted: true
 steps:
   - id: dr-mp5m1ata72

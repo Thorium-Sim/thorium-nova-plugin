@@ -14,244 +14,248 @@ stars:
   - name: Marsic A
     description: ''
     tags: []
-    radius: 16
-    temperature: 5119
     solarMass: 3.17
     age: 1040035259632
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 16
+    temperature: 5119
     satellite:
-      orbitalArc: 354
-      semiMajorAxis: 192
       axialTilt: 0
+      semiMajorAxis: 192
       eccentricity: 0
       inclination: 0
+      orbitalArc: 354
       showOrbit: false
       parentId: Marsic
   - name: Marsic B
     description: ''
     tags: []
-    radius: 16
-    temperature: 5119
     solarMass: 3.17
     age: 1040035259632
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 16
+    temperature: 5119
     satellite:
-      orbitalArc: 534
-      semiMajorAxis: 192
       axialTilt: 0
+      semiMajorAxis: 192
       eccentricity: 0
       inclination: 0
+      orbitalArc: 534
       showOrbit: false
       parentId: Marsic
 planets:
   - name: Marsic 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 174
-      age: 370554377
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.01796990765173402
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 177
     satellite:
+      axialTilt: 9.49
       semiMajorAxis: 727449653.9999999
       eccentricity: 0.02
       inclination: 0.77
       orbitalArc: 359
-      axialTilt: 9.49
-      parentId: Marsic
       showOrbit: true
-    satellites: []
-  - name: Marsic 2
-    description: ''
-    tags: []
+      parentId: Marsic
     isPlanet:
-      radius: 4391
-      age: 349043043
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0019050404341822758
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
+      age: 370554377
+      classification: D
+      radius: 174
+      terranMass: 0.01796990765173402
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
-    temperature: 46
+    temperature: 177
+    satellites: []
+  - name: Marsic 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 39.25
       semiMajorAxis: 1568707357
       eccentricity: 0.01
       inclination: 1.92
       orbitalArc: 36
-      axialTilt: 39.25
-      parentId: Marsic
       showOrbit: true
+      parentId: Marsic
+    isPlanet:
+      age: 349043043
+      classification: C
+      radius: 4391
+      terranMass: 0.0019050404341822758
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 46
     satellites: []
   - name: Marsic 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 10.8
+      semiMajorAxis: 2404009272.666667
+      eccentricity: 0.01
+      inclination: 0.91
+      orbitalArc: 6
+      showOrbit: true
+      parentId: Marsic
     isPlanet:
-      radius: 6112
       age: 3480597021
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.030997611148864408
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
       classification: G
+      radius: 6112
+      terranMass: 0.030997611148864408
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
     temperature: 482
-    satellite:
-      semiMajorAxis: 2404009272.666667
-      eccentricity: 0.01
-      inclination: 0.91
-      orbitalArc: 6
-      axialTilt: 10.8
-      parentId: Marsic
-      showOrbit: true
     satellites:
       - name: Marsic 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 727.0542596434836
-          age: 7298426511
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 197527
-        temperature: 269
         satellite:
+          axialTilt: 35.35
           semiMajorAxis: 145691.41166663275
           eccentricity: 0
           inclination: 1.94
           orbitalArc: 301
-          axialTilt: 35.35
-          parentId: Marsic 3
           showOrbit: true
-        satellites: []
+          parentId: Marsic 3
+        isPlanet:
+          age: 7298426511
+          classification: P
+          radius: 727.0542596434836
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 197527
+        temperature: 269
       - name: Marsic 3b
         description: ''
         tags: []
-        isPlanet:
-          radius: 893.0787765239085
-          age: 1225503400
-          ringMapAsset: null
-          terranMass: 1.800000354222036
-          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1598
         satellite:
+          axialTilt: 39.72
           semiMajorAxis: 349193.8016208482
           eccentricity: 0.01
           inclination: 1.91
           orbitalArc: 147
-          axialTilt: 39.72
-          parentId: Marsic 3
           showOrbit: true
-        satellites: []
+          parentId: Marsic 3
+        isPlanet:
+          age: 1225503400
+          classification: A
+          radius: 893.0787765239085
+          terranMass: 1.800000354222036
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1598
   - name: Marsic 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 489
-      age: 52448949
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.0007395323370692376
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 189
     satellite:
+      axialTilt: 7.17
       semiMajorAxis: 2931951218.444443
       eccentricity: 0
       inclination: 1.59
       orbitalArc: 338
-      axialTilt: 7.17
-      parentId: Marsic
       showOrbit: true
-    satellites: []
-  - name: Marsic 5
-    description: ''
-    tags: []
+      parentId: Marsic
     isPlanet:
-      radius: 382
-      age: 967242664
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.01347053630143699
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      age: 52448949
       classification: D
+      radius: 489
+      terranMass: 0.0007395323370692376
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
-    temperature: 238
+    temperature: 189
+    satellites: []
+  - name: Marsic 5
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 29.38
       semiMajorAxis: 3220341813.8888865
       eccentricity: 0.01
       inclination: 1.56
       orbitalArc: 59
-      axialTilt: 29.38
-      parentId: Marsic
       showOrbit: true
+      parentId: Marsic
+    isPlanet:
+      age: 967242664
+      classification: D
+      radius: 382
+      terranMass: 0.01347053630143699
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 238
     satellites: []
   - name: Marsic 6
     description: ''
     tags: []
+    satellite:
+      axialTilt: 22.77
+      semiMajorAxis: 3730683979
+      eccentricity: 0
+      inclination: 1.17
+      orbitalArc: 340
+      showOrbit: true
+      parentId: Marsic
     isPlanet:
-      radius: 48569
       age: 6447770783
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.6471177401712903
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
       classification: J
+      radius: 48569
+      terranMass: 0.6471177401712903
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
     temperature: 303
-    satellite:
-      semiMajorAxis: 3730683979
-      eccentricity: 0
-      inclination: 1.17
-      orbitalArc: 340
-      axialTilt: 22.77
-      parentId: Marsic
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

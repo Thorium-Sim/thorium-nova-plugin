@@ -14,250 +14,252 @@ stars:
   - name: 'Mothallah '
     description: ''
     tags: []
-    radius: 3.22
-    temperature: 6288
     solarMass: 1.7
     age: 6048620406194
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 3.22
+    temperature: 6288
     satellite:
-      orbitalArc: 86
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 86
       showOrbit: false
       parentId: Mothallah
 planets:
   - name: Mothallah 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 342
-      age: 351530689
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.010364971503735719
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 233
     satellite:
+      axialTilt: 34.36
       semiMajorAxis: 239555484.33333308
       eccentricity: 0.02
       inclination: 0.93
       orbitalArc: 68
-      axialTilt: 34.36
-      parentId: Mothallah
       showOrbit: true
+      parentId: Mothallah
+    isPlanet:
+      age: 351530689
+      classification: D
+      radius: 342
+      terranMass: 0.010364971503735719
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 233
     satellites: []
   - name: Mothallah 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 201
-      age: 69762132
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.004005437638991781
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 304
     satellite:
+      axialTilt: 7.65
       semiMajorAxis: 407037390.4444406
       eccentricity: 0.02
       inclination: 0.03
       orbitalArc: 51
-      axialTilt: 7.65
-      parentId: Mothallah
       showOrbit: true
+      parentId: Mothallah
+    isPlanet:
+      age: 69762132
+      classification: D
+      radius: 201
+      terranMass: 0.004005437638991781
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 304
     satellites: []
   - name: Mothallah 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 116
-      age: 244591807
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.003929725593882104
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 350
     satellite:
+      axialTilt: 30.59
       semiMajorAxis: 509653076.9259093
       eccentricity: 0.01
       inclination: 1.28
       orbitalArc: 200
-      axialTilt: 30.59
-      parentId: Mothallah
       showOrbit: true
+      parentId: Mothallah
+    isPlanet:
+      age: 244591807
+      classification: D
+      radius: 116
+      terranMass: 0.003929725593882104
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 350
     satellites: []
   - name: Mothallah 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 6704
-      age: 1557882304
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.023606187759819385
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 719
     satellite:
+      axialTilt: 14.58
       semiMajorAxis: 1322190905.8518193
       eccentricity: 0.01
       inclination: 0.86
       orbitalArc: 284
-      axialTilt: 14.58
-      parentId: Mothallah
       showOrbit: true
-    satellites:
-      - name: Mothallah 4a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 337.3314666354404
-          age: 4563657875
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-          classification: 'N'
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 87878321
-        temperature: 514
-        satellite:
-          semiMajorAxis: 98163.45679091316
-          eccentricity: 0.02
-          inclination: 0.32
-          orbitalArc: 228
-          axialTilt: 21.83
-          parentId: Mothallah 4
-          showOrbit: true
-        satellites: []
-  - name: Mothallah 5
-    description: ''
-    tags: []
+      parentId: Mothallah
     isPlanet:
-      radius: 3003
-      age: 343594874
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0008870810427636305
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-      classification: C
+      age: 1557882304
+      classification: F
+      radius: 6704
+      terranMass: 0.023606187759819385
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
-    temperature: 35
+    temperature: 719
+    satellites:
+      - name: Mothallah 4a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 21.83
+          semiMajorAxis: 98163.45679091316
+          eccentricity: 0.02
+          inclination: 0.32
+          orbitalArc: 228
+          showOrbit: true
+          parentId: Mothallah 4
+        isPlanet:
+          age: 4563657875
+          classification: 'N'
+          radius: 337.3314666354404
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 87878321
+        temperature: 514
+  - name: Mothallah 5
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 23.48
       semiMajorAxis: 2909970700
       eccentricity: 0.02
       inclination: 1.91
       orbitalArc: 301
-      axialTilt: 23.48
-      parentId: Mothallah
       showOrbit: true
+      parentId: Mothallah
+    isPlanet:
+      age: 343594874
+      classification: C
+      radius: 3003
+      terranMass: 0.0008870810427636305
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 35
     satellites:
       - name: Mothallah 5a
         description: ''
         tags: []
-        isPlanet:
-          radius: 244.76205576781928
-          age: 7497624681
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 120730
-        temperature: 260
         satellite:
+          axialTilt: 36.37
           semiMajorAxis: 84158.22224890113
           eccentricity: 0.01
           inclination: 0.74
           orbitalArc: 272
-          axialTilt: 36.37
-          parentId: Mothallah 5
           showOrbit: true
-        satellites: []
+          parentId: Mothallah 5
+        isPlanet:
+          age: 7497624681
+          classification: P
+          radius: 244.76205576781928
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 120730
+        temperature: 260
       - name: Mothallah 5b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 35.24
+          semiMajorAxis: 231357.13096800918
+          eccentricity: 0
+          inclination: 1.54
+          orbitalArc: 261
+          showOrbit: true
+          parentId: Mothallah 5
         isPlanet:
-          radius: 470.4655157422217
           age: 9653126591
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.3000000813085615
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 470.4655157422217
+          terranMass: 1.3000000813085615
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 27398
         temperature: 244
-        satellite:
-          semiMajorAxis: 231357.13096800918
-          eccentricity: 0
-          inclination: 1.54
-          orbitalArc: 261
-          axialTilt: 35.24
-          parentId: Mothallah 5
-          showOrbit: true
-        satellites: []
       - name: Mothallah 5c
         description: ''
         tags: []
-        isPlanet:
-          radius: 703.1403970238963
-          age: 189730840
-          ringMapAsset: null
-          terranMass: 1.9000001890348712
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 55
         satellite:
+          axialTilt: 13.76
           semiMajorAxis: 317819.4594548011
           eccentricity: 0.01
           inclination: 1.82
           orbitalArc: 216
-          axialTilt: 13.76
-          parentId: Mothallah 5
           showOrbit: true
-        satellites: []
+          parentId: Mothallah 5
+        isPlanet:
+          age: 189730840
+          classification: C
+          radius: 703.1403970238963
+          terranMass: 1.9000001890348712
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 55
 commSatellite: null
 assets: {}

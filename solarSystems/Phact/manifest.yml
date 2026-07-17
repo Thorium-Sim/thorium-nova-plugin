@@ -14,91 +14,92 @@ stars:
   - name: Phact A
     description: ''
     tags: []
-    radius: 7
-    temperature: 12200
     solarMass: 4.5
     age: 239081733169
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 7
+    temperature: 12200
     satellite:
-      orbitalArc: 92
-      semiMajorAxis: 84
       axialTilt: 0
+      semiMajorAxis: 84
       eccentricity: 0
       inclination: 0
+      orbitalArc: 92
       showOrbit: false
       parentId: Phact
   - name: Phact B
     description: ''
     tags: []
-    radius: 7
-    temperature: 12200
     solarMass: 4.5
     age: 239081733169
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 7
+    temperature: 12200
     satellite:
-      orbitalArc: 272
-      semiMajorAxis: 84
       axialTilt: 0
+      semiMajorAxis: 84
       eccentricity: 0
       inclination: 0
+      orbitalArc: 272
       showOrbit: false
       parentId: Phact
 planets:
   - name: Phact 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 66
-      age: 883129896
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.005854038413401127
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 246
     satellite:
+      axialTilt: 8.81
       semiMajorAxis: 2410455441.333333
       eccentricity: 0.01
       inclination: 0.6
       orbitalArc: 214
-      axialTilt: 8.81
-      parentId: Phact
       showOrbit: true
+      parentId: Phact
+    isPlanet:
+      age: 883129896
+      classification: D
+      radius: 66
+      terranMass: 0.005854038413401127
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 246
     satellites: []
   - name: Phact 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 25.27
+      semiMajorAxis: 3809426761
+      eccentricity: 0
+      inclination: 1.75
+      orbitalArc: 359
+      showOrbit: true
+      parentId: Phact
     isPlanet:
-      radius: 4761
       age: 8704793418
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.007924818456032675
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4761
+      terranMass: 0.007924818456032675
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 15678
     temperature: 149
-    satellite:
-      semiMajorAxis: 3809426761
-      eccentricity: 0
-      inclination: 1.75
-      orbitalArc: 359
-      axialTilt: 25.27
-      parentId: Phact
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

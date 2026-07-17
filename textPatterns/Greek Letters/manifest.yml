@@ -1,0 +1,8 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Greek Letters
+description: ''
+textPattern: >-
+  {~Alpha,Beta,Gamma,Delta,Epsilon,Zeta,Eta,Theta,Iota,Kappa,Lambda,Mu,Nu,Omicron,Pi,Rho,Sigma,Tau,Upsilon,Phi,Chi,Psi,Omega}
+category: Word Lists
+assets: {}

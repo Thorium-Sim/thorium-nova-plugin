@@ -14,506 +14,504 @@ stars:
   - name: Tianyi A
     description: ''
     tags: []
-    radius: 37
-    temperature: 3945
     solarMass: 7.247
     age: 1260480314377
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 37
+    temperature: 3945
     satellite:
-      orbitalArc: 357
-      semiMajorAxis: 444
       axialTilt: 0
+      semiMajorAxis: 444
       eccentricity: 0
       inclination: 0
+      orbitalArc: 357
       showOrbit: false
       parentId: Tianyi
   - name: Tianyi B
     description: ''
     tags: []
-    radius: 37
-    temperature: 3945
     solarMass: 7.247
     age: 1260480314377
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 37
+    temperature: 3945
     satellite:
-      orbitalArc: 537
-      semiMajorAxis: 444
       axialTilt: 0
+      semiMajorAxis: 444
       eccentricity: 0
       inclination: 0
+      orbitalArc: 537
       showOrbit: false
       parentId: Tianyi
 planets:
   - name: Tianyi 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 132
-      age: 886687703
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.005417749368072575
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 319
     satellite:
+      axialTilt: 26.29
       semiMajorAxis: 149396573.3333326
       eccentricity: 0.01
       inclination: 0.19
       orbitalArc: 157
-      axialTilt: 26.29
-      parentId: Tianyi
       showOrbit: true
+      parentId: Tianyi
+    isPlanet:
+      age: 886687703
+      classification: D
+      radius: 132
+      terranMass: 0.005417749368072575
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 319
     satellites: []
   - name: Tianyi 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 241
-      age: 647083130
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0006319838104311438
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 310
     satellite:
+      axialTilt: 23.73
       semiMajorAxis: 855439275.5555551
       eccentricity: 0.01
       inclination: 0.67
       orbitalArc: 339
-      axialTilt: 23.73
-      parentId: Tianyi
       showOrbit: true
+      parentId: Tianyi
+    isPlanet:
+      age: 647083130
+      classification: D
+      radius: 241
+      terranMass: 0.0006319838104311438
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 310
     satellites: []
   - name: Tianyi 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 6482
-      age: 9497927397
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.00267703455294879
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 148626
-    temperature: 268
     satellite:
+      axialTilt: 1.31
       semiMajorAxis: 1611276649.37037
       eccentricity: 0.01
       inclination: 0.53
       orbitalArc: 214
-      axialTilt: 1.31
-      parentId: Tianyi
       showOrbit: true
+      parentId: Tianyi
+    isPlanet:
+      age: 9497927397
+      classification: P
+      radius: 6482
+      terranMass: 0.00267703455294879
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 148626
+    temperature: 268
     satellites:
       - name: Tianyi 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1287.7098375089024
-          age: 628354471
-          ringMapAsset: null
-          terranMass: 0.15999963338178502
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 214
         satellite:
+          axialTilt: 35.53
           semiMajorAxis: 397275.3714310642
           eccentricity: 0
           inclination: 1.82
           orbitalArc: 271
-          axialTilt: 35.53
-          parentId: Tianyi 3
           showOrbit: true
-        satellites: []
-      - name: Tianyi 3b
-        description: ''
-        tags: []
+          parentId: Tianyi 3
         isPlanet:
-          radius: 1276.395894999359
-          age: 519408586
-          ringMapAsset: null
-          terranMass: 1.1799997728772815
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          age: 628354471
           classification: D
+          radius: 1287.7098375089024
+          terranMass: 0.15999963338178502
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 191
+        temperature: 214
+      - name: Tianyi 3b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 11.78
           semiMajorAxis: 607564.4460196948
           eccentricity: 0.01
           inclination: 0.61
           orbitalArc: 222
-          axialTilt: 11.78
-          parentId: Tianyi 3
           showOrbit: true
-        satellites: []
+          parentId: Tianyi 3
+        isPlanet:
+          age: 519408586
+          classification: D
+          radius: 1276.395894999359
+          terranMass: 1.1799997728772815
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 191
   - name: Tianyi 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 6726
-      age: 9984054875
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.005000047467765409
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 552263475
-    temperature: 384
     satellite:
+      axialTilt: 26.54
       semiMajorAxis: 2173766490.493827
       eccentricity: 0
       inclination: 1.19
       orbitalArc: 96
-      axialTilt: 26.54
-      parentId: Tianyi
       showOrbit: true
+      parentId: Tianyi
+    isPlanet:
+      age: 9984054875
+      classification: 'N'
+      radius: 6726
+      terranMass: 0.005000047467765409
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 552263475
+    temperature: 384
     satellites:
       - name: Tianyi 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1034.7389427408202
-          age: 184319501
-          ringMapAsset: null
-          terranMass: 0.18999978949952667
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 228
         satellite:
+          axialTilt: 20.9
           semiMajorAxis: 366297.58573025034
           eccentricity: 0.01
           inclination: 1.7
           orbitalArc: 297
-          axialTilt: 20.9
-          parentId: Tianyi 4
           showOrbit: true
-        satellites: []
+          parentId: Tianyi 4
+        isPlanet:
+          age: 184319501
+          classification: D
+          radius: 1034.7389427408202
+          terranMass: 0.18999978949952667
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 228
   - name: Tianyi 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 5358
-      age: 9092692517
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.02090218683434701
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 134495
-    temperature: 258
     satellite:
+      axialTilt: 34.78
       semiMajorAxis: 2666657130.473246
       eccentricity: 0.01
       inclination: 0.23
       orbitalArc: 336
-      axialTilt: 34.78
-      parentId: Tianyi
       showOrbit: true
+      parentId: Tianyi
+    isPlanet:
+      age: 9092692517
+      classification: P
+      radius: 5358
+      terranMass: 0.02090218683434701
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 134495
+    temperature: 258
     satellites:
       - name: Tianyi 5a
         description: ''
         tags: []
-        isPlanet:
-          radius: 353.04442362825955
-          age: 7614689435
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5000001001482016
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
-          classification: L
-          isHabitable: true
-          lifeforms:
-            - Primitive single-celled organisms
-            - Hardy plant life
-          atmosphericComposition: []
-        population: 44175
-        temperature: 234
         satellite:
+          axialTilt: 39.17
           semiMajorAxis: 116467.42987094342
           eccentricity: 0
           inclination: 1.53
           orbitalArc: 14
-          axialTilt: 39.17
+          showOrbit: true
           parentId: Tianyi 5
-          showOrbit: true
-        satellites: []
-      - name: Tianyi 5b
-        description: ''
-        tags: []
         isPlanet:
-          radius: 964.7846598105237
-          age: 9910339063
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 6589032480
-        temperature: 294
-        satellite:
-          semiMajorAxis: 326097.215015957
-          eccentricity: 0
-          inclination: 0.85
-          orbitalArc: 158
-          axialTilt: 12.92
-          parentId: Tianyi 5
-          showOrbit: true
-        satellites: []
-  - name: Tianyi 6
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 6728
-      age: 6943465581
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.0037287932322893277
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 53660
-    temperature: 259
-    satellite:
-      semiMajorAxis: 2904657840.3662305
-      eccentricity: 0.02
-      inclination: 0.82
-      orbitalArc: 352
-      axialTilt: 15.79
-      parentId: Tianyi
-      showOrbit: true
-    satellites: []
-  - name: Tianyi 7
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5625
-      age: 8058212488
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.004087979392285454
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 95164
-    temperature: 257
-    satellite:
-      semiMajorAxis: 3479794965.2207656
-      eccentricity: 0.01
-      inclination: 1.26
-      orbitalArc: 326
-      axialTilt: 4.07
-      parentId: Tianyi
-      showOrbit: true
-    satellites:
-      - name: Tianyi 7a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 676.2257800629538
-          age: 522648004
-          ringMapAsset: null
-          terranMass: 0.7000001485857584
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 44
-        satellite:
-          semiMajorAxis: 300920.4721280145
-          eccentricity: 0
-          inclination: 0.87
-          orbitalArc: 146
-          axialTilt: 10.19
-          parentId: Tianyi 7
-          showOrbit: true
-        satellites: []
-  - name: Tianyi 8
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 30734
-      age: 5111090848
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.8102041070978634
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 237
-    satellite:
-      semiMajorAxis: 3719577473.220765
-      eccentricity: 0.02
-      inclination: 0.11
-      orbitalArc: 251
-      axialTilt: 20.85
-      parentId: Tianyi
-      showOrbit: true
-    satellites:
-      - name: Tianyi 8a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1851.7378010881223
-          age: 4971590779
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.300000104151466
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          age: 7614689435
           classification: L
+          radius: 353.04442362825955
+          terranMass: 0.5000001001482016
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
-        population: 24157
-        temperature: 179
-        satellite:
-          semiMajorAxis: 1053791.7599527065
-          eccentricity: 0.01
-          inclination: 1.73
-          orbitalArc: 358
-          axialTilt: 13.84
-          parentId: Tianyi 8
-          showOrbit: true
-        satellites: []
-      - name: Tianyi 8b
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 44175
+        temperature: 234
+      - name: Tianyi 5b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 12.92
+          semiMajorAxis: 326097.215015957
+          eccentricity: 0
+          inclination: 0.85
+          orbitalArc: 158
+          showOrbit: true
+          parentId: Tianyi 5
         isPlanet:
-          radius: 4781.829682971195
-          age: 698066986
+          age: 9910339063
+          classification: M
+          radius: 964.7846598105237
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+          cloudMapAsset: null
           ringMapAsset: null
-          terranMass: 0.10000000100424736
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+        population: 6589032480
+        temperature: 294
+  - name: Tianyi 6
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 15.79
+      semiMajorAxis: 2904657840.3662305
+      eccentricity: 0.02
+      inclination: 0.82
+      orbitalArc: 352
+      showOrbit: true
+      parentId: Tianyi
+    isPlanet:
+      age: 6943465581
+      classification: P
+      radius: 6728
+      terranMass: 0.0037287932322893277
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 53660
+    temperature: 259
+    satellites: []
+  - name: Tianyi 7
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 4.07
+      semiMajorAxis: 3479794965.2207656
+      eccentricity: 0.01
+      inclination: 1.26
+      orbitalArc: 326
+      showOrbit: true
+      parentId: Tianyi
+    isPlanet:
+      age: 8058212488
+      classification: P
+      radius: 5625
+      terranMass: 0.004087979392285454
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 95164
+    temperature: 257
+    satellites:
+      - name: Tianyi 7a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 10.19
+          semiMajorAxis: 300920.4721280145
+          eccentricity: 0
+          inclination: 0.87
+          orbitalArc: 146
+          showOrbit: true
+          parentId: Tianyi 7
+        isPlanet:
+          age: 522648004
           classification: C
+          radius: 676.2257800629538
+          terranMass: 0.7000001485857584
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
-        population: 0
-        temperature: 50
-        satellite:
-          semiMajorAxis: 1834022.6683002054
-          eccentricity: 0.01
-          inclination: 1.34
-          orbitalArc: 5
-          axialTilt: 5.24
-          parentId: Tianyi 8
-          showOrbit: true
-        satellites: []
-      - name: Tianyi 8c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 5160.194631937541
-          age: 6470231957
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
           cloudMapAsset: null
           ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 51445
-        temperature: 258
-        satellite:
-          semiMajorAxis: 2301446.8058441435
-          eccentricity: 0.02
-          inclination: 1.11
-          orbitalArc: 124
-          axialTilt: 24.13
-          parentId: Tianyi 8
-          showOrbit: true
-        satellites: []
-  - name: Tianyi 9
+        population: 0
+        temperature: 44
+  - name: Tianyi 8
     description: ''
     tags: []
+    satellite:
+      axialTilt: 20.85
+      semiMajorAxis: 3719577473.220765
+      eccentricity: 0.02
+      inclination: 0.11
+      orbitalArc: 251
+      showOrbit: true
+      parentId: Tianyi
     isPlanet:
-      radius: 59071
-      age: 5161854395
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.2939327783763717
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      age: 5111090848
       classification: J
+      radius: 30734
+      terranMass: 0.8102041070978634
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
-    temperature: 226
+    temperature: 237
+    satellites:
+      - name: Tianyi 8a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 13.84
+          semiMajorAxis: 1053791.7599527065
+          eccentricity: 0.01
+          inclination: 1.73
+          orbitalArc: 358
+          showOrbit: true
+          parentId: Tianyi 8
+        isPlanet:
+          age: 4971590779
+          classification: L
+          radius: 1851.7378010881223
+          terranMass: 1.300000104151466
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+        population: 24157
+        temperature: 179
+      - name: Tianyi 8b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 5.24
+          semiMajorAxis: 1834022.6683002054
+          eccentricity: 0.01
+          inclination: 1.34
+          orbitalArc: 5
+          showOrbit: true
+          parentId: Tianyi 8
+        isPlanet:
+          age: 698066986
+          classification: C
+          radius: 4781.829682971195
+          terranMass: 0.10000000100424736
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 50
+      - name: Tianyi 8c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 24.13
+          semiMajorAxis: 2301446.8058441435
+          eccentricity: 0.02
+          inclination: 1.11
+          orbitalArc: 124
+          showOrbit: true
+          parentId: Tianyi 8
+        isPlanet:
+          age: 6470231957
+          classification: P
+          radius: 5160.194631937541
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 51445
+        temperature: 258
+  - name: Tianyi 9
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 18.84
       semiMajorAxis: 3964616857
       eccentricity: 0.01
       inclination: 1.88
       orbitalArc: 42
-      axialTilt: 18.84
-      parentId: Tianyi
       showOrbit: true
+      parentId: Tianyi
+    isPlanet:
+      age: 5161854395
+      classification: J
+      radius: 59071
+      terranMass: 1.2939327783763717
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 0
+    temperature: 226
     satellites: []
 commSatellite: null
 assets: {}

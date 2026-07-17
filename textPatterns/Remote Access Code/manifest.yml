@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Remote Access Code
+description: Used to generate cool-sounding remote access codes.
+textPattern: '{#Greek Letters}-RANDOM(100,999)-{#Cool Words}'
+category: ''
+assets: {}

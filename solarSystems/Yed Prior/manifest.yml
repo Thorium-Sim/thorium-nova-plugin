@@ -14,65 +14,65 @@ stars:
   - name: Yed Prior A
     description: ''
     tags: []
-    radius: 53.5
-    temperature: 3733
     solarMass: 1.39
     age: 144226332791
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 53.5
+    temperature: 3733
     satellite:
-      orbitalArc: 44
-      semiMajorAxis: 642
       axialTilt: 0
+      semiMajorAxis: 642
       eccentricity: 0
       inclination: 0
+      orbitalArc: 44
       showOrbit: false
       parentId: Yed Prior
   - name: Yed Prior B
     description: ''
     tags: []
-    radius: 53.5
-    temperature: 3733
     solarMass: 1.39
     age: 144226332791
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 53.5
+    temperature: 3733
     satellite:
-      orbitalArc: 224
-      semiMajorAxis: 642
       axialTilt: 0
+      semiMajorAxis: 642
       eccentricity: 0
       inclination: 0
+      orbitalArc: 224
       showOrbit: false
       parentId: Yed Prior
 planets:
   - name: Yed Prior 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6496
-      age: 7434301036
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.005708721954889763
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 41093
-    temperature: 256
     satellite:
+      axialTilt: 33.06
       semiMajorAxis: 3220133082
       eccentricity: 0.01
       inclination: 1.98
       orbitalArc: 19
-      axialTilt: 33.06
-      parentId: Yed Prior
       showOrbit: true
+      parentId: Yed Prior
+    isPlanet:
+      age: 7434301036
+      classification: P
+      radius: 6496
+      terranMass: 0.005708721954889763
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 41093
+    temperature: 256
     satellites: []
 commSatellite: null
 assets: {}

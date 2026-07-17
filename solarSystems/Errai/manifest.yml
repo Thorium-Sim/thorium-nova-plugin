@@ -14,89 +14,91 @@ stars:
   - name: Errai A
     description: ''
     tags: []
-    radius: 4.74
-    temperature: 4806
     solarMass: 1.27
     age: 6110563424062
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 4.74
+    temperature: 4806
     satellite:
-      orbitalArc: 121
-      semiMajorAxis: 56.88
       axialTilt: 0
+      semiMajorAxis: 56.88
       eccentricity: 0
       inclination: 0
+      orbitalArc: 121
       showOrbit: false
       parentId: Errai
   - name: Errai B
     description: ''
     tags: []
-    radius: 4.74
-    temperature: 4806
     solarMass: 1.27
     age: 6110563424062
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 4.74
+    temperature: 4806
     satellite:
-      orbitalArc: 301
-      semiMajorAxis: 56.88
       axialTilt: 0
+      semiMajorAxis: 56.88
       eccentricity: 0
       inclination: 0
+      orbitalArc: 301
       showOrbit: false
       parentId: Errai
 planets:
   - name: Errai 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6402
-      age: 1429063597
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.022198158303086128
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 589
     satellite:
+      axialTilt: 18.69
       semiMajorAxis: 270090741.3333341
       eccentricity: 0.01
       inclination: 0.23
       orbitalArc: 38
-      axialTilt: 18.69
-      parentId: Errai
       showOrbit: true
-    satellites: []
-  - name: Errai 2
-    description: ''
-    tags: []
+      parentId: Errai
     isPlanet:
-      radius: 63
-      age: 866313579
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.000836932989665344
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
+      age: 1429063597
+      classification: F
+      radius: 6402
+      terranMass: 0.022198158303086128
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
-    temperature: 347
+    temperature: 589
+    satellites: []
+  - name: Errai 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 28.18
       semiMajorAxis: 619278199
       eccentricity: 0.01
       inclination: 1.03
       orbitalArc: 3
-      axialTilt: 28.18
-      parentId: Errai
       showOrbit: true
+      parentId: Errai
+    isPlanet:
+      age: 866313579
+      classification: D
+      radius: 63
+      terranMass: 0.000836932989665344
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 347
     satellites: []
 commSatellite: null
 assets: {}

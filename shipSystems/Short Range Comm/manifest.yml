@@ -42,50 +42,50 @@ soundEffects:
     - url: >-
         /plugins/Thorium Default/shipSystems/Short Range
         Comm/assets/hailbeep3_clean.ogg
-      channel: null
       volume:
         - 1
         - 1
-      loop: false
-      delay: 0
-      gap: 0
       playbackRate:
         - 1
         - 1
-      loopEnd: null
+      loop: false
       loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null
   disconnected:
     - url: >-
         /plugins/Thorium Default/shipSystems/Short Range Comm/assets/Call
         Disconnect.ogg
-      channel: null
       volume:
         - 1
         - 1
-      loop: false
-      delay: 0
-      gap: 0
       playbackRate:
         - 1
         - 1
-      loopEnd: null
+      loop: false
       loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null
   rejected:
     - url: >-
         /plugins/Thorium Default/shipSystems/Short Range Comm/assets/Call
         Refused.ogg
-      channel: null
       volume:
         - 1
         - 1
-      loop: false
-      delay: 0
-      gap: 0
       playbackRate:
         - 1
         - 1
-      loopEnd: null
+      loop: false
       loopStart: null
+      loopEnd: null
+      delay: 0
+      loopGap: 0
+      channel: null
 allowMultiple: false
 powerLevels:
   - 5
@@ -109,4 +109,3 @@ signatureSpikeDuration: 5
 entropyMultiplier: 0.00025
 minRadius: 10000
 maxRadius: 1000000
-defaultPower: 10

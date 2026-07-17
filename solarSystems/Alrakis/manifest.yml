@@ -14,168 +14,169 @@ stars:
   - name: Alrakis A
     description: ''
     tags: []
-    radius: 3.1
-    temperature: 4338
     solarMass: 1.35
     age: 22878180103404
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 3.1
+    temperature: 4338
     satellite:
-      orbitalArc: 83
-      semiMajorAxis: 37.2
       axialTilt: 0
+      semiMajorAxis: 37.2
       eccentricity: 0
       inclination: 0
+      orbitalArc: 83
       showOrbit: false
       parentId: Alrakis
   - name: Alrakis B
     description: ''
     tags: []
-    radius: 3.1
-    temperature: 4338
     solarMass: 1.35
     age: 22878180103404
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 3.1
+    temperature: 4338
     satellite:
-      orbitalArc: 263
-      semiMajorAxis: 37.2
       axialTilt: 0
+      semiMajorAxis: 37.2
       eccentricity: 0
       inclination: 0
+      orbitalArc: 263
       showOrbit: false
       parentId: Alrakis
 planets:
   - name: Alrakis 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 7186
-      age: 6665723307
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0019100570153468422
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 173466
-    temperature: 263
     satellite:
+      axialTilt: 18.48
       semiMajorAxis: 197058434.9999992
       eccentricity: 0.02
       inclination: 1.01
       orbitalArc: 177
-      axialTilt: 18.48
-      parentId: Alrakis
       showOrbit: true
+      parentId: Alrakis
+    isPlanet:
+      age: 6665723307
+      classification: P
+      radius: 7186
+      terranMass: 0.0019100570153468422
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 173466
+    temperature: 263
     satellites: []
   - name: Alrakis 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 1924
-      age: 892071986
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.004139332253311242
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 45
     satellite:
+      axialTilt: 1.67
       semiMajorAxis: 2229947502.9999986
       eccentricity: 0.01
       inclination: 1.16
       orbitalArc: 249
-      axialTilt: 1.67
-      parentId: Alrakis
       showOrbit: true
+      parentId: Alrakis
+    isPlanet:
+      age: 892071986
+      classification: C
+      radius: 1924
+      terranMass: 0.004139332253311242
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 45
     satellites:
       - name: Alrakis 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 213.26007857151797
-          age: 1537682357
-          ringMapAsset: null
-          terranMass: 1.7000001241581582
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1201
         satellite:
+          axialTilt: 18.56
           semiMajorAxis: 27626.398806426714
           eccentricity: 0.01
           inclination: 1.77
           orbitalArc: 198
-          axialTilt: 18.56
-          parentId: Alrakis 2
           showOrbit: true
-        satellites: []
-      - name: Alrakis 2b
-        description: ''
-        tags: []
+          parentId: Alrakis 2
         isPlanet:
-          radius: 161.49857045134962
-          age: 800834843
-          ringMapAsset: null
-          terranMass: 1.379999732244262
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
+          age: 1537682357
+          classification: E
+          radius: 213.26007857151797
+          terranMass: 1.7000001241581582
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 227
+        temperature: 1201
+      - name: Alrakis 2b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 11.97
           semiMajorAxis: 70574.87528723979
           eccentricity: 0
           inclination: 0.4
           orbitalArc: 324
-          axialTilt: 11.97
-          parentId: Alrakis 2
           showOrbit: true
-        satellites: []
+          parentId: Alrakis 2
+        isPlanet:
+          age: 800834843
+          classification: D
+          radius: 161.49857045134962
+          terranMass: 1.379999732244262
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 227
   - name: Alrakis 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 2.89
+      semiMajorAxis: 3741779976
+      eccentricity: 0.02
+      inclination: 0.84
+      orbitalArc: 254
+      showOrbit: true
+      parentId: Alrakis
     isPlanet:
-      radius: 31810
       age: 5892410732
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: null
-      terranMass: 0.4256923398062802
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
       classification: J
+      radius: 31810
+      terranMass: 0.4256923398062802
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
     population: 0
     temperature: 144
-    satellite:
-      semiMajorAxis: 3741779976
-      eccentricity: 0.02
-      inclination: 0.84
-      orbitalArc: 254
-      axialTilt: 2.89
-      parentId: Alrakis
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

@@ -14,141 +14,141 @@ stars:
   - name: Bharani A
     description: ''
     tags: []
-    radius: 2.982
-    temperature: 11900
     solarMass: 3.1
     age: 1002600355976
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.982
+    temperature: 11900
     satellite:
-      orbitalArc: 55
-      semiMajorAxis: 35.784000000000006
       axialTilt: 0
+      semiMajorAxis: 35.784000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 55
       showOrbit: false
       parentId: Bharani
   - name: Bharani B
     description: ''
     tags: []
-    radius: 2.982
-    temperature: 11900
     solarMass: 3.1
     age: 1002600355976
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.982
+    temperature: 11900
     satellite:
-      orbitalArc: 235
-      semiMajorAxis: 35.784000000000006
       axialTilt: 0
+      semiMajorAxis: 35.784000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 235
       showOrbit: false
       parentId: Bharani
 planets:
   - name: Bharani 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 347
-      age: 705182094
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.006980466236435491
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 264
     satellite:
+      axialTilt: 24.8
       semiMajorAxis: 647460254
       eccentricity: 0.01
       inclination: 1.32
       orbitalArc: 358
-      axialTilt: 24.8
-      parentId: Bharani
       showOrbit: true
+      parentId: Bharani
+    isPlanet:
+      age: 705182094
+      classification: D
+      radius: 347
+      terranMass: 0.006980466236435491
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 264
     satellites: []
   - name: Bharani 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5675
-      age: 3308590056
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.004943627395537595
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 555893577
-    temperature: 301
     satellite:
+      axialTilt: 3.11
       semiMajorAxis: 1403746827
       eccentricity: 0.01
       inclination: 0.48
       orbitalArc: 42
-      axialTilt: 3.11
-      parentId: Bharani
       showOrbit: true
+      parentId: Bharani
+    isPlanet:
+      age: 3308590056
+      classification: O
+      radius: 5675
+      terranMass: 0.004943627395537595
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 555893577
+    temperature: 301
     satellites:
       - name: Bharani 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1063.797502089885
-          age: 1783854761
-          ringMapAsset: null
-          terranMass: 0.9000001344795344
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 520
         satellite:
+          axialTilt: 30.07
           semiMajorAxis: 177346.92782920462
           eccentricity: 0.02
           inclination: 0.13
           orbitalArc: 186
-          axialTilt: 30.07
-          parentId: Bharani 2
           showOrbit: true
-        satellites: []
+          parentId: Bharani 2
+        isPlanet:
+          age: 1783854761
+          classification: F
+          radius: 1063.797502089885
+          terranMass: 0.9000001344795344
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 520
       - name: Bharani 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1220.8085009163617
-          age: 7378585423
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 191022
-        temperature: 263
         satellite:
+          axialTilt: 17.28
           semiMajorAxis: 526168.4638949519
           eccentricity: 0.01
           inclination: 0.69
           orbitalArc: 340
-          axialTilt: 17.28
-          parentId: Bharani 2
           showOrbit: true
-        satellites: []
+          parentId: Bharani 2
+        isPlanet:
+          age: 7378585423
+          classification: P
+          radius: 1220.8085009163617
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 191022
+        temperature: 263
 commSatellite: null
 assets: {}

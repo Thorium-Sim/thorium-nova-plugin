@@ -14,510 +14,505 @@ stars:
   - name: Ran A
     description: ''
     tags: []
-    radius: 0.738
-    temperature: 5049
     solarMass: 0.82
     age: 133613066183611
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 0.738
+    temperature: 5049
     satellite:
-      orbitalArc: 9
-      semiMajorAxis: 8.856
       axialTilt: 0
+      semiMajorAxis: 8.856
       eccentricity: 0
       inclination: 0
+      orbitalArc: 9
       showOrbit: false
       parentId: Ran
   - name: Ran B
     description: ''
     tags: []
-    radius: 0.738
-    temperature: 5049
     solarMass: 0.82
     age: 133613066183611
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 0.738
+    temperature: 5049
     satellite:
-      orbitalArc: 189
-      semiMajorAxis: 8.856
       axialTilt: 0
+      semiMajorAxis: 8.856
       eccentricity: 0
       inclination: 0
+      orbitalArc: 189
       showOrbit: false
       parentId: Ran
 planets:
   - name: Ran 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 1.23
+      semiMajorAxis: 33745751.00000034
+      eccentricity: 0
+      inclination: 0.81
+      orbitalArc: 127
+      showOrbit: true
+      parentId: Ran
     isPlanet:
-      radius: 3475
       age: 8036046208
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.012971164726414366
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3475
+      terranMass: 0.012971164726414366
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 11056
     temperature: 296
-    satellite:
-      semiMajorAxis: 33745751.00000034
-      eccentricity: 0
-      inclination: 0.81
-      orbitalArc: 127
-      axialTilt: 1.23
-      parentId: Ran
-      showOrbit: true
     satellites: []
   - name: Ran 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 7172
-      age: 1029137646
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.018196076808140556
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1442
     satellite:
+      axialTilt: 31.46
       semiMajorAxis: 59801301.333346814
       eccentricity: 0.02
       inclination: 0.21
       orbitalArc: 360
-      axialTilt: 31.46
-      parentId: Ran
       showOrbit: true
+      parentId: Ran
+    isPlanet:
+      age: 1029137646
+      classification: E
+      radius: 7172
+      terranMass: 0.018196076808140556
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 1442
     satellites:
       - name: Ran 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 949.7634073153984
-          age: 2708585445
-          ringMapAsset: null
-          terranMass: 1.1000000118345317
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 604
         satellite:
+          axialTilt: 30.09
           semiMajorAxis: 354003.8844145765
           eccentricity: 0
           inclination: 0.39
           orbitalArc: 154
-          axialTilt: 30.09
-          parentId: Ran 2
           showOrbit: true
-        satellites: []
+          parentId: Ran 2
+        isPlanet:
+          age: 2708585445
+          classification: F
+          radius: 949.7634073153984
+          terranMass: 1.1000000118345317
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 604
       - name: Ran 2b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 1.26
+          semiMajorAxis: 809046.3171101834
+          eccentricity: 0.01
+          inclination: 0.14
+          orbitalArc: 331
+          showOrbit: true
+          parentId: Ran 2
         isPlanet:
-          radius: 1647.7521733404958
           age: 4080980807
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 0.10000012177313869
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 1647.7521733404958
+          terranMass: 0.10000012177313869
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 25244
         temperature: 120
-        satellite:
-          semiMajorAxis: 809046.3171101834
-          eccentricity: 0.01
-          inclination: 0.14
-          orbitalArc: 331
-          axialTilt: 1.26
-          parentId: Ran 2
-          showOrbit: true
-        satellites: []
   - name: Ran 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5293
-      age: 8246785720
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.00226829937188148
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 74763081
-    temperature: 298
     satellite:
+      axialTilt: 5.82
       semiMajorAxis: 71152171.55757426
       eccentricity: 0.02
       inclination: 1.93
       orbitalArc: 101
-      axialTilt: 5.82
-      parentId: Ran
       showOrbit: true
+      parentId: Ran
+    isPlanet:
+      age: 8246785720
+      classification: O
+      radius: 5293
+      terranMass: 0.00226829937188148
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 74763081
+    temperature: 298
     satellites:
       - name: Ran 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 780.6195545228361
-          age: 180726135
-          ringMapAsset: null
-          terranMass: 0.8699998093196204
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 275
         satellite:
+          axialTilt: 0.92
           semiMajorAxis: 199172.35722057451
           eccentricity: 0.01
           inclination: 1.77
           orbitalArc: 116
-          axialTilt: 0.92
-          parentId: Ran 3
           showOrbit: true
-        satellites: []
+          parentId: Ran 3
+        isPlanet:
+          age: 180726135
+          classification: D
+          radius: 780.6195545228361
+          terranMass: 0.8699998093196204
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 275
       - name: Ran 3b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 16.39
+          semiMajorAxis: 310339.2805379167
+          eccentricity: 0.02
+          inclination: 0.83
+          orbitalArc: 64
+          showOrbit: true
+          parentId: Ran 3
         isPlanet:
-          radius: 683.7906302237047
           age: 4941442793
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.9000000729988633
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
           classification: H
+          radius: 683.7906302237047
+          terranMass: 1.9000000729988633
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 0
         temperature: 702
-        satellite:
-          semiMajorAxis: 310339.2805379167
-          eccentricity: 0.02
-          inclination: 0.83
-          orbitalArc: 64
-          axialTilt: 16.39
-          parentId: Ran 3
-          showOrbit: true
-        satellites: []
       - name: Ran 3c
         description: ''
         tags: []
-        isPlanet:
-          radius: 1048.4243069212127
-          age: 9353878764
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.10000011158771996
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
-          classification: K
-          isHabitable: true
-          lifeforms:
-            - None
-            - Primitive single-celled organisms
-          atmosphericComposition: []
-        population: 4962
-        temperature: 164
         satellite:
+          axialTilt: 9.66
           semiMajorAxis: 372190.62895703054
           eccentricity: 0
           inclination: 0.29
           orbitalArc: 73
-          axialTilt: 9.66
+          showOrbit: true
           parentId: Ran 3
-          showOrbit: true
-        satellites: []
-  - name: Ran 4
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 4039
-      age: 581654046
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.008740166933531177
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 39
-    satellite:
-      semiMajorAxis: 82814364.22603516
-      eccentricity: 0.02
-      inclination: 1.25
-      orbitalArc: 265
-      axialTilt: 25.14
-      parentId: Ran
-      showOrbit: true
-    satellites:
-      - name: Ran 4a
-        description: ''
-        tags: []
         isPlanet:
-          radius: 240.20130899938556
-          age: 185908260
-          ringMapAsset: null
-          terranMass: 0.10000000110225074
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 41
-        satellite:
-          semiMajorAxis: 56594.36352129027
-          eccentricity: 0.02
-          inclination: 1.8
-          orbitalArc: 49
-          axialTilt: 9.95
-          parentId: Ran 4
-          showOrbit: true
-        satellites: []
-      - name: Ran 4b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 461.69081820101496
-          age: 8294437933
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5000001203441279
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          age: 9353878764
           classification: K
+          radius: 1048.4243069212127
+          terranMass: 0.10000011158771996
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
-        population: 48750
-        temperature: 207
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 4962
+        temperature: 164
+  - name: Ran 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 25.14
+      semiMajorAxis: 82814364.22603516
+      eccentricity: 0.02
+      inclination: 1.25
+      orbitalArc: 265
+      showOrbit: true
+      parentId: Ran
+    isPlanet:
+      age: 581654046
+      classification: C
+      radius: 4039
+      terranMass: 0.008740166933531177
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 39
+    satellites:
+      - name: Ran 4a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 9.95
+          semiMajorAxis: 56594.36352129027
+          eccentricity: 0.02
+          inclination: 1.8
+          orbitalArc: 49
+          showOrbit: true
+          parentId: Ran 4
+        isPlanet:
+          age: 185908260
+          classification: C
+          radius: 240.20130899938556
+          terranMass: 0.10000000110225074
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 41
+      - name: Ran 4b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 14.54
           semiMajorAxis: 158573.0929364358
           eccentricity: 0.01
           inclination: 1.39
           orbitalArc: 216
-          axialTilt: 14.54
-          parentId: Ran 4
           showOrbit: true
-        satellites: []
+          parentId: Ran 4
+        isPlanet:
+          age: 8294437933
+          classification: K
+          radius: 461.69081820101496
+          terranMass: 0.5000001203441279
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 48750
+        temperature: 207
       - name: Ran 4c
         description: ''
         tags: []
-        isPlanet:
-          radius: 551.4441804860705
-          age: 4365165804
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 141468
-        temperature: 266
         satellite:
+          axialTilt: 30.05
           semiMajorAxis: 222232.00473588644
           eccentricity: 0.01
           inclination: 0.91
           orbitalArc: 21
-          axialTilt: 30.05
-          parentId: Ran 4
           showOrbit: true
-        satellites: []
-  - name: Ran 5
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5777
-      age: 8507752163
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.02729611423211082
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 163008
-    temperature: 270
-    satellite:
-      semiMajorAxis: 92610913.51475099
-      eccentricity: 0.02
-      inclination: 0.95
-      orbitalArc: 207
-      axialTilt: 2.36
-      parentId: Ran
-      showOrbit: true
-    satellites:
-      - name: Ran 5a
-        description: ''
-        tags: []
+          parentId: Ran 4
         isPlanet:
-          radius: 507.93001205599404
-          age: 8719344718
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 4365165804
           classification: P
+          radius: 551.4441804860705
+          terranMass: 0.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 127602
-        temperature: 269
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 141468
+        temperature: 266
+  - name: Ran 5
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 2.36
+      semiMajorAxis: 92610913.51475099
+      eccentricity: 0.02
+      inclination: 0.95
+      orbitalArc: 207
+      showOrbit: true
+      parentId: Ran
+    isPlanet:
+      age: 8507752163
+      classification: P
+      radius: 5777
+      terranMass: 0.02729611423211082
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 163008
+    temperature: 270
+    satellites:
+      - name: Ran 5a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 29.42
           semiMajorAxis: 168124.83399053404
           eccentricity: 0.01
           inclination: 0.79
           orbitalArc: 186
-          axialTilt: 29.42
-          parentId: Ran 5
           showOrbit: true
-        satellites: []
+          parentId: Ran 5
+        isPlanet:
+          age: 8719344718
+          classification: P
+          radius: 507.93001205599404
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 127602
+        temperature: 269
   - name: Ran 6
     description: ''
     tags: []
+    satellite:
+      axialTilt: 7.94
+      semiMajorAxis: 2009437807.6863346
+      eccentricity: 0.01
+      inclination: 0.18
+      orbitalArc: 73
+      showOrbit: true
+      parentId: Ran
     isPlanet:
-      radius: 6198
       age: 3292792609
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.010203712233971738
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
       classification: G
+      radius: 6198
+      terranMass: 0.010203712233971738
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
     temperature: 562
-    satellite:
-      semiMajorAxis: 2009437807.6863346
-      eccentricity: 0.01
-      inclination: 0.18
-      orbitalArc: 73
-      axialTilt: 7.94
-      parentId: Ran
-      showOrbit: true
     satellites:
       - name: Ran 6a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1317.0525200111215
-          age: 5517144196
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 162405
-        temperature: 264
         satellite:
+          axialTilt: 21.59
           semiMajorAxis: 294866.66677199234
           eccentricity: 0.01
           inclination: 1.24
           orbitalArc: 7
-          axialTilt: 21.59
-          parentId: Ran 6
           showOrbit: true
-        satellites: []
+          parentId: Ran 6
+        isPlanet:
+          age: 5517144196
+          classification: P
+          radius: 1317.0525200111215
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 162405
+        temperature: 264
       - name: Ran 6b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1431.3396321044397
-          age: 5179494189
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 2668734932
-        temperature: 294
         satellite:
+          axialTilt: 20.6
           semiMajorAxis: 679886.3252496088
           eccentricity: 0.02
           inclination: 2
           orbitalArc: 328
-          axialTilt: 20.6
-          parentId: Ran 6
           showOrbit: true
-        satellites: []
+          parentId: Ran 6
+        isPlanet:
+          age: 5179494189
+          classification: M
+          radius: 1431.3396321044397
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 2668734932
+        temperature: 294
   - name: Ran 7
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.36
+      semiMajorAxis: 3390651907
+      eccentricity: 0
+      inclination: 1.2
+      orbitalArc: 87
+      showOrbit: true
+      parentId: Ran
     isPlanet:
-      radius: 38903
       age: 4226780462
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.6324279645219046
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
       classification: J
+      radius: 38903
+      terranMass: 1.6324279645219046
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 303
-    satellite:
-      semiMajorAxis: 3390651907
-      eccentricity: 0
-      inclination: 1.2
-      orbitalArc: 87
-      axialTilt: 23.36
-      parentId: Ran
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

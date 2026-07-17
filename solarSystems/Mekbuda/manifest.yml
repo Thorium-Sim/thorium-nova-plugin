@@ -14,198 +14,198 @@ stars:
   - name: Mekbuda A
     description: ''
     tags: []
-    radius: 72
-    temperature: 4413
     solarMass: 7.7
     age: 225870392719
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 72
+    temperature: 4413
     satellite:
-      orbitalArc: 186
-      semiMajorAxis: 864
       axialTilt: 0
+      semiMajorAxis: 864
       eccentricity: 0
       inclination: 0
+      orbitalArc: 186
       showOrbit: false
       parentId: Mekbuda
   - name: Mekbuda B
     description: ''
     tags: []
-    radius: 72
-    temperature: 4413
     solarMass: 7.7
     age: 225870392719
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 72
+    temperature: 4413
     satellite:
-      orbitalArc: 366
-      semiMajorAxis: 864
       axialTilt: 0
+      semiMajorAxis: 864
       eccentricity: 0
       inclination: 0
+      orbitalArc: 366
       showOrbit: false
       parentId: Mekbuda
 planets:
   - name: Mekbuda 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 68789
-      age: 4976994093
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: null
-      terranMass: 1.8048231003107091
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 135
     satellite:
+      axialTilt: 2.81
       semiMajorAxis: 1395791751.9999995
       eccentricity: 0.01
       inclination: 1.64
       orbitalArc: 121
-      axialTilt: 2.81
-      parentId: Mekbuda
       showOrbit: true
-    satellites:
-      - name: Mekbuda 1a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 12953.583372457704
-          age: 877029493
-          ringMapAsset: null
-          terranMass: 1.30000015917414
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 43
-        satellite:
-          semiMajorAxis: 3717678.427895361
-          eccentricity: 0
-          inclination: 0.83
-          orbitalArc: 153
-          axialTilt: 21.85
-          parentId: Mekbuda 1
-          showOrbit: true
-        satellites: []
-  - name: Mekbuda 2
-    description: ''
-    tags: []
+      parentId: Mekbuda
     isPlanet:
-      radius: 44274
-      age: 6513029603
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.7919497314670474
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      age: 4976994093
       classification: J
+      radius: 68789
+      terranMass: 1.8048231003107091
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
     population: 0
-    temperature: 289
+    temperature: 135
+    satellites:
+      - name: Mekbuda 1a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 21.85
+          semiMajorAxis: 3717678.427895361
+          eccentricity: 0
+          inclination: 0.83
+          orbitalArc: 153
+          showOrbit: true
+          parentId: Mekbuda 1
+        isPlanet:
+          age: 877029493
+          classification: C
+          radius: 12953.583372457704
+          terranMass: 1.30000015917414
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 43
+  - name: Mekbuda 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 32.77
       semiMajorAxis: 2574946202.3333335
       eccentricity: 0.02
       inclination: 0.42
       orbitalArc: 219
-      axialTilt: 32.77
-      parentId: Mekbuda
       showOrbit: true
+      parentId: Mekbuda
+    isPlanet:
+      age: 6513029603
+      classification: J
+      radius: 44274
+      terranMass: 1.7919497314670474
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 0
+    temperature: 289
     satellites: []
   - name: Mekbuda 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 3234
-      age: 1362253130
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0007041243454842301
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
-      classification: A
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1666
     satellite:
+      axialTilt: 6.36
       semiMajorAxis: 3421759737.4444466
       eccentricity: 0
       inclination: 0.7
       orbitalArc: 257
-      axialTilt: 6.36
-      parentId: Mekbuda
       showOrbit: true
+      parentId: Mekbuda
+    isPlanet:
+      age: 1362253130
+      classification: A
+      radius: 3234
+      terranMass: 0.0007041243454842301
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 1666
     satellites:
       - name: Mekbuda 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 595.5195255361544
-          age: 9139349186
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 184550
-        temperature: 262
         satellite:
+          axialTilt: 24.16
           semiMajorAxis: 272747.9426955587
           eccentricity: 0.01
           inclination: 0.25
           orbitalArc: 229
-          axialTilt: 24.16
-          parentId: Mekbuda 3
           showOrbit: true
-        satellites: []
+          parentId: Mekbuda 3
+        isPlanet:
+          age: 9139349186
+          classification: P
+          radius: 595.5195255361544
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 184550
+        temperature: 262
   - name: Mekbuda 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 0.38
+      semiMajorAxis: 4057674801
+      eccentricity: 0
+      inclination: 1.16
+      orbitalArc: 239
+      showOrbit: true
+      parentId: Mekbuda
     isPlanet:
-      radius: 2611
       age: 6391078004
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.00030367470892629655
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 2611
+      terranMass: 0.00030367470892629655
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 9419
     temperature: 127
-    satellite:
-      semiMajorAxis: 4057674801
-      eccentricity: 0
-      inclination: 1.16
-      orbitalArc: 239
-      axialTilt: 0.38
-      parentId: Mekbuda
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

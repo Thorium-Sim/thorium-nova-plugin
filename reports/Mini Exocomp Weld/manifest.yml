@@ -13,62 +13,58 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1aq550
     type: ShipSystemGetter
-  - '0':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Structural
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1aq66u
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1aq742
-      type: IfCondition
-    '1':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Plumbing
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1aq82e
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1aq96q
-      type: IfCondition
-    '2':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Corrosion
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1aqa29
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1aqb1h
-      type: IfCondition
-    '3':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Fatigue
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1aqc36
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1aqd33
-      type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Structural
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1aq66u
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1aq742
+    type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Plumbing
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1aq82e
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1aq96q
+    type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Corrosion
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1aqa29
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1aqb1h
+    type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Fatigue
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1aqc36
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1aqd33
+    type: IfCondition
 autoApplyWhenCompleted: true
 steps:
   - id: dr-mp5m1aqe1o

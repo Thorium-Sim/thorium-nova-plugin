@@ -14,37 +14,37 @@ stars:
   - name: Libertas A
     description: ''
     tags: []
-    radius: 10.17
-    temperature: 4841
     solarMass: 1.74
     age: 1766592150148
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 10.17
+    temperature: 4841
     satellite:
-      orbitalArc: 325
-      semiMajorAxis: 122.03999999999999
       axialTilt: 0
+      semiMajorAxis: 122.03999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 325
       showOrbit: false
       parentId: Libertas
   - name: Libertas B
     description: ''
     tags: []
-    radius: 10.17
-    temperature: 4841
     solarMass: 1.74
     age: 1766592150148
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 10.17
+    temperature: 4841
     satellite:
-      orbitalArc: 505
-      semiMajorAxis: 122.03999999999999
       axialTilt: 0
+      semiMajorAxis: 122.03999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 505
       showOrbit: false
       parentId: Libertas
 planets: []

@@ -14,117 +14,117 @@ stars:
   - name: Helvetios A
     description: ''
     tags: []
-    radius: 1.152
-    temperature: 5768
     solarMass: 1.09
     age: 42794683360667
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 1.152
+    temperature: 5768
     satellite:
-      orbitalArc: 170
-      semiMajorAxis: 13.823999999999998
       axialTilt: 0
+      semiMajorAxis: 13.823999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 170
       showOrbit: false
       parentId: Helvetios
   - name: Helvetios B
     description: ''
     tags: []
-    radius: 1.152
-    temperature: 5768
     solarMass: 1.09
     age: 42794683360667
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 1.152
+    temperature: 5768
     satellite:
-      orbitalArc: 350
-      semiMajorAxis: 13.823999999999998
       axialTilt: 0
+      semiMajorAxis: 13.823999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 350
       showOrbit: false
       parentId: Helvetios
 planets:
   - name: Helvetios 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 375
-      age: 58356930
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.002715892189631853
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 182
     satellite:
+      axialTilt: 31.28
       semiMajorAxis: 71104388.99999863
       eccentricity: 0.01
       inclination: 1.03
       orbitalArc: 50
-      axialTilt: 31.28
-      parentId: Helvetios
       showOrbit: true
+      parentId: Helvetios
+    isPlanet:
+      age: 58356930
+      classification: D
+      radius: 375
+      terranMass: 0.002715892189631853
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 182
     satellites: []
   - name: Helvetios 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 34.41
+      semiMajorAxis: 211268764
+      eccentricity: 0.02
+      inclination: 0.01
+      orbitalArc: 104
+      showOrbit: true
+      parentId: Helvetios
     isPlanet:
-      radius: 3094
       age: 9253427668
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.042672742725329456
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3094
+      terranMass: 0.042672742725329456
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 49326
     temperature: 283
-    satellite:
-      semiMajorAxis: 211268764
-      eccentricity: 0.02
-      inclination: 0.01
-      orbitalArc: 104
-      axialTilt: 34.41
-      parentId: Helvetios
-      showOrbit: true
     satellites:
       - name: Helvetios 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 599.0654374686454
-          age: 3390694576
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 661620861
-        temperature: 291
         satellite:
+          axialTilt: 2.2
           semiMajorAxis: 161148.60267906563
           eccentricity: 0
           inclination: 1.06
           orbitalArc: 346
-          axialTilt: 2.2
-          parentId: Helvetios 2
           showOrbit: true
-        satellites: []
+          parentId: Helvetios 2
+        isPlanet:
+          age: 3390694576
+          classification: O
+          radius: 599.0654374686454
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 661620861
+        temperature: 291
 commSatellite: null
 assets: {}

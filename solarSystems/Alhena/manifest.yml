@@ -14,64 +14,65 @@ stars:
   - name: Alhena A
     description: ''
     tags: []
-    radius: 5.16
-    temperature: 9190
     solarMass: 2.81
     age: 853324383303
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 5.16
+    temperature: 9190
     satellite:
-      orbitalArc: 117
-      semiMajorAxis: 61.92
       axialTilt: 0
+      semiMajorAxis: 61.92
       eccentricity: 0
       inclination: 0
+      orbitalArc: 117
       showOrbit: false
       parentId: Alhena
   - name: Alhena B
     description: ''
     tags: []
-    radius: 5.16
-    temperature: 9190
     solarMass: 2.81
     age: 853324383303
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 5.16
+    temperature: 9190
     satellite:
-      orbitalArc: 297
-      semiMajorAxis: 61.92
       axialTilt: 0
+      semiMajorAxis: 61.92
       eccentricity: 0
       inclination: 0
+      orbitalArc: 297
       showOrbit: false
       parentId: Alhena
 planets:
   - name: Alhena 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 277
-      age: 797461810
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.004647168031124424
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 186
     satellite:
+      axialTilt: 25.77
       semiMajorAxis: 365083779
       eccentricity: 0
       inclination: 1.24
       orbitalArc: 315
-      axialTilt: 25.77
-      parentId: Alhena
       showOrbit: true
+      parentId: Alhena
+    isPlanet:
+      age: 797461810
+      classification: D
+      radius: 277
+      terranMass: 0.004647168031124424
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 186
     satellites: []
 commSatellite: null
 assets: {}

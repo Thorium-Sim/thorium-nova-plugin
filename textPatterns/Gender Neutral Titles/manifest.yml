@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Gender Neutral Titles
+description: ''
+textPattern: '{~Saint,Captain,Champion,Admiral,Sovereign,Commodore}'
+category: Titles
+assets: {}

@@ -14,193 +14,194 @@ stars:
   - name: Tania Borealis A
     description: ''
     tags: []
-    radius: 2.3
-    temperature: 9247
     solarMass: 2.11
     age: 3146245715855
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.3
+    temperature: 9247
     satellite:
-      orbitalArc: 68
-      semiMajorAxis: 27.599999999999998
       axialTilt: 0
+      semiMajorAxis: 27.599999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 68
       showOrbit: false
       parentId: Tania Borealis
   - name: Tania Borealis B
     description: ''
     tags: []
-    radius: 2.3
-    temperature: 9247
     solarMass: 2.11
     age: 3146245715855
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.3
+    temperature: 9247
     satellite:
-      orbitalArc: 248
-      semiMajorAxis: 27.599999999999998
       axialTilt: 0
+      semiMajorAxis: 27.599999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 248
       showOrbit: false
       parentId: Tania Borealis
 planets:
   - name: Tania Borealis 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 7185
-      age: 1092618585
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.019247357533722278
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 834
     satellite:
+      axialTilt: 3.46
       semiMajorAxis: 424100143.0000001
       eccentricity: 0
       inclination: 0.64
       orbitalArc: 240
-      axialTilt: 3.46
-      parentId: Tania Borealis
       showOrbit: true
-    satellites: []
-  - name: Tania Borealis 2
-    description: ''
-    tags: []
+      parentId: Tania Borealis
     isPlanet:
-      radius: 4348
-      age: 784621422
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.00909026471725041
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
+      age: 1092618585
+      classification: F
+      radius: 7185
+      terranMass: 0.019247357533722278
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
-    temperature: 41
+    temperature: 834
+    satellites: []
+  - name: Tania Borealis 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 13.48
       semiMajorAxis: 1128791803.3333337
       eccentricity: 0.02
       inclination: 1.73
       orbitalArc: 16
-      axialTilt: 13.48
-      parentId: Tania Borealis
       showOrbit: true
+      parentId: Tania Borealis
+    isPlanet:
+      age: 784621422
+      classification: C
+      radius: 4348
+      terranMass: 0.00909026471725041
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 41
     satellites:
       - name: Tania Borealis 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 603.2010027514308
-          age: 769620315
-          ringMapAsset: null
-          terranMass: 1.1099996394897975
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 154
         satellite:
+          axialTilt: 3.44
           semiMajorAxis: 195205.4635900663
           eccentricity: 0.02
           inclination: 0.63
           orbitalArc: 137
-          axialTilt: 3.44
-          parentId: Tania Borealis 2
           showOrbit: true
-        satellites: []
+          parentId: Tania Borealis 2
+        isPlanet:
+          age: 769620315
+          classification: D
+          radius: 603.2010027514308
+          terranMass: 1.1099996394897975
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 154
       - name: Tania Borealis 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 930.0520560492417
-          age: 3893665139
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 2886572220
-        temperature: 294
         satellite:
+          axialTilt: 0.46
           semiMajorAxis: 358731.3325143091
           eccentricity: 0.02
           inclination: 1.82
           orbitalArc: 111
-          axialTilt: 0.46
-          parentId: Tania Borealis 2
           showOrbit: true
-        satellites: []
+          parentId: Tania Borealis 2
+        isPlanet:
+          age: 3893665139
+          classification: M
+          radius: 930.0520560492417
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 2886572220
+        temperature: 294
       - name: Tania Borealis 2c
         description: ''
         tags: []
+        satellite:
+          axialTilt: 27.19
+          semiMajorAxis: 457740.15337904176
+          eccentricity: 0
+          inclination: 0.41
+          orbitalArc: 203
+          showOrbit: true
+          parentId: Tania Borealis 2
         isPlanet:
-          radius: 1042.6882764898446
           age: 6119820251
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.9000001049568128
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
           classification: H
+          radius: 1042.6882764898446
+          terranMass: 0.9000001049568128
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 754
-        satellite:
-          semiMajorAxis: 457740.15337904176
-          eccentricity: 0
-          inclination: 0.41
-          orbitalArc: 203
-          axialTilt: 27.19
-          parentId: Tania Borealis 2
-          showOrbit: true
-        satellites: []
   - name: Tania Borealis 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 59
-      age: 554358387
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.008492724684568577
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 396
     satellite:
+      axialTilt: 7.5
       semiMajorAxis: 1719222968
       eccentricity: 0.01
       inclination: 1.76
       orbitalArc: 3
-      axialTilt: 7.5
-      parentId: Tania Borealis
       showOrbit: true
+      parentId: Tania Borealis
+    isPlanet:
+      age: 554358387
+      classification: D
+      radius: 59
+      terranMass: 0.008492724684568577
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 396
     satellites: []
 commSatellite: null
 assets: {}

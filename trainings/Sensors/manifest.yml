@@ -282,8 +282,8 @@ steps:
         type: Macro
   - id: ts-mqmdjzvt25
     name: Step 7 - Tilt Back
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -299,8 +299,8 @@ steps:
         type: Action
   - id: ts-mqn4mlvy0d
     name: Step 8 - Contacts
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -338,8 +338,8 @@ steps:
         type: Action
   - id: ts-mqn4pkjl0d
     name: Step 9 - Contacts List
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -396,8 +396,8 @@ steps:
         type: EventCondition
   - id: ts-mqn539co4q
     name: Step 10 - Identification Scan
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -453,8 +453,8 @@ steps:
         type: EventCondition
   - id: ts-mqpn4chz0x
     name: Step 11 - Scan Progress
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -493,8 +493,8 @@ steps:
         type: Action
   - id: ts-mqpnmn6d3y
     name: Step 12 - Scan Range
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: effects.sendClientEvent
         values:
@@ -542,8 +542,8 @@ steps:
           allowAdvance: true
   - id: ts-mqpofes96m
     name: Step 14 - Scan Options
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -581,8 +581,8 @@ steps:
         type: Action
   - id: ts-mqpop3204k
     name: Step 15 - Good Scanning Practice
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -616,8 +616,8 @@ steps:
         type: Action
   - id: ts-mqpotgqx3j
     name: Step 16 - Processed Data
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:

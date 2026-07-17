@@ -14,90 +14,91 @@ stars:
   - name: Altair A
     description: ''
     tags: []
-    radius: 2.007
-    temperature: 6780
     solarMass: 1.86
     age: 12602848285944
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.007
+    temperature: 6780
     satellite:
-      orbitalArc: 262
-      semiMajorAxis: 24.084000000000003
       axialTilt: 0
+      semiMajorAxis: 24.084000000000003
       eccentricity: 0
       inclination: 0
+      orbitalArc: 262
       showOrbit: false
       parentId: Altair
   - name: Altair B
     description: ''
     tags: []
-    radius: 2.007
-    temperature: 6780
     solarMass: 1.86
     age: 12602848285944
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.007
+    temperature: 6780
     satellite:
-      orbitalArc: 442
-      semiMajorAxis: 24.084000000000003
       axialTilt: 0
+      semiMajorAxis: 24.084000000000003
       eccentricity: 0
       inclination: 0
+      orbitalArc: 442
       showOrbit: false
       parentId: Altair
 planets:
   - name: Altair 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 7219
-      age: 4772406830
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.00936138384786001
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 132773
-    temperature: 257
     satellite:
+      axialTilt: 10.85
       semiMajorAxis: 2262455227.333334
       eccentricity: 0.01
       inclination: 0.42
       orbitalArc: 274
-      axialTilt: 10.85
-      parentId: Altair
       showOrbit: true
+      parentId: Altair
+    isPlanet:
+      age: 4772406830
+      classification: P
+      radius: 7219
+      terranMass: 0.00936138384786001
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 132773
+    temperature: 257
     satellites: []
   - name: Altair 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 137
-      age: 512393969
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.01046057979679849
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 259
     satellite:
+      axialTilt: 34.77
       semiMajorAxis: 3412957355
       eccentricity: 0.01
       inclination: 0.04
       orbitalArc: 325
-      axialTilt: 34.77
-      parentId: Altair
       showOrbit: true
+      parentId: Altair
+    isPlanet:
+      age: 512393969
+      classification: D
+      radius: 137
+      terranMass: 0.01046057979679849
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 259
     satellites: []
 commSatellite: null
 assets: {}

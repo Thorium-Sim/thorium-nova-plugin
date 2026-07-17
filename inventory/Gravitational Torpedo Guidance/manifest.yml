@@ -14,5 +14,6 @@ abundance: 1
 tags: []
 flags:
   torpedoGuidance:
-    guidanceMode: gravitational
     color: cadetblue
+    guidanceMode: gravitational
+    range: 5000

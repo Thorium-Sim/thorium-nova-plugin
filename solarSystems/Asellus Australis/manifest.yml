@@ -14,114 +14,117 @@ stars:
   - name: Asellus Australis A
     description: ''
     tags: []
-    radius: 11.7
-    temperature: 4684
     solarMass: 1.71
     age: 1496670248857
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.7
+    temperature: 4684
     satellite:
-      orbitalArc: 150
-      semiMajorAxis: 140.39999999999998
       axialTilt: 0
+      semiMajorAxis: 140.39999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 150
       showOrbit: false
       parentId: Asellus Australis
   - name: Asellus Australis B
     description: ''
     tags: []
-    radius: 11.7
-    temperature: 4684
     solarMass: 1.71
     age: 1496670248857
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.7
+    temperature: 4684
     satellite:
-      orbitalArc: 330
-      semiMajorAxis: 140.39999999999998
       axialTilt: 0
+      semiMajorAxis: 140.39999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 330
       showOrbit: false
       parentId: Asellus Australis
 planets:
   - name: Asellus Australis 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 362
-      age: 297744350
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.01027029995623024
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 263
     satellite:
+      axialTilt: 37.97
       semiMajorAxis: 371257356.9999995
       eccentricity: 0.01
       inclination: 0.35
       orbitalArc: 258
-      axialTilt: 37.97
-      parentId: Asellus Australis
       showOrbit: true
+      parentId: Asellus Australis
+    isPlanet:
+      age: 297744350
+      classification: D
+      radius: 362
+      terranMass: 0.01027029995623024
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 263
     satellites: []
   - name: Asellus Australis 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 347
-      age: 319954722
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.011748047788992449
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 384
     satellite:
+      axialTilt: 13.65
       semiMajorAxis: 600457272.3333325
       eccentricity: 0.02
       inclination: 1.97
       orbitalArc: 94
-      axialTilt: 13.65
-      parentId: Asellus Australis
       showOrbit: true
-    satellites: []
-  - name: Asellus Australis 3
-    description: ''
-    tags: []
+      parentId: Asellus Australis
     isPlanet:
-      radius: 144
-      age: 655677194
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.0122867656993074
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      age: 319954722
       classification: D
+      radius: 347
+      terranMass: 0.011748047788992449
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
-    temperature: 163
+    temperature: 384
+    satellites: []
+  - name: Asellus Australis 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 11.05
       semiMajorAxis: 1027784909
       eccentricity: 0
       inclination: 0.73
       orbitalArc: 28
-      axialTilt: 11.05
-      parentId: Asellus Australis
       showOrbit: true
+      parentId: Asellus Australis
+    isPlanet:
+      age: 655677194
+      classification: D
+      radius: 144
+      terranMass: 0.0122867656993074
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 163
     satellites: []
 commSatellite: null
 assets: {}

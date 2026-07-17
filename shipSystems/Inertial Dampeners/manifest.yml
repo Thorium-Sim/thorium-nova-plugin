@@ -28,8 +28,3 @@ signatureSpike: 2
 signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
 dampening: 5
-defaultPower: 10
-requiredPower: 5
-maxSafePower: 20
-coolantHeatTransferRate: 10
-powerNode: null

@@ -14,191 +14,192 @@ stars:
   - name: Algol A
     description: ''
     tags: []
-    radius: 2.73
-    temperature: 13000
     solarMass: 3.17
     age: 858874766252
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.73
+    temperature: 13000
     satellite:
-      orbitalArc: 312
-      semiMajorAxis: 32.76
       axialTilt: 0
+      semiMajorAxis: 32.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 312
       showOrbit: false
       parentId: Algol
   - name: Algol B
     description: ''
     tags: []
-    radius: 2.73
-    temperature: 13000
     solarMass: 3.17
     age: 858874766252
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.73
+    temperature: 13000
     satellite:
-      orbitalArc: 492
-      semiMajorAxis: 32.76
       axialTilt: 0
+      semiMajorAxis: 32.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 492
       showOrbit: false
       parentId: Algol
 planets:
   - name: Algol 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 16.12
+      semiMajorAxis: 1120687959.999999
+      eccentricity: 0.02
+      inclination: 0.28
+      orbitalArc: 94
+      showOrbit: true
+      parentId: Algol
     isPlanet:
-      radius: 3920
       age: 6132626759
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.008897279545500025
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3920
+      terranMass: 0.008897279545500025
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 9893
     temperature: 271
-    satellite:
-      semiMajorAxis: 1120687959.999999
-      eccentricity: 0.02
-      inclination: 0.28
-      orbitalArc: 94
-      axialTilt: 16.12
-      parentId: Algol
-      showOrbit: true
     satellites:
       - name: Algol 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 582.4231654727886
-          age: 852879444
-          ringMapAsset: null
-          terranMass: 0.20999989621296167
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 240
         satellite:
+          axialTilt: 9.92
           semiMajorAxis: 211836.92963212146
           eccentricity: 0.02
           inclination: 0.57
           orbitalArc: 247
-          axialTilt: 9.92
-          parentId: Algol 1
           showOrbit: true
-        satellites: []
-      - name: Algol 1b
-        description: ''
-        tags: []
+          parentId: Algol 1
         isPlanet:
-          radius: 740.1415409390213
-          age: 1515626203
-          ringMapAsset: null
-          terranMass: 1.100000127260075
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-          classification: F
+          age: 852879444
+          classification: D
+          radius: 582.4231654727886
+          terranMass: 0.20999989621296167
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 504
+        temperature: 240
+      - name: Algol 1b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 38.93
           semiMajorAxis: 359708.78889636433
           eccentricity: 0
           inclination: 0.1
           orbitalArc: 318
-          axialTilt: 38.93
-          parentId: Algol 1
           showOrbit: true
-        satellites: []
+          parentId: Algol 1
+        isPlanet:
+          age: 1515626203
+          classification: F
+          radius: 740.1415409390213
+          terranMass: 1.100000127260075
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 504
   - name: Algol 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6825
-      age: 689838447
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.005538637778590479
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1064
     satellite:
+      axialTilt: 32.81
       semiMajorAxis: 2168958431
       eccentricity: 0.02
       inclination: 1.94
       orbitalArc: 246
-      axialTilt: 32.81
-      parentId: Algol
       showOrbit: true
+      parentId: Algol
+    isPlanet:
+      age: 689838447
+      classification: E
+      radius: 6825
+      terranMass: 0.005538637778590479
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 1064
     satellites:
       - name: Algol 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1052.9046026289357
-          age: 2840391688
-          ringMapAsset: null
-          terranMass: 0.10000005486076438
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 573
         satellite:
+          axialTilt: 13.24
           semiMajorAxis: 171401.36126231131
           eccentricity: 0.01
           inclination: 1.05
           orbitalArc: 123
-          axialTilt: 13.24
-          parentId: Algol 2
           showOrbit: true
-        satellites: []
-      - name: Algol 2b
-        description: ''
-        tags: []
+          parentId: Algol 2
         isPlanet:
-          radius: 1163.412454015264
-          age: 4985464898
-          ringMapAsset: null
-          terranMass: 1.100000235110285
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: B
+          age: 2840391688
+          classification: F
+          radius: 1052.9046026289357
+          terranMass: 0.10000005486076438
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 304
+        temperature: 573
+      - name: Algol 2b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 7.54
           semiMajorAxis: 457221.09442799876
           eccentricity: 0.01
           inclination: 1.48
           orbitalArc: 176
-          axialTilt: 7.54
-          parentId: Algol 2
           showOrbit: true
-        satellites: []
+          parentId: Algol 2
+        isPlanet:
+          age: 4985464898
+          classification: B
+          radius: 1163.412454015264
+          terranMass: 1.100000235110285
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 304
 commSatellite: null
 assets: {}

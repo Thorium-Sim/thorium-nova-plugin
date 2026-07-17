@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Letter Pairs
+description: ''
+textPattern: '{#Letters}{#Letters}'
+category: Word Lists
+assets: {}

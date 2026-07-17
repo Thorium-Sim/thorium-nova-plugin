@@ -14,141 +14,141 @@ stars:
   - name: Alpherg A
     description: ''
     tags: []
-    radius: 26.48
-    temperature: 4937
     solarMass: 3.78
     age: 523326363762
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 26.48
+    temperature: 4937
     satellite:
-      orbitalArc: 265
-      semiMajorAxis: 317.76
       axialTilt: 0
+      semiMajorAxis: 317.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 265
       showOrbit: false
       parentId: Alpherg
   - name: Alpherg B
     description: ''
     tags: []
-    radius: 26.48
-    temperature: 4937
     solarMass: 3.78
     age: 523326363762
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 26.48
+    temperature: 4937
     satellite:
-      orbitalArc: 445
-      semiMajorAxis: 317.76
       axialTilt: 0
+      semiMajorAxis: 317.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 445
       showOrbit: false
       parentId: Alpherg
 planets:
   - name: Alpherg 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 1868
-      age: 511204715
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.002810949510222526
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 33
     satellite:
+      axialTilt: 29.37
       semiMajorAxis: 3323833662
       eccentricity: 0.01
       inclination: 1.1
       orbitalArc: 21
-      axialTilt: 29.37
-      parentId: Alpherg
       showOrbit: true
+      parentId: Alpherg
+    isPlanet:
+      age: 511204715
+      classification: C
+      radius: 1868
+      terranMass: 0.002810949510222526
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 33
     satellites:
       - name: Alpherg 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 147.62375793126967
-          age: 1957278916
-          ringMapAsset: null
-          terranMass: 0.300000123855657
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1264
         satellite:
+          axialTilt: 37.62
           semiMajorAxis: 28028.483406620304
           eccentricity: 0.01
           inclination: 1.9
           orbitalArc: 7
-          axialTilt: 37.62
-          parentId: Alpherg 1
           showOrbit: true
-        satellites: []
+          parentId: Alpherg 1
+        isPlanet:
+          age: 1957278916
+          classification: E
+          radius: 147.62375793126967
+          terranMass: 0.300000123855657
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1264
       - name: Alpherg 1b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 26.13
+          semiMajorAxis: 64763.36241381113
+          eccentricity: 0.01
+          inclination: 1.77
+          orbitalArc: 68
+          showOrbit: true
+          parentId: Alpherg 1
         isPlanet:
-          radius: 105.19369901963364
           age: 8957245116
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 2.3000000738983073
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 105.19369901963364
+          terranMass: 2.3000000738983073
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 35097
         temperature: 260
-        satellite:
-          semiMajorAxis: 64763.36241381113
-          eccentricity: 0.01
-          inclination: 1.77
-          orbitalArc: 68
-          axialTilt: 26.13
-          parentId: Alpherg 1
-          showOrbit: true
-        satellites: []
       - name: Alpherg 1c
         description: ''
         tags: []
-        isPlanet:
-          radius: 258.1390443692773
-          age: 149705278
-          ringMapAsset: null
-          terranMass: 1.3399998338491386
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 353
         satellite:
+          axialTilt: 22.87
           semiMajorAxis: 93704.47310604766
           eccentricity: 0
           inclination: 1.47
           orbitalArc: 86
-          axialTilt: 22.87
-          parentId: Alpherg 1
           showOrbit: true
-        satellites: []
+          parentId: Alpherg 1
+        isPlanet:
+          age: 149705278
+          classification: D
+          radius: 258.1390443692773
+          terranMass: 1.3399998338491386
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 353
 commSatellite: null
 assets: {}

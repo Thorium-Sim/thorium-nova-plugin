@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Sometimes A Successor
+description: ''
+textPattern: '{~,,,,,,,,,,,,,,,,,,, II, III, IV}'
+category: Titles
+assets: {}

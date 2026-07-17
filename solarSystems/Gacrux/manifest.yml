@@ -14,221 +14,220 @@ stars:
   - name: Gacrux A
     description: ''
     tags: []
-    radius: 73
-    temperature: 3689
     solarMass: 1.5
     age: 87655708088
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 73
+    temperature: 3689
     satellite:
-      orbitalArc: 356
-      semiMajorAxis: 876
       axialTilt: 0
+      semiMajorAxis: 876
       eccentricity: 0
       inclination: 0
+      orbitalArc: 356
       showOrbit: false
       parentId: Gacrux
   - name: Gacrux B
     description: ''
     tags: []
-    radius: 73
-    temperature: 3689
     solarMass: 1.5
     age: 87655708088
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 73
+    temperature: 3689
     satellite:
-      orbitalArc: 536
-      semiMajorAxis: 876
       axialTilt: 0
+      semiMajorAxis: 876
       eccentricity: 0
       inclination: 0
+      orbitalArc: 536
       showOrbit: false
       parentId: Gacrux
 planets:
   - name: Gacrux 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 136
-      age: 553482356
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.008535158758034032
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 291
     satellite:
+      axialTilt: 30.95
       semiMajorAxis: 1463706857.6666658
       eccentricity: 0.01
       inclination: 1.04
       orbitalArc: 281
-      axialTilt: 30.95
-      parentId: Gacrux
       showOrbit: true
+      parentId: Gacrux
+    isPlanet:
+      age: 553482356
+      classification: D
+      radius: 136
+      terranMass: 0.008535158758034032
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 291
     satellites: []
   - name: Gacrux 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 7194
-      age: 6549547698
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0065063020631219975
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 125134
-    temperature: 268
     satellite:
+      axialTilt: 30.87
       semiMajorAxis: 2485782267.6666656
       eccentricity: 0.02
       inclination: 0.29
       orbitalArc: 292
-      axialTilt: 30.87
-      parentId: Gacrux
       showOrbit: true
+      parentId: Gacrux
+    isPlanet:
+      age: 6549547698
+      classification: P
+      radius: 7194
+      terranMass: 0.0065063020631219975
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 125134
+    temperature: 268
     satellites:
       - name: Gacrux 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 35.51
+          semiMajorAxis: 259528.47372261187
+          eccentricity: 0
+          inclination: 1.57
+          orbitalArc: 93
+          showOrbit: true
+          parentId: Gacrux 2
         isPlanet:
-          radius: 924.4672747875953
           age: 6659330053
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 1.100000011606204
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
           classification: H
+          radius: 924.4672747875953
+          terranMass: 1.100000011606204
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 0
         temperature: 689
-        satellite:
-          semiMajorAxis: 259528.47372261187
-          eccentricity: 0
-          inclination: 1.57
-          orbitalArc: 93
-          axialTilt: 35.51
-          parentId: Gacrux 2
-          showOrbit: true
-        satellites: []
       - name: Gacrux 2b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 5.14
+          semiMajorAxis: 541475.5443960375
+          eccentricity: 0
+          inclination: 1.37
+          orbitalArc: 68
+          showOrbit: true
+          parentId: Gacrux 2
         isPlanet:
-          radius: 1769.5279228628676
           age: 7004740959
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 2.1000001340900476
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 1769.5279228628676
+          terranMass: 2.1000001340900476
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 37587
         temperature: 189
-        satellite:
-          semiMajorAxis: 541475.5443960375
-          eccentricity: 0
-          inclination: 1.37
-          orbitalArc: 68
-          axialTilt: 5.14
-          parentId: Gacrux 2
-          showOrbit: true
-        satellites: []
   - name: Gacrux 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5715
-      age: 8382583046
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.024923293835582047
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 461695667
-    temperature: 296
     satellite:
+      axialTilt: 26.75
       semiMajorAxis: 3420867386
       eccentricity: 0.02
       inclination: 0.51
       orbitalArc: 224
-      axialTilt: 26.75
-      parentId: Gacrux
       showOrbit: true
+      parentId: Gacrux
+    isPlanet:
+      age: 8382583046
+      classification: O
+      radius: 5715
+      terranMass: 0.024923293835582047
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 461695667
+    temperature: 296
     satellites:
       - name: Gacrux 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 896.5607947083913
-          age: 997551805
-          ringMapAsset: null
-          terranMass: 1.3899997355229605
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 265
         satellite:
+          axialTilt: 6.14
           semiMajorAxis: 236239.79832500033
           eccentricity: 0.02
           inclination: 0.06
           orbitalArc: 275
-          axialTilt: 6.14
-          parentId: Gacrux 3
           showOrbit: true
-        satellites: []
-      - name: Gacrux 3b
-        description: ''
-        tags: []
+          parentId: Gacrux 3
         isPlanet:
-          radius: 1330.4986727764476
-          age: 388327376
-          ringMapAsset: null
-          terranMass: 0.5499997432550476
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 997551805
           classification: D
+          radius: 896.5607947083913
+          terranMass: 1.3899997355229605
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 304
+        temperature: 265
+      - name: Gacrux 3b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 33.99
           semiMajorAxis: 436403.5646706748
           eccentricity: 0
           inclination: 0.36
           orbitalArc: 159
-          axialTilt: 33.99
-          parentId: Gacrux 3
           showOrbit: true
-        satellites: []
+          parentId: Gacrux 3
+        isPlanet:
+          age: 388327376
+          classification: D
+          radius: 1330.4986727764476
+          terranMass: 0.5499997432550476
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 304
 commSatellite: null
 assets: {}

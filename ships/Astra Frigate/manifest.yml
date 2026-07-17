@@ -1,32 +1,29 @@
 apiVersion: ships/v1
 kind: ships
 name: Astra Frigate
+nameTemplate: '{~{#Civilian Ships 1},{#Civilian Ships 2},{#Civilian Ships 3}}'
 description: Boldly going where no one has gone before.
 category: Cruiser
 tags: []
 assets:
   logo: /plugins/Thorium Default/ships/Astra Frigate/assets/logo.svg
   model: /plugins/Thorium Default/ships/Astra Frigate/assets/model.glb
+  vanity: /plugins/Thorium Default/ships/Astra Frigate/assets/vanity.png
   topView: /plugins/Thorium Default/ships/Astra Frigate/assets/topView.png
   sideView: /plugins/Thorium Default/ships/Astra Frigate/assets/sideView.png
-  vanity: /plugins/Thorium Default/ships/Astra Frigate/assets/vanity.png
-  decks:
-    - /plugins/Thorium Default/ships/Astra Frigate/assets/deck-0-l04369bj5k.svg
-    - /plugins/Thorium Default/ships/Astra Frigate/assets/deck-1-l042ept66b.svg
-    - /plugins/Thorium Default/ships/Astra Frigate/assets/deck-2-l0436f1v3s.svg
 mass: 700000000
 length: 350
 shipSystems:
-  - systemId: Class IV Impulse Engines
+  - id: sys-impulse
+    systemId: Class IV Impulse Engines
     pluginId: Thorium Default
-    id: sys-impulse
     overrides: {}
-  - systemId: Warp Engines
+  - id: sys-warp
+    systemId: Warp Engines
     pluginId: Thorium Default
-    id: sys-warp
-  - systemId: Thrusters
+  - id: sys-thrusters
+    systemId: Thrusters
     pluginId: Thorium Default
-    id: sys-thrusters
     overrides: {}
   - id: ssys-ld59offs17
     systemId: Inertial Dampeners
@@ -86,8 +83,8 @@ shipSystems:
     systemId: Exocomps
     pluginId: Thorium Default
 theme:
-  themeId: Default
   pluginId: Thorium Default
+  themeId: Default
 decks:
   - name: Deck 1
     backgroundUrl: >-
@@ -96,7 +93,6 @@ decks:
     nodes:
       - id: 1
         name: Crew Quarters
-        deckIndex: null
         x: 202.14047100785461
         'y': 109.61599047784489
         isRoom: true
@@ -109,7 +105,6 @@ decks:
         contents: {}
       - id: 2
         name: Crew Quarters
-        deckIndex: null
         x: 152.6419837877669
         'y': 109.97295627353822
         isRoom: true
@@ -122,7 +117,6 @@ decks:
         contents: {}
       - id: 3
         name: Secondary Fuel Tank
-        deckIndex: null
         x: 123.7135878739563
         'y': 160.6050467018079
         isRoom: true
@@ -136,7 +130,6 @@ decks:
         contents: {}
       - id: 4
         name: Main Fuel Tank
-        deckIndex: null
         x: 123.53799217767113
         'y': 108.48416395171918
         isRoom: true
@@ -150,7 +143,6 @@ decks:
         contents: {}
       - id: 5
         name: Emergency Batteries
-        deckIndex: null
         x: 142.72301084112632
         'y': 143.8581235664248
         isRoom: false
@@ -162,7 +154,6 @@ decks:
         contents: {}
       - id: 6
         name: Crew Quarters
-        deckIndex: null
         x: 169.28179176668962
         'y': 109.75624067565766
         isRoom: true
@@ -175,7 +166,6 @@ decks:
         contents: {}
       - id: 7
         name: Crew Quarters
-        deckIndex: null
         x: 150.56438720261735
         'y': 161.2996277318356
         isRoom: true
@@ -188,7 +178,6 @@ decks:
         contents: {}
       - id: 8
         name: Crew Quarters
-        deckIndex: null
         x: 202.2915045991456
         'y': 162.04952670563307
         isRoom: false
@@ -201,7 +190,6 @@ decks:
         contents: {}
       - id: 9
         name: Crew Quarters
-        deckIndex: null
         x: 186.55177553426006
         'y': 161.96223273905446
         isRoom: true
@@ -214,7 +202,6 @@ decks:
         contents: {}
       - id: 10
         name: Crew Quarters
-        deckIndex: null
         x: 168.596587054707
         'y': 161.3875303548921
         isRoom: true
@@ -227,7 +214,6 @@ decks:
         contents: {}
       - id: 11
         name: Turbolift
-        deckIndex: null
         x: 273.0764683314732
         'y': 135.4964316231864
         isRoom: true
@@ -239,7 +225,6 @@ decks:
         contents: {}
       - id: 12
         name: ''
-        deckIndex: null
         x: 1283.352294921875
         'y': -954.0132598876953
         isRoom: false
@@ -251,7 +236,6 @@ decks:
         contents: {}
       - id: 13
         name: Crew Quarters
-        deckIndex: null
         x: 185.311946215622
         'y': 109.46807536212131
         isRoom: true
@@ -264,7 +248,6 @@ decks:
         contents: {}
       - id: 14
         name: Emergency Batteries
-        deckIndex: null
         x: 143.05294443011573
         'y': 127.05783913789261
         isRoom: false
@@ -276,7 +259,6 @@ decks:
         contents: {}
       - id: 15
         name: ''
-        deckIndex: null
         x: 214.91442115178992
         'y': 134.57276480813306
         isRoom: false
@@ -288,7 +270,6 @@ decks:
         contents: {}
       - id: 16
         name: Memorial Room
-        deckIndex: null
         x: 189.18041447070746
         'y': 135.29116708435535
         isRoom: true
@@ -300,7 +281,6 @@ decks:
         contents: {}
       - id: 17
         name: Memorial Room
-        deckIndex: null
         x: 162.6715373384657
         'y': 135.7338903130057
         isRoom: true
@@ -312,7 +292,6 @@ decks:
         contents: {}
       - id: 18
         name: Laser Cannon Power Generator
-        deckIndex: null
         x: 220.61509038352526
         'y': 164.51722936807465
         isRoom: true
@@ -324,7 +303,6 @@ decks:
         contents: {}
       - id: 19
         name: Laser Cannon Control Room
-        deckIndex: null
         x: 245.57909446649572
         'y': 156.6478742232534
         isRoom: true
@@ -336,7 +314,6 @@ decks:
         contents: {}
       - id: 20
         name: Gravity Generation Control
-        deckIndex: null
         x: 234.78531118639805
         'y': 116.4804434789502
         isRoom: true
@@ -350,7 +327,6 @@ decks:
         contents: {}
       - id: 21
         name: Observation Deck
-        deckIndex: null
         x: 301.5973888831034
         'y': 135.68110629120633
         isRoom: true
@@ -362,7 +338,6 @@ decks:
         contents: {}
       - id: 22
         name: Airlock
-        deckIndex: null
         x: 274.8327113700006
         'y': 108.03568353509651
         isRoom: true
@@ -374,7 +349,6 @@ decks:
         contents: {}
       - id: 23
         name: Airlock
-        deckIndex: null
         x: 276.7462589845473
         'y': 161.88288232564526
         isRoom: true
@@ -386,7 +360,6 @@ decks:
         contents: {}
       - id: 24
         name: ''
-        deckIndex: null
         x: 270.5718393970082
         'y': 152.18587184775907
         isRoom: false
@@ -398,7 +371,6 @@ decks:
         contents: {}
       - id: 25
         name: ''
-        deckIndex: null
         x: 281.60938647517384
         'y': 148.19356758544384
         isRoom: false
@@ -410,7 +382,6 @@ decks:
         contents: {}
       - id: 26
         name: ''
-        deckIndex: null
         x: 288.41978786382924
         'y': 135.51213051691312
         isRoom: false
@@ -422,7 +393,6 @@ decks:
         contents: {}
       - id: 27
         name: ''
-        deckIndex: null
         x: 282.54875218395387
         'y': 121.18680345801727
         isRoom: false
@@ -434,7 +404,6 @@ decks:
         contents: {}
       - id: 28
         name: ''
-        deckIndex: null
         x: 270.5718393970082
         'y': 117.42934062289706
         isRoom: false
@@ -446,7 +415,6 @@ decks:
         contents: {}
       - id: 29
         name: ''
-        deckIndex: null
         x: 259.76913374603754
         'y': 121.6564863124073
         isRoom: false
@@ -458,7 +426,6 @@ decks:
         contents: {}
       - id: 30
         name: ''
-        deckIndex: null
         x: 254.83746377494228
         'y': 135.51213051691312
         isRoom: false
@@ -470,7 +437,6 @@ decks:
         contents: {}
       - id: 31
         name: ''
-        deckIndex: null
         x: 258.5585496569375
         'y': 145.3754704591037
         isRoom: false
@@ -482,7 +448,6 @@ decks:
         contents: {}
       - id: 32
         name: ''
-        deckIndex: null
         x: 265.4417049518429
         'y': 171.6777103049452
         isRoom: false
@@ -494,7 +459,6 @@ decks:
         contents: {}
       - id: 33
         name: ''
-        deckIndex: null
         x: 264.93564514432785
         'y': 97.7026607385159
         isRoom: false
@@ -506,7 +470,6 @@ decks:
         contents: {}
       - id: 34
         name: ''
-        deckIndex: null
         x: 202.50441172697208
         'y': 93.00583219461562
         isRoom: false
@@ -518,7 +481,6 @@ decks:
         contents: {}
       - id: 35
         name: ''
-        deckIndex: null
         x: 183.05787879433947
         'y': 92.77099948672866
         isRoom: false
@@ -530,7 +492,6 @@ decks:
         contents: {}
       - id: 36
         name: ''
-        deckIndex: null
         x: 167.9461357127872
         'y': 91.59678363144555
         isRoom: false
@@ -542,7 +503,6 @@ decks:
         contents: {}
       - id: 37
         name: ''
-        deckIndex: null
         x: 152.46710999983503
         'y': 92.53615805953363
         isRoom: false
@@ -554,7 +514,6 @@ decks:
         contents: {}
       - id: 38
         name: ''
-        deckIndex: null
         x: 106.88736464208363
         'y': 92.30130791303058
         isRoom: false
@@ -566,7 +525,6 @@ decks:
         contents: {}
       - id: 39
         name: ''
-        deckIndex: null
         x: 106.18284036049859
         'y': 134.57276480813306
         isRoom: false
@@ -578,7 +536,6 @@ decks:
         contents: {}
       - id: 40
         name: ''
-        deckIndex: null
         x: 142.81810300292074
         'y': 135.04244766252307
         isRoom: false
@@ -590,7 +547,6 @@ decks:
         contents: {}
       - id: 41
         name: ''
-        deckIndex: null
         x: 106.18284036049859
         'y': 177.54874598482056
         isRoom: false
@@ -602,7 +558,6 @@ decks:
         contents: {}
       - id: 42
         name: ''
-        deckIndex: null
         x: 150.22906847502114
         'y': 176.73317281923224
         isRoom: false
@@ -614,7 +569,6 @@ decks:
         contents: {}
       - id: 43
         name: ''
-        deckIndex: null
         x: 168.88550142156726
         'y': 176.6093802760405
         isRoom: false
@@ -626,7 +580,6 @@ decks:
         contents: {}
       - id: 44
         name: ''
-        deckIndex: null
         x: 185.0895598980232
         'y': 176.6093802760405
         isRoom: false
@@ -638,7 +591,6 @@ decks:
         contents: {}
       - id: 45
         name: ''
-        deckIndex: null
         x: 201.76330122886915
         'y': 176.70162239359928
         isRoom: false
@@ -650,7 +602,6 @@ decks:
         contents: {}
       - id: 46
         name: ''
-        deckIndex: null
         x: 220.4274025279082
         'y': 175.78125130688076
         isRoom: false
@@ -662,7 +613,6 @@ decks:
         contents: {}
       - id: 47
         name: Upper Shuttle Flight Deck
-        deckIndex: null
         x: 81.72306734780426
         'y': 134.6992676750795
         isRoom: true
@@ -674,7 +624,6 @@ decks:
         contents: {}
       - id: 48
         name: Service Shuttle Airlock
-        deckIndex: null
         x: 85.72672110138288
         'y': 173.74118414067124
         isRoom: true
@@ -686,7 +635,6 @@ decks:
         contents: {}
       - id: 49
         name: Shuttle Service Airlock
-        deckIndex: null
         x: 86.10926446557879
         'y': 96.08488120890208
         isRoom: true
@@ -698,7 +646,6 @@ decks:
         contents: {}
       - id: 84
         name: Fuel Junction
-        deckIndex: null
         x: 139.85546875
         'y': 169
         isRoom: true
@@ -710,7 +657,6 @@ decks:
         contents: {}
       - id: 86
         name: Fuel Junction
-        deckIndex: null
         x: 138.35546875
         'y': 99.5
         isRoom: false
@@ -722,7 +668,6 @@ decks:
         contents: {}
       - id: 87
         name: ''
-        deckIndex: null
         x: 139.35546875
         'y': 177.21221051897322
         isRoom: false
@@ -734,7 +679,6 @@ decks:
         contents: {}
       - id: 88
         name: ''
-        deckIndex: null
         x: 138.85546875
         'y': 90.96542794363839
         isRoom: false
@@ -751,7 +695,6 @@ decks:
     nodes:
       - id: 50
         name: Shuttle Flight Deck
-        deckIndex: null
         x: 79.84858654240607
         'y': 135.90078010353915
         isRoom: true
@@ -764,7 +707,6 @@ decks:
         contents: {}
       - id: 51
         name: Medical Center
-        deckIndex: null
         x: 231.44805908203125
         'y': 134.9332733154297
         isRoom: true
@@ -778,7 +720,6 @@ decks:
         contents: {}
       - id: 52
         name: Fire Suppression Center
-        deckIndex: null
         x: 126.83060946529054
         'y': 113.36660983034439
         isRoom: true
@@ -790,7 +731,6 @@ decks:
         contents: {}
       - id: 53
         name: Fire Suppression Center
-        deckIndex: null
         x: 176.3033323916499
         'y': 156.3827607556843
         isRoom: false
@@ -802,7 +742,6 @@ decks:
         contents: {}
       - id: 54
         name: Air Filtration System
-        deckIndex: null
         x: 124.32489013671875
         'y': 193.19915771484375
         isRoom: true
@@ -816,7 +755,6 @@ decks:
         contents: {}
       - id: 55
         name: Air Filtration System
-        deckIndex: null
         x: 125.85546875
         'y': 76
         isRoom: true
@@ -830,7 +768,6 @@ decks:
         contents: {}
       - id: 56
         name: Stellar Cartography
-        deckIndex: null
         x: 306.85546875
         'y': 134.5
         isRoom: true
@@ -842,7 +779,6 @@ decks:
         contents: {}
       - id: 57
         name: Escape Pods
-        deckIndex: null
         x: 280.35546875
         'y': 106.5
         isRoom: false
@@ -854,7 +790,6 @@ decks:
         contents: {}
       - id: 58
         name: Escape Pods
-        deckIndex: null
         x: 280.8204345703125
         'y': 163.00650024414062
         isRoom: false
@@ -866,7 +801,6 @@ decks:
         contents: {}
       - id: 59
         name: Shuttle Control Room
-        deckIndex: null
         x: 74.58474731445312
         'y': 99.6783447265625
         isRoom: true
@@ -878,7 +812,6 @@ decks:
         contents: {}
       - id: 60
         name: ''
-        deckIndex: null
         x: 124.35697654368525
         'y': 177.6375845952019
         isRoom: false
@@ -890,7 +823,6 @@ decks:
         contents: {}
       - id: 61
         name: ''
-        deckIndex: null
         x: 106.7269181465469
         'y': 176.88166291941255
         isRoom: false
@@ -902,7 +834,6 @@ decks:
         contents: {}
       - id: 62
         name: ''
-        deckIndex: null
         x: 106.68827061058569
         'y': 134.51182167619916
         isRoom: false
@@ -914,7 +845,6 @@ decks:
         contents: {}
       - id: 63
         name: ''
-        deckIndex: null
         x: 127.23633036501808
         'y': 134.84114320454142
         isRoom: false
@@ -926,7 +856,6 @@ decks:
         contents: {}
       - id: 64
         name: ''
-        deckIndex: null
         x: 176.24619151891295
         'y': 135.10153509557423
         isRoom: false
@@ -938,7 +867,6 @@ decks:
         contents: {}
       - id: 65
         name: ''
-        deckIndex: null
         x: 205.59168243408203
         'y': 135.34173583984375
         isRoom: false
@@ -950,7 +878,6 @@ decks:
         contents: {}
       - id: 66
         name: ''
-        deckIndex: null
         x: 223.32615661621094
         'y': 94.85125732421875
         isRoom: false
@@ -962,7 +889,6 @@ decks:
         contents: {}
       - id: 67
         name: ''
-        deckIndex: null
         x: 107.3278642900129
         'y': 92.034257294948
         isRoom: false
@@ -974,7 +900,6 @@ decks:
         contents: {}
       - id: 68
         name: ''
-        deckIndex: null
         x: 265.92219956547723
         'y': 98.13114645805253
         isRoom: false
@@ -986,7 +911,6 @@ decks:
         contents: {}
       - id: 69
         name: ''
-        deckIndex: null
         x: 126.38795851745186
         'y': 91.92434035981456
         isRoom: false
@@ -998,7 +922,6 @@ decks:
         contents: {}
       - id: 70
         name: ''
-        deckIndex: null
         x: 222.32745638023448
         'y': 175.45005228361904
         isRoom: false
@@ -1010,7 +933,6 @@ decks:
         contents: {}
       - id: 71
         name: ''
-        deckIndex: null
         x: 265.85546875
         'y': 172.17327880859375
         isRoom: false
@@ -1022,7 +944,6 @@ decks:
         contents: {}
       - id: 72
         name: ''
-        deckIndex: null
         x: 295.35546875
         'y': 133.5
         isRoom: false
@@ -1034,7 +955,6 @@ decks:
         contents: {}
       - id: 73
         name: ''
-        deckIndex: null
         x: 289.3409693080525
         'y': 133.5
         isRoom: false
@@ -1046,7 +966,6 @@ decks:
         contents: {}
       - id: 74
         name: ''
-        deckIndex: null
         x: 283.46457249753234
         'y': 122.1882149369756
         isRoom: false
@@ -1058,7 +977,6 @@ decks:
         contents: {}
       - id: 75
         name: ''
-        deckIndex: null
         x: 271.35546875
         'y': 117
         isRoom: false
@@ -1070,7 +988,6 @@ decks:
         contents: {}
       - id: 76
         name: ''
-        deckIndex: null
         x: 261.6537780761719
         'y': 120.65036201477051
         isRoom: false
@@ -1082,7 +999,6 @@ decks:
         contents: {}
       - id: 77
         name: ''
-        deckIndex: null
         x: 254.74216223572537
         'y': 135.2027674474077
         isRoom: false
@@ -1094,7 +1010,6 @@ decks:
         contents: {}
       - id: 78
         name: ''
-        deckIndex: null
         x: 270.7982567898522
         'y': 152.785904870738
         isRoom: false
@@ -1106,7 +1021,6 @@ decks:
         contents: {}
       - id: 79
         name: ''
-        deckIndex: null
         x: 260.59049224853516
         'y': 147.70172500610352
         isRoom: false
@@ -1118,7 +1032,6 @@ decks:
         contents: {}
       - id: 80
         name: ''
-        deckIndex: null
         x: 285.8015335079608
         'y': 146.36391067504883
         isRoom: false
@@ -1130,7 +1043,6 @@ decks:
         contents: {}
       - id: 81
         name: ''
-        deckIndex: null
         x: 271.47347067695233
         'y': 134.66931238251314
         isRoom: false
@@ -1142,7 +1054,6 @@ decks:
         contents: {}
       - id: 82
         name: ''
-        deckIndex: null
         x: 209.7963104248047
         'y': 154.4520492553711
         isRoom: false
@@ -1154,7 +1065,6 @@ decks:
         contents: {}
       - id: 83
         name: ''
-        deckIndex: null
         x: 210.9213104248047
         'y': 114.0145492553711
         isRoom: false
@@ -1171,7 +1081,6 @@ decks:
     nodes:
       - id: 91
         name: ''
-        deckIndex: null
         x: 84.5
         'y': 177
         isRoom: false
@@ -1183,7 +1092,6 @@ decks:
         contents: {}
       - id: 92
         name: ''
-        deckIndex: null
         x: 84.22445871771153
         'y': 134.47159435409137
         isRoom: false
@@ -1195,7 +1103,6 @@ decks:
         contents: {}
       - id: 93
         name: ''
-        deckIndex: null
         x: 177.5
         'y': 134.3861530954732
         isRoom: false
@@ -1207,7 +1114,6 @@ decks:
         contents: {}
       - id: 94
         name: ''
-        deckIndex: null
         x: 154.2069320490935
         'y': 133.97075495220668
         isRoom: false
@@ -1219,7 +1125,6 @@ decks:
         contents: {}
       - id: 95
         name: ''
-        deckIndex: null
         x: 120.5
         'y': 134.5
         isRoom: false
@@ -1231,7 +1136,6 @@ decks:
         contents: {}
       - id: 96
         name: ''
-        deckIndex: null
         x: 108.92305303909653
         'y': 134.5150988299637
         isRoom: false
@@ -1243,7 +1147,6 @@ decks:
         contents: {}
       - id: 97
         name: ''
-        deckIndex: null
         x: 83.98089534981622
         'y': 92.12813440028283
         isRoom: false
@@ -1255,7 +1158,6 @@ decks:
         contents: {}
       - id: 98
         name: ''
-        deckIndex: null
         x: 111
         'y': 91.64294337964624
         isRoom: false
@@ -1267,7 +1169,6 @@ decks:
         contents: {}
       - id: 99
         name: Weapons Locker
-        deckIndex: null
         x: 110.24668145503675
         'y': 58.2352525458331
         isRoom: true
@@ -1281,7 +1182,6 @@ decks:
         contents: {}
       - id: 100
         name: ''
-        deckIndex: null
         x: 211.14285714285714
         'y': 94
         isRoom: false
@@ -1293,7 +1193,6 @@ decks:
         contents: {}
       - id: 101
         name: ''
-        deckIndex: null
         x: 266.2857142857143
         'y': 96.85714285714286
         isRoom: false
@@ -1305,7 +1204,6 @@ decks:
         contents: {}
       - id: 102
         name: ''
-        deckIndex: null
         x: 226.98680483871328
         'y': 132.73708466035205
         isRoom: false
@@ -1317,7 +1215,6 @@ decks:
         contents: {}
       - id: 103
         name: ''
-        deckIndex: null
         x: 271.42857142857144
         'y': 116.5458671191691
         isRoom: false
@@ -1329,7 +1226,6 @@ decks:
         contents: {}
       - id: 104
         name: ''
-        deckIndex: null
         x: 211.05405097722584
         'y': 175.90811118087754
         isRoom: false
@@ -1341,7 +1237,6 @@ decks:
         contents: {}
       - id: 105
         name: ''
-        deckIndex: null
         x: 265.7142857142857
         'y': 171.14285714285714
         isRoom: false
@@ -1353,7 +1248,6 @@ decks:
         contents: {}
       - id: 106
         name: ''
-        deckIndex: null
         x: 110
         'y': 177.71428571428572
         isRoom: false
@@ -1365,7 +1259,6 @@ decks:
         contents: {}
       - id: 107
         name: Weapons Locker
-        deckIndex: null
         x: 110.39372907512299
         'y': 207.77480364373875
         isRoom: true
@@ -1379,7 +1272,6 @@ decks:
         contents: {}
       - id: 108
         name: ''
-        deckIndex: null
         x: 149.14285714285714
         'y': 176.57142857142858
         isRoom: false
@@ -1391,7 +1283,6 @@ decks:
         contents: {}
       - id: 109
         name: Turbolift
-        deckIndex: null
         x: 272
         'y': 133.98721927387027
         isRoom: false
@@ -1403,7 +1294,6 @@ decks:
         contents: {}
       - id: 110
         name: ''
-        deckIndex: null
         x: 282.14897794997864
         'y': 121.41044821975217
         isRoom: false
@@ -1415,7 +1305,6 @@ decks:
         contents: {}
       - id: 111
         name: ''
-        deckIndex: null
         x: 258.058827055496
         'y': 124.24721435889899
         isRoom: false
@@ -1427,7 +1316,6 @@ decks:
         contents: {}
       - id: 112
         name: ''
-        deckIndex: null
         x: 271.08559000730605
         'y': 151.7638459086231
         isRoom: false
@@ -1439,7 +1327,6 @@ decks:
         contents: {}
       - id: 113
         name: ''
-        deckIndex: null
         x: 284.4311687403049
         'y': 146.65766685815882
         isRoom: false
@@ -1451,7 +1338,6 @@ decks:
         contents: {}
       - id: 114
         name: ''
-        deckIndex: null
         x: 260.5895552924629
         'y': 147.50869669990288
         isRoom: false
@@ -1463,7 +1349,6 @@ decks:
         contents: {}
       - id: 115
         name: ''
-        deckIndex: null
         x: 254.03826724768027
         'y': 134.20770679696852
         isRoom: false
@@ -1475,7 +1360,6 @@ decks:
         contents: {}
       - id: 116
         name: ''
-        deckIndex: null
         x: 289.8648818118125
         'y': 134.73326535039763
         isRoom: false
@@ -1487,7 +1371,6 @@ decks:
         contents: {}
       - id: 117
         name: Upper Bow Sensors
-        deckIndex: null
         x: 301.2146840049407
         'y': 133.9240320827448
         isRoom: true
@@ -1500,7 +1383,6 @@ decks:
         contents: {}
       - id: 119
         name: Shuttle Hangar
-        deckIndex: null
         x: 59.23001727620581
         'y': 134.6512549585583
         isRoom: true
@@ -1513,7 +1395,6 @@ decks:
         contents: {}
       - id: 123
         name: Auxiliary Computer Core
-        deckIndex: null
         x: 109.01290032225576
         'y': 155.85960986785082
         isRoom: true
@@ -1527,7 +1408,6 @@ decks:
         contents: {}
       - id: 124
         name: Upper Shield Control
-        deckIndex: null
         x: 154.5
         'y': 155.69822794163463
         isRoom: true
@@ -1541,7 +1421,6 @@ decks:
         contents: {}
       - id: 125
         name: Vehicle Maintenance Center
-        deckIndex: null
         x: 154.9820752206803
         'y': 111.55377721236253
         isRoom: true
@@ -1554,7 +1433,6 @@ decks:
         contents: {}
       - id: 126
         name: Communications Control Center
-        deckIndex: null
         x: 109
         'y': 110.48709680334088
         isRoom: true
@@ -1567,7 +1445,6 @@ decks:
         contents: {}
       - id: 131
         name: Power Distribution Center
-        deckIndex: null
         x: 241.412109375
         'y': 113.5
         isRoom: true
@@ -1583,7 +1460,6 @@ decks:
         contents: {}
       - id: 132
         name: Power Distribution Center
-        deckIndex: null
         x: 242.423828125
         'y': 155.94836007413613
         isRoom: true
@@ -1597,7 +1473,6 @@ decks:
         contents: {}
       - id: 133
         name: Damage Control Resource Center
-        deckIndex: null
         x: 201.54783716095093
         'y': 131.49786913393953
         isRoom: true
@@ -1616,7 +1491,6 @@ decks:
     nodes:
       - id: 134
         name: ''
-        deckIndex: null
         x: 133.89551350746044
         'y': 227.59326096333714
         isRoom: false
@@ -1628,7 +1502,6 @@ decks:
         contents: {}
       - id: 135
         name: ''
-        deckIndex: null
         x: 133.13990391795716
         'y': 177.2696623024187
         isRoom: false
@@ -1640,7 +1513,6 @@ decks:
         contents: {}
       - id: 136
         name: ''
-        deckIndex: null
         x: 140.39375597718865
         'y': 176.81630577246662
         isRoom: false
@@ -1652,7 +1524,6 @@ decks:
         contents: {}
       - id: 137
         name: ''
-        deckIndex: null
         x: 140.81897397931291
         'y': 133.4212200010456
         isRoom: false
@@ -1664,7 +1535,6 @@ decks:
         contents: {}
       - id: 138
         name: ''
-        deckIndex: null
         x: 141.49391515739626
         'y': 93.54812900920517
         isRoom: false
@@ -1676,7 +1546,6 @@ decks:
         contents: {}
       - id: 139
         name: ''
-        deckIndex: null
         x: 133.74439158955977
         'y': 92.18803174809928
         isRoom: false
@@ -1688,7 +1557,6 @@ decks:
         contents: {}
       - id: 140
         name: ''
-        deckIndex: null
         x: 132.83766008215585
         'y': 43.07340612444862
         isRoom: false
@@ -1700,7 +1568,6 @@ decks:
         contents: {}
       - id: 141
         name: ''
-        deckIndex: null
         x: 96.11503403229644
         'y': 115.30968518689963
         isRoom: false
@@ -1712,7 +1579,6 @@ decks:
         contents: {}
       - id: 142
         name: ''
-        deckIndex: null
         x: 95.66166827859448
         'y': 153.5435304157656
         isRoom: false
@@ -1724,7 +1590,6 @@ decks:
         contents: {}
       - id: 143
         name: ''
-        deckIndex: null
         x: 95.96391211439578
         'y': 132.53758382757442
         isRoom: false
@@ -1736,7 +1601,6 @@ decks:
         contents: {}
       - id: 144
         name: ''
-        deckIndex: null
         x: 189.50837929490183
         'y': 133.2931934170777
         isRoom: false
@@ -1748,7 +1612,6 @@ decks:
         contents: {}
       - id: 145
         name: ''
-        deckIndex: null
         x: 181.19667381036575
         'y': 176.81630577246662
         isRoom: false
@@ -1760,7 +1623,6 @@ decks:
         contents: {}
       - id: 146
         name: ''
-        deckIndex: null
         x: 180.13882038506117
         'y': 93.39700709130452
         isRoom: false
@@ -1772,7 +1634,6 @@ decks:
         contents: {}
       - id: 147
         name: ''
-        deckIndex: null
         x: 265.7854367176611
         'y': 98.23290846412552
         isRoom: false
@@ -1784,7 +1645,6 @@ decks:
         contents: {}
       - id: 148
         name: ''
-        deckIndex: null
         x: 270.9630930433554
         'y': 117.27427011960816
         isRoom: false
@@ -1796,7 +1656,6 @@ decks:
         contents: {}
       - id: 149
         name: ''
-        deckIndex: null
         x: 272.47431222236196
         'y': 134.3510468423823
         isRoom: false
@@ -1808,7 +1667,6 @@ decks:
         contents: {}
       - id: 150
         name: ''
-        deckIndex: null
         x: 283.3550903112092
         'y': 122.41241532823047
         isRoom: false
@@ -1820,7 +1678,6 @@ decks:
         contents: {}
       - id: 151
         name: ''
-        deckIndex: null
         x: 259.47782728290554
         'y': 122.26129341032981
         isRoom: false
@@ -1832,7 +1689,6 @@ decks:
         contents: {}
       - id: 152
         name: ''
-        deckIndex: null
         x: 289.0977231914341
         'y': 134.80441259608426
         isRoom: false
@@ -1844,7 +1700,6 @@ decks:
         contents: {}
       - id: 153
         name: ''
-        deckIndex: null
         x: 254.0374382384819
         'y': 133.74655917077968
         isRoom: false
@@ -1856,7 +1711,6 @@ decks:
         contents: {}
       - id: 154
         name: ''
-        deckIndex: null
         x: 284.4129437365138
         'y': 146.74304411023607
         isRoom: false
@@ -1868,7 +1722,6 @@ decks:
         contents: {}
       - id: 155
         name: ''
-        deckIndex: null
         x: 258.2688519397003
         'y': 146.44080027443476
         isRoom: false
@@ -1880,7 +1733,6 @@ decks:
         contents: {}
       - id: 156
         name: ''
-        deckIndex: null
         x: 270.81197112545476
         'y': 152.03231123675903
         isRoom: false
@@ -1892,7 +1744,6 @@ decks:
         contents: {}
       - id: 157
         name: ''
-        deckIndex: null
         x: 265.97606975263375
         'y': 171.22479481014236
         isRoom: false
@@ -1904,7 +1755,6 @@ decks:
         contents: {}
       - id: 158
         name: Air Pumping Monitoring Station
-        deckIndex: null
         x: 75.8764111959458
         'y': 133.00575831169567
         isRoom: true
@@ -1916,7 +1766,6 @@ decks:
         contents: {}
       - id: 159
         name: Air Conditioning Control
-        deckIndex: null
         x: 112.28507924766663
         'y': 67.40403490645423
         isRoom: true
@@ -1930,7 +1779,6 @@ decks:
         contents: {}
       - id: 160
         name: Air Filtration Control
-        deckIndex: null
         x: 112.32825430313828
         'y': 197.08822766353322
         isRoom: true
@@ -1944,7 +1792,6 @@ decks:
         contents: {}
       - id: 161
         name: Heating Control
-        deckIndex: null
         x: 150.0477112209248
         'y': 194.18829562671758
         isRoom: true
@@ -1957,7 +1804,6 @@ decks:
         contents: {}
       - id: 162
         name: Zoology
-        deckIndex: null
         x: 118.81039143816626
         'y': 133.0166739227603
         isRoom: true
@@ -1969,7 +1815,6 @@ decks:
         contents: {}
       - id: 163
         name: Damage Control Center
-        deckIndex: null
         x: 163.55247880746953
         'y': 132.80079296539964
         isRoom: true
@@ -1983,7 +1828,6 @@ decks:
         contents: {}
       - id: 164
         name: Security Information Center
-        deckIndex: null
         x: 223.07976019228897
         'y': 132.02771744031512
         isRoom: true
@@ -1997,7 +1841,6 @@ decks:
         contents: {}
       - id: 165
         name: Mission Lounge
-        deckIndex: null
         x: 303.53030829563903
         'y': 134.90192118640115
         isRoom: true
@@ -2014,7 +1857,6 @@ decks:
     nodes:
       - id: 166
         name: ''
-        deckIndex: null
         x: 117.5
         'y': 236.5
         isRoom: false
@@ -2026,7 +1868,6 @@ decks:
         contents: {}
       - id: 167
         name: ''
-        deckIndex: null
         x: 118
         'y': 177.5
         isRoom: false
@@ -2038,7 +1879,6 @@ decks:
         contents: {}
       - id: 168
         name: ''
-        deckIndex: null
         x: 106.73136154647536
         'y': 177.2811714636226
         isRoom: false
@@ -2050,7 +1890,6 @@ decks:
         contents: {}
       - id: 169
         name: ''
-        deckIndex: null
         x: 106.5
         'y': 135
         isRoom: false
@@ -2062,7 +1901,6 @@ decks:
         contents: {}
       - id: 170
         name: ''
-        deckIndex: null
         x: 59
         'y': 134
         isRoom: false
@@ -2074,7 +1912,6 @@ decks:
         contents: {}
       - id: 171
         name: ''
-        deckIndex: null
         x: 106.5
         'y': 92
         isRoom: false
@@ -2086,7 +1923,6 @@ decks:
         contents: {}
       - id: 172
         name: ''
-        deckIndex: null
         x: 117.5
         'y': 91.68184571971892
         isRoom: false
@@ -2098,7 +1934,6 @@ decks:
         contents: {}
       - id: 173
         name: ''
-        deckIndex: null
         x: 117.52888651819252
         'y': 31.52886722621689
         isRoom: false
@@ -2110,7 +1945,6 @@ decks:
         contents: {}
       - id: 174
         name: ''
-        deckIndex: null
         x: 117
         'y': 68.5
         isRoom: false
@@ -2122,7 +1956,6 @@ decks:
         contents: {}
       - id: 175
         name: ''
-        deckIndex: null
         x: 117.5
         'y': 198
         isRoom: false
@@ -2134,7 +1967,6 @@ decks:
         contents: {}
       - id: 176
         name: ''
-        deckIndex: null
         x: 209.41727384023662
         'y': 175.4869990399214
         isRoom: false
@@ -2146,7 +1978,6 @@ decks:
         contents: {}
       - id: 177
         name: ''
-        deckIndex: null
         x: 204
         'y': 152
         isRoom: false
@@ -2158,7 +1989,6 @@ decks:
         contents: {}
       - id: 178
         name: ''
-        deckIndex: null
         x: 203
         'y': 132.5
         isRoom: false
@@ -2170,7 +2000,6 @@ decks:
         contents: {}
       - id: 179
         name: ''
-        deckIndex: null
         x: 209.5
         'y': 93.5
         isRoom: false
@@ -2182,7 +2011,6 @@ decks:
         contents: {}
       - id: 180
         name: ''
-        deckIndex: null
         x: 177
         'y': 92
         isRoom: false
@@ -2194,7 +2022,6 @@ decks:
         contents: {}
       - id: 181
         name: ''
-        deckIndex: null
         x: 265.3722493828269
         'y': 97.07020355240992
         isRoom: false
@@ -2206,7 +2033,6 @@ decks:
         contents: {}
       - id: 182
         name: ''
-        deckIndex: null
         x: 265.8189261092552
         'y': 172.5096609825661
         isRoom: false
@@ -2218,7 +2044,6 @@ decks:
         contents: {}
       - id: 183
         name: ''
-        deckIndex: null
         x: 272.8049535927738
         'y': 133.96010463746768
         isRoom: false
@@ -2230,7 +2055,6 @@ decks:
         contents: {}
       - id: 184
         name: ''
-        deckIndex: null
         x: 289.56654784863605
         'y': 134.07384471230782
         isRoom: false
@@ -2242,7 +2066,6 @@ decks:
         contents: {}
       - id: 185
         name: ''
-        deckIndex: null
         x: 285.15450817447675
         'y': 122.27163858393178
         isRoom: false
@@ -2254,7 +2077,6 @@ decks:
         contents: {}
       - id: 186
         name: ''
-        deckIndex: null
         x: 271.0359812171671
         'y': 116.53598700752471
         isRoom: false
@@ -2266,7 +2088,6 @@ decks:
         contents: {}
       - id: 187
         name: ''
-        deckIndex: null
         x: 260.1161830236229
         'y': 122.60254155949372
         isRoom: false
@@ -2278,7 +2099,6 @@ decks:
         contents: {}
       - id: 188
         name: ''
-        deckIndex: null
         x: 284.16179924779095
         'y': 147.53056571849362
         isRoom: false
@@ -2290,7 +2110,6 @@ decks:
         contents: {}
       - id: 189
         name: ''
-        deckIndex: null
         x: 253.60842450423797
         'y': 134.8459516552857
         isRoom: false
@@ -2302,7 +2121,6 @@ decks:
         contents: {}
       - id: 190
         name: ''
-        deckIndex: null
         x: 270.7050782416051
         'y': 151.06019745782103
         isRoom: false
@@ -2314,7 +2132,6 @@ decks:
         contents: {}
       - id: 191
         name: ''
-        deckIndex: null
         x: 258.6822701295211
         'y': 145.43484687326796
         isRoom: false
@@ -2326,7 +2143,6 @@ decks:
         contents: {}
       - id: 192
         name: Kitchen
-        deckIndex: null
         x: 176.80584716796875
         'y': 118.86300659179688
         isRoom: true
@@ -2338,7 +2154,6 @@ decks:
         contents: {}
       - id: 193
         name: ''
-        deckIndex: null
         x: 166.2713995033083
         'y': 176.9952687350592
         isRoom: false
@@ -2350,7 +2165,6 @@ decks:
         contents: {}
       - id: 194
         name: Refrigeration Units
-        deckIndex: null
         x: 188.03383970078931
         'y': 157.78414736058448
         isRoom: true
@@ -2363,7 +2177,6 @@ decks:
         contents: {}
       - id: 195
         name: Officers Messroom
-        deckIndex: null
         x: 134.0529248696809
         'y': 134.60282596736667
         isRoom: true
@@ -2376,7 +2189,6 @@ decks:
         contents: {}
       - id: 196
         name: Officers Quarters
-        deckIndex: null
         x: 132.3558910361439
         'y': 37.38415785333223
         isRoom: true
@@ -2389,7 +2201,6 @@ decks:
         contents: {}
       - id: 197
         name: Officers Quarters
-        deckIndex: null
         x: 95.30261899552048
         'y': 41.877356122695815
         isRoom: true
@@ -2402,7 +2213,6 @@ decks:
         contents: {}
       - id: 198
         name: Officers Quarters
-        deckIndex: null
         x: 102.3972071279233
         'y': 70.73439088323819
         isRoom: true
@@ -2415,7 +2225,6 @@ decks:
         contents: {}
       - id: 199
         name: Officers Quarters
-        deckIndex: null
         x: 132.92114922309148
         'y': 69.03861632239551
         isRoom: true
@@ -2428,7 +2237,6 @@ decks:
         contents: {}
       - id: 200
         name: Briefing Room
-        deckIndex: null
         x: 78.92194906244923
         'y': 114.65363063525001
         isRoom: true
@@ -2440,7 +2248,6 @@ decks:
         contents: {}
       - id: 201
         name: ''
-        deckIndex: null
         x: 91.09204338897213
         'y': 134.6361223538774
         isRoom: false
@@ -2452,7 +2259,6 @@ decks:
         contents: {}
       - id: 202
         name: Upper Aft Sensors
-        deckIndex: null
         x: 48.69767936790523
         'y': 134.60856385202345
         isRoom: true
@@ -2466,7 +2272,6 @@ decks:
         contents: {}
       - id: 203
         name: Phaser Battery
-        deckIndex: null
         x: 52.08922848959059
         'y': 96.45363623306325
         isRoom: true
@@ -2480,7 +2285,6 @@ decks:
         contents: {}
       - id: 204
         name: Phaser Battery
-        deckIndex: null
         x: 51.754695322958945
         'y': 173.44987346388214
         isRoom: true
@@ -2494,7 +2298,6 @@ decks:
         contents: {}
       - id: 205
         name: Officers Quarters
-        deckIndex: null
         x: 67.23083911661834
         'y': 155.36833332164696
         isRoom: true
@@ -2507,7 +2310,6 @@ decks:
         contents: {}
       - id: 206
         name: Officers Quarters
-        deckIndex: null
         x: 91.08907517004647
         'y': 157.31028276785622
         isRoom: true
@@ -2520,7 +2322,6 @@ decks:
         contents: {}
       - id: 207
         name: Officers Quarters
-        deckIndex: null
         x: 94.972974062465
         'y': 227.6365948555775
         isRoom: true
@@ -2533,7 +2334,6 @@ decks:
         contents: {}
       - id: 208
         name: Officers Quarters
-        deckIndex: null
         x: 101.76979712419742
         'y': 197.95251046352158
         isRoom: true
@@ -2546,7 +2346,6 @@ decks:
         contents: {}
       - id: 209
         name: Officers Quarters
-        deckIndex: null
         x: 133.03349334911658
         'y': 197.95250623040772
         isRoom: true
@@ -2559,7 +2358,6 @@ decks:
         contents: {}
       - id: 210
         name: Officers Quarters
-        deckIndex: null
         x: 132.28614556462875
         'y': 234.15599656785145
         isRoom: true
@@ -2572,7 +2370,6 @@ decks:
         contents: {}
       - id: 211
         name: Sickbay
-        deckIndex: null
         x: 230.17730755993497
         'y': 123.92165650628596
         isRoom: true
@@ -2586,7 +2383,6 @@ decks:
         contents: {}
       - id: 212
         name: Morgue
-        deckIndex: null
         x: 236.5749481315052
         'y': 160.5303802663891
         isRoom: true
@@ -2598,7 +2394,6 @@ decks:
         contents: {}
       - id: 213
         name: Cultural Studies Center
-        deckIndex: null
         x: 305.17187203778593
         'y': 133.51812007531484
         isRoom: true
@@ -2615,7 +2410,6 @@ decks:
     nodes:
       - id: 214
         name: ''
-        deckIndex: null
         x: 272
         'y': 133.01522827148438
         isRoom: false
@@ -2627,7 +2421,6 @@ decks:
         contents: {}
       - id: 215
         name: ''
-        deckIndex: null
         x: 270.5
         'y': 116.5
         isRoom: false
@@ -2639,7 +2432,6 @@ decks:
         contents: {}
       - id: 216
         name: ''
-        deckIndex: null
         x: 265.3612951266242
         'y': 97.51074492886927
         isRoom: false
@@ -2651,7 +2443,6 @@ decks:
         contents: {}
       - id: 217
         name: ''
-        deckIndex: null
         x: 210
         'y': 94
         isRoom: false
@@ -2663,7 +2454,6 @@ decks:
         contents: {}
       - id: 218
         name: ''
-        deckIndex: null
         x: 205
         'y': 117
         isRoom: false
@@ -2675,7 +2465,6 @@ decks:
         contents: {}
       - id: 219
         name: ''
-        deckIndex: null
         x: 203
         'y': 155.48148376072507
         isRoom: false
@@ -2687,7 +2476,6 @@ decks:
         contents: {}
       - id: 220
         name: ''
-        deckIndex: null
         x: 209.5
         'y': 174.5
         isRoom: false
@@ -2699,7 +2487,6 @@ decks:
         contents: {}
       - id: 221
         name: ''
-        deckIndex: null
         x: 225
         'y': 175.04108721259772
         isRoom: false
@@ -2711,7 +2498,6 @@ decks:
         contents: {}
       - id: 222
         name: ''
-        deckIndex: null
         x: 246.92854460191944
         'y': 174.01932515791106
         isRoom: false
@@ -2723,7 +2509,6 @@ decks:
         contents: {}
       - id: 223
         name: ''
-        deckIndex: null
         x: 265.60072326660156
         'y': 172.2410774230957
         isRoom: false
@@ -2735,7 +2520,6 @@ decks:
         contents: {}
       - id: 224
         name: ''
-        deckIndex: null
         x: 270.5
         'y': 151
         isRoom: false
@@ -2747,7 +2531,6 @@ decks:
         contents: {}
       - id: 225
         name: ''
-        deckIndex: null
         x: 283
         'y': 146
         isRoom: false
@@ -2759,7 +2542,6 @@ decks:
         contents: {}
       - id: 226
         name: ''
-        deckIndex: null
         x: 288.5131697813456
         'y': 133.5
         isRoom: false
@@ -2771,7 +2553,6 @@ decks:
         contents: {}
       - id: 227
         name: ''
-        deckIndex: null
         x: 283
         'y': 121
         isRoom: false
@@ -2783,7 +2564,6 @@ decks:
         contents: {}
       - id: 228
         name: ''
-        deckIndex: null
         x: 260.5
         'y': 146.5131756502321
         isRoom: false
@@ -2795,7 +2575,6 @@ decks:
         contents: {}
       - id: 229
         name: ''
-        deckIndex: null
         x: 256.16246795654297
         'y': 134.21057891845703
         isRoom: false
@@ -2807,7 +2586,6 @@ decks:
         contents: {}
       - id: 230
         name: ''
-        deckIndex: null
         x: 259.5
         'y': 122
         isRoom: false
@@ -2819,7 +2597,6 @@ decks:
         contents: {}
       - id: 231
         name: Mr. Williamson's Quarters
-        deckIndex: null
         x: 234
         'y': 134
         isRoom: true
@@ -2831,7 +2608,6 @@ decks:
         contents: {}
       - id: 232
         name: ''
-        deckIndex: null
         x: 226
         'y': 94.0249475428528
         isRoom: false
@@ -2843,7 +2619,6 @@ decks:
         contents: {}
       - id: 233
         name: ''
-        deckIndex: null
         x: 245.81452239906082
         'y': 95.67450988406007
         isRoom: false
@@ -2855,7 +2630,6 @@ decks:
         contents: {}
       - id: 234
         name: ''
-        deckIndex: null
         x: 157
         'y': 92
         isRoom: false
@@ -2867,7 +2641,6 @@ decks:
         contents: {}
       - id: 235
         name: ''
-        deckIndex: null
         x: 135
         'y': 92.17844300872977
         isRoom: false
@@ -2879,7 +2652,6 @@ decks:
         contents: {}
       - id: 236
         name: ''
-        deckIndex: null
         x: 113.97235981696728
         'y': 92.03013575633011
         isRoom: false
@@ -2891,7 +2663,6 @@ decks:
         contents: {}
       - id: 237
         name: ''
-        deckIndex: null
         x: 155.3988506622773
         'y': 176.97504595408057
         isRoom: false
@@ -2903,7 +2674,6 @@ decks:
         contents: {}
       - id: 238
         name: ''
-        deckIndex: null
         x: 135.09227019444847
         'y': 177.39219192475184
         isRoom: false
@@ -2915,7 +2685,6 @@ decks:
         contents: {}
       - id: 239
         name: ''
-        deckIndex: null
         x: 112.5
         'y': 177.45386490277576
         isRoom: false
@@ -2927,7 +2696,6 @@ decks:
         contents: {}
       - id: 240
         name: ''
-        deckIndex: null
         x: 107.04083575404384
         'y': 177.14601471701428
         isRoom: false
@@ -2939,7 +2707,6 @@ decks:
         contents: {}
       - id: 241
         name: ''
-        deckIndex: null
         x: 106.90772980555153
         'y': 170.0239179195866
         isRoom: false
@@ -2951,7 +2718,6 @@ decks:
         contents: {}
       - id: 242
         name: ''
-        deckIndex: null
         x: 106.5
         'y': 131.48493212183493
         isRoom: false
@@ -2963,7 +2729,6 @@ decks:
         contents: {}
       - id: 243
         name: ''
-        deckIndex: null
         x: 90.84892025295106
         'y': 99.03621238845474
         isRoom: false
@@ -2975,7 +2740,6 @@ decks:
         contents: {}
       - id: 244
         name: ''
-        deckIndex: null
         x: 70.20882295934291
         'y': 99.4863585353909
         isRoom: false
@@ -2987,7 +2751,6 @@ decks:
         contents: {}
       - id: 245
         name: ''
-        deckIndex: null
         x: 46
         'y': 98.95385462311951
         isRoom: false
@@ -2999,7 +2762,6 @@ decks:
         contents: {}
       - id: 246
         name: ''
-        deckIndex: null
         x: 47.5
         'y': 169.5
         isRoom: false
@@ -3011,7 +2773,6 @@ decks:
         contents: {}
       - id: 247
         name: ''
-        deckIndex: null
         x: 69.5
         'y': 169.53577568345082
         isRoom: false
@@ -3023,7 +2784,6 @@ decks:
         contents: {}
       - id: 248
         name: ''
-        deckIndex: null
         x: 91.15374501850998
         'y': 169.66466697288305
         isRoom: false
@@ -3035,7 +2795,6 @@ decks:
         contents: {}
       - id: 249
         name: Crew Quarters
-        deckIndex: null
         x: 246.13244706727158
         'y': 107.92295693357194
         isRoom: true
@@ -3048,7 +2807,6 @@ decks:
         contents: {}
       - id: 250
         name: Crew Quarters
-        deckIndex: null
         x: 225.04222214250407
         'y': 106.78701175114414
         isRoom: true
@@ -3061,7 +2819,6 @@ decks:
         contents: {}
       - id: 251
         name: Crew Quarters
-        deckIndex: null
         x: 225.60591824066515
         'y': 163.1224796321003
         isRoom: true
@@ -3074,7 +2831,6 @@ decks:
         contents: {}
       - id: 252
         name: Crew Quarters
-        deckIndex: null
         x: 247.35335714345192
         'y': 163.32013148453157
         isRoom: true
@@ -3087,7 +2843,6 @@ decks:
         contents: {}
       - id: 253
         name: Kitchen
-        deckIndex: null
         x: 175.17049049281025
         'y': 117.40486429591766
         isRoom: true
@@ -3099,7 +2854,6 @@ decks:
         contents: {}
       - id: 254
         name: Food Storage
-        deckIndex: null
         x: 188.68412100434017
         'y': 157.62400272309011
         isRoom: true
@@ -3112,7 +2866,6 @@ decks:
         contents: {}
       - id: 255
         name: Messhall
-        deckIndex: null
         x: 132.6990803137161
         'y': 132.20550723711713
         isRoom: true
@@ -3125,7 +2878,6 @@ decks:
         contents: {}
       - id: 256
         name: Crew Quarters
-        deckIndex: null
         x: 156.35547479734862
         'y': 81.39613746546306
         isRoom: true
@@ -3138,7 +2890,6 @@ decks:
         contents: {}
       - id: 257
         name: Crew Quarters
-        deckIndex: null
         x: 135.59485828047255
         'y': 81.36851626517115
         isRoom: true
@@ -3151,7 +2902,6 @@ decks:
         contents: {}
       - id: 258
         name: Crew Quarters
-        deckIndex: null
         x: 114.0374000835081
         'y': 79.11624451324948
         isRoom: true
@@ -3164,7 +2914,6 @@ decks:
         contents: {}
       - id: 259
         name: Crew Quarters
-        deckIndex: null
         x: 155.86530404776747
         'y': 189.15581215955612
         isRoom: true
@@ -3177,7 +2926,6 @@ decks:
         contents: {}
       - id: 260
         name: Crew Quarters
-        deckIndex: null
         x: 134.9513520656378
         'y': 189.15581215955612
         isRoom: true
@@ -3190,7 +2938,6 @@ decks:
         contents: {}
       - id: 261
         name: Crew Quarters
-        deckIndex: null
         x: 113.07214076125597
         'y': 188.51230594472136
         isRoom: true
@@ -3203,7 +2950,6 @@ decks:
         contents: {}
       - id: 262
         name: Crew Quarters
-        deckIndex: null
         x: 91.51468256429153
         'y': 86.51656598384922
         isRoom: true
@@ -3216,7 +2962,6 @@ decks:
         contents: {}
       - id: 263
         name: Crew Quarters
-        deckIndex: null
         x: 70.74948932708686
         'y': 85.96789171092774
         isRoom: true
@@ -3229,7 +2974,6 @@ decks:
         contents: {}
       - id: 264
         name: Crew Quarters
-        deckIndex: null
         x: 91.95185132054762
         'y': 181.37852068150113
         isRoom: true
@@ -3242,7 +2986,6 @@ decks:
         contents: {}
       - id: 265
         name: Crew Quarters
-        deckIndex: null
         x: 70.45501207717768
         'y': 181.67299793141032
         isRoom: true
@@ -3255,7 +2998,6 @@ decks:
         contents: {}
       - id: 266
         name: Laundry
-        deckIndex: null
         x: 91.48878296931105
         'y': 133.88586823362442
         isRoom: true
@@ -3267,7 +3009,6 @@ decks:
         contents: {}
       - id: 267
         name: Torpedo Casing Storage
-        deckIndex: null
         x: 68.5198707282131
         'y': 133.5890724067354
         isRoom: true
@@ -3281,7 +3022,6 @@ decks:
         contents: {}
       - id: 268
         name: Aft Torpedo Launcher
-        deckIndex: null
         x: 32.36102362771123
         'y': 101.89142633509947
         isRoom: true
@@ -3296,7 +3036,6 @@ decks:
         contents: {}
       - id: 269
         name: Aft Torpedo Launcher
-        deckIndex: null
         x: 30.85606934428703
         'y': 169.25867247479476
         isRoom: true
@@ -3311,7 +3050,6 @@ decks:
         contents: {}
       - id: 270
         name: Torpedo/Probe Maintenance
-        deckIndex: null
         x: 47.36223698612493
         'y': 134.44245765832503
         isRoom: true
@@ -3323,7 +3061,6 @@ decks:
         contents: {}
       - id: 271
         name: Gymnasium
-        deckIndex: null
         x: 311.5922405596428
         'y': 133.54369197534854
         isRoom: true
@@ -3335,7 +3072,6 @@ decks:
         contents: {}
       - id: 272
         name: ''
-        deckIndex: null
         x: 106.14566605542689
         'y': 100.16732007978534
         isRoom: false
@@ -3347,7 +3083,6 @@ decks:
         contents: {}
       - id: 273
         name: ''
-        deckIndex: null
         x: 105.9256864467334
         'y': 92.02807455812585
         isRoom: false
@@ -3364,7 +3099,6 @@ decks:
     nodes:
       - id: 274
         name: ''
-        deckIndex: null
         x: 46.44657644396052
         'y': 170.17264738023835
         isRoom: false
@@ -3376,7 +3110,6 @@ decks:
         contents: {}
       - id: 275
         name: ''
-        deckIndex: null
         x: 70.20361717594676
         'y': 169.8283424420936
         isRoom: false
@@ -3388,7 +3121,6 @@ decks:
         contents: {}
       - id: 276
         name: ''
-        deckIndex: null
         x: 92.9277430934988
         'y': 169.91404162191142
         isRoom: false
@@ -3400,7 +3132,6 @@ decks:
         contents: {}
       - id: 277
         name: ''
-        deckIndex: null
         x: 107.01352357592576
         'y': 170.17264738023835
         isRoom: false
@@ -3412,7 +3143,6 @@ decks:
         contents: {}
       - id: 278
         name: ''
-        deckIndex: null
         x: 107.01352357592576
         'y': 176.71444120498816
         isRoom: false
@@ -3424,7 +3154,6 @@ decks:
         contents: {}
       - id: 279
         name: ''
-        deckIndex: null
         x: 113.0509299851764
         'y': 177.28780158088395
         isRoom: false
@@ -3436,7 +3165,6 @@ decks:
         contents: {}
       - id: 280
         name: ''
-        deckIndex: null
         x: 135.20390619997534
         'y': 176.71444120498816
         isRoom: false
@@ -3448,7 +3176,6 @@ decks:
         contents: {}
       - id: 281
         name: ''
-        deckIndex: null
         x: 155.12167359997343
         'y': 176.91140418362164
         isRoom: false
@@ -3460,7 +3187,6 @@ decks:
         contents: {}
       - id: 282
         name: ''
-        deckIndex: null
         x: 210.6800319389958
         'y': 175.33722145240927
         isRoom: false
@@ -3472,7 +3198,6 @@ decks:
         contents: {}
       - id: 283
         name: ''
-        deckIndex: null
         x: 203.44962823795652
         'y': 133.67632393689715
         isRoom: false
@@ -3484,7 +3209,6 @@ decks:
         contents: {}
       - id: 284
         name: ''
-        deckIndex: null
         x: 256.45833244575823
         'y': 134.0491307769436
         isRoom: false
@@ -3496,7 +3220,6 @@ decks:
         contents: {}
       - id: 285
         name: ''
-        deckIndex: null
         x: 208.95850724827216
         'y': 94.42556098839816
         isRoom: false
@@ -3508,7 +3231,6 @@ decks:
         contents: {}
       - id: 286
         name: ''
-        deckIndex: null
         x: 154.94736365838708
         'y': 92.19289333826273
         isRoom: false
@@ -3520,7 +3242,6 @@ decks:
         contents: {}
       - id: 287
         name: ''
-        deckIndex: null
         x: 134.5886406090109
         'y': 92.01542642138506
         isRoom: false
@@ -3532,7 +3253,6 @@ decks:
         contents: {}
       - id: 288
         name: ''
-        deckIndex: null
         x: 113.58603938218249
         'y': 91.9409796681912
         isRoom: false
@@ -3544,7 +3264,6 @@ decks:
         contents: {}
       - id: 289
         name: ''
-        deckIndex: null
         x: 105.92401355600958
         'y': 91.52754664948024
         isRoom: false
@@ -3556,7 +3275,6 @@ decks:
         contents: {}
       - id: 290
         name: ''
-        deckIndex: null
         x: 105.97464492180457
         'y': 99.51679077524406
         isRoom: false
@@ -3568,7 +3286,6 @@ decks:
         contents: {}
       - id: 291
         name: ''
-        deckIndex: null
         x: 106.69994061928793
         'y': 135.4285569305963
         isRoom: false
@@ -3580,7 +3297,6 @@ decks:
         contents: {}
       - id: 292
         name: ''
-        deckIndex: null
         x: 91.75006932906423
         'y': 98.59652058048106
         isRoom: false
@@ -3592,7 +3308,6 @@ decks:
         contents: {}
       - id: 293
         name: ''
-        deckIndex: null
         x: 70.29144154528171
         'y': 99.90410231320482
         isRoom: false
@@ -3604,7 +3319,6 @@ decks:
         contents: {}
       - id: 294
         name: ''
-        deckIndex: null
         x: 265.08021216586286
         'y': 172.2384770091067
         isRoom: false
@@ -3616,7 +3330,6 @@ decks:
         contents: {}
       - id: 295
         name: ''
-        deckIndex: null
         x: 269.900481299889
         'y': 152.95740047300194
         isRoom: false
@@ -3628,7 +3341,6 @@ decks:
         contents: {}
       - id: 296
         name: ''
-        deckIndex: null
         x: 260.25994303183666
         'y': 145.72699677196263
         isRoom: false
@@ -3640,7 +3352,6 @@ decks:
         contents: {}
       - id: 297
         name: ''
-        deckIndex: null
         x: 283.67267882567813
         'y': 147.79282640083102
         isRoom: false
@@ -3652,7 +3363,6 @@ decks:
         contents: {}
       - id: 298
         name: ''
-        deckIndex: null
         x: 289.52586277413855
         'y': 134.0206288750419
         isRoom: false
@@ -3664,7 +3374,6 @@ decks:
         contents: {}
       - id: 299
         name: ''
-        deckIndex: null
         x: 271.52022755211004
         'y': 134.07237561413424
         isRoom: false
@@ -3676,7 +3385,6 @@ decks:
         contents: {}
       - id: 300
         name: ''
-        deckIndex: null
         x: 260.9485529081261
         'y': 120.93704122554222
         isRoom: false
@@ -3688,7 +3396,6 @@ decks:
         contents: {}
       - id: 301
         name: ''
-        deckIndex: null
         x: 284.0169837638229
         'y': 121.96995603997641
         isRoom: false
@@ -3700,7 +3407,6 @@ decks:
         contents: {}
       - id: 302
         name: ''
-        deckIndex: null
         x: 271.004148550963
         'y': 116.73381100256633
         isRoom: false
@@ -3712,7 +3418,6 @@ decks:
         contents: {}
       - id: 303
         name: ''
-        deckIndex: null
         x: 265.08021216586286
         'y': 96.83569555541125
         isRoom: false
@@ -3724,7 +3429,6 @@ decks:
         contents: {}
       - id: 304
         name: Crew Quarters
-        deckIndex: null
         x: 155.59124183583933
         'y': 188.76511404005365
         isRoom: true
@@ -3737,7 +3441,6 @@ decks:
         contents: {}
       - id: 305
         name: Crew Quarters
-        deckIndex: null
         x: 135.27725048530036
         'y': 188.07650416376418
         isRoom: true
@@ -3750,7 +3453,6 @@ decks:
         contents: {}
       - id: 306
         name: Crew Quarters
-        deckIndex: null
         x: 113.93034432032722
         'y': 189.45143331342211
         isRoom: true
@@ -3763,7 +3465,6 @@ decks:
         contents: {}
       - id: 307
         name: Crew Quarters
-        deckIndex: null
         x: 92.9277430934988
         'y': 182.22332021530383
         isRoom: true
@@ -3776,7 +3477,6 @@ decks:
         contents: {}
       - id: 308
         name: Crew Quarters
-        deckIndex: null
         x: 71.9251418666704
         'y': 181.87901527715908
         isRoom: true
@@ -3789,7 +3489,6 @@ decks:
         contents: {}
       - id: 309
         name: Crew Quarters
-        deckIndex: null
         x: 70.22080626224418
         'y': 87.28447265731614
         isRoom: true
@@ -3802,7 +3501,6 @@ decks:
         contents: {}
       - id: 310
         name: Crew Quarters
-        deckIndex: null
         x: 91.77494519390936
         'y': 86.82961698351814
         isRoom: true
@@ -3815,7 +3513,6 @@ decks:
         contents: {}
       - id: 311
         name: Crew Quarters
-        deckIndex: null
         x: 113.93034432032722
         'y': 79.1433486888753
         isRoom: true
@@ -3828,7 +3525,6 @@ decks:
         contents: {}
       - id: 312
         name: Crew Quarters
-        deckIndex: null
         x: 134.65078678659364
         'y': 80.054170673422
         isRoom: true
@@ -3840,7 +3536,6 @@ decks:
         contents: {}
       - id: 313
         name: Crew Quarters
-        deckIndex: null
         x: 155.0672747251888
         'y': 79.93350080242021
         isRoom: true
@@ -3853,7 +3548,6 @@ decks:
         contents: {}
       - id: 314
         name: Crew Quarters
-        deckIndex: null
         x: 81.56568013472278
         'y': 134.0206288750419
         isRoom: true
@@ -3866,7 +3560,6 @@ decks:
         contents: {}
       - id: 315
         name: Geology Lab
-        deckIndex: null
         x: 134
         'y': 137.5
         isRoom: true
@@ -3879,7 +3572,6 @@ decks:
         contents: {}
       - id: 316
         name: Theater
-        deckIndex: null
         x: 178.09332275390625
         'y': 135.2264404296875
         isRoom: true
@@ -3892,7 +3584,6 @@ decks:
         contents: {}
       - id: 317
         name: Maintenance Airlock
-        deckIndex: null
         x: 43.61162102350218
         'y': 133.96669781257077
         isRoom: true
@@ -3904,7 +3595,6 @@ decks:
         contents: {}
       - id: 318
         name: ''
-        deckIndex: null
         x: 47.5
         'y': 99
         isRoom: false
@@ -3916,7 +3606,6 @@ decks:
         contents: {}
       - id: 319
         name: Flight Simulation Center
-        deckIndex: null
         x: 231.271240234375
         'y': 117.73660278320312
         isRoom: true
@@ -3929,7 +3618,6 @@ decks:
         contents: {}
       - id: 320
         name: Security Training Center
-        deckIndex: null
         x: 235
         'y': 156
         isRoom: true
@@ -3942,7 +3630,6 @@ decks:
         contents: {}
       - id: 321
         name: Bow Phaser Banks
-        deckIndex: null
         x: 299.52087410831183
         'y': 174
         isRoom: true
@@ -3955,7 +3642,6 @@ decks:
         contents: {}
       - id: 322
         name: Bow Phaser Banks
-        deckIndex: null
         x: 301
         'y': 93.5
         isRoom: true
@@ -3968,7 +3654,6 @@ decks:
         contents: {}
       - id: 323
         name: Bow Torpedo Launcher
-        deckIndex: null
         x: 314.537109375
         'y': 168.234375
         isRoom: true
@@ -3983,7 +3668,6 @@ decks:
         contents: {}
       - id: 324
         name: Fore Torpedo Launcher
-        deckIndex: null
         x: 312.99609375
         'y': 101.22265625
         isRoom: true
@@ -3998,7 +3682,6 @@ decks:
         contents: {}
       - id: 325
         name: Swimming Pool
-        deckIndex: null
         x: 304.5
         'y': 134.5
         isRoom: true
@@ -4011,7 +3694,6 @@ decks:
         contents: {}
       - id: 326
         name: Navigational Deflector Array
-        deckIndex: null
         x: 324.53186026668817
         'y': 134.802734375
         isRoom: true
@@ -4024,7 +3706,6 @@ decks:
         contents: {}
       - id: 327
         name: ''
-        deckIndex: null
         x: 231.20993968007133
         'y': 134.72811939669586
         isRoom: false
@@ -4041,7 +3722,6 @@ decks:
     nodes:
       - id: 328
         name: ''
-        deckIndex: null
         x: 54.151454263977854
         'y': 171.7768282122085
         isRoom: false
@@ -4053,7 +3733,6 @@ decks:
         contents: {}
       - id: 329
         name: ''
-        deckIndex: null
         x: 53.78635893586309
         'y': 134.1720094163886
         isRoom: false
@@ -4065,7 +3744,6 @@ decks:
         contents: {}
       - id: 330
         name: ''
-        deckIndex: null
         x: 53.96890659992047
         'y': 97.11483361274084
         isRoom: false
@@ -4077,7 +3755,6 @@ decks:
         contents: {}
       - id: 331
         name: ''
-        deckIndex: null
         x: 107.82046749684703
         'y': 135.44984306479026
         isRoom: false
@@ -4089,7 +3766,6 @@ decks:
         contents: {}
       - id: 332
         name: ''
-        deckIndex: null
         x: 106.54263384844538
         'y': 93.09878500347851
         isRoom: false
@@ -4101,7 +3777,6 @@ decks:
         contents: {}
       - id: 333
         name: ''
-        deckIndex: null
         x: 126.4403292306996
         'y': 91.45585602696211
         isRoom: false
@@ -4113,7 +3788,6 @@ decks:
         contents: {}
       - id: 334
         name: ''
-        deckIndex: null
         x: 126.25778156664222
         'y': 59.69256248097832
         isRoom: false
@@ -4125,7 +3799,6 @@ decks:
         contents: {}
       - id: 335
         name: ''
-        deckIndex: null
         x: 106.36008618438801
         'y': 177.6183534620446
         isRoom: false
@@ -4137,7 +3810,6 @@ decks:
         contents: {}
       - id: 336
         name: ''
-        deckIndex: null
         x: 126.85900861596825
         'y': 177.64515548764714
         isRoom: false
@@ -4149,7 +3821,6 @@ decks:
         contents: {}
       - id: 337
         name: ''
-        deckIndex: null
         x: 126.18174419001676
         'y': 210.00686545027773
         isRoom: false
@@ -4161,7 +3832,6 @@ decks:
         contents: {}
       - id: 338
         name: ''
-        deckIndex: null
         x: 211.14244535332307
         'y': 175.0626861652413
         isRoom: false
@@ -4173,7 +3843,6 @@ decks:
         contents: {}
       - id: 339
         name: ''
-        deckIndex: null
         x: 224.46842482951166
         'y': 135.26729540073288
         isRoom: false
@@ -4185,7 +3854,6 @@ decks:
         contents: {}
       - id: 340
         name: ''
-        deckIndex: null
         x: 191.6192696851305
         'y': 135.23903463996865
         isRoom: false
@@ -4197,7 +3865,6 @@ decks:
         contents: {}
       - id: 341
         name: ''
-        deckIndex: null
         x: 209.86461170492143
         'y': 93.09878500347851
         isRoom: false
@@ -4209,7 +3876,6 @@ decks:
         contents: {}
       - id: 342
         name: ''
-        deckIndex: null
         x: 265.90674457053655
         'y': 97.11483361274084
         isRoom: false
@@ -4221,7 +3887,6 @@ decks:
         contents: {}
       - id: 343
         name: ''
-        deckIndex: null
         x: 266.08929223459387
         'y': 172.50701886843802
         isRoom: false
@@ -4233,7 +3898,6 @@ decks:
         contents: {}
       - id: 344
         name: ''
-        deckIndex: null
         x: 271.0180791641431
         'y': 150.9663945096674
         isRoom: false
@@ -4245,7 +3909,6 @@ decks:
         contents: {}
       - id: 345
         name: ''
-        deckIndex: null
         x: 261.69248709154925
         'y': 147.13289356446245
         isRoom: false
@@ -4257,7 +3920,6 @@ decks:
         contents: {}
       - id: 346
         name: ''
-        deckIndex: null
         x: 279.7803670388973
         'y': 148.21251834313915
         isRoom: false
@@ -4269,7 +3931,6 @@ decks:
         contents: {}
       - id: 347
         name: ''
-        deckIndex: null
         x: 254.95388472709382
         'y': 136.91022437724928
         isRoom: false
@@ -4281,7 +3942,6 @@ decks:
         contents: {}
       - id: 348
         name: ''
-        deckIndex: null
         x: 289.13381986595857
         'y': 136.29729844487457
         isRoom: false
@@ -4293,7 +3953,6 @@ decks:
         contents: {}
       - id: 349
         name: ''
-        deckIndex: null
         x: 259.3350286644709
         'y': 123.03660190888854
         isRoom: false
@@ -4305,7 +3964,6 @@ decks:
         contents: {}
       - id: 350
         name: ''
-        deckIndex: null
         x: 283.97896331221693
         'y': 120.8460299402
         isRoom: false
@@ -4317,7 +3975,6 @@ decks:
         contents: {}
       - id: 351
         name: ''
-        deckIndex: null
         x: 270.8355315000857
         'y': 116.28233833876554
         isRoom: false
@@ -4329,7 +3986,6 @@ decks:
         contents: {}
       - id: 352
         name: ''
-        deckIndex: null
         x: 272.4449681500545
         'y': 135.04944486353307
         isRoom: false
@@ -4341,7 +3997,6 @@ decks:
         contents: {}
       - id: 353
         name: Impulse Engines
-        deckIndex: null
         x: 42.28585610024827
         'y': 97.42433440179822
         isRoom: true
@@ -4353,7 +4008,6 @@ decks:
         contents: {}
       - id: 354
         name: Impulse Engines
-        deckIndex: null
         x: 43.18582958459254
         'y': 171.26992275126588
         isRoom: true
@@ -4365,7 +4019,6 @@ decks:
         contents: {}
       - id: 355
         name: Warp Engine Control
-        deckIndex: null
         x: 79.38613970078129
         'y': 112.86917640921634
         isRoom: true
@@ -4379,7 +4032,6 @@ decks:
         contents: {}
       - id: 356
         name: Impulse Engine Control
-        deckIndex: null
         x: 78.43105336287783
         'y': 155.43127031715792
         isRoom: true
@@ -4393,7 +4045,6 @@ decks:
         contents: {}
       - id: 357
         name: Warp Engines
-        deckIndex: null
         x: 114.92434044197002
         'y': 203.36332079816194
         isRoom: true
@@ -4405,7 +4056,6 @@ decks:
         contents: {}
       - id: 358
         name: Thrusters
-        deckIndex: null
         x: 133.0344784621856
         'y': 201.1670021254464
         isRoom: true
@@ -4418,7 +4068,6 @@ decks:
         contents: {}
       - id: 359
         name: Warp Engines
-        deckIndex: null
         x: 114.48586196893866
         'y': 63.26313983905848
         isRoom: true
@@ -4430,7 +4079,6 @@ decks:
         contents: {}
       - id: 360
         name: Thrusters
-        deckIndex: null
         x: 134.08793910403966
         'y': 59.26271593393583
         isRoom: false
@@ -4442,7 +4090,6 @@ decks:
         contents: {}
       - id: 361
         name: Upper Computer Core
-        deckIndex: null
         x: 144.78376121490226
         'y': 136.33794137107088
         isRoom: true
@@ -4454,7 +4101,6 @@ decks:
         contents: {}
       - id: 362
         name: Computer Maintenance
-        deckIndex: null
         x: 159.6906520968246
         'y': 136.47089425072176
         isRoom: true
@@ -4468,7 +4114,6 @@ decks:
         contents: {}
       - id: 363
         name: Medical Center
-        deckIndex: null
         x: 191.69404333780582
         'y': 114.06852038203492
         isRoom: true
@@ -4482,7 +4127,6 @@ decks:
         contents: {}
       - id: 364
         name: Operating Room
-        deckIndex: null
         x: 190.09387377575678
         'y': 154.8728472663672
         isRoom: true
@@ -4496,7 +4140,6 @@ decks:
         contents: {}
       - id: 365
         name: Stealth Field Control Room
-        deckIndex: null
         x: 241.2992997613267
         'y': 136.07085491229074
         isRoom: true
@@ -4509,7 +4152,6 @@ decks:
         contents: {}
       - id: 366
         name: Navigational Sensors Complex
-        deckIndex: null
         x: 308.17543482085046
         'y': 136.78123222524167
         isRoom: true
@@ -4527,7 +4169,6 @@ decks:
     nodes:
       - id: 367
         name: Lower Computer Core
-        deckIndex: null
         x: 137.31903076171875
         'y': 134.5
         isRoom: true
@@ -4541,7 +4182,6 @@ decks:
         contents: {}
       - id: 368
         name: ''
-        deckIndex: null
         x: 58
         'y': 169.5
         isRoom: false
@@ -4553,7 +4193,6 @@ decks:
         contents: {}
       - id: 369
         name: ''
-        deckIndex: null
         x: 88.5
         'y': 169.5
         isRoom: false
@@ -4565,7 +4204,6 @@ decks:
         contents: {}
       - id: 370
         name: ''
-        deckIndex: null
         x: 105.5
         'y': 169.5
         isRoom: false
@@ -4577,7 +4215,6 @@ decks:
         contents: {}
       - id: 371
         name: ''
-        deckIndex: null
         x: 106
         'y': 98.5
         isRoom: false
@@ -4589,7 +4226,6 @@ decks:
         contents: {}
       - id: 372
         name: ''
-        deckIndex: null
         x: 87.5
         'y': 99
         isRoom: false
@@ -4601,7 +4237,6 @@ decks:
         contents: {}
       - id: 373
         name: ''
-        deckIndex: null
         x: 57.5
         'y': 99
         isRoom: false
@@ -4613,7 +4248,6 @@ decks:
         contents: {}
       - id: 374
         name: ''
-        deckIndex: null
         x: 107.5
         'y': 91.5
         isRoom: false
@@ -4625,7 +4259,6 @@ decks:
         contents: {}
       - id: 375
         name: ''
-        deckIndex: null
         x: 176.5
         'y': 93
         isRoom: false
@@ -4637,7 +4270,6 @@ decks:
         contents: {}
       - id: 376
         name: ''
-        deckIndex: null
         x: 265.5
         'y': 97.0763098491476
         isRoom: false
@@ -4649,7 +4281,6 @@ decks:
         contents: {}
       - id: 377
         name: ''
-        deckIndex: null
         x: 173
         'y': 110.5
         isRoom: false
@@ -4661,7 +4292,6 @@ decks:
         contents: {}
       - id: 378
         name: ''
-        deckIndex: null
         x: 171.8238002232143
         'y': 133.8317273198342
         isRoom: false
@@ -4673,7 +4303,6 @@ decks:
         contents: {}
       - id: 379
         name: ''
-        deckIndex: null
         x: 227.39313616071428
         'y': 133.96969666772958
         isRoom: false
@@ -4685,7 +4314,6 @@ decks:
         contents: {}
       - id: 380
         name: ''
-        deckIndex: null
         x: 178.8549815854547
         'y': 175.9670261493094
         isRoom: false
@@ -4697,7 +4325,6 @@ decks:
         contents: {}
       - id: 381
         name: ''
-        deckIndex: null
         x: 107.43555254212438
         'y': 177.5
         isRoom: false
@@ -4709,7 +4336,6 @@ decks:
         contents: {}
       - id: 382
         name: ''
-        deckIndex: null
         x: 266
         'y': 172
         isRoom: false
@@ -4721,7 +4347,6 @@ decks:
         contents: {}
       - id: 383
         name: ''
-        deckIndex: null
         x: 272
         'y': 133.958984375
         isRoom: false
@@ -4733,7 +4358,6 @@ decks:
         contents: {}
       - id: 384
         name: ''
-        deckIndex: null
         x: 271.5
         'y': 117.98435845904416
         isRoom: false
@@ -4745,7 +4369,6 @@ decks:
         contents: {}
       - id: 385
         name: ''
-        deckIndex: null
         x: 271
         'y': 151.5
         isRoom: false
@@ -4757,7 +4380,6 @@ decks:
         contents: {}
       - id: 386
         name: ''
-        deckIndex: null
         x: 283.5
         'y': 148
         isRoom: false
@@ -4769,7 +4391,6 @@ decks:
         contents: {}
       - id: 387
         name: ''
-        deckIndex: null
         x: 258
         'y': 145
         isRoom: false
@@ -4781,7 +4402,6 @@ decks:
         contents: {}
       - id: 388
         name: ''
-        deckIndex: null
         x: 254.51502316000057
         'y': 133.5
         isRoom: false
@@ -4793,7 +4413,6 @@ decks:
         contents: {}
       - id: 389
         name: ''
-        deckIndex: null
         x: 290
         'y': 135
         isRoom: false
@@ -4805,7 +4424,6 @@ decks:
         contents: {}
       - id: 390
         name: ''
-        deckIndex: null
         x: 283.85222854809786
         'y': 122.23533629780769
         isRoom: false
@@ -4817,7 +4435,6 @@ decks:
         contents: {}
       - id: 391
         name: ''
-        deckIndex: null
         x: 261
         'y': 120
         isRoom: false
@@ -4829,7 +4446,6 @@ decks:
         contents: {}
       - id: 392
         name: Engineering Lounge
-        deckIndex: null
         x: 59
         'y': 134.6370086669922
         isRoom: true
@@ -4842,7 +4458,6 @@ decks:
         contents: {}
       - id: 393
         name: Life Support Control
-        deckIndex: null
         x: 85.5
         'y': 135
         isRoom: true
@@ -4856,7 +4471,6 @@ decks:
         contents: {}
       - id: 394
         name: Weapons Locker
-        deckIndex: null
         x: 88
         'y': 80.83505249023438
         isRoom: true
@@ -4870,7 +4484,6 @@ decks:
         contents: {}
       - id: 395
         name: Maintenance Locker
-        deckIndex: null
         x: 90.5
         'y': 187.5
         isRoom: true
@@ -4884,7 +4497,6 @@ decks:
         contents: {}
       - id: 396
         name: Greenhouse
-        deckIndex: null
         x: 199.5
         'y': 114
         isRoom: true
@@ -4896,7 +4508,6 @@ decks:
         contents: {}
       - id: 397
         name: Botany Lab
-        deckIndex: null
         x: 198.83416748046875
         'y': 155.21563720703125
         isRoom: true
@@ -4909,7 +4520,6 @@ decks:
         contents: {}
       - id: 398
         name: ''
-        deckIndex: null
         x: 173.5
         'y': 153
         isRoom: false
@@ -4921,7 +4531,6 @@ decks:
         contents: {}
       - id: 399
         name: Power Distribution Center
-        deckIndex: null
         x: 239.5
         'y': 150.5
         isRoom: true
@@ -4935,7 +4544,6 @@ decks:
         contents: {}
       - id: 400
         name: Shield Generator Room
-        deckIndex: null
         x: 288.5
         'y': 102.64346313476562
         isRoom: true
@@ -4949,7 +4557,6 @@ decks:
         contents: {}
       - id: 401
         name: Reception Room
-        deckIndex: null
         x: 300.5
         'y': 134
         isRoom: true
@@ -4961,7 +4568,6 @@ decks:
         contents: {}
       - id: 402
         name: Forward Airlock
-        deckIndex: null
         x: 317.302734375
         'y': 135
         isRoom: true
@@ -4973,7 +4579,6 @@ decks:
         contents: {}
       - id: 403
         name: Tractor Beam Control
-        deckIndex: null
         x: 41
         'y': 134.1015625
         isRoom: true
@@ -4991,7 +4596,6 @@ decks:
     nodes:
       - id: 404
         name: ''
-        deckIndex: null
         x: 108
         'y': 176
         isRoom: false
@@ -5003,7 +4607,6 @@ decks:
         contents: {}
       - id: 405
         name: ''
-        deckIndex: null
         x: 108
         'y': 92
         isRoom: false
@@ -5015,7 +4618,6 @@ decks:
         contents: {}
       - id: 406
         name: ''
-        deckIndex: null
         x: 138
         'y': 92
         isRoom: false
@@ -5027,7 +4629,6 @@ decks:
         contents: {}
       - id: 407
         name: ''
-        deckIndex: null
         x: 209.98359153334752
         'y': 92.51641577880339
         isRoom: false
@@ -5039,7 +4640,6 @@ decks:
         contents: {}
       - id: 408
         name: ''
-        deckIndex: null
         x: 265.85093269941376
         'y': 98.18884441486571
         isRoom: false
@@ -5051,7 +4651,6 @@ decks:
         contents: {}
       - id: 409
         name: ''
-        deckIndex: null
         x: 138.47652370352475
         'y': 177.2650220386077
         isRoom: false
@@ -5063,7 +4662,6 @@ decks:
         contents: {}
       - id: 410
         name: ''
-        deckIndex: null
         x: 210.67309000915697
         'y': 175.57256954366687
         isRoom: false
@@ -5075,7 +4673,6 @@ decks:
         contents: {}
       - id: 411
         name: ''
-        deckIndex: null
         x: 266.37956841318737
         'y': 171.70581438842936
         isRoom: false
@@ -5087,7 +4684,6 @@ decks:
         contents: {}
       - id: 412
         name: ''
-        deckIndex: null
         x: 205.5
         'y': 156.5
         isRoom: false
@@ -5099,7 +4695,6 @@ decks:
         contents: {}
       - id: 413
         name: ''
-        deckIndex: null
         x: 204
         'y': 134.5
         isRoom: false
@@ -5111,7 +4706,6 @@ decks:
         contents: {}
       - id: 414
         name: ''
-        deckIndex: null
         x: 205.5
         'y': 112.5
         isRoom: false
@@ -5123,7 +4717,6 @@ decks:
         contents: {}
       - id: 415
         name: ''
-        deckIndex: null
         x: 137.72013092041016
         'y': 135.2874870300293
         isRoom: false
@@ -5135,7 +4728,6 @@ decks:
         contents: {}
       - id: 417
         name: ''
-        deckIndex: null
         x: 108.5
         'y': 134
         isRoom: false
@@ -5147,7 +4739,6 @@ decks:
         contents: {}
       - id: 418
         name: ''
-        deckIndex: null
         x: 255
         'y': 134
         isRoom: false
@@ -5159,7 +4750,6 @@ decks:
         contents: {}
       - id: 419
         name: Deck 10 Turbolift
-        deckIndex: null
         x: 271.5
         'y': 134
         isRoom: false
@@ -5171,7 +4761,6 @@ decks:
         contents: {}
       - id: 420
         name: ''
-        deckIndex: null
         x: 288.5
         'y': 134.5
         isRoom: false
@@ -5183,7 +4772,6 @@ decks:
         contents: {}
       - id: 421
         name: ''
-        deckIndex: null
         x: 271.5
         'y': 116.5
         isRoom: false
@@ -5195,7 +4783,6 @@ decks:
         contents: {}
       - id: 422
         name: ''
-        deckIndex: null
         x: 283.5
         'y': 121
         isRoom: false
@@ -5207,7 +4794,6 @@ decks:
         contents: {}
       - id: 423
         name: ''
-        deckIndex: null
         x: 260.5
         'y': 121.5
         isRoom: false
@@ -5219,7 +4805,6 @@ decks:
         contents: {}
       - id: 424
         name: ''
-        deckIndex: null
         x: 282.5
         'y': 149
         isRoom: false
@@ -5231,7 +4816,6 @@ decks:
         contents: {}
       - id: 425
         name: ''
-        deckIndex: null
         x: 259
         'y': 145.5
         isRoom: false
@@ -5243,7 +4827,6 @@ decks:
         contents: {}
       - id: 426
         name: ''
-        deckIndex: null
         x: 271
         'y': 152
         isRoom: false
@@ -5255,7 +4838,6 @@ decks:
         contents: {}
       - id: 427
         name: Escape Pod Control Room
-        deckIndex: null
         x: 310.32013957004875
         'y': 134.59412857514332
         isRoom: true
@@ -5267,7 +4849,6 @@ decks:
         contents: {}
       - id: 428
         name: Wardroom
-        deckIndex: null
         x: 233.671875
         'y': 111.970703125
         isRoom: true
@@ -5280,7 +4861,6 @@ decks:
         contents: {}
       - id: 429
         name: Messhall B
-        deckIndex: null
         x: 234.861328125
         'y': 155.009765625
         isRoom: true
@@ -5293,7 +4873,6 @@ decks:
         contents: {}
       - id: 430
         name: Kitchen
-        deckIndex: null
         x: 181.306640625
         'y': 134.59375
         isRoom: true
@@ -5305,7 +4884,6 @@ decks:
         contents: {}
       - id: 431
         name: Crew Quarters
-        deckIndex: null
         x: 154
         'y': 105
         isRoom: true
@@ -5318,7 +4896,6 @@ decks:
         contents: {}
       - id: 432
         name: Crew Quarters
-        deckIndex: null
         x: 121
         'y': 105.5
         isRoom: true
@@ -5331,7 +4908,6 @@ decks:
         contents: {}
       - id: 433
         name: Crew Quarters
-        deckIndex: null
         x: 154.5
         'y': 120.5
         isRoom: true
@@ -5343,7 +4919,6 @@ decks:
         contents: {}
       - id: 434
         name: Crew Quarters
-        deckIndex: null
         x: 121
         'y': 120.78065872163975
         isRoom: true
@@ -5356,7 +4931,6 @@ decks:
         contents: {}
       - id: 435
         name: Crew Quarters
-        deckIndex: null
         x: 154.5
         'y': 148.5
         isRoom: true
@@ -5369,7 +4943,6 @@ decks:
         contents: {}
       - id: 436
         name: Crew Quarters
-        deckIndex: null
         x: 121.5
         'y': 147
         isRoom: true
@@ -5382,7 +4955,6 @@ decks:
         contents: {}
       - id: 437
         name: Crew Quarters
-        deckIndex: null
         x: 155
         'y': 165.5
         isRoom: true
@@ -5395,7 +4967,6 @@ decks:
         contents: {}
       - id: 438
         name: Crew Quarters
-        deckIndex: null
         x: 121.5
         'y': 165.5
         isRoom: true
@@ -5408,7 +4979,6 @@ decks:
         contents: {}
       - id: 439
         name: Fuel Tank
-        deckIndex: null
         x: 140
         'y': 192.5
         isRoom: true
@@ -5422,7 +4992,6 @@ decks:
         contents: {}
       - id: 440
         name: Coolant Tank
-        deckIndex: null
         x: 140.359375
         'y': 75.21875
         isRoom: true
@@ -5437,7 +5006,6 @@ decks:
         contents: {}
       - id: 441
         name: Exocomp Depot
-        deckIndex: null
         x: 113.1744860917898
         'y': 76.88745287222403
         isRoom: true
@@ -5451,7 +5019,6 @@ decks:
         contents: {}
       - id: 442
         name: Chief Engineer Office
-        deckIndex: null
         x: 111.640625
         'y': 192.3671875
         isRoom: true
@@ -5463,7 +5030,6 @@ decks:
         contents: {}
       - id: 443
         name: Upper Main Engineering
-        deckIndex: null
         x: 98.12113879059588
         'y': 133.99773388525642
         isRoom: true
@@ -5476,7 +5042,6 @@ decks:
         contents: {}
       - id: 445
         name: ''
-        deckIndex: null
         x: 137.57109734495774
         'y': 164.6832800059068
         isRoom: false
@@ -5488,7 +5053,6 @@ decks:
         contents: {}
       - id: 446
         name: ''
-        deckIndex: null
         x: 137.4131180705358
         'y': 149.08531058879748
         isRoom: false
@@ -5500,7 +5064,6 @@ decks:
         contents: {}
       - id: 447
         name: ''
-        deckIndex: null
         x: 137.39969108762685
         'y': 120.63187187187282
         isRoom: false
@@ -5512,7 +5075,6 @@ decks:
         contents: {}
       - id: 448
         name: ''
-        deckIndex: null
         x: 137.2197170202374
         'y': 103.49124613878566
         isRoom: false
@@ -5529,7 +5091,6 @@ decks:
     nodes:
       - id: 444
         name: Lower Main Engineering
-        deckIndex: null
         x: 70
         'y': 132.5
         isRoom: true
@@ -5543,7 +5104,6 @@ decks:
         contents: {}
       - id: 449
         name: ''
-        deckIndex: null
         x: 107
         'y': 176.5
         isRoom: false
@@ -5555,7 +5115,6 @@ decks:
         contents: {}
       - id: 450
         name: ''
-        deckIndex: null
         x: 107.5
         'y': 133.5
         isRoom: false
@@ -5567,7 +5126,6 @@ decks:
         contents: {}
       - id: 451
         name: ''
-        deckIndex: null
         x: 137.53888779753737
         'y': 133.5
         isRoom: false
@@ -5579,7 +5137,6 @@ decks:
         contents: {}
       - id: 452
         name: ''
-        deckIndex: null
         x: 137
         'y': 120.91441891625564
         isRoom: false
@@ -5591,7 +5148,6 @@ decks:
         contents: {}
       - id: 453
         name: ''
-        deckIndex: null
         x: 137.5
         'y': 102.92491919761008
         isRoom: false
@@ -5603,7 +5159,6 @@ decks:
         contents: {}
       - id: 454
         name: ''
-        deckIndex: null
         x: 137
         'y': 92
         isRoom: false
@@ -5615,7 +5170,6 @@ decks:
         contents: {}
       - id: 455
         name: ''
-        deckIndex: null
         x: 106.5
         'y': 92
         isRoom: false
@@ -5627,7 +5181,6 @@ decks:
         contents: {}
       - id: 456
         name: ''
-        deckIndex: null
         x: 137.17220587699822
         'y': 176.18851994276048
         isRoom: false
@@ -5639,7 +5192,6 @@ decks:
         contents: {}
       - id: 457
         name: ''
-        deckIndex: null
         x: 137.5221960548346
         'y': 164.9234734580311
         isRoom: false
@@ -5651,7 +5203,6 @@ decks:
         contents: {}
       - id: 458
         name: ''
-        deckIndex: null
         x: 137.38562289704026
         'y': 148.92568644509583
         isRoom: false
@@ -5663,7 +5214,6 @@ decks:
         contents: {}
       - id: 459
         name: ''
-        deckIndex: null
         x: 209.57770633808894
         'y': 175.06269650465342
         isRoom: false
@@ -5675,7 +5225,6 @@ decks:
         contents: {}
       - id: 460
         name: ''
-        deckIndex: null
         x: 205
         'y': 155
         isRoom: false
@@ -5687,7 +5236,6 @@ decks:
         contents: {}
       - id: 461
         name: ''
-        deckIndex: null
         x: 202.9089930841523
         'y': 134.33741679842876
         isRoom: false
@@ -5699,7 +5247,6 @@ decks:
         contents: {}
       - id: 462
         name: ''
-        deckIndex: null
         x: 206
         'y': 114.5
         isRoom: false
@@ -5711,7 +5258,6 @@ decks:
         contents: {}
       - id: 463
         name: ''
-        deckIndex: null
         x: 209.5
         'y': 94.34915990312693
         isRoom: false
@@ -5723,7 +5269,6 @@ decks:
         contents: {}
       - id: 464
         name: ''
-        deckIndex: null
         x: 266.1324531762585
         'y': 97.41885759311018
         isRoom: false
@@ -5735,7 +5280,6 @@ decks:
         contents: {}
       - id: 465
         name: ''
-        deckIndex: null
         x: 272.5
         'y': 134
         isRoom: false
@@ -5747,7 +5291,6 @@ decks:
         contents: {}
       - id: 466
         name: ''
-        deckIndex: null
         x: 255.5
         'y': 134.43900352798065
         isRoom: false
@@ -5759,7 +5302,6 @@ decks:
         contents: {}
       - id: 467
         name: ''
-        deckIndex: null
         x: 287
         'y': 134
         isRoom: false
@@ -5771,7 +5313,6 @@ decks:
         contents: {}
       - id: 468
         name: ''
-        deckIndex: null
         x: 283.5
         'y': 121.5
         isRoom: false
@@ -5783,7 +5324,6 @@ decks:
         contents: {}
       - id: 469
         name: ''
-        deckIndex: null
         x: 261
         'y': 121
         isRoom: false
@@ -5795,7 +5335,6 @@ decks:
         contents: {}
       - id: 470
         name: ''
-        deckIndex: null
         x: 271
         'y': 116.5
         isRoom: false
@@ -5807,7 +5346,6 @@ decks:
         contents: {}
       - id: 471
         name: ''
-        deckIndex: null
         x: 265.0379536373492
         'y': 171.57772365233538
         isRoom: false
@@ -5819,7 +5357,6 @@ decks:
         contents: {}
       - id: 472
         name: ''
-        deckIndex: null
         x: 271
         'y': 150.5
         isRoom: false
@@ -5831,7 +5368,6 @@ decks:
         contents: {}
       - id: 473
         name: ''
-        deckIndex: null
         x: 284
         'y': 146.5
         isRoom: false
@@ -5843,7 +5379,6 @@ decks:
         contents: {}
       - id: 474
         name: ''
-        deckIndex: null
         x: 258.53885316904444
         'y': 143.03887048329094
         isRoom: false
@@ -5855,7 +5390,6 @@ decks:
         contents: {}
       - id: 475
         name: Transporter Room
-        deckIndex: null
         x: 182.53975593722123
         'y': 134.4896263390125
         isRoom: true
@@ -5868,7 +5402,6 @@ decks:
         contents: {}
       - id: 476
         name: Crew Quarters
-        deckIndex: null
         x: 154.5
         'y': 103
         isRoom: true
@@ -5881,7 +5414,6 @@ decks:
         contents: {}
       - id: 477
         name: Crew Quarters
-        deckIndex: null
         x: 121.4488525390625
         'y': 104.5
         isRoom: true
@@ -5894,7 +5426,6 @@ decks:
         contents: {}
       - id: 478
         name: Crew Quarters
-        deckIndex: null
         x: 120.48733051289376
         'y': 121.78924064656604
         isRoom: true
@@ -5907,7 +5438,6 @@ decks:
         contents: {}
       - id: 479
         name: Crew Quarters
-        deckIndex: null
         x: 154.24484756874085
         'y': 120.08718096307794
         isRoom: true
@@ -5920,7 +5450,6 @@ decks:
         contents: {}
       - id: 480
         name: Crew Quarters
-        deckIndex: null
         x: 120.48733051289376
         'y': 148.45484235454612
         isRoom: true
@@ -5933,7 +5462,6 @@ decks:
         contents: {}
       - id: 481
         name: Crew Quarters
-        deckIndex: null
         x: 154.34977190225666
         'y': 147.94889410176853
         isRoom: true
@@ -5946,7 +5474,6 @@ decks:
         contents: {}
       - id: 482
         name: Crew Quarters
-        deckIndex: null
         x: 154.24484756874085
         'y': 164.62440934768296
         isRoom: true
@@ -5959,7 +5486,6 @@ decks:
         contents: {}
       - id: 483
         name: Crew Quarters
-        deckIndex: null
         x: 120.77100712680844
         'y': 165.1917625755123
         isRoom: true
@@ -5972,7 +5498,6 @@ decks:
         contents: {}
       - id: 484
         name: Training Room
-        deckIndex: null
         x: 130.09348221694844
         'y': 189.58795137217493
         isRoom: true
@@ -5984,7 +5509,6 @@ decks:
         contents: {}
       - id: 485
         name: Robotics Lab
-        deckIndex: null
         x: 233.95797607876636
         'y': 114.41364868478432
         isRoom: true
@@ -5997,7 +5521,6 @@ decks:
         contents: {}
       - id: 486
         name: Phaser Capacitors
-        deckIndex: null
         x: 233.10694623702233
         'y': 153.56102140501037
         isRoom: true
@@ -6009,7 +5532,6 @@ decks:
         contents: {}
       - id: 487
         name: Escape Pods
-        deckIndex: null
         x: 310.0082257439864
         'y': 132.92542687249457
         isRoom: true
@@ -6026,7 +5548,6 @@ decks:
     nodes:
       - id: 488
         name: ''
-        deckIndex: null
         x: 95.81859611529246
         'y': 154.36554455037546
         isRoom: false
@@ -6038,7 +5559,6 @@ decks:
         contents: {}
       - id: 489
         name: ''
-        deckIndex: null
         x: 130.342529296875
         'y': 177.9334716796875
         isRoom: false
@@ -6050,7 +5570,6 @@ decks:
         contents: {}
       - id: 490
         name: ''
-        deckIndex: null
         x: 96
         'y': 113.5
         isRoom: false
@@ -6062,7 +5581,6 @@ decks:
         contents: {}
       - id: 491
         name: ''
-        deckIndex: null
         x: 131.5
         'y': 91
         isRoom: false
@@ -6074,7 +5592,6 @@ decks:
         contents: {}
       - id: 492
         name: ''
-        deckIndex: null
         x: 141.50207859152042
         'y': 177.14116406630689
         isRoom: false
@@ -6086,7 +5603,6 @@ decks:
         contents: {}
       - id: 493
         name: ''
-        deckIndex: null
         x: 140
         'y': 135
         isRoom: false
@@ -6098,7 +5614,6 @@ decks:
         contents: {}
       - id: 494
         name: ''
-        deckIndex: null
         x: 140
         'y': 91
         isRoom: false
@@ -6110,7 +5625,6 @@ decks:
         contents: {}
       - id: 495
         name: ''
-        deckIndex: null
         x: 182
         'y': 93
         isRoom: false
@@ -6122,7 +5636,6 @@ decks:
         contents: {}
       - id: 496
         name: ''
-        deckIndex: null
         x: 190
         'y': 134.5
         isRoom: false
@@ -6134,7 +5647,6 @@ decks:
         contents: {}
       - id: 497
         name: ''
-        deckIndex: null
         x: 165
         'y': 134
         isRoom: false
@@ -6146,7 +5658,6 @@ decks:
         contents: {}
       - id: 498
         name: ''
-        deckIndex: null
         x: 180.7742909582393
         'y': 176.24857202972987
         isRoom: false
@@ -6158,7 +5669,6 @@ decks:
         contents: {}
       - id: 499
         name: ''
-        deckIndex: null
         x: 255
         'y': 134.5
         isRoom: false
@@ -6170,7 +5680,6 @@ decks:
         contents: {}
       - id: 500
         name: ''
-        deckIndex: null
         x: 270
         'y': 151.5
         isRoom: false
@@ -6182,7 +5691,6 @@ decks:
         contents: {}
       - id: 501
         name: ''
-        deckIndex: null
         x: 270.98781005659663
         'y': 117.5785252279261
         isRoom: false
@@ -6194,7 +5702,6 @@ decks:
         contents: {}
       - id: 502
         name: ''
-        deckIndex: null
         x: 265.0110829636975
         'y': 97.40959224119779
         isRoom: false
@@ -6206,7 +5713,6 @@ decks:
         contents: {}
       - id: 503
         name: ''
-        deckIndex: null
         x: 226.54261188546698
         'y': 98.76798546247528
         isRoom: false
@@ -6218,7 +5724,6 @@ decks:
         contents: {}
       - id: 504
         name: ''
-        deckIndex: null
         x: 224.74682998882056
         'y': 170.6854387696533
         isRoom: false
@@ -6230,7 +5735,6 @@ decks:
         contents: {}
       - id: 505
         name: ''
-        deckIndex: null
         x: 288.75986154529284
         'y': 134.15232827944985
         isRoom: false
@@ -6242,7 +5746,6 @@ decks:
         contents: {}
       - id: 506
         name: ''
-        deckIndex: null
         x: 283.6367334460871
         'y': 122.06966743793417
         isRoom: false
@@ -6254,7 +5757,6 @@ decks:
         contents: {}
       - id: 507
         name: ''
-        deckIndex: null
         x: 260.5
         'y': 121.5
         isRoom: false
@@ -6266,7 +5768,6 @@ decks:
         contents: {}
       - id: 508
         name: ''
-        deckIndex: null
         x: 285.5
         'y': 146.5
         isRoom: false
@@ -6278,7 +5779,6 @@ decks:
         contents: {}
       - id: 509
         name: ''
-        deckIndex: null
         x: 259
         'y': 145
         isRoom: false
@@ -6290,7 +5790,6 @@ decks:
         contents: {}
       - id: 510
         name: Probe Launcher
-        deckIndex: null
         x: 308.908203125
         'y': 133.97557067871094
         isRoom: true
@@ -6303,7 +5802,6 @@ decks:
         contents: {}
       - id: 511
         name: Sensor Array
-        deckIndex: null
         x: 298.5
         'y': 112.5
         isRoom: true
@@ -6317,7 +5815,6 @@ decks:
         contents: {}
       - id: 512
         name: Shield Generator
-        deckIndex: null
         x: 297.505859375
         'y': 155.6919403076172
         isRoom: true
@@ -6331,7 +5828,6 @@ decks:
         contents: {}
       - id: 513
         name: ''
-        deckIndex: null
         x: 272.5
         'y': 134
         isRoom: false
@@ -6343,7 +5839,6 @@ decks:
         contents: {}
       - id: 514
         name: Adaptive Alien Quarters
-        deckIndex: null
         x: 224.5
         'y': 115.83984375
         isRoom: true
@@ -6355,7 +5850,6 @@ decks:
         contents: {}
       - id: 515
         name: VIP Quarters
-        deckIndex: null
         x: 224
         'y': 150.5
         isRoom: true
@@ -6367,7 +5861,6 @@ decks:
         contents: {}
       - id: 516
         name: Electronics Maintenance Center
-        deckIndex: null
         x: 164.5
         'y': 115
         isRoom: true
@@ -6379,7 +5872,6 @@ decks:
         contents: {}
       - id: 517
         name: Metallurgy Lab
-        deckIndex: null
         x: 163
         'y': 154
         isRoom: true
@@ -6392,7 +5884,6 @@ decks:
         contents: {}
       - id: 518
         name: Machine Shop
-        deckIndex: null
         x: 117
         'y': 135
         isRoom: true
@@ -6404,7 +5895,6 @@ decks:
         contents: {}
       - id: 519
         name: Water Storage
-        deckIndex: null
         x: 82.70977783203125
         'y': 84.91275787353516
         isRoom: true
@@ -6418,7 +5908,6 @@ decks:
         contents: {}
       - id: 520
         name: Water Storage
-        deckIndex: null
         x: 81
         'y': 184
         isRoom: true
@@ -6432,7 +5921,6 @@ decks:
         contents: {}
       - id: 521
         name: ''
-        deckIndex: null
         x: 265.36834716796875
         'y': 171.85069274902344
         isRoom: false
@@ -6449,7 +5937,6 @@ decks:
     nodes:
       - id: 522
         name: Bridge
-        deckIndex: null
         x: 171.5
         'y': 129
         isRoom: false
@@ -6461,7 +5948,6 @@ decks:
         contents: {}
       - id: 523
         name: ''
-        deckIndex: null
         x: 152
         'y': 98
         isRoom: false
@@ -6473,7 +5959,6 @@ decks:
         contents: {}
       - id: 524
         name: ''
-        deckIndex: null
         x: 186
         'y': 99.5
         isRoom: false
@@ -6485,7 +5970,6 @@ decks:
         contents: {}
       - id: 525
         name: ''
-        deckIndex: null
         x: 193
         'y': 106
         isRoom: false
@@ -6497,7 +5981,6 @@ decks:
         contents: {}
       - id: 526
         name: ''
-        deckIndex: null
         x: 233
         'y': 106.5
         isRoom: false
@@ -6509,7 +5992,6 @@ decks:
         contents: {}
       - id: 527
         name: ''
-        deckIndex: null
         x: 233.5
         'y': 134.9315185546875
         isRoom: false
@@ -6521,7 +6003,6 @@ decks:
         contents: {}
       - id: 528
         name: ''
-        deckIndex: null
         x: 232.5
         'y': 153.5
         isRoom: false
@@ -6533,7 +6014,6 @@ decks:
         contents: {}
       - id: 529
         name: ''
-        deckIndex: null
         x: 194.63702392578125
         'y': 153.03457641601562
         isRoom: false
@@ -6545,7 +6025,6 @@ decks:
         contents: {}
       - id: 530
         name: ''
-        deckIndex: null
         x: 182.5
         'y': 161.5
         isRoom: false
@@ -6557,7 +6036,6 @@ decks:
         contents: {}
       - id: 531
         name: ''
-        deckIndex: null
         x: 153.5
         'y': 161.67608642578125
         isRoom: false
@@ -6569,7 +6047,6 @@ decks:
         contents: {}
       - id: 532
         name: ''
-        deckIndex: null
         x: 272
         'y': 133.5
         isRoom: false
@@ -6581,7 +6058,6 @@ decks:
         contents: {}
       - id: 533
         name: Briefing Room
-        deckIndex: null
         x: 306
         'y': 132.5
         isRoom: false
@@ -6593,7 +6069,6 @@ decks:
         contents: {}
       - id: 534
         name: Upper Cargo Bay
-        deckIndex: null
         x: 105.5
         'y': 127.5
         isRoom: true
@@ -6610,7 +6085,6 @@ decks:
     nodes:
       - id: 535
         name: Lower Cargo Bay
-        deckIndex: null
         x: 105
         'y': 133
         isRoom: true
@@ -6623,7 +6097,6 @@ decks:
         contents: {}
       - id: 536
         name: ''
-        deckIndex: null
         x: 272
         'y': 134.5
         isRoom: false
@@ -6635,7 +6108,6 @@ decks:
         contents: {}
       - id: 537
         name: ''
-        deckIndex: null
         x: 152
         'y': 162.5
         isRoom: false
@@ -6647,7 +6119,6 @@ decks:
         contents: {}
       - id: 538
         name: ''
-        deckIndex: null
         x: 152.20602579170782
         'y': 169.5245661795821
         isRoom: false
@@ -6659,7 +6130,6 @@ decks:
         contents: {}
       - id: 539
         name: ''
-        deckIndex: null
         x: 168.65926939875933
         'y': 169.5245661795821
         isRoom: false
@@ -6671,7 +6141,6 @@ decks:
         contents: {}
       - id: 540
         name: ''
-        deckIndex: null
         x: 183.97780655015214
         'y': 168.67353633783807
         isRoom: false
@@ -6683,7 +6152,6 @@ decks:
         contents: {}
       - id: 541
         name: ''
-        deckIndex: null
         x: 185.67986623364024
         'y': 152.78764595861588
         isRoom: false
@@ -6695,7 +6163,6 @@ decks:
         contents: {}
       - id: 542
         name: ''
-        deckIndex: null
         x: 197.11294513979897
         'y': 148.3010257692098
         isRoom: false
@@ -6707,7 +6174,6 @@ decks:
         contents: {}
       - id: 543
         name: ''
-        deckIndex: null
         x: 231.42793287562142
         'y': 148.3876280964568
         isRoom: false
@@ -6719,7 +6185,6 @@ decks:
         contents: {}
       - id: 544
         name: ''
-        deckIndex: null
         x: 232.202830915648
         'y': 134.34866605416158
         isRoom: false
@@ -6731,7 +6196,6 @@ decks:
         contents: {}
       - id: 545
         name: ''
-        deckIndex: null
         x: 254.04593018707848
         'y': 134.0649894402469
         isRoom: false
@@ -6743,7 +6207,6 @@ decks:
         contents: {}
       - id: 546
         name: ''
-        deckIndex: null
         x: 259.71946246537215
         'y': 120.4485119723422
         isRoom: false
@@ -6755,7 +6218,6 @@ decks:
         contents: {}
       - id: 547
         name: ''
-        deckIndex: null
         x: 273.05226331936217
         'y': 117.89542244711006
         isRoom: false
@@ -6767,7 +6229,6 @@ decks:
         contents: {}
       - id: 548
         name: ''
-        deckIndex: null
         x: 271.06652702195936
         'y': 151.93661611687185
         isRoom: false
@@ -6779,7 +6240,6 @@ decks:
         contents: {}
       - id: 549
         name: ''
-        deckIndex: null
         x: 258.60695782059594
         'y': 145.97940722466353
         isRoom: false
@@ -6791,7 +6251,6 @@ decks:
         contents: {}
       - id: 550
         name: ''
-        deckIndex: null
         x: 286.66874078726687
         'y': 144.56102415509014
         isRoom: false
@@ -6803,7 +6262,6 @@ decks:
         contents: {}
       - id: 551
         name: ''
-        deckIndex: null
         x: 286.3850641733522
         'y': 125.23216123984731
         isRoom: false
@@ -6815,7 +6273,6 @@ decks:
         contents: {}
       - id: 552
         name: ''
-        deckIndex: null
         x: 289.82803670937284
         'y': 134.63233833951466
         isRoom: false
@@ -6827,7 +6284,6 @@ decks:
         contents: {}
       - id: 553
         name: ''
-        deckIndex: null
         x: 232.77018414347737
         'y': 121.01586087160995
         isRoom: false
@@ -6839,7 +6295,6 @@ decks:
         contents: {}
       - id: 554
         name: ''
-        deckIndex: null
         x: 202.41678645460644
         'y': 120.44850764378059
         isRoom: false
@@ -6851,7 +6306,6 @@ decks:
         contents: {}
       - id: 555
         name: ''
-        deckIndex: null
         x: 187.09824930321363
         'y': 116.76071166288972
         isRoom: false
@@ -6863,7 +6317,6 @@ decks:
         contents: {}
       - id: 556
         name: ''
-        deckIndex: null
         x: 183.69412993623746
         'y': 100.59114466975288
         isRoom: false
@@ -6875,7 +6328,6 @@ decks:
         contents: {}
       - id: 557
         name: ''
-        deckIndex: null
         x: 151.92234917779314
         'y': 100.3074680558382
         isRoom: false
@@ -6887,7 +6339,6 @@ decks:
         contents: {}
       - id: 559
         name: Airlock
-        deckIndex: null
         x: 68.91838255079143
         'y': 132.94921807842934
         isRoom: true
@@ -6899,7 +6350,6 @@ decks:
         contents: {}
       - id: 561
         name: Security Control Center
-        deckIndex: null
         x: 168.09191617092998
         'y': 128.95880606122103
         isRoom: true
@@ -6912,7 +6362,6 @@ decks:
         contents: {}
       - id: 562
         name: Biological Storage
-        deckIndex: null
         x: 166.67353310135658
         'y': 85.83996074618943
         isRoom: true
@@ -6926,7 +6375,6 @@ decks:
         contents: {}
       - id: 563
         name: Brig
-        deckIndex: null
         x: 167.24088632918594
         'y': 158.46117390834792
         isRoom: true
@@ -6938,7 +6386,6 @@ decks:
         contents: {}
       - id: 564
         name: Holding Cell
-        deckIndex: null
         x: 199.58002031545962
         'y': 106.83203017587589
         isRoom: true
@@ -6950,7 +6397,6 @@ decks:
         contents: {}
       - id: 565
         name: Biochemistry Lab
-        deckIndex: null
         x: 225.39459218169566
         'y': 106.26467694804651
         isRoom: true
@@ -6963,7 +6409,6 @@ decks:
         contents: {}
       - id: 566
         name: Sickbay
-        deckIndex: null
         x: 199.01266708763026
         'y': 161.8652932753241
         isRoom: true
@@ -6977,7 +6422,6 @@ decks:
         contents: {}
       - id: 567
         name: Auxiliary Engineering
-        deckIndex: null
         x: 224.27504876570768
         'y': 161.32825481957323
         isRoom: true
@@ -6991,7 +6435,6 @@ decks:
         contents: {}
       - id: 568
         name: Fuel Distribution Center
-        deckIndex: null
         x: 307.6461913641239
         'y': 134.64411625885595
         isRoom: true
@@ -7008,7 +6451,6 @@ decks:
     nodes:
       - id: 569
         name: ''
-        deckIndex: null
         x: 270.9327142915326
         'y': 134.83324671495058
         isRoom: false
@@ -7020,7 +6462,6 @@ decks:
         contents: {}
       - id: 570
         name: ''
-        deckIndex: null
         x: 250.8139213537903
         'y': 135.12945992328827
         isRoom: false
@@ -7032,7 +6473,6 @@ decks:
         contents: {}
       - id: 571
         name: ''
-        deckIndex: null
         x: 251.66531244055457
         'y': 112.5675961240354
         isRoom: false
@@ -7044,7 +6484,6 @@ decks:
         contents: {}
       - id: 572
         name: ''
-        deckIndex: null
         x: 270.9635104072111
         'y': 112.00000206619256
         isRoom: false
@@ -7056,7 +6495,6 @@ decks:
         contents: {}
       - id: 573
         name: ''
-        deckIndex: null
         x: 251.23961689717243
         'y': 156.27233857793402
         isRoom: false
@@ -7068,7 +6506,6 @@ decks:
         contents: {}
       - id: 574
         name: ''
-        deckIndex: null
         x: 271.13716895154306
         'y': 156.55613560685546
         isRoom: false
@@ -7080,7 +6517,6 @@ decks:
         contents: {}
       - id: 575
         name: ''
-        deckIndex: null
         x: 152.7620478614398
         'y': 134.84566289436685
         isRoom: false
@@ -7092,7 +6528,6 @@ decks:
         contents: {}
       - id: 576
         name: ''
-        deckIndex: null
         x: 151.48496123129343
         'y': 88.87054420909686
         isRoom: false
@@ -7104,7 +6539,6 @@ decks:
         contents: {}
       - id: 577
         name: ''
-        deckIndex: null
         x: 75.99495153819579
         'y': 88.72864569463616
         isRoom: false
@@ -7116,7 +6550,6 @@ decks:
         contents: {}
       - id: 578
         name: ''
-        deckIndex: null
         x: 152.05255528913625
         'y': 180.11128900733328
         isRoom: false
@@ -7128,7 +6561,6 @@ decks:
         contents: {}
       - id: 579
         name: ''
-        deckIndex: null
         x: 75.85305302373509
         'y': 180.3950860362547
         isRoom: false
@@ -7140,7 +6572,6 @@ decks:
         contents: {}
       - id: 580
         name: Phaser Bank
-        deckIndex: null
         x: 58.8252312884499
         'y': 192.1726627364936
         isRoom: true
@@ -7153,7 +6584,6 @@ decks:
         contents: {}
       - id: 581
         name: Sensors Array
-        deckIndex: null
         x: 129.6325900043441
         'y': 170.48162485472096
         isRoom: true
@@ -7167,7 +6597,6 @@ decks:
         contents: {}
       - id: 582
         name: Shield Generator
-        deckIndex: null
         x: 127.50411228743346
         'y': 99.65483130811081
         isRoom: true
@@ -7181,7 +6610,6 @@ decks:
         contents: {}
       - id: 583
         name: Cargo Airlock
-        deckIndex: null
         x: 140.70067413227946
         'y': 134.1361703220633
         isRoom: true
@@ -7194,7 +6622,6 @@ decks:
         contents: {}
       - id: 584
         name: Phaser Bank
-        deckIndex: null
         x: 56.83865208599997
         'y': 75.95777722797277
         isRoom: true
@@ -7207,7 +6634,6 @@ decks:
         contents: {}
       - id: 585
         name: Water Pumping
-        deckIndex: null
         x: 234.9212877341908
         'y': 148.467920282595
         isRoom: true
@@ -7219,7 +6645,6 @@ decks:
         contents: {}
       - id: 586
         name: Recycling Center
-        deckIndex: null
         x: 235.34698327757292
         'y': 115.54746492771031
         isRoom: true
@@ -7232,7 +6657,6 @@ decks:
         contents: {}
       - id: 587
         name: Waste Processing Center
-        deckIndex: null
         x: 262.5914980540292
         'y': 100.08052685149295
         isRoom: true
@@ -7244,7 +6668,6 @@ decks:
         contents: {}
       - id: 588
         name: Shield Generator
-        deckIndex: null
         x: 302.0148311032615
         'y': 134.03769678433264
         isRoom: true
@@ -11453,9 +10876,3 @@ deckEdges:
     flags: []
 cargoContainers: 4
 cargoContainerVolume: 4000
-powerNodes:
-  - offense
-  - defense
-  - navigation
-  - intel
-  - internal

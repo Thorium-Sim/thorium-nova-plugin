@@ -14,146 +14,145 @@ stars:
   - name: Arkab Prior A
     description: ''
     tags: []
-    radius: 2.73
-    temperature: 11960
     solarMass: 3.67
     age: 1387986800268
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.73
+    temperature: 11960
     satellite:
-      orbitalArc: 21
-      semiMajorAxis: 32.76
       axialTilt: 0
+      semiMajorAxis: 32.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 21
       showOrbit: false
       parentId: Arkab Prior
   - name: Arkab Prior B
     description: ''
     tags: []
-    radius: 2.73
-    temperature: 11960
     solarMass: 3.67
     age: 1387986800268
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.73
+    temperature: 11960
     satellite:
-      orbitalArc: 201
-      semiMajorAxis: 32.76
       axialTilt: 0
+      semiMajorAxis: 32.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 201
       showOrbit: false
       parentId: Arkab Prior
 planets:
   - name: Arkab Prior 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 38351
-      age: 8316655804
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.6229555951775879
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 229
     satellite:
+      axialTilt: 17.64
       semiMajorAxis: 1793137138
       eccentricity: 0
       inclination: 0.75
       orbitalArc: 80
-      axialTilt: 17.64
-      parentId: Arkab Prior
       showOrbit: true
-    satellites:
-      - name: Arkab Prior 1a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 6515.588494774731
-          age: 908870950
-          ringMapAsset: null
-          terranMass: 0.9199999395270042
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 252
-        satellite:
-          semiMajorAxis: 1707084.1856309795
-          eccentricity: 0.02
-          inclination: 1.31
-          orbitalArc: 94
-          axialTilt: 24.16
-          parentId: Arkab Prior 1
-          showOrbit: true
-        satellites: []
-  - name: Arkab Prior 2
-    description: ''
-    tags: []
+      parentId: Arkab Prior
     isPlanet:
-      radius: 3526670
-      age: 2287317969
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 12.171102182454455
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_jupiter.jpg
-      classification: I
+      age: 8316655804
+      classification: J
+      radius: 38351
+      terranMass: 0.6229555951775879
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
-    temperature: 164
+    temperature: 229
+    satellites:
+      - name: Arkab Prior 1a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 24.16
+          semiMajorAxis: 1707084.1856309795
+          eccentricity: 0.02
+          inclination: 1.31
+          orbitalArc: 94
+          showOrbit: true
+          parentId: Arkab Prior 1
+        isPlanet:
+          age: 908870950
+          classification: D
+          radius: 6515.588494774731
+          terranMass: 0.9199999395270042
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 252
+  - name: Arkab Prior 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 33.48
       semiMajorAxis: 3874182708
       eccentricity: 0.01
       inclination: 1.48
       orbitalArc: 270
-      axialTilt: 33.48
-      parentId: Arkab Prior
       showOrbit: true
+      parentId: Arkab Prior
+    isPlanet:
+      age: 2287317969
+      classification: I
+      radius: 3526670
+      terranMass: 12.171102182454455
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_jupiter.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 0
+    temperature: 164
     satellites:
       - name: Arkab Prior 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 580945.9857160443
-          age: 7527602387
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 185198
-        temperature: 256
         satellite:
+          axialTilt: 37.8
           semiMajorAxis: 187064607.40056628
           eccentricity: 0
           inclination: 0.95
           orbitalArc: 93
-          axialTilt: 37.8
-          parentId: Arkab Prior 2
           showOrbit: true
-        satellites: []
+          parentId: Arkab Prior 2
+        isPlanet:
+          age: 7527602387
+          classification: P
+          radius: 580945.9857160443
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 185198
+        temperature: 256
 commSatellite: null
 assets: {}

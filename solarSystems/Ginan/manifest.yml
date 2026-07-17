@@ -14,92 +14,93 @@ stars:
   - name: Ginan A
     description: ''
     tags: []
-    radius: 31
-    temperature: 4210
     solarMass: 1.4
     age: 267451814773
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 31
+    temperature: 4210
     satellite:
-      orbitalArc: 226
-      semiMajorAxis: 372
       axialTilt: 0
+      semiMajorAxis: 372
       eccentricity: 0
       inclination: 0
+      orbitalArc: 226
       showOrbit: false
       parentId: Ginan
   - name: Ginan B
     description: ''
     tags: []
-    radius: 31
-    temperature: 4210
     solarMass: 1.4
     age: 267451814773
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 31
+    temperature: 4210
     satellite:
-      orbitalArc: 406
-      semiMajorAxis: 372
       axialTilt: 0
+      semiMajorAxis: 372
       eccentricity: 0
       inclination: 0
+      orbitalArc: 406
       showOrbit: false
       parentId: Ginan
 planets:
   - name: Ginan 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 11.79
+      semiMajorAxis: 1349146730.3333342
+      eccentricity: 0.01
+      inclination: 0.39
+      orbitalArc: 314
+      showOrbit: true
+      parentId: Ginan
     isPlanet:
-      radius: 5818
       age: 5602585987
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0013849629618218843
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 5818
+      terranMass: 0.0013849629618218843
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
     temperature: 775
-    satellite:
-      semiMajorAxis: 1349146730.3333342
-      eccentricity: 0.01
-      inclination: 0.39
-      orbitalArc: 314
-      axialTilt: 11.79
-      parentId: Ginan
-      showOrbit: true
     satellites: []
   - name: Ginan 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 322
-      age: 37043817
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.017122930846187066
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 297
     satellite:
+      axialTilt: 21.11
       semiMajorAxis: 3825753950
       eccentricity: 0
       inclination: 0.07
       orbitalArc: 158
-      axialTilt: 21.11
-      parentId: Ginan
       showOrbit: true
+      parentId: Ginan
+    isPlanet:
+      age: 37043817
+      classification: D
+      radius: 322
+      terranMass: 0.017122930846187066
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 297
     satellites: []
 commSatellite: null
 assets: {}

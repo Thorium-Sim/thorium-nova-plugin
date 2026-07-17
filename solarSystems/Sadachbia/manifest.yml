@@ -14,37 +14,37 @@ stars:
   - name: Sadachbia A
     description: ''
     tags: []
-    radius: 2.7
-    temperature: 10637
     solarMass: 2.72
     age: 1680869602065
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.7
+    temperature: 10637
     satellite:
-      orbitalArc: 97
-      semiMajorAxis: 32.400000000000006
       axialTilt: 0
+      semiMajorAxis: 32.400000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 97
       showOrbit: false
       parentId: Sadachbia
   - name: Sadachbia B
     description: ''
     tags: []
-    radius: 2.7
-    temperature: 10637
     solarMass: 2.72
     age: 1680869602065
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.7
+    temperature: 10637
     satellite:
-      orbitalArc: 277
-      semiMajorAxis: 32.400000000000006
       axialTilt: 0
+      semiMajorAxis: 32.400000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 277
       showOrbit: false
       parentId: Sadachbia
 planets: []

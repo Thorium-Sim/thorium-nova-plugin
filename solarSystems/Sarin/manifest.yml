@@ -14,64 +14,65 @@ stars:
   - name: Sarin A
     description: ''
     tags: []
-    radius: 2.2
-    temperature: 9620
     solarMass: 2.4
     age: 3339141908902
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.2
+    temperature: 9620
     satellite:
-      orbitalArc: 286
-      semiMajorAxis: 26.400000000000002
       axialTilt: 0
+      semiMajorAxis: 26.400000000000002
       eccentricity: 0
       inclination: 0
+      orbitalArc: 286
       showOrbit: false
       parentId: Sarin
   - name: Sarin B
     description: ''
     tags: []
-    radius: 2.2
-    temperature: 9620
     solarMass: 2.4
     age: 3339141908902
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.2
+    temperature: 9620
     satellite:
-      orbitalArc: 466
-      semiMajorAxis: 26.400000000000002
       axialTilt: 0
+      semiMajorAxis: 26.400000000000002
       eccentricity: 0
       inclination: 0
+      orbitalArc: 466
       showOrbit: false
       parentId: Sarin
 planets:
   - name: Sarin 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 311
-      age: 802068073
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.00043111916852877654
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 335
     satellite:
+      axialTilt: 17.14
       semiMajorAxis: 187777426
       eccentricity: 0
       inclination: 1.66
       orbitalArc: 205
-      axialTilt: 17.14
-      parentId: Sarin
       showOrbit: true
+      parentId: Sarin
+    isPlanet:
+      age: 802068073
+      classification: D
+      radius: 311
+      terranMass: 0.00043111916852877654
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 335
     satellites: []
 commSatellite: null
 assets: {}

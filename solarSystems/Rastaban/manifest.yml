@@ -14,142 +14,145 @@ stars:
   - name: Rastaban A
     description: ''
     tags: []
-    radius: 40
-    temperature: 5160
     solarMass: 6
     age: 305071576026
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 40
+    temperature: 5160
     satellite:
-      orbitalArc: 179
-      semiMajorAxis: 480
       axialTilt: 0
+      semiMajorAxis: 480
       eccentricity: 0
       inclination: 0
+      orbitalArc: 179
       showOrbit: false
       parentId: Rastaban
   - name: Rastaban B
     description: ''
     tags: []
-    radius: 40
-    temperature: 5160
     solarMass: 6
     age: 305071576026
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 40
+    temperature: 5160
     satellite:
-      orbitalArc: 359
-      semiMajorAxis: 480
       axialTilt: 0
+      semiMajorAxis: 480
       eccentricity: 0
       inclination: 0
+      orbitalArc: 359
       showOrbit: false
       parentId: Rastaban
 planets:
   - name: Rastaban 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 2989
-      age: 8976202151
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.02263635280276081
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 412
     satellite:
+      axialTilt: 5.65
       semiMajorAxis: 841905722
       eccentricity: 0.01
       inclination: 0.36
       orbitalArc: 219
-      axialTilt: 5.65
-      parentId: Rastaban
       showOrbit: true
+      parentId: Rastaban
+    isPlanet:
+      age: 8976202151
+      classification: B
+      radius: 2989
+      terranMass: 0.02263635280276081
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 412
     satellites: []
   - name: Rastaban 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 9.33
+      semiMajorAxis: 1472086625.3333337
+      eccentricity: 0
+      inclination: 0.52
+      orbitalArc: 227
+      showOrbit: true
+      parentId: Rastaban
     isPlanet:
-      radius: 4015
       age: 6230420312
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.015181463401471203
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 4015
+      terranMass: 0.015181463401471203
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
     temperature: 629
-    satellite:
-      semiMajorAxis: 1472086625.3333337
-      eccentricity: 0
-      inclination: 0.52
-      orbitalArc: 227
-      axialTilt: 9.33
-      parentId: Rastaban
-      showOrbit: true
     satellites: []
   - name: Rastaban 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 343
-      age: 979200890
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.010865974402125235
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 352
     satellite:
+      axialTilt: 27.22
       semiMajorAxis: 2654187407.2222233
       eccentricity: 0.02
       inclination: 1.52
       orbitalArc: 50
-      axialTilt: 27.22
-      parentId: Rastaban
       showOrbit: true
-    satellites: []
-  - name: Rastaban 4
-    description: ''
-    tags: []
+      parentId: Rastaban
     isPlanet:
-      radius: 330
-      age: 541428760
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.008974224043909122
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      age: 979200890
       classification: D
+      radius: 343
+      terranMass: 0.010865974402125235
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
-    temperature: 370
+    temperature: 352
+    satellites: []
+  - name: Rastaban 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 8.47
       semiMajorAxis: 4000000000
       eccentricity: 0.01
       inclination: 0.78
       orbitalArc: 51
-      axialTilt: 8.47
-      parentId: Rastaban
       showOrbit: true
+      parentId: Rastaban
+    isPlanet:
+      age: 541428760
+      classification: D
+      radius: 330
+      terranMass: 0.008974224043909122
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 370
     satellites: []
 commSatellite: null
 assets: {}

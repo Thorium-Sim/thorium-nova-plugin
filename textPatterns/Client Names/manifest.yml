@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Client Names
+description: ''
+textPattern: '{#Greek Letters} RANDOM(1,10)'
+category: ''
+assets: {}

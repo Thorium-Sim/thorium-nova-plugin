@@ -14,222 +14,223 @@ stars:
   - name: Maasym A
     description: ''
     tags: []
-    radius: 40
-    temperature: 4063
     solarMass: 1.18
     age: 156078836812
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 40
+    temperature: 4063
     satellite:
-      orbitalArc: 281
-      semiMajorAxis: 480
       axialTilt: 0
+      semiMajorAxis: 480
       eccentricity: 0
       inclination: 0
+      orbitalArc: 281
       showOrbit: false
       parentId: Maasym
   - name: Maasym B
     description: ''
     tags: []
-    radius: 40
-    temperature: 4063
     solarMass: 1.18
     age: 156078836812
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 40
+    temperature: 4063
     satellite:
-      orbitalArc: 461
-      semiMajorAxis: 480
       axialTilt: 0
+      semiMajorAxis: 480
       eccentricity: 0
       inclination: 0
+      orbitalArc: 461
       showOrbit: false
       parentId: Maasym
 planets:
   - name: Maasym 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 35.35
+      semiMajorAxis: 1484550145.000001
+      eccentricity: 0.01
+      inclination: 1.89
+      orbitalArc: 149
+      showOrbit: true
+      parentId: Maasym
     isPlanet:
-      radius: 6445
       age: 7902259200
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.017955333142778966
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 6445
+      terranMass: 0.017955333142778966
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
     temperature: 601
-    satellite:
-      semiMajorAxis: 1484550145.000001
-      eccentricity: 0.01
-      inclination: 1.89
-      orbitalArc: 149
-      axialTilt: 35.35
-      parentId: Maasym
-      showOrbit: true
     satellites: []
   - name: Maasym 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5167
-      age: 6690436436
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.010855930742890558
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 91030
-    temperature: 257
     satellite:
+      axialTilt: 39.89
       semiMajorAxis: 2432027827.0000005
       eccentricity: 0
       inclination: 1.88
       orbitalArc: 258
-      axialTilt: 39.89
-      parentId: Maasym
       showOrbit: true
+      parentId: Maasym
+    isPlanet:
+      age: 6690436436
+      classification: P
+      radius: 5167
+      terranMass: 0.010855930742890558
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 91030
+    temperature: 257
     satellites:
       - name: Maasym 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 622.5185394485175
-          age: 9856132097
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 187022
-        temperature: 265
         satellite:
+          axialTilt: 9.78
           semiMajorAxis: 156252.15340157787
           eccentricity: 0.01
           inclination: 1.52
           orbitalArc: 206
-          axialTilt: 9.78
-          parentId: Maasym 2
           showOrbit: true
-        satellites: []
+          parentId: Maasym 2
+        isPlanet:
+          age: 9856132097
+          classification: P
+          radius: 622.5185394485175
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 187022
+        temperature: 265
   - name: Maasym 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 223
-      age: 319542213
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.00019162247496421796
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 270
     satellite:
+      axialTilt: 4.55
       semiMajorAxis: 3069155676.0000014
       eccentricity: 0
       inclination: 1.88
       orbitalArc: 183
-      axialTilt: 4.55
-      parentId: Maasym
       showOrbit: true
-    satellites: []
-  - name: Maasym 4
-    description: ''
-    tags: []
+      parentId: Maasym
     isPlanet:
-      radius: 964
-      age: 832123776
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.007747908307973168
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
+      age: 319542213
+      classification: D
+      radius: 223
+      terranMass: 0.00019162247496421796
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
-    temperature: 43
+    temperature: 270
+    satellites: []
+  - name: Maasym 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 6.91
       semiMajorAxis: 3478437958.0000067
       eccentricity: 0
       inclination: 1.02
       orbitalArc: 344
-      axialTilt: 6.91
-      parentId: Maasym
       showOrbit: true
+      parentId: Maasym
+    isPlanet:
+      age: 832123776
+      classification: C
+      radius: 964
+      terranMass: 0.007747908307973168
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 43
     satellites:
       - name: Maasym 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 98.25021032207883
-          age: 9124545179
-          ringMapAsset: null
-          terranMass: 2.100000308900827
-          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
-          classification: B
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 287
         satellite:
+          axialTilt: 23.66
           semiMajorAxis: 29769.813727589884
           eccentricity: 0.01
           inclination: 1.54
           orbitalArc: 56
-          axialTilt: 23.66
-          parentId: Maasym 4
           showOrbit: true
-        satellites: []
+          parentId: Maasym 4
+        isPlanet:
+          age: 9124545179
+          classification: B
+          radius: 98.25021032207883
+          terranMass: 2.100000308900827
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 287
   - name: Maasym 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 16.18
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 1.81
+      orbitalArc: 23
+      showOrbit: true
+      parentId: Maasym
     isPlanet:
-      radius: 59782
       age: 7047759121
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: null
-      terranMass: 0.1413293278790846
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 59782
+      terranMass: 0.1413293278790846
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
     population: 0
     temperature: 327
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0.01
-      inclination: 1.81
-      orbitalArc: 23
-      axialTilt: 16.18
-      parentId: Maasym
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

@@ -14,193 +14,193 @@ stars:
   - name: Albali A
     description: ''
     tags: []
-    radius: 4.2
-    temperature: 9662
     solarMass: 2.98
     age: 1117940874166
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.2
+    temperature: 9662
     satellite:
-      orbitalArc: 104
-      semiMajorAxis: 50.400000000000006
       axialTilt: 0
+      semiMajorAxis: 50.400000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 104
       showOrbit: false
       parentId: Albali
   - name: Albali B
     description: ''
     tags: []
-    radius: 4.2
-    temperature: 9662
     solarMass: 2.98
     age: 1117940874166
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.2
+    temperature: 9662
     satellite:
-      orbitalArc: 284
-      semiMajorAxis: 50.400000000000006
       axialTilt: 0
+      semiMajorAxis: 50.400000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 284
       showOrbit: false
       parentId: Albali
 planets:
   - name: Albali 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 131
-      age: 179328502
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.02221121966275593
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 163
     satellite:
+      axialTilt: 18.35
       semiMajorAxis: 884738848
       eccentricity: 0.01
       inclination: 1.36
       orbitalArc: 119
-      axialTilt: 18.35
-      parentId: Albali
       showOrbit: true
-    satellites: []
-  - name: Albali 2
-    description: ''
-    tags: []
+      parentId: Albali
     isPlanet:
-      radius: 6162
-      age: 2893142810
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.015021233430964702
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
+      age: 179328502
+      classification: D
+      radius: 131
+      terranMass: 0.02221121966275593
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
-    temperature: 787
+    temperature: 163
+    satellites: []
+  - name: Albali 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 25.91
       semiMajorAxis: 1497480776.0000012
       eccentricity: 0.02
       inclination: 1.42
       orbitalArc: 242
-      axialTilt: 25.91
-      parentId: Albali
       showOrbit: true
+      parentId: Albali
+    isPlanet:
+      age: 2893142810
+      classification: F
+      radius: 6162
+      terranMass: 0.015021233430964702
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 787
     satellites:
       - name: Albali 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 418.6397682123678
-          age: 3794287370
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 38373
-        temperature: 256
         satellite:
+          axialTilt: 4.77
           semiMajorAxis: 177931.48725715396
           eccentricity: 0.01
           inclination: 1.18
           orbitalArc: 85
-          axialTilt: 4.77
-          parentId: Albali 2
           showOrbit: true
-        satellites: []
+          parentId: Albali 2
+        isPlanet:
+          age: 3794287370
+          classification: P
+          radius: 418.6397682123678
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 38373
+        temperature: 256
       - name: Albali 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1056.171900205005
-          age: 368244229
-          ringMapAsset: null
-          terranMass: 1.3399997707921212
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 153
         satellite:
+          axialTilt: 30.84
           semiMajorAxis: 355929.9303690867
           eccentricity: 0.01
           inclination: 0.79
           orbitalArc: 183
-          axialTilt: 30.84
-          parentId: Albali 2
           showOrbit: true
-        satellites: []
+          parentId: Albali 2
+        isPlanet:
+          age: 368244229
+          classification: D
+          radius: 1056.171900205005
+          terranMass: 1.3399997707921212
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 153
   - name: Albali 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 33.79
+      semiMajorAxis: 2372586549
+      eccentricity: 0
+      inclination: 1.25
+      orbitalArc: 348
+      showOrbit: true
+      parentId: Albali
     isPlanet:
-      radius: 3182
       age: 9828807140
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.009537930344445215
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3182
+      terranMass: 0.009537930344445215
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 36431
     temperature: 142
-    satellite:
-      semiMajorAxis: 2372586549
-      eccentricity: 0
-      inclination: 1.25
-      orbitalArc: 348
-      axialTilt: 33.79
-      parentId: Albali
-      showOrbit: true
     satellites:
       - name: Albali 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 782.6153653425433
-          age: 8213089012
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 146262
-        temperature: 270
         satellite:
+          axialTilt: 6.46
           semiMajorAxis: 335741.9917319511
           eccentricity: 0.02
           inclination: 1.75
           orbitalArc: 243
-          axialTilt: 6.46
-          parentId: Albali 3
           showOrbit: true
-        satellites: []
+          parentId: Albali 3
+        isPlanet:
+          age: 8213089012
+          classification: P
+          radius: 782.6153653425433
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 146262
+        temperature: 270
 commSatellite: null
 assets: {}

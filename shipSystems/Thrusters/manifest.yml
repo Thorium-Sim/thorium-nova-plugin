@@ -46,8 +46,3 @@ directionMaxSpeed: 1
 directionThrust: 437500000
 rotationMaxSpeed: 5
 rotationThrust: 437500000
-defaultPower: 10
-requiredPower: 5
-maxSafePower: 20
-coolantHeatTransferRate: 10
-powerNode: navigation

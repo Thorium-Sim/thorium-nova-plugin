@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Civilian Ships 3
+description: ''
+textPattern: '{~{#Adjectives},{#Singular Nouns}} {#All Titles}{#Sometimes A Successor}'
+category: Ships
+assets: {}

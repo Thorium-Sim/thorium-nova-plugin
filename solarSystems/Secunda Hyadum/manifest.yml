@@ -14,144 +14,143 @@ stars:
   - name: Secunda Hyadum A
     description: ''
     tags: []
-    radius: 14.9
-    temperature: 4819
     solarMass: 2.75
     age: 1324651806964
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.9
+    temperature: 4819
     satellite:
-      orbitalArc: 214
-      semiMajorAxis: 178.8
       axialTilt: 0
+      semiMajorAxis: 178.8
       eccentricity: 0
       inclination: 0
+      orbitalArc: 214
       showOrbit: false
       parentId: Secunda Hyadum
   - name: Secunda Hyadum B
     description: ''
     tags: []
-    radius: 14.9
-    temperature: 4819
     solarMass: 2.75
     age: 1324651806964
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.9
+    temperature: 4819
     satellite:
-      orbitalArc: 394
-      semiMajorAxis: 178.8
       axialTilt: 0
+      semiMajorAxis: 178.8
       eccentricity: 0
       inclination: 0
+      orbitalArc: 394
       showOrbit: false
       parentId: Secunda Hyadum
 planets:
   - name: Secunda Hyadum 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5838
-      age: 1273124710
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0027439398805029812
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1079
     satellite:
+      axialTilt: 33.78
       semiMajorAxis: 1853844095.333334
       eccentricity: 0.02
       inclination: 1.29
       orbitalArc: 165
-      axialTilt: 33.78
-      parentId: Secunda Hyadum
       showOrbit: true
+      parentId: Secunda Hyadum
+    isPlanet:
+      age: 1273124710
+      classification: E
+      radius: 5838
+      terranMass: 0.0027439398805029812
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 1079
     satellites:
       - name: Secunda Hyadum 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 623.5789657529162
-          age: 4777729340
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 24745
-        temperature: 266
         satellite:
+          axialTilt: 31.2
           semiMajorAxis: 100910.52044220781
           eccentricity: 0.01
           inclination: 1.52
           orbitalArc: 96
-          axialTilt: 31.2
-          parentId: Secunda Hyadum 1
           showOrbit: true
-        satellites: []
-      - name: Secunda Hyadum 1b
-        description: ''
-        tags: []
+          parentId: Secunda Hyadum 1
         isPlanet:
-          radius: 522.974346398207
-          age: 8437810454
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          age: 4777729340
           classification: P
+          radius: 623.5789657529162
+          terranMass: 1.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 43248
-        temperature: 257
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 24745
+        temperature: 266
+      - name: Secunda Hyadum 1b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 23.99
           semiMajorAxis: 233769.53283999852
           eccentricity: 0.02
           inclination: 0.37
           orbitalArc: 100
-          axialTilt: 23.99
-          parentId: Secunda Hyadum 1
           showOrbit: true
-        satellites: []
+          parentId: Secunda Hyadum 1
+        isPlanet:
+          age: 8437810454
+          classification: P
+          radius: 522.974346398207
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 43248
+        temperature: 257
   - name: Secunda Hyadum 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 21.44
+      semiMajorAxis: 3020656147
+      eccentricity: 0.01
+      inclination: 0.34
+      orbitalArc: 100
+      showOrbit: true
+      parentId: Secunda Hyadum
     isPlanet:
-      radius: 50785
       age: 9534895783
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.45144454476806445
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 50785
+      terranMass: 0.45144454476806445
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 335
-    satellite:
-      semiMajorAxis: 3020656147
-      eccentricity: 0.01
-      inclination: 0.34
-      orbitalArc: 100
-      axialTilt: 21.44
-      parentId: Secunda Hyadum
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

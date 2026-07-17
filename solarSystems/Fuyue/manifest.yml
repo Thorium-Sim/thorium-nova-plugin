@@ -14,151 +14,152 @@ stars:
   - name: 'Fuyue '
     description: ''
     tags: []
-    radius: 16.4
-    temperature: 4535
     solarMass: 1.2
     age: 608350219114
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 16.4
+    temperature: 4535
     satellite:
-      orbitalArc: 277
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 277
       showOrbit: false
       parentId: Fuyue
 planets:
   - name: Fuyue 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 447
-      age: 258686269
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.028693468087055
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 155
     satellite:
+      axialTilt: 31.4
       semiMajorAxis: 484139122.6666673
       eccentricity: 0.01
       inclination: 1.28
       orbitalArc: 304
-      axialTilt: 31.4
-      parentId: Fuyue
       showOrbit: true
+      parentId: Fuyue
+    isPlanet:
+      age: 258686269
+      classification: D
+      radius: 447
+      terranMass: 0.028693468087055
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 155
     satellites: []
   - name: Fuyue 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 28.62
+      semiMajorAxis: 1480671180.2222235
+      eccentricity: 0
+      inclination: 0.91
+      orbitalArc: 67
+      showOrbit: true
+      parentId: Fuyue
     isPlanet:
-      radius: 6429
       age: 3115679129
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.0014484473187356367
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
       classification: G
+      radius: 6429
+      terranMass: 0.0014484473187356367
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
     temperature: 507
-    satellite:
-      semiMajorAxis: 1480671180.2222235
-      eccentricity: 0
-      inclination: 0.91
-      orbitalArc: 67
-      axialTilt: 28.62
-      parentId: Fuyue
-      showOrbit: true
     satellites:
       - name: Fuyue 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1351.6177059387949
-          age: 6840923787
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 251605557
-        temperature: 292
         satellite:
+          axialTilt: 18.28
           semiMajorAxis: 671753.9998515811
           eccentricity: 0
           inclination: 1.84
           orbitalArc: 275
-          axialTilt: 18.28
-          parentId: Fuyue 2
           showOrbit: true
-        satellites: []
+          parentId: Fuyue 2
+        isPlanet:
+          age: 6840923787
+          classification: O
+          radius: 1351.6177059387949
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 251605557
+        temperature: 292
   - name: Fuyue 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 12.43
+      semiMajorAxis: 2420401277
+      eccentricity: 0
+      inclination: 0.56
+      orbitalArc: 230
+      showOrbit: true
+      parentId: Fuyue
     isPlanet:
-      radius: 39340
       age: 6328281298
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.17538556996043436
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 39340
+      terranMass: 0.17538556996043436
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 268
-    satellite:
-      semiMajorAxis: 2420401277
-      eccentricity: 0
-      inclination: 0.56
-      orbitalArc: 230
-      axialTilt: 12.43
-      parentId: Fuyue
-      showOrbit: true
     satellites:
       - name: Fuyue 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 6663.519528912036
-          age: 872695307
-          ringMapAsset: null
-          terranMass: 1.300000061391653
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 39
         satellite:
+          axialTilt: 1.75
           semiMajorAxis: 2092345.1320783792
           eccentricity: 0.01
           inclination: 1.37
           orbitalArc: 341
-          axialTilt: 1.75
-          parentId: Fuyue 3
           showOrbit: true
-        satellites: []
+          parentId: Fuyue 3
+        isPlanet:
+          age: 872695307
+          classification: C
+          radius: 6663.519528912036
+          terranMass: 1.300000061391653
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 39
 commSatellite: null
 assets: {}

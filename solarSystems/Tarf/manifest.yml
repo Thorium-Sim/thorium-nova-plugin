@@ -14,199 +14,200 @@ stars:
   - name: 'Tarf '
     description: ''
     tags: []
-    radius: 51.7
-    temperature: 4094
     solarMass: 1.7
     age: 130570710199
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 51.7
+    temperature: 4094
     satellite:
-      orbitalArc: 254
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 254
       showOrbit: false
       parentId: Tarf
 planets:
   - name: Tarf 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5006
-      age: 7126436521
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.007722162832557727
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
-      classification: M
-      isHabitable: true
-      lifeforms:
-        - Varied and extensive vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 284583872
-    temperature: 295
     satellite:
+      axialTilt: 22.15
       semiMajorAxis: 1259449844
       eccentricity: 0.02
       inclination: 1.81
       orbitalArc: 220
-      axialTilt: 22.15
-      parentId: Tarf
       showOrbit: true
+      parentId: Tarf
+    isPlanet:
+      age: 7126436521
+      classification: M
+      radius: 5006
+      terranMass: 0.007722162832557727
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 284583872
+    temperature: 295
     satellites:
       - name: Tarf 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 318.82038313176497
-          age: 1607175035
-          ringMapAsset: null
-          terranMass: 0.7000000766929885
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 691
         satellite:
+          axialTilt: 5.55
           semiMajorAxis: 261776.1919847145
           eccentricity: 0.01
           inclination: 1.87
           orbitalArc: 195
-          axialTilt: 5.55
-          parentId: Tarf 1
           showOrbit: true
-        satellites: []
+          parentId: Tarf 1
+        isPlanet:
+          age: 1607175035
+          classification: F
+          radius: 318.82038313176497
+          terranMass: 0.7000000766929885
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 691
       - name: Tarf 1b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1186.4885411852943
-          age: 7194210380
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 28432
-        temperature: 259
         satellite:
+          axialTilt: 10.07
           semiMajorAxis: 545784.7289452354
           eccentricity: 0.02
           inclination: 0.05
           orbitalArc: 120
-          axialTilt: 10.07
-          parentId: Tarf 1
           showOrbit: true
-        satellites: []
-  - name: Tarf 2
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 255
-      age: 972585005
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.0005878057169174413
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 206
-    satellite:
-      semiMajorAxis: 2501871382
-      eccentricity: 0.01
-      inclination: 1.16
-      orbitalArc: 310
-      axialTilt: 25.46
-      parentId: Tarf
-      showOrbit: true
-    satellites: []
-  - name: Tarf 3
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5902
-      age: 2501510979
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.008425273055098586
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 684
-    satellite:
-      semiMajorAxis: 3210612577
-      eccentricity: 0.01
-      inclination: 1.29
-      orbitalArc: 147
-      axialTilt: 27.27
-      parentId: Tarf
-      showOrbit: true
-    satellites:
-      - name: Tarf 3a
-        description: ''
-        tags: []
+          parentId: Tarf 1
         isPlanet:
-          radius: 747.7850176323402
-          age: 7407477289
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          age: 7194210380
           classification: P
+          radius: 1186.4885411852943
+          terranMass: 1.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 91003
-        temperature: 265
-        satellite:
-          semiMajorAxis: 299861.7920705684
-          eccentricity: 0.01
-          inclination: 0.85
-          orbitalArc: 222
-          axialTilt: 4.34
-          parentId: Tarf 3
-          showOrbit: true
-        satellites: []
-  - name: Tarf 4
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 28432
+        temperature: 259
+  - name: Tarf 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 25.46
+      semiMajorAxis: 2501871382
+      eccentricity: 0.01
+      inclination: 1.16
+      orbitalArc: 310
+      showOrbit: true
+      parentId: Tarf
     isPlanet:
-      radius: 320
-      age: 948146845
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.0007307806273070834
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      age: 972585005
       classification: D
+      radius: 255
+      terranMass: 0.0005878057169174413
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
-    temperature: 351
+    temperature: 206
+    satellites: []
+  - name: Tarf 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 27.27
+      semiMajorAxis: 3210612577
+      eccentricity: 0.01
+      inclination: 1.29
+      orbitalArc: 147
+      showOrbit: true
+      parentId: Tarf
+    isPlanet:
+      age: 2501510979
+      classification: F
+      radius: 5902
+      terranMass: 0.008425273055098586
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 684
+    satellites:
+      - name: Tarf 3a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 4.34
+          semiMajorAxis: 299861.7920705684
+          eccentricity: 0.01
+          inclination: 0.85
+          orbitalArc: 222
+          showOrbit: true
+          parentId: Tarf 3
+        isPlanet:
+          age: 7407477289
+          classification: P
+          radius: 747.7850176323402
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 91003
+        temperature: 265
+  - name: Tarf 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 27.44
       semiMajorAxis: 3684450649
       eccentricity: 0.02
       inclination: 0.64
       orbitalArc: 76
-      axialTilt: 27.44
-      parentId: Tarf
       showOrbit: true
+      parentId: Tarf
+    isPlanet:
+      age: 948146845
+      classification: D
+      radius: 320
+      terranMass: 0.0007307806273070834
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 351
     satellites: []
 commSatellite: null
 assets: {}

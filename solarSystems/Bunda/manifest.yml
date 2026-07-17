@@ -14,251 +14,253 @@ stars:
   - name: Bunda A
     description: ''
     tags: []
-    radius: 3.023
-    temperature: 8140
     solarMass: 1.7
     age: 2443679760845
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 3.023
+    temperature: 8140
     satellite:
-      orbitalArc: 326
-      semiMajorAxis: 36.276
       axialTilt: 0
+      semiMajorAxis: 36.276
       eccentricity: 0
       inclination: 0
+      orbitalArc: 326
       showOrbit: false
       parentId: Bunda
   - name: Bunda B
     description: ''
     tags: []
-    radius: 3.023
-    temperature: 8140
     solarMass: 1.7
     age: 2443679760845
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 3.023
+    temperature: 8140
     satellite:
-      orbitalArc: 506
-      semiMajorAxis: 36.276
       axialTilt: 0
+      semiMajorAxis: 36.276
       eccentricity: 0
       inclination: 0
+      orbitalArc: 506
       showOrbit: false
       parentId: Bunda
 planets:
   - name: Bunda 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 1.93
+      semiMajorAxis: 259560445.00000036
+      eccentricity: 0.01
+      inclination: 0.69
+      orbitalArc: 230
+      showOrbit: true
+      parentId: Bunda
     isPlanet:
-      radius: 4411
       age: 7844827770
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.031136852340090695
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 4411
+      terranMass: 0.031136852340090695
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
     temperature: 866
-    satellite:
-      semiMajorAxis: 259560445.00000036
-      eccentricity: 0.01
-      inclination: 0.69
-      orbitalArc: 230
-      axialTilt: 1.93
-      parentId: Bunda
-      showOrbit: true
     satellites: []
   - name: Bunda 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 89
-      age: 252794005
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.013946942243542017
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 360
     satellite:
+      axialTilt: 31.16
       semiMajorAxis: 478265152.0000006
       eccentricity: 0.01
       inclination: 1.61
       orbitalArc: 329
-      axialTilt: 31.16
-      parentId: Bunda
       showOrbit: true
+      parentId: Bunda
+    isPlanet:
+      age: 252794005
+      classification: D
+      radius: 89
+      terranMass: 0.013946942243542017
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 360
     satellites: []
   - name: Bunda 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 26.69
+      semiMajorAxis: 902583648.0000007
+      eccentricity: 0
+      inclination: 0.71
+      orbitalArc: 282
+      showOrbit: true
+      parentId: Bunda
     isPlanet:
-      radius: 4596
       age: 7770531299
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.00862145999142303
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4596
+      terranMass: 0.00862145999142303
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 9393
     temperature: 230
-    satellite:
-      semiMajorAxis: 902583648.0000007
-      eccentricity: 0
-      inclination: 0.71
-      orbitalArc: 282
-      axialTilt: 26.69
-      parentId: Bunda
-      showOrbit: true
     satellites: []
   - name: Bunda 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 7482
-      age: 7245306307
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.008259309139279488
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 25068861
-    temperature: 404
     satellite:
+      axialTilt: 34.3
       semiMajorAxis: 1359317382.0000024
       eccentricity: 0.02
       inclination: 1.07
       orbitalArc: 355
-      axialTilt: 34.3
-      parentId: Bunda
       showOrbit: true
+      parentId: Bunda
+    isPlanet:
+      age: 7245306307
+      classification: 'N'
+      radius: 7482
+      terranMass: 0.008259309139279488
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 25068861
+    temperature: 404
     satellites: []
   - name: Bunda 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 48792
-      age: 2668692675
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.15063771178262253
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 190
     satellite:
+      axialTilt: 34.08
       semiMajorAxis: 2804216861.0000024
       eccentricity: 0
       inclination: 1.59
       orbitalArc: 149
-      axialTilt: 34.08
-      parentId: Bunda
       showOrbit: true
-    satellites: []
-  - name: Bunda 6
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 450
-      age: 611313121
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0033983215370799284
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 328
-    satellite:
-      semiMajorAxis: 3295035878.0000043
-      eccentricity: 0.02
-      inclination: 1.15
-      orbitalArc: 320
-      axialTilt: 1.54
       parentId: Bunda
-      showOrbit: true
-    satellites: []
-  - name: Bunda 7
-    description: ''
-    tags: []
     isPlanet:
-      radius: 56599
-      age: 8605176949
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 0.6439084670783273
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      age: 2668692675
       classification: J
+      radius: 48792
+      terranMass: 0.15063771178262253
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
-    temperature: 231
+    temperature: 190
+    satellites: []
+  - name: Bunda 6
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 1.54
+      semiMajorAxis: 3295035878.0000043
+      eccentricity: 0.02
+      inclination: 1.15
+      orbitalArc: 320
+      showOrbit: true
+      parentId: Bunda
+    isPlanet:
+      age: 611313121
+      classification: D
+      radius: 450
+      terranMass: 0.0033983215370799284
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 328
+    satellites: []
+  - name: Bunda 7
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 11.95
       semiMajorAxis: 3860173409
       eccentricity: 0.01
       inclination: 0.66
       orbitalArc: 17
-      axialTilt: 11.95
-      parentId: Bunda
       showOrbit: true
+      parentId: Bunda
+    isPlanet:
+      age: 8605176949
+      classification: J
+      radius: 56599
+      terranMass: 0.6439084670783273
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+    population: 0
+    temperature: 231
     satellites:
       - name: Bunda 7a
         description: ''
         tags: []
-        isPlanet:
-          radius: 12924.699946180745
-          age: 556233281
-          ringMapAsset: null
-          terranMass: 0.9299998138293459
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 357
         satellite:
+          axialTilt: 6.43
           semiMajorAxis: 4872611.879710141
           eccentricity: 0.01
           inclination: 0.73
           orbitalArc: 355
-          axialTilt: 6.43
-          parentId: Bunda 7
           showOrbit: true
-        satellites: []
+          parentId: Bunda 7
+        isPlanet:
+          age: 556233281
+          classification: D
+          radius: 12924.699946180745
+          terranMass: 0.9299998138293459
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 357
 commSatellite: null
 assets: {}

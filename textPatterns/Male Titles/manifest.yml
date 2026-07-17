@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Male Titles
+description: ''
+textPattern: '{~Lord,Prince,King,Emperor,Duke,Baron,Master,Count}'
+category: Titles
+assets: {}

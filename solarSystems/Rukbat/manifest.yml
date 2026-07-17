@@ -14,303 +14,301 @@ stars:
   - name: Rukbat A
     description: ''
     tags: []
-    radius: 2.69
-    temperature: 12387
     solarMass: 2.95
     age: 998670428065
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.69
+    temperature: 12387
     satellite:
-      orbitalArc: 265
-      semiMajorAxis: 32.28
       axialTilt: 0
+      semiMajorAxis: 32.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 265
       showOrbit: false
       parentId: Rukbat
   - name: Rukbat B
     description: ''
     tags: []
-    radius: 2.69
-    temperature: 12387
     solarMass: 2.95
     age: 998670428065
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.69
+    temperature: 12387
     satellite:
-      orbitalArc: 445
-      semiMajorAxis: 32.28
       axialTilt: 0
+      semiMajorAxis: 32.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 445
       showOrbit: false
       parentId: Rukbat
 planets:
   - name: Rukbat 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.63
+      semiMajorAxis: 920630467
+      eccentricity: 0.01
+      inclination: 1.01
+      orbitalArc: 242
+      showOrbit: true
+      parentId: Rukbat
     isPlanet:
-      radius: 5764
       age: 5006502747
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: null
-      terranMass: 0.012319072526230393
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 5764
+      terranMass: 0.012319072526230393
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
     population: 22398
     temperature: 284
-    satellite:
-      semiMajorAxis: 920630467
-      eccentricity: 0.01
-      inclination: 1.01
-      orbitalArc: 242
-      axialTilt: 23.63
-      parentId: Rukbat
-      showOrbit: true
     satellites:
       - name: Rukbat 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 980.4396771203353
-          age: 3249690623
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
-          classification: G
-          isHabitable: false
-          lifeforms:
-            - None
-            - Primitive single-celled organisms
-          atmosphericComposition: []
-        population: 0
-        temperature: 516
         satellite:
+          axialTilt: 8.79
           semiMajorAxis: 228404.82479816943
           eccentricity: 0.02
           inclination: 0.13
           orbitalArc: 348
-          axialTilt: 8.79
-          parentId: Rukbat 1
           showOrbit: true
-        satellites: []
-      - name: Rukbat 1b
-        description: ''
-        tags: []
+          parentId: Rukbat 1
         isPlanet:
-          radius: 1080.475596936577
-          age: 7099174519
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5000001274568824
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
-          classification: K
-          isHabitable: true
+          age: 3249690623
+          classification: G
+          radius: 980.4396771203353
+          terranMass: 0.5
+          isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
-        population: 17327
-        temperature: 253
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 516
+      - name: Rukbat 1b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 29.88
           semiMajorAxis: 415983.10482058214
           eccentricity: 0.01
           inclination: 1.17
           orbitalArc: 117
-          axialTilt: 29.88
-          parentId: Rukbat 1
           showOrbit: true
-        satellites: []
-  - name: Rukbat 2
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 189
-      age: 559734972
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.01562554921800304
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 380
-    satellite:
-      semiMajorAxis: 2114305409.6666675
-      eccentricity: 0.01
-      inclination: 0.25
-      orbitalArc: 107
-      axialTilt: 36.35
-      parentId: Rukbat
-      showOrbit: true
-    satellites: []
-  - name: Rukbat 3
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 1359656
-      age: 5830204408
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 6.274805468722435
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBlueGiant.jpg
-      classification: I
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 141
-    satellite:
-      semiMajorAxis: 3151737518.1111135
-      eccentricity: 0
-      inclination: 1.92
-      orbitalArc: 119
-      axialTilt: 26.25
-      parentId: Rukbat
-      showOrbit: true
-    satellites:
-      - name: Rukbat 3a
-        description: ''
-        tags: []
+          parentId: Rukbat 1
         isPlanet:
-          radius: 70390.55533244736
-          age: 8050071264
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.100000094557398
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          age: 7099174519
           classification: K
+          radius: 1080.475596936577
+          terranMass: 1.5000001274568824
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
-        population: 23761
-        temperature: 290
-        satellite:
-          semiMajorAxis: 37155011.585852265
-          eccentricity: 0
-          inclination: 1.4
-          orbitalArc: 345
-          axialTilt: 28.74
-          parentId: Rukbat 3
-          showOrbit: true
-        satellites: []
-      - name: Rukbat 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 281953.09886203485
-          age: 912020213
-          ringMapAsset: null
-          terranMass: 1.100000189687266
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 51
-        satellite:
-          semiMajorAxis: 106785760.0060054
-          eccentricity: 0.02
-          inclination: 0.82
-          orbitalArc: 79
-          axialTilt: 17.23
-          parentId: Rukbat 3
-          showOrbit: true
-        satellites: []
-      - name: Rukbat 3c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 327186.96269891085
-          age: 5372402314
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           cloudMapAsset: null
           ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 78401
-        temperature: 256
-        satellite:
-          semiMajorAxis: 160648798.68516523
-          eccentricity: 0.01
-          inclination: 0.28
-          orbitalArc: 119
-          axialTilt: 7.94
-          parentId: Rukbat 3
-          showOrbit: true
-        satellites: []
-  - name: Rukbat 4
+        population: 17327
+        temperature: 253
+  - name: Rukbat 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 36.35
+      semiMajorAxis: 2114305409.6666675
+      eccentricity: 0.01
+      inclination: 0.25
+      orbitalArc: 107
+      showOrbit: true
+      parentId: Rukbat
     isPlanet:
-      radius: 40273
-      age: 6701466131
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: null
-      terranMass: 0.4526537462202026
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
-      classification: J
+      age: 559734972
+      classification: D
+      radius: 189
+      terranMass: 0.01562554921800304
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 380
+    satellites: []
+  - name: Rukbat 3
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 26.25
+      semiMajorAxis: 3151737518.1111135
+      eccentricity: 0
+      inclination: 1.92
+      orbitalArc: 119
+      showOrbit: true
+      parentId: Rukbat
+    isPlanet:
+      age: 5830204408
+      classification: I
+      radius: 1359656
+      terranMass: 6.274805468722435
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBlueGiant.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
-    temperature: 196
-    satellite:
-      semiMajorAxis: 3692872196
-      eccentricity: 0
-      inclination: 1.96
-      orbitalArc: 340
-      axialTilt: 4.84
-      parentId: Rukbat
-      showOrbit: true
+    temperature: 141
     satellites:
-      - name: Rukbat 4a
+      - name: Rukbat 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 28.74
+          semiMajorAxis: 37155011.585852265
+          eccentricity: 0
+          inclination: 1.4
+          orbitalArc: 345
+          showOrbit: true
+          parentId: Rukbat 3
         isPlanet:
-          radius: 9471.925907757734
-          age: 891639202
+          age: 8050071264
+          classification: K
+          radius: 70390.55533244736
+          terranMass: 1.100000094557398
+          isHabitable: true
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
           ringMapAsset: null
-          terranMass: 0.5399998500250998
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
+        population: 23761
+        temperature: 290
+      - name: Rukbat 3b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 17.23
+          semiMajorAxis: 106785760.0060054
+          eccentricity: 0.02
+          inclination: 0.82
+          orbitalArc: 79
+          showOrbit: true
+          parentId: Rukbat 3
+        isPlanet:
+          age: 912020213
+          classification: C
+          radius: 281953.09886203485
+          terranMass: 1.100000189687266
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 293
+        temperature: 51
+      - name: Rukbat 3c
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 7.94
+          semiMajorAxis: 160648798.68516523
+          eccentricity: 0.01
+          inclination: 0.28
+          orbitalArc: 119
+          showOrbit: true
+          parentId: Rukbat 3
+        isPlanet:
+          age: 5372402314
+          classification: P
+          radius: 327186.96269891085
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 78401
+        temperature: 256
+  - name: Rukbat 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 4.84
+      semiMajorAxis: 3692872196
+      eccentricity: 0
+      inclination: 1.96
+      orbitalArc: 340
+      showOrbit: true
+      parentId: Rukbat
+    isPlanet:
+      age: 6701466131
+      classification: J
+      radius: 40273
+      terranMass: 0.4526537462202026
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
+    population: 0
+    temperature: 196
+    satellites:
+      - name: Rukbat 4a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 8.45
           semiMajorAxis: 3675107.2522100005
           eccentricity: 0
           inclination: 1.14
           orbitalArc: 225
-          axialTilt: 8.45
-          parentId: Rukbat 4
           showOrbit: true
-        satellites: []
+          parentId: Rukbat 4
+        isPlanet:
+          age: 891639202
+          classification: D
+          radius: 9471.925907757734
+          terranMass: 0.5399998500250998
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 293
 commSatellite: null
 assets: {}

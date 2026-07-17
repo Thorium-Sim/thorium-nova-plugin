@@ -14,37 +14,37 @@ stars:
   - name: Fumalsamakah A
     description: ''
     tags: []
-    radius: 3.6
-    temperature: 15500
     solarMass: 4.7
     age: 362355909281
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 3.6
+    temperature: 15500
     satellite:
-      orbitalArc: 289
-      semiMajorAxis: 43.2
       axialTilt: 0
+      semiMajorAxis: 43.2
       eccentricity: 0
       inclination: 0
+      orbitalArc: 289
       showOrbit: false
       parentId: Fumalsamakah
   - name: Fumalsamakah B
     description: ''
     tags: []
-    radius: 3.6
-    temperature: 15500
     solarMass: 4.7
     age: 362355909281
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 3.6
+    temperature: 15500
     satellite:
-      orbitalArc: 469
-      semiMajorAxis: 43.2
       axialTilt: 0
+      semiMajorAxis: 43.2
       eccentricity: 0
       inclination: 0
+      orbitalArc: 469
       showOrbit: false
       parentId: Fumalsamakah
 planets: []

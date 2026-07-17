@@ -14,89 +14,91 @@ stars:
   - name: Torcular A
     description: ''
     tags: []
-    radius: 14.38
-    temperature: 5004
     solarMass: 3.03
     age: 1347798400904
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.38
+    temperature: 5004
     satellite:
-      orbitalArc: 7
-      semiMajorAxis: 172.56
       axialTilt: 0
+      semiMajorAxis: 172.56
       eccentricity: 0
       inclination: 0
+      orbitalArc: 7
       showOrbit: false
       parentId: Torcular
   - name: Torcular B
     description: ''
     tags: []
-    radius: 14.38
-    temperature: 5004
     solarMass: 3.03
     age: 1347798400904
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.38
+    temperature: 5004
     satellite:
-      orbitalArc: 187
-      semiMajorAxis: 172.56
       axialTilt: 0
+      semiMajorAxis: 172.56
       eccentricity: 0
       inclination: 0
+      orbitalArc: 187
       showOrbit: false
       parentId: Torcular
 planets:
   - name: Torcular 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 389
-      age: 212715067
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.0017628442554022356
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 274
     satellite:
+      axialTilt: 36.88
       semiMajorAxis: 933870450.3333334
       eccentricity: 0.02
       inclination: 0.85
       orbitalArc: 210
-      axialTilt: 36.88
-      parentId: Torcular
       showOrbit: true
-    satellites: []
-  - name: Torcular 2
-    description: ''
-    tags: []
+      parentId: Torcular
     isPlanet:
-      radius: 72
-      age: 199032032
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.011682686973852854
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      age: 212715067
       classification: D
+      radius: 389
+      terranMass: 0.0017628442554022356
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
-    temperature: 368
+    temperature: 274
+    satellites: []
+  - name: Torcular 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 8.35
       semiMajorAxis: 2115204388
       eccentricity: 0.02
       inclination: 1.95
       orbitalArc: 131
-      axialTilt: 8.35
-      parentId: Torcular
       showOrbit: true
+      parentId: Torcular
+    isPlanet:
+      age: 199032032
+      classification: D
+      radius: 72
+      terranMass: 0.011682686973852854
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 368
     satellites: []
 commSatellite: null
 assets: {}

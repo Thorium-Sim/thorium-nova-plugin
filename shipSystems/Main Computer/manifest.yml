@@ -31,6 +31,3 @@ signatureSpikeDuration: 5
 entropyMultiplier: 0.00025
 minDiagnosticEnergyCost: 5
 maxDiagnosticEnergyCost: 15
-defaultPower: 10
-requiredPower: 5
-maxSafePower: 20

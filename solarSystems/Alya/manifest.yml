@@ -14,269 +14,270 @@ stars:
   - name: Alya A
     description: ''
     tags: []
-    radius: 2.21
-    temperature: 8019
     solarMass: 1.94
     age: 5539947040738
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.21
+    temperature: 8019
     satellite:
-      orbitalArc: 155
-      semiMajorAxis: 26.52
       axialTilt: 0
+      semiMajorAxis: 26.52
       eccentricity: 0
       inclination: 0
+      orbitalArc: 155
       showOrbit: false
       parentId: Alya
   - name: Alya B
     description: ''
     tags: []
-    radius: 2.21
-    temperature: 8019
     solarMass: 1.94
     age: 5539947040738
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.21
+    temperature: 8019
     satellite:
-      orbitalArc: 335
-      semiMajorAxis: 26.52
       axialTilt: 0
+      semiMajorAxis: 26.52
       eccentricity: 0
       inclination: 0
+      orbitalArc: 335
       showOrbit: false
       parentId: Alya
 planets:
   - name: Alya 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 606
-      age: 7027730768
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0041183423208911284
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 718
     satellite:
+      axialTilt: 16.58
       semiMajorAxis: 330231771
       eccentricity: 0.01
       inclination: 1.02
       orbitalArc: 148
-      axialTilt: 16.58
-      parentId: Alya
       showOrbit: true
+      parentId: Alya
+    isPlanet:
+      age: 7027730768
+      classification: B
+      radius: 606
+      terranMass: 0.0041183423208911284
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 718
     satellites:
       - name: Alya 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 86.48825279734756
-          age: 764538407
-          ringMapAsset: null
-          terranMass: 1.6000004255646307
-          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1393
         satellite:
+          axialTilt: 39.72
           semiMajorAxis: 24735.6403000414
           eccentricity: 0
           inclination: 0.81
           orbitalArc: 341
-          axialTilt: 39.72
-          parentId: Alya 1
           showOrbit: true
-        satellites: []
+          parentId: Alya 1
+        isPlanet:
+          age: 764538407
+          classification: A
+          radius: 86.48825279734756
+          terranMass: 1.6000004255646307
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1393
   - name: Alya 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 0.1
+      semiMajorAxis: 440545369.33333474
+      eccentricity: 0
+      inclination: 1.12
+      orbitalArc: 95
+      showOrbit: true
+      parentId: Alya
     isPlanet:
-      radius: 5844
       age: 3447222043
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0015116058182929656
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
       classification: G
+      radius: 5844
+      terranMass: 0.0015116058182929656
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
     temperature: 400
-    satellite:
-      semiMajorAxis: 440545369.33333474
-      eccentricity: 0
-      inclination: 1.12
-      orbitalArc: 95
-      axialTilt: 0.1
-      parentId: Alya
-      showOrbit: true
     satellites: []
   - name: Alya 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 7060
-      age: 3334422144
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.018050762141484482
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 110053
-    temperature: 265
     satellite:
+      axialTilt: 31.03
       semiMajorAxis: 758479658.5555592
       eccentricity: 0.01
       inclination: 0.12
       orbitalArc: 346
-      axialTilt: 31.03
-      parentId: Alya
       showOrbit: true
-    satellites: []
-  - name: Alya 4
-    description: ''
-    tags: []
+      parentId: Alya
     isPlanet:
-      radius: 6887
-      age: 4003177432
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.003238629602300615
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      age: 3334422144
       classification: P
+      radius: 7060
+      terranMass: 0.018050762141484482
       isHabitable: true
       lifeforms:
         - Hardy vegetation, animal life, humanoids
       atmosphericComposition: []
-    population: 46329
-    temperature: 263
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 110053
+    temperature: 265
+    satellites: []
+  - name: Alya 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 9.86
       semiMajorAxis: 2374409653.407413
       eccentricity: 0
       inclination: 0.18
       orbitalArc: 258
-      axialTilt: 9.86
-      parentId: Alya
       showOrbit: true
+      parentId: Alya
+    isPlanet:
+      age: 4003177432
+      classification: P
+      radius: 6887
+      terranMass: 0.003238629602300615
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 46329
+    temperature: 263
     satellites:
       - name: Alya 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 800.3914831002107
-          age: 1305808166
-          ringMapAsset: null
-          terranMass: 0.7000001367327625
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 817
         satellite:
+          axialTilt: 13.54
           semiMajorAxis: 211292.94382945378
           eccentricity: 0.01
           inclination: 0.47
           orbitalArc: 335
-          axialTilt: 13.54
-          parentId: Alya 4
           showOrbit: true
-        satellites: []
+          parentId: Alya 4
+        isPlanet:
+          age: 1305808166
+          classification: E
+          radius: 800.3914831002107
+          terranMass: 0.7000001367327625
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 817
       - name: Alya 4b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1425.3785337054937
-          age: 6507203352
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 158845
-        temperature: 263
         satellite:
+          axialTilt: 20.31
           semiMajorAxis: 381574.54222430015
           eccentricity: 0.01
           inclination: 1.1
           orbitalArc: 122
-          axialTilt: 20.31
-          parentId: Alya 4
           showOrbit: true
-        satellites: []
+          parentId: Alya 4
+        isPlanet:
+          age: 6507203352
+          classification: P
+          radius: 1425.3785337054937
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 158845
+        temperature: 263
       - name: Alya 4c
         description: ''
         tags: []
-        isPlanet:
-          radius: 1385.5205070991701
-          age: 5300178304
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 4522202084
-        temperature: 295
         satellite:
+          axialTilt: 16.68
           semiMajorAxis: 494630.82103440375
           eccentricity: 0.02
           inclination: 1.84
           orbitalArc: 151
-          axialTilt: 16.68
-          parentId: Alya 4
           showOrbit: true
-        satellites: []
+          parentId: Alya 4
+        isPlanet:
+          age: 5300178304
+          classification: M
+          radius: 1385.5205070991701
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 4522202084
+        temperature: 295
   - name: Alya 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 225
-      age: 871826061
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.011109409262573635
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 237
     satellite:
+      axialTilt: 37.9
       semiMajorAxis: 3257320140
       eccentricity: 0
       inclination: 0.6
       orbitalArc: 189
-      axialTilt: 37.9
-      parentId: Alya
       showOrbit: true
+      parentId: Alya
+    isPlanet:
+      age: 871826061
+      classification: D
+      radius: 225
+      terranMass: 0.011109409262573635
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 237
     satellites: []
 commSatellite: null
 assets: {}

@@ -14,118 +14,118 @@ stars:
   - name: Albireo A
     description: ''
     tags: []
-    radius: 58.69
-    temperature: 4383
     solarMass: 5.2
     age: 235916614039
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 58.69
+    temperature: 4383
     satellite:
-      orbitalArc: 89
-      semiMajorAxis: 704.28
       axialTilt: 0
+      semiMajorAxis: 704.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 89
       showOrbit: false
       parentId: Albireo
   - name: Albireo B
     description: ''
     tags: []
-    radius: 58.69
-    temperature: 4383
     solarMass: 5.2
     age: 235916614039
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 58.69
+    temperature: 4383
     satellite:
-      orbitalArc: 269
-      semiMajorAxis: 704.28
       axialTilt: 0
+      semiMajorAxis: 704.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 269
       showOrbit: false
       parentId: Albireo
 planets:
   - name: Albireo 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 412
-      age: 178583085
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.002101819862827544
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 267
     satellite:
+      axialTilt: 2.46
       semiMajorAxis: 2071184238.3333333
       eccentricity: 0
       inclination: 1.06
       orbitalArc: 183
-      axialTilt: 2.46
-      parentId: Albireo
       showOrbit: true
+      parentId: Albireo
+    isPlanet:
+      age: 178583085
+      classification: D
+      radius: 412
+      terranMass: 0.002101819862827544
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 267
     satellites: []
   - name: Albireo 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 15.65
+      semiMajorAxis: 4000000000
+      eccentricity: 0
+      inclination: 0.73
+      orbitalArc: 182
+      showOrbit: true
+      parentId: Albireo
     isPlanet:
-      radius: 69498
       age: 7167779783
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.784079064999027
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
       classification: J
+      radius: 69498
+      terranMass: 0.784079064999027
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 335
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0
-      inclination: 0.73
-      orbitalArc: 182
-      axialTilt: 15.65
-      parentId: Albireo
-      showOrbit: true
     satellites:
       - name: Albireo 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 3903.8434125613294
-          age: 9447637427
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 124180
-        temperature: 258
         satellite:
+          axialTilt: 27.62
           semiMajorAxis: 1460037.4362979373
           eccentricity: 0.01
           inclination: 1.73
           orbitalArc: 152
-          axialTilt: 27.62
-          parentId: Albireo 2
           showOrbit: true
-        satellites: []
+          parentId: Albireo 2
+        isPlanet:
+          age: 9447637427
+          classification: P
+          radius: 3903.8434125613294
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 124180
+        temperature: 258
 commSatellite: null
 assets: {}

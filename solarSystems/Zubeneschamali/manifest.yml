@@ -14,67 +14,67 @@ stars:
   - name: Zubeneschamali A
     description: ''
     tags: []
-    radius: 4.77
-    temperature: 11900
     solarMass: 3.5
     age: 442397562189
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.77
+    temperature: 11900
     satellite:
-      orbitalArc: 213
-      semiMajorAxis: 57.239999999999995
       axialTilt: 0
+      semiMajorAxis: 57.239999999999995
       eccentricity: 0
       inclination: 0
+      orbitalArc: 213
       showOrbit: false
       parentId: Zubeneschamali
   - name: Zubeneschamali B
     description: ''
     tags: []
-    radius: 4.77
-    temperature: 11900
     solarMass: 3.5
     age: 442397562189
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.77
+    temperature: 11900
     satellite:
-      orbitalArc: 393
-      semiMajorAxis: 57.239999999999995
       axialTilt: 0
+      semiMajorAxis: 57.239999999999995
       eccentricity: 0
       inclination: 0
+      orbitalArc: 393
       showOrbit: false
       parentId: Zubeneschamali
 planets:
   - name: Zubeneschamali 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.34
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 1.64
+      orbitalArc: 282
+      showOrbit: true
+      parentId: Zubeneschamali
     isPlanet:
-      radius: 47014
       age: 4583334305
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.8818879572807085
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 47014
+      terranMass: 0.8818879572807085
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
     temperature: 186
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0.02
-      inclination: 1.64
-      orbitalArc: 282
-      axialTilt: 23.34
-      parentId: Zubeneschamali
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

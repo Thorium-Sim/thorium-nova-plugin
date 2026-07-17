@@ -1,0 +1,70 @@
+apiVersion: timeline/v1
+kind: reports
+name: Mini Engineering Panel
+description: A report for repairing damaged systems using Engineering Panel cards
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - checks:
+      - component: isPanel
+        property: shipId
+        value: $shipId
+    match: any
+    persist: false
+    triggerBlocks:
+      - id: blo-mrnz599h20
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mrnz4kfd5s
+    type: EntityCondition
+autoApplyWhenCompleted: true
+steps:
+  - id: dr-mrnxm4ty1a
+    name: Step 1
+    description: |-
+      Complete the following steps on the {panelName} panel.
+
+      {instructions}
+    tags: []
+    blocks:
+      - action: engineeringPanels.generateAssignment
+        values:
+          damageReportId: $damageReportId
+          elementCount: '5'
+        id: blo-mrnxncvs5o
+        type: Action
+      - property: assignmentId
+        variable: assignmentId
+        id: blo-mrnxnpf31u
+        type: ResultPropertyIntoVariable
+      - property: instructions
+        variable: instructions
+        id: blo-mrnxnubf65
+        type: ResultPropertyIntoVariable
+      - property: panelName
+        variable: panelName
+        id: blo-mrnxnyw84b
+        type: ResultPropertyIntoVariable
+      - event: engineeringPanels.completeAssignment
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mrnxo9ff0n
+            type: ResultPropertyIntoVariable
+            property: assignmentId
+            variable: eventAssignmentId
+          - id: blo-mrnxoeeg3m
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: eventAssignmentId
+                value2: assignmentId
+            triggerBlocks:
+              - id: blo-mrnxoko76s
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mrnxo55h6m
+        type: EventCondition

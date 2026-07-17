@@ -14,168 +14,168 @@ stars:
   - name: Kang A
     description: ''
     tags: []
-    radius: 25.41
-    temperature: 4235
     solarMass: 1.46
     age: 405414382294
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 25.41
+    temperature: 4235
     satellite:
-      orbitalArc: 171
-      semiMajorAxis: 304.92
       axialTilt: 0
+      semiMajorAxis: 304.92
       eccentricity: 0
       inclination: 0
+      orbitalArc: 171
       showOrbit: false
       parentId: Kang
   - name: Kang B
     description: ''
     tags: []
-    radius: 25.41
-    temperature: 4235
     solarMass: 1.46
     age: 405414382294
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 25.41
+    temperature: 4235
     satellite:
-      orbitalArc: 351
-      semiMajorAxis: 304.92
       axialTilt: 0
+      semiMajorAxis: 304.92
       eccentricity: 0
       inclination: 0
+      orbitalArc: 351
       showOrbit: false
       parentId: Kang
 planets:
   - name: Kang 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 487
-      age: 489103448
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.017209343806211277
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 168
     satellite:
+      axialTilt: 23.78
       semiMajorAxis: 1038207813.333334
       eccentricity: 0.01
       inclination: 1.12
       orbitalArc: 216
-      axialTilt: 23.78
-      parentId: Kang
       showOrbit: true
+      parentId: Kang
+    isPlanet:
+      age: 489103448
+      classification: D
+      radius: 487
+      terranMass: 0.017209343806211277
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 168
     satellites: []
   - name: Kang 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5010
-      age: 8988890993
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.006904945388530601
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 130703
-    temperature: 257
     satellite:
+      axialTilt: 27.1
       semiMajorAxis: 2216640756.111111
       eccentricity: 0.02
       inclination: 1.42
       orbitalArc: 2
-      axialTilt: 27.1
-      parentId: Kang
       showOrbit: true
+      parentId: Kang
+    isPlanet:
+      age: 8988890993
+      classification: P
+      radius: 5010
+      terranMass: 0.006904945388530601
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 130703
+    temperature: 257
     satellites:
       - name: Kang 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 15.51
+          semiMajorAxis: 156800.8585507719
+          eccentricity: 0.02
+          inclination: 0.18
+          orbitalArc: 121
+          showOrbit: true
+          parentId: Kang 2
         isPlanet:
-          radius: 517.0361328510419
           age: 4219574136
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 0.10000007001389646
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 517.0361328510419
+          terranMass: 0.10000007001389646
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 19678
         temperature: 145
-        satellite:
-          semiMajorAxis: 156800.8585507719
-          eccentricity: 0.02
-          inclination: 0.18
-          orbitalArc: 121
-          axialTilt: 15.51
-          parentId: Kang 2
-          showOrbit: true
-        satellites: []
       - name: Kang 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1028.9972269440764
-          age: 9751192326
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 57605
-        temperature: 264
         satellite:
+          axialTilt: 22.51
           semiMajorAxis: 257249.3067360191
           eccentricity: 0.02
           inclination: 0.51
           orbitalArc: 69
-          axialTilt: 22.51
-          parentId: Kang 2
           showOrbit: true
-        satellites: []
+          parentId: Kang 2
+        isPlanet:
+          age: 9751192326
+          classification: P
+          radius: 1028.9972269440764
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 57605
+        temperature: 264
   - name: Kang 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 463
-      age: 124090101
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.004067385996344727
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 187
     satellite:
+      axialTilt: 1.77
       semiMajorAxis: 3679085608
       eccentricity: 0
       inclination: 0.46
       orbitalArc: 53
-      axialTilt: 1.77
-      parentId: Kang
       showOrbit: true
+      parentId: Kang
+    isPlanet:
+      age: 124090101
+      classification: D
+      radius: 463
+      terranMass: 0.004067385996344727
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 187
     satellites: []
 commSatellite: null
 assets: {}

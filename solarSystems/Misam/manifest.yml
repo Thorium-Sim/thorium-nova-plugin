@@ -14,167 +14,170 @@ stars:
   - name: Misam A
     description: ''
     tags: []
-    radius: 9
-    temperature: 4857
     solarMass: 1.5
     age: 1919124327439
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 9
+    temperature: 4857
     satellite:
-      orbitalArc: 128
-      semiMajorAxis: 108
       axialTilt: 0
+      semiMajorAxis: 108
       eccentricity: 0
       inclination: 0
+      orbitalArc: 128
       showOrbit: false
       parentId: Misam
   - name: Misam B
     description: ''
     tags: []
-    radius: 9
-    temperature: 4857
     solarMass: 1.5
     age: 1919124327439
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 9
+    temperature: 4857
     satellite:
-      orbitalArc: 308
-      semiMajorAxis: 108
       axialTilt: 0
+      semiMajorAxis: 108
       eccentricity: 0
       inclination: 0
+      orbitalArc: 308
       showOrbit: false
       parentId: Misam
 planets:
   - name: Misam 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5857
-      age: 7115401693
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.011429997889541554
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 571996838
-    temperature: 294
     satellite:
+      axialTilt: 5.24
       semiMajorAxis: 463099964.9999996
       eccentricity: 0.02
       inclination: 0.56
       orbitalArc: 9
-      axialTilt: 5.24
-      parentId: Misam
       showOrbit: true
+      parentId: Misam
+    isPlanet:
+      age: 7115401693
+      classification: O
+      radius: 5857
+      terranMass: 0.011429997889541554
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 571996838
+    temperature: 294
     satellites: []
   - name: Misam 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6344
-      age: 5777703944
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.009441607768400946
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 90691
-    temperature: 259
     satellite:
+      axialTilt: 28.1
       semiMajorAxis: 784188135.6666652
       eccentricity: 0
       inclination: 1.88
       orbitalArc: 316
-      axialTilt: 28.1
-      parentId: Misam
       showOrbit: true
+      parentId: Misam
+    isPlanet:
+      age: 5777703944
+      classification: P
+      radius: 6344
+      terranMass: 0.009441607768400946
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 90691
+    temperature: 259
     satellites: []
   - name: Misam 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 29.33
+      semiMajorAxis: 1648586315.8888867
+      eccentricity: 0.01
+      inclination: 0.59
+      orbitalArc: 33
+      showOrbit: true
+      parentId: Misam
     isPlanet:
-      radius: 5970
       age: 3613875603
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.009896053269597714
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
       classification: G
+      radius: 5970
+      terranMass: 0.009896053269597714
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
     temperature: 507
-    satellite:
-      semiMajorAxis: 1648586315.8888867
-      eccentricity: 0.01
-      inclination: 0.59
-      orbitalArc: 33
-      axialTilt: 29.33
-      parentId: Misam
-      showOrbit: true
     satellites: []
   - name: Misam 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 384
-      age: 519698121
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0009650532524284093
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 392
     satellite:
+      axialTilt: 6.41
       semiMajorAxis: 2573545544.518515
       eccentricity: 0.02
       inclination: 1.6
       orbitalArc: 167
-      axialTilt: 6.41
-      parentId: Misam
       showOrbit: true
-    satellites: []
-  - name: Misam 5
-    description: ''
-    tags: []
+      parentId: Misam
     isPlanet:
-      radius: 90
-      age: 900684590
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.001192643615450821
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      age: 519698121
       classification: D
+      radius: 384
+      terranMass: 0.0009650532524284093
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
-    temperature: 259
+    temperature: 392
+    satellites: []
+  - name: Misam 5
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 3.17
       semiMajorAxis: 3102392764
       eccentricity: 0.02
       inclination: 0.33
       orbitalArc: 57
-      axialTilt: 3.17
-      parentId: Misam
       showOrbit: true
+      parentId: Misam
+    isPlanet:
+      age: 900684590
+      classification: D
+      radius: 90
+      terranMass: 0.001192643615450821
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 259
     satellites: []
 commSatellite: null
 assets: {}

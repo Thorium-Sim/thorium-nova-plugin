@@ -16,3 +16,4 @@ flags:
   torpedoGuidance:
     color: tomato
     guidanceMode: infrared
+    range: 5000

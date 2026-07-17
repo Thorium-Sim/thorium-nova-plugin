@@ -14,247 +14,246 @@ stars:
   - name: Beid A
     description: ''
     tags: []
-    radius: 3.7
-    temperature: 6963
     solarMass: 1.95
     age: 3494739968782
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 3.7
+    temperature: 6963
     satellite:
-      orbitalArc: 109
-      semiMajorAxis: 44.400000000000006
       axialTilt: 0
+      semiMajorAxis: 44.400000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 109
       showOrbit: false
       parentId: Beid
   - name: Beid B
     description: ''
     tags: []
-    radius: 3.7
-    temperature: 6963
     solarMass: 1.95
     age: 3494739968782
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 3.7
+    temperature: 6963
     satellite:
-      orbitalArc: 289
-      semiMajorAxis: 44.400000000000006
       axialTilt: 0
+      semiMajorAxis: 44.400000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 289
       showOrbit: false
       parentId: Beid
 planets:
   - name: Beid 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 2691
-      age: 7113124344
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.01957398262872296
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 701
     satellite:
+      axialTilt: 29.16
       semiMajorAxis: 1044059742.6666666
       eccentricity: 0
       inclination: 1.06
       orbitalArc: 69
-      axialTilt: 29.16
-      parentId: Beid
       showOrbit: true
-    satellites:
-      - name: Beid 1a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 625.6941231676947
-          age: 681132420
-          ringMapAsset: null
-          terranMass: 1.4000000182867884
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 52
-        satellite:
-          semiMajorAxis: 275931.10831695335
-          eccentricity: 0.01
-          inclination: 1.77
-          orbitalArc: 243
-          axialTilt: 11.22
-          parentId: Beid 1
-          showOrbit: true
-        satellites: []
-  - name: Beid 2
-    description: ''
-    tags: []
+      parentId: Beid
     isPlanet:
-      radius: 1194
-      age: 609305348
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.011293827897499015
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
+      age: 7113124344
+      classification: B
+      radius: 2691
+      terranMass: 0.01957398262872296
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
-    temperature: 41
+    temperature: 701
+    satellites:
+      - name: Beid 1a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 11.22
+          semiMajorAxis: 275931.10831695335
+          eccentricity: 0.01
+          inclination: 1.77
+          orbitalArc: 243
+          showOrbit: true
+          parentId: Beid 1
+        isPlanet:
+          age: 681132420
+          classification: C
+          radius: 625.6941231676947
+          terranMass: 1.4000000182867884
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 52
+  - name: Beid 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 0.43
       semiMajorAxis: 1744562874.777778
       eccentricity: 0.02
       inclination: 0.9
       orbitalArc: 9
-      axialTilt: 0.43
-      parentId: Beid
       showOrbit: true
+      parentId: Beid
+    isPlanet:
+      age: 609305348
+      classification: C
+      radius: 1194
+      terranMass: 0.011293827897499015
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 41
     satellites:
       - name: Beid 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 31.34
+          semiMajorAxis: 34389.31015672961
+          eccentricity: 0
+          inclination: 0.32
+          orbitalArc: 145
+          showOrbit: true
+          parentId: Beid 2
         isPlanet:
-          radius: 77.55077683628788
           age: 6249248947
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 2.1000000707654936
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 77.55077683628788
+          terranMass: 2.1000000707654936
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 22637
         temperature: 280
-        satellite:
-          semiMajorAxis: 34389.31015672961
-          eccentricity: 0
-          inclination: 0.32
-          orbitalArc: 145
-          axialTilt: 31.34
-          parentId: Beid 2
-          showOrbit: true
-        satellites: []
       - name: Beid 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 190.97926050729103
-          age: 6268077523
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 6975836034
-        temperature: 298
         satellite:
+          axialTilt: 18.11
           semiMajorAxis: 41888.0976822852
           eccentricity: 0.01
           inclination: 1.55
           orbitalArc: 63
-          axialTilt: 18.11
-          parentId: Beid 2
           showOrbit: true
-        satellites: []
+          parentId: Beid 2
+        isPlanet:
+          age: 6268077523
+          classification: M
+          radius: 190.97926050729103
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 6975836034
+        temperature: 298
       - name: Beid 2c
         description: ''
         tags: []
-        isPlanet:
-          radius: 112.15328847986024
-          age: 625467066
-          ringMapAsset: null
-          terranMass: 1.300000013717494
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1286
         satellite:
+          axialTilt: 6.89
           semiMajorAxis: 54170.03833577249
           eccentricity: 0.02
           inclination: 1.24
           orbitalArc: 18
-          axialTilt: 6.89
-          parentId: Beid 2
           showOrbit: true
-        satellites: []
+          parentId: Beid 2
+        isPlanet:
+          age: 625467066
+          classification: E
+          radius: 112.15328847986024
+          terranMass: 1.300000013717494
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1286
   - name: Beid 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 31.2
+      semiMajorAxis: 2280777629
+      eccentricity: 0.02
+      inclination: 1.57
+      orbitalArc: 4
+      showOrbit: true
+      parentId: Beid
     isPlanet:
-      radius: 40403
       age: 4264132292
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.9124883683916388
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
       classification: J
+      radius: 40403
+      terranMass: 0.9124883683916388
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 169
-    satellite:
-      semiMajorAxis: 2280777629
-      eccentricity: 0.02
-      inclination: 1.57
-      orbitalArc: 4
-      axialTilt: 31.2
-      parentId: Beid
-      showOrbit: true
     satellites:
       - name: Beid 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 4.37
+          semiMajorAxis: 1559082.7406299678
+          eccentricity: 0.01
+          inclination: 0.78
+          orbitalArc: 203
+          showOrbit: true
+          parentId: Beid 3
         isPlanet:
-          radius: 3535.3350127663666
           age: 4761081299
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 2.300000140789383
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 3535.3350127663666
+          terranMass: 2.300000140789383
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 27478
         temperature: 268
-        satellite:
-          semiMajorAxis: 1559082.7406299678
-          eccentricity: 0.01
-          inclination: 0.78
-          orbitalArc: 203
-          axialTilt: 4.37
-          parentId: Beid 3
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

@@ -14,66 +14,66 @@ stars:
   - name: Gomeisa A
     description: ''
     tags: []
-    radius: 4.12
-    temperature: 11772
     solarMass: 3.64
     age: 643984215034
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.12
+    temperature: 11772
     satellite:
-      orbitalArc: 0
-      semiMajorAxis: 49.44
       axialTilt: 0
+      semiMajorAxis: 49.44
       eccentricity: 0
       inclination: 0
+      orbitalArc: 0
       showOrbit: false
       parentId: Gomeisa
   - name: Gomeisa B
     description: ''
     tags: []
-    radius: 4.12
-    temperature: 11772
     solarMass: 3.64
     age: 643984215034
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.12
+    temperature: 11772
     satellite:
-      orbitalArc: 180
-      semiMajorAxis: 49.44
       axialTilt: 0
+      semiMajorAxis: 49.44
       eccentricity: 0
       inclination: 0
+      orbitalArc: 180
       showOrbit: false
       parentId: Gomeisa
 planets:
   - name: Gomeisa 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 30.14
+      semiMajorAxis: 2914077202
+      eccentricity: 0.02
+      inclination: 0.01
+      orbitalArc: 215
+      showOrbit: true
+      parentId: Gomeisa
     isPlanet:
-      radius: 4677
       age: 5307480081
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.012149654445328197
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4677
+      terranMass: 0.012149654445328197
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 22664
     temperature: 128
-    satellite:
-      semiMajorAxis: 2914077202
-      eccentricity: 0.02
-      inclination: 0.01
-      orbitalArc: 215
-      axialTilt: 30.14
-      parentId: Gomeisa
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

@@ -14,89 +14,91 @@ stars:
   - name: Nihal A
     description: ''
     tags: []
-    radius: 15.9
-    temperature: 5434
     solarMass: 3.5
     age: 915723888597
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 15.9
+    temperature: 5434
     satellite:
-      orbitalArc: 33
-      semiMajorAxis: 190.8
       axialTilt: 0
+      semiMajorAxis: 190.8
       eccentricity: 0
       inclination: 0
+      orbitalArc: 33
       showOrbit: false
       parentId: Nihal
   - name: Nihal B
     description: ''
     tags: []
-    radius: 15.9
-    temperature: 5434
     solarMass: 3.5
     age: 915723888597
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 15.9
+    temperature: 5434
     satellite:
-      orbitalArc: 213
-      semiMajorAxis: 190.8
       axialTilt: 0
+      semiMajorAxis: 190.8
       eccentricity: 0
       inclination: 0
+      orbitalArc: 213
       showOrbit: false
       parentId: Nihal
 planets:
   - name: Nihal 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 177
-      age: 515098881
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.018143792297808988
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 279
     satellite:
+      axialTilt: 16.44
       semiMajorAxis: 2055062465
       eccentricity: 0.01
       inclination: 1.47
       orbitalArc: 113
-      axialTilt: 16.44
-      parentId: Nihal
       showOrbit: true
-    satellites: []
-  - name: Nihal 2
-    description: ''
-    tags: []
+      parentId: Nihal
     isPlanet:
-      radius: 324
-      age: 455860787
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.016075723649349925
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      age: 515098881
       classification: D
+      radius: 177
+      terranMass: 0.018143792297808988
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
-    temperature: 213
+    temperature: 279
+    satellites: []
+  - name: Nihal 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 15.26
       semiMajorAxis: 3545324043
       eccentricity: 0.01
       inclination: 0.66
       orbitalArc: 58
-      axialTilt: 15.26
-      parentId: Nihal
       showOrbit: true
+      parentId: Nihal
+    isPlanet:
+      age: 455860787
+      classification: D
+      radius: 324
+      terranMass: 0.016075723649349925
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 213
     satellites: []
 commSatellite: null
 assets: {}

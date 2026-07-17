@@ -14,64 +14,65 @@ stars:
   - name: Ain A
     description: ''
     tags: []
-    radius: 12.46
-    temperature: 4880
     solarMass: 2.458
     age: 1610036754356
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 12.46
+    temperature: 4880
     satellite:
-      orbitalArc: 239
-      semiMajorAxis: 149.52
       axialTilt: 0
+      semiMajorAxis: 149.52
       eccentricity: 0
       inclination: 0
+      orbitalArc: 239
       showOrbit: false
       parentId: Ain
   - name: Ain B
     description: ''
     tags: []
-    radius: 12.46
-    temperature: 4880
     solarMass: 2.458
     age: 1610036754356
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 12.46
+    temperature: 4880
     satellite:
-      orbitalArc: 419
-      semiMajorAxis: 149.52
       axialTilt: 0
+      semiMajorAxis: 149.52
       eccentricity: 0
       inclination: 0
+      orbitalArc: 419
       showOrbit: false
       parentId: Ain
 planets:
   - name: Ain 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 443
-      age: 128352827
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0038262106052195963
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 306
     satellite:
+      axialTilt: 35.55
       semiMajorAxis: 1413101128
       eccentricity: 0
       inclination: 0.9
       orbitalArc: 244
-      axialTilt: 35.55
-      parentId: Ain
       showOrbit: true
+      parentId: Ain
+    isPlanet:
+      age: 128352827
+      classification: D
+      radius: 443
+      terranMass: 0.0038262106052195963
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 306
     satellites: []
 commSatellite: null
 assets: {}

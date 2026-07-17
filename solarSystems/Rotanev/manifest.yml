@@ -14,170 +14,172 @@ stars:
   - name: Rotanev A
     description: ''
     tags: []
-    radius: 3.7695
-    temperature: 6587
     solarMass: 1.75
     age: 3773020666827
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 3.7695
+    temperature: 6587
     satellite:
-      orbitalArc: 170
-      semiMajorAxis: 45.233999999999995
       axialTilt: 0
+      semiMajorAxis: 45.233999999999995
       eccentricity: 0
       inclination: 0
+      orbitalArc: 170
       showOrbit: false
       parentId: Rotanev
   - name: Rotanev B
     description: ''
     tags: []
-    radius: 3.7695
-    temperature: 6587
     solarMass: 1.75
     age: 3773020666827
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 3.7695
+    temperature: 6587
     satellite:
-      orbitalArc: 350
-      semiMajorAxis: 45.233999999999995
       axialTilt: 0
+      semiMajorAxis: 45.233999999999995
       eccentricity: 0
       inclination: 0
+      orbitalArc: 350
       showOrbit: false
       parentId: Rotanev
 planets:
   - name: Rotanev 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 258
-      age: 588049701
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.0025136897543540245
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 167
     satellite:
+      axialTilt: 0.02
       semiMajorAxis: 232603657
       eccentricity: 0.01
       inclination: 0.97
       orbitalArc: 265
-      axialTilt: 0.02
-      parentId: Rotanev
       showOrbit: true
+      parentId: Rotanev
+    isPlanet:
+      age: 588049701
+      classification: D
+      radius: 258
+      terranMass: 0.0025136897543540245
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 167
     satellites: []
   - name: Rotanev 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 9.15
+      semiMajorAxis: 383352199
+      eccentricity: 0
+      inclination: 1.79
+      orbitalArc: 232
+      showOrbit: true
+      parentId: Rotanev
     isPlanet:
-      radius: 7346
       age: 6822445328
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.009863952603194432
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 7346
+      terranMass: 0.009863952603194432
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
     temperature: 554
-    satellite:
-      semiMajorAxis: 383352199
-      eccentricity: 0
-      inclination: 1.79
-      orbitalArc: 232
-      axialTilt: 9.15
-      parentId: Rotanev
-      showOrbit: true
     satellites: []
   - name: Rotanev 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 4.67
+      semiMajorAxis: 2039151084.6666658
+      eccentricity: 0.01
+      inclination: 1.25
+      orbitalArc: 339
+      showOrbit: true
+      parentId: Rotanev
     isPlanet:
-      radius: 6240
       age: 9062235888
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.01343718283802844
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 6240
+      terranMass: 0.01343718283802844
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 46620
     temperature: 150
-    satellite:
-      semiMajorAxis: 2039151084.6666658
-      eccentricity: 0.01
-      inclination: 1.25
-      orbitalArc: 339
-      axialTilt: 4.67
-      parentId: Rotanev
-      showOrbit: true
     satellites:
       - name: Rotanev 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 9.64
+          semiMajorAxis: 705444.67512739
+          eccentricity: 0
+          inclination: 0.02
+          orbitalArc: 268
+          showOrbit: true
+          parentId: Rotanev 3
         isPlanet:
-          radius: 1460.547981630207
           age: 3842800945
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
           classification: G
+          radius: 1460.547981630207
+          terranMass: 0.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 481
-        satellite:
-          semiMajorAxis: 705444.67512739
-          eccentricity: 0
-          inclination: 0.02
-          orbitalArc: 268
-          axialTilt: 9.64
-          parentId: Rotanev 3
-          showOrbit: true
-        satellites: []
   - name: Rotanev 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 149
-      age: 626474733
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.003827209508269459
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 385
     satellite:
+      axialTilt: 28.66
       semiMajorAxis: 3696512186
       eccentricity: 0.01
       inclination: 1.31
       orbitalArc: 322
-      axialTilt: 28.66
-      parentId: Rotanev
       showOrbit: true
+      parentId: Rotanev
+    isPlanet:
+      age: 626474733
+      classification: D
+      radius: 149
+      terranMass: 0.003827209508269459
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 385
     satellites: []
 commSatellite: null
 assets: {}

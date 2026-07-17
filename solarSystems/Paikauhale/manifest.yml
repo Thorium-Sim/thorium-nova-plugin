@@ -14,349 +14,351 @@ stars:
   - name: Paikauhale A
     description: ''
     tags: []
-    radius: 6.42
-    temperature: 28862
     solarMass: 15
     age: 30247173533
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 6.42
+    temperature: 28862
     satellite:
-      orbitalArc: 166
-      semiMajorAxis: 77.03999999999999
       axialTilt: 0
+      semiMajorAxis: 77.03999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 166
       showOrbit: false
       parentId: Paikauhale
   - name: Paikauhale B
     description: ''
     tags: []
-    radius: 6.42
-    temperature: 28862
     solarMass: 15
     age: 30247173533
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 6.42
+    temperature: 28862
     satellite:
-      orbitalArc: 346
-      semiMajorAxis: 77.03999999999999
       axialTilt: 0
+      semiMajorAxis: 77.03999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 346
       showOrbit: false
       parentId: Paikauhale
 planets:
   - name: Paikauhale 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 33.91
+      semiMajorAxis: 3502896149.6666665
+      eccentricity: 0.01
+      inclination: 1.45
+      orbitalArc: 59
+      showOrbit: true
+      parentId: Paikauhale
     isPlanet:
-      radius: 54162
       age: 8272789775
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.130333608005972
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 54162
+      terranMass: 0.130333608005972
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 281
-    satellite:
-      semiMajorAxis: 3502896149.6666665
-      eccentricity: 0.01
-      inclination: 1.45
-      orbitalArc: 59
-      axialTilt: 33.91
-      parentId: Paikauhale
-      showOrbit: true
     satellites: []
   - name: Paikauhale 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 273
-      age: 67924694
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.004778635704869422
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 360
     satellite:
+      axialTilt: 15.41
       semiMajorAxis: 5138911891.111111
       eccentricity: 0.02
       inclination: 1.08
       orbitalArc: 236
-      axialTilt: 15.41
-      parentId: Paikauhale
       showOrbit: true
+      parentId: Paikauhale
+    isPlanet:
+      age: 67924694
+      classification: D
+      radius: 273
+      terranMass: 0.004778635704869422
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 360
     satellites: []
   - name: Paikauhale 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 2557
-      age: 305828348
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.004522424644367745
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 50
     satellite:
+      axialTilt: 24.68
       semiMajorAxis: 8402945374.740741
       eccentricity: 0
       inclination: 0.72
       orbitalArc: 270
-      axialTilt: 24.68
-      parentId: Paikauhale
       showOrbit: true
-    satellites:
-      - name: Paikauhale 3a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 306.80714099003404
-          age: 341314469
-          ringMapAsset: null
-          terranMass: 1.049999795710381
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 176
-        satellite:
-          semiMajorAxis: 60904.2457086815
-          eccentricity: 0
-          inclination: 1.15
-          orbitalArc: 142
-          axialTilt: 31.43
-          parentId: Paikauhale 3
-          showOrbit: true
-        satellites: []
-      - name: Paikauhale 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 241.003910095816
-          age: 758521104
-          ringMapAsset: null
-          terranMass: 0.6000001429200362
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 37
-        satellite:
-          semiMajorAxis: 111102.80255417117
-          eccentricity: 0
-          inclination: 1.79
-          orbitalArc: 130
-          axialTilt: 34.77
-          parentId: Paikauhale 3
-          showOrbit: true
-        satellites: []
-  - name: Paikauhale 4
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 7298
-      age: 9924865082
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0066982768911660814
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
-      classification: L
-      isHabitable: true
-      lifeforms:
-        - Primitive single-celled organisms
-        - Hardy plant life
-      atmosphericComposition: []
-    population: 3900
-    temperature: 196
-    satellite:
-      semiMajorAxis: 10321558494.740742
-      eccentricity: 0.02
-      inclination: 0.69
-      orbitalArc: 358
-      axialTilt: 27.17
       parentId: Paikauhale
-      showOrbit: true
-    satellites:
-      - name: Paikauhale 4a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1069.0211415257122
-          age: 50909103
-          ringMapAsset: null
-          terranMass: 0.5599997145319742
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 349
-        satellite:
-          semiMajorAxis: 348409.6332278624
-          eccentricity: 0.02
-          inclination: 0.44
-          orbitalArc: 71
-          axialTilt: 33.35
-          parentId: Paikauhale 4
-          showOrbit: true
-        satellites: []
-      - name: Paikauhale 4b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1697.0251972115425
-          age: 4924031642
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-          classification: 'N'
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 275404694
-        temperature: 556
-        satellite:
-          semiMajorAxis: 777237.5403228864
-          eccentricity: 0.01
-          inclination: 1.96
-          orbitalArc: 94
-          axialTilt: 27.22
-          parentId: Paikauhale 4
-          showOrbit: true
-        satellites: []
-  - name: Paikauhale 5
-    description: ''
-    tags: []
     isPlanet:
-      radius: 7216
-      age: 1684162246
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.008516791355512667
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
+      age: 305828348
+      classification: C
+      radius: 2557
+      terranMass: 0.004522424644367745
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
-    temperature: 1181
-    satellite:
-      semiMajorAxis: 11582992427.23457
-      eccentricity: 0.02
-      inclination: 1.83
-      orbitalArc: 195
-      axialTilt: 6.84
-      parentId: Paikauhale
-      showOrbit: true
-    satellites: []
-  - name: Paikauhale 6
+    temperature: 50
+    satellites:
+      - name: Paikauhale 3a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 31.43
+          semiMajorAxis: 60904.2457086815
+          eccentricity: 0
+          inclination: 1.15
+          orbitalArc: 142
+          showOrbit: true
+          parentId: Paikauhale 3
+        isPlanet:
+          age: 341314469
+          classification: D
+          radius: 306.80714099003404
+          terranMass: 1.049999795710381
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 176
+      - name: Paikauhale 3b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 34.77
+          semiMajorAxis: 111102.80255417117
+          eccentricity: 0
+          inclination: 1.79
+          orbitalArc: 130
+          showOrbit: true
+          parentId: Paikauhale 3
+        isPlanet:
+          age: 758521104
+          classification: C
+          radius: 241.003910095816
+          terranMass: 0.6000001429200362
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 37
+  - name: Paikauhale 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 27.17
+      semiMajorAxis: 10321558494.740742
+      eccentricity: 0.02
+      inclination: 0.69
+      orbitalArc: 358
+      showOrbit: true
+      parentId: Paikauhale
     isPlanet:
-      radius: 5114
-      age: 7193213397
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.020026676030310882
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      age: 9924865082
       classification: L
+      radius: 7298
+      terranMass: 0.0066982768911660814
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
-    population: 20988
-    temperature: 282
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 3900
+    temperature: 196
+    satellites:
+      - name: Paikauhale 4a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 33.35
+          semiMajorAxis: 348409.6332278624
+          eccentricity: 0.02
+          inclination: 0.44
+          orbitalArc: 71
+          showOrbit: true
+          parentId: Paikauhale 4
+        isPlanet:
+          age: 50909103
+          classification: D
+          radius: 1069.0211415257122
+          terranMass: 0.5599997145319742
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 349
+      - name: Paikauhale 4b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 27.22
+          semiMajorAxis: 777237.5403228864
+          eccentricity: 0.01
+          inclination: 1.96
+          orbitalArc: 94
+          showOrbit: true
+          parentId: Paikauhale 4
+        isPlanet:
+          age: 4924031642
+          classification: 'N'
+          radius: 1697.0251972115425
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 275404694
+        temperature: 556
+  - name: Paikauhale 5
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 6.84
+      semiMajorAxis: 11582992427.23457
+      eccentricity: 0.02
+      inclination: 1.83
+      orbitalArc: 195
+      showOrbit: true
+      parentId: Paikauhale
+    isPlanet:
+      age: 1684162246
+      classification: E
+      radius: 7216
+      terranMass: 0.008516791355512667
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 1181
+    satellites: []
+  - name: Paikauhale 6
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 24.56
       semiMajorAxis: 12994578499.057611
       eccentricity: 0
       inclination: 1.11
       orbitalArc: 57
-      axialTilt: 24.56
-      parentId: Paikauhale
       showOrbit: true
+      parentId: Paikauhale
+    isPlanet:
+      age: 7193213397
+      classification: L
+      radius: 5114
+      terranMass: 0.020026676030310882
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 20988
+    temperature: 282
     satellites:
       - name: Paikauhale 6a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 37.54
+          semiMajorAxis: 536348.2162714484
+          eccentricity: 0.02
+          inclination: 1.98
+          orbitalArc: 114
+          showOrbit: true
+          parentId: Paikauhale 6
         isPlanet:
-          radius: 1178.7872885086779
           age: 4419345903
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.9000000030940702
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 1178.7872885086779
+          terranMass: 1.9000000030940702
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 9283
         temperature: 124
-        satellite:
-          semiMajorAxis: 536348.2162714484
-          eccentricity: 0.02
-          inclination: 1.98
-          orbitalArc: 114
-          axialTilt: 37.54
-          parentId: Paikauhale 6
-          showOrbit: true
-        satellites: []
   - name: Paikauhale 7
     description: ''
     tags: []
-    isPlanet:
-      radius: 7084
-      age: 2422924131
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.013325158414935527
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 631
     satellite:
+      axialTilt: 5.51
       semiMajorAxis: 14405317051
       eccentricity: 0
       inclination: 1.64
       orbitalArc: 37
-      axialTilt: 5.51
-      parentId: Paikauhale
       showOrbit: true
+      parentId: Paikauhale
+    isPlanet:
+      age: 2422924131
+      classification: F
+      radius: 7084
+      terranMass: 0.013325158414935527
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 631
     satellites: []
 commSatellite: null
 assets: {}

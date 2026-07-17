@@ -14,66 +14,66 @@ stars:
   - name: Dziban A
     description: ''
     tags: []
-    radius: 1.2
-    temperature: 6544
     solarMass: 1.38
     age: 30137881164502
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.2
+    temperature: 6544
     satellite:
-      orbitalArc: 130
-      semiMajorAxis: 14.399999999999999
       axialTilt: 0
+      semiMajorAxis: 14.399999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 130
       showOrbit: false
       parentId: Dziban
   - name: Dziban B
     description: ''
     tags: []
-    radius: 1.2
-    temperature: 6544
     solarMass: 1.38
     age: 30137881164502
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.2
+    temperature: 6544
     satellite:
-      orbitalArc: 310
-      semiMajorAxis: 14.399999999999999
       axialTilt: 0
+      semiMajorAxis: 14.399999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 310
       showOrbit: false
       parentId: Dziban
 planets:
   - name: Dziban 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 35.35
+      semiMajorAxis: 236884207
+      eccentricity: 0.01
+      inclination: 0.22
+      orbitalArc: 34
+      showOrbit: true
+      parentId: Dziban
     isPlanet:
-      radius: 4964
       age: 6741313401
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: null
-      terranMass: 0.0007825447963840023
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 4964
+      terranMass: 0.0007825447963840023
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
     population: 32618
     temperature: 216
-    satellite:
-      semiMajorAxis: 236884207
-      eccentricity: 0.01
-      inclination: 0.22
-      orbitalArc: 34
-      axialTilt: 35.35
-      parentId: Dziban
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

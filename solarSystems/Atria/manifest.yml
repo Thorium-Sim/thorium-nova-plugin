@@ -14,423 +14,426 @@ stars:
   - name: Atria A
     description: ''
     tags: []
-    radius: 143
-    temperature: 4150
     solarMass: 7
     age: 66558398359
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 143
+    temperature: 4150
     satellite:
-      orbitalArc: 223
-      semiMajorAxis: 1716
       axialTilt: 0
+      semiMajorAxis: 1716
       eccentricity: 0
       inclination: 0
+      orbitalArc: 223
       showOrbit: false
       parentId: Atria
   - name: Atria B
     description: ''
     tags: []
-    radius: 143
-    temperature: 4150
     solarMass: 7
     age: 66558398359
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 143
+    temperature: 4150
     satellite:
-      orbitalArc: 403
-      semiMajorAxis: 1716
       axialTilt: 0
+      semiMajorAxis: 1716
       eccentricity: 0
       inclination: 0
+      orbitalArc: 403
       showOrbit: false
       parentId: Atria
 planets:
   - name: Atria 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 2382
-      age: 5625282519
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.00841247244643055
-      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 191
     satellite:
+      axialTilt: 16.11
       semiMajorAxis: 1677636465.9999995
       eccentricity: 0.02
       inclination: 0.25
       orbitalArc: 175
-      axialTilt: 16.11
-      parentId: Atria
       showOrbit: true
+      parentId: Atria
+    isPlanet:
+      age: 5625282519
+      classification: B
+      radius: 2382
+      terranMass: 0.00841247244643055
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 191
     satellites:
       - name: Atria 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 4.26
+          semiMajorAxis: 272783.82760251267
+          eccentricity: 0.01
+          inclination: 1.08
+          orbitalArc: 315
+          showOrbit: true
+          parentId: Atria 1
         isPlanet:
-          radius: 591.721968769008
           age: 3846238432
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
           classification: G
+          radius: 591.721968769008
+          terranMass: 1.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 407
-        satellite:
-          semiMajorAxis: 272783.82760251267
-          eccentricity: 0.01
-          inclination: 1.08
-          orbitalArc: 315
-          axialTilt: 4.26
-          parentId: Atria 1
-          showOrbit: true
-        satellites: []
   - name: Atria 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 874
-      age: 77117154
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.0014722747333793505
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 37
     satellite:
+      axialTilt: 37.93
       semiMajorAxis: 3144632137.999999
       eccentricity: 0.01
       inclination: 1.39
       orbitalArc: 123
-      axialTilt: 37.93
-      parentId: Atria
       showOrbit: true
+      parentId: Atria
+    isPlanet:
+      age: 77117154
+      classification: C
+      radius: 874
+      terranMass: 0.0014722747333793505
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 37
     satellites:
       - name: Atria 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 8.72
+          semiMajorAxis: 39183.84492588936
+          eccentricity: 0.01
+          inclination: 1.36
+          orbitalArc: 87
+          showOrbit: true
+          parentId: Atria 2
         isPlanet:
-          radius: 72.51708618388908
           age: 6196174732
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.700000102125928
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 72.51708618388908
+          terranMass: 1.700000102125928
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 4026
         temperature: 132
-        satellite:
-          semiMajorAxis: 39183.84492588936
-          eccentricity: 0.01
-          inclination: 1.36
-          orbitalArc: 87
-          axialTilt: 8.72
-          parentId: Atria 2
-          showOrbit: true
-        satellites: []
       - name: Atria 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 178.63798435002985
-          age: 723810284
-          ringMapAsset: null
-          terranMass: 1.1000001735259795
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 48
         satellite:
+          axialTilt: 10.9
           semiMajorAxis: 71812.469708712
           eccentricity: 0.01
           inclination: 0.83
           orbitalArc: 209
-          axialTilt: 10.9
-          parentId: Atria 2
           showOrbit: true
-        satellites: []
+          parentId: Atria 2
+        isPlanet:
+          age: 723810284
+          classification: C
+          radius: 178.63798435002985
+          terranMass: 1.1000001735259795
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 48
   - name: Atria 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 1244
-      age: 534011355
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.018273192388020332
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 55
     satellite:
+      axialTilt: 24.64
       semiMajorAxis: 4651661709.333333
       eccentricity: 0
       inclination: 0.24
       orbitalArc: 197
-      axialTilt: 24.64
-      parentId: Atria
       showOrbit: true
-    satellites:
-      - name: Atria 3a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 199.93561152809664
-          age: 3719837696
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
-          classification: G
-          isHabitable: false
-          lifeforms:
-            - None
-            - Primitive single-celled organisms
-          atmosphericComposition: []
-        population: 0
-        temperature: 495
-        satellite:
-          semiMajorAxis: 37343.88221917342
-          eccentricity: 0
-          inclination: 1.99
-          orbitalArc: 227
-          axialTilt: 10.96
-          parentId: Atria 3
-          showOrbit: true
-        satellites: []
-      - name: Atria 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 237.64141844507344
-          age: 459194439
-          ringMapAsset: null
-          terranMass: 0.4799997492767998
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 196
-        satellite:
-          semiMajorAxis: 77395.29928629707
-          eccentricity: 0.01
-          inclination: 0.39
-          orbitalArc: 35
-          axialTilt: 9.46
-          parentId: Atria 3
-          showOrbit: true
-        satellites: []
-      - name: Atria 3c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 253.83893409744815
-          age: 3405248345
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
-          classification: G
-          isHabitable: false
-          lifeforms:
-            - None
-            - Primitive single-celled organisms
-          atmosphericComposition: []
-        population: 0
-        temperature: 452
-        satellite:
-          semiMajorAxis: 101535.57363897926
-          eccentricity: 0.02
-          inclination: 0.11
-          orbitalArc: 175
-          axialTilt: 8.68
-          parentId: Atria 3
-          showOrbit: true
-        satellites: []
-  - name: Atria 4
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 6567
-      age: 8807212568
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.02612792206546942
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 655254161
-    temperature: 477
-    satellite:
-      semiMajorAxis: 5501030262.888888
-      eccentricity: 0
-      inclination: 0.89
-      orbitalArc: 273
-      axialTilt: 8.01
       parentId: Atria
-      showOrbit: true
-    satellites: []
-  - name: Atria 5
-    description: ''
-    tags: []
     isPlanet:
-      radius: 6039
-      age: 1335186342
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.015584277430647706
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-      classification: E
+      age: 534011355
+      classification: C
+      radius: 1244
+      terranMass: 0.018273192388020332
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
-    temperature: 1344
+    temperature: 55
+    satellites:
+      - name: Atria 3a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 10.96
+          semiMajorAxis: 37343.88221917342
+          eccentricity: 0
+          inclination: 1.99
+          orbitalArc: 227
+          showOrbit: true
+          parentId: Atria 3
+        isPlanet:
+          age: 3719837696
+          classification: G
+          radius: 199.93561152809664
+          terranMass: 0.5
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 495
+      - name: Atria 3b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 9.46
+          semiMajorAxis: 77395.29928629707
+          eccentricity: 0.01
+          inclination: 0.39
+          orbitalArc: 35
+          showOrbit: true
+          parentId: Atria 3
+        isPlanet:
+          age: 459194439
+          classification: D
+          radius: 237.64141844507344
+          terranMass: 0.4799997492767998
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 196
+      - name: Atria 3c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 8.68
+          semiMajorAxis: 101535.57363897926
+          eccentricity: 0.02
+          inclination: 0.11
+          orbitalArc: 175
+          showOrbit: true
+          parentId: Atria 3
+        isPlanet:
+          age: 3405248345
+          classification: G
+          radius: 253.83893409744815
+          terranMass: 1.5
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 452
+  - name: Atria 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 8.01
+      semiMajorAxis: 5501030262.888888
+      eccentricity: 0
+      inclination: 0.89
+      orbitalArc: 273
+      showOrbit: true
+      parentId: Atria
+    isPlanet:
+      age: 8807212568
+      classification: 'N'
+      radius: 6567
+      terranMass: 0.02612792206546942
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 655254161
+    temperature: 477
+    satellites: []
+  - name: Atria 5
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 5.31
       semiMajorAxis: 6415288624.77778
       eccentricity: 0.02
       inclination: 0.74
       orbitalArc: 271
-      axialTilt: 5.31
-      parentId: Atria
       showOrbit: true
+      parentId: Atria
+    isPlanet:
+      age: 1335186342
+      classification: E
+      radius: 6039
+      terranMass: 0.015584277430647706
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 1344
     satellites: []
   - name: Atria 6
     description: ''
     tags: []
-    isPlanet:
-      radius: 6729
-      age: 7611300483
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.004264177029664669
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 66052
-    temperature: 262
     satellite:
+      axialTilt: 2.88
       semiMajorAxis: 6801462068.555559
       eccentricity: 0.01
       inclination: 0.29
       orbitalArc: 188
-      axialTilt: 2.88
-      parentId: Atria
       showOrbit: true
+      parentId: Atria
+    isPlanet:
+      age: 7611300483
+      classification: P
+      radius: 6729
+      terranMass: 0.004264177029664669
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 66052
+    temperature: 262
     satellites: []
   - name: Atria 7
     description: ''
     tags: []
+    satellite:
+      axialTilt: 8.09
+      semiMajorAxis: 7311672915
+      eccentricity: 0
+      inclination: 1.85
+      orbitalArc: 317
+      showOrbit: true
+      parentId: Atria
     isPlanet:
-      radius: 4050
       age: 8300399803
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.032858373939110806
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4050
+      terranMass: 0.032858373939110806
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 18136
     temperature: 205
-    satellite:
-      semiMajorAxis: 7311672915
-      eccentricity: 0
-      inclination: 1.85
-      orbitalArc: 317
-      axialTilt: 8.09
-      parentId: Atria
-      showOrbit: true
     satellites:
       - name: Atria 7a
         description: ''
         tags: []
-        isPlanet:
-          radius: 220.8188331065045
-          age: 394725471
-          ringMapAsset: null
-          terranMass: 0.9899997070226985
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 303
         satellite:
+          axialTilt: 30.92
           semiMajorAxis: 82269.0659399998
           eccentricity: 0.02
           inclination: 0.23
           orbitalArc: 301
-          axialTilt: 30.92
-          parentId: Atria 7
           showOrbit: true
-        satellites: []
-      - name: Atria 7b
-        description: ''
-        tags: []
+          parentId: Atria 7
         isPlanet:
-          radius: 464.9902262137016
-          age: 209731553
-          ringMapAsset: null
-          terranMass: 0.9000001322546559
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-          classification: E
+          age: 394725471
+          classification: D
+          radius: 220.8188331065045
+          terranMass: 0.9899997070226985
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 1008
+        temperature: 303
+      - name: Atria 7b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 27.92
           semiMajorAxis: 126477.34153012684
           eccentricity: 0.02
           inclination: 1.46
           orbitalArc: 62
-          axialTilt: 27.92
-          parentId: Atria 7
           showOrbit: true
-        satellites: []
+          parentId: Atria 7
+        isPlanet:
+          age: 209731553
+          classification: E
+          radius: 464.9902262137016
+          terranMass: 0.9000001322546559
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1008
 commSatellite: null
 assets: {}

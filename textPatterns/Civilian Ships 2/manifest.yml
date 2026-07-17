@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Civilian Ships 2
+description: ''
+textPattern: '{#Plural Quantities} {#Plural Nouns}'
+category: Ships
+assets: {}

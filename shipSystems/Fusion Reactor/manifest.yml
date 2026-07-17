@@ -67,31 +67,26 @@ powerUpSpeed: 0.5
 balancedBonusMultiplier: 0.9
 legacySettings:
   - name: Overload
-    color: error
     efficiency: 1.25
-  - name: Cruise
-    color: primary
-    efficiency: 1
-  - name: Silent Running
-    color: notice
-    efficiency: 0.87
-  - name: Reduced
-    color: secondary
-    efficiency: 0.5
-  - name: Auxiliary
-    color: info
-    efficiency: 0.38
-  - name: Minimal
-    color: warning
-    efficiency: 0.27
-  - name: Power Down
     color: error
+  - name: Cruise
+    efficiency: 1
+    color: primary
+  - name: Silent Running
+    efficiency: 0.87
+    color: notice
+  - name: Reduced
+    efficiency: 0.5
+    color: secondary
+  - name: Auxiliary
+    efficiency: 0.38
+    color: info
+  - name: Minimal
+    efficiency: 0.27
+    color: warning
+  - name: Power Down
     efficiency: 0
+    color: error
   - name: External Power
-    color: success
     efficiency: null
-defaultPower: 10
-requiredPower: 5
-maxSafePower: 20
-coolantHeatTransferRate: 10
-powerNode: null
+    color: success

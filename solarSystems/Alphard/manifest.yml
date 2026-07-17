@@ -14,251 +14,252 @@ stars:
   - name: Alphard A
     description: ''
     tags: []
-    radius: 57.59
-    temperature: 4117
     solarMass: 3.2
     age: 193687519682
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 57.59
+    temperature: 4117
     satellite:
-      orbitalArc: 36
-      semiMajorAxis: 691.08
       axialTilt: 0
+      semiMajorAxis: 691.08
       eccentricity: 0
       inclination: 0
+      orbitalArc: 36
       showOrbit: false
       parentId: Alphard
   - name: Alphard B
     description: ''
     tags: []
-    radius: 57.59
-    temperature: 4117
     solarMass: 3.2
     age: 193687519682
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 57.59
+    temperature: 4117
     satellite:
-      orbitalArc: 216
-      semiMajorAxis: 691.08
       axialTilt: 0
+      semiMajorAxis: 691.08
       eccentricity: 0
       inclination: 0
+      orbitalArc: 216
       showOrbit: false
       parentId: Alphard
 planets:
   - name: Alphard 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5180
-      age: 1881785879
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.026540217827702352
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 718
     satellite:
+      axialTilt: 39.09
       semiMajorAxis: 1452885771.3333333
       eccentricity: 0.01
       inclination: 0.9
       orbitalArc: 241
-      axialTilt: 39.09
-      parentId: Alphard
       showOrbit: true
+      parentId: Alphard
+    isPlanet:
+      age: 1881785879
+      classification: F
+      radius: 5180
+      terranMass: 0.026540217827702352
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 718
     satellites:
       - name: Alphard 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 16.26
+          semiMajorAxis: 334627.9593617765
+          eccentricity: 0.02
+          inclination: 0.11
+          orbitalArc: 16
+          showOrbit: true
+          parentId: Alphard 1
         isPlanet:
-          radius: 1082.9383798115744
           age: 7677964035
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 2.100000013214426
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 1082.9383798115744
+          terranMass: 2.100000013214426
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 24509
         temperature: 277
-        satellite:
-          semiMajorAxis: 334627.9593617765
-          eccentricity: 0.02
-          inclination: 0.11
-          orbitalArc: 16
-          axialTilt: 16.26
-          parentId: Alphard 1
-          showOrbit: true
-        satellites: []
   - name: Alphard 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 137
-      age: 759865011
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.022616940452647186
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 202
     satellite:
+      axialTilt: 18.68
       semiMajorAxis: 2304636460.777778
       eccentricity: 0
       inclination: 1.9
       orbitalArc: 225
-      axialTilt: 18.68
-      parentId: Alphard
       showOrbit: true
+      parentId: Alphard
+    isPlanet:
+      age: 759865011
+      classification: D
+      radius: 137
+      terranMass: 0.022616940452647186
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 202
     satellites: []
   - name: Alphard 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 18.71
+      semiMajorAxis: 2825548215.7037034
+      eccentricity: 0.01
+      inclination: 0.34
+      orbitalArc: 0
+      showOrbit: true
+      parentId: Alphard
     isPlanet:
-      radius: 3569
       age: 4720710332
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.00039633216667055675
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 3569
+      terranMass: 0.00039633216667055675
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 30271
     temperature: 294
-    satellite:
-      semiMajorAxis: 2825548215.7037034
-      eccentricity: 0.01
-      inclination: 0.34
-      orbitalArc: 0
-      axialTilt: 18.71
-      parentId: Alphard
-      showOrbit: true
     satellites:
       - name: Alphard 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 16.33
+          semiMajorAxis: 316397.0655753042
+          eccentricity: 0.01
+          inclination: 1.87
+          orbitalArc: 76
+          showOrbit: true
+          parentId: Alphard 3
         isPlanet:
-          radius: 789.0201136541252
           age: 4874671575
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.30000002338494
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 789.0201136541252
+          terranMass: 1.30000002338494
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 26838
         temperature: 155
-        satellite:
-          semiMajorAxis: 316397.0655753042
-          eccentricity: 0.01
-          inclination: 1.87
-          orbitalArc: 76
-          axialTilt: 16.33
-          parentId: Alphard 3
-          showOrbit: true
-        satellites: []
   - name: Alphard 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 434
-      age: 160760005
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.002818379307972771
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 248
     satellite:
+      axialTilt: 11.51
       semiMajorAxis: 3357565946.802469
       eccentricity: 0.01
       inclination: 0.42
       orbitalArc: 294
-      axialTilt: 11.51
-      parentId: Alphard
       showOrbit: true
+      parentId: Alphard
+    isPlanet:
+      age: 160760005
+      classification: D
+      radius: 434
+      terranMass: 0.002818379307972771
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 248
     satellites: []
   - name: Alphard 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 25166
-      age: 4072091912
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: null
-      terranMass: 0.25762817457612325
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 191
     satellite:
+      axialTilt: 20.01
       semiMajorAxis: 3594159863.6049376
       eccentricity: 0.01
       inclination: 1.35
       orbitalArc: 170
-      axialTilt: 20.01
-      parentId: Alphard
       showOrbit: true
-    satellites: []
-  - name: Alphard 6
-    description: ''
-    tags: []
+      parentId: Alphard
     isPlanet:
-      radius: 36324
-      age: 2169808446
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.3088530835413497
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      age: 4072091912
       classification: J
+      radius: 25166
+      terranMass: 0.25762817457612325
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
     population: 0
-    temperature: 253
+    temperature: 191
+    satellites: []
+  - name: Alphard 6
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 6.96
       semiMajorAxis: 4000000000
       eccentricity: 0
       inclination: 0.14
       orbitalArc: 46
-      axialTilt: 6.96
-      parentId: Alphard
       showOrbit: true
+      parentId: Alphard
+    isPlanet:
+      age: 2169808446
+      classification: J
+      radius: 36324
+      terranMass: 0.3088530835413497
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 253
     satellites: []
 commSatellite: null
 assets: {}

@@ -14,274 +14,275 @@ stars:
   - name: Ankaa A
     description: ''
     tags: []
-    radius: 14.7
-    temperature: 4700
     solarMass: 2.79
     age: 1525974886979
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.7
+    temperature: 4700
     satellite:
-      orbitalArc: 176
-      semiMajorAxis: 176.39999999999998
       axialTilt: 0
+      semiMajorAxis: 176.39999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 176
       showOrbit: false
       parentId: Ankaa
   - name: Ankaa B
     description: ''
     tags: []
-    radius: 14.7
-    temperature: 4700
     solarMass: 2.79
     age: 1525974886979
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.7
+    temperature: 4700
     satellite:
-      orbitalArc: 356
-      semiMajorAxis: 176.39999999999998
       axialTilt: 0
+      semiMajorAxis: 176.39999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 356
       showOrbit: false
       parentId: Ankaa
 planets:
   - name: Ankaa 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 37.7
+      semiMajorAxis: 304686498
+      eccentricity: 0.01
+      inclination: 1.16
+      orbitalArc: 345
+      showOrbit: true
+      parentId: Ankaa
     isPlanet:
-      radius: 6265
       age: 6347364917
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.027666179915925675
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 6265
+      terranMass: 0.027666179915925675
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
     temperature: 838
-    satellite:
-      semiMajorAxis: 304686498
-      eccentricity: 0.01
-      inclination: 1.16
-      orbitalArc: 345
-      axialTilt: 37.7
-      parentId: Ankaa
-      showOrbit: true
     satellites:
       - name: Ankaa 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1542.7775506607786
-          age: 332582429
-          ringMapAsset: null
-          terranMass: 0.40000007233494006
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 55
         satellite:
+          axialTilt: 39.4
           semiMajorAxis: 649509.3488281878
           eccentricity: 0.01
           inclination: 0.55
           orbitalArc: 284
-          axialTilt: 39.4
-          parentId: Ankaa 1
           showOrbit: true
-        satellites: []
+          parentId: Ankaa 1
+        isPlanet:
+          age: 332582429
+          classification: C
+          radius: 1542.7775506607786
+          terranMass: 0.40000007233494006
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 55
   - name: Ankaa 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 355
-      age: 839448303
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.014396462025341611
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 215
     satellite:
+      axialTilt: 22.45
       semiMajorAxis: 1135758421.3333333
       eccentricity: 0.02
       inclination: 1.34
       orbitalArc: 349
-      axialTilt: 22.45
-      parentId: Ankaa
       showOrbit: true
+      parentId: Ankaa
+    isPlanet:
+      age: 839448303
+      classification: D
+      radius: 355
+      terranMass: 0.014396462025341611
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 215
     satellites: []
   - name: Ankaa 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 20.08
+      semiMajorAxis: 1425268914.7777774
+      eccentricity: 0.02
+      inclination: 0.8
+      orbitalArc: 77
+      showOrbit: true
+      parentId: Ankaa
     isPlanet:
-      radius: 3015
       age: 7461992404
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: null
-      terranMass: 0.004614323540038147
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3015
+      terranMass: 0.004614323540038147
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
     population: 22431
     temperature: 117
-    satellite:
-      semiMajorAxis: 1425268914.7777774
-      eccentricity: 0.02
-      inclination: 0.8
-      orbitalArc: 77
-      axialTilt: 20.08
-      parentId: Ankaa
-      showOrbit: true
     satellites: []
   - name: Ankaa 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 6373
-      age: 1726894656
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.0009490112037986302
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 960
     satellite:
+      axialTilt: 29.7
       semiMajorAxis: 1797387884.333331
       eccentricity: 0.01
       inclination: 0.3
       orbitalArc: 187
-      axialTilt: 29.7
-      parentId: Ankaa
       showOrbit: true
-    satellites:
-      - name: Ankaa 4a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 719.076679186273
-          age: 3712554792
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 117907
-        temperature: 259
-        satellite:
-          semiMajorAxis: 277563.5981659014
-          eccentricity: 0
-          inclination: 0.24
-          orbitalArc: 353
-          axialTilt: 28.35
-          parentId: Ankaa 4
-          showOrbit: true
-        satellites: []
-  - name: Ankaa 5
-    description: ''
-    tags: []
+      parentId: Ankaa
     isPlanet:
-      radius: 486
-      age: 575065706
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.009217664763667501
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
+      age: 1726894656
+      classification: E
+      radius: 6373
+      terranMass: 0.0009490112037986302
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
-    temperature: 369
+    temperature: 960
+    satellites:
+      - name: Ankaa 4a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 28.35
+          semiMajorAxis: 277563.5981659014
+          eccentricity: 0
+          inclination: 0.24
+          orbitalArc: 353
+          showOrbit: true
+          parentId: Ankaa 4
+        isPlanet:
+          age: 3712554792
+          classification: P
+          radius: 719.076679186273
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 117907
+        temperature: 259
+  - name: Ankaa 5
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 18.56
       semiMajorAxis: 2454284349.999991
       eccentricity: 0.01
       inclination: 0.7
       orbitalArc: 243
-      axialTilt: 18.56
-      parentId: Ankaa
       showOrbit: true
+      parentId: Ankaa
+    isPlanet:
+      age: 575065706
+      classification: D
+      radius: 486
+      terranMass: 0.009217664763667501
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 369
     satellites: []
   - name: Ankaa 6
     description: ''
     tags: []
+    satellite:
+      axialTilt: 33.59
+      semiMajorAxis: 3111893547
+      eccentricity: 0.01
+      inclination: 1.81
+      orbitalArc: 264
+      showOrbit: true
+      parentId: Ankaa
     isPlanet:
-      radius: 25292
       age: 2265536124
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: null
-      terranMass: 0.4817555066143991
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
       classification: J
+      radius: 25292
+      terranMass: 0.4817555066143991
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
     population: 0
     temperature: 192
-    satellite:
-      semiMajorAxis: 3111893547
-      eccentricity: 0.01
-      inclination: 1.81
-      orbitalArc: 264
-      axialTilt: 33.59
-      parentId: Ankaa
-      showOrbit: true
     satellites:
       - name: Ankaa 6a
         description: ''
         tags: []
-        isPlanet:
-          radius: 3690.9343490497054
-          age: 5526775735
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 164609
-        temperature: 257
         satellite:
+          axialTilt: 4.57
           semiMajorAxis: 1122044.0421111104
           eccentricity: 0.01
           inclination: 0.98
           orbitalArc: 47
-          axialTilt: 4.57
-          parentId: Ankaa 6
           showOrbit: true
-        satellites: []
+          parentId: Ankaa 6
+        isPlanet:
+          age: 5526775735
+          classification: P
+          radius: 3690.9343490497054
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 164609
+        temperature: 257
 commSatellite: null
 assets: {}

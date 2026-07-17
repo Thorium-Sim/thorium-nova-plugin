@@ -14,248 +14,247 @@ stars:
   - name: Nusakan A
     description: ''
     tags: []
-    radius: 2.63
-    temperature: 7980
     solarMass: 2.09
     age: 4297268680564
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.63
+    temperature: 7980
     satellite:
-      orbitalArc: 205
-      semiMajorAxis: 31.56
       axialTilt: 0
+      semiMajorAxis: 31.56
       eccentricity: 0
       inclination: 0
+      orbitalArc: 205
       showOrbit: false
       parentId: Nusakan
   - name: Nusakan B
     description: ''
     tags: []
-    radius: 2.63
-    temperature: 7980
     solarMass: 2.09
     age: 4297268680564
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.63
+    temperature: 7980
     satellite:
-      orbitalArc: 385
-      semiMajorAxis: 31.56
       axialTilt: 0
+      semiMajorAxis: 31.56
       eccentricity: 0
       inclination: 0
+      orbitalArc: 385
       showOrbit: false
       parentId: Nusakan
 planets:
   - name: Nusakan 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 4.47
+      semiMajorAxis: 568005552.6666667
+      eccentricity: 0.01
+      inclination: 0.34
+      orbitalArc: 137
+      showOrbit: true
+      parentId: Nusakan
     isPlanet:
-      radius: 2905
       age: 6622202116
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.010234224518736392
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 2905
+      terranMass: 0.010234224518736392
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 1528
     temperature: 278
-    satellite:
-      semiMajorAxis: 568005552.6666667
-      eccentricity: 0.01
-      inclination: 0.34
-      orbitalArc: 137
-      axialTilt: 4.47
-      parentId: Nusakan
-      showOrbit: true
     satellites:
       - name: Nusakan 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 145.79775304720917
-          age: 3512722827
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 140447
-        temperature: 256
         satellite:
+          axialTilt: 14.82
           semiMajorAxis: 54965.75289879786
           eccentricity: 0.01
           inclination: 1.54
           orbitalArc: 19
-          axialTilt: 14.82
-          parentId: Nusakan 1
           showOrbit: true
-        satellites: []
-  - name: Nusakan 2
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 7223
-      age: 526586965
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.022019529900229734
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1240
-    satellite:
-      semiMajorAxis: 1398901172.2222219
-      eccentricity: 0.01
-      inclination: 1.26
-      orbitalArc: 62
-      axialTilt: 4.7
-      parentId: Nusakan
-      showOrbit: true
-    satellites:
-      - name: Nusakan 2a
-        description: ''
-        tags: []
+          parentId: Nusakan 1
         isPlanet:
-          radius: 1157.4894481810368
-          age: 9041129719
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          age: 3512722827
           classification: P
+          radius: 145.79775304720917
+          terranMass: 0.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 83714
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 140447
         temperature: 256
-        satellite:
-          semiMajorAxis: 509295.3571996562
-          eccentricity: 0.01
-          inclination: 0.21
-          orbitalArc: 298
-          axialTilt: 9.76
-          parentId: Nusakan 2
-          showOrbit: true
-        satellites: []
-  - name: Nusakan 3
+  - name: Nusakan 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 4.7
+      semiMajorAxis: 1398901172.2222219
+      eccentricity: 0.01
+      inclination: 1.26
+      orbitalArc: 62
+      showOrbit: true
+      parentId: Nusakan
     isPlanet:
-      radius: 1639
-      age: 840529144
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.02521424127108418
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-      classification: C
+      age: 526586965
+      classification: E
+      radius: 7223
+      terranMass: 0.022019529900229734
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
-    temperature: 46
+    temperature: 1240
+    satellites:
+      - name: Nusakan 2a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 9.76
+          semiMajorAxis: 509295.3571996562
+          eccentricity: 0.01
+          inclination: 0.21
+          orbitalArc: 298
+          showOrbit: true
+          parentId: Nusakan 2
+        isPlanet:
+          age: 9041129719
+          classification: P
+          radius: 1157.4894481810368
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 83714
+        temperature: 256
+  - name: Nusakan 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 17.73
       semiMajorAxis: 2646990784.2222214
       eccentricity: 0.02
       inclination: 0.14
       orbitalArc: 145
-      axialTilt: 17.73
-      parentId: Nusakan
       showOrbit: true
+      parentId: Nusakan
+    isPlanet:
+      age: 840529144
+      classification: C
+      radius: 1639
+      terranMass: 0.02521424127108418
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 46
     satellites:
       - name: Nusakan 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 38.43
+          semiMajorAxis: 183693.75560991955
+          eccentricity: 0
+          inclination: 1.75
+          orbitalArc: 332
+          showOrbit: true
+          parentId: Nusakan 3
         isPlanet:
-          radius: 370.3503137296765
           age: 5924144213
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 2.1000000166414017
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 370.3503137296765
+          terranMass: 2.1000000166414017
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 47629
         temperature: 173
-        satellite:
-          semiMajorAxis: 183693.75560991955
-          eccentricity: 0
-          inclination: 1.75
-          orbitalArc: 332
-          axialTilt: 38.43
-          parentId: Nusakan 3
-          showOrbit: true
-        satellites: []
   - name: Nusakan 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 33.03
+      semiMajorAxis: 3790787454
+      eccentricity: 0.02
+      inclination: 1.06
+      orbitalArc: 96
+      showOrbit: true
+      parentId: Nusakan
     isPlanet:
-      radius: 31846
       age: 7549228660
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.2139989722319877
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
       classification: J
+      radius: 31846
+      terranMass: 1.2139989722319877
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 156
-    satellite:
-      semiMajorAxis: 3790787454
-      eccentricity: 0.02
-      inclination: 1.06
-      orbitalArc: 96
-      axialTilt: 33.03
-      parentId: Nusakan
-      showOrbit: true
     satellites:
       - name: Nusakan 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 6502.854214990037
-          age: 2492049832
-          ringMapAsset: null
-          terranMass: 0.9000000380559777
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 654
         satellite:
+          axialTilt: 27.29
           semiMajorAxis: 3023827.209970367
           eccentricity: 0.02
           inclination: 1.72
           orbitalArc: 357
-          axialTilt: 27.29
-          parentId: Nusakan 4
           showOrbit: true
-        satellites: []
+          parentId: Nusakan 4
+        isPlanet:
+          age: 2492049832
+          classification: F
+          radius: 6502.854214990037
+          terranMass: 0.9000000380559777
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 654
 commSatellite: null
 assets: {}

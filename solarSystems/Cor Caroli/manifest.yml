@@ -14,172 +14,169 @@ stars:
   - name: Cor Caroli A
     description: ''
     tags: []
-    radius: 2.49
-    temperature: 11600
     solarMass: 2.97
     age: 1525791118804
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.49
+    temperature: 11600
     satellite:
-      orbitalArc: 187
-      semiMajorAxis: 29.880000000000003
       axialTilt: 0
+      semiMajorAxis: 29.880000000000003
       eccentricity: 0
       inclination: 0
+      orbitalArc: 187
       showOrbit: false
       parentId: Cor Caroli
   - name: Cor Caroli B
     description: ''
     tags: []
-    radius: 2.49
-    temperature: 11600
     solarMass: 2.97
     age: 1525791118804
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.49
+    temperature: 11600
     satellite:
-      orbitalArc: 367
-      semiMajorAxis: 29.880000000000003
       axialTilt: 0
+      semiMajorAxis: 29.880000000000003
       eccentricity: 0
       inclination: 0
+      orbitalArc: 367
       showOrbit: false
       parentId: Cor Caroli
 planets:
   - name: Cor Caroli 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 21.33
+      semiMajorAxis: 872180446.333334
+      eccentricity: 0.01
+      inclination: 0.84
+      orbitalArc: 176
+      showOrbit: true
+      parentId: Cor Caroli
     isPlanet:
-      radius: 4288
       age: 8681521422
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0011774723137593823
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 4288
+      terranMass: 0.0011774723137593823
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 21639
     temperature: 210
-    satellite:
-      semiMajorAxis: 872180446.333334
-      eccentricity: 0.01
-      inclination: 0.84
-      orbitalArc: 176
-      axialTilt: 21.33
-      parentId: Cor Caroli
-      showOrbit: true
     satellites:
       - name: Cor Caroli 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 699.7416511130849
-          age: 8978255374
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 89853
-        temperature: 264
         satellite:
+          axialTilt: 4.21
           semiMajorAxis: 159677.9334067827
           eccentricity: 0
           inclination: 0.33
           orbitalArc: 86
-          axialTilt: 4.21
-          parentId: Cor Caroli 1
           showOrbit: true
-        satellites: []
+          parentId: Cor Caroli 1
+        isPlanet:
+          age: 8978255374
+          classification: P
+          radius: 699.7416511130849
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 89853
+        temperature: 264
       - name: Cor Caroli 1b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 14.33
+          semiMajorAxis: 271886.62233391596
+          eccentricity: 0
+          inclination: 0.51
+          orbitalArc: 137
+          showOrbit: true
+          parentId: Cor Caroli 1
         isPlanet:
-          radius: 865.880962846866
           age: 5425753289
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.9000000163653191
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 865.880962846866
+          terranMass: 0.9000000163653191
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 14536
         temperature: 117
-        satellite:
-          semiMajorAxis: 271886.62233391596
-          eccentricity: 0
-          inclination: 0.51
-          orbitalArc: 137
-          axialTilt: 14.33
-          parentId: Cor Caroli 1
-          showOrbit: true
-        satellites: []
   - name: Cor Caroli 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 28.32
+      semiMajorAxis: 1705864393
+      eccentricity: 0
+      inclination: 1.94
+      orbitalArc: 24
+      showOrbit: true
+      parentId: Cor Caroli
     isPlanet:
-      radius: 4068
       age: 7467168756
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.008803763357964255
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 4068
+      terranMass: 0.008803763357964255
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 10191
     temperature: 244
-    satellite:
-      semiMajorAxis: 1705864393
-      eccentricity: 0
-      inclination: 1.94
-      orbitalArc: 24
-      axialTilt: 28.32
-      parentId: Cor Caroli
-      showOrbit: true
     satellites:
       - name: Cor Caroli 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 499.53302976724996
-          age: 5855143503
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-          classification: 'N'
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 691500468
-        temperature: 713
         satellite:
+          axialTilt: 11.44
           semiMajorAxis: 163347.30073389073
           eccentricity: 0.02
           inclination: 1.9
           orbitalArc: 24
-          axialTilt: 11.44
-          parentId: Cor Caroli 2
           showOrbit: true
-        satellites: []
+          parentId: Cor Caroli 2
+        isPlanet:
+          age: 5855143503
+          classification: 'N'
+          radius: 499.53302976724996
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 691500468
+        temperature: 713
 commSatellite: null
 assets: {}

@@ -14,171 +14,169 @@ stars:
   - name: Acamar A
     description: ''
     tags: []
-    radius: 4.85
-    temperature: 8200
     solarMass: 2.6
     age: 1409950109755
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.85
+    temperature: 8200
     satellite:
-      orbitalArc: 202
-      semiMajorAxis: 58.199999999999996
       axialTilt: 0
+      semiMajorAxis: 58.199999999999996
       eccentricity: 0
       inclination: 0
+      orbitalArc: 202
       showOrbit: false
       parentId: Acamar
   - name: Acamar B
     description: ''
     tags: []
-    radius: 4.85
-    temperature: 8200
     solarMass: 2.6
     age: 1409950109755
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.85
+    temperature: 8200
     satellite:
-      orbitalArc: 382
-      semiMajorAxis: 58.199999999999996
       axialTilt: 0
+      semiMajorAxis: 58.199999999999996
       eccentricity: 0
       inclination: 0
+      orbitalArc: 382
       showOrbit: false
       parentId: Acamar
 planets:
   - name: Acamar 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6020
-      age: 6794352442
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.002366847642666392
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 127553
-    temperature: 256
     satellite:
+      axialTilt: 22.84
       semiMajorAxis: 1537364729.9999995
       eccentricity: 0.01
       inclination: 0.67
       orbitalArc: 306
-      axialTilt: 22.84
-      parentId: Acamar
       showOrbit: true
+      parentId: Acamar
+    isPlanet:
+      age: 6794352442
+      classification: P
+      radius: 6020
+      terranMass: 0.002366847642666392
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 127553
+    temperature: 256
     satellites:
       - name: Acamar 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 449.7706903570264
-          age: 5521701129
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 43591345
-        temperature: 299
         satellite:
+          axialTilt: 14.8
           semiMajorAxis: 310295.04059248127
           eccentricity: 0.01
           inclination: 1.28
           orbitalArc: 195
-          axialTilt: 14.8
-          parentId: Acamar 1
           showOrbit: true
-        satellites: []
+          parentId: Acamar 1
+        isPlanet:
+          age: 5521701129
+          classification: O
+          radius: 449.7706903570264
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 43591345
+        temperature: 299
       - name: Acamar 1b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 5.6
+          semiMajorAxis: 507273.1775037339
+          eccentricity: 0
+          inclination: 1.24
+          orbitalArc: 185
+          showOrbit: true
+          parentId: Acamar 1
         isPlanet:
-          radius: 1261.2316648108492
           age: 8181614691
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.300000047828476
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 1261.2316648108492
+          terranMass: 0.300000047828476
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 48351
         temperature: 180
-        satellite:
-          semiMajorAxis: 507273.1775037339
-          eccentricity: 0
-          inclination: 1.24
-          orbitalArc: 185
-          axialTilt: 5.6
-          parentId: Acamar 1
-          showOrbit: true
-        satellites: []
       - name: Acamar 1c
         description: ''
         tags: []
-        isPlanet:
-          radius: 1365.7955768086936
-          age: 372272321
-          ringMapAsset: null
-          terranMass: 1.059999829151926
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 296
         satellite:
+          axialTilt: 30.58
           semiMajorAxis: 618705.3962943382
           eccentricity: 0.01
           inclination: 1.83
           orbitalArc: 206
-          axialTilt: 30.58
-          parentId: Acamar 1
           showOrbit: true
-        satellites: []
+          parentId: Acamar 1
+        isPlanet:
+          age: 372272321
+          classification: D
+          radius: 1365.7955768086936
+          terranMass: 1.059999829151926
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 296
   - name: Acamar 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 4.68
+      semiMajorAxis: 3317987053
+      eccentricity: 0
+      inclination: 1.44
+      orbitalArc: 233
+      showOrbit: true
+      parentId: Acamar
     isPlanet:
-      radius: 38542
       age: 9372527644
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.4860397071370484
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 38542
+      terranMass: 1.4860397071370484
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 258
-    satellite:
-      semiMajorAxis: 3317987053
-      eccentricity: 0
-      inclination: 1.44
-      orbitalArc: 233
-      axialTilt: 4.68
-      parentId: Acamar
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

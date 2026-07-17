@@ -14,46 +14,47 @@ stars:
   - name: 'Haedus '
     description: ''
     tags: []
-    radius: 3.64
-    temperature: 18660
     solarMass: 5.6
     age: 201051809653
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 3.64
+    temperature: 18660
     satellite:
-      orbitalArc: 28
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 28
       showOrbit: false
       parentId: Haedus
 planets:
   - name: Haedus 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 190
-      age: 119859255
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.0014769381214187246
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 263
     satellite:
+      axialTilt: 37.62
       semiMajorAxis: 618129903
       eccentricity: 0.01
       inclination: 1
       orbitalArc: 31
-      axialTilt: 37.62
-      parentId: Haedus
       showOrbit: true
+      parentId: Haedus
+    isPlanet:
+      age: 119859255
+      classification: D
+      radius: 190
+      terranMass: 0.0014769381214187246
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 263
     satellites: []
 commSatellite: null
 assets: {}

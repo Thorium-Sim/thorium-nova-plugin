@@ -14,37 +14,37 @@ stars:
   - name: Talitha A
     description: ''
     tags: []
-    radius: 1.67
-    temperature: 8242
     solarMass: 1.7
     age: 7618243026041
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.67
+    temperature: 8242
     satellite:
-      orbitalArc: 320
-      semiMajorAxis: 20.04
       axialTilt: 0
+      semiMajorAxis: 20.04
       eccentricity: 0
       inclination: 0
+      orbitalArc: 320
       showOrbit: false
       parentId: Talitha
   - name: Talitha B
     description: ''
     tags: []
-    radius: 1.67
-    temperature: 8242
     solarMass: 1.7
     age: 7618243026041
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.67
+    temperature: 8242
     satellite:
-      orbitalArc: 500
-      semiMajorAxis: 20.04
       axialTilt: 0
+      semiMajorAxis: 20.04
       eccentricity: 0
       inclination: 0
+      orbitalArc: 500
       showOrbit: false
       parentId: Talitha
 planets: []

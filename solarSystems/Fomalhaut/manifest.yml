@@ -14,172 +14,172 @@ stars:
   - name: Fomalhaut A
     description: ''
     tags: []
-    radius: 1.842
-    temperature: 8590
     solarMass: 1.92
     age: 5994025774602
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.842
+    temperature: 8590
     satellite:
-      orbitalArc: 331
-      semiMajorAxis: 22.104
       axialTilt: 0
+      semiMajorAxis: 22.104
       eccentricity: 0
       inclination: 0
+      orbitalArc: 331
       showOrbit: false
       parentId: Fomalhaut
   - name: Fomalhaut B
     description: ''
     tags: []
-    radius: 1.842
-    temperature: 8590
     solarMass: 1.92
     age: 5994025774602
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.842
+    temperature: 8590
     satellite:
-      orbitalArc: 511
-      semiMajorAxis: 22.104
       axialTilt: 0
+      semiMajorAxis: 22.104
       eccentricity: 0
       inclination: 0
+      orbitalArc: 511
       showOrbit: false
       parentId: Fomalhaut
 planets:
   - name: Fomalhaut 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 30658
-      age: 8140615897
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.08336771833555953
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 136
     satellite:
+      axialTilt: 5.8
       semiMajorAxis: 1028639570
       eccentricity: 0.01
       inclination: 0.08
       orbitalArc: 266
-      axialTilt: 5.8
-      parentId: Fomalhaut
       showOrbit: true
-    satellites: []
-  - name: Fomalhaut 2
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 1068
-      age: 317218212
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.001704864983140716
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 49
-    satellite:
-      semiMajorAxis: 2132431445.6666656
-      eccentricity: 0.02
-      inclination: 1.42
-      orbitalArc: 347
-      axialTilt: 7.71
       parentId: Fomalhaut
-      showOrbit: true
-    satellites: []
-  - name: Fomalhaut 3
-    description: ''
-    tags: []
     isPlanet:
-      radius: 64890
-      age: 9478353321
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.5268781674902137
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      age: 8140615897
       classification: J
+      radius: 30658
+      terranMass: 0.08336771833555953
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
-    temperature: 165
+    temperature: 136
+    satellites: []
+  - name: Fomalhaut 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 7.71
+      semiMajorAxis: 2132431445.6666656
+      eccentricity: 0.02
+      inclination: 1.42
+      orbitalArc: 347
+      showOrbit: true
+      parentId: Fomalhaut
+    isPlanet:
+      age: 317218212
+      classification: C
+      radius: 1068
+      terranMass: 0.001704864983140716
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 49
+    satellites: []
+  - name: Fomalhaut 3
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 5.36
       semiMajorAxis: 3065334832
       eccentricity: 0
       inclination: 0.17
       orbitalArc: 160
-      axialTilt: 5.36
-      parentId: Fomalhaut
       showOrbit: true
+      parentId: Fomalhaut
+    isPlanet:
+      age: 9478353321
+      classification: J
+      radius: 64890
+      terranMass: 0.5268781674902137
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 0
+    temperature: 165
     satellites:
       - name: Fomalhaut 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 11439.615638323157
-          age: 859596431
-          ringMapAsset: null
-          terranMass: 1.3599998466482182
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 300
         satellite:
+          axialTilt: 3.67
           semiMajorAxis: 2091991.4753251134
           eccentricity: 0
           inclination: 1.51
           orbitalArc: 179
-          axialTilt: 3.67
-          parentId: Fomalhaut 3
           showOrbit: true
-        satellites: []
+          parentId: Fomalhaut 3
+        isPlanet:
+          age: 859596431
+          classification: D
+          radius: 11439.615638323157
+          terranMass: 1.3599998466482182
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 300
       - name: Fomalhaut 3b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 34.3
+          semiMajorAxis: 4694531.609667045
+          eccentricity: 0
+          inclination: 0.39
+          orbitalArc: 213
+          showOrbit: true
+          parentId: Fomalhaut 3
         isPlanet:
-          radius: 10742.635262395985
           age: 7418947633
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 2.1000001045731063
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 10742.635262395985
+          terranMass: 2.1000001045731063
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 5895
         temperature: 295
-        satellite:
-          semiMajorAxis: 4694531.609667045
-          eccentricity: 0
-          inclination: 0.39
-          orbitalArc: 213
-          axialTilt: 34.3
-          parentId: Fomalhaut 3
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

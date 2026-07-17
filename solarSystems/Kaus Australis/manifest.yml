@@ -14,67 +14,67 @@ stars:
   - name: Kaus Australis A
     description: ''
     tags: []
-    radius: 8.8
-    temperature: 11720
     solarMass: 3.8
     age: 149995106273
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 8.8
+    temperature: 11720
     satellite:
-      orbitalArc: 351
-      semiMajorAxis: 105.60000000000001
       axialTilt: 0
+      semiMajorAxis: 105.60000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 351
       showOrbit: false
       parentId: Kaus Australis
   - name: Kaus Australis B
     description: ''
     tags: []
-    radius: 8.8
-    temperature: 11720
     solarMass: 3.8
     age: 149995106273
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 8.8
+    temperature: 11720
     satellite:
-      orbitalArc: 531
-      semiMajorAxis: 105.60000000000001
       axialTilt: 0
+      semiMajorAxis: 105.60000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 531
       showOrbit: false
       parentId: Kaus Australis
 planets:
   - name: Kaus Australis 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 31.62
+      semiMajorAxis: 4000000000
+      eccentricity: 0.02
+      inclination: 0.2
+      orbitalArc: 93
+      showOrbit: true
+      parentId: Kaus Australis
     isPlanet:
-      radius: 57414
       age: 4422585579
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
-      ringMapAsset: null
-      terranMass: 0.4406545794232876
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 57414
+      terranMass: 0.4406545794232876
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
     population: 0
     temperature: 153
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0.02
-      inclination: 0.2
-      orbitalArc: 93
-      axialTilt: 31.62
-      parentId: Kaus Australis
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

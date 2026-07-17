@@ -92,8 +92,3 @@ speeds:
     number: '1.0'
   - label: Destructive
     number: '1.25'
-defaultPower: 10
-requiredPower: 5
-maxSafePower: 20
-coolantHeatTransferRate: 10
-powerNode: navigation

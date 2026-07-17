@@ -14,294 +14,296 @@ stars:
   - name: Mesarthim A
     description: ''
     tags: []
-    radius: 1.97
-    temperature: 11000
     solarMass: 2.67
     age: 2710050307256
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 1.97
+    temperature: 11000
     satellite:
-      orbitalArc: 47
-      semiMajorAxis: 23.64
       axialTilt: 0
+      semiMajorAxis: 23.64
       eccentricity: 0
       inclination: 0
+      orbitalArc: 47
       showOrbit: false
       parentId: Mesarthim
   - name: Mesarthim B
     description: ''
     tags: []
-    radius: 1.97
-    temperature: 11000
     solarMass: 2.67
     age: 2710050307256
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 1.97
+    temperature: 11000
     satellite:
-      orbitalArc: 227
-      semiMajorAxis: 23.64
       axialTilt: 0
+      semiMajorAxis: 23.64
       eccentricity: 0
       inclination: 0
+      orbitalArc: 227
       showOrbit: false
       parentId: Mesarthim
 planets:
   - name: Mesarthim 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 3591
-      age: 4652909925
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0021827705556848468
-      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 659
     satellite:
+      axialTilt: 35.75
       semiMajorAxis: 272272546.99999964
       eccentricity: 0.01
       inclination: 1.4
       orbitalArc: 111
-      axialTilt: 35.75
-      parentId: Mesarthim
       showOrbit: true
+      parentId: Mesarthim
+    isPlanet:
+      age: 4652909925
+      classification: B
+      radius: 3591
+      terranMass: 0.0021827705556848468
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 659
     satellites:
       - name: Mesarthim 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 532.0182779854556
-          age: 1580043199
-          ringMapAsset: null
-          terranMass: 1.600000125496138
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1783
         satellite:
+          axialTilt: 3.21
           semiMajorAxis: 79092.54800598563
           eccentricity: 0.01
           inclination: 0.59
           orbitalArc: 141
-          axialTilt: 3.21
-          parentId: Mesarthim 1
           showOrbit: true
-        satellites: []
-      - name: Mesarthim 1b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 505.34436315104705
-          age: 9919228278
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 2692223586
-        temperature: 296
-        satellite:
-          semiMajorAxis: 170393.31392401498
-          eccentricity: 0.01
-          inclination: 1.96
-          orbitalArc: 272
-          axialTilt: 4.42
           parentId: Mesarthim 1
-          showOrbit: true
-        satellites: []
-      - name: Mesarthim 1c
-        description: ''
-        tags: []
         isPlanet:
-          radius: 578.1005824401161
-          age: 807662712
-          ringMapAsset: null
-          terranMass: 0.3199999001815994
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
+          age: 1580043199
+          classification: A
+          radius: 532.0182779854556
+          terranMass: 1.600000125496138
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 197
+        temperature: 1783
+      - name: Mesarthim 1b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 4.42
+          semiMajorAxis: 170393.31392401498
+          eccentricity: 0.01
+          inclination: 1.96
+          orbitalArc: 272
+          showOrbit: true
+          parentId: Mesarthim 1
+        isPlanet:
+          age: 9919228278
+          classification: M
+          radius: 505.34436315104705
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 2692223586
+        temperature: 296
+      - name: Mesarthim 1c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 17.52
           semiMajorAxis: 218522.0201623639
           eccentricity: 0.01
           inclination: 0.6
           orbitalArc: 87
-          axialTilt: 17.52
-          parentId: Mesarthim 1
           showOrbit: true
-        satellites: []
+          parentId: Mesarthim 1
+        isPlanet:
+          age: 807662712
+          classification: D
+          radius: 578.1005824401161
+          terranMass: 0.3199999001815994
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 197
   - name: Mesarthim 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 435
-      age: 250970665
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.01770447807060357
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 313
     satellite:
+      axialTilt: 10.61
       semiMajorAxis: 734903121.9999985
       eccentricity: 0.02
       inclination: 1.29
       orbitalArc: 53
-      axialTilt: 10.61
-      parentId: Mesarthim
       showOrbit: true
-    satellites: []
-  - name: Mesarthim 3
-    description: ''
-    tags: []
+      parentId: Mesarthim
     isPlanet:
-      radius: 184
-      age: 462040224
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0021542191122355453
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      age: 250970665
       classification: D
+      radius: 435
+      terranMass: 0.01770447807060357
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
-    temperature: 229
+    temperature: 313
+    satellites: []
+  - name: Mesarthim 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 13.67
       semiMajorAxis: 1025733044.9999962
       eccentricity: 0.01
       inclination: 0.66
       orbitalArc: 111
-      axialTilt: 13.67
-      parentId: Mesarthim
       showOrbit: true
+      parentId: Mesarthim
+    isPlanet:
+      age: 462040224
+      classification: D
+      radius: 184
+      terranMass: 0.0021542191122355453
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 229
     satellites: []
   - name: Mesarthim 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 15.5
+      semiMajorAxis: 1818991676.9999957
+      eccentricity: 0.01
+      inclination: 0.12
+      orbitalArc: 0
+      showOrbit: true
+      parentId: Mesarthim
     isPlanet:
-      radius: 3534
       age: 9799443367
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0009368582151540891
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 3534
+      terranMass: 0.0009368582151540891
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 21938
     temperature: 184
-    satellite:
-      semiMajorAxis: 1818991676.9999957
-      eccentricity: 0.01
-      inclination: 0.12
-      orbitalArc: 0
-      axialTilt: 15.5
-      parentId: Mesarthim
-      showOrbit: true
     satellites:
       - name: Mesarthim 4a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 38.5
+          semiMajorAxis: 90795.39971382545
+          eccentricity: 0
+          inclination: 1.88
+          orbitalArc: 14
+          showOrbit: true
+          parentId: Mesarthim 4
         isPlanet:
-          radius: 815.0787365607401
           age: 8032520083
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 1.100000132145972
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 815.0787365607401
+          terranMass: 1.100000132145972
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 3987
         temperature: 302
-        satellite:
-          semiMajorAxis: 90795.39971382545
-          eccentricity: 0
-          inclination: 1.88
-          orbitalArc: 14
-          axialTilt: 38.5
-          parentId: Mesarthim 4
-          showOrbit: true
-        satellites: []
       - name: Mesarthim 4b
         description: ''
         tags: []
-        isPlanet:
-          radius: 548.1775119960489
-          age: 7638979315
-          ringMapAsset: null
-          terranMass: 0.7000005571259628
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: B
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 127
         satellite:
+          axialTilt: 36.95
           semiMajorAxis: 217078.29475043537
           eccentricity: 0.01
           inclination: 1.6
           orbitalArc: 255
-          axialTilt: 36.95
-          parentId: Mesarthim 4
           showOrbit: true
-        satellites: []
+          parentId: Mesarthim 4
+        isPlanet:
+          age: 7638979315
+          classification: B
+          radius: 548.1775119960489
+          terranMass: 0.7000005571259628
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 127
   - name: Mesarthim 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 2644
-      age: 52451928
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.019894705251925767
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 39
     satellite:
+      axialTilt: 39.25
       semiMajorAxis: 3314855145
       eccentricity: 0.01
       inclination: 1.57
       orbitalArc: 341
-      axialTilt: 39.25
-      parentId: Mesarthim
       showOrbit: true
+      parentId: Mesarthim
+    isPlanet:
+      age: 52451928
+      classification: C
+      radius: 2644
+      terranMass: 0.019894705251925767
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 39
     satellites: []
 commSatellite: null
 assets: {}

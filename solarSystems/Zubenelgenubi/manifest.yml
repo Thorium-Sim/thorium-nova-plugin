@@ -14,326 +14,324 @@ stars:
   - name: Zubenelgenubi A
     description: ''
     tags: []
-    radius: 1.4
-    temperature: 6707
     solarMass: 1.36
     age: 19776020158149
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.4
+    temperature: 6707
     satellite:
-      orbitalArc: 200
-      semiMajorAxis: 16.799999999999997
       axialTilt: 0
+      semiMajorAxis: 16.799999999999997
       eccentricity: 0
       inclination: 0
+      orbitalArc: 200
       showOrbit: false
       parentId: Zubenelgenubi
   - name: Zubenelgenubi B
     description: ''
     tags: []
-    radius: 1.4
-    temperature: 6707
     solarMass: 1.36
     age: 19776020158149
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.4
+    temperature: 6707
     satellite:
-      orbitalArc: 380
-      semiMajorAxis: 16.799999999999997
       axialTilt: 0
+      semiMajorAxis: 16.799999999999997
       eccentricity: 0
       inclination: 0
+      orbitalArc: 380
       showOrbit: false
       parentId: Zubenelgenubi
 planets:
   - name: Zubenelgenubi 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 36.93
+      semiMajorAxis: 129917252
+      eccentricity: 0.01
+      inclination: 0.09
+      orbitalArc: 132
+      showOrbit: true
+      parentId: Zubenelgenubi
     isPlanet:
-      radius: 4385
       age: 5207591871
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.03305974463934301
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 4385
+      terranMass: 0.03305974463934301
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 46295
     temperature: 287
-    satellite:
-      semiMajorAxis: 129917252
-      eccentricity: 0.01
-      inclination: 0.09
-      orbitalArc: 132
-      axialTilt: 36.93
-      parentId: Zubenelgenubi
-      showOrbit: true
     satellites:
       - name: Zubenelgenubi 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 20.24
+          semiMajorAxis: 265967.08014662925
+          eccentricity: 0.01
+          inclination: 0.26
+          orbitalArc: 41
+          showOrbit: true
+          parentId: Zubenelgenubi 1
         isPlanet:
-          radius: 753.4478191122641
           age: 4390022873
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.5000000044656638
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 753.4478191122641
+          terranMass: 1.5000000044656638
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 32404
         temperature: 282
-        satellite:
-          semiMajorAxis: 265967.08014662925
-          eccentricity: 0.01
-          inclination: 0.26
-          orbitalArc: 41
-          axialTilt: 20.24
-          parentId: Zubenelgenubi 1
-          showOrbit: true
-        satellites: []
   - name: Zubenelgenubi 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.38
+      semiMajorAxis: 256713301.99999887
+      eccentricity: 0.01
+      inclination: 1.56
+      orbitalArc: 306
+      showOrbit: true
+      parentId: Zubenelgenubi
     isPlanet:
-      radius: 3551
       age: 4600417344
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.0007518534743822036
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 3551
+      terranMass: 0.0007518534743822036
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 7958
     temperature: 195
-    satellite:
-      semiMajorAxis: 256713301.99999887
-      eccentricity: 0.01
-      inclination: 1.56
-      orbitalArc: 306
-      axialTilt: 23.38
-      parentId: Zubenelgenubi
-      showOrbit: true
     satellites:
       - name: Zubenelgenubi 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 621.9101822605497
-          age: 1816768064
-          ringMapAsset: null
-          terranMass: 1.8000000380812478
-          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1486
         satellite:
+          axialTilt: 37.99
           semiMajorAxis: 245032.61181065658
           eccentricity: 0.01
           inclination: 0.68
           orbitalArc: 188
-          axialTilt: 37.99
-          parentId: Zubenelgenubi 2
           showOrbit: true
-        satellites: []
+          parentId: Zubenelgenubi 2
+        isPlanet:
+          age: 1816768064
+          classification: A
+          radius: 621.9101822605497
+          terranMass: 1.8000000380812478
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1486
   - name: Zubenelgenubi 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 16.73
+      semiMajorAxis: 1604238398.6666658
+      eccentricity: 0.01
+      inclination: 0.27
+      orbitalArc: 114
+      showOrbit: true
+      parentId: Zubenelgenubi
     isPlanet:
-      radius: 2844
       age: 8369503855
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.01542378969796089
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 2844
+      terranMass: 0.01542378969796089
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 22413
     temperature: 286
-    satellite:
-      semiMajorAxis: 1604238398.6666658
-      eccentricity: 0.01
-      inclination: 0.27
-      orbitalArc: 114
-      axialTilt: 16.73
-      parentId: Zubenelgenubi
-      showOrbit: true
     satellites:
       - name: Zubenelgenubi 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 160.57661944524773
-          age: 9134969542
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 4739262003
-        temperature: 299
         satellite:
+          axialTilt: 20.64
           semiMajorAxis: 115654.91095426433
           eccentricity: 0
           inclination: 1.4
           orbitalArc: 245
-          axialTilt: 20.64
-          parentId: Zubenelgenubi 3
           showOrbit: true
-        satellites: []
+          parentId: Zubenelgenubi 3
+        isPlanet:
+          age: 9134969542
+          classification: M
+          radius: 160.57661944524773
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 4739262003
+        temperature: 299
       - name: Zubenelgenubi 3b
         description: ''
         tags: []
-        isPlanet:
-          radius: 629.7023235672857
-          age: 865640012
-          ringMapAsset: null
-          terranMass: 0.09999973267077132
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 206
         satellite:
+          axialTilt: 14.97
           semiMajorAxis: 279587.83166387485
           eccentricity: 0
           inclination: 1.82
           orbitalArc: 182
-          axialTilt: 14.97
-          parentId: Zubenelgenubi 3
           showOrbit: true
-        satellites: []
+          parentId: Zubenelgenubi 3
+        isPlanet:
+          age: 865640012
+          classification: D
+          radius: 629.7023235672857
+          terranMass: 0.09999973267077132
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 206
   - name: Zubenelgenubi 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 26.82
+      semiMajorAxis: 3260832163
+      eccentricity: 0
+      inclination: 1.57
+      orbitalArc: 120
+      showOrbit: true
+      parentId: Zubenelgenubi
     isPlanet:
-      radius: 69287
       age: 9398019920
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: null
-      terranMass: 0.15953517894715424
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
       classification: J
+      radius: 69287
+      terranMass: 0.15953517894715424
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
     population: 0
     temperature: 305
-    satellite:
-      semiMajorAxis: 3260832163
-      eccentricity: 0
-      inclination: 1.57
-      orbitalArc: 120
-      axialTilt: 26.82
-      parentId: Zubenelgenubi
-      showOrbit: true
     satellites:
       - name: Zubenelgenubi 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 7135.4478642500935
-          age: 408947738
-          ringMapAsset: null
-          terranMass: 0.10999993970238296
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 228
         satellite:
+          axialTilt: 29.72
           semiMajorAxis: 2247485.9438259127
           eccentricity: 0
           inclination: 0.29
           orbitalArc: 129
-          axialTilt: 29.72
-          parentId: Zubenelgenubi 4
           showOrbit: true
-        satellites: []
-      - name: Zubenelgenubi 4b
-        description: ''
-        tags: []
+          parentId: Zubenelgenubi 4
         isPlanet:
-          radius: 7652.355505168323
-          age: 873747285
-          ringMapAsset: null
-          terranMass: 1.1000000070657134
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
+          age: 408947738
+          classification: D
+          radius: 7135.4478642500935
+          terranMass: 0.10999993970238296
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 43
+        temperature: 228
+      - name: Zubenelgenubi 4b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 34.07
           semiMajorAxis: 3203490.1650734846
           eccentricity: 0.01
           inclination: 0.9
           orbitalArc: 47
-          axialTilt: 34.07
-          parentId: Zubenelgenubi 4
           showOrbit: true
-        satellites: []
-      - name: Zubenelgenubi 4c
-        description: ''
-        tags: []
+          parentId: Zubenelgenubi 4
         isPlanet:
-          radius: 11994.696619550663
-          age: 986615335
-          ringMapAsset: null
-          terranMass: 0.7299997819340034
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
+          age: 873747285
+          classification: C
+          radius: 7652.355505168323
+          terranMass: 1.1000000070657134
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 301
+        temperature: 43
+      - name: Zubenelgenubi 4c
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 19.4
           semiMajorAxis: 5109740.759928582
           eccentricity: 0.01
           inclination: 0.77
           orbitalArc: 263
-          axialTilt: 19.4
-          parentId: Zubenelgenubi 4
           showOrbit: true
-        satellites: []
+          parentId: Zubenelgenubi 4
+        isPlanet:
+          age: 986615335
+          classification: D
+          radius: 11994.696619550663
+          terranMass: 0.7299997819340034
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 301
 commSatellite: null
 assets: {}

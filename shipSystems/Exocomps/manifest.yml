@@ -38,4 +38,3 @@ exocompWorkingDischargeRate: 1
 exocompMovingDischargeRate: 0.2
 exocompMovementSpeed: 3
 exocompCargoVolume: 50
-defaultPower: 10

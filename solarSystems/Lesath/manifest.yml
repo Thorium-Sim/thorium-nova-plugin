@@ -14,145 +14,146 @@ stars:
   - name: Lesath A
     description: ''
     tags: []
-    radius: 6.1
-    temperature: 22831
     solarMass: 11.4
     age: 65030146078
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 6.1
+    temperature: 22831
     satellite:
-      orbitalArc: 302
-      semiMajorAxis: 73.19999999999999
       axialTilt: 0
+      semiMajorAxis: 73.19999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 302
       showOrbit: false
       parentId: Lesath
   - name: Lesath B
     description: ''
     tags: []
-    radius: 6.1
-    temperature: 22831
     solarMass: 11.4
     age: 65030146078
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 6.1
+    temperature: 22831
     satellite:
-      orbitalArc: 482
-      semiMajorAxis: 73.19999999999999
       axialTilt: 0
+      semiMajorAxis: 73.19999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 482
       showOrbit: false
       parentId: Lesath
 planets:
   - name: Lesath 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 10.44
+      semiMajorAxis: 2855386224.9999995
+      eccentricity: 0.02
+      inclination: 0.14
+      orbitalArc: 322
+      showOrbit: true
+      parentId: Lesath
     isPlanet:
-      radius: 66526
       age: 9150573872
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 0.6743014220263113
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
       classification: J
+      radius: 66526
+      terranMass: 0.6743014220263113
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
     temperature: 320
-    satellite:
-      semiMajorAxis: 2855386224.9999995
-      eccentricity: 0.02
-      inclination: 0.14
-      orbitalArc: 322
-      axialTilt: 10.44
-      parentId: Lesath
-      showOrbit: true
     satellites: []
   - name: Lesath 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 4.27
+      semiMajorAxis: 4472236351.666667
+      eccentricity: 0.01
+      inclination: 0.89
+      orbitalArc: 219
+      showOrbit: true
+      parentId: Lesath
     isPlanet:
-      radius: 6165
       age: 3728663608
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.009950585378671668
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
       classification: G
+      radius: 6165
+      terranMass: 0.009950585378671668
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
     temperature: 449
-    satellite:
-      semiMajorAxis: 4472236351.666667
-      eccentricity: 0.01
-      inclination: 0.89
-      orbitalArc: 219
-      axialTilt: 4.27
-      parentId: Lesath
-      showOrbit: true
     satellites: []
   - name: Lesath 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 36.07
+      semiMajorAxis: 5822743713
+      eccentricity: 0.01
+      inclination: 1.98
+      orbitalArc: 223
+      showOrbit: true
+      parentId: Lesath
     isPlanet:
-      radius: 2898
       age: 5885282188
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.03943860131821849
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 2898
+      terranMass: 0.03943860131821849
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 9052
     temperature: 281
-    satellite:
-      semiMajorAxis: 5822743713
-      eccentricity: 0.01
-      inclination: 1.98
-      orbitalArc: 223
-      axialTilt: 36.07
-      parentId: Lesath
-      showOrbit: true
     satellites:
       - name: Lesath 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 351.12582655866305
-          age: 94707613
-          ringMapAsset: null
-          terranMass: 0.40000016945810113
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 39
         satellite:
+          axialTilt: 32.04
           semiMajorAxis: 139748.07897034788
           eccentricity: 0
           inclination: 1.78
           orbitalArc: 319
-          axialTilt: 32.04
-          parentId: Lesath 3
           showOrbit: true
-        satellites: []
+          parentId: Lesath 3
+        isPlanet:
+          age: 94707613
+          classification: C
+          radius: 351.12582655866305
+          terranMass: 0.40000016945810113
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 39
 commSatellite: null
 assets: {}

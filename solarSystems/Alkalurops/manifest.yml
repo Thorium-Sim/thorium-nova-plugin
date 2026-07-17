@@ -14,74 +14,73 @@ stars:
   - name: 'Alkalurops '
     description: ''
     tags: []
-    radius: 1.9
-    temperature: 7000
     solarMass: 1.6
     age: 10646084407067
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.9
+    temperature: 7000
     satellite:
-      orbitalArc: 111
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 111
       showOrbit: false
       parentId: Alkalurops
 planets:
   - name: Alkalurops 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 7.98
+      semiMajorAxis: 406031073
+      eccentricity: 0.01
+      inclination: 1.46
+      orbitalArc: 69
+      showOrbit: true
+      parentId: Alkalurops
     isPlanet:
-      radius: 4093
       age: 9237579977
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.02027122036947444
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 4093
+      terranMass: 0.02027122036947444
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 40366
     temperature: 152
-    satellite:
-      semiMajorAxis: 406031073
-      eccentricity: 0.01
-      inclination: 1.46
-      orbitalArc: 69
-      axialTilt: 7.98
-      parentId: Alkalurops
-      showOrbit: true
     satellites:
       - name: Alkalurops 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 908.1983525287008
-          age: 6826190374
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 5023148994
-        temperature: 302
         satellite:
+          axialTilt: 12.8
           semiMajorAxis: 339666.1838457341
           eccentricity: 0.01
           inclination: 0.59
           orbitalArc: 154
-          axialTilt: 12.8
-          parentId: Alkalurops 1
           showOrbit: true
-        satellites: []
+          parentId: Alkalurops 1
+        isPlanet:
+          age: 6826190374
+          classification: M
+          radius: 908.1983525287008
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 5023148994
+        temperature: 302
 commSatellite: null
 assets: {}

@@ -1,0 +1,9 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Panel Components
+description: ''
+textPattern: >-
+  {~{#Greek with Roman Numeral},{#Letter Number Pairs},{#Robot Name},{#Noun
+  Greek Combo}}
+category: Engineering Panels
+assets: {}

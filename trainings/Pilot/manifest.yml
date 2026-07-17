@@ -731,8 +731,8 @@ steps:
         type: EventCondition
   - id: ts-mp5mt10g69
     name: Step 18.1 - Activate
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -773,8 +773,8 @@ steps:
         type: EventCondition
   - id: ts-mp5mwer34x
     name: Step 18.2 - Return to Pilot
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:

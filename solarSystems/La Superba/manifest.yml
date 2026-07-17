@@ -14,247 +14,247 @@ stars:
   - name: La Superba A
     description: ''
     tags: []
-    radius: 315
-    temperature: 2900
     solarMass: 1.2
     age: 9861374029
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 315
+    temperature: 2900
     satellite:
-      orbitalArc: 206
-      semiMajorAxis: 3780
       axialTilt: 0
+      semiMajorAxis: 3780
       eccentricity: 0
       inclination: 0
+      orbitalArc: 206
       showOrbit: false
       parentId: La Superba
   - name: La Superba B
     description: ''
     tags: []
-    radius: 315
-    temperature: 2900
     solarMass: 1.2
     age: 9861374029
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 315
+    temperature: 2900
     satellite:
-      orbitalArc: 386
-      semiMajorAxis: 3780
       axialTilt: 0
+      semiMajorAxis: 3780
       eccentricity: 0
       inclination: 0
+      orbitalArc: 386
       showOrbit: false
       parentId: La Superba
 planets:
   - name: La Superba 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 33082
-      age: 6655055383
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: null
-      terranMass: 1.0709995144130664
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 150
     satellite:
+      axialTilt: 4.32
       semiMajorAxis: 1385454661.9999995
       eccentricity: 0.02
       inclination: 0.33
       orbitalArc: 39
-      axialTilt: 4.32
-      parentId: La Superba
       showOrbit: true
-    satellites:
-      - name: La Superba 1a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 5321.762584819613
-          age: 7729732028
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 108071
-        temperature: 261
-        satellite:
-          semiMajorAxis: 1426232.3727316563
-          eccentricity: 0.02
-          inclination: 1.76
-          orbitalArc: 249
-          axialTilt: 12.81
-          parentId: La Superba 1
-          showOrbit: true
-        satellites: []
-  - name: La Superba 2
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 3615
-      age: 389309527
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.0011307656685858975
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 45
-    satellite:
-      semiMajorAxis: 2863053471.666667
-      eccentricity: 0.02
-      inclination: 0.2
-      orbitalArc: 282
-      axialTilt: 25.32
       parentId: La Superba
-      showOrbit: true
-    satellites: []
-  - name: La Superba 3
-    description: ''
-    tags: []
     isPlanet:
-      radius: 37157
-      age: 3172470054
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0984098135990579
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      age: 6655055383
       classification: J
+      radius: 33082
+      terranMass: 1.0709995144130664
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
     population: 0
-    temperature: 336
-    satellite:
-      semiMajorAxis: 5031544710.666666
-      eccentricity: 0.01
-      inclination: 0.04
-      orbitalArc: 217
-      axialTilt: 37.39
-      parentId: La Superba
-      showOrbit: true
+    temperature: 150
     satellites:
-      - name: La Superba 3a
+      - name: La Superba 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 12.81
+          semiMajorAxis: 1426232.3727316563
+          eccentricity: 0.02
+          inclination: 1.76
+          orbitalArc: 249
+          showOrbit: true
+          parentId: La Superba 1
         isPlanet:
-          radius: 2585.8727268381335
-          age: 4490309302
-          cloudMapAsset: null
-          ringMapAsset: null
+          age: 7729732028
+          classification: P
+          radius: 5321.762584819613
           terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-          classification: 'N'
           isHabitable: true
           lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
+            - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 266455294
-        temperature: 730
-        satellite:
-          semiMajorAxis: 936707.6795857614
-          eccentricity: 0.01
-          inclination: 0.99
-          orbitalArc: 298
-          axialTilt: 2.73
-          parentId: La Superba 3
-          showOrbit: true
-        satellites: []
-      - name: La Superba 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 7017.216835776454
-          age: 1490268996
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
           ringMapAsset: null
-          terranMass: 1.7000006576367803
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1738
-        satellite:
-          semiMajorAxis: 1579133.5892330469
-          eccentricity: 0
-          inclination: 1.83
-          orbitalArc: 113
-          axialTilt: 13.61
-          parentId: La Superba 3
-          showOrbit: true
-        satellites: []
-      - name: La Superba 3c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 7695.631903664181
-          age: 903378638
-          ringMapAsset: null
-          terranMass: 0.8799998054146607
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 372
-        satellite:
-          semiMajorAxis: 1946994.8716270376
-          eccentricity: 0
-          inclination: 0.53
-          orbitalArc: 216
-          axialTilt: 24.72
-          parentId: La Superba 3
-          showOrbit: true
-        satellites: []
-  - name: La Superba 4
+        population: 108071
+        temperature: 261
+  - name: La Superba 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 25.32
+      semiMajorAxis: 2863053471.666667
+      eccentricity: 0.02
+      inclination: 0.2
+      orbitalArc: 282
+      showOrbit: true
+      parentId: La Superba
     isPlanet:
-      radius: 7082
-      age: 791500382
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.004457967312914563
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
+      age: 389309527
+      classification: C
+      radius: 3615
+      terranMass: 0.0011307656685858975
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
-    temperature: 956
+    temperature: 45
+    satellites: []
+  - name: La Superba 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 37.39
+      semiMajorAxis: 5031544710.666666
+      eccentricity: 0.01
+      inclination: 0.04
+      orbitalArc: 217
+      showOrbit: true
+      parentId: La Superba
+    isPlanet:
+      age: 3172470054
+      classification: J
+      radius: 37157
+      terranMass: 0.0984098135990579
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 0
+    temperature: 336
+    satellites:
+      - name: La Superba 3a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 2.73
+          semiMajorAxis: 936707.6795857614
+          eccentricity: 0.01
+          inclination: 0.99
+          orbitalArc: 298
+          showOrbit: true
+          parentId: La Superba 3
+        isPlanet:
+          age: 4490309302
+          classification: 'N'
+          radius: 2585.8727268381335
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 266455294
+        temperature: 730
+      - name: La Superba 3b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 13.61
+          semiMajorAxis: 1579133.5892330469
+          eccentricity: 0
+          inclination: 1.83
+          orbitalArc: 113
+          showOrbit: true
+          parentId: La Superba 3
+        isPlanet:
+          age: 1490268996
+          classification: A
+          radius: 7017.216835776454
+          terranMass: 1.7000006576367803
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1738
+      - name: La Superba 3c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 24.72
+          semiMajorAxis: 1946994.8716270376
+          eccentricity: 0
+          inclination: 0.53
+          orbitalArc: 216
+          showOrbit: true
+          parentId: La Superba 3
+        isPlanet:
+          age: 903378638
+          classification: D
+          radius: 7695.631903664181
+          terranMass: 0.8799998054146607
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 372
+  - name: La Superba 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 10.47
       semiMajorAxis: 6974212777
       eccentricity: 0.02
       inclination: 1.76
       orbitalArc: 121
-      axialTilt: 10.47
-      parentId: La Superba
       showOrbit: true
+      parentId: La Superba
+    isPlanet:
+      age: 791500382
+      classification: E
+      radius: 7082
+      terranMass: 0.004457967312914563
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 956
     satellites: []
 commSatellite: null
 assets: {}

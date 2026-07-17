@@ -14,123 +14,123 @@ stars:
   - name: 'Titawin '
     description: ''
     tags: []
-    radius: 1.57
-    temperature: 6614
     solarMass: 1.23
     age: 15038978163982
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.57
+    temperature: 6614
     satellite:
-      orbitalArc: 17
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 17
       showOrbit: false
       parentId: Titawin
 planets:
   - name: Titawin 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 4069
-      age: 6064774655
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.010193622875678491
-      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 400
     satellite:
+      axialTilt: 4.07
       semiMajorAxis: 1974194019.6666667
       eccentricity: 0.02
       inclination: 0.05
       orbitalArc: 40
-      axialTilt: 4.07
-      parentId: Titawin
       showOrbit: true
-    satellites:
-      - name: Titawin 1a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 251.06879252421643
-          age: 6847810175
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-          classification: 'N'
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 540205458
-        temperature: 403
-        satellite:
-          semiMajorAxis: 184077.17280277962
-          eccentricity: 0.01
-          inclination: 1.02
-          orbitalArc: 243
-          axialTilt: 38.9
-          parentId: Titawin 1
-          showOrbit: true
-        satellites: []
-      - name: Titawin 1b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 692.0659637354119
-          age: 7666939997
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 7622358120
-        temperature: 296
-        satellite:
-          semiMajorAxis: 295512.1665150209
-          eccentricity: 0.02
-          inclination: 1.7
-          orbitalArc: 206
-          axialTilt: 3.82
-          parentId: Titawin 1
-          showOrbit: true
-        satellites: []
-  - name: Titawin 2
-    description: ''
-    tags: []
+      parentId: Titawin
     isPlanet:
-      radius: 213
-      age: 298033273
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.003992147288890586
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
+      age: 6064774655
+      classification: B
+      radius: 4069
+      terranMass: 0.010193622875678491
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
-    temperature: 191
+    temperature: 400
+    satellites:
+      - name: Titawin 1a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 38.9
+          semiMajorAxis: 184077.17280277962
+          eccentricity: 0.01
+          inclination: 1.02
+          orbitalArc: 243
+          showOrbit: true
+          parentId: Titawin 1
+        isPlanet:
+          age: 6847810175
+          classification: 'N'
+          radius: 251.06879252421643
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 540205458
+        temperature: 403
+      - name: Titawin 1b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 3.82
+          semiMajorAxis: 295512.1665150209
+          eccentricity: 0.02
+          inclination: 1.7
+          orbitalArc: 206
+          showOrbit: true
+          parentId: Titawin 1
+        isPlanet:
+          age: 7666939997
+          classification: M
+          radius: 692.0659637354119
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 7622358120
+        temperature: 296
+  - name: Titawin 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 23.83
       semiMajorAxis: 3782266214
       eccentricity: 0.01
       inclination: 0.72
       orbitalArc: 141
-      axialTilt: 23.83
-      parentId: Titawin
       showOrbit: true
+      parentId: Titawin
+    isPlanet:
+      age: 298033273
+      classification: D
+      radius: 213
+      terranMass: 0.003992147288890586
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 191
     satellites: []
 commSatellite: null
 assets: {}

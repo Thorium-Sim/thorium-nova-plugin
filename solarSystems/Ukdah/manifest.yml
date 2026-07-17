@@ -14,146 +14,146 @@ stars:
   - name: Ukdah A
     description: ''
     tags: []
-    radius: 30
-    temperature: 4238
     solarMass: 1.92
     age: 381403078563
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 30
+    temperature: 4238
     satellite:
-      orbitalArc: 100
-      semiMajorAxis: 360
       axialTilt: 0
+      semiMajorAxis: 360
       eccentricity: 0
       inclination: 0
+      orbitalArc: 100
       showOrbit: false
       parentId: Ukdah
   - name: Ukdah B
     description: ''
     tags: []
-    radius: 30
-    temperature: 4238
     solarMass: 1.92
     age: 381403078563
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 30
+    temperature: 4238
     satellite:
-      orbitalArc: 280
-      semiMajorAxis: 360
       axialTilt: 0
+      semiMajorAxis: 360
       eccentricity: 0
       inclination: 0
+      orbitalArc: 280
       showOrbit: false
       parentId: Ukdah
 planets:
   - name: Ukdah 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 5.77
+      semiMajorAxis: 2461422918
+      eccentricity: 0.01
+      inclination: 0.48
+      orbitalArc: 325
+      showOrbit: true
+      parentId: Ukdah
     isPlanet:
-      radius: 4498
       age: 7864465101
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.029301196995891104
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 4498
+      terranMass: 0.029301196995891104
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 25913
     temperature: 205
-    satellite:
-      semiMajorAxis: 2461422918
-      eccentricity: 0.01
-      inclination: 0.48
-      orbitalArc: 325
-      axialTilt: 5.77
-      parentId: Ukdah
-      showOrbit: true
     satellites: []
   - name: Ukdah 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 279
-      age: 941507864
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0055257487756995025
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 398
     satellite:
+      axialTilt: 5.17
       semiMajorAxis: 3395963881.3333316
       eccentricity: 0.02
       inclination: 1.49
       orbitalArc: 28
-      axialTilt: 5.17
-      parentId: Ukdah
       showOrbit: true
+      parentId: Ukdah
+    isPlanet:
+      age: 941507864
+      classification: D
+      radius: 279
+      terranMass: 0.0055257487756995025
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 398
     satellites: []
   - name: Ukdah 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 18.07
+      semiMajorAxis: 3964230869
+      eccentricity: 0.01
+      inclination: 0.61
+      orbitalArc: 196
+      showOrbit: true
+      parentId: Ukdah
     isPlanet:
-      radius: 67303
       age: 9867935628
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 1.6645393579580212
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 67303
+      terranMass: 1.6645393579580212
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
     temperature: 184
-    satellite:
-      semiMajorAxis: 3964230869
-      eccentricity: 0.01
-      inclination: 0.61
-      orbitalArc: 196
-      axialTilt: 18.07
-      parentId: Ukdah
-      showOrbit: true
     satellites:
       - name: Ukdah 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 39.17
+          semiMajorAxis: 3797264.230700581
+          eccentricity: 0.01
+          inclination: 0.13
+          orbitalArc: 276
+          showOrbit: true
+          parentId: Ukdah 3
         isPlanet:
-          radius: 13094.014588622693
           age: 9123739711
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.900000048340558
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 13094.014588622693
+          terranMass: 0.900000048340558
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 6511
         temperature: 150
-        satellite:
-          semiMajorAxis: 3797264.230700581
-          eccentricity: 0.01
-          inclination: 0.13
-          orbitalArc: 276
-          axialTilt: 39.17
-          parentId: Ukdah 3
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

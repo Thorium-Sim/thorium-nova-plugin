@@ -14,172 +14,172 @@ stars:
   - name: Algieba A
     description: ''
     tags: []
-    radius: 28.5
-    temperature: 4457
     solarMass: 1.66
     age: 298687546944
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 28.5
+    temperature: 4457
     satellite:
-      orbitalArc: 123
-      semiMajorAxis: 342
       axialTilt: 0
+      semiMajorAxis: 342
       eccentricity: 0
       inclination: 0
+      orbitalArc: 123
       showOrbit: false
       parentId: Algieba
   - name: Algieba B
     description: ''
     tags: []
-    radius: 28.5
-    temperature: 4457
     solarMass: 1.66
     age: 298687546944
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 28.5
+    temperature: 4457
     satellite:
-      orbitalArc: 303
-      semiMajorAxis: 342
       axialTilt: 0
+      semiMajorAxis: 342
       eccentricity: 0
       inclination: 0
+      orbitalArc: 303
       showOrbit: false
       parentId: Algieba
 planets:
   - name: Algieba 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 402
-      age: 82115786
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.02326487991490796
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 203
     satellite:
+      axialTilt: 38.33
       semiMajorAxis: 1452147821.333333
       eccentricity: 0.01
       inclination: 1.52
       orbitalArc: 208
-      axialTilt: 38.33
-      parentId: Algieba
       showOrbit: true
+      parentId: Algieba
+    isPlanet:
+      age: 82115786
+      classification: D
+      radius: 402
+      terranMass: 0.02326487991490796
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 203
     satellites: []
   - name: Algieba 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 35.53
+      semiMajorAxis: 2584954773.5555553
+      eccentricity: 0.01
+      inclination: 0.33
+      orbitalArc: 206
+      showOrbit: true
+      parentId: Algieba
     isPlanet:
-      radius: 3217
       age: 9459939322
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.008548986338853738
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3217
+      terranMass: 0.008548986338853738
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 1886
     temperature: 303
-    satellite:
-      semiMajorAxis: 2584954773.5555553
-      eccentricity: 0.01
-      inclination: 0.33
-      orbitalArc: 206
-      axialTilt: 35.53
-      parentId: Algieba
-      showOrbit: true
     satellites:
       - name: Algieba 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 613.5597051744372
-          age: 952721275
-          ringMapAsset: null
-          terranMass: 0.7899996709437069
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 246
         satellite:
+          axialTilt: 5.85
           semiMajorAxis: 214745.89681105304
           eccentricity: 0.02
           inclination: 1.93
           orbitalArc: 253
-          axialTilt: 5.85
-          parentId: Algieba 2
           showOrbit: true
-        satellites: []
+          parentId: Algieba 2
+        isPlanet:
+          age: 952721275
+          classification: D
+          radius: 613.5597051744372
+          terranMass: 0.7899996709437069
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 246
   - name: Algieba 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 11.52
+      semiMajorAxis: 3978354306
+      eccentricity: 0.02
+      inclination: 1.11
+      orbitalArc: 197
+      showOrbit: true
+      parentId: Algieba
     isPlanet:
-      radius: 41160
       age: 6664798101
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
-      ringMapAsset: null
-      terranMass: 1.5084172097694635
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
       classification: J
+      radius: 41160
+      terranMass: 1.5084172097694635
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
     population: 0
     temperature: 316
-    satellite:
-      semiMajorAxis: 3978354306
-      eccentricity: 0.02
-      inclination: 1.11
-      orbitalArc: 197
-      axialTilt: 11.52
-      parentId: Algieba
-      showOrbit: true
     satellites:
       - name: Algieba 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 11.82
+          semiMajorAxis: 2309326.3676856356
+          eccentricity: 0
+          inclination: 1.07
+          orbitalArc: 193
+          showOrbit: true
+          parentId: Algieba 3
         isPlanet:
-          radius: 7828.224975205544
           age: 8532453686
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 2.300000077729564
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
           classification: H
+          radius: 7828.224975205544
+          terranMass: 2.300000077729564
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 0
         temperature: 781
-        satellite:
-          semiMajorAxis: 2309326.3676856356
-          eccentricity: 0
-          inclination: 1.07
-          orbitalArc: 193
-          axialTilt: 11.82
-          parentId: Algieba 3
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

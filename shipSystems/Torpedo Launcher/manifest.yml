@@ -7,6 +7,8 @@ tags: []
 assets:
   soundEffects: []
 soundEffects:
+  load: []
+  unload: []
   fire:
     - url: >-
         /plugins/Thorium Default/shipSystems/Torpedo Launcher/assets/Torpedo
@@ -23,8 +25,6 @@ soundEffects:
       delay: 0
       loopGap: 0
       channel: null
-  load: []
-  unload: []
 allowMultiple: true
 powerLevels:
   - 5
@@ -50,7 +50,3 @@ loadTime: 5000
 fireTime: 1000
 headingDegree: 0
 pitchDegree: 0
-defaultPower: 10
-requiredPower: 5
-maxSafePower: 20
-powerNode: offense

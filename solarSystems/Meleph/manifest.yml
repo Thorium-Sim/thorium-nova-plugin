@@ -14,167 +14,168 @@ stars:
   - name: Meleph A
     description: ''
     tags: []
-    radius: 3.8
-    temperature: 8060
     solarMass: 2.42
     age: 2290220458897
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 3.8
+    temperature: 8060
     satellite:
-      orbitalArc: 131
-      semiMajorAxis: 45.599999999999994
       axialTilt: 0
+      semiMajorAxis: 45.599999999999994
       eccentricity: 0
       inclination: 0
+      orbitalArc: 131
       showOrbit: false
       parentId: Meleph
   - name: Meleph B
     description: ''
     tags: []
-    radius: 3.8
-    temperature: 8060
     solarMass: 2.42
     age: 2290220458897
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 3.8
+    temperature: 8060
     satellite:
-      orbitalArc: 311
-      semiMajorAxis: 45.599999999999994
       axialTilt: 0
+      semiMajorAxis: 45.599999999999994
       eccentricity: 0
       inclination: 0
+      orbitalArc: 311
       showOrbit: false
       parentId: Meleph
 planets:
   - name: Meleph 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 440
-      age: 30513963
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.004713080670179806
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 382
     satellite:
+      axialTilt: 14.06
       semiMajorAxis: 119365426
       eccentricity: 0.02
       inclination: 1.6
       orbitalArc: 82
-      axialTilt: 14.06
-      parentId: Meleph
       showOrbit: true
-    satellites: []
-  - name: Meleph 2
-    description: ''
-    tags: []
+      parentId: Meleph
     isPlanet:
-      radius: 350
-      age: 431816441
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.01569572310860841
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      age: 30513963
       classification: D
+      radius: 440
+      terranMass: 0.004713080670179806
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
-    temperature: 381
+    temperature: 382
+    satellites: []
+  - name: Meleph 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 21.66
       semiMajorAxis: 487472612.6666676
       eccentricity: 0.02
       inclination: 0.72
       orbitalArc: 102
-      axialTilt: 21.66
-      parentId: Meleph
       showOrbit: true
+      parentId: Meleph
+    isPlanet:
+      age: 431816441
+      classification: D
+      radius: 350
+      terranMass: 0.01569572310860841
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 381
     satellites: []
   - name: Meleph 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 7304
-      age: 9057926107
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.00466691110450004
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 155616
-    temperature: 268
     satellite:
+      axialTilt: 11.23
       semiMajorAxis: 1032161575.5555595
       eccentricity: 0.01
       inclination: 1.67
       orbitalArc: 261
-      axialTilt: 11.23
-      parentId: Meleph
       showOrbit: true
+      parentId: Meleph
+    isPlanet:
+      age: 9057926107
+      classification: P
+      radius: 7304
+      terranMass: 0.00466691110450004
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 155616
+    temperature: 268
     satellites: []
   - name: Meleph 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 5683
-      age: 6086111054
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.0069678045354010084
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 75232320
-    temperature: 387
     satellite:
+      axialTilt: 4.98
       semiMajorAxis: 1338218955
       eccentricity: 0
       inclination: 0.02
       orbitalArc: 91
-      axialTilt: 4.98
-      parentId: Meleph
       showOrbit: true
+      parentId: Meleph
+    isPlanet:
+      age: 6086111054
+      classification: 'N'
+      radius: 5683
+      terranMass: 0.0069678045354010084
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 75232320
+    temperature: 387
     satellites:
       - name: Meleph 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1320.0995721186162
-          age: 6678483231
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 50812679
-        temperature: 297
         satellite:
+          axialTilt: 23.44
           semiMajorAxis: 493717.23997236247
           eccentricity: 0.02
           inclination: 1.66
           orbitalArc: 122
-          axialTilt: 23.44
-          parentId: Meleph 4
           showOrbit: true
-        satellites: []
+          parentId: Meleph 4
+        isPlanet:
+          age: 6678483231
+          classification: O
+          radius: 1320.0995721186162
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 50812679
+        temperature: 297
 commSatellite: null
 assets: {}

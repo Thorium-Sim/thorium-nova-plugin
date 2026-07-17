@@ -14,101 +14,102 @@ stars:
   - name: 'Ogma '
     description: ''
     tags: []
-    radius: 1.541
-    temperature: 6147
     solarMass: 1.345
     age: 22878810379156
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.541
+    temperature: 6147
     satellite:
-      orbitalArc: 40
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 40
       showOrbit: false
       parentId: Ogma
 planets:
   - name: Ogma 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 7.68
+      semiMajorAxis: 166546114.66666734
+      eccentricity: 0
+      inclination: 1.44
+      orbitalArc: 272
+      showOrbit: true
+      parentId: Ogma
     isPlanet:
-      radius: 4286
       age: 6548159741
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.015065955656620212
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4286
+      terranMass: 0.015065955656620212
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 19331
     temperature: 205
-    satellite:
-      semiMajorAxis: 166546114.66666734
-      eccentricity: 0
-      inclination: 1.44
-      orbitalArc: 272
-      axialTilt: 7.68
-      parentId: Ogma
-      showOrbit: true
     satellites: []
   - name: Ogma 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 134
-      age: 320199260
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.01684770637202424
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 301
     satellite:
+      axialTilt: 4.49
       semiMajorAxis: 1762409924.7777786
       eccentricity: 0.01
       inclination: 0.52
       orbitalArc: 338
-      axialTilt: 4.49
-      parentId: Ogma
       showOrbit: true
+      parentId: Ogma
+    isPlanet:
+      age: 320199260
+      classification: D
+      radius: 134
+      terranMass: 0.01684770637202424
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 301
     satellites: []
   - name: Ogma 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 24.37
+      semiMajorAxis: 2607122733
+      eccentricity: 0.01
+      inclination: 0.63
+      orbitalArc: 56
+      showOrbit: true
+      parentId: Ogma
     isPlanet:
-      radius: 26567
       age: 7597977162
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.5116269584131956
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
       classification: J
+      radius: 26567
+      terranMass: 0.5116269584131956
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 338
-    satellite:
-      semiMajorAxis: 2607122733
-      eccentricity: 0.01
-      inclination: 0.63
-      orbitalArc: 56
-      axialTilt: 24.37
-      parentId: Ogma
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

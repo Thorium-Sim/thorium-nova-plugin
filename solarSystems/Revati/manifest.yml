@@ -14,253 +14,254 @@ stars:
   - name: 'Revati '
     description: ''
     tags: []
-    radius: 3.239
-    temperature: 7345
     solarMass: 2.07
     age: 3909763909449
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 3.239
+    temperature: 7345
     satellite:
-      orbitalArc: 146
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 146
       showOrbit: false
       parentId: Revati
 planets:
   - name: Revati 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 259
-      age: 403074248
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.0020393531413485425
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 318
     satellite:
+      axialTilt: 31.93
       semiMajorAxis: 286943728.6666665
       eccentricity: 0.02
       inclination: 0.53
       orbitalArc: 94
-      axialTilt: 31.93
-      parentId: Revati
       showOrbit: true
-    satellites: []
-  - name: Revati 2
-    description: ''
-    tags: []
+      parentId: Revati
     isPlanet:
-      radius: 6753
-      age: 1039335601
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.01299485875049588
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-      classification: E
+      age: 403074248
+      classification: D
+      radius: 259
+      terranMass: 0.0020393531413485425
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
-    temperature: 1323
+    temperature: 318
+    satellites: []
+  - name: Revati 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 23.09
       semiMajorAxis: 559694652.222221
       eccentricity: 0.01
       inclination: 0.77
       orbitalArc: 266
-      axialTilt: 23.09
-      parentId: Revati
       showOrbit: true
+      parentId: Revati
+    isPlanet:
+      age: 1039335601
+      classification: E
+      radius: 6753
+      terranMass: 0.01299485875049588
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 1323
     satellites:
       - name: Revati 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 13.43
+          semiMajorAxis: 262037.09001907302
+          eccentricity: 0.01
+          inclination: 1.33
+          orbitalArc: 30
+          showOrbit: true
+          parentId: Revati 2
         isPlanet:
-          radius: 1039.8297222979088
           age: 8287506965
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.9000000452363381
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 1039.8297222979088
+          terranMass: 1.9000000452363381
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 27009
         temperature: 172
-        satellite:
-          semiMajorAxis: 262037.09001907302
-          eccentricity: 0.01
-          inclination: 1.33
-          orbitalArc: 30
-          axialTilt: 13.43
-          parentId: Revati 2
-          showOrbit: true
-        satellites: []
   - name: Revati 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 6976
-      age: 1613428279
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.011714797003423328
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1228
     satellite:
+      axialTilt: 0.32
       semiMajorAxis: 665517062.9259046
       eccentricity: 0.01
       inclination: 0.59
       orbitalArc: 151
-      axialTilt: 0.32
-      parentId: Revati
       showOrbit: true
+      parentId: Revati
+    isPlanet:
+      age: 1613428279
+      classification: E
+      radius: 6976
+      terranMass: 0.011714797003423328
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 1228
     satellites:
       - name: Revati 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1280.0225066997161
-          age: 631551253
-          ringMapAsset: null
-          terranMass: 0.6699997931380761
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 381
         satellite:
+          axialTilt: 24.16
           semiMajorAxis: 198595.26448380394
           eccentricity: 0.02
           inclination: 1.88
           orbitalArc: 7
-          axialTilt: 24.16
-          parentId: Revati 3
           showOrbit: true
-        satellites: []
+          parentId: Revati 3
+        isPlanet:
+          age: 631551253
+          classification: D
+          radius: 1280.0225066997161
+          terranMass: 0.6699997931380761
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 381
       - name: Revati 3b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 30.12
+          semiMajorAxis: 567134.3845147779
+          eccentricity: 0.01
+          inclination: 1.07
+          orbitalArc: 140
+          showOrbit: true
+          parentId: Revati 3
         isPlanet:
-          radius: 1177.833284670914
           age: 9282288692
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 2.3000001139288084
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
           classification: H
+          radius: 1177.833284670914
+          terranMass: 2.3000001139288084
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 512
-        satellite:
-          semiMajorAxis: 567134.3845147779
-          eccentricity: 0.01
-          inclination: 1.07
-          orbitalArc: 140
-          axialTilt: 30.12
-          parentId: Revati 3
-          showOrbit: true
-        satellites: []
       - name: Revati 3c
         description: ''
         tags: []
+        satellite:
+          axialTilt: 3.35
+          semiMajorAxis: 789143.246147632
+          eccentricity: 0.01
+          inclination: 1.39
+          orbitalArc: 285
+          showOrbit: true
+          parentId: Revati 3
         isPlanet:
-          radius: 1591.0146091686129
           age: 9794143493
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 1.700000024260758
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 1591.0146091686129
+          terranMass: 1.700000024260758
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 42422
         temperature: 123
-        satellite:
-          semiMajorAxis: 789143.246147632
-          eccentricity: 0.01
-          inclination: 1.39
-          orbitalArc: 285
-          axialTilt: 3.35
-          parentId: Revati 3
-          showOrbit: true
-        satellites: []
   - name: Revati 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 2713
-      age: 633633891
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.011413399993076164
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 44
     satellite:
+      axialTilt: 18.34
       semiMajorAxis: 760741641
       eccentricity: 0.02
       inclination: 1.32
       orbitalArc: 262
-      axialTilt: 18.34
-      parentId: Revati
       showOrbit: true
+      parentId: Revati
+    isPlanet:
+      age: 633633891
+      classification: C
+      radius: 2713
+      terranMass: 0.011413399993076164
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 44
     satellites:
       - name: Revati 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 514.2344873599906
-          age: 67442536
-          ringMapAsset: null
-          terranMass: 0.8199999124761781
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 365
         satellite:
+          axialTilt: 5.55
           semiMajorAxis: 176896.66365183674
           eccentricity: 0.01
           inclination: 0.33
           orbitalArc: 168
-          axialTilt: 5.55
-          parentId: Revati 4
           showOrbit: true
-        satellites: []
+          parentId: Revati 4
+        isPlanet:
+          age: 67442536
+          classification: D
+          radius: 514.2344873599906
+          terranMass: 0.8199999124761781
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 365
 commSatellite: null
 assets: {}

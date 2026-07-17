@@ -1,0 +1,8 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Cool Adjectives
+description: ''
+textPattern: >-
+  {~Cyber,Naidon,Faraday,Bernal,Dyson,Analog,Digital,Crypto,Duplex,Hyper,Interlaced,Progressive,Simplex,Multiplex,Modal}
+category: Word Lists
+assets: {}

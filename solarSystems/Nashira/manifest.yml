@@ -14,147 +14,146 @@ stars:
   - name: Nashira A
     description: ''
     tags: []
-    radius: 2.35
-    temperature: 7520
     solarMass: 2.44
     age: 7968049508742
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.35
+    temperature: 7520
     satellite:
-      orbitalArc: 156
-      semiMajorAxis: 28.200000000000003
       axialTilt: 0
+      semiMajorAxis: 28.200000000000003
       eccentricity: 0
       inclination: 0
+      orbitalArc: 156
       showOrbit: false
       parentId: Nashira
   - name: Nashira B
     description: ''
     tags: []
-    radius: 2.35
-    temperature: 7520
     solarMass: 2.44
     age: 7968049508742
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.35
+    temperature: 7520
     satellite:
-      orbitalArc: 336
-      semiMajorAxis: 28.200000000000003
       axialTilt: 0
+      semiMajorAxis: 28.200000000000003
       eccentricity: 0
       inclination: 0
+      orbitalArc: 336
       showOrbit: false
       parentId: Nashira
 planets:
   - name: Nashira 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.17
+      semiMajorAxis: 372534601.00000036
+      eccentricity: 0.01
+      inclination: 1.82
+      orbitalArc: 148
+      showOrbit: true
+      parentId: Nashira
     isPlanet:
-      radius: 5284
       age: 8030152383
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0012270578632309415
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 5284
+      terranMass: 0.0012270578632309415
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
     temperature: 647
-    satellite:
-      semiMajorAxis: 372534601.00000036
-      eccentricity: 0.01
-      inclination: 1.82
-      orbitalArc: 148
-      axialTilt: 23.17
-      parentId: Nashira
-      showOrbit: true
     satellites:
       - name: Nashira 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1040.2356657759372
-          age: 8304422048
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 2029861445
-        temperature: 289
         satellite:
+          axialTilt: 27.97
           semiMajorAxis: 502433.8265697776
           eccentricity: 0
           inclination: 0.64
           orbitalArc: 40
-          axialTilt: 27.97
-          parentId: Nashira 1
           showOrbit: true
-        satellites: []
+          parentId: Nashira 1
+        isPlanet:
+          age: 8304422048
+          classification: M
+          radius: 1040.2356657759372
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 2029861445
+        temperature: 289
   - name: Nashira 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 4479
-      age: 4973094374
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.010838217365651312
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
-      classification: K
-      isHabitable: true
-      lifeforms:
-        - None
-        - Primitive single-celled organisms
-      atmosphericComposition: []
-    population: 8194
-    temperature: 141
     satellite:
+      axialTilt: 20.37
       semiMajorAxis: 518656967.00000334
       eccentricity: 0
       inclination: 1.97
       orbitalArc: 336
-      axialTilt: 20.37
-      parentId: Nashira
       showOrbit: true
-    satellites: []
-  - name: Nashira 3
-    description: ''
-    tags: []
+      parentId: Nashira
     isPlanet:
-      radius: 4191
-      age: 6080459857
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.008077814972168224
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      age: 4973094374
       classification: K
+      radius: 4479
+      terranMass: 0.010838217365651312
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
-    population: 42910
-    temperature: 210
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 8194
+    temperature: 141
+    satellites: []
+  - name: Nashira 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 27.78
       semiMajorAxis: 682296282
       eccentricity: 0.01
       inclination: 1.32
       orbitalArc: 154
-      axialTilt: 27.78
-      parentId: Nashira
       showOrbit: true
+      parentId: Nashira
+    isPlanet:
+      age: 6080459857
+      classification: K
+      radius: 4191
+      terranMass: 0.008077814972168224
+      isHabitable: true
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 42910
+    temperature: 210
     satellites: []
 commSatellite: null
 assets: {}

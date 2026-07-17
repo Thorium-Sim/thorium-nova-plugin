@@ -14,166 +14,167 @@ stars:
   - name: Capella A
     description: ''
     tags: []
-    radius: 11.98
-    temperature: 4970
     solarMass: 2.5687
     age: 1691778413142
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.98
+    temperature: 4970
     satellite:
-      orbitalArc: 236
-      semiMajorAxis: 143.76
       axialTilt: 0
+      semiMajorAxis: 143.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 236
       showOrbit: false
       parentId: Capella
   - name: Capella B
     description: ''
     tags: []
-    radius: 11.98
-    temperature: 4970
     solarMass: 2.5687
     age: 1691778413142
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.98
+    temperature: 4970
     satellite:
-      orbitalArc: 416
-      semiMajorAxis: 143.76
       axialTilt: 0
+      semiMajorAxis: 143.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 416
       showOrbit: false
       parentId: Capella
 planets:
   - name: Capella 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 2832
-      age: 812064364
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0370490114181676
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 33
     satellite:
+      axialTilt: 23.44
       semiMajorAxis: 559122252
       eccentricity: 0.01
       inclination: 0.99
       orbitalArc: 59
-      axialTilt: 23.44
-      parentId: Capella
       showOrbit: true
+      parentId: Capella
+    isPlanet:
+      age: 812064364
+      classification: C
+      radius: 2832
+      terranMass: 0.0370490114181676
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 33
     satellites:
       - name: Capella 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 278.9872430692863
-          age: 484476654
-          ringMapAsset: null
-          terranMass: 0.30000005647112926
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 818
         satellite:
+          axialTilt: 5.58
           semiMajorAxis: 79158.62874322818
           eccentricity: 0.02
           inclination: 1.58
           orbitalArc: 332
-          axialTilt: 5.58
-          parentId: Capella 1
           showOrbit: true
-        satellites: []
+          parentId: Capella 1
+        isPlanet:
+          age: 484476654
+          classification: E
+          radius: 278.9872430692863
+          terranMass: 0.30000005647112926
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 818
       - name: Capella 1b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 29.55
+          semiMajorAxis: 187439.87210300466
+          eccentricity: 0
+          inclination: 0.97
+          orbitalArc: 88
+          showOrbit: true
+          parentId: Capella 1
         isPlanet:
-          radius: 271.934287943862
           age: 5338724445
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 1.5000000497106591
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 271.934287943862
+          terranMass: 1.5000000497106591
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 38740
         temperature: 269
-        satellite:
-          semiMajorAxis: 187439.87210300466
-          eccentricity: 0
-          inclination: 0.97
-          orbitalArc: 88
-          axialTilt: 29.55
-          parentId: Capella 1
-          showOrbit: true
-        satellites: []
       - name: Capella 1c
         description: ''
         tags: []
-        isPlanet:
-          radius: 602.0779767717416
-          age: 643075561
-          ringMapAsset: null
-          terranMass: 0.46999973723772404
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 285
         satellite:
+          axialTilt: 28.06
           semiMajorAxis: 278762.10324531636
           eccentricity: 0.01
           inclination: 1.02
           orbitalArc: 226
-          axialTilt: 28.06
-          parentId: Capella 1
           showOrbit: true
-        satellites: []
+          parentId: Capella 1
+        isPlanet:
+          age: 643075561
+          classification: D
+          radius: 602.0779767717416
+          terranMass: 0.46999973723772404
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 285
   - name: Capella 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5907
-      age: 96925480
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.006987455398905526
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1101
     satellite:
+      axialTilt: 17.52
       semiMajorAxis: 1570578078
       eccentricity: 0.01
       inclination: 1.27
       orbitalArc: 305
-      axialTilt: 17.52
-      parentId: Capella
       showOrbit: true
+      parentId: Capella
+    isPlanet:
+      age: 96925480
+      classification: E
+      radius: 5907
+      terranMass: 0.006987455398905526
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 1101
     satellites: []
 commSatellite: null
 assets: {}

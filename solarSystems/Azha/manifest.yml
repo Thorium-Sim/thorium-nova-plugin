@@ -14,274 +14,273 @@ stars:
   - name: Azha A
     description: ''
     tags: []
-    radius: 10.48
-    temperature: 4742
     solarMass: 1.43
     age: 1485034550742
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 10.48
+    temperature: 4742
     satellite:
-      orbitalArc: 104
-      semiMajorAxis: 125.76
       axialTilt: 0
+      semiMajorAxis: 125.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 104
       showOrbit: false
       parentId: Azha
   - name: Azha B
     description: ''
     tags: []
-    radius: 10.48
-    temperature: 4742
     solarMass: 1.43
     age: 1485034550742
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 10.48
+    temperature: 4742
     satellite:
-      orbitalArc: 284
-      semiMajorAxis: 125.76
       axialTilt: 0
+      semiMajorAxis: 125.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 284
       showOrbit: false
       parentId: Azha
 planets:
   - name: Azha 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 8.73
+      semiMajorAxis: 619293652
+      eccentricity: 0.01
+      inclination: 0.72
+      orbitalArc: 177
+      showOrbit: true
+      parentId: Azha
     isPlanet:
-      radius: 6542
       age: 8826224837
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.015439199367304517
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 6542
+      terranMass: 0.015439199367304517
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
     temperature: 709
-    satellite:
-      semiMajorAxis: 619293652
-      eccentricity: 0.01
-      inclination: 0.72
-      orbitalArc: 177
-      axialTilt: 8.73
-      parentId: Azha
-      showOrbit: true
     satellites: []
   - name: Azha 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5288
-      age: 5022743728
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.021192502684121137
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 35975
-    temperature: 269
     satellite:
+      axialTilt: 5.34
       semiMajorAxis: 770038052.3333312
       eccentricity: 0.02
       inclination: 0.8
       orbitalArc: 342
-      axialTilt: 5.34
-      parentId: Azha
       showOrbit: true
+      parentId: Azha
+    isPlanet:
+      age: 5022743728
+      classification: P
+      radius: 5288
+      terranMass: 0.021192502684121137
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 35975
+    temperature: 269
     satellites: []
   - name: Azha 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 33.03
+      semiMajorAxis: 1098667797.666662
+      eccentricity: 0.02
+      inclination: 0.69
+      orbitalArc: 88
+      showOrbit: true
+      parentId: Azha
     isPlanet:
-      radius: 3504
       age: 4391237005
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.014606842018637415
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3504
+      terranMass: 0.014606842018637415
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 47156
     temperature: 202
-    satellite:
-      semiMajorAxis: 1098667797.666662
-      eccentricity: 0.02
-      inclination: 0.69
-      orbitalArc: 88
-      axialTilt: 33.03
-      parentId: Azha
-      showOrbit: true
     satellites:
       - name: Azha 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 365.3709055788282
-          age: 1369336749
-          ringMapAsset: null
-          terranMass: 0.10000013110992603
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1129
         satellite:
+          axialTilt: 28.53
           semiMajorAxis: 108547.04429254321
           eccentricity: 0.02
           inclination: 0.47
           orbitalArc: 141
-          axialTilt: 28.53
-          parentId: Azha 3
           showOrbit: true
-        satellites: []
-      - name: Azha 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 423.0876993082203
-          age: 4311203076
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 147046
-        temperature: 256
-        satellite:
-          semiMajorAxis: 210274.58655618547
-          eccentricity: 0.01
-          inclination: 1.58
-          orbitalArc: 22
-          axialTilt: 18.92
           parentId: Azha 3
-          showOrbit: true
-        satellites: []
-  - name: Azha 4
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5073
-      age: 6245791863
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.030009724895355694
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 116225
-    temperature: 261
-    satellite:
-      semiMajorAxis: 1306168741.333312
-      eccentricity: 0
-      inclination: 1.87
-      orbitalArc: 195
-      axialTilt: 21.67
-      parentId: Azha
-      showOrbit: true
-    satellites:
-      - name: Azha 4a
-        description: ''
-        tags: []
         isPlanet:
-          radius: 1058.2415413946592
-          age: 713498554
-          ringMapAsset: null
-          terranMass: 1.1199998328060337
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
+          age: 1369336749
+          classification: E
+          radius: 365.3709055788282
+          terranMass: 0.10000013110992603
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 177
+        temperature: 1129
+      - name: Azha 3b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 18.92
+          semiMajorAxis: 210274.58655618547
+          eccentricity: 0.01
+          inclination: 1.58
+          orbitalArc: 22
+          showOrbit: true
+          parentId: Azha 3
+        isPlanet:
+          age: 4311203076
+          classification: P
+          radius: 423.0876993082203
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 147046
+        temperature: 256
+  - name: Azha 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 21.67
+      semiMajorAxis: 1306168741.333312
+      eccentricity: 0
+      inclination: 1.87
+      orbitalArc: 195
+      showOrbit: true
+      parentId: Azha
+    isPlanet:
+      age: 6245791863
+      classification: P
+      radius: 5073
+      terranMass: 0.030009724895355694
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 116225
+    temperature: 261
+    satellites:
+      - name: Azha 4a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 27.62
           semiMajorAxis: 416947.16730949574
           eccentricity: 0.02
           inclination: 0.91
           orbitalArc: 344
-          axialTilt: 27.62
-          parentId: Azha 4
           showOrbit: true
-        satellites: []
+          parentId: Azha 4
+        isPlanet:
+          age: 713498554
+          classification: D
+          radius: 1058.2415413946592
+          terranMass: 1.1199998328060337
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 177
   - name: Azha 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 3023
-      age: 943316293
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.016423394429928722
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 54
     satellite:
+      axialTilt: 9.87
       semiMajorAxis: 1607689718
       eccentricity: 0.02
       inclination: 1.56
       orbitalArc: 162
-      axialTilt: 9.87
-      parentId: Azha
       showOrbit: true
+      parentId: Azha
+    isPlanet:
+      age: 943316293
+      classification: C
+      radius: 3023
+      terranMass: 0.016423394429928722
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 54
     satellites:
       - name: Azha 5a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 24.73
+          semiMajorAxis: 120331.53845241426
+          eccentricity: 0.01
+          inclination: 1.04
+          orbitalArc: 245
+          showOrbit: true
+          parentId: Azha 5
         isPlanet:
-          radius: 263.30752396589554
           age: 6007790429
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 1.1000000648221402
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 263.30752396589554
+          terranMass: 1.1000000648221402
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 19257
         temperature: 155
-        satellite:
-          semiMajorAxis: 120331.53845241426
-          eccentricity: 0.01
-          inclination: 1.04
-          orbitalArc: 245
-          axialTilt: 24.73
-          parentId: Azha 5
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

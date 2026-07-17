@@ -14,37 +14,37 @@ stars:
   - name: Algenib A
     description: ''
     tags: []
-    radius: 5.4
-    temperature: 22000
     solarMass: 8.8
     age: 74297416688
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 5.4
+    temperature: 22000
     satellite:
-      orbitalArc: 327
-      semiMajorAxis: 64.80000000000001
       axialTilt: 0
+      semiMajorAxis: 64.80000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 327
       showOrbit: false
       parentId: Algenib
   - name: Algenib B
     description: ''
     tags: []
-    radius: 5.4
-    temperature: 22000
     solarMass: 8.8
     age: 74297416688
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 5.4
+    temperature: 22000
     satellite:
-      orbitalArc: 507
-      semiMajorAxis: 64.80000000000001
       axialTilt: 0
+      semiMajorAxis: 64.80000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 507
       showOrbit: false
       parentId: Algenib
 planets: []

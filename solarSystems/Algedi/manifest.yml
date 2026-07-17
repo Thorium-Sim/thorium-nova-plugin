@@ -14,92 +14,93 @@ stars:
   - name: Algedi A
     description: ''
     tags: []
-    radius: 8.38
-    temperature: 5030
     solarMass: 2.05
     age: 2630044931539
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 8.38
+    temperature: 5030
     satellite:
-      orbitalArc: 38
-      semiMajorAxis: 100.56
       axialTilt: 0
+      semiMajorAxis: 100.56
       eccentricity: 0
       inclination: 0
+      orbitalArc: 38
       showOrbit: false
       parentId: Algedi
   - name: Algedi B
     description: ''
     tags: []
-    radius: 8.38
-    temperature: 5030
     solarMass: 2.05
     age: 2630044931539
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 8.38
+    temperature: 5030
     satellite:
-      orbitalArc: 218
-      semiMajorAxis: 100.56
       axialTilt: 0
+      semiMajorAxis: 100.56
       eccentricity: 0
       inclination: 0
+      orbitalArc: 218
       showOrbit: false
       parentId: Algedi
 planets:
   - name: Algedi 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 393
-      age: 138942672
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.001782482443528794
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 189
     satellite:
+      axialTilt: 1.95
       semiMajorAxis: 1446194219.000001
       eccentricity: 0.02
       inclination: 1.92
       orbitalArc: 314
-      axialTilt: 1.95
-      parentId: Algedi
       showOrbit: true
+      parentId: Algedi
+    isPlanet:
+      age: 138942672
+      classification: D
+      radius: 393
+      terranMass: 0.001782482443528794
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 189
     satellites: []
   - name: Algedi 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 24.1
+      semiMajorAxis: 2415936511
+      eccentricity: 0.01
+      inclination: 1.1
+      orbitalArc: 182
+      showOrbit: true
+      parentId: Algedi
     isPlanet:
-      radius: 51150
       age: 6927263666
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.4470336575089101
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
       classification: J
+      radius: 51150
+      terranMass: 0.4470336575089101
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
     temperature: 242
-    satellite:
-      semiMajorAxis: 2415936511
-      eccentricity: 0.01
-      inclination: 1.1
-      orbitalArc: 182
-      axialTilt: 24.1
-      parentId: Algedi
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

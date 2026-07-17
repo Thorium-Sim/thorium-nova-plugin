@@ -14,190 +14,192 @@ stars:
   - name: Acubens A
     description: ''
     tags: []
-    radius: 3.655
-    temperature: 7943
     solarMass: 2.1
     age: 2277590099986
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 3.655
+    temperature: 7943
     satellite:
-      orbitalArc: 172
-      semiMajorAxis: 43.86
       axialTilt: 0
+      semiMajorAxis: 43.86
       eccentricity: 0
       inclination: 0
+      orbitalArc: 172
       showOrbit: false
       parentId: Acubens
   - name: Acubens B
     description: ''
     tags: []
-    radius: 3.655
-    temperature: 7943
     solarMass: 2.1
     age: 2277590099986
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 3.655
+    temperature: 7943
     satellite:
-      orbitalArc: 352
-      semiMajorAxis: 43.86
       axialTilt: 0
+      semiMajorAxis: 43.86
       eccentricity: 0
       inclination: 0
+      orbitalArc: 352
       showOrbit: false
       parentId: Acubens
 planets:
   - name: Acubens 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 243
-      age: 20112931
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0013017482740807305
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 342
     satellite:
+      axialTilt: 1.43
       semiMajorAxis: 415131836
       eccentricity: 0
       inclination: 0.36
       orbitalArc: 256
-      axialTilt: 1.43
-      parentId: Acubens
       showOrbit: true
+      parentId: Acubens
+    isPlanet:
+      age: 20112931
+      classification: D
+      radius: 243
+      terranMass: 0.0013017482740807305
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 342
     satellites: []
   - name: Acubens 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 2120
-      age: 28366576
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.022795314797158458
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 43
     satellite:
+      axialTilt: 2.78
       semiMajorAxis: 777055646
       eccentricity: 0.01
       inclination: 0.89
       orbitalArc: 355
-      axialTilt: 2.78
-      parentId: Acubens
       showOrbit: true
-    satellites: []
-  - name: Acubens 3
-    description: ''
-    tags: []
+      parentId: Acubens
     isPlanet:
-      radius: 2155
-      age: 566636739
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.011673659184984947
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      age: 28366576
       classification: C
+      radius: 2120
+      terranMass: 0.022795314797158458
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
-    temperature: 45
+    temperature: 43
+    satellites: []
+  - name: Acubens 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 9.75
       semiMajorAxis: 1238977679
       eccentricity: 0.01
       inclination: 1.13
       orbitalArc: 202
-      axialTilt: 9.75
-      parentId: Acubens
       showOrbit: true
+      parentId: Acubens
+    isPlanet:
+      age: 566636739
+      classification: C
+      radius: 2155
+      terranMass: 0.011673659184984947
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 45
     satellites:
       - name: Acubens 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 185.5647631625912
-          age: 790486105
-          ringMapAsset: null
-          terranMass: 0.600000035553295
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 42
         satellite:
+          axialTilt: 38.78
           semiMajorAxis: 73168.44311315162
           eccentricity: 0.01
           inclination: 0.43
           orbitalArc: 211
-          axialTilt: 38.78
-          parentId: Acubens 3
           showOrbit: true
-        satellites: []
-      - name: Acubens 3b
-        description: ''
-        tags: []
+          parentId: Acubens 3
         isPlanet:
-          radius: 360.01238940976623
-          age: 159049085
-          ringMapAsset: null
-          terranMass: 0.7399998438484345
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
+          age: 790486105
+          classification: C
+          radius: 185.5647631625912
+          terranMass: 0.600000035553295
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 219
+        temperature: 42
+      - name: Acubens 3b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 15.26
           semiMajorAxis: 97799.101950642
           eccentricity: 0.01
           inclination: 1.46
           orbitalArc: 142
-          axialTilt: 15.26
-          parentId: Acubens 3
           showOrbit: true
-        satellites: []
+          parentId: Acubens 3
+        isPlanet:
+          age: 159049085
+          classification: D
+          radius: 360.01238940976623
+          terranMass: 0.7399998438484345
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 219
       - name: Acubens 3c
         description: ''
         tags: []
-        isPlanet:
-          radius: 310.42201118640884
-          age: 9031959347
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 71986392
-        temperature: 293
         satellite:
+          axialTilt: 14.91
           semiMajorAxis: 137827.3729667655
           eccentricity: 0
           inclination: 0.26
           orbitalArc: 250
-          axialTilt: 14.91
-          parentId: Acubens 3
           showOrbit: true
-        satellites: []
+          parentId: Acubens 3
+        isPlanet:
+          age: 9031959347
+          classification: O
+          radius: 310.42201118640884
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 71986392
+        temperature: 293
 commSatellite: null
 assets: {}

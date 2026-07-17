@@ -14,172 +14,173 @@ stars:
   - name: Mirzam A
     description: ''
     tags: []
-    radius: 7.4
-    temperature: 24700
     solarMass: 12
     age: 33954651549
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 7.4
+    temperature: 24700
     satellite:
-      orbitalArc: 273
-      semiMajorAxis: 88.80000000000001
       axialTilt: 0
+      semiMajorAxis: 88.80000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 273
       showOrbit: false
       parentId: Mirzam
   - name: Mirzam B
     description: ''
     tags: []
-    radius: 7.4
-    temperature: 24700
     solarMass: 12
     age: 33954651549
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 7.4
+    temperature: 24700
     satellite:
-      orbitalArc: 453
-      semiMajorAxis: 88.80000000000001
       axialTilt: 0
+      semiMajorAxis: 88.80000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 453
       showOrbit: false
       parentId: Mirzam
 planets:
   - name: Mirzam 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 17.99
+      semiMajorAxis: 2209309000
+      eccentricity: 0.01
+      inclination: 0.16
+      orbitalArc: 2
+      showOrbit: true
+      parentId: Mirzam
     isPlanet:
-      radius: 41811
       age: 4458995945
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: null
-      terranMass: 0.22177932035452205
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 41811
+      terranMass: 0.22177932035452205
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
     population: 0
     temperature: 145
-    satellite:
-      semiMajorAxis: 2209309000
-      eccentricity: 0.01
-      inclination: 0.16
-      orbitalArc: 2
-      axialTilt: 17.99
-      parentId: Mirzam
-      showOrbit: true
     satellites: []
   - name: Mirzam 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5961
-      age: 2963500146
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.005055622897409739
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 665
     satellite:
+      axialTilt: 1.46
       semiMajorAxis: 4394250334
       eccentricity: 0.01
       inclination: 1.77
       orbitalArc: 243
-      axialTilt: 1.46
-      parentId: Mirzam
       showOrbit: true
+      parentId: Mirzam
+    isPlanet:
+      age: 2963500146
+      classification: F
+      radius: 5961
+      terranMass: 0.005055622897409739
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 665
     satellites: []
   - name: Mirzam 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 6795
-      age: 6175900630
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0010094643858050614
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 88219035
-    temperature: 599
     satellite:
+      axialTilt: 17.87
       semiMajorAxis: 5355434177
       eccentricity: 0.01
       inclination: 1.18
       orbitalArc: 102
-      axialTilt: 17.87
-      parentId: Mirzam
       showOrbit: true
+      parentId: Mirzam
+    isPlanet:
+      age: 6175900630
+      classification: 'N'
+      radius: 6795
+      terranMass: 0.0010094643858050614
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 88219035
+    temperature: 599
     satellites: []
   - name: Mirzam 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 36.2
+      semiMajorAxis: 9384455990
+      eccentricity: 0.02
+      inclination: 1.19
+      orbitalArc: 101
+      showOrbit: true
+      parentId: Mirzam
     isPlanet:
-      radius: 2534
       age: 7262209468
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.013639226895080684
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 2534
+      terranMass: 0.013639226895080684
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 48505
     temperature: 229
-    satellite:
-      semiMajorAxis: 9384455990
-      eccentricity: 0.02
-      inclination: 1.19
-      orbitalArc: 101
-      axialTilt: 36.2
-      parentId: Mirzam
-      showOrbit: true
     satellites: []
   - name: Mirzam 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 11.66
+      semiMajorAxis: 12274173224
+      eccentricity: 0.02
+      inclination: 1.7
+      orbitalArc: 58
+      showOrbit: true
+      parentId: Mirzam
     isPlanet:
-      radius: 2810
       age: 9780059938
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.03052150895646861
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 2810
+      terranMass: 0.03052150895646861
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 1243
     temperature: 138
-    satellite:
-      semiMajorAxis: 12274173224
-      eccentricity: 0.02
-      inclination: 1.7
-      orbitalArc: 58
-      axialTilt: 11.66
-      parentId: Mirzam
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

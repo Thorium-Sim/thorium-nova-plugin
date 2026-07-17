@@ -358,8 +358,8 @@ steps:
         type: EventCondition
   - id: ts-mr12w0so2k
     name: Step 9 - Wait for connect
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:

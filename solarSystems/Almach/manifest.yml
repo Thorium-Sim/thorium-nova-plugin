@@ -14,489 +14,485 @@ stars:
   - name: Almach A
     description: ''
     tags: []
-    radius: 98.5
-    temperature: 4248
     solarMass: 9.838
     age: 179583160045
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 98.5
+    temperature: 4248
     satellite:
-      orbitalArc: 90
-      semiMajorAxis: 1182
       axialTilt: 0
+      semiMajorAxis: 1182
       eccentricity: 0
       inclination: 0
+      orbitalArc: 90
       showOrbit: false
       parentId: Almach
   - name: Almach B
     description: ''
     tags: []
-    radius: 98.5
-    temperature: 4248
     solarMass: 9.838
     age: 179583160045
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 98.5
+    temperature: 4248
     satellite:
-      orbitalArc: 270
-      semiMajorAxis: 1182
       axialTilt: 0
+      semiMajorAxis: 1182
       eccentricity: 0
       inclination: 0
+      orbitalArc: 270
       showOrbit: false
       parentId: Almach
 planets:
   - name: Almach 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 1384
-      age: 4675953848
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.016835260761635887
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 449
     satellite:
+      axialTilt: 14.11
       semiMajorAxis: 1675850804.3333333
       eccentricity: 0.01
       inclination: 1.26
       orbitalArc: 161
-      axialTilt: 14.11
-      parentId: Almach
       showOrbit: true
+      parentId: Almach
+    isPlanet:
+      age: 4675953848
+      classification: B
+      radius: 1384
+      terranMass: 0.016835260761635887
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 449
     satellites: []
   - name: Almach 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.37
+      semiMajorAxis: 3184236729.3333335
+      eccentricity: 0
+      inclination: 1.29
+      orbitalArc: 10
+      showOrbit: true
+      parentId: Almach
     isPlanet:
-      radius: 5483
       age: 4237878836
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0025396556099683324
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 5483
+      terranMass: 0.0025396556099683324
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
     temperature: 682
-    satellite:
-      semiMajorAxis: 3184236729.3333335
-      eccentricity: 0
-      inclination: 1.29
-      orbitalArc: 10
-      axialTilt: 23.37
-      parentId: Almach
-      showOrbit: true
     satellites:
       - name: Almach 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1090.1926017292642
-          age: 756491005
-          ringMapAsset: null
-          terranMass: 0.9999996660799206
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 390
         satellite:
+          axialTilt: 24.94
           semiMajorAxis: 450249.5445141861
           eccentricity: 0
           inclination: 1.5
           orbitalArc: 167
-          axialTilt: 24.94
-          parentId: Almach 2
           showOrbit: true
-        satellites: []
+          parentId: Almach 2
+        isPlanet:
+          age: 756491005
+          classification: D
+          radius: 1090.1926017292642
+          terranMass: 0.9999996660799206
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 390
   - name: Almach 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 30158
-      age: 4288983271
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: null
-      terranMass: 0.2515039464776646
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 249
     satellite:
+      axialTilt: 32.31
       semiMajorAxis: 3488280553.000003
       eccentricity: 0.01
       inclination: 1.76
       orbitalArc: 197
-      axialTilt: 32.31
-      parentId: Almach
       showOrbit: true
-    satellites:
-      - name: Almach 3a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1882.2531475236997
-          age: 4913111447
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 169861
-        temperature: 266
-        satellite:
-          semiMajorAxis: 1592760.2122601848
-          eccentricity: 0.01
-          inclination: 1.81
-          orbitalArc: 92
-          axialTilt: 24.67
-          parentId: Almach 3
-          showOrbit: true
-        satellites: []
-      - name: Almach 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 5843.313408183776
-          age: 8770968666
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 118895
-        temperature: 268
-        satellite:
-          semiMajorAxis: 2614013.2660066155
-          eccentricity: 0.02
-          inclination: 0.6
-          orbitalArc: 317
-          axialTilt: 12.32
-          parentId: Almach 3
-          showOrbit: true
-        satellites: []
-      - name: Almach 3c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 7507.922854088207
-          age: 9129006667
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 172628
-        temperature: 258
-        satellite:
-          semiMajorAxis: 3371057.3614856047
-          eccentricity: 0
-          inclination: 0.8
-          orbitalArc: 269
-          axialTilt: 17.03
-          parentId: Almach 3
-          showOrbit: true
-        satellites: []
-  - name: Almach 4
-    description: ''
-    tags: []
+      parentId: Almach
     isPlanet:
-      radius: 39502
-      age: 8913536099
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 1.1490962392764856
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      age: 4288983271
       classification: J
+      radius: 30158
+      terranMass: 0.2515039464776646
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
     population: 0
-    temperature: 161
+    temperature: 249
+    satellites:
+      - name: Almach 3a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 24.67
+          semiMajorAxis: 1592760.2122601848
+          eccentricity: 0.01
+          inclination: 1.81
+          orbitalArc: 92
+          showOrbit: true
+          parentId: Almach 3
+        isPlanet:
+          age: 4913111447
+          classification: P
+          radius: 1882.2531475236997
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 169861
+        temperature: 266
+      - name: Almach 3b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 12.32
+          semiMajorAxis: 2614013.2660066155
+          eccentricity: 0.02
+          inclination: 0.6
+          orbitalArc: 317
+          showOrbit: true
+          parentId: Almach 3
+        isPlanet:
+          age: 8770968666
+          classification: P
+          radius: 5843.313408183776
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 118895
+        temperature: 268
+      - name: Almach 3c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 17.03
+          semiMajorAxis: 3371057.3614856047
+          eccentricity: 0
+          inclination: 0.8
+          orbitalArc: 269
+          showOrbit: true
+          parentId: Almach 3
+        isPlanet:
+          age: 9129006667
+          classification: P
+          radius: 7507.922854088207
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 172628
+        temperature: 258
+  - name: Almach 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 1.01
       semiMajorAxis: 3799683135.0000076
       eccentricity: 0.02
       inclination: 1.19
       orbitalArc: 354
-      axialTilt: 1.01
-      parentId: Almach
       showOrbit: true
+      parentId: Almach
+    isPlanet:
+      age: 8913536099
+      classification: J
+      radius: 39502
+      terranMass: 1.1490962392764856
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 161
     satellites:
       - name: Almach 4a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 29.52
+          semiMajorAxis: 2847633.758939156
+          eccentricity: 0
+          inclination: 0.67
+          orbitalArc: 11
+          showOrbit: true
+          parentId: Almach 4
         isPlanet:
-          radius: 6286.167238276283
           age: 4390709222
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 2.3000001037735958
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 6286.167238276283
+          terranMass: 2.3000001037735958
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 42675
         temperature: 269
-        satellite:
-          semiMajorAxis: 2847633.758939156
-          eccentricity: 0
-          inclination: 0.67
-          orbitalArc: 11
-          axialTilt: 29.52
-          parentId: Almach 4
-          showOrbit: true
-        satellites: []
   - name: Almach 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 55802
-      age: 8481363336
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.542497408681665
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 174
     satellite:
+      axialTilt: 0.49
       semiMajorAxis: 3903060427.3333516
       eccentricity: 0.01
       inclination: 1.77
       orbitalArc: 295
-      axialTilt: 0.49
-      parentId: Almach
       showOrbit: true
-    satellites:
-      - name: Almach 5a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 6206.568018332931
-          age: 3062746510
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 194328
-        temperature: 259
-        satellite:
-          semiMajorAxis: 1376781.489755982
-          eccentricity: 0.02
-          inclination: 0.77
-          orbitalArc: 54
-          axialTilt: 18.34
-          parentId: Almach 5
-          showOrbit: true
-        satellites: []
-      - name: Almach 5b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 7151.186426269842
-          age: 6038744036
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 149077
-        temperature: 269
-        satellite:
-          semiMajorAxis: 2295530.8428326193
-          eccentricity: 0.01
-          inclination: 1.39
-          orbitalArc: 116
-          axialTilt: 21.2
-          parentId: Almach 5
-          showOrbit: true
-        satellites: []
-  - name: Almach 6
-    description: ''
-    tags: []
+      parentId: Almach
     isPlanet:
-      radius: 64546
-      age: 2861713637
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.04433434925492255
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      age: 8481363336
       classification: J
+      radius: 55802
+      terranMass: 1.542497408681665
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
-    temperature: 241
+    temperature: 174
+    satellites:
+      - name: Almach 5a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 18.34
+          semiMajorAxis: 1376781.489755982
+          eccentricity: 0.02
+          inclination: 0.77
+          orbitalArc: 54
+          showOrbit: true
+          parentId: Almach 5
+        isPlanet:
+          age: 3062746510
+          classification: P
+          radius: 6206.568018332931
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 194328
+        temperature: 259
+      - name: Almach 5b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 21.2
+          semiMajorAxis: 2295530.8428326193
+          eccentricity: 0.01
+          inclination: 1.39
+          orbitalArc: 116
+          showOrbit: true
+          parentId: Almach 5
+        isPlanet:
+          age: 6038744036
+          classification: P
+          radius: 7151.186426269842
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 149077
+        temperature: 269
+  - name: Almach 6
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 6.25
       semiMajorAxis: 4083790227.8890395
       eccentricity: 0.01
       inclination: 0.24
       orbitalArc: 90
-      axialTilt: 6.25
-      parentId: Almach
       showOrbit: true
+      parentId: Almach
+    isPlanet:
+      age: 2861713637
+      classification: J
+      radius: 64546
+      terranMass: 0.04433434925492255
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 0
+    temperature: 241
     satellites:
       - name: Almach 6a
         description: ''
         tags: []
-        isPlanet:
-          radius: 4799.768880435888
-          age: 143443855
-          ringMapAsset: null
-          terranMass: 0.4099999207260423
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 369
         satellite:
+          axialTilt: 36.02
           semiMajorAxis: 1723117.0280764836
           eccentricity: 0.01
           inclination: 1.6
           orbitalArc: 103
-          axialTilt: 36.02
-          parentId: Almach 6
           showOrbit: true
-        satellites: []
+          parentId: Almach 6
+        isPlanet:
+          age: 143443855
+          classification: D
+          radius: 4799.768880435888
+          terranMass: 0.4099999207260423
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 369
   - name: Almach 7
     description: ''
     tags: []
-    isPlanet:
-      radius: 277
-      age: 605085452
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.0030230655165003535
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 184
     satellite:
+      axialTilt: 34.65
       semiMajorAxis: 4400909856.741095
       eccentricity: 0.01
       inclination: 0.96
       orbitalArc: 354
-      axialTilt: 34.65
-      parentId: Almach
       showOrbit: true
+      parentId: Almach
+    isPlanet:
+      age: 605085452
+      classification: D
+      radius: 277
+      terranMass: 0.0030230655165003535
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 184
     satellites: []
   - name: Almach 8
     description: ''
     tags: []
-    isPlanet:
-      radius: 5102
-      age: 6730603945
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.0064792215635486
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 163134
-    temperature: 255
     satellite:
+      axialTilt: 13.64
       semiMajorAxis: 4663161965.446578
       eccentricity: 0
       inclination: 0.32
       orbitalArc: 114
-      axialTilt: 13.64
-      parentId: Almach
       showOrbit: true
+      parentId: Almach
+    isPlanet:
+      age: 6730603945
+      classification: P
+      radius: 5102
+      terranMass: 0.0064792215635486
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 163134
+    temperature: 255
     satellites: []
   - name: Almach 9
     description: ''
     tags: []
+    satellite:
+      axialTilt: 1.88
+      semiMajorAxis: 5102027703
+      eccentricity: 0.02
+      inclination: 1.51
+      orbitalArc: 98
+      showOrbit: true
+      parentId: Almach
     isPlanet:
-      radius: 4378
       age: 8843673913
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.002000176895984618
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 4378
+      terranMass: 0.002000176895984618
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 30206
     temperature: 190
-    satellite:
-      semiMajorAxis: 5102027703
-      eccentricity: 0.02
-      inclination: 1.51
-      orbitalArc: 98
-      axialTilt: 1.88
-      parentId: Almach
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

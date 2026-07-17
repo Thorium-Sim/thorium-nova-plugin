@@ -14,89 +14,91 @@ stars:
   - name: Aljanah A
     description: ''
     tags: []
-    radius: 11.13
-    temperature: 4699
     solarMass: 1.103
     age: 1053252959532
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.13
+    temperature: 4699
     satellite:
-      orbitalArc: 100
-      semiMajorAxis: 133.56
       axialTilt: 0
+      semiMajorAxis: 133.56
       eccentricity: 0
       inclination: 0
+      orbitalArc: 100
       showOrbit: false
       parentId: Aljanah
   - name: Aljanah B
     description: ''
     tags: []
-    radius: 11.13
-    temperature: 4699
     solarMass: 1.103
     age: 1053252959532
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.13
+    temperature: 4699
     satellite:
-      orbitalArc: 280
-      semiMajorAxis: 133.56
       axialTilt: 0
+      semiMajorAxis: 133.56
       eccentricity: 0
       inclination: 0
+      orbitalArc: 280
       showOrbit: false
       parentId: Aljanah
 planets:
   - name: Aljanah 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 250
-      age: 601159709
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.008645411817139863
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 255
     satellite:
+      axialTilt: 3.39
       semiMajorAxis: 520523777
       eccentricity: 0.02
       inclination: 0.29
       orbitalArc: 170
-      axialTilt: 3.39
-      parentId: Aljanah
       showOrbit: true
-    satellites: []
-  - name: Aljanah 2
-    description: ''
-    tags: []
+      parentId: Aljanah
     isPlanet:
-      radius: 2490
-      age: 369679199
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.004216454123773057
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
+      age: 601159709
+      classification: D
+      radius: 250
+      terranMass: 0.008645411817139863
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
-    temperature: 54
+    temperature: 255
+    satellites: []
+  - name: Aljanah 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 13.22
       semiMajorAxis: 1463905881
       eccentricity: 0
       inclination: 1.35
       orbitalArc: 358
-      axialTilt: 13.22
-      parentId: Aljanah
       showOrbit: true
+      parentId: Aljanah
+    isPlanet:
+      age: 369679199
+      classification: C
+      radius: 2490
+      terranMass: 0.004216454123773057
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 54
     satellites: []
 commSatellite: null
 assets: {}

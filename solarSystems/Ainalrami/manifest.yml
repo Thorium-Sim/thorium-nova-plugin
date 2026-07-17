@@ -14,65 +14,65 @@ stars:
   - name: Ainalrami A
     description: ''
     tags: []
-    radius: 101
-    temperature: 4401
     solarMass: 10.264
     age: 154681261749
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 101
+    temperature: 4401
     satellite:
-      orbitalArc: 156
-      semiMajorAxis: 1212
       axialTilt: 0
+      semiMajorAxis: 1212
       eccentricity: 0
       inclination: 0
+      orbitalArc: 156
       showOrbit: false
       parentId: Ainalrami
   - name: Ainalrami B
     description: ''
     tags: []
-    radius: 101
-    temperature: 4401
     solarMass: 10.264
     age: 154681261749
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 101
+    temperature: 4401
     satellite:
-      orbitalArc: 336
-      semiMajorAxis: 1212
       axialTilt: 0
+      semiMajorAxis: 1212
       eccentricity: 0
       inclination: 0
+      orbitalArc: 336
       showOrbit: false
       parentId: Ainalrami
 planets:
   - name: Ainalrami 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5713
-      age: 4987583365
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.029719982800823636
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 104964062
-    temperature: 296
     satellite:
+      axialTilt: 21.16
       semiMajorAxis: 5120399496
       eccentricity: 0
       inclination: 1.67
       orbitalArc: 72
-      axialTilt: 21.16
-      parentId: Ainalrami
       showOrbit: true
+      parentId: Ainalrami
+    isPlanet:
+      age: 4987583365
+      classification: O
+      radius: 5713
+      terranMass: 0.029719982800823636
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 104964062
+    temperature: 296
     satellites: []
 commSatellite: null
 assets: {}

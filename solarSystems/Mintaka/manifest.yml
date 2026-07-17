@@ -14,64 +14,65 @@ stars:
   - name: Mintaka A
     description: ''
     tags: []
-    radius: 13.1
-    temperature: 31400
     solarMass: 17.8
     age: 6153583572
     spectralType: O
     hue: 220
     isWhite: false
+    radius: 13.1
+    temperature: 31400
     satellite:
-      orbitalArc: 18
-      semiMajorAxis: 157.2
       axialTilt: 0
+      semiMajorAxis: 157.2
       eccentricity: 0
       inclination: 0
+      orbitalArc: 18
       showOrbit: false
       parentId: Mintaka
   - name: Mintaka B
     description: ''
     tags: []
-    radius: 13.1
-    temperature: 31400
     solarMass: 17.8
     age: 6153583572
     spectralType: O
     hue: 220
     isWhite: false
+    radius: 13.1
+    temperature: 31400
     satellite:
-      orbitalArc: 198
-      semiMajorAxis: 157.2
       axialTilt: 0
+      semiMajorAxis: 157.2
       eccentricity: 0
       inclination: 0
+      orbitalArc: 198
       showOrbit: false
       parentId: Mintaka
 planets:
   - name: Mintaka 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 96
-      age: 312455836
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.005375143144684173
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 203
     satellite:
+      axialTilt: 17.99
       semiMajorAxis: 40284898803
       eccentricity: 0.01
       inclination: 1.84
       orbitalArc: 116
-      axialTilt: 17.99
-      parentId: Mintaka
       showOrbit: true
+      parentId: Mintaka
+    isPlanet:
+      age: 312455836
+      classification: D
+      radius: 96
+      terranMass: 0.005375143144684173
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 203
     satellites: []
 commSatellite: null
 assets: {}

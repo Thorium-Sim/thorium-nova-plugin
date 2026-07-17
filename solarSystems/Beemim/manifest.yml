@@ -14,119 +14,118 @@ stars:
   - name: Beemim A
     description: ''
     tags: []
-    radius: 54
-    temperature: 3990
     solarMass: 5.64
     age: 440118157361
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 54
+    temperature: 3990
     satellite:
-      orbitalArc: 266
-      semiMajorAxis: 648
       axialTilt: 0
+      semiMajorAxis: 648
       eccentricity: 0
       inclination: 0
+      orbitalArc: 266
       showOrbit: false
       parentId: Beemim
   - name: Beemim B
     description: ''
     tags: []
-    radius: 54
-    temperature: 3990
     solarMass: 5.64
     age: 440118157361
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 54
+    temperature: 3990
     satellite:
-      orbitalArc: 446
-      semiMajorAxis: 648
       axialTilt: 0
+      semiMajorAxis: 648
       eccentricity: 0
       inclination: 0
+      orbitalArc: 446
       showOrbit: false
       parentId: Beemim
 planets:
   - name: Beemim 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6677
-      age: 5580743928
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.007467278491232377
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
-      classification: M
-      isHabitable: true
-      lifeforms:
-        - Varied and extensive vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 2176517699
-    temperature: 297
     satellite:
+      axialTilt: 25.35
       semiMajorAxis: 2252172698.333333
       eccentricity: 0.01
       inclination: 1.78
       orbitalArc: 194
-      axialTilt: 25.35
-      parentId: Beemim
       showOrbit: true
+      parentId: Beemim
+    isPlanet:
+      age: 5580743928
+      classification: M
+      radius: 6677
+      terranMass: 0.007467278491232377
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 2176517699
+    temperature: 297
     satellites:
       - name: Beemim 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1338.563977907322
-          age: 6777645713
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 371567390
-        temperature: 302
         satellite:
+          axialTilt: 37.12
           semiMajorAxis: 619755.1217710901
           eccentricity: 0
           inclination: 1.09
           orbitalArc: 212
-          axialTilt: 37.12
-          parentId: Beemim 1
           showOrbit: true
-        satellites: []
+          parentId: Beemim 1
+        isPlanet:
+          age: 6777645713
+          classification: O
+          radius: 1338.563977907322
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 371567390
+        temperature: 302
   - name: Beemim 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 14.81
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.01
+      orbitalArc: 31
+      showOrbit: true
+      parentId: Beemim
     isPlanet:
-      radius: 47936
       age: 7886453915
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 1.4533070001991717
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 47936
+      terranMass: 1.4533070001991717
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
     temperature: 282
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0.01
-      inclination: 0.01
-      orbitalArc: 31
-      axialTilt: 14.81
-      parentId: Beemim
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

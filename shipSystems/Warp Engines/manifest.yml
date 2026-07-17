@@ -43,8 +43,3 @@ speeds:
     number: '5'
   - label: Destructive
     number: '!!'
-defaultPower: 10
-requiredPower: 5
-maxSafePower: 20
-coolantHeatTransferRate: 10
-powerNode: navigation

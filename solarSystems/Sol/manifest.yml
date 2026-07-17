@@ -23,22 +23,22 @@ stars:
     temperature: 5567.00778
     satellite:
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
-      semiMajorAxis: 0
       orbitalArc: 41.513883183031204
       showOrbit: false
       parentId: Sol
 planets:
   - name: Earth
-    keyLocation: true
     description: ''
     tags: []
+    keyLocation: true
     satellite:
       axialTilt: 0
+      semiMajorAxis: 184000873
       eccentricity: 0
       inclination: 0
-      semiMajorAxis: 184000873
       orbitalArc: 194.485154000049
       showOrbit: true
       parentId: Sol
@@ -53,44 +53,45 @@ planets:
       atmosphericComposition: []
       textureMapAsset: /plugins/Thorium Default/assets/planets/2k_earth_daymap.jpg
       cloudMapAsset: /plugins/Thorium Default/assets/clouds/2k_earth_clouds.jpg
+      ringMapAsset: null
     population: 7713541106
     temperature: 297.95614
     satellites:
       - name: Luna
-        keyLocation: true
         description: ''
         tags: []
-        isPlanet:
-          radius: 1737.4
-          age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.0123
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 6000
-        temperature: 160
+        keyLocation: true
         satellite:
+          axialTilt: 6.56
           semiMajorAxis: 384400
           eccentricity: 0
           inclination: 5.1
           orbitalArc: 120
-          axialTilt: 6.56
-          parentId: Earth
           showOrbit: true
-        satellites: []
+          parentId: Earth
+        isPlanet:
+          age: 4510000000
+          classification: D
+          radius: 1737.4
+          terranMass: 0.0123
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 6000
+        temperature: 160
   - name: Mars
     description: ''
     tags: []
+    keyLocation: true
     satellite:
       axialTilt: 0
+      semiMajorAxis: 227939366
       eccentricity: 0.0934
       inclination: 1.85
-      semiMajorAxis: 227939366
       orbitalArc: 194
       showOrbit: true
       parentId: Sol
@@ -109,71 +110,68 @@ planets:
       ringMapAsset: null
     population: 3328
     temperature: 209.973
-    keyLocation: true
     satellites:
       - name: Phobos
-        keyLocation: false
         description: ''
         tags: []
-        isPlanet:
-          radius: 11.08
-          age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.781e-9
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 160
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 9376
           eccentricity: 0.0151
           inclination: 1.093
           orbitalArc: 50
-          axialTilt: 0
-          parentId: Mars
           showOrbit: true
-        satellites: []
-      - name: Deimos
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Mars
         isPlanet:
-          radius: 6.27
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 2.528e-10
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
           classification: D
+          radius: 11.08
+          terranMass: 1.781e-9
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 233
+        temperature: 160
+      - name: Deimos
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 23455
           eccentricity: 0.00033
           inclination: 0.93
           orbitalArc: 93
-          axialTilt: 0
-          parentId: Mars
           showOrbit: true
-        satellites: []
+          parentId: Mars
+        isPlanet:
+          age: 4510000000
+          classification: D
+          radius: 6.27
+          terranMass: 2.528e-10
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 233
   - name: Mercury
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 25
+      semiMajorAxis: 57909000
       eccentricity: 0.205
       inclination: 3
-      semiMajorAxis: 57909000
       orbitalArc: 299
       showOrbit: true
       parentId: Sol
@@ -194,13 +192,13 @@ planets:
     satellites: []
   - name: Venus
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 2.64
+      semiMajorAxis: 108210000
       eccentricity: 0.006772
       inclination: 3.394
-      semiMajorAxis: 108210000
       orbitalArc: 124
       showOrbit: true
       parentId: Sol
@@ -221,13 +219,13 @@ planets:
     satellites: []
   - name: Ceres
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 4
+      semiMajorAxis: 414000000
       eccentricity: 0.0785
       inclination: 10.6
-      semiMajorAxis: 414000000
       orbitalArc: 227
       showOrbit: true
       parentId: Sol
@@ -248,13 +246,13 @@ planets:
     satellites: []
   - name: Jupiter
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 3.13
+      semiMajorAxis: 778479000
       eccentricity: 0.0489
       inclination: 1.303
-      semiMajorAxis: 778479000
       orbitalArc: 141
       showOrbit: true
       parentId: Sol
@@ -274,122 +272,118 @@ planets:
     temperature: 88
     satellites:
       - name: Io
-        keyLocation: false
         description: ''
         tags: []
-        isPlanet:
-          radius: 1821.6
-          age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.015
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
-          classification: B
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 110
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 421700
           eccentricity: 0.004
           inclination: 0.05
           orbitalArc: 50
-          axialTilt: 0
-          parentId: Jupiter
           showOrbit: true
-        satellites: []
-      - name: Europa
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Jupiter
         isPlanet:
-          radius: 1560
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.008
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: C
+          classification: B
+          radius: 1821.6
+          terranMass: 0.015
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 102
+        temperature: 110
+      - name: Europa
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0.1
           semiMajorAxis: 670900
           eccentricity: 0.009
           inclination: 0.47
           orbitalArc: 100
-          axialTilt: 0.1
-          parentId: Jupiter
           showOrbit: true
-        satellites: []
-      - name: Ganymede
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Jupiter
         isPlanet:
-          radius: 2634
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.025
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
           classification: C
+          radius: 1560
+          terranMass: 0.008
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 110
+        temperature: 102
+      - name: Ganymede
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0.33
           semiMajorAxis: 1070400
           eccentricity: 0.0013
           inclination: 0.2
           orbitalArc: 150
-          axialTilt: 0.33
-          parentId: Jupiter
           showOrbit: true
-        satellites: []
-      - name: Callisto
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Jupiter
         isPlanet:
-          radius: 2410.3
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.018
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
           classification: C
+          radius: 2634
+          terranMass: 0.025
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 134
+        temperature: 110
+      - name: Callisto
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 1
           semiMajorAxis: 1869000
           eccentricity: 0.0074
           inclination: 0.192
           orbitalArc: 200
-          axialTilt: 1
-          parentId: Jupiter
           showOrbit: true
-        satellites: []
+          parentId: Jupiter
+        isPlanet:
+          age: 4510000000
+          classification: C
+          radius: 2410.3
+          terranMass: 0.018
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 134
   - name: Saturn
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 26.73
+      semiMajorAxis: 1433530000
       eccentricity: 0.0565
       inclination: 2.485
-      semiMajorAxis: 1433530000
       orbitalArc: 98
       showOrbit: true
       parentId: Sol
@@ -409,122 +403,118 @@ planets:
     temperature: 135
     satellites:
       - name: Titan
-        keyLocation: false
         description: ''
         tags: []
-        isPlanet:
-          radius: 2574.73
-          age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.0225
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
-          classification: 'N'
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 110
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 1221870
           eccentricity: 0.0288
           inclination: 0.348
           orbitalArc: 20
-          axialTilt: 0
-          parentId: Saturn
           showOrbit: true
-        satellites: []
-      - name: Rhea
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Saturn
         isPlanet:
-          radius: 763.5
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-          terranMass: 0.0039
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: D
+          classification: 'N'
+          radius: 2574.73
+          terranMass: 0.0225
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 60
+        temperature: 110
+      - name: Rhea
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 527040
           eccentricity: 0.001
           inclination: 0.35
           orbitalArc: 80
-          axialTilt: 0
-          parentId: Saturn
           showOrbit: true
-        satellites: []
-      - name: Iapetus
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Saturn
         isPlanet:
-          radius: 734.4
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.003023
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
           classification: D
+          radius: 763.5
+          terranMass: 0.0039
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
         population: 0
-        temperature: 100
+        temperature: 60
+      - name: Iapetus
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 3560820
           eccentricity: 0.027
           inclination: 15.47
           orbitalArc: 160
-          axialTilt: 0
-          parentId: Saturn
           showOrbit: true
-        satellites: []
-      - name: Dione
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Saturn
         isPlanet:
-          radius: 561.4
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.0014781
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
           classification: D
+          radius: 734.4
+          terranMass: 0.003023
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 87
+        temperature: 100
+      - name: Dione
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 377396
           eccentricity: 0.0022
           inclination: 0.019
           orbitalArc: 240
-          axialTilt: 0
-          parentId: Saturn
           showOrbit: true
-        satellites: []
+          parentId: Saturn
+        isPlanet:
+          age: 4510000000
+          classification: D
+          radius: 561.4
+          terranMass: 0.0014781
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 87
   - name: Uranus
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 82.23
+      semiMajorAxis: 2870972000
       eccentricity: 0.04717
       inclination: 0.773
-      semiMajorAxis: 2870972000
       orbitalArc: 10
       showOrbit: true
       parentId: Sol
@@ -544,149 +534,144 @@ planets:
     temperature: 76
     satellites:
       - name: Miranda
-        keyLocation: false
         description: ''
         tags: []
-        isPlanet:
-          radius: 235.8
-          age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.00001054
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 60
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 129390
           eccentricity: 0.0013
           inclination: 4.232
           orbitalArc: 30
-          axialTilt: 0
-          parentId: Uranus
           showOrbit: true
-        satellites: []
-      - name: Ariel
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Uranus
         isPlanet:
-          radius: 578.9
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.0002065
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
           classification: D
+          radius: 235.8
+          terranMass: 0.00001054
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 60
+      - name: Ariel
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 190900
           eccentricity: 0.0012
           inclination: 0.26
           orbitalArc: 67
-          axialTilt: 0
-          parentId: Uranus
           showOrbit: true
-        satellites: []
-      - name: Umbriel
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Uranus
         isPlanet:
-          radius: 584.7
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.0002157
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
           classification: D
+          radius: 578.9
+          terranMass: 0.0002065
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 75
+        temperature: 60
+      - name: Umbriel
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 266000
           eccentricity: 0.0039
           inclination: 0.128
           orbitalArc: 102
-          axialTilt: 0
-          parentId: Uranus
           showOrbit: true
-        satellites: []
-      - name: Titania
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Uranus
         isPlanet:
-          radius: 788
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.0005785
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
           classification: D
+          radius: 584.7
+          terranMass: 0.0002157
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 70
+        temperature: 75
+      - name: Titania
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 435910
           eccentricity: 0.0011
           inclination: 0.34
           orbitalArc: 148
-          axialTilt: 0
-          parentId: Uranus
           showOrbit: true
-        satellites: []
-      - name: Oberon
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Uranus
         isPlanet:
-          radius: 761.4
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.000521
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
           classification: D
+          radius: 788
+          terranMass: 0.0005785
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 75
+        temperature: 70
+      - name: Oberon
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 583520
           eccentricity: 0.0014
           inclination: 0.058
           orbitalArc: 54
-          axialTilt: 0
-          parentId: Uranus
           showOrbit: true
-        satellites: []
+          parentId: Uranus
+        isPlanet:
+          age: 4510000000
+          classification: D
+          radius: 761.4
+          terranMass: 0.000521
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 75
   - name: Neptune
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 82.23
+      semiMajorAxis: 4540000000
       eccentricity: 0.008678
       inclination: 1.77
-      semiMajorAxis: 4540000000
       orbitalArc: 28.32
       showOrbit: true
       parentId: Sol
@@ -706,95 +691,92 @@ planets:
     temperature: 72
     satellites:
       - name: Triton
-        keyLocation: false
         description: ''
         tags: []
-        isPlanet:
-          radius: 1353.4
-          age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.00358
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 75
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 354759
           eccentricity: 0.0000016
           inclination: 129.812
           orbitalArc: 245
-          axialTilt: 0
-          parentId: Neptune
           showOrbit: true
-        satellites: []
-      - name: Proteus
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Neptune
         isPlanet:
-          radius: 209
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.0000026
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
           classification: D
+          radius: 1353.4
+          terranMass: 0.00358
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 75
+      - name: Proteus
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 117647
           eccentricity: 0.00053
           inclination: 0.524
           orbitalArc: 150
-          axialTilt: 0
-          parentId: Neptune
           showOrbit: true
-        satellites: []
-      - name: Proteus
-        keyLocation: false
-        description: ''
-        tags: []
+          parentId: Neptune
         isPlanet:
-          radius: 178.5
           age: 4510000000
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.00000598
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
           classification: D
+          radius: 209
+          terranMass: 0.0000026
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 75
+      - name: Proteus
+        description: ''
+        tags: []
+        keyLocation: false
         satellite:
+          axialTilt: 0
           semiMajorAxis: 5504000
           eccentricity: 0.749
           inclination: 5.8
           orbitalArc: 280
-          axialTilt: 0
-          parentId: Neptune
           showOrbit: true
-        satellites: []
+          parentId: Neptune
+        isPlanet:
+          age: 4510000000
+          classification: D
+          radius: 178.5
+          terranMass: 0.00000598
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 75
   - name: Pluto
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 119.51
+      semiMajorAxis: 39482000000
       eccentricity: 0.2488
       inclination: 17.16
-      semiMajorAxis: 39482000000
       orbitalArc: 245
       showOrbit: true
       parentId: Sol
@@ -815,13 +797,13 @@ planets:
     satellites: []
   - name: Eris
     description: ''
-    keyLocation: false
     tags: []
+    keyLocation: false
     satellite:
       axialTilt: 78.3
+      semiMajorAxis: 1813000000000
       eccentricity: 0.44
       inclination: 44.18
-      semiMajorAxis: 1813000000000
       orbitalArc: 200
       showOrbit: true
       parentId: Sol

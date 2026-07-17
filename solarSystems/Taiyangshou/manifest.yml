@@ -14,322 +14,324 @@ stars:
   - name: Taiyangshou A
     description: ''
     tags: []
-    radius: 23.15
-    temperature: 4331
     solarMass: 1.49
     age: 455722873633
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 23.15
+    temperature: 4331
     satellite:
-      orbitalArc: 225
-      semiMajorAxis: 277.79999999999995
       axialTilt: 0
+      semiMajorAxis: 277.79999999999995
       eccentricity: 0
       inclination: 0
+      orbitalArc: 225
       showOrbit: false
       parentId: Taiyangshou
   - name: Taiyangshou B
     description: ''
     tags: []
-    radius: 23.15
-    temperature: 4331
     solarMass: 1.49
     age: 455722873633
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 23.15
+    temperature: 4331
     satellite:
-      orbitalArc: 405
-      semiMajorAxis: 277.79999999999995
       axialTilt: 0
+      semiMajorAxis: 277.79999999999995
       eccentricity: 0
       inclination: 0
+      orbitalArc: 405
       showOrbit: false
       parentId: Taiyangshou
 planets:
   - name: Taiyangshou 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 3157
-      age: 1726901634
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.017674965048781806
-      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 250
     satellite:
+      axialTilt: 12.28
       semiMajorAxis: 204048425.0000008
       eccentricity: 0.01
       inclination: 0.24
       orbitalArc: 161
-      axialTilt: 12.28
-      parentId: Taiyangshou
       showOrbit: true
+      parentId: Taiyangshou
+    isPlanet:
+      age: 1726901634
+      classification: B
+      radius: 3157
+      terranMass: 0.017674965048781806
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 250
     satellites:
       - name: Taiyangshou 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 329.56559206494495
-          age: 1290879361
-          ringMapAsset: null
-          terranMass: 0.5000001217422229
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 551
         satellite:
+          axialTilt: 5.46
           semiMajorAxis: 120721.49569337023
           eccentricity: 0.01
           inclination: 0.14
           orbitalArc: 13
-          axialTilt: 5.46
-          parentId: Taiyangshou 1
           showOrbit: true
-        satellites: []
+          parentId: Taiyangshou 1
+        isPlanet:
+          age: 1290879361
+          classification: F
+          radius: 329.56559206494495
+          terranMass: 0.5000001217422229
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 551
       - name: Taiyangshou 1b
         description: ''
         tags: []
-        isPlanet:
-          radius: 610.5009001711735
-          age: 4865377809
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 93870
-        temperature: 269
         satellite:
+          axialTilt: 2.87
           semiMajorAxis: 244810.86096864057
           eccentricity: 0.02
           inclination: 1.54
           orbitalArc: 116
-          axialTilt: 2.87
-          parentId: Taiyangshou 1
           showOrbit: true
-        satellites: []
+          parentId: Taiyangshou 1
+        isPlanet:
+          age: 4865377809
+          classification: P
+          radius: 610.5009001711735
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 93870
+        temperature: 269
   - name: Taiyangshou 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 116
-      age: 723272342
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.01390111701271063
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 322
     satellite:
+      axialTilt: 36.95
       semiMajorAxis: 748761381.6666688
       eccentricity: 0.02
       inclination: 0.88
       orbitalArc: 143
-      axialTilt: 36.95
-      parentId: Taiyangshou
       showOrbit: true
-    satellites: []
-  - name: Taiyangshou 3
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 6300
-      age: 9305643390
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.00898299470229144
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 92141
-    temperature: 266
-    satellite:
-      semiMajorAxis: 1610816185.1111143
-      eccentricity: 0.01
-      inclination: 1.23
-      orbitalArc: 324
-      axialTilt: 16.56
       parentId: Taiyangshou
-      showOrbit: true
-    satellites: []
-  - name: Taiyangshou 4
-    description: ''
-    tags: []
     isPlanet:
-      radius: 104
-      age: 829258706
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.0033370875017772494
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      age: 723272342
       classification: D
+      radius: 116
+      terranMass: 0.01390111701271063
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
-    temperature: 230
+    temperature: 322
+    satellites: []
+  - name: Taiyangshou 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 16.56
+      semiMajorAxis: 1610816185.1111143
+      eccentricity: 0.01
+      inclination: 1.23
+      orbitalArc: 324
+      showOrbit: true
+      parentId: Taiyangshou
+    isPlanet:
+      age: 9305643390
+      classification: P
+      radius: 6300
+      terranMass: 0.00898299470229144
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 92141
+    temperature: 266
+    satellites: []
+  - name: Taiyangshou 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 31.87
       semiMajorAxis: 2174648422.222228
       eccentricity: 0.01
       inclination: 1.35
       orbitalArc: 72
-      axialTilt: 31.87
-      parentId: Taiyangshou
       showOrbit: true
+      parentId: Taiyangshou
+    isPlanet:
+      age: 829258706
+      classification: D
+      radius: 104
+      terranMass: 0.0033370875017772494
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 230
     satellites: []
   - name: Taiyangshou 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 10.88
+      semiMajorAxis: 2638460175.4444547
+      eccentricity: 0.01
+      inclination: 1.52
+      orbitalArc: 56
+      showOrbit: true
+      parentId: Taiyangshou
     isPlanet:
-      radius: 4310
       age: 4180902358
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.0004118747035321069
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4310
+      terranMass: 0.0004118747035321069
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 13124
     temperature: 248
-    satellite:
-      semiMajorAxis: 2638460175.4444547
-      eccentricity: 0.01
-      inclination: 1.52
-      orbitalArc: 56
-      axialTilt: 10.88
-      parentId: Taiyangshou
-      showOrbit: true
     satellites:
       - name: Taiyangshou 5a
         description: ''
         tags: []
-        isPlanet:
-          radius: 293.0996904677245
-          age: 367307021
-          ringMapAsset: null
-          terranMass: 0.3499998499039727
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 264
         satellite:
+          axialTilt: 2.24
           semiMajorAxis: 133821.37004635314
           eccentricity: 0.01
           inclination: 1.19
           orbitalArc: 209
-          axialTilt: 2.24
-          parentId: Taiyangshou 5
           showOrbit: true
-        satellites: []
+          parentId: Taiyangshou 5
+        isPlanet:
+          age: 367307021
+          classification: D
+          radius: 293.0996904677245
+          terranMass: 0.3499998499039727
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 264
       - name: Taiyangshou 5b
         description: ''
         tags: []
-        isPlanet:
-          radius: 543.6686985392981
-          age: 5847581507
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 146007
-        temperature: 260
         satellite:
+          axialTilt: 5.05
           semiMajorAxis: 249000.26393099854
           eccentricity: 0.02
           inclination: 0.4
           orbitalArc: 294
-          axialTilt: 5.05
-          parentId: Taiyangshou 5
           showOrbit: true
-        satellites: []
+          parentId: Taiyangshou 5
+        isPlanet:
+          age: 5847581507
+          classification: P
+          radius: 543.6686985392981
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 146007
+        temperature: 260
   - name: Taiyangshou 6
     description: ''
     tags: []
+    satellite:
+      axialTilt: 20.36
+      semiMajorAxis: 3243804712.4815183
+      eccentricity: 0.02
+      inclination: 0.09
+      orbitalArc: 218
+      showOrbit: true
+      parentId: Taiyangshou
     isPlanet:
-      radius: 62603
       age: 7594075459
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.13873621355829205
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
       classification: J
+      radius: 62603
+      terranMass: 0.13873621355829205
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
     temperature: 146
-    satellite:
-      semiMajorAxis: 3243804712.4815183
-      eccentricity: 0.02
-      inclination: 0.09
-      orbitalArc: 218
-      axialTilt: 20.36
-      parentId: Taiyangshou
-      showOrbit: true
     satellites: []
   - name: Taiyangshou 7
     description: ''
     tags: []
-    isPlanet:
-      radius: 181
-      age: 53768711
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.015516318943947146
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 183
     satellite:
+      axialTilt: 4.53
       semiMajorAxis: 3919556589
       eccentricity: 0.01
       inclination: 1.04
       orbitalArc: 39
-      axialTilt: 4.53
-      parentId: Taiyangshou
       showOrbit: true
+      parentId: Taiyangshou
+    isPlanet:
+      age: 53768711
+      classification: D
+      radius: 181
+      terranMass: 0.015516318943947146
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 183
     satellites: []
 commSatellite: null
 assets: {}

@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Female Titles
+description: ''
+textPattern: '{~Lady,Princess,Queen,Empress,Duchess,Countess,Mistress}'
+category: Titles
+assets: {}

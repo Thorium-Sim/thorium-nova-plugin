@@ -14,277 +14,279 @@ stars:
   - name: Lilii Borea A
     description: ''
     tags: []
-    radius: 10.22
-    temperature: 4768
     solarMass: 1.6
     age: 1709395233270
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 10.22
+    temperature: 4768
     satellite:
-      orbitalArc: 160
-      semiMajorAxis: 122.64000000000001
       axialTilt: 0
+      semiMajorAxis: 122.64000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 160
       showOrbit: false
       parentId: Lilii Borea
   - name: Lilii Borea B
     description: ''
     tags: []
-    radius: 10.22
-    temperature: 4768
     solarMass: 1.6
     age: 1709395233270
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 10.22
+    temperature: 4768
     satellite:
-      orbitalArc: 340
-      semiMajorAxis: 122.64000000000001
       axialTilt: 0
+      semiMajorAxis: 122.64000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 340
       showOrbit: false
       parentId: Lilii Borea
 planets:
   - name: Lilii Borea 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 31.94
+      semiMajorAxis: 242880346
+      eccentricity: 0.02
+      inclination: 0.33
+      orbitalArc: 277
+      showOrbit: true
+      parentId: Lilii Borea
     isPlanet:
-      radius: 5347
       age: 5129240149
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.010572183544392157
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 5347
+      terranMass: 0.010572183544392157
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
     temperature: 828
-    satellite:
-      semiMajorAxis: 242880346
-      eccentricity: 0.02
-      inclination: 0.33
-      orbitalArc: 277
-      axialTilt: 31.94
-      parentId: Lilii Borea
-      showOrbit: true
     satellites: []
   - name: Lilii Borea 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 220
-      age: 404302438
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0024161367394935082
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 375
     satellite:
+      axialTilt: 16.77
       semiMajorAxis: 617211545
       eccentricity: 0.02
       inclination: 0.04
       orbitalArc: 183
-      axialTilt: 16.77
-      parentId: Lilii Borea
       showOrbit: true
+      parentId: Lilii Borea
+    isPlanet:
+      age: 404302438
+      classification: D
+      radius: 220
+      terranMass: 0.0024161367394935082
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 375
     satellites: []
   - name: Lilii Borea 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 2.96
+      semiMajorAxis: 1085826152
+      eccentricity: 0.01
+      inclination: 1.61
+      orbitalArc: 190
+      showOrbit: true
+      parentId: Lilii Borea
     isPlanet:
-      radius: 6927
       age: 7381571515
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.007921773477607481
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 6927
+      terranMass: 0.007921773477607481
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 14116
     temperature: 210
-    satellite:
-      semiMajorAxis: 1085826152
-      eccentricity: 0.01
-      inclination: 1.61
-      orbitalArc: 190
-      axialTilt: 2.96
-      parentId: Lilii Borea
-      showOrbit: true
     satellites: []
   - name: Lilii Borea 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 1.91
+      semiMajorAxis: 1285672989.000003
+      eccentricity: 0.02
+      inclination: 1.56
+      orbitalArc: 49
+      showOrbit: true
+      parentId: Lilii Borea
     isPlanet:
-      radius: 6189
       age: 3557064696
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.0021969781768734057
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
       classification: G
+      radius: 6189
+      terranMass: 0.0021969781768734057
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
     temperature: 407
-    satellite:
-      semiMajorAxis: 1285672989.000003
-      eccentricity: 0.02
-      inclination: 1.56
-      orbitalArc: 49
-      axialTilt: 1.91
-      parentId: Lilii Borea
-      showOrbit: true
     satellites:
       - name: Lilii Borea 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1371.167397066955
-          age: 775970995
-          ringMapAsset: null
-          terranMass: 0.7299996787235552
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 392
         satellite:
+          axialTilt: 10.49
           semiMajorAxis: 348276.51885500655
           eccentricity: 0.01
           inclination: 0.13
           orbitalArc: 194
-          axialTilt: 10.49
-          parentId: Lilii Borea 4
           showOrbit: true
-        satellites: []
-  - name: Lilii Borea 5
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 7012
-      age: 4000997386
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0006549156743928127
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 193220
-    temperature: 257
-    satellite:
-      semiMajorAxis: 1565152137.0000093
-      eccentricity: 0
-      inclination: 0.67
-      orbitalArc: 32
-      axialTilt: 37.86
-      parentId: Lilii Borea
-      showOrbit: true
-    satellites: []
-  - name: Lilii Borea 6
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 52236
-      age: 9181637600
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.15366529194839887
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 136
-    satellite:
-      semiMajorAxis: 2439494958.0000095
-      eccentricity: 0
-      inclination: 1.73
-      orbitalArc: 23
-      axialTilt: 36.09
-      parentId: Lilii Borea
-      showOrbit: true
-    satellites:
-      - name: Lilii Borea 6a
-        description: ''
-        tags: []
+          parentId: Lilii Borea 4
         isPlanet:
-          radius: 3801.991418321848
-          age: 399643056
-          ringMapAsset: null
-          terranMass: 0.5899999494940318
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          age: 775970995
           classification: D
+          radius: 1371.167397066955
+          terranMass: 0.7299996787235552
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 158
-        satellite:
-          semiMajorAxis: 1288875.0908111064
-          eccentricity: 0.02
-          inclination: 1.51
-          orbitalArc: 99
-          axialTilt: 15.54
-          parentId: Lilii Borea 6
-          showOrbit: true
-        satellites: []
-  - name: Lilii Borea 7
+        temperature: 392
+  - name: Lilii Borea 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 37.86
+      semiMajorAxis: 1565152137.0000093
+      eccentricity: 0
+      inclination: 0.67
+      orbitalArc: 32
+      showOrbit: true
+      parentId: Lilii Borea
     isPlanet:
-      radius: 63302
-      age: 8196577459
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      age: 4000997386
+      classification: P
+      radius: 7012
+      terranMass: 0.0006549156743928127
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
       ringMapAsset: null
-      terranMass: 0.5619985269340684
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+    population: 193220
+    temperature: 257
+    satellites: []
+  - name: Lilii Borea 6
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 36.09
+      semiMajorAxis: 2439494958.0000095
+      eccentricity: 0
+      inclination: 1.73
+      orbitalArc: 23
+      showOrbit: true
+      parentId: Lilii Borea
+    isPlanet:
+      age: 9181637600
       classification: J
+      radius: 52236
+      terranMass: 0.15366529194839887
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
-    temperature: 276
+    temperature: 136
+    satellites:
+      - name: Lilii Borea 6a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 15.54
+          semiMajorAxis: 1288875.0908111064
+          eccentricity: 0.02
+          inclination: 1.51
+          orbitalArc: 99
+          showOrbit: true
+          parentId: Lilii Borea 6
+        isPlanet:
+          age: 399643056
+          classification: D
+          radius: 3801.991418321848
+          terranMass: 0.5899999494940318
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 158
+  - name: Lilii Borea 7
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 30.42
       semiMajorAxis: 3549145603
       eccentricity: 0
       inclination: 0.22
       orbitalArc: 311
-      axialTilt: 30.42
-      parentId: Lilii Borea
       showOrbit: true
+      parentId: Lilii Borea
+    isPlanet:
+      age: 8196577459
+      classification: J
+      radius: 63302
+      terranMass: 0.5619985269340684
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
+    population: 0
+    temperature: 276
     satellites: []
 commSatellite: null
 assets: {}

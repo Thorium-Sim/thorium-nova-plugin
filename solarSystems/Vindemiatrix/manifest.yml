@@ -14,276 +14,274 @@ stars:
   - name: Vindemiatrix A
     description: ''
     tags: []
-    radius: 11.98
-    temperature: 5020
     solarMass: 2.72
     age: 1721114184312
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.98
+    temperature: 5020
     satellite:
-      orbitalArc: 233
-      semiMajorAxis: 143.76
       axialTilt: 0
+      semiMajorAxis: 143.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 233
       showOrbit: false
       parentId: Vindemiatrix
   - name: Vindemiatrix B
     description: ''
     tags: []
-    radius: 11.98
-    temperature: 5020
     solarMass: 2.72
     age: 1721114184312
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.98
+    temperature: 5020
     satellite:
-      orbitalArc: 413
-      semiMajorAxis: 143.76
       axialTilt: 0
+      semiMajorAxis: 143.76
       eccentricity: 0
       inclination: 0
+      orbitalArc: 413
       showOrbit: false
       parentId: Vindemiatrix
 planets:
   - name: Vindemiatrix 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 50
-      age: 263561346
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.003438949712153114
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 310
     satellite:
+      axialTilt: 22.18
       semiMajorAxis: 414167720.99999976
       eccentricity: 0.01
       inclination: 0.14
       orbitalArc: 255
-      axialTilt: 22.18
-      parentId: Vindemiatrix
       showOrbit: true
+      parentId: Vindemiatrix
+    isPlanet:
+      age: 263561346
+      classification: D
+      radius: 50
+      terranMass: 0.003438949712153114
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 310
     satellites: []
   - name: Vindemiatrix 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 6.06
+      semiMajorAxis: 970566329.999999
+      eccentricity: 0.02
+      inclination: 1.64
+      orbitalArc: 356
+      showOrbit: true
+      parentId: Vindemiatrix
     isPlanet:
-      radius: 7285
       age: 7701976882
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.019657570250026003
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 7285
+      terranMass: 0.019657570250026003
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
     temperature: 578
-    satellite:
-      semiMajorAxis: 970566329.999999
-      eccentricity: 0.02
-      inclination: 1.64
-      orbitalArc: 356
-      axialTilt: 6.06
-      parentId: Vindemiatrix
-      showOrbit: true
     satellites:
       - name: Vindemiatrix 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 30.32
+          semiMajorAxis: 272426.71202794556
+          eccentricity: 0.01
+          inclination: 0.93
+          orbitalArc: 87
+          showOrbit: true
+          parentId: Vindemiatrix 2
         isPlanet:
-          radius: 511.81478524768374
           age: 6986105228
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.7000000462644439
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
           classification: H
+          radius: 511.81478524768374
+          terranMass: 0.7000000462644439
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 714
-        satellite:
-          semiMajorAxis: 272426.71202794556
-          eccentricity: 0.01
-          inclination: 0.93
-          orbitalArc: 87
-          axialTilt: 30.32
-          parentId: Vindemiatrix 2
-          showOrbit: true
-        satellites: []
       - name: Vindemiatrix 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1453.6710625223166
-          age: 7893860391
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 80011
-        temperature: 258
         satellite:
+          axialTilt: 28.4
           semiMajorAxis: 673049.7019478326
           eccentricity: 0.01
           inclination: 0.62
           orbitalArc: 35
-          axialTilt: 28.4
-          parentId: Vindemiatrix 2
           showOrbit: true
-        satellites: []
+          parentId: Vindemiatrix 2
+        isPlanet:
+          age: 7893860391
+          classification: P
+          radius: 1453.6710625223166
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 80011
+        temperature: 258
   - name: Vindemiatrix 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 1892
-      age: 300672213
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.007710968940939112
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 51
     satellite:
+      axialTilt: 38.13
       semiMajorAxis: 1405566743.9999917
       eccentricity: 0.01
       inclination: 0.94
       orbitalArc: 246
-      axialTilt: 38.13
-      parentId: Vindemiatrix
       showOrbit: true
+      parentId: Vindemiatrix
+    isPlanet:
+      age: 300672213
+      classification: C
+      radius: 1892
+      terranMass: 0.007710968940939112
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 51
     satellites:
       - name: Vindemiatrix 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 5.03
+          semiMajorAxis: 84876.99345505261
+          eccentricity: 0.01
+          inclination: 0.37
+          orbitalArc: 111
+          showOrbit: true
+          parentId: Vindemiatrix 3
         isPlanet:
-          radius: 251.76670908405603
           age: 6061659092
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 1.300000042908009
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 251.76670908405603
+          terranMass: 1.300000042908009
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 18032
         temperature: 274
-        satellite:
-          semiMajorAxis: 84876.99345505261
-          eccentricity: 0.01
-          inclination: 0.37
-          orbitalArc: 111
-          axialTilt: 5.03
-          parentId: Vindemiatrix 3
-          showOrbit: true
-        satellites: []
       - name: Vindemiatrix 3b
         description: ''
         tags: []
-        isPlanet:
-          radius: 451.3788024618242
-          age: 6877730126
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 60835
-        temperature: 258
         satellite:
+          axialTilt: 13.92
           semiMajorAxis: 187322.20302165704
           eccentricity: 0
           inclination: 0.34
           orbitalArc: 237
-          axialTilt: 13.92
-          parentId: Vindemiatrix 3
           showOrbit: true
-        satellites: []
+          parentId: Vindemiatrix 3
+        isPlanet:
+          age: 6877730126
+          classification: P
+          radius: 451.3788024618242
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 60835
+        temperature: 258
   - name: Vindemiatrix 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 26.58
+      semiMajorAxis: 1687296582
+      eccentricity: 0.01
+      inclination: 0.25
+      orbitalArc: 68
+      showOrbit: true
+      parentId: Vindemiatrix
     isPlanet:
-      radius: 3426
       age: 6912854815
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.00972430470851189
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 3426
+      terranMass: 0.00972430470851189
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 17939
     temperature: 274
-    satellite:
-      semiMajorAxis: 1687296582
-      eccentricity: 0.01
-      inclination: 0.25
-      orbitalArc: 68
-      axialTilt: 26.58
-      parentId: Vindemiatrix
-      showOrbit: true
     satellites:
       - name: Vindemiatrix 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 396.8754707429967
-          age: 2568072556
-          ringMapAsset: null
-          terranMass: 0.5000000176525797
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 736
         satellite:
+          axialTilt: 31.41
           semiMajorAxis: 191293.9768981244
           eccentricity: 0.01
           inclination: 0.08
           orbitalArc: 39
-          axialTilt: 31.41
-          parentId: Vindemiatrix 4
           showOrbit: true
-        satellites: []
+          parentId: Vindemiatrix 4
+        isPlanet:
+          age: 2568072556
+          classification: F
+          radius: 396.8754707429967
+          terranMass: 0.5000000176525797
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 736
 commSatellite: null
 assets: {}

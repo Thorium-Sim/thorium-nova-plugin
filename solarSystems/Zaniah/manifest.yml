@@ -14,64 +14,65 @@ stars:
   - name: Zaniah A
     description: ''
     tags: []
-    radius: 1.9102
-    temperature: 9333
     solarMass: 2.5039
     age: 5216071306889
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.9102
+    temperature: 9333
     satellite:
-      orbitalArc: 158
-      semiMajorAxis: 22.9224
       axialTilt: 0
+      semiMajorAxis: 22.9224
       eccentricity: 0
       inclination: 0
+      orbitalArc: 158
       showOrbit: false
       parentId: Zaniah
   - name: Zaniah B
     description: ''
     tags: []
-    radius: 1.9102
-    temperature: 9333
     solarMass: 2.5039
     age: 5216071306889
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.9102
+    temperature: 9333
     satellite:
-      orbitalArc: 338
-      semiMajorAxis: 22.9224
       axialTilt: 0
+      semiMajorAxis: 22.9224
       eccentricity: 0
       inclination: 0
+      orbitalArc: 338
       showOrbit: false
       parentId: Zaniah
 planets:
   - name: Zaniah 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5772
-      age: 1389628824
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.006253158081908486
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1357
     satellite:
+      axialTilt: 8.39
       semiMajorAxis: 874524734
       eccentricity: 0.01
       inclination: 1.68
       orbitalArc: 36
-      axialTilt: 8.39
-      parentId: Zaniah
       showOrbit: true
+      parentId: Zaniah
+    isPlanet:
+      age: 1389628824
+      classification: E
+      radius: 5772
+      terranMass: 0.006253158081908486
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 1357
     satellites: []
 commSatellite: null
 assets: {}

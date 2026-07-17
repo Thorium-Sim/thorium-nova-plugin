@@ -1,0 +1,10 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Plural Quantities
+description: ''
+textPattern: >-
+  {~Double,Twin,Two,Three,Triple,Four,Five,Six,Seven,Eight,Nine,Ten,Eleven,Twelve,Thirteen,Twenty,Fifty,One
+  Hundred,One Thousand,Many,So Many,Too Many,No
+  More,Several,Numerous,Infinite,Enough,All the}
+category: Parts of Speech
+assets: {}

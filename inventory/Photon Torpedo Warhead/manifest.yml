@@ -14,5 +14,6 @@ abundance: 1
 tags: []
 flags:
   torpedoWarhead:
-    damageType: Structural
     color: blue
+    yield: 1
+    damageType: Structural

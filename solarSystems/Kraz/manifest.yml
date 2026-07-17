@@ -14,64 +14,65 @@ stars:
   - name: Kraz A
     description: ''
     tags: []
-    radius: 15.84
-    temperature: 5325
     solarMass: 3.32
     age: 949114405723
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 15.84
+    temperature: 5325
     satellite:
-      orbitalArc: 264
-      semiMajorAxis: 190.07999999999998
       axialTilt: 0
+      semiMajorAxis: 190.07999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 264
       showOrbit: false
       parentId: Kraz
   - name: Kraz B
     description: ''
     tags: []
-    radius: 15.84
-    temperature: 5325
     solarMass: 3.32
     age: 949114405723
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 15.84
+    temperature: 5325
     satellite:
-      orbitalArc: 444
-      semiMajorAxis: 190.07999999999998
       axialTilt: 0
+      semiMajorAxis: 190.07999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 444
       showOrbit: false
       parentId: Kraz
 planets:
   - name: Kraz 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 227
-      age: 215167853
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.013515085982857701
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 214
     satellite:
+      axialTilt: 17.5
       semiMajorAxis: 1396892762
       eccentricity: 0.01
       inclination: 0.47
       orbitalArc: 161
-      axialTilt: 17.5
-      parentId: Kraz
       showOrbit: true
+      parentId: Kraz
+    isPlanet:
+      age: 215167853
+      classification: D
+      radius: 227
+      terranMass: 0.013515085982857701
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 214
     satellites: []
 commSatellite: null
 assets: {}

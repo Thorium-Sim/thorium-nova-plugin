@@ -14,195 +14,196 @@ stars:
   - name: Alula Borealis A
     description: ''
     tags: []
-    radius: 60
-    temperature: 4422
     solarMass: 3.82
     age: 160049821314
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 60
+    temperature: 4422
     satellite:
-      orbitalArc: 260
-      semiMajorAxis: 720
       axialTilt: 0
+      semiMajorAxis: 720
       eccentricity: 0
       inclination: 0
+      orbitalArc: 260
       showOrbit: false
       parentId: Alula Borealis
   - name: Alula Borealis B
     description: ''
     tags: []
-    radius: 60
-    temperature: 4422
     solarMass: 3.82
     age: 160049821314
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 60
+    temperature: 4422
     satellite:
-      orbitalArc: 440
-      semiMajorAxis: 720
       axialTilt: 0
+      semiMajorAxis: 720
       eccentricity: 0
       inclination: 0
+      orbitalArc: 440
       showOrbit: false
       parentId: Alula Borealis
 planets:
   - name: Alula Borealis 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 20.19
+      semiMajorAxis: 1281786584
+      eccentricity: 0.01
+      inclination: 0.6
+      orbitalArc: 360
+      showOrbit: true
+      parentId: Alula Borealis
     isPlanet:
-      radius: 4272
       age: 6311438905
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.009011616510227879
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4272
+      terranMass: 0.009011616510227879
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 37116
     temperature: 155
-    satellite:
-      semiMajorAxis: 1281786584
-      eccentricity: 0.01
-      inclination: 0.6
-      orbitalArc: 360
-      axialTilt: 20.19
-      parentId: Alula Borealis
-      showOrbit: true
     satellites: []
   - name: Alula Borealis 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 20.59
+      semiMajorAxis: 2571396285.3333335
+      eccentricity: 0.02
+      inclination: 0.38
+      orbitalArc: 87
+      showOrbit: true
+      parentId: Alula Borealis
     isPlanet:
-      radius: 5560
       age: 8758552340
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.017595075728551113
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 5560
+      terranMass: 0.017595075728551113
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 15766
     temperature: 175
-    satellite:
-      semiMajorAxis: 2571396285.3333335
-      eccentricity: 0.02
-      inclination: 0.38
-      orbitalArc: 87
-      axialTilt: 20.59
-      parentId: Alula Borealis
-      showOrbit: true
     satellites:
       - name: Alula Borealis 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 296.3281677063387
-          age: 233758608
-          ringMapAsset: null
-          terranMass: 1.3699999171666877
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 157
         satellite:
+          axialTilt: 1.97
           semiMajorAxis: 69970.71036640686
           eccentricity: 0.01
           inclination: 0.53
           orbitalArc: 81
-          axialTilt: 1.97
-          parentId: Alula Borealis 2
           showOrbit: true
-        satellites: []
+          parentId: Alula Borealis 2
+        isPlanet:
+          age: 233758608
+          classification: D
+          radius: 296.3281677063387
+          terranMass: 1.3699999171666877
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 157
       - name: Alula Borealis 2b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 6.94
+          semiMajorAxis: 176369.6428728508
+          eccentricity: 0.01
+          inclination: 1.02
+          orbitalArc: 345
+          showOrbit: true
+          parentId: Alula Borealis 2
         isPlanet:
-          radius: 421.93694467189187
           age: 7680229092
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 0.5000001550060958
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 421.93694467189187
+          terranMass: 0.5000001550060958
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 29539
         temperature: 272
-        satellite:
-          semiMajorAxis: 176369.6428728508
-          eccentricity: 0.01
-          inclination: 1.02
-          orbitalArc: 345
-          axialTilt: 6.94
-          parentId: Alula Borealis 2
-          showOrbit: true
-        satellites: []
   - name: Alula Borealis 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 55
-      age: 218138644
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0013359613463272712
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 265
     satellite:
+      axialTilt: 23.86
       semiMajorAxis: 3512280255.555556
       eccentricity: 0
       inclination: 0.26
       orbitalArc: 360
-      axialTilt: 23.86
-      parentId: Alula Borealis
       showOrbit: true
-    satellites: []
-  - name: Alula Borealis 4
-    description: ''
-    tags: []
+      parentId: Alula Borealis
     isPlanet:
-      radius: 1226
-      age: 985934861
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.004463231660354582
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
+      age: 218138644
+      classification: D
+      radius: 55
+      terranMass: 0.0013359613463272712
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
-    temperature: 45
+    temperature: 265
+    satellites: []
+  - name: Alula Borealis 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 4.92
       semiMajorAxis: 4000000000
       eccentricity: 0.01
       inclination: 1.18
       orbitalArc: 339
-      axialTilt: 4.92
-      parentId: Alula Borealis
       showOrbit: true
+      parentId: Alula Borealis
+    isPlanet:
+      age: 985934861
+      classification: C
+      radius: 1226
+      terranMass: 0.004463231660354582
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 45
     satellites: []
 commSatellite: null
 assets: {}

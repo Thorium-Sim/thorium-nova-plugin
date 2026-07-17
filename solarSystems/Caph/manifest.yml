@@ -14,348 +14,349 @@ stars:
   - name: Caph A
     description: ''
     tags: []
-    radius: 3.79
-    temperature: 6167
     solarMass: 1.91
     age: 5301862226823
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 3.79
+    temperature: 6167
     satellite:
-      orbitalArc: 316
-      semiMajorAxis: 45.480000000000004
       axialTilt: 0
+      semiMajorAxis: 45.480000000000004
       eccentricity: 0
       inclination: 0
+      orbitalArc: 316
       showOrbit: false
       parentId: Caph
   - name: Caph B
     description: ''
     tags: []
-    radius: 3.79
-    temperature: 6167
     solarMass: 1.91
     age: 5301862226823
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 3.79
+    temperature: 6167
     satellite:
-      orbitalArc: 496
-      semiMajorAxis: 45.480000000000004
       axialTilt: 0
+      semiMajorAxis: 45.480000000000004
       eccentricity: 0
       inclination: 0
+      orbitalArc: 496
       showOrbit: false
       parentId: Caph
 planets:
   - name: Caph 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 9.46
+      semiMajorAxis: 284701105
+      eccentricity: 0.02
+      inclination: 1.41
+      orbitalArc: 124
+      showOrbit: true
+      parentId: Caph
     isPlanet:
-      radius: 6162
       age: 4037959339
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.005296399889581944
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 6162
+      terranMass: 0.005296399889581944
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
     temperature: 817
-    satellite:
-      semiMajorAxis: 284701105
-      eccentricity: 0.02
-      inclination: 1.41
-      orbitalArc: 124
-      axialTilt: 9.46
-      parentId: Caph
-      showOrbit: true
     satellites: []
   - name: Caph 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5304
-      age: 8920159335
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.027339001496983463
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 131038
-    temperature: 268
     satellite:
+      axialTilt: 30.04
       semiMajorAxis: 503556409.66666496
       eccentricity: 0
       inclination: 1
       orbitalArc: 234
-      axialTilt: 30.04
-      parentId: Caph
       showOrbit: true
+      parentId: Caph
+    isPlanet:
+      age: 8920159335
+      classification: P
+      radius: 5304
+      terranMass: 0.027339001496983463
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 131038
+    temperature: 268
     satellites:
       - name: Caph 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 603.1667924466466
-          age: 7436125937
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 94855
-        temperature: 257
         satellite:
+          axialTilt: 3.98
           semiMajorAxis: 254536.38641248486
           eccentricity: 0.02
           inclination: 0.25
           orbitalArc: 346
-          axialTilt: 3.98
-          parentId: Caph 2
           showOrbit: true
-        satellites: []
+          parentId: Caph 2
+        isPlanet:
+          age: 7436125937
+          classification: P
+          radius: 603.1667924466466
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 94855
+        temperature: 257
   - name: Caph 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 7134
-      age: 3982258492
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.009355006502441832
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 608462008
-    temperature: 430
     satellite:
+      axialTilt: 13.39
       semiMajorAxis: 676757728.7777649
       eccentricity: 0
       inclination: 1.24
       orbitalArc: 333
-      axialTilt: 13.39
-      parentId: Caph
       showOrbit: true
+      parentId: Caph
+    isPlanet:
+      age: 3982258492
+      classification: 'N'
+      radius: 7134
+      terranMass: 0.009355006502441832
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 608462008
+    temperature: 430
     satellites:
       - name: Caph 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 656.3427958293452
-          age: 4356473177
-          ringMapAsset: null
-          terranMass: 0.10000036888697963
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: B
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 586
         satellite:
+          axialTilt: 37.92
           semiMajorAxis: 276976.6598399837
           eccentricity: 0
           inclination: 0.4
           orbitalArc: 282
-          axialTilt: 37.92
-          parentId: Caph 3
           showOrbit: true
-        satellites: []
+          parentId: Caph 3
+        isPlanet:
+          age: 4356473177
+          classification: B
+          radius: 656.3427958293452
+          terranMass: 0.10000036888697963
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 586
   - name: Caph 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 301
-      age: 781180276
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.007883646806452165
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 217
     satellite:
+      axialTilt: 34.79
       semiMajorAxis: 1259779912.55553
       eccentricity: 0
       inclination: 1.58
       orbitalArc: 262
-      axialTilt: 34.79
-      parentId: Caph
       showOrbit: true
-    satellites: []
-  - name: Caph 5
-    description: ''
-    tags: []
+      parentId: Caph
     isPlanet:
-      radius: 3310
-      age: 1955629736
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.00687211498026143
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
-      classification: A
+      age: 781180276
+      classification: D
+      radius: 301
+      terranMass: 0.007883646806452165
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
-    temperature: 1599
+    temperature: 217
+    satellites: []
+  - name: Caph 5
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 7.82
       semiMajorAxis: 1631169350.5925496
       eccentricity: 0.02
       inclination: 1.31
       orbitalArc: 248
-      axialTilt: 7.82
-      parentId: Caph
       showOrbit: true
+      parentId: Caph
+    isPlanet:
+      age: 1955629736
+      classification: A
+      radius: 3310
+      terranMass: 0.00687211498026143
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 1599
     satellites:
       - name: Caph 5a
         description: ''
         tags: []
-        isPlanet:
-          radius: 280.35240832340264
-          age: 63147984
-          ringMapAsset: null
-          terranMass: 0.8000000784396385
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 33
         satellite:
+          axialTilt: 2.71
           semiMajorAxis: 67476.40095806468
           eccentricity: 0.01
           inclination: 1.44
           orbitalArc: 141
-          axialTilt: 2.71
-          parentId: Caph 5
           showOrbit: true
-        satellites: []
-      - name: Caph 5b
-        description: ''
-        tags: []
+          parentId: Caph 5
         isPlanet:
-          radius: 649.3581671241808
-          age: 164455451
-          ringMapAsset: null
-          terranMass: 0.20000015509614225
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          age: 63147984
           classification: C
+          radius: 280.35240832340264
+          terranMass: 0.8000000784396385
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 48
+        temperature: 33
+      - name: Caph 5b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 34.37
           semiMajorAxis: 125270.56217661174
           eccentricity: 0.02
           inclination: 0.62
           orbitalArc: 42
-          axialTilt: 34.37
-          parentId: Caph 5
           showOrbit: true
-        satellites: []
-      - name: Caph 5c
-        description: ''
-        tags: []
+          parentId: Caph 5
         isPlanet:
-          radius: 446.52171672881155
-          age: 802792680
-          ringMapAsset: null
-          terranMass: 0.3799997339761265
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
+          age: 164455451
+          classification: C
+          radius: 649.3581671241808
+          terranMass: 0.20000015509614225
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 156
+        temperature: 48
+      - name: Caph 5c
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 11.39
           semiMajorAxis: 207186.07656216857
           eccentricity: 0.02
           inclination: 1.71
           orbitalArc: 67
-          axialTilt: 11.39
-          parentId: Caph 5
           showOrbit: true
-        satellites: []
+          parentId: Caph 5
+        isPlanet:
+          age: 802792680
+          classification: D
+          radius: 446.52171672881155
+          terranMass: 0.3799997339761265
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 156
   - name: Caph 6
     description: ''
     tags: []
+    satellite:
+      axialTilt: 21.15
+      semiMajorAxis: 2127052794
+      eccentricity: 0
+      inclination: 0.16
+      orbitalArc: 346
+      showOrbit: true
+      parentId: Caph
     isPlanet:
-      radius: 44385
       age: 5343676283
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.19815246547180052
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
       classification: J
+      radius: 44385
+      terranMass: 0.19815246547180052
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 327
-    satellite:
-      semiMajorAxis: 2127052794
-      eccentricity: 0
-      inclination: 0.16
-      orbitalArc: 346
-      axialTilt: 21.15
-      parentId: Caph
-      showOrbit: true
     satellites:
       - name: Caph 6a
         description: ''
         tags: []
-        isPlanet:
-          radius: 4768.814310280621
-          age: 2386962581
-          ringMapAsset: null
-          terranMass: 0.10000009161009862
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 790
         satellite:
+          axialTilt: 31.43
           semiMajorAxis: 2360563.083588907
           eccentricity: 0
           inclination: 0.08
           orbitalArc: 226
-          axialTilt: 31.43
-          parentId: Caph 6
           showOrbit: true
-        satellites: []
+          parentId: Caph 6
+        isPlanet:
+          age: 2386962581
+          classification: F
+          radius: 4768.814310280621
+          terranMass: 0.10000009161009862
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 790
 commSatellite: null
 assets: {}

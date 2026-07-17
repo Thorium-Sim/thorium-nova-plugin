@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: All Titles
+description: ''
+textPattern: '{~{#Male Titles},{#Female Titles},{#Gender Neutral Titles}}'
+category: Titles
+assets: {}

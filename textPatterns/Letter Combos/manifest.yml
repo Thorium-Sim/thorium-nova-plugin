@@ -1,0 +1,8 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Letter Combos
+description: ''
+textPattern: >-
+  {~HAL,NEO,REY,HAN,ODO,EDI,ORI,VEX,TIE,ZPM,FTL,LOM,VOY,ODY,GAL,MAG,PHO,FAL,RDA,CJO,HHG,ARC,GQP}
+category: Word Lists
+assets: {}

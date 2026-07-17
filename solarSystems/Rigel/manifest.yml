@@ -14,141 +14,144 @@ stars:
   - name: Rigel A
     description: ''
     tags: []
-    radius: 74
-    temperature: 12100
     solarMass: 21
     age: 10317718112
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 74
+    temperature: 12100
     satellite:
-      orbitalArc: 193
-      semiMajorAxis: 888
       axialTilt: 0
+      semiMajorAxis: 888
       eccentricity: 0
       inclination: 0
+      orbitalArc: 193
       showOrbit: false
       parentId: Rigel
   - name: Rigel B
     description: ''
     tags: []
-    radius: 74
-    temperature: 12100
     solarMass: 21
     age: 10317718112
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 74
+    temperature: 12100
     satellite:
-      orbitalArc: 373
-      semiMajorAxis: 888
       axialTilt: 0
+      semiMajorAxis: 888
       eccentricity: 0
       inclination: 0
+      orbitalArc: 373
       showOrbit: false
       parentId: Rigel
 planets:
   - name: Rigel 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 98
-      age: 947737261
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.004975440605130111
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 387
     satellite:
+      axialTilt: 29.59
       semiMajorAxis: 1600861452.3333333
       eccentricity: 0
       inclination: 1.18
       orbitalArc: 191
-      axialTilt: 29.59
-      parentId: Rigel
       showOrbit: true
+      parentId: Rigel
+    isPlanet:
+      age: 947737261
+      classification: D
+      radius: 98
+      terranMass: 0.004975440605130111
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 387
     satellites: []
   - name: Rigel 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 169
-      age: 264069224
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.018439471687185405
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 342
     satellite:
+      axialTilt: 1.86
       semiMajorAxis: 2714261288.8888884
       eccentricity: 0.01
       inclination: 1.64
       orbitalArc: 16
-      axialTilt: 1.86
-      parentId: Rigel
       showOrbit: true
-    satellites: []
-  - name: Rigel 3
-    description: ''
-    tags: []
+      parentId: Rigel
     isPlanet:
-      radius: 346
-      age: 37424551
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0041704744872202585
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      age: 264069224
       classification: D
+      radius: 169
+      terranMass: 0.018439471687185405
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
-    temperature: 280
+    temperature: 342
+    satellites: []
+  - name: Rigel 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 5.72
       semiMajorAxis: 16536266484.925926
       eccentricity: 0.02
       inclination: 1.59
       orbitalArc: 106
-      axialTilt: 5.72
-      parentId: Rigel
       showOrbit: true
+      parentId: Rigel
+    isPlanet:
+      age: 37424551
+      classification: D
+      radius: 346
+      terranMass: 0.0041704744872202585
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 280
     satellites: []
   - name: Rigel 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 30.27
+      semiMajorAxis: 32568576156
+      eccentricity: 0.02
+      inclination: 1.23
+      orbitalArc: 350
+      showOrbit: true
+      parentId: Rigel
     isPlanet:
-      radius: 3186
       age: 9893860517
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.015536216488260306
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3186
+      terranMass: 0.015536216488260306
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 41795
     temperature: 166
-    satellite:
-      semiMajorAxis: 32568576156
-      eccentricity: 0.02
-      inclination: 1.23
-      orbitalArc: 350
-      axialTilt: 30.27
-      parentId: Rigel
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

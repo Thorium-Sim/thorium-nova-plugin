@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Team Names
+description: ''
+textPattern: '{~Team,Squad,Crew,Platoon,Brigade,Company,Party,Corps,Troop,Force,League}'
+category: Titles
+assets: {}

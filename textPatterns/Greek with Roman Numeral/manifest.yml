@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Greek with Roman Numeral
+description: ''
+textPattern: '{#Greek Letters} {#Roman Numerals 1-20}'
+category: Engineering Panels
+assets: {}

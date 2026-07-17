@@ -14,142 +14,142 @@ stars:
   - name: Unukalhai A
     description: ''
     tags: []
-    radius: 12.19
-    temperature: 4687
     solarMass: 1.61
     age: 1294815635764
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 12.19
+    temperature: 4687
     satellite:
-      orbitalArc: 67
-      semiMajorAxis: 146.28
       axialTilt: 0
+      semiMajorAxis: 146.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 67
       showOrbit: false
       parentId: Unukalhai
   - name: Unukalhai B
     description: ''
     tags: []
-    radius: 12.19
-    temperature: 4687
     solarMass: 1.61
     age: 1294815635764
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 12.19
+    temperature: 4687
     satellite:
-      orbitalArc: 247
-      semiMajorAxis: 146.28
       axialTilt: 0
+      semiMajorAxis: 146.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 247
       showOrbit: false
       parentId: Unukalhai
 planets:
   - name: Unukalhai 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 281
-      age: 76800225
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.008672435489656703
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 205
     satellite:
+      axialTilt: 6.32
       semiMajorAxis: 514096891
       eccentricity: 0.01
       inclination: 0.58
       orbitalArc: 284
-      axialTilt: 6.32
-      parentId: Unukalhai
       showOrbit: true
+      parentId: Unukalhai
+    isPlanet:
+      age: 76800225
+      classification: D
+      radius: 281
+      terranMass: 0.008672435489656703
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 205
     satellites: []
   - name: Unukalhai 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 13.34
+      semiMajorAxis: 845775363
+      eccentricity: 0
+      inclination: 1.24
+      orbitalArc: 333
+      showOrbit: true
+      parentId: Unukalhai
     isPlanet:
-      radius: 6662
       age: 8479962069
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.00813157367708443
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 6662
+      terranMass: 0.00813157367708443
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 48472
     temperature: 225
-    satellite:
-      semiMajorAxis: 845775363
-      eccentricity: 0
-      inclination: 1.24
-      orbitalArc: 333
-      axialTilt: 13.34
-      parentId: Unukalhai
-      showOrbit: true
     satellites:
       - name: Unukalhai 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 916.7359122999562
-          age: 725126691
-          ringMapAsset: null
-          terranMass: 0.9000001479167267
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 41
         satellite:
+          axialTilt: 7.89
           semiMajorAxis: 201610.65817729998
           eccentricity: 0.01
           inclination: 1.79
           orbitalArc: 336
-          axialTilt: 7.89
-          parentId: Unukalhai 2
           showOrbit: true
-        satellites: []
+          parentId: Unukalhai 2
+        isPlanet:
+          age: 725126691
+          classification: C
+          radius: 916.7359122999562
+          terranMass: 0.9000001479167267
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 41
       - name: Unukalhai 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1476.3532758083784
-          age: 3410203035
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 156273
-        temperature: 255
         satellite:
+          axialTilt: 17.51
           semiMajorAxis: 420760.68360538787
           eccentricity: 0.01
           inclination: 1.03
           orbitalArc: 26
-          axialTilt: 17.51
-          parentId: Unukalhai 2
           showOrbit: true
-        satellites: []
+          parentId: Unukalhai 2
+        isPlanet:
+          age: 3410203035
+          classification: P
+          radius: 1476.3532758083784
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 156273
+        temperature: 255
 commSatellite: null
 assets: {}

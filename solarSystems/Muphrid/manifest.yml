@@ -14,173 +14,171 @@ stars:
   - name: Muphrid A
     description: ''
     tags: []
-    radius: 2.659
-    temperature: 6161
     solarMass: 1.71
     age: 9681081695290
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.659
+    temperature: 6161
     satellite:
-      orbitalArc: 1
-      semiMajorAxis: 31.907999999999998
       axialTilt: 0
+      semiMajorAxis: 31.907999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 1
       showOrbit: false
       parentId: Muphrid
   - name: Muphrid B
     description: ''
     tags: []
-    radius: 2.659
-    temperature: 6161
     solarMass: 1.71
     age: 9681081695290
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.659
+    temperature: 6161
     satellite:
-      orbitalArc: 181
-      semiMajorAxis: 31.907999999999998
       axialTilt: 0
+      semiMajorAxis: 31.907999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 181
       showOrbit: false
       parentId: Muphrid
 planets:
   - name: Muphrid 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 9.42
+      semiMajorAxis: 1121081297.3333323
+      eccentricity: 0.02
+      inclination: 1.7
+      orbitalArc: 108
+      showOrbit: true
+      parentId: Muphrid
     isPlanet:
-      radius: 3333
       age: 6654102208
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: null
-      terranMass: 0.001489215853003825
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 3333
+      terranMass: 0.001489215853003825
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
     population: 15044
     temperature: 268
-    satellite:
-      semiMajorAxis: 1121081297.3333323
-      eccentricity: 0.02
-      inclination: 1.7
-      orbitalArc: 108
-      axialTilt: 9.42
-      parentId: Muphrid
-      showOrbit: true
     satellites:
       - name: Muphrid 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 12.54
+          semiMajorAxis: 156991.77222831058
+          eccentricity: 0.01
+          inclination: 1.05
+          orbitalArc: 346
+          showOrbit: true
+          parentId: Muphrid 1
         isPlanet:
-          radius: 343.52685389127043
           age: 8511634746
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5000001425983642
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
           classification: H
+          radius: 343.52685389127043
+          terranMass: 1.5000001425983642
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 510
-        satellite:
-          semiMajorAxis: 156991.77222831058
-          eccentricity: 0.01
-          inclination: 1.05
-          orbitalArc: 346
-          axialTilt: 12.54
-          parentId: Muphrid 1
-          showOrbit: true
-        satellites: []
   - name: Muphrid 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 13.18
+      semiMajorAxis: 2011996196
+      eccentricity: 0
+      inclination: 1.39
+      orbitalArc: 15
+      showOrbit: true
+      parentId: Muphrid
     isPlanet:
-      radius: 1492660
       age: 8493078890
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 18.9574709638633
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBlueGiant.jpg
       classification: I
+      radius: 1492660
+      terranMass: 18.9574709638633
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBlueGiant.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 291
-    satellite:
-      semiMajorAxis: 2011996196
-      eccentricity: 0
-      inclination: 1.39
-      orbitalArc: 15
-      axialTilt: 13.18
-      parentId: Muphrid
-      showOrbit: true
     satellites:
       - name: Muphrid 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 277695.27438464394
-          age: 5985018783
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 23905
-        temperature: 259
         satellite:
+          axialTilt: 17.95
           semiMajorAxis: 57944388.29516059
           eccentricity: 0.01
           inclination: 1.22
           orbitalArc: 0
-          axialTilt: 17.95
-          parentId: Muphrid 2
           showOrbit: true
-        satellites: []
+          parentId: Muphrid 2
+        isPlanet:
+          age: 5985018783
+          classification: P
+          radius: 277695.27438464394
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 23905
+        temperature: 259
       - name: Muphrid 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 340034.8561487673
-          age: 382939739
-          ringMapAsset: null
-          terranMass: 0.8099996345728899
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 378
         satellite:
+          axialTilt: 32.33
           semiMajorAxis: 112551537.38524197
           eccentricity: 0.01
           inclination: 0.65
           orbitalArc: 46
-          axialTilt: 32.33
-          parentId: Muphrid 2
           showOrbit: true
-        satellites: []
+          parentId: Muphrid 2
+        isPlanet:
+          age: 382939739
+          classification: D
+          radius: 340034.8561487673
+          terranMass: 0.8099996345728899
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 378
 commSatellite: null
 assets: {}

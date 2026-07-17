@@ -14,67 +14,67 @@ stars:
   - name: Cervantes A
     description: ''
     tags: []
-    radius: 1.28
-    temperature: 5974
     solarMass: 1.1
     age: 30400530147698
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 1.28
+    temperature: 5974
     satellite:
-      orbitalArc: 235
-      semiMajorAxis: 15.36
       axialTilt: 0
+      semiMajorAxis: 15.36
       eccentricity: 0
       inclination: 0
+      orbitalArc: 235
       showOrbit: false
       parentId: Cervantes
   - name: Cervantes B
     description: ''
     tags: []
-    radius: 1.28
-    temperature: 5974
     solarMass: 1.1
     age: 30400530147698
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 1.28
+    temperature: 5974
     satellite:
-      orbitalArc: 415
-      semiMajorAxis: 15.36
       axialTilt: 0
+      semiMajorAxis: 15.36
       eccentricity: 0
       inclination: 0
+      orbitalArc: 415
       showOrbit: false
       parentId: Cervantes
 planets:
   - name: Cervantes 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 7.62
+      semiMajorAxis: 91464573
+      eccentricity: 0
+      inclination: 1.58
+      orbitalArc: 39
+      showOrbit: true
+      parentId: Cervantes
     isPlanet:
-      radius: 6137
       age: 8866437854
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.006528697733144525
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 6137
+      terranMass: 0.006528697733144525
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
     temperature: 599
-    satellite:
-      semiMajorAxis: 91464573
-      eccentricity: 0
-      inclination: 1.58
-      orbitalArc: 39
-      axialTilt: 7.62
-      parentId: Cervantes
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

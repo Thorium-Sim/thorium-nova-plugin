@@ -14,227 +14,228 @@ stars:
   - name: 'Musica '
     description: ''
     tags: []
-    radius: 7.19
-    temperature: 5071
     solarMass: 2.35
     age: 3964650639082
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 7.19
+    temperature: 5071
     satellite:
-      orbitalArc: 352
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 352
       showOrbit: false
       parentId: Musica
 planets:
   - name: Musica 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 39.9
+      semiMajorAxis: 264061796
+      eccentricity: 0.02
+      inclination: 0.89
+      orbitalArc: 228
+      showOrbit: true
+      parentId: Musica
     isPlanet:
-      radius: 7272
       age: 8526783759
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.009654487028693006
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 7272
+      terranMass: 0.009654487028693006
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 40496
     temperature: 151
-    satellite:
-      semiMajorAxis: 264061796
-      eccentricity: 0.02
-      inclination: 0.89
-      orbitalArc: 228
-      axialTilt: 39.9
-      parentId: Musica
-      showOrbit: true
     satellites:
       - name: Musica 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1737.6654598550092
-          age: 9385573879
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 678368402
-        temperature: 293
         satellite:
+          axialTilt: 8.4
           semiMajorAxis: 474382.6705404175
           eccentricity: 0.02
           inclination: 0.53
           orbitalArc: 145
-          axialTilt: 8.4
-          parentId: Musica 1
           showOrbit: true
-        satellites: []
+          parentId: Musica 1
+        isPlanet:
+          age: 9385573879
+          classification: O
+          radius: 1737.6654598550092
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 678368402
+        temperature: 293
   - name: Musica 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 124
-      age: 328207028
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0024848340326223545
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 252
     satellite:
+      axialTilt: 14.17
       semiMajorAxis: 536536696.6666666
       eccentricity: 0.01
       inclination: 0.43
       orbitalArc: 92
-      axialTilt: 14.17
-      parentId: Musica
       showOrbit: true
-    satellites: []
-  - name: Musica 3
-    description: ''
-    tags: []
+      parentId: Musica
     isPlanet:
-      radius: 83
-      age: 435195355
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0032079239953771072
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      age: 328207028
       classification: D
+      radius: 124
+      terranMass: 0.0024848340326223545
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
-    temperature: 212
+    temperature: 252
+    satellites: []
+  - name: Musica 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 37.72
       semiMajorAxis: 868692063.6666665
       eccentricity: 0.01
       inclination: 1.67
       orbitalArc: 143
-      axialTilt: 37.72
-      parentId: Musica
       showOrbit: true
+      parentId: Musica
+    isPlanet:
+      age: 435195355
+      classification: D
+      radius: 83
+      terranMass: 0.0032079239953771072
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 212
     satellites: []
   - name: Musica 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 7391
-      age: 3850047549
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0033011184529869626
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 23489
-    temperature: 265
     satellite:
+      axialTilt: 30.92
       semiMajorAxis: 978569902.8888867
       eccentricity: 0
       inclination: 0.21
       orbitalArc: 50
-      axialTilt: 30.92
-      parentId: Musica
       showOrbit: true
+      parentId: Musica
+    isPlanet:
+      age: 3850047549
+      classification: P
+      radius: 7391
+      terranMass: 0.0033011184529869626
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 23489
+    temperature: 265
     satellites:
       - name: Musica 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 881.650501854811
-          age: 8581389258
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 193500
-        temperature: 265
         satellite:
+          axialTilt: 4.34
           semiMajorAxis: 208666.36853169708
           eccentricity: 0.02
           inclination: 1.49
           orbitalArc: 328
-          axialTilt: 4.34
-          parentId: Musica 4
           showOrbit: true
-        satellites: []
+          parentId: Musica 4
+        isPlanet:
+          age: 8581389258
+          classification: P
+          radius: 881.650501854811
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 193500
+        temperature: 265
       - name: Musica 4b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 5.68
+          semiMajorAxis: 396591.77733907
+          eccentricity: 0
+          inclination: 0.57
+          orbitalArc: 106
+          showOrbit: true
+          parentId: Musica 4
         isPlanet:
-          radius: 1152.8830736600871
           age: 3157423441
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
           classification: G
+          radius: 1152.8830736600871
+          terranMass: 0.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 531
-        satellite:
-          semiMajorAxis: 396591.77733907
-          eccentricity: 0
-          inclination: 0.57
-          orbitalArc: 106
-          axialTilt: 5.68
-          parentId: Musica 4
-          showOrbit: true
-        satellites: []
   - name: Musica 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 6424
-      age: 1086128798
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.010930510569541842
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1372
     satellite:
+      axialTilt: 36.44
       semiMajorAxis: 1193521667
       eccentricity: 0.01
       inclination: 1.73
       orbitalArc: 295
-      axialTilt: 36.44
-      parentId: Musica
       showOrbit: true
+      parentId: Musica
+    isPlanet:
+      age: 1086128798
+      classification: E
+      radius: 6424
+      terranMass: 0.010930510569541842
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 1372
     satellites: []
 commSatellite: null
 assets: {}

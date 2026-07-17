@@ -14,220 +14,221 @@ stars:
   - name: Nahn A
     description: ''
     tags: []
-    radius: 16.3
-    temperature: 5025
     solarMass: 3.4
     age: 1157520598823
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 16.3
+    temperature: 5025
     satellite:
-      orbitalArc: 124
-      semiMajorAxis: 195.60000000000002
       axialTilt: 0
+      semiMajorAxis: 195.60000000000002
       eccentricity: 0
       inclination: 0
+      orbitalArc: 124
       showOrbit: false
       parentId: Nahn
   - name: Nahn B
     description: ''
     tags: []
-    radius: 16.3
-    temperature: 5025
     solarMass: 3.4
     age: 1157520598823
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 16.3
+    temperature: 5025
     satellite:
-      orbitalArc: 304
-      semiMajorAxis: 195.60000000000002
       axialTilt: 0
+      semiMajorAxis: 195.60000000000002
       eccentricity: 0
       inclination: 0
+      orbitalArc: 304
       showOrbit: false
       parentId: Nahn
 planets:
   - name: Nahn 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5867
-      age: 7421285352
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.007416322465268039
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 372898820
-    temperature: 396
     satellite:
+      axialTilt: 16.06
       semiMajorAxis: 974873077.0000008
       eccentricity: 0.01
       inclination: 0.64
       orbitalArc: 161
-      axialTilt: 16.06
-      parentId: Nahn
       showOrbit: true
+      parentId: Nahn
+    isPlanet:
+      age: 7421285352
+      classification: 'N'
+      radius: 5867
+      terranMass: 0.007416322465268039
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 372898820
+    temperature: 396
     satellites: []
   - name: Nahn 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6290
-      age: 9320011868
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.007382313458920063
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 21064
-    temperature: 256
     satellite:
+      axialTilt: 39.43
       semiMajorAxis: 1641324896.0000007
       eccentricity: 0.01
       inclination: 1.89
       orbitalArc: 202
-      axialTilt: 39.43
-      parentId: Nahn
       showOrbit: true
+      parentId: Nahn
+    isPlanet:
+      age: 9320011868
+      classification: P
+      radius: 6290
+      terranMass: 0.007382313458920063
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 21064
+    temperature: 256
     satellites: []
   - name: Nahn 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 182
-      age: 838011850
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.006236235924225496
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 206
     satellite:
+      axialTilt: 33.6
       semiMajorAxis: 2031294645.0000057
       eccentricity: 0.01
       inclination: 0.96
       orbitalArc: 184
-      axialTilt: 33.6
-      parentId: Nahn
       showOrbit: true
-    satellites: []
-  - name: Nahn 4
-    description: ''
-    tags: []
+      parentId: Nahn
     isPlanet:
-      radius: 5677
-      age: 1460755029
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.014240951444952389
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
+      age: 838011850
+      classification: D
+      radius: 182
+      terranMass: 0.006236235924225496
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
-    temperature: 1181
+    temperature: 206
+    satellites: []
+  - name: Nahn 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 2.35
       semiMajorAxis: 2417888582.000025
       eccentricity: 0.01
       inclination: 0.23
       orbitalArc: 175
-      axialTilt: 2.35
-      parentId: Nahn
       showOrbit: true
+      parentId: Nahn
+    isPlanet:
+      age: 1460755029
+      classification: E
+      radius: 5677
+      terranMass: 0.014240951444952389
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 1181
     satellites:
       - name: Nahn 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 616.7061296088984
-          age: 3493828856
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 197741
-        temperature: 270
         satellite:
+          axialTilt: 34.59
           semiMajorAxis: 117574.44221491957
           eccentricity: 0.01
           inclination: 1.09
           orbitalArc: 163
-          axialTilt: 34.59
-          parentId: Nahn 4
           showOrbit: true
-        satellites: []
+          parentId: Nahn 4
+        isPlanet:
+          age: 3493828856
+          classification: P
+          radius: 616.7061296088984
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 197741
+        temperature: 270
       - name: Nahn 4b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 7.8
+          semiMajorAxis: 324530.19919918594
+          eccentricity: 0.01
+          inclination: 1.58
+          orbitalArc: 167
+          showOrbit: true
+          parentId: Nahn 4
         isPlanet:
-          radius: 726.0183427274853
           age: 6974272787
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.7000001410763578
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
           classification: H
+          radius: 726.0183427274853
+          terranMass: 0.7000001410763578
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 571
-        satellite:
-          semiMajorAxis: 324530.19919918594
-          eccentricity: 0.01
-          inclination: 1.58
-          orbitalArc: 167
-          axialTilt: 7.8
-          parentId: Nahn 4
-          showOrbit: true
-        satellites: []
   - name: Nahn 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 360
-      age: 553506768
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.004534232854075945
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 161
     satellite:
+      axialTilt: 15.39
       semiMajorAxis: 2826250872
       eccentricity: 0.01
       inclination: 1.03
       orbitalArc: 279
-      axialTilt: 15.39
-      parentId: Nahn
       showOrbit: true
+      parentId: Nahn
+    isPlanet:
+      age: 553506768
+      classification: D
+      radius: 360
+      terranMass: 0.004534232854075945
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 161
     satellites: []
 commSatellite: null
 assets: {}

@@ -14,119 +14,118 @@ stars:
   - name: Enif A
     description: ''
     tags: []
-    radius: 183
-    temperature: 4100
     solarMass: 11
     age: 67038511571
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 183
+    temperature: 4100
     satellite:
-      orbitalArc: 61
-      semiMajorAxis: 2196
       axialTilt: 0
+      semiMajorAxis: 2196
       eccentricity: 0
       inclination: 0
+      orbitalArc: 61
       showOrbit: false
       parentId: Enif
   - name: Enif B
     description: ''
     tags: []
-    radius: 183
-    temperature: 4100
     solarMass: 11
     age: 67038511571
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 183
+    temperature: 4100
     satellite:
-      orbitalArc: 241
-      semiMajorAxis: 2196
       axialTilt: 0
+      semiMajorAxis: 2196
       eccentricity: 0
       inclination: 0
+      orbitalArc: 241
       showOrbit: false
       parentId: Enif
 planets:
   - name: Enif 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 9
+      semiMajorAxis: 4341015877
+      eccentricity: 0.01
+      inclination: 1.9
+      orbitalArc: 44
+      showOrbit: true
+      parentId: Enif
     isPlanet:
-      radius: 4044
       age: 6318279992
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.0037659452951427992
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 4044
+      terranMass: 0.0037659452951427992
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
     temperature: 719
-    satellite:
-      semiMajorAxis: 4341015877
-      eccentricity: 0.01
-      inclination: 1.9
-      orbitalArc: 44
-      axialTilt: 9
-      parentId: Enif
-      showOrbit: true
     satellites:
       - name: Enif 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 9.67
+          semiMajorAxis: 98212.77390111634
+          eccentricity: 0.02
+          inclination: 0.25
+          orbitalArc: 330
+          showOrbit: true
+          parentId: Enif 1
         isPlanet:
-          radius: 256.7884585173308
           age: 7753162662
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.1000001034023565
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 256.7884585173308
+          terranMass: 1.1000001034023565
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 22745
         temperature: 186
-        satellite:
-          semiMajorAxis: 98212.77390111634
-          eccentricity: 0.02
-          inclination: 0.25
-          orbitalArc: 330
-          axialTilt: 9.67
-          parentId: Enif 1
-          showOrbit: true
-        satellites: []
       - name: Enif 1b
         description: ''
         tags: []
-        isPlanet:
-          radius: 390.5416429269923
-          age: 356352822
-          ringMapAsset: null
-          terranMass: 1.9000001906435027
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 41
         satellite:
+          axialTilt: 4.34
           semiMajorAxis: 156216.65717079694
           eccentricity: 0
           inclination: 1.74
           orbitalArc: 295
-          axialTilt: 4.34
-          parentId: Enif 1
           showOrbit: true
-        satellites: []
+          parentId: Enif 1
+        isPlanet:
+          age: 356352822
+          classification: C
+          radius: 390.5416429269923
+          terranMass: 1.9000001906435027
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 41
 commSatellite: null
 assets: {}

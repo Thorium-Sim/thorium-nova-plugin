@@ -14,13 +14,15 @@ abundance: 1
 tags: []
 flags:
   torpedoCasing:
+    color: red
     speed: 1500
     maxForce: 30000
     maxRange: 125000
   torpedoWarhead:
+    color: blue
     yield: 2
     damageType: Radiation
-    color: blue
   torpedoGuidance:
-    guidanceMode: visual
     color: rebeccapurple
+    guidanceMode: visual
+    range: 5000

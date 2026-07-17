@@ -14,178 +14,177 @@ stars:
   - name: 'Wezen '
     description: ''
     tags: []
-    radius: 188
-    temperature: 5818
     solarMass: 14
     age: 19938236997
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 188
+    temperature: 5818
     satellite:
-      orbitalArc: 134
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 134
       showOrbit: false
       parentId: Wezen
 planets:
   - name: Wezen 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 397
-      age: 778254896
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.00015956305834555844
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 169
     satellite:
+      axialTilt: 30.49
       semiMajorAxis: 2602818017.333333
       eccentricity: 0.01
       inclination: 1.22
       orbitalArc: 217
-      axialTilt: 30.49
-      parentId: Wezen
       showOrbit: true
+      parentId: Wezen
+    isPlanet:
+      age: 778254896
+      classification: D
+      radius: 397
+      terranMass: 0.00015956305834555844
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 169
     satellites: []
   - name: Wezen 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 8.31
+      semiMajorAxis: 3529071543.333333
+      eccentricity: 0
+      inclination: 1.46
+      orbitalArc: 163
+      showOrbit: true
+      parentId: Wezen
     isPlanet:
-      radius: 45665
       age: 4930901936
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 0.0559048042215651
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 45665
+      terranMass: 0.0559048042215651
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
     temperature: 218
-    satellite:
-      semiMajorAxis: 3529071543.333333
-      eccentricity: 0
-      inclination: 1.46
-      orbitalArc: 163
-      axialTilt: 8.31
-      parentId: Wezen
-      showOrbit: true
     satellites:
       - name: Wezen 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 3316.312663937817
-          age: 4334427123
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 448100316
-        temperature: 301
         satellite:
+          axialTilt: 13.09
           semiMajorAxis: 1239605.8867585596
           eccentricity: 0
           inclination: 1.45
           orbitalArc: 193
-          axialTilt: 13.09
-          parentId: Wezen 2
           showOrbit: true
-        satellites: []
+          parentId: Wezen 2
+        isPlanet:
+          age: 4334427123
+          classification: O
+          radius: 3316.312663937817
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 448100316
+        temperature: 301
       - name: Wezen 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 7571.688524660407
-          age: 6968684529
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 168717
-        temperature: 256
         satellite:
+          axialTilt: 10.04
           semiMajorAxis: 3528406.8524917495
           eccentricity: 0.02
           inclination: 1.01
           orbitalArc: 5
-          axialTilt: 10.04
-          parentId: Wezen 2
           showOrbit: true
-        satellites: []
+          parentId: Wezen 2
+        isPlanet:
+          age: 6968684529
+          classification: P
+          radius: 7571.688524660407
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 168717
+        temperature: 256
   - name: Wezen 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.04
+      semiMajorAxis: 4203178314
+      eccentricity: 0.01
+      inclination: 1.19
+      orbitalArc: 88
+      showOrbit: true
+      parentId: Wezen
     isPlanet:
-      radius: 4068
       age: 9407817464
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.03338099918216203
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 4068
+      terranMass: 0.03338099918216203
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 6251
     temperature: 221
-    satellite:
-      semiMajorAxis: 4203178314
-      eccentricity: 0.01
-      inclination: 1.19
-      orbitalArc: 88
-      axialTilt: 23.04
-      parentId: Wezen
-      showOrbit: true
     satellites:
       - name: Wezen 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 651.3647416933358
-          age: 416874172
-          ringMapAsset: null
-          terranMass: 0.5899997273255899
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 357
         satellite:
+          axialTilt: 21.42
           semiMajorAxis: 192803.9635412274
           eccentricity: 0.01
           inclination: 0.6
           orbitalArc: 137
-          axialTilt: 21.42
-          parentId: Wezen 3
           showOrbit: true
-        satellites: []
+          parentId: Wezen 3
+        isPlanet:
+          age: 416874172
+          classification: D
+          radius: 651.3647416933358
+          terranMass: 0.5899997273255899
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 357
 commSatellite: null
 assets: {}

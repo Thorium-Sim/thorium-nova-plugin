@@ -14,169 +14,168 @@ stars:
   - name: Brachium A
     description: ''
     tags: []
-    radius: 108
-    temperature: 3596
     solarMass: 1.8
     age: 53224984830
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 108
+    temperature: 3596
     satellite:
-      orbitalArc: 160
-      semiMajorAxis: 1296
       axialTilt: 0
+      semiMajorAxis: 1296
       eccentricity: 0
       inclination: 0
+      orbitalArc: 160
       showOrbit: false
       parentId: Brachium
   - name: Brachium B
     description: ''
     tags: []
-    radius: 108
-    temperature: 3596
     solarMass: 1.8
     age: 53224984830
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 108
+    temperature: 3596
     satellite:
-      orbitalArc: 340
-      semiMajorAxis: 1296
       axialTilt: 0
+      semiMajorAxis: 1296
       eccentricity: 0
       inclination: 0
+      orbitalArc: 340
       showOrbit: false
       parentId: Brachium
 planets:
   - name: Brachium 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5307
-      age: 5204276191
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.018851450811222067
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 154852
-    temperature: 265
     satellite:
+      axialTilt: 23.93
       semiMajorAxis: 2283222222.333334
       eccentricity: 0
       inclination: 1.78
       orbitalArc: 129
-      axialTilt: 23.93
-      parentId: Brachium
       showOrbit: true
+      parentId: Brachium
+    isPlanet:
+      age: 5204276191
+      classification: P
+      radius: 5307
+      terranMass: 0.018851450811222067
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 154852
+    temperature: 265
     satellites:
       - name: Brachium 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 22.56
+          semiMajorAxis: 374471.86803402985
+          eccentricity: 0.01
+          inclination: 1.72
+          orbitalArc: 208
+          showOrbit: true
+          parentId: Brachium 1
         isPlanet:
-          radius: 1088.5810117268309
           age: 4925748360
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.100000150855414
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 1088.5810117268309
+          terranMass: 1.100000150855414
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 33261
         temperature: 170
-        satellite:
-          semiMajorAxis: 374471.86803402985
-          eccentricity: 0.01
-          inclination: 1.72
-          orbitalArc: 208
-          axialTilt: 22.56
-          parentId: Brachium 1
-          showOrbit: true
-        satellites: []
   - name: Brachium 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5200
-      age: 9099965589
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.006784709724431091
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 404878322
-    temperature: 296
     satellite:
+      axialTilt: 11.77
       semiMajorAxis: 3498688315.2222233
       eccentricity: 0
       inclination: 1.65
       orbitalArc: 168
-      axialTilt: 11.77
-      parentId: Brachium
       showOrbit: true
+      parentId: Brachium
+    isPlanet:
+      age: 9099965589
+      classification: O
+      radius: 5200
+      terranMass: 0.006784709724431091
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 404878322
+    temperature: 296
     satellites: []
   - name: Brachium 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 6908
-      age: 3467448294
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0010706749590045478
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 25566
-    temperature: 262
     satellite:
+      axialTilt: 31.94
       semiMajorAxis: 4186020290
       eccentricity: 0.01
       inclination: 0.46
       orbitalArc: 162
-      axialTilt: 31.94
-      parentId: Brachium
       showOrbit: true
+      parentId: Brachium
+    isPlanet:
+      age: 3467448294
+      classification: P
+      radius: 6908
+      terranMass: 0.0010706749590045478
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 25566
+    temperature: 262
     satellites:
       - name: Brachium 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1367.5489828070974
-          age: 118381917
-          ringMapAsset: null
-          terranMass: 0.3899997965302504
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 197
         satellite:
+          axialTilt: 9.44
           semiMajorAxis: 682406.9424207417
           eccentricity: 0.01
           inclination: 0.94
           orbitalArc: 146
-          axialTilt: 9.44
-          parentId: Brachium 3
           showOrbit: true
-        satellites: []
+          parentId: Brachium 3
+        isPlanet:
+          age: 118381917
+          classification: D
+          radius: 1367.5489828070974
+          terranMass: 0.3899997965302504
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 197
 commSatellite: null
 assets: {}

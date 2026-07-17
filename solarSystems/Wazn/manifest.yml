@@ -14,37 +14,37 @@ stars:
   - name: Wazn A
     description: ''
     tags: []
-    radius: 11.5
-    temperature: 4545
     solarMass: 1.1
     age: 1124166757364
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.5
+    temperature: 4545
     satellite:
-      orbitalArc: 325
-      semiMajorAxis: 138
       axialTilt: 0
+      semiMajorAxis: 138
       eccentricity: 0
       inclination: 0
+      orbitalArc: 325
       showOrbit: false
       parentId: Wazn
   - name: Wazn B
     description: ''
     tags: []
-    radius: 11.5
-    temperature: 4545
     solarMass: 1.1
     age: 1124166757364
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.5
+    temperature: 4545
     satellite:
-      orbitalArc: 505
-      semiMajorAxis: 138
       axialTilt: 0
+      semiMajorAxis: 138
       eccentricity: 0
       inclination: 0
+      orbitalArc: 505
       showOrbit: false
       parentId: Wazn
 planets: []

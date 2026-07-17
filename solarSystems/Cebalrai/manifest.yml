@@ -14,272 +14,273 @@ stars:
   - name: Cebalrai A
     description: ''
     tags: []
-    radius: 12.17
-    temperature: 4559
     solarMass: 1.44
     age: 1297992703892
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 12.17
+    temperature: 4559
     satellite:
-      orbitalArc: 154
-      semiMajorAxis: 146.04
       axialTilt: 0
+      semiMajorAxis: 146.04
       eccentricity: 0
       inclination: 0
+      orbitalArc: 154
       showOrbit: false
       parentId: Cebalrai
   - name: Cebalrai B
     description: ''
     tags: []
-    radius: 12.17
-    temperature: 4559
     solarMass: 1.44
     age: 1297992703892
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 12.17
+    temperature: 4559
     satellite:
-      orbitalArc: 334
-      semiMajorAxis: 146.04
       axialTilt: 0
+      semiMajorAxis: 146.04
       eccentricity: 0
       inclination: 0
+      orbitalArc: 334
       showOrbit: false
       parentId: Cebalrai
 planets:
   - name: Cebalrai 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 4143
-      age: 721700291
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.01152582521782132
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 43
     satellite:
+      axialTilt: 34.26
       semiMajorAxis: 575735472
       eccentricity: 0.02
       inclination: 1.26
       orbitalArc: 14
-      axialTilt: 34.26
-      parentId: Cebalrai
       showOrbit: true
-    satellites:
-      - name: Cebalrai 1a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 310.052742850688
-          age: 777341592
-          ringMapAsset: null
-          terranMass: 1.2000001767068023
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 55
-        satellite:
-          semiMajorAxis: 99836.98319792154
-          eccentricity: 0.01
-          inclination: 0.79
-          orbitalArc: 349
-          axialTilt: 26.34
-          parentId: Cebalrai 1
-          showOrbit: true
-        satellites: []
-  - name: Cebalrai 2
-    description: ''
-    tags: []
+      parentId: Cebalrai
     isPlanet:
-      radius: 6369
-      age: 2250244906
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.016869470012755662
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
+      age: 721700291
+      classification: C
+      radius: 4143
+      terranMass: 0.01152582521782132
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
-    temperature: 632
+    temperature: 43
+    satellites:
+      - name: Cebalrai 1a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 26.34
+          semiMajorAxis: 99836.98319792154
+          eccentricity: 0.01
+          inclination: 0.79
+          orbitalArc: 349
+          showOrbit: true
+          parentId: Cebalrai 1
+        isPlanet:
+          age: 777341592
+          classification: C
+          radius: 310.052742850688
+          terranMass: 1.2000001767068023
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 55
+  - name: Cebalrai 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 32.63
       semiMajorAxis: 1082811430
       eccentricity: 0.01
       inclination: 1.53
       orbitalArc: 247
-      axialTilt: 32.63
-      parentId: Cebalrai
       showOrbit: true
+      parentId: Cebalrai
+    isPlanet:
+      age: 2250244906
+      classification: F
+      radius: 6369
+      terranMass: 0.016869470012755662
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 632
     satellites: []
   - name: Cebalrai 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 28.12
+      semiMajorAxis: 1347282526.9999993
+      eccentricity: 0.01
+      inclination: 1.62
+      orbitalArc: 63
+      showOrbit: true
+      parentId: Cebalrai
     isPlanet:
-      radius: 6219
       age: 5377324524
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: null
-      terranMass: 0.0053618715446933805
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 6219
+      terranMass: 0.0053618715446933805
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
     population: 48406
     temperature: 274
-    satellite:
-      semiMajorAxis: 1347282526.9999993
-      eccentricity: 0.01
-      inclination: 1.62
-      orbitalArc: 63
-      axialTilt: 28.12
-      parentId: Cebalrai
-      showOrbit: true
     satellites: []
   - name: Cebalrai 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 2.39
+      semiMajorAxis: 2116600564.666666
+      eccentricity: 0.01
+      inclination: 0.82
+      orbitalArc: 190
+      showOrbit: true
+      parentId: Cebalrai
     isPlanet:
-      radius: 29393
       age: 3455123209
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 0.8177199728874769
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
       classification: J
+      radius: 29393
+      terranMass: 0.8177199728874769
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
     temperature: 277
-    satellite:
-      semiMajorAxis: 2116600564.666666
-      eccentricity: 0.01
-      inclination: 0.82
-      orbitalArc: 190
-      axialTilt: 2.39
-      parentId: Cebalrai
-      showOrbit: true
     satellites:
       - name: Cebalrai 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 5329.188779575947
-          age: 7087635102
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 79622
-        temperature: 255
         satellite:
+          axialTilt: 6.67
           semiMajorAxis: 1227761.7708628736
           eccentricity: 0.02
           inclination: 1.84
           orbitalArc: 206
-          axialTilt: 6.67
-          parentId: Cebalrai 4
           showOrbit: true
-        satellites: []
-      - name: Cebalrai 4b
-        description: ''
-        tags: []
+          parentId: Cebalrai 4
         isPlanet:
-          radius: 6158.332042934649
-          age: 7250421265
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 7087635102
           classification: P
+          radius: 5329.188779575947
+          terranMass: 0.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 66112
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 79622
         temperature: 255
+      - name: Cebalrai 4b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 21.38
           semiMajorAxis: 2032596.5811549504
           eccentricity: 0.02
           inclination: 0.72
           orbitalArc: 39
-          axialTilt: 21.38
-          parentId: Cebalrai 4
           showOrbit: true
-        satellites: []
+          parentId: Cebalrai 4
+        isPlanet:
+          age: 7250421265
+          classification: P
+          radius: 6158.332042934649
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 66112
+        temperature: 255
       - name: Cebalrai 4c
         description: ''
         tags: []
+        satellite:
+          axialTilt: 38.82
+          semiMajorAxis: 2965007.1203337917
+          eccentricity: 0.01
+          inclination: 1.14
+          orbitalArc: 75
+          showOrbit: true
+          parentId: Cebalrai 4
         isPlanet:
-          radius: 6847.591501925616
           age: 3940324853
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
           classification: G
+          radius: 6847.591501925616
+          terranMass: 0.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 502
-        satellite:
-          semiMajorAxis: 2965007.1203337917
-          eccentricity: 0.01
-          inclination: 1.14
-          orbitalArc: 75
-          axialTilt: 38.82
-          parentId: Cebalrai 4
-          showOrbit: true
-        satellites: []
   - name: Cebalrai 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 492
-      age: 59266468
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.013575746508935742
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 274
     satellite:
+      axialTilt: 25.3
       semiMajorAxis: 3255519087
       eccentricity: 0.02
       inclination: 0.51
       orbitalArc: 96
-      axialTilt: 25.3
-      parentId: Cebalrai
       showOrbit: true
+      parentId: Cebalrai
+    isPlanet:
+      age: 59266468
+      classification: D
+      radius: 492
+      terranMass: 0.013575746508935742
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 274
     satellites: []
 commSatellite: null
 assets: {}

@@ -14,147 +14,145 @@ stars:
   - name: Deneb Algedi A
     description: ''
     tags: []
-    radius: 1.91
-    temperature: 7301
     solarMass: 2
     age: 11127642174781
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.91
+    temperature: 7301
     satellite:
-      orbitalArc: 7
-      semiMajorAxis: 22.919999999999998
       axialTilt: 0
+      semiMajorAxis: 22.919999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 7
       showOrbit: false
       parentId: Deneb Algedi
   - name: Deneb Algedi B
     description: ''
     tags: []
-    radius: 1.91
-    temperature: 7301
     solarMass: 2
     age: 11127642174781
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.91
+    temperature: 7301
     satellite:
-      orbitalArc: 187
-      semiMajorAxis: 22.919999999999998
       axialTilt: 0
+      semiMajorAxis: 22.919999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 187
       showOrbit: false
       parentId: Deneb Algedi
 planets:
   - name: Deneb Algedi 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5534
-      age: 6568592359
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.004188499035474028
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 125982
-    temperature: 267
     satellite:
+      axialTilt: 16.78
       semiMajorAxis: 200399127
       eccentricity: 0.01
       inclination: 1.54
       orbitalArc: 241
-      axialTilt: 16.78
-      parentId: Deneb Algedi
       showOrbit: true
+      parentId: Deneb Algedi
+    isPlanet:
+      age: 6568592359
+      classification: P
+      radius: 5534
+      terranMass: 0.004188499035474028
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 125982
+    temperature: 267
     satellites: []
   - name: Deneb Algedi 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 30.37
+      semiMajorAxis: 425110143
+      eccentricity: 0.01
+      inclination: 1.47
+      orbitalArc: 63
+      showOrbit: true
+      parentId: Deneb Algedi
     isPlanet:
-      radius: 2854
       age: 5266710015
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0018617072765317203
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 2854
+      terranMass: 0.0018617072765317203
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 38281
     temperature: 297
-    satellite:
-      semiMajorAxis: 425110143
-      eccentricity: 0.01
-      inclination: 1.47
-      orbitalArc: 63
-      axialTilt: 30.37
-      parentId: Deneb Algedi
-      showOrbit: true
     satellites:
       - name: Deneb Algedi 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 12.01
+          semiMajorAxis: 46644.80036040605
+          eccentricity: 0
+          inclination: 0.15
+          orbitalArc: 26
+          showOrbit: true
+          parentId: Deneb Algedi 2
         isPlanet:
-          radius: 232.41445802140854
           age: 7440695992
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.9000001259685222
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
           classification: H
+          radius: 232.41445802140854
+          terranMass: 1.9000001259685222
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 763
-        satellite:
-          semiMajorAxis: 46644.80036040605
-          eccentricity: 0
-          inclination: 0.15
-          orbitalArc: 26
-          axialTilt: 12.01
-          parentId: Deneb Algedi 2
-          showOrbit: true
-        satellites: []
       - name: Deneb Algedi 2b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 11.73
+          semiMajorAxis: 102657.25409420769
+          eccentricity: 0.01
+          inclination: 0.2
+          orbitalArc: 109
+          showOrbit: true
+          parentId: Deneb Algedi 2
         isPlanet:
-          radius: 299.2922859889437
           age: 5688409697
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.700000082343223
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 299.2922859889437
+          terranMass: 1.700000082343223
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 48669
         temperature: 330
-        satellite:
-          semiMajorAxis: 102657.25409420769
-          eccentricity: 0.01
-          inclination: 0.2
-          orbitalArc: 109
-          axialTilt: 11.73
-          parentId: Deneb Algedi 2
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

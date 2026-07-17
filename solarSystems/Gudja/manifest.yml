@@ -14,64 +14,65 @@ stars:
   - name: Gudja A
     description: ''
     tags: []
-    radius: 71.31
-    temperature: 3863
     solarMass: 2.7
     age: 137509702704
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 71.31
+    temperature: 3863
     satellite:
-      orbitalArc: 97
-      semiMajorAxis: 855.72
       axialTilt: 0
+      semiMajorAxis: 855.72
       eccentricity: 0
       inclination: 0
+      orbitalArc: 97
       showOrbit: false
       parentId: Gudja
   - name: Gudja B
     description: ''
     tags: []
-    radius: 71.31
-    temperature: 3863
     solarMass: 2.7
     age: 137509702704
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 71.31
+    temperature: 3863
     satellite:
-      orbitalArc: 277
-      semiMajorAxis: 855.72
       axialTilt: 0
+      semiMajorAxis: 855.72
       eccentricity: 0
       inclination: 0
+      orbitalArc: 277
       showOrbit: false
       parentId: Gudja
 planets:
   - name: Gudja 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6050
-      age: 1869932921
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.018153817196800783
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 832
     satellite:
+      axialTilt: 7.36
       semiMajorAxis: 3659038236
       eccentricity: 0
       inclination: 1.61
       orbitalArc: 98
-      axialTilt: 7.36
-      parentId: Gudja
       showOrbit: true
+      parentId: Gudja
+    isPlanet:
+      age: 1869932921
+      classification: E
+      radius: 6050
+      terranMass: 0.018153817196800783
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 832
     satellites: []
 commSatellite: null
 assets: {}

@@ -13,20 +13,19 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1as913
     type: ShipSystemGetter
-  - '0':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Fatigue
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1asa06
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1asb09
-      type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Fatigue
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1asa06
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1asb09
+    type: IfCondition
 autoApplyWhenCompleted: true
 steps:
   - id: dr-mp5m1asc6t

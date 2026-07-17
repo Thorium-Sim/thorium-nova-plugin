@@ -14,475 +14,479 @@ stars:
   - name: Xuange A
     description: ''
     tags: []
-    radius: 1.7
-    temperature: 8887
     solarMass: 1.66
     age: 5310786089666
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.7
+    temperature: 8887
     satellite:
-      orbitalArc: 38
-      semiMajorAxis: 20.4
       axialTilt: 0
+      semiMajorAxis: 20.4
       eccentricity: 0
       inclination: 0
+      orbitalArc: 38
       showOrbit: false
       parentId: Xuange
   - name: Xuange B
     description: ''
     tags: []
-    radius: 1.7
-    temperature: 8887
     solarMass: 1.66
     age: 5310786089666
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.7
+    temperature: 8887
     satellite:
-      orbitalArc: 218
-      semiMajorAxis: 20.4
       axialTilt: 0
+      semiMajorAxis: 20.4
       eccentricity: 0
       inclination: 0
+      orbitalArc: 218
       showOrbit: false
       parentId: Xuange
 planets:
   - name: Xuange 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 320
-      age: 988019816
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.0038302753365364022
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 257
     satellite:
+      axialTilt: 29.84
       semiMajorAxis: 145808793
       eccentricity: 0.01
       inclination: 0.89
       orbitalArc: 231
-      axialTilt: 29.84
-      parentId: Xuange
       showOrbit: true
+      parentId: Xuange
+    isPlanet:
+      age: 988019816
+      classification: D
+      radius: 320
+      terranMass: 0.0038302753365364022
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 257
     satellites: []
   - name: Xuange 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.58
+      semiMajorAxis: 420187663
+      eccentricity: 0.01
+      inclination: 1.78
+      orbitalArc: 108
+      showOrbit: true
+      parentId: Xuange
     isPlanet:
-      radius: 6023
       age: 3396231362
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.022627830051381102
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
       classification: G
+      radius: 6023
+      terranMass: 0.022627830051381102
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
     temperature: 510
-    satellite:
-      semiMajorAxis: 420187663
-      eccentricity: 0.01
-      inclination: 1.78
-      orbitalArc: 108
-      axialTilt: 23.58
-      parentId: Xuange
-      showOrbit: true
     satellites: []
   - name: Xuange 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 6231
-      age: 1440728746
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.00035644418291047526
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 602
     satellite:
+      axialTilt: 20.08
       semiMajorAxis: 673098545.6666662
       eccentricity: 0
       inclination: 1.11
       orbitalArc: 347
-      axialTilt: 20.08
-      parentId: Xuange
       showOrbit: true
-    satellites:
-      - name: Xuange 3a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 316.204647137121
-          age: 2229731477
-          ringMapAsset: null
-          terranMass: 1.7000000834937694
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 861
-        satellite:
-          semiMajorAxis: 99413.203969406
-          eccentricity: 0.01
-          inclination: 1.69
-          orbitalArc: 106
-          axialTilt: 29.84
-          parentId: Xuange 3
-          showOrbit: true
-        satellites: []
-      - name: Xuange 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 485.9741590175136
-          age: 728869751
-          ringMapAsset: null
-          terranMass: 1.0699997790876108
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 294
-        satellite:
-          semiMajorAxis: 217230.44908082858
-          eccentricity: 0
-          inclination: 1.3
-          orbitalArc: 0
-          axialTilt: 38.44
-          parentId: Xuange 3
-          showOrbit: true
-        satellites: []
-  - name: Xuange 4
-    description: ''
-    tags: []
+      parentId: Xuange
     isPlanet:
-      radius: 1202
-      age: 368808796
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.017627818032900557
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
+      age: 1440728746
+      classification: F
+      radius: 6231
+      terranMass: 0.00035644418291047526
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
-    temperature: 54
-    satellite:
-      semiMajorAxis: 968098885.3333318
-      eccentricity: 0.01
-      inclination: 0.98
-      orbitalArc: 314
-      axialTilt: 0.51
-      parentId: Xuange
-      showOrbit: true
+    temperature: 602
     satellites:
-      - name: Xuange 4a
+      - name: Xuange 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 29.84
+          semiMajorAxis: 99413.203969406
+          eccentricity: 0.01
+          inclination: 1.69
+          orbitalArc: 106
+          showOrbit: true
+          parentId: Xuange 3
         isPlanet:
-          radius: 158.66817093257987
-          age: 332208960
-          ringMapAsset: null
-          terranMass: 1.28999962384661
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
+          age: 2229731477
+          classification: F
+          radius: 316.204647137121
+          terranMass: 1.7000000834937694
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 225
+        temperature: 861
+      - name: Xuange 3b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 38.44
+          semiMajorAxis: 217230.44908082858
+          eccentricity: 0
+          inclination: 1.3
+          orbitalArc: 0
+          showOrbit: true
+          parentId: Xuange 3
+        isPlanet:
+          age: 728869751
+          classification: D
+          radius: 485.9741590175136
+          terranMass: 1.0699997790876108
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 294
+  - name: Xuange 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 0.51
+      semiMajorAxis: 968098885.3333318
+      eccentricity: 0.01
+      inclination: 0.98
+      orbitalArc: 314
+      showOrbit: true
+      parentId: Xuange
+    isPlanet:
+      age: 368808796
+      classification: C
+      radius: 1202
+      terranMass: 0.017627818032900557
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 54
+    satellites:
+      - name: Xuange 4a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 16.23
           semiMajorAxis: 29519.45808749446
           eccentricity: 0.02
           inclination: 1.41
           orbitalArc: 160
-          axialTilt: 16.23
-          parentId: Xuange 4
           showOrbit: true
-        satellites: []
+          parentId: Xuange 4
+        isPlanet:
+          age: 332208960
+          classification: D
+          radius: 158.66817093257987
+          terranMass: 1.28999962384661
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 225
       - name: Xuange 4b
         description: ''
         tags: []
-        isPlanet:
-          radius: 157.7973714137211
-          age: 5372165998
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 66614
-        temperature: 255
         satellite:
+          axialTilt: 24.41
           semiMajorAxis: 54832.42707674098
           eccentricity: 0.02
           inclination: 1.37
           orbitalArc: 91
-          axialTilt: 24.41
-          parentId: Xuange 4
           showOrbit: true
-        satellites: []
+          parentId: Xuange 4
+        isPlanet:
+          age: 5372165998
+          classification: P
+          radius: 157.7973714137211
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 66614
+        temperature: 255
       - name: Xuange 4c
         description: ''
         tags: []
+        satellite:
+          axialTilt: 37.33
+          semiMajorAxis: 78346.6794109557
+          eccentricity: 0.01
+          inclination: 1.44
+          orbitalArc: 176
+          showOrbit: true
+          parentId: Xuange 4
         isPlanet:
-          radius: 187.88172520612875
           age: 8194413214
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.1000001511509185
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 187.88172520612875
+          terranMass: 1.1000001511509185
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 41090
         temperature: 208
-        satellite:
-          semiMajorAxis: 78346.6794109557
-          eccentricity: 0.01
-          inclination: 1.44
-          orbitalArc: 176
-          axialTilt: 37.33
-          parentId: Xuange 4
-          showOrbit: true
-        satellites: []
   - name: Xuange 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 58312
-      age: 7881049402
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.25848659400676527
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 193
     satellite:
+      axialTilt: 21.23
       semiMajorAxis: 1233602034.9999905
       eccentricity: 0.02
       inclination: 1.08
       orbitalArc: 196
-      axialTilt: 21.23
-      parentId: Xuange
       showOrbit: true
-    satellites: []
-  - name: Xuange 6
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 1922
-      age: 741181916
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.004370821203773873
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 40
-    satellite:
-      semiMajorAxis: 1359477561.3333206
-      eccentricity: 0.01
-      inclination: 1.6
-      orbitalArc: 178
-      axialTilt: 13.8
       parentId: Xuange
-      showOrbit: true
-    satellites:
-      - name: Xuange 6a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 110.20735476908912
-          age: 7917226137
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 99365
-        temperature: 264
-        satellite:
-          semiMajorAxis: 82682.38394398082
-          eccentricity: 0.02
-          inclination: 0.48
-          orbitalArc: 95
-          axialTilt: 6.51
-          parentId: Xuange 6
-          showOrbit: true
-        satellites: []
-      - name: Xuange 6b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 477.7295110415271
-          age: 52831346
-          ringMapAsset: null
-          terranMass: 0.300000101379187
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 40
-        satellite:
-          semiMajorAxis: 161950.30424307767
-          eccentricity: 0.02
-          inclination: 0.34
-          orbitalArc: 335
-          axialTilt: 7.41
-          parentId: Xuange 6
-          showOrbit: true
-        satellites: []
-  - name: Xuange 7
-    description: ''
-    tags: []
     isPlanet:
-      radius: 68631
-      age: 2896415368
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.16408454669618153
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      age: 7881049402
       classification: J
+      radius: 58312
+      terranMass: 0.25848659400676527
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
-    temperature: 198
+    temperature: 193
+    satellites: []
+  - name: Xuange 6
+    description: ''
+    tags: []
     satellite:
-      semiMajorAxis: 2031334123.3333206
-      eccentricity: 0
-      inclination: 0.2
-      orbitalArc: 226
-      axialTilt: 13.96
-      parentId: Xuange
+      axialTilt: 13.8
+      semiMajorAxis: 1359477561.3333206
+      eccentricity: 0.01
+      inclination: 1.6
+      orbitalArc: 178
       showOrbit: true
+      parentId: Xuange
+    isPlanet:
+      age: 741181916
+      classification: C
+      radius: 1922
+      terranMass: 0.004370821203773873
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 40
     satellites:
-      - name: Xuange 7a
+      - name: Xuange 6a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 6.51
+          semiMajorAxis: 82682.38394398082
+          eccentricity: 0.02
+          inclination: 0.48
+          orbitalArc: 95
+          showOrbit: true
+          parentId: Xuange 6
         isPlanet:
-          radius: 11555.353614746944
-          age: 8332734834
+          age: 7917226137
+          classification: P
+          radius: 110.20735476908912
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
           ringMapAsset: null
-          terranMass: 0.10000015517563413
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: B
+        population: 99365
+        temperature: 264
+      - name: Xuange 6b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 7.41
+          semiMajorAxis: 161950.30424307767
+          eccentricity: 0.02
+          inclination: 0.34
+          orbitalArc: 335
+          showOrbit: true
+          parentId: Xuange 6
+        isPlanet:
+          age: 52831346
+          classification: C
+          radius: 477.7295110415271
+          terranMass: 0.300000101379187
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 245
+        temperature: 40
+  - name: Xuange 7
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 13.96
+      semiMajorAxis: 2031334123.3333206
+      eccentricity: 0
+      inclination: 0.2
+      orbitalArc: 226
+      showOrbit: true
+      parentId: Xuange
+    isPlanet:
+      age: 2896415368
+      classification: J
+      radius: 68631
+      terranMass: 0.16408454669618153
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 0
+    temperature: 198
+    satellites:
+      - name: Xuange 7a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 11.99
           semiMajorAxis: 4379479.019989092
           eccentricity: 0.01
           inclination: 0.29
           orbitalArc: 4
-          axialTilt: 11.99
-          parentId: Xuange 7
           showOrbit: true
-        satellites: []
+          parentId: Xuange 7
+        isPlanet:
+          age: 8332734834
+          classification: B
+          radius: 11555.353614746944
+          terranMass: 0.10000015517563413
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 245
   - name: Xuange 8
     description: ''
     tags: []
-    isPlanet:
-      radius: 177
-      age: 672116065
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.006004295485765562
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 202
     satellite:
+      axialTilt: 26.29
       semiMajorAxis: 2635723637.77776
       eccentricity: 0.01
       inclination: 1.45
       orbitalArc: 161
-      axialTilt: 26.29
-      parentId: Xuange
       showOrbit: true
-    satellites: []
-  - name: Xuange 9
-    description: ''
-    tags: []
+      parentId: Xuange
     isPlanet:
-      radius: 158
-      age: 242987957
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0121292695920875
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      age: 672116065
       classification: D
+      radius: 177
+      terranMass: 0.006004295485765562
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
-    temperature: 192
+    temperature: 202
+    satellites: []
+  - name: Xuange 9
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 13.64
       semiMajorAxis: 3570589110
       eccentricity: 0.02
       inclination: 0.51
       orbitalArc: 212
-      axialTilt: 13.64
-      parentId: Xuange
       showOrbit: true
+      parentId: Xuange
+    isPlanet:
+      age: 242987957
+      classification: D
+      radius: 158
+      terranMass: 0.0121292695920875
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 192
     satellites: []
 commSatellite: null
 assets: {}

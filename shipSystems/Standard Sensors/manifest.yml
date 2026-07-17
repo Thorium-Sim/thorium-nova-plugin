@@ -93,6 +93,3 @@ scanAnswers:
     value: 'Now on course '
   - label: Weakness
     value: '#weakness'
-defaultPower: 5
-requiredPower: 1
-maxSafePower: 7

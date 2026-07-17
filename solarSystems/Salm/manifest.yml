@@ -14,119 +14,119 @@ stars:
   - name: Salm A
     description: ''
     tags: []
-    radius: 2.8
-    temperature: 7709
     solarMass: 2.14
     age: 4457330246349
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.8
+    temperature: 7709
     satellite:
-      orbitalArc: 306
-      semiMajorAxis: 33.599999999999994
       axialTilt: 0
+      semiMajorAxis: 33.599999999999994
       eccentricity: 0
       inclination: 0
+      orbitalArc: 306
       showOrbit: false
       parentId: Salm
   - name: Salm B
     description: ''
     tags: []
-    radius: 2.8
-    temperature: 7709
     solarMass: 2.14
     age: 4457330246349
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.8
+    temperature: 7709
     satellite:
-      orbitalArc: 486
-      semiMajorAxis: 33.599999999999994
       axialTilt: 0
+      semiMajorAxis: 33.599999999999994
       eccentricity: 0
       inclination: 0
+      orbitalArc: 486
       showOrbit: false
       parentId: Salm
 planets:
   - name: Salm 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 36.55
+      semiMajorAxis: 1758874711.333333
+      eccentricity: 0.01
+      inclination: 1.83
+      orbitalArc: 188
+      showOrbit: true
+      parentId: Salm
     isPlanet:
-      radius: 2784
       age: 7250754612
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.0044856269096499625
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 2784
+      terranMass: 0.0044856269096499625
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 26482
     temperature: 123
-    satellite:
-      semiMajorAxis: 1758874711.333333
-      eccentricity: 0.01
-      inclination: 1.83
-      orbitalArc: 188
-      axialTilt: 36.55
-      parentId: Salm
-      showOrbit: true
     satellites:
       - name: Salm 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 248.13897711563368
-          age: 23610991
-          ringMapAsset: null
-          terranMass: 0.8999997013134944
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 288
         satellite:
+          axialTilt: 22.6
           semiMajorAxis: 107940.45504530065
           eccentricity: 0.02
           inclination: 1.09
           orbitalArc: 355
-          axialTilt: 22.6
-          parentId: Salm 1
           showOrbit: true
-        satellites: []
+          parentId: Salm 1
+        isPlanet:
+          age: 23610991
+          classification: D
+          radius: 248.13897711563368
+          terranMass: 0.8999997013134944
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 288
   - name: Salm 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 37.33
+      semiMajorAxis: 2908879913
+      eccentricity: 0.02
+      inclination: 0.77
+      orbitalArc: 311
+      showOrbit: true
+      parentId: Salm
     isPlanet:
-      radius: 58917
       age: 6803787760
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
-      ringMapAsset: null
-      terranMass: 0.7329038712610265
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
       classification: J
+      radius: 58917
+      terranMass: 0.7329038712610265
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
     population: 0
     temperature: 138
-    satellite:
-      semiMajorAxis: 2908879913
-      eccentricity: 0.02
-      inclination: 0.77
-      orbitalArc: 311
-      axialTilt: 37.33
-      parentId: Salm
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

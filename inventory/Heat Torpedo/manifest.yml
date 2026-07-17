@@ -11,10 +11,15 @@ abundance: 1
 tags: []
 flags:
   torpedoCasing:
+    color: red
     speed: 1500
     maxForce: 30000
     maxRange: 125000
-  torpedoWarhead: {}
+  torpedoWarhead:
+    color: red
+    yield: 1
+    damageType: Structural
   torpedoGuidance:
-    guidanceMode: visual
     color: darkred
+    guidanceMode: visual
+    range: 5000

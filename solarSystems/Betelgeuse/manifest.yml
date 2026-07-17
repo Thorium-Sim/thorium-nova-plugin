@@ -14,120 +14,119 @@ stars:
   - name: Betelgeuse A
     description: ''
     tags: []
-    radius: 640
-    temperature: 3600
     solarMass: 14
     age: 11736196413
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 640
+    temperature: 3600
     satellite:
-      orbitalArc: 320
-      semiMajorAxis: 7680
       axialTilt: 0
+      semiMajorAxis: 7680
       eccentricity: 0
       inclination: 0
+      orbitalArc: 320
       showOrbit: false
       parentId: Betelgeuse
   - name: Betelgeuse B
     description: ''
     tags: []
-    radius: 640
-    temperature: 3600
     solarMass: 14
     age: 11736196413
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 640
+    temperature: 3600
     satellite:
-      orbitalArc: 500
-      semiMajorAxis: 7680
       axialTilt: 0
+      semiMajorAxis: 7680
       eccentricity: 0
       inclination: 0
+      orbitalArc: 500
       showOrbit: false
       parentId: Betelgeuse
 planets:
   - name: Betelgeuse 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 4260
-      age: 7803708351
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0017360194244743327
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
-      classification: L
-      isHabitable: true
-      lifeforms:
-        - Primitive single-celled organisms
-        - Hardy plant life
-      atmosphericComposition: []
-    population: 16096
-    temperature: 189
     satellite:
+      axialTilt: 28.11
       semiMajorAxis: 4116148405.6666665
       eccentricity: 0.01
       inclination: 0.69
       orbitalArc: 303
-      axialTilt: 28.11
-      parentId: Betelgeuse
       showOrbit: true
-    satellites: []
-  - name: Betelgeuse 2
-    description: ''
-    tags: []
+      parentId: Betelgeuse
     isPlanet:
-      radius: 7139
-      age: 6236541305
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: null
-      terranMass: 0.02076178097797761
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      age: 7803708351
       classification: L
+      radius: 4260
+      terranMass: 0.0017360194244743327
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
-    population: 690
-    temperature: 165
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 16096
+    temperature: 189
+    satellites: []
+  - name: Betelgeuse 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 14.52
       semiMajorAxis: 11366206205
       eccentricity: 0.01
       inclination: 1.13
       orbitalArc: 163
-      axialTilt: 14.52
-      parentId: Betelgeuse
       showOrbit: true
+      parentId: Betelgeuse
+    isPlanet:
+      age: 6236541305
+      classification: L
+      radius: 7139
+      terranMass: 0.02076178097797761
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: null
+    population: 690
+    temperature: 165
     satellites:
       - name: Betelgeuse 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 4.43
+          semiMajorAxis: 240455.62622389698
+          eccentricity: 0.01
+          inclination: 0.33
+          orbitalArc: 47
+          showOrbit: true
+          parentId: Betelgeuse 2
         isPlanet:
-          radius: 846.6747402249894
           age: 7206440857
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.7000000506249261
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 846.6747402249894
+          terranMass: 0.7000000506249261
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 31627
         temperature: 169
-        satellite:
-          semiMajorAxis: 240455.62622389698
-          eccentricity: 0.01
-          inclination: 0.33
-          orbitalArc: 47
-          axialTilt: 4.43
-          parentId: Betelgeuse 2
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

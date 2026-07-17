@@ -282,8 +282,8 @@ steps:
         type: Macro
   - id: ts-mpe1j4ds58
     name: Step 7 - Hull
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -301,8 +301,8 @@ steps:
         type: Action
   - id: ts-mpe1qbgr6z
     name: Step 8 - Shields
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -341,8 +341,8 @@ steps:
         type: EventCondition
   - id: ts-mpe1xqu368
     name: Step 9 - Shields Raising
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -359,8 +359,8 @@ steps:
         type: Action
   - id: ts-mpls9yd00x
     name: Step 10 - Phasers
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -387,8 +387,8 @@ steps:
         type: Action
   - id: ts-mpvydblp25
     name: Step 11 - Phasers 2
-    tags: []
     description: ''
+    tags: []
     blocks:
       - count: all
         entity: $shipId
@@ -477,8 +477,8 @@ steps:
         type: EventCondition
   - id: ts-mpvzhilr6d
     name: Step 12 - Torpedos
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -496,8 +496,8 @@ steps:
         type: Action
   - id: ts-mpvzoe815e
     name: Step 13 - Torpedo Options
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -541,8 +541,8 @@ steps:
         type: Macro
   - id: ts-mpwkly216b
     name: Step 14 - Load Torpedo
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -579,8 +579,8 @@ steps:
         type: EventCondition
   - id: ts-mplrs2gb12
     name: Step 15 - Targets
-    tags: []
     description: ''
+    tags: []
     blocks:
       - entity: this timeline
         getVariable: targetId
@@ -638,8 +638,8 @@ steps:
         type: EventCondition
   - id: ts-mpwl0cfr1p
     name: Step 16 - Fire Phasers
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -686,8 +686,8 @@ steps:
         type: EventCondition
   - id: ts-mpwliygn5k
     name: Step 17 - Fire Torpedoes
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -728,8 +728,8 @@ steps:
         type: EventCondition
   - id: ts-mpwlqee73z
     name: Step 18 - Weapons Done
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:
@@ -799,8 +799,8 @@ steps:
         type: EventCondition
   - id: ts-mr4airco3e
     name: Step 20 - Remote Access Input
-    tags: []
     description: ''
+    tags: []
     blocks:
       - action: client.setTraining
         values:

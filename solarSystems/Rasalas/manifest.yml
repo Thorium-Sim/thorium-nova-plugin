@@ -14,65 +14,65 @@ stars:
   - name: Rasalas A
     description: ''
     tags: []
-    radius: 11.89
-    temperature: 4519
     solarMass: 1.5
     age: 1467328891889
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.89
+    temperature: 4519
     satellite:
-      orbitalArc: 176
-      semiMajorAxis: 142.68
       axialTilt: 0
+      semiMajorAxis: 142.68
       eccentricity: 0
       inclination: 0
+      orbitalArc: 176
       showOrbit: false
       parentId: Rasalas
   - name: Rasalas B
     description: ''
     tags: []
-    radius: 11.89
-    temperature: 4519
     solarMass: 1.5
     age: 1467328891889
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.89
+    temperature: 4519
     satellite:
-      orbitalArc: 356
-      semiMajorAxis: 142.68
       axialTilt: 0
+      semiMajorAxis: 142.68
       eccentricity: 0
       inclination: 0
+      orbitalArc: 356
       showOrbit: false
       parentId: Rasalas
 planets:
   - name: Rasalas 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5451
-      age: 4930469612
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.009943607266164294
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 536964660
-    temperature: 299
     satellite:
+      axialTilt: 11.02
       semiMajorAxis: 1105633237
       eccentricity: 0.01
       inclination: 1.8
       orbitalArc: 166
-      axialTilt: 11.02
-      parentId: Rasalas
       showOrbit: true
+      parentId: Rasalas
+    isPlanet:
+      age: 4930469612
+      classification: O
+      radius: 5451
+      terranMass: 0.009943607266164294
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 536964660
+    temperature: 299
     satellites: []
 commSatellite: null
 assets: {}

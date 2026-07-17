@@ -14,153 +14,154 @@ stars:
   - name: 'Chara '
     description: ''
     tags: []
-    radius: 1.03
-    temperature: 6013
     solarMass: 0.97
     age: 40336828990781
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.03
+    temperature: 6013
     satellite:
-      orbitalArc: 78
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 78
       showOrbit: false
       parentId: Chara
 planets:
   - name: Chara 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 303
-      age: 456962349
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.02369519150163382
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 156
     satellite:
+      axialTilt: 27.18
       semiMajorAxis: 19332017.999998745
       eccentricity: 0.02
       inclination: 0.6
       orbitalArc: 265
-      axialTilt: 27.18
-      parentId: Chara
       showOrbit: true
+      parentId: Chara
+    isPlanet:
+      age: 456962349
+      classification: D
+      radius: 303
+      terranMass: 0.02369519150163382
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 156
     satellites: []
   - name: Chara 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 20.7
+      semiMajorAxis: 103181619.99999624
+      eccentricity: 0.01
+      inclination: 1.33
+      orbitalArc: 145
+      showOrbit: true
+      parentId: Chara
     isPlanet:
-      radius: 7188
       age: 6246256118
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.002089630275706209
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 7188
+      terranMass: 0.002089630275706209
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
     temperature: 613
-    satellite:
-      semiMajorAxis: 103181619.99999624
-      eccentricity: 0.01
-      inclination: 1.33
-      orbitalArc: 145
-      axialTilt: 20.7
-      parentId: Chara
-      showOrbit: true
     satellites:
       - name: Chara 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1626.8264460490614
-          age: 6084444429
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 440888074
-        temperature: 292
         satellite:
+          axialTilt: 0.85
           semiMajorAxis: 553120.9916566808
           eccentricity: 0.02
           inclination: 0.5
           orbitalArc: 115
-          axialTilt: 0.85
-          parentId: Chara 2
           showOrbit: true
-        satellites: []
+          parentId: Chara 2
+        isPlanet:
+          age: 6084444429
+          classification: O
+          radius: 1626.8264460490614
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 440888074
+        temperature: 292
   - name: Chara 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 307
-      age: 261092482
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.027756558855987094
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 243
     satellite:
+      axialTilt: 18.88
       semiMajorAxis: 1638371389.9999957
       eccentricity: 0
       inclination: 0.27
       orbitalArc: 353
-      axialTilt: 18.88
-      parentId: Chara
       showOrbit: true
+      parentId: Chara
+    isPlanet:
+      age: 261092482
+      classification: D
+      radius: 307
+      terranMass: 0.027756558855987094
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 243
     satellites: []
   - name: Chara 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 0.96
+      semiMajorAxis: 2522159044
+      eccentricity: 0.01
+      inclination: 1.33
+      orbitalArc: 260
+      showOrbit: true
+      parentId: Chara
     isPlanet:
-      radius: 61707
       age: 7628006080
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.2016405467134064
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
       classification: J
+      radius: 61707
+      terranMass: 1.2016405467134064
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 178
-    satellite:
-      semiMajorAxis: 2522159044
-      eccentricity: 0.01
-      inclination: 1.33
-      orbitalArc: 260
-      axialTilt: 0.96
-      parentId: Chara
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

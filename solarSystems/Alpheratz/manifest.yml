@@ -14,64 +14,65 @@ stars:
   - name: Alpheratz A
     description: ''
     tags: []
-    radius: 2.94
-    temperature: 11950
     solarMass: 3.63
     age: 1187707851710
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.94
+    temperature: 11950
     satellite:
-      orbitalArc: 78
-      semiMajorAxis: 35.28
       axialTilt: 0
+      semiMajorAxis: 35.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 78
       showOrbit: false
       parentId: Alpheratz
   - name: Alpheratz B
     description: ''
     tags: []
-    radius: 2.94
-    temperature: 11950
     solarMass: 3.63
     age: 1187707851710
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.94
+    temperature: 11950
     satellite:
-      orbitalArc: 258
-      semiMajorAxis: 35.28
       axialTilt: 0
+      semiMajorAxis: 35.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 258
       showOrbit: false
       parentId: Alpheratz
 planets:
   - name: Alpheratz 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 58
-      age: 685420904
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.00196228533822783
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 224
     satellite:
+      axialTilt: 33.59
       semiMajorAxis: 733071283
       eccentricity: 0.01
       inclination: 0.16
       orbitalArc: 264
-      axialTilt: 33.59
-      parentId: Alpheratz
       showOrbit: true
+      parentId: Alpheratz
+    isPlanet:
+      age: 685420904
+      classification: D
+      radius: 58
+      terranMass: 0.00196228533822783
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 224
     satellites: []
 commSatellite: null
 assets: {}

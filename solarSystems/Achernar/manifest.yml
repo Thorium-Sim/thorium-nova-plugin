@@ -14,144 +14,145 @@ stars:
   - name: Achernar A
     description: ''
     tags: []
-    radius: 6.78
-    temperature: 15000
     solarMass: 6
     age: 148694912910
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 6.78
+    temperature: 15000
     satellite:
-      orbitalArc: 161
-      semiMajorAxis: 81.36
       axialTilt: 0
+      semiMajorAxis: 81.36
       eccentricity: 0
       inclination: 0
+      orbitalArc: 161
       showOrbit: false
       parentId: Achernar
   - name: Achernar B
     description: ''
     tags: []
-    radius: 6.78
-    temperature: 15000
     solarMass: 6
     age: 148694912910
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 6.78
+    temperature: 15000
     satellite:
-      orbitalArc: 341
-      semiMajorAxis: 81.36
       axialTilt: 0
+      semiMajorAxis: 81.36
       eccentricity: 0
       inclination: 0
+      orbitalArc: 341
       showOrbit: false
       parentId: Achernar
 planets:
   - name: Achernar 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 2.81
+      semiMajorAxis: 1818937204.3333333
+      eccentricity: 0.02
+      inclination: 1.65
+      orbitalArc: 221
+      showOrbit: true
+      parentId: Achernar
     isPlanet:
-      radius: 7325
       age: 4732884087
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.004209606544506633
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 7325
+      terranMass: 0.004209606544506633
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
     temperature: 752
-    satellite:
-      semiMajorAxis: 1818937204.3333333
-      eccentricity: 0.02
-      inclination: 1.65
-      orbitalArc: 221
-      axialTilt: 2.81
-      parentId: Achernar
-      showOrbit: true
     satellites:
       - name: Achernar 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1054.5202854882855
-          age: 372519592
-          ringMapAsset: null
-          terranMass: 1.3000000980525432
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 48
         satellite:
+          axialTilt: 26.45
           semiMajorAxis: 480861.2501826582
           eccentricity: 0
           inclination: 1.42
           orbitalArc: 249
-          axialTilt: 26.45
-          parentId: Achernar 1
           showOrbit: true
-        satellites: []
+          parentId: Achernar 1
+        isPlanet:
+          age: 372519592
+          classification: C
+          radius: 1054.5202854882855
+          terranMass: 1.3000000980525432
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 48
   - name: Achernar 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 304
-      age: 371544500
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.0019780142148695516
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 362
     satellite:
+      axialTilt: 6.25
       semiMajorAxis: 2813433577.1111107
       eccentricity: 0.01
       inclination: 0.35
       orbitalArc: 51
-      axialTilt: 6.25
-      parentId: Achernar
       showOrbit: true
+      parentId: Achernar
+    isPlanet:
+      age: 371544500
+      classification: D
+      radius: 304
+      terranMass: 0.0019780142148695516
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 362
     satellites: []
   - name: Achernar 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 38.75
+      semiMajorAxis: 4019670035
+      eccentricity: 0.01
+      inclination: 0.76
+      orbitalArc: 139
+      showOrbit: true
+      parentId: Achernar
     isPlanet:
-      radius: 4312
       age: 4698047583
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0023276695912963765
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 4312
+      terranMass: 0.0023276695912963765
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 21935
     temperature: 256
-    satellite:
-      semiMajorAxis: 4019670035
-      eccentricity: 0.01
-      inclination: 0.76
-      orbitalArc: 139
-      axialTilt: 38.75
-      parentId: Achernar
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

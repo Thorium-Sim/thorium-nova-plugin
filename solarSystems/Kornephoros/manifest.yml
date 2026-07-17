@@ -14,37 +14,37 @@ stars:
   - name: Kornephoros A
     description: ''
     tags: []
-    radius: 15.92
-    temperature: 5092
     solarMass: 2.91
     age: 984969010362
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 15.92
+    temperature: 5092
     satellite:
-      orbitalArc: 5
-      semiMajorAxis: 191.04
       axialTilt: 0
+      semiMajorAxis: 191.04
       eccentricity: 0
       inclination: 0
+      orbitalArc: 5
       showOrbit: false
       parentId: Kornephoros
   - name: Kornephoros B
     description: ''
     tags: []
-    radius: 15.92
-    temperature: 5092
     solarMass: 2.91
     age: 984969010362
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 15.92
+    temperature: 5092
     satellite:
-      orbitalArc: 185
-      semiMajorAxis: 191.04
       axialTilt: 0
+      semiMajorAxis: 191.04
       eccentricity: 0
       inclination: 0
+      orbitalArc: 185
       showOrbit: false
       parentId: Kornephoros
 planets: []

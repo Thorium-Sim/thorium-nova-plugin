@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Flight Names
+description: ''
+textPattern: '{#Greek Letters} {#Team Names}'
+category: ''
+assets: {}

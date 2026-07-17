@@ -14,196 +14,195 @@ stars:
   - name: Botein A
     description: ''
     tags: []
-    radius: 10.42
-    temperature: 4810
     solarMass: 1.91
     age: 1895339040077
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 10.42
+    temperature: 4810
     satellite:
-      orbitalArc: 283
-      semiMajorAxis: 125.03999999999999
       axialTilt: 0
+      semiMajorAxis: 125.03999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 283
       showOrbit: false
       parentId: Botein
   - name: Botein B
     description: ''
     tags: []
-    radius: 10.42
-    temperature: 4810
     solarMass: 1.91
     age: 1895339040077
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 10.42
+    temperature: 4810
     satellite:
-      orbitalArc: 463
-      semiMajorAxis: 125.03999999999999
       axialTilt: 0
+      semiMajorAxis: 125.03999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 463
       showOrbit: false
       parentId: Botein
 planets:
   - name: Botein 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 26.41
+      semiMajorAxis: 594070099.9999999
+      eccentricity: 0.02
+      inclination: 1.09
+      orbitalArc: 177
+      showOrbit: true
+      parentId: Botein
     isPlanet:
-      radius: 4297
       age: 9407616500
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: null
-      terranMass: 0.006055365112445999
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 4297
+      terranMass: 0.006055365112445999
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
     population: 33802
     temperature: 158
-    satellite:
-      semiMajorAxis: 594070099.9999999
-      eccentricity: 0.02
-      inclination: 1.09
-      orbitalArc: 177
-      axialTilt: 26.41
-      parentId: Botein
-      showOrbit: true
     satellites:
       - name: Botein 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 247.29318721879812
-          age: 8352121883
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 0.7000000567555288
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
-          classification: L
-          isHabitable: true
-          lifeforms:
-            - Primitive single-celled organisms
-            - Hardy plant life
-          atmosphericComposition: []
-        population: 41335
-        temperature: 280
         satellite:
+          axialTilt: 24.89
           semiMajorAxis: 63801.642302449916
           eccentricity: 0
           inclination: 0.75
           orbitalArc: 111
-          axialTilt: 24.89
-          parentId: Botein 1
           showOrbit: true
-        satellites: []
-  - name: Botein 2
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 445
-      age: 121118220
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.02189380405690232
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 155
-    satellite:
-      semiMajorAxis: 975154756.6666672
-      eccentricity: 0.01
-      inclination: 1.99
-      orbitalArc: 51
-      axialTilt: 33
-      parentId: Botein
-      showOrbit: true
-    satellites: []
-  - name: Botein 3
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5111
-      age: 539975809
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.017705644842340537
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1265
-    satellite:
-      semiMajorAxis: 1557406125
-      eccentricity: 0.02
-      inclination: 0.21
-      orbitalArc: 81
-      axialTilt: 26.56
-      parentId: Botein
-      showOrbit: true
-    satellites:
-      - name: Botein 3a
-        description: ''
-        tags: []
+          parentId: Botein 1
         isPlanet:
-          radius: 905.3473135233154
-          age: 8223483114
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5000001578964417
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          age: 8352121883
           classification: L
+          radius: 247.29318721879812
+          terranMass: 0.7000000567555288
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
-        population: 0
-        temperature: 278
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
+        population: 41335
+        temperature: 280
+  - name: Botein 2
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 33
+      semiMajorAxis: 975154756.6666672
+      eccentricity: 0.01
+      inclination: 1.99
+      orbitalArc: 51
+      showOrbit: true
+      parentId: Botein
+    isPlanet:
+      age: 121118220
+      classification: D
+      radius: 445
+      terranMass: 0.02189380405690232
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 155
+    satellites: []
+  - name: Botein 3
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 26.56
+      semiMajorAxis: 1557406125
+      eccentricity: 0.02
+      inclination: 0.21
+      orbitalArc: 81
+      showOrbit: true
+      parentId: Botein
+    isPlanet:
+      age: 539975809
+      classification: E
+      radius: 5111
+      terranMass: 0.017705644842340537
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 1265
+    satellites:
+      - name: Botein 3a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 11.1
           semiMajorAxis: 203062.8210768047
           eccentricity: 0
           inclination: 0.73
           orbitalArc: 297
-          axialTilt: 11.1
-          parentId: Botein 3
           showOrbit: true
-        satellites: []
+          parentId: Botein 3
+        isPlanet:
+          age: 8223483114
+          classification: L
+          radius: 905.3473135233154
+          terranMass: 1.5000001578964417
+          isHabitable: true
+          lifeforms:
+            - Primitive single-celled organisms
+            - Hardy plant life
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 278
       - name: Botein 3b
         description: ''
         tags: []
-        isPlanet:
-          radius: 922.4017972478531
-          age: 8742849748
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 167751676
-        temperature: 299
         satellite:
+          axialTilt: 1
           semiMajorAxis: 313616.6110642701
           eccentricity: 0
           inclination: 1.28
           orbitalArc: 263
-          axialTilt: 1
-          parentId: Botein 3
           showOrbit: true
-        satellites: []
+          parentId: Botein 3
+        isPlanet:
+          age: 8742849748
+          classification: O
+          radius: 922.4017972478531
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 167751676
+        temperature: 299
 commSatellite: null
 assets: {}

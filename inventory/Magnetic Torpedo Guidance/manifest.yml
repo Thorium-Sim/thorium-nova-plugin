@@ -13,5 +13,6 @@ abundance: 1
 tags: []
 flags:
   torpedoGuidance:
-    guidanceMode: magnetic
     color: '#88B04B'
+    guidanceMode: magnetic
+    range: 5000

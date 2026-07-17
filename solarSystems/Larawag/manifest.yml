@@ -14,252 +14,255 @@ stars:
   - name: 'Larawag '
     description: ''
     tags: []
-    radius: 12.65
-    temperature: 4522
     solarMass: 1.31
     age: 1129112712385
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 12.65
+    temperature: 4522
     satellite:
-      orbitalArc: 208
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 208
       showOrbit: false
       parentId: Larawag
 planets:
   - name: Larawag 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6982
-      age: 4817558982
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0035182818830987164
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 173124739
-    temperature: 291
     satellite:
+      axialTilt: 38.31
       semiMajorAxis: 523383987.3333333
       eccentricity: 0.01
       inclination: 0.56
       orbitalArc: 75
-      axialTilt: 38.31
-      parentId: Larawag
       showOrbit: true
+      parentId: Larawag
+    isPlanet:
+      age: 4817558982
+      classification: O
+      radius: 6982
+      terranMass: 0.0035182818830987164
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 173124739
+    temperature: 291
     satellites: []
   - name: Larawag 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6932
-      age: 9551767749
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.020115723071530398
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 45006
-    temperature: 263
     satellite:
+      axialTilt: 21.03
       semiMajorAxis: 904470449.8888886
       eccentricity: 0
       inclination: 1.18
       orbitalArc: 14
-      axialTilt: 21.03
-      parentId: Larawag
       showOrbit: true
+      parentId: Larawag
+    isPlanet:
+      age: 9551767749
+      classification: P
+      radius: 6932
+      terranMass: 0.020115723071530398
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 45006
+    temperature: 263
     satellites: []
   - name: Larawag 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5009
-      age: 810063306
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.03274382519822245
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1252
     satellite:
+      axialTilt: 1.96
       semiMajorAxis: 1298180846.6296287
       eccentricity: 0.02
       inclination: 0.09
       orbitalArc: 96
-      axialTilt: 1.96
-      parentId: Larawag
       showOrbit: true
+      parentId: Larawag
+    isPlanet:
+      age: 810063306
+      classification: E
+      radius: 5009
+      terranMass: 0.03274382519822245
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 1252
     satellites: []
   - name: Larawag 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 4.17
+      semiMajorAxis: 2128966071.6296287
+      eccentricity: 0.02
+      inclination: 0.46
+      orbitalArc: 75
+      showOrbit: true
+      parentId: Larawag
     isPlanet:
-      radius: 7286
       age: 3121457991
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.0016689500548338866
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
       classification: G
+      radius: 7286
+      terranMass: 0.0016689500548338866
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
     temperature: 567
-    satellite:
-      semiMajorAxis: 2128966071.6296287
-      eccentricity: 0.02
-      inclination: 0.46
-      orbitalArc: 75
-      axialTilt: 4.17
-      parentId: Larawag
-      showOrbit: true
     satellites:
       - name: Larawag 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 381.6273902651685
-          age: 173620795
-          ringMapAsset: null
-          terranMass: 0.4999997538380867
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 337
         satellite:
+          axialTilt: 1.52
           semiMajorAxis: 183607.27325349837
           eccentricity: 0.01
           inclination: 1.12
           orbitalArc: 356
-          axialTilt: 1.52
-          parentId: Larawag 4
           showOrbit: true
-        satellites: []
-      - name: Larawag 4b
-        description: ''
-        tags: []
+          parentId: Larawag 4
         isPlanet:
-          radius: 840.3328129123507
-          age: 397983892
-          ringMapAsset: null
-          terranMass: 0.9899997303399186
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          age: 173620795
           classification: D
+          radius: 381.6273902651685
+          terranMass: 0.4999997538380867
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 282
+        temperature: 337
+      - name: Larawag 4b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 19.16
           semiMajorAxis: 368201.99467715976
           eccentricity: 0
           inclination: 0.79
           orbitalArc: 282
-          axialTilt: 19.16
-          parentId: Larawag 4
           showOrbit: true
-        satellites: []
-      - name: Larawag 4c
-        description: ''
-        tags: []
+          parentId: Larawag 4
         isPlanet:
-          radius: 1539.399182961252
-          age: 322661507
-          ringMapAsset: null
-          terranMass: 1.3299996935090859
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 397983892
           classification: D
+          radius: 840.3328129123507
+          terranMass: 0.9899997303399186
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 200
+        temperature: 282
+      - name: Larawag 4c
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 37.66
           semiMajorAxis: 492607.7385476007
           eccentricity: 0.01
           inclination: 0.97
           orbitalArc: 69
-          axialTilt: 37.66
-          parentId: Larawag 4
           showOrbit: true
-        satellites: []
+          parentId: Larawag 4
+        isPlanet:
+          age: 322661507
+          classification: D
+          radius: 1539.399182961252
+          terranMass: 1.3299996935090859
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 200
   - name: Larawag 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 15.97
+      semiMajorAxis: 3158231264.5061707
+      eccentricity: 0
+      inclination: 0.82
+      orbitalArc: 177
+      showOrbit: true
+      parentId: Larawag
     isPlanet:
-      radius: 58952
       age: 9421945797
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.8264740254023284
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 58952
+      terranMass: 0.8264740254023284
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
     temperature: 253
-    satellite:
-      semiMajorAxis: 3158231264.5061707
-      eccentricity: 0
-      inclination: 0.82
-      orbitalArc: 177
-      axialTilt: 15.97
-      parentId: Larawag
-      showOrbit: true
     satellites: []
   - name: Larawag 6
     description: ''
     tags: []
-    isPlanet:
-      radius: 298
-      age: 278742282
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.0014481525141669493
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 258
     satellite:
+      axialTilt: 27.79
       semiMajorAxis: 3979469875
       eccentricity: 0.02
       inclination: 0.47
       orbitalArc: 317
-      axialTilt: 27.79
-      parentId: Larawag
       showOrbit: true
+      parentId: Larawag
+    isPlanet:
+      age: 278742282
+      classification: D
+      radius: 298
+      terranMass: 0.0014481525141669493
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 258
     satellites: []
 commSatellite: null
 assets: {}

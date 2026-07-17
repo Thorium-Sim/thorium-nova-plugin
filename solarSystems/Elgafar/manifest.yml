@@ -14,200 +14,201 @@ stars:
   - name: Elgafar A
     description: ''
     tags: []
-    radius: 4
-    temperature: 5534
     solarMass: 1.8
     age: 6917755171137
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 4
+    temperature: 5534
     satellite:
-      orbitalArc: 187
-      semiMajorAxis: 48
       axialTilt: 0
+      semiMajorAxis: 48
       eccentricity: 0
       inclination: 0
+      orbitalArc: 187
       showOrbit: false
       parentId: Elgafar
   - name: Elgafar B
     description: ''
     tags: []
-    radius: 4
-    temperature: 5534
     solarMass: 1.8
     age: 6917755171137
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 4
+    temperature: 5534
     satellite:
-      orbitalArc: 367
-      semiMajorAxis: 48
       axialTilt: 0
+      semiMajorAxis: 48
       eccentricity: 0
       inclination: 0
+      orbitalArc: 367
       showOrbit: false
       parentId: Elgafar
 planets:
   - name: Elgafar 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 34.06
+      semiMajorAxis: 168387048
+      eccentricity: 0.02
+      inclination: 1.65
+      orbitalArc: 142
+      showOrbit: true
+      parentId: Elgafar
     isPlanet:
-      radius: 3055
       age: 6281939377
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0008598453757163315
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 3055
+      terranMass: 0.0008598453757163315
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 19170
     temperature: 280
-    satellite:
-      semiMajorAxis: 168387048
-      eccentricity: 0.02
-      inclination: 1.65
-      orbitalArc: 142
-      axialTilt: 34.06
-      parentId: Elgafar
-      showOrbit: true
     satellites: []
   - name: Elgafar 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 36.52
+      semiMajorAxis: 342699821.00000083
+      eccentricity: 0
+      inclination: 1.44
+      orbitalArc: 123
+      showOrbit: true
+      parentId: Elgafar
     isPlanet:
-      radius: 3776
       age: 4724624722
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.0035320105258376607
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3776
+      terranMass: 0.0035320105258376607
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 36737
     temperature: 131
-    satellite:
-      semiMajorAxis: 342699821.00000083
-      eccentricity: 0
-      inclination: 1.44
-      orbitalArc: 123
-      axialTilt: 36.52
-      parentId: Elgafar
-      showOrbit: true
     satellites: []
   - name: Elgafar 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 7210
-      age: 8555270836
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.002469299170181458
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 194149
-    temperature: 269
     satellite:
+      axialTilt: 33.23
       semiMajorAxis: 742756977.0000038
       eccentricity: 0
       inclination: 0.11
       orbitalArc: 176
-      axialTilt: 33.23
-      parentId: Elgafar
       showOrbit: true
+      parentId: Elgafar
+    isPlanet:
+      age: 8555270836
+      classification: P
+      radius: 7210
+      terranMass: 0.002469299170181458
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 194149
+    temperature: 269
     satellites: []
   - name: Elgafar 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 810
-      age: 192828531
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.0013911799335120894
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 45
     satellite:
+      axialTilt: 22.05
       semiMajorAxis: 1205400340.333348
       eccentricity: 0.01
       inclination: 0.22
       orbitalArc: 136
-      axialTilt: 22.05
-      parentId: Elgafar
       showOrbit: true
+      parentId: Elgafar
+    isPlanet:
+      age: 192828531
+      classification: C
+      radius: 810
+      terranMass: 0.0013911799335120894
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 45
     satellites: []
   - name: Elgafar 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 51323
-      age: 5007758038
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.8909537329433842
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 320
     satellite:
+      axialTilt: 1.18
       semiMajorAxis: 2156635855.888899
       eccentricity: 0.01
       inclination: 1.01
       orbitalArc: 324
-      axialTilt: 1.18
-      parentId: Elgafar
       showOrbit: true
-    satellites: []
-  - name: Elgafar 6
-    description: ''
-    tags: []
+      parentId: Elgafar
     isPlanet:
-      radius: 36490
-      age: 5154005628
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 0.17641425293903198
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      age: 5007758038
       classification: J
+      radius: 51323
+      terranMass: 0.8909537329433842
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
-    temperature: 277
+    temperature: 320
+    satellites: []
+  - name: Elgafar 6
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 0.32
       semiMajorAxis: 2813912631
       eccentricity: 0.02
       inclination: 1.48
       orbitalArc: 142
-      axialTilt: 0.32
-      parentId: Elgafar
       showOrbit: true
+      parentId: Elgafar
+    isPlanet:
+      age: 5154005628
+      classification: J
+      radius: 36490
+      terranMass: 0.17641425293903198
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+    population: 0
+    temperature: 277
     satellites: []
 commSatellite: null
 assets: {}

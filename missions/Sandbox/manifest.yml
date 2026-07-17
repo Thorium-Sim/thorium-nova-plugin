@@ -1,4 +1,4 @@
-apiVersion: ships/v1
+apiVersion: timeline/v1
 kind: missions
 name: Sandbox
 description: What could possibly go wrong?
@@ -14,19 +14,6 @@ steps:
       Initialize anything that needs to be present at the beginning of this
       timeline.
     tags: []
-    actions:
-      - id: act-lm6zxfef3o
-        name: 'Trigger: Advance Timeline'
-        action: triggers.create
-        values:
-          name: Advance Timeline
-          active: true
-          conditions: []
-          actions:
-            - id: act-lm6zxfeg4o
-              name: 'Timeline: Advance'
-              action: timeline.advance
-              values: {}
     blocks:
       - pluginId: Thorium Default
         macroId: Season 1 - Prelude Init
@@ -35,4 +22,3 @@ steps:
         type: Macro
 assets:
   cover: ''
-type: mission

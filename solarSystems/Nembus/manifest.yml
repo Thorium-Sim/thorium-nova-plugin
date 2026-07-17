@@ -14,378 +14,378 @@ stars:
   - name: Nembus A
     description: ''
     tags: []
-    radius: 21.3
-    temperature: 4316
     solarMass: 1.75
     age: 641094988844
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 21.3
+    temperature: 4316
     satellite:
-      orbitalArc: 254
-      semiMajorAxis: 255.60000000000002
       axialTilt: 0
+      semiMajorAxis: 255.60000000000002
       eccentricity: 0
       inclination: 0
+      orbitalArc: 254
       showOrbit: false
       parentId: Nembus
   - name: Nembus B
     description: ''
     tags: []
-    radius: 21.3
-    temperature: 4316
     solarMass: 1.75
     age: 641094988844
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 21.3
+    temperature: 4316
     satellite:
-      orbitalArc: 434
-      semiMajorAxis: 255.60000000000002
       axialTilt: 0
+      semiMajorAxis: 255.60000000000002
       eccentricity: 0
       inclination: 0
+      orbitalArc: 434
       showOrbit: false
       parentId: Nembus
 planets:
   - name: Nembus 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 194
-      age: 411253259
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.014540086481210752
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 199
     satellite:
+      axialTilt: 24.23
       semiMajorAxis: 868944160.6666667
       eccentricity: 0.02
       inclination: 0.42
       orbitalArc: 351
-      axialTilt: 24.23
-      parentId: Nembus
       showOrbit: true
-    satellites: []
-  - name: Nembus 2
-    description: ''
-    tags: []
+      parentId: Nembus
     isPlanet:
-      radius: 6484
-      age: 674579406
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0015927170266194144
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-      classification: E
+      age: 411253259
+      classification: D
+      radius: 194
+      terranMass: 0.014540086481210752
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
-    temperature: 1399
+    temperature: 199
+    satellites: []
+  - name: Nembus 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 32.28
       semiMajorAxis: 1191292017.8888886
       eccentricity: 0.02
       inclination: 1.64
       orbitalArc: 84
-      axialTilt: 32.28
-      parentId: Nembus
       showOrbit: true
+      parentId: Nembus
+    isPlanet:
+      age: 674579406
+      classification: E
+      radius: 6484
+      terranMass: 0.0015927170266194144
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 1399
     satellites:
       - name: Nembus 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 830.4934836274697
-          age: 7000767933
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 148304
-        temperature: 269
         satellite:
+          axialTilt: 19.63
           semiMajorAxis: 246656.5646373585
           eccentricity: 0.02
           inclination: 1.26
           orbitalArc: 164
-          axialTilt: 19.63
-          parentId: Nembus 2
           showOrbit: true
-        satellites: []
+          parentId: Nembus 2
+        isPlanet:
+          age: 7000767933
+          classification: P
+          radius: 830.4934836274697
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 148304
+        temperature: 269
   - name: Nembus 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 7064
-      age: 9154514018
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.010400865609501691
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 56272
-    temperature: 262
     satellite:
+      axialTilt: 22.32
       semiMajorAxis: 1388034928.9629633
       eccentricity: 0.01
       inclination: 0.81
       orbitalArc: 146
-      axialTilt: 22.32
-      parentId: Nembus
       showOrbit: true
+      parentId: Nembus
+    isPlanet:
+      age: 9154514018
+      classification: P
+      radius: 7064
+      terranMass: 0.010400865609501691
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 56272
+    temperature: 262
     satellites: []
   - name: Nembus 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 30.82
+      semiMajorAxis: 1554913560.3580241
+      eccentricity: 0
+      inclination: 1.93
+      orbitalArc: 191
+      showOrbit: true
+      parentId: Nembus
     isPlanet:
-      radius: 4798
       age: 6442507137
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.035892007846095225
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4798
+      terranMass: 0.035892007846095225
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 38367
     temperature: 204
-    satellite:
-      semiMajorAxis: 1554913560.3580241
-      eccentricity: 0
-      inclination: 1.93
-      orbitalArc: 191
-      axialTilt: 30.82
-      parentId: Nembus
-      showOrbit: true
     satellites: []
   - name: Nembus 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 3.1
+      semiMajorAxis: 1792800459.5514379
+      eccentricity: 0
+      inclination: 1.97
+      orbitalArc: 76
+      showOrbit: true
+      parentId: Nembus
     isPlanet:
-      radius: 5787
       age: 8904630790
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.017358883553906135
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 5787
+      terranMass: 0.017358883553906135
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 24908
     temperature: 225
-    satellite:
-      semiMajorAxis: 1792800459.5514379
-      eccentricity: 0
-      inclination: 1.97
-      orbitalArc: 76
-      axialTilt: 3.1
-      parentId: Nembus
-      showOrbit: true
     satellites:
       - name: Nembus 5a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1157.0389480723043
-          age: 5951809413
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 162389
-        temperature: 255
         satellite:
+          axialTilt: 16.14
           semiMajorAxis: 150282.7880341846
           eccentricity: 0.01
           inclination: 0.93
           orbitalArc: 282
-          axialTilt: 16.14
-          parentId: Nembus 5
           showOrbit: true
-        satellites: []
+          parentId: Nembus 5
+        isPlanet:
+          age: 5951809413
+          classification: P
+          radius: 1157.0389480723043
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 162389
+        temperature: 255
       - name: Nembus 5b
         description: ''
         tags: []
-        isPlanet:
-          radius: 961.5479240620737
-          age: 7876646756
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 524290735
-        temperature: 297
         satellite:
+          axialTilt: 30.7
           semiMajorAxis: 392311.55301732605
           eccentricity: 0.02
           inclination: 0.25
           orbitalArc: 219
-          axialTilt: 30.7
-          parentId: Nembus 5
           showOrbit: true
-        satellites: []
+          parentId: Nembus 5
+        isPlanet:
+          age: 7876646756
+          classification: O
+          radius: 961.5479240620737
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 524290735
+        temperature: 297
   - name: Nembus 6
     description: ''
     tags: []
-    isPlanet:
-      radius: 190
-      age: 640948958
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.004578203916441328
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 271
     satellite:
+      axialTilt: 38.46
       semiMajorAxis: 2265561136.941002
       eccentricity: 0
       inclination: 0.7
       orbitalArc: 90
-      axialTilt: 38.46
-      parentId: Nembus
       showOrbit: true
+      parentId: Nembus
+    isPlanet:
+      age: 640948958
+      classification: D
+      radius: 190
+      terranMass: 0.004578203916441328
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 271
     satellites: []
   - name: Nembus 7
     description: ''
     tags: []
+    satellite:
+      axialTilt: 13.12
+      semiMajorAxis: 2408362117.0373535
+      eccentricity: 0.02
+      inclination: 1.76
+      orbitalArc: 30
+      showOrbit: true
+      parentId: Nembus
     isPlanet:
-      radius: 3946
       age: 6007355600
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.017880647581617535
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 3946
+      terranMass: 0.017880647581617535
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 3016
     temperature: 234
-    satellite:
-      semiMajorAxis: 2408362117.0373535
-      eccentricity: 0.02
-      inclination: 1.76
-      orbitalArc: 30
-      axialTilt: 13.12
-      parentId: Nembus
-      showOrbit: true
     satellites:
       - name: Nembus 7a
         description: ''
         tags: []
-        isPlanet:
-          radius: 982.614948933086
-          age: 9883338850
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 115849
-        temperature: 261
         satellite:
+          axialTilt: 18.91
           semiMajorAxis: 358654.4563605764
           eccentricity: 0.02
           inclination: 0.02
           orbitalArc: 15
-          axialTilt: 18.91
-          parentId: Nembus 7
           showOrbit: true
-        satellites: []
+          parentId: Nembus 7
+        isPlanet:
+          age: 9883338850
+          classification: P
+          radius: 982.614948933086
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 115849
+        temperature: 261
   - name: Nembus 8
     description: ''
     tags: []
-    isPlanet:
-      radius: 283
-      age: 514633491
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.009736830829109186
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 307
     satellite:
+      axialTilt: 28.63
       semiMajorAxis: 2628267849.8285356
       eccentricity: 0.01
       inclination: 0.37
       orbitalArc: 295
-      axialTilt: 28.63
-      parentId: Nembus
       showOrbit: true
+      parentId: Nembus
+    isPlanet:
+      age: 514633491
+      classification: D
+      radius: 283
+      terranMass: 0.009736830829109186
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 307
     satellites: []
   - name: Nembus 9
     description: ''
     tags: []
+    satellite:
+      axialTilt: 9.4
+      semiMajorAxis: 2788630904
+      eccentricity: 0.01
+      inclination: 0.74
+      orbitalArc: 136
+      showOrbit: true
+      parentId: Nembus
     isPlanet:
-      radius: 47373
       age: 7541611845
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: null
-      terranMass: 0.13819876507581183
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
       classification: J
+      radius: 47373
+      terranMass: 0.13819876507581183
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
     population: 0
     temperature: 246
-    satellite:
-      semiMajorAxis: 2788630904
-      eccentricity: 0.01
-      inclination: 0.74
-      orbitalArc: 136
-      axialTilt: 9.4
-      parentId: Nembus
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

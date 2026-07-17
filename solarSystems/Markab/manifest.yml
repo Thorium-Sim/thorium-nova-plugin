@@ -14,118 +14,118 @@ stars:
   - name: Markab A
     description: ''
     tags: []
-    radius: 4.62
-    temperature: 10100
     solarMass: 3.5
     age: 908799088018
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.62
+    temperature: 10100
     satellite:
-      orbitalArc: 213
-      semiMajorAxis: 55.44
       axialTilt: 0
+      semiMajorAxis: 55.44
       eccentricity: 0
       inclination: 0
+      orbitalArc: 213
       showOrbit: false
       parentId: Markab
   - name: Markab B
     description: ''
     tags: []
-    radius: 4.62
-    temperature: 10100
     solarMass: 3.5
     age: 908799088018
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.62
+    temperature: 10100
     satellite:
-      orbitalArc: 393
-      semiMajorAxis: 55.44
       axialTilt: 0
+      semiMajorAxis: 55.44
       eccentricity: 0
       inclination: 0
+      orbitalArc: 393
       showOrbit: false
       parentId: Markab
 planets:
   - name: Markab 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 39.5
+      semiMajorAxis: 2130716525.6666667
+      eccentricity: 0
+      inclination: 0.85
+      orbitalArc: 130
+      showOrbit: true
+      parentId: Markab
     isPlanet:
-      radius: 55183
       age: 2815056208
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 1.8454768065562188
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
       classification: J
+      radius: 55183
+      terranMass: 1.8454768065562188
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
     temperature: 193
-    satellite:
-      semiMajorAxis: 2130716525.6666667
-      eccentricity: 0
-      inclination: 0.85
-      orbitalArc: 130
-      axialTilt: 39.5
-      parentId: Markab
-      showOrbit: true
     satellites:
       - name: Markab 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 10849.149199484731
-          age: 7744672780
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 169720
-        temperature: 270
         satellite:
+          axialTilt: 36.95
           semiMajorAxis: 4545793.514584103
           eccentricity: 0.01
           inclination: 1.87
           orbitalArc: 182
-          axialTilt: 36.95
-          parentId: Markab 1
           showOrbit: true
-        satellites: []
+          parentId: Markab 1
+        isPlanet:
+          age: 7744672780
+          classification: P
+          radius: 10849.149199484731
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 169720
+        temperature: 270
   - name: Markab 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 253
-      age: 541782437
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0017858335219062497
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 326
     satellite:
+      axialTilt: 22.63
       semiMajorAxis: 3888885197
       eccentricity: 0
       inclination: 0.26
       orbitalArc: 264
-      axialTilt: 22.63
-      parentId: Markab
       showOrbit: true
+      parentId: Markab
+    isPlanet:
+      age: 541782437
+      classification: D
+      radius: 253
+      terranMass: 0.0017858335219062497
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 326
     satellites: []
 commSatellite: null
 assets: {}

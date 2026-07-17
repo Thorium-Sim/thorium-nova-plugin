@@ -14,19 +14,19 @@ stars:
   - name: 'Muliphein '
     description: ''
     tags: []
-    radius: 6.08
-    temperature: 11732
     solarMass: 4.15
     age: 341760609372
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 6.08
+    temperature: 11732
     satellite:
-      orbitalArc: 197
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 197
       showOrbit: false
       parentId: Muliphein
 planets: []

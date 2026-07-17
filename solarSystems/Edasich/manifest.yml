@@ -14,116 +14,118 @@ stars:
   - name: Edasich A
     description: ''
     tags: []
-    radius: 11.99
-    temperature: 4504
     solarMass: 1.56
     age: 1520764581291
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.99
+    temperature: 4504
     satellite:
-      orbitalArc: 276
-      semiMajorAxis: 143.88
       axialTilt: 0
+      semiMajorAxis: 143.88
       eccentricity: 0
       inclination: 0
+      orbitalArc: 276
       showOrbit: false
       parentId: Edasich
   - name: Edasich B
     description: ''
     tags: []
-    radius: 11.99
-    temperature: 4504
     solarMass: 1.56
     age: 1520764581291
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 11.99
+    temperature: 4504
     satellite:
-      orbitalArc: 456
-      semiMajorAxis: 143.88
       axialTilt: 0
+      semiMajorAxis: 143.88
       eccentricity: 0
       inclination: 0
+      orbitalArc: 456
       showOrbit: false
       parentId: Edasich
 planets:
   - name: Edasich 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 3046
-      age: 3770728378
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.020580011644257715
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 121
     satellite:
+      axialTilt: 33.32
       semiMajorAxis: 316756562
       eccentricity: 0
       inclination: 0.58
       orbitalArc: 174
-      axialTilt: 33.32
-      parentId: Edasich
       showOrbit: true
-    satellites: []
-  - name: Edasich 2
-    description: ''
-    tags: []
+      parentId: Edasich
     isPlanet:
-      radius: 2710
-      age: 506444887
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.012725870949096236
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
+      age: 3770728378
+      classification: B
+      radius: 3046
+      terranMass: 0.020580011644257715
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
-    temperature: 36
+    temperature: 121
+    satellites: []
+  - name: Edasich 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 7.57
       semiMajorAxis: 627399532
       eccentricity: 0.01
       inclination: 1.32
       orbitalArc: 290
-      axialTilt: 7.57
-      parentId: Edasich
       showOrbit: true
+      parentId: Edasich
+    isPlanet:
+      age: 506444887
+      classification: C
+      radius: 2710
+      terranMass: 0.012725870949096236
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 36
     satellites: []
   - name: Edasich 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 6.2
+      semiMajorAxis: 1153009271
+      eccentricity: 0.01
+      inclination: 0.81
+      orbitalArc: 6
+      showOrbit: true
+      parentId: Edasich
     isPlanet:
-      radius: 4264
       age: 9904914298
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.007607594820298792
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 4264
+      terranMass: 0.007607594820298792
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 27600
     temperature: 154
-    satellite:
-      semiMajorAxis: 1153009271
-      eccentricity: 0.01
-      inclination: 0.81
-      orbitalArc: 6
-      axialTilt: 6.2
-      parentId: Edasich
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

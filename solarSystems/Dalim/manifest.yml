@@ -14,116 +14,116 @@ stars:
   - name: Dalim A
     description: ''
     tags: []
-    radius: 2.04
-    temperature: 6240
     solarMass: 1.33
     age: 12156882855541
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.04
+    temperature: 6240
     satellite:
-      orbitalArc: 145
-      semiMajorAxis: 24.48
       axialTilt: 0
+      semiMajorAxis: 24.48
       eccentricity: 0
       inclination: 0
+      orbitalArc: 145
       showOrbit: false
       parentId: Dalim
   - name: Dalim B
     description: ''
     tags: []
-    radius: 2.04
-    temperature: 6240
     solarMass: 1.33
     age: 12156882855541
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.04
+    temperature: 6240
     satellite:
-      orbitalArc: 325
-      semiMajorAxis: 24.48
       axialTilt: 0
+      semiMajorAxis: 24.48
       eccentricity: 0
       inclination: 0
+      orbitalArc: 325
       showOrbit: false
       parentId: Dalim
 planets:
   - name: Dalim 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 7286
-      age: 5226234628
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.030520147957843767
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 242641957
-    temperature: 395
     satellite:
+      axialTilt: 34.69
       semiMajorAxis: 188918194
       eccentricity: 0.01
       inclination: 1.68
       orbitalArc: 263
-      axialTilt: 34.69
-      parentId: Dalim
       showOrbit: true
+      parentId: Dalim
+    isPlanet:
+      age: 5226234628
+      classification: 'N'
+      radius: 7286
+      terranMass: 0.030520147957843767
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 242641957
+    temperature: 395
     satellites: []
   - name: Dalim 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5292
-      age: 6959622746
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.030513351233213522
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 91239
-    temperature: 258
     satellite:
+      axialTilt: 39.53
       semiMajorAxis: 505904919
       eccentricity: 0.02
       inclination: 1.8
       orbitalArc: 115
-      axialTilt: 39.53
-      parentId: Dalim
       showOrbit: true
+      parentId: Dalim
+    isPlanet:
+      age: 6959622746
+      classification: P
+      radius: 5292
+      terranMass: 0.030513351233213522
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 91239
+    temperature: 258
     satellites:
       - name: Dalim 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 284.4928168107506
-          age: 591983999
-          ringMapAsset: null
-          terranMass: 0.10999992689859293
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 363
         satellite:
+          axialTilt: 30.37
           semiMajorAxis: 74252.6251876059
           eccentricity: 0.01
           inclination: 1.46
           orbitalArc: 305
-          axialTilt: 30.37
-          parentId: Dalim 2
           showOrbit: true
-        satellites: []
+          parentId: Dalim 2
+        isPlanet:
+          age: 591983999
+          classification: D
+          radius: 284.4928168107506
+          terranMass: 0.10999992689859293
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 363
 commSatellite: null
 assets: {}

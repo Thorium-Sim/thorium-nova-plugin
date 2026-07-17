@@ -14,65 +14,65 @@ stars:
   - name: Albaldah A
     description: ''
     tags: []
-    radius: 28.4
-    temperature: 6590
     solarMass: 5.9
     age: 223688139644
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 28.4
+    temperature: 6590
     satellite:
-      orbitalArc: 126
-      semiMajorAxis: 340.79999999999995
       axialTilt: 0
+      semiMajorAxis: 340.79999999999995
       eccentricity: 0
       inclination: 0
+      orbitalArc: 126
       showOrbit: false
       parentId: Albaldah
   - name: Albaldah B
     description: ''
     tags: []
-    radius: 28.4
-    temperature: 6590
     solarMass: 5.9
     age: 223688139644
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 28.4
+    temperature: 6590
     satellite:
-      orbitalArc: 306
-      semiMajorAxis: 340.79999999999995
       axialTilt: 0
+      semiMajorAxis: 340.79999999999995
       eccentricity: 0
       inclination: 0
+      orbitalArc: 306
       showOrbit: false
       parentId: Albaldah
 planets:
   - name: Albaldah 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6226
-      age: 5308824302
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.009981428303867912
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
-      classification: M
-      isHabitable: true
-      lifeforms:
-        - Varied and extensive vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 600913181
-    temperature: 300
     satellite:
+      axialTilt: 19.05
       semiMajorAxis: 3951156619
       eccentricity: 0.01
       inclination: 1.53
       orbitalArc: 16
-      axialTilt: 19.05
-      parentId: Albaldah
       showOrbit: true
+      parentId: Albaldah
+    isPlanet:
+      age: 5308824302
+      classification: M
+      radius: 6226
+      terranMass: 0.009981428303867912
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 600913181
+    temperature: 300
     satellites: []
 commSatellite: null
 assets: {}

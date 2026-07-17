@@ -14,374 +14,376 @@ stars:
   - name: Sadalmelik A
     description: ''
     tags: []
-    radius: 70
-    temperature: 5190
     solarMass: 6.31
     age: 102360672917
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 70
+    temperature: 5190
     satellite:
-      orbitalArc: 13
-      semiMajorAxis: 840
       axialTilt: 0
+      semiMajorAxis: 840
       eccentricity: 0
       inclination: 0
+      orbitalArc: 13
       showOrbit: false
       parentId: Sadalmelik
   - name: Sadalmelik B
     description: ''
     tags: []
-    radius: 70
-    temperature: 5190
     solarMass: 6.31
     age: 102360672917
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 70
+    temperature: 5190
     satellite:
-      orbitalArc: 193
-      semiMajorAxis: 840
       axialTilt: 0
+      semiMajorAxis: 840
       eccentricity: 0
       inclination: 0
+      orbitalArc: 193
       showOrbit: false
       parentId: Sadalmelik
 planets:
   - name: Sadalmelik 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 29.87
+      semiMajorAxis: 1772410980.3333333
+      eccentricity: 0
+      inclination: 0.68
+      orbitalArc: 123
+      showOrbit: true
+      parentId: Sadalmelik
     isPlanet:
-      radius: 39960
       age: 9829401665
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.4801347523671889
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
       classification: J
+      radius: 39960
+      terranMass: 0.4801347523671889
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 152
-    satellite:
-      semiMajorAxis: 1772410980.3333333
-      eccentricity: 0
-      inclination: 0.68
-      orbitalArc: 123
-      axialTilt: 29.87
-      parentId: Sadalmelik
-      showOrbit: true
     satellites: []
   - name: Sadalmelik 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 376
-      age: 413851601
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.011596137053173111
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 235
     satellite:
+      axialTilt: 6.79
       semiMajorAxis: 2643843861.222223
       eccentricity: 0.01
       inclination: 0.78
       orbitalArc: 176
-      axialTilt: 6.79
-      parentId: Sadalmelik
       showOrbit: true
+      parentId: Sadalmelik
+    isPlanet:
+      age: 413851601
+      classification: D
+      radius: 376
+      terranMass: 0.011596137053173111
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 235
     satellites: []
   - name: Sadalmelik 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 417
-      age: 189646995
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.005384028606182171
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 200
     satellite:
+      axialTilt: 16.43
       semiMajorAxis: 3599795121.481482
       eccentricity: 0.01
       inclination: 0.53
       orbitalArc: 103
-      axialTilt: 16.43
-      parentId: Sadalmelik
       showOrbit: true
+      parentId: Sadalmelik
+    isPlanet:
+      age: 189646995
+      classification: D
+      radius: 417
+      terranMass: 0.005384028606182171
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 200
     satellites: []
   - name: Sadalmelik 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 5273
-      age: 3745099065
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.008487270242997275
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 108171
-    temperature: 256
     satellite:
+      axialTilt: 31.17
       semiMajorAxis: 4185461284.962964
       eccentricity: 0.01
       inclination: 0.11
       orbitalArc: 14
-      axialTilt: 31.17
-      parentId: Sadalmelik
       showOrbit: true
+      parentId: Sadalmelik
+    isPlanet:
+      age: 3745099065
+      classification: P
+      radius: 5273
+      terranMass: 0.008487270242997275
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 108171
+    temperature: 256
     satellites:
       - name: Sadalmelik 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 895.5359301832007
-          age: 8766037138
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 7613293034
-        temperature: 299
         satellite:
+          axialTilt: 29.12
           semiMajorAxis: 419110.81532573793
           eccentricity: 0.02
           inclination: 0.09
           orbitalArc: 84
-          axialTilt: 29.12
-          parentId: Sadalmelik 4
           showOrbit: true
-        satellites: []
+          parentId: Sadalmelik 4
+        isPlanet:
+          age: 8766037138
+          classification: M
+          radius: 895.5359301832007
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 7613293034
+        temperature: 299
   - name: Sadalmelik 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 4615
-      age: 2268069621
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0029736044762993692
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 157
     satellite:
+      axialTilt: 20.96
       semiMajorAxis: 4396570016.049377
       eccentricity: 0.02
       inclination: 0.12
       orbitalArc: 162
-      axialTilt: 20.96
-      parentId: Sadalmelik
       showOrbit: true
-    satellites:
-      - name: Sadalmelik 5a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 834.8259915801641
-          age: 2440280400
-          ringMapAsset: null
-          terranMass: 1.3000001285277394
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 827
-        satellite:
-          semiMajorAxis: 269648.795280393
-          eccentricity: 0
-          inclination: 1.05
-          orbitalArc: 346
-          axialTilt: 20
-          parentId: Sadalmelik 5
-          showOrbit: true
-        satellites: []
-  - name: Sadalmelik 6
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 6620
-      age: 6049901343
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.008537653887420346
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 105196758
-    temperature: 692
-    satellite:
-      semiMajorAxis: 4953182622.0822935
-      eccentricity: 0.01
-      inclination: 0.78
-      orbitalArc: 134
-      axialTilt: 25.5
       parentId: Sadalmelik
-      showOrbit: true
-    satellites:
-      - name: Sadalmelik 6a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1413.8853271773285
-          age: 302522035
-          ringMapAsset: null
-          terranMass: 0.19999987345945214
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 165
-        satellite:
-          semiMajorAxis: 214541.92569499742
-          eccentricity: 0
-          inclination: 0.57
-          orbitalArc: 341
-          axialTilt: 13.03
-          parentId: Sadalmelik 6
-          showOrbit: true
-        satellites: []
-      - name: Sadalmelik 6b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1355.3488707007723
-          age: 4550234405
-          ringMapAsset: null
-          terranMass: 0.9000006127283328
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: B
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 171
-        satellite:
-          semiMajorAxis: 619394.433910253
-          eccentricity: 0
-          inclination: 1.74
-          orbitalArc: 200
-          axialTilt: 6.16
-          parentId: Sadalmelik 6
-          showOrbit: true
-        satellites: []
-  - name: Sadalmelik 7
-    description: ''
-    tags: []
     isPlanet:
-      radius: 133
-      age: 244791049
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.004708452098464036
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
+      age: 2268069621
+      classification: B
+      radius: 4615
+      terranMass: 0.0029736044762993692
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
-    temperature: 187
+    temperature: 157
+    satellites:
+      - name: Sadalmelik 5a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 20
+          semiMajorAxis: 269648.795280393
+          eccentricity: 0
+          inclination: 1.05
+          orbitalArc: 346
+          showOrbit: true
+          parentId: Sadalmelik 5
+        isPlanet:
+          age: 2440280400
+          classification: F
+          radius: 834.8259915801641
+          terranMass: 1.3000001285277394
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 827
+  - name: Sadalmelik 6
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 25.5
+      semiMajorAxis: 4953182622.0822935
+      eccentricity: 0.01
+      inclination: 0.78
+      orbitalArc: 134
+      showOrbit: true
+      parentId: Sadalmelik
+    isPlanet:
+      age: 6049901343
+      classification: 'N'
+      radius: 6620
+      terranMass: 0.008537653887420346
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 105196758
+    temperature: 692
+    satellites:
+      - name: Sadalmelik 6a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 13.03
+          semiMajorAxis: 214541.92569499742
+          eccentricity: 0
+          inclination: 0.57
+          orbitalArc: 341
+          showOrbit: true
+          parentId: Sadalmelik 6
+        isPlanet:
+          age: 302522035
+          classification: D
+          radius: 1413.8853271773285
+          terranMass: 0.19999987345945214
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 165
+      - name: Sadalmelik 6b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 6.16
+          semiMajorAxis: 619394.433910253
+          eccentricity: 0
+          inclination: 1.74
+          orbitalArc: 200
+          showOrbit: true
+          parentId: Sadalmelik 6
+        isPlanet:
+          age: 4550234405
+          classification: B
+          radius: 1355.3488707007723
+          terranMass: 0.9000006127283328
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 171
+  - name: Sadalmelik 7
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 10.91
       semiMajorAxis: 5525241083.050703
       eccentricity: 0.02
       inclination: 1.6
       orbitalArc: 225
-      axialTilt: 10.91
-      parentId: Sadalmelik
       showOrbit: true
+      parentId: Sadalmelik
+    isPlanet:
+      age: 244791049
+      classification: D
+      radius: 133
+      terranMass: 0.004708452098464036
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 187
     satellites: []
   - name: Sadalmelik 8
     description: ''
     tags: []
+    satellite:
+      axialTilt: 3.39
+      semiMajorAxis: 5861464316
+      eccentricity: 0
+      inclination: 1.03
+      orbitalArc: 2
+      showOrbit: true
+      parentId: Sadalmelik
     isPlanet:
-      radius: 3717
       age: 6929497967
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.003927282213947599
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 3717
+      terranMass: 0.003927282213947599
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 38415
     temperature: 209
-    satellite:
-      semiMajorAxis: 5861464316
-      eccentricity: 0
-      inclination: 1.03
-      orbitalArc: 2
-      axialTilt: 3.39
-      parentId: Sadalmelik
-      showOrbit: true
     satellites:
       - name: Sadalmelik 8a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 39.92
+          semiMajorAxis: 85565.28573168967
+          eccentricity: 0.01
+          inclination: 1.82
+          orbitalArc: 251
+          showOrbit: true
+          parentId: Sadalmelik 8
         isPlanet:
-          radius: 304.5027961981839
           age: 8051914936
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.7000000675692193
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 304.5027961981839
+          terranMass: 1.7000000675692193
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 24621
         temperature: 266
-        satellite:
-          semiMajorAxis: 85565.28573168967
-          eccentricity: 0.01
-          inclination: 1.82
-          orbitalArc: 251
-          axialTilt: 39.92
-          parentId: Sadalmelik 8
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

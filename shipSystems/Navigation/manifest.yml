@@ -30,4 +30,3 @@ calculate: true
 thrusters: false
 destinations: []
 presets: []
-defaultPower: 10

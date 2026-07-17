@@ -8,52 +8,55 @@ stations:
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
     cards:
       - name: Flight Controls
-        component: Pilot
         icon: /plugins/Thorium Default/stationComplements/assets/Pilot Card.svg
+        component: Pilot
       - name: Navigation
-        component: Navigation
         icon: /plugins/Thorium Default/stationComplements/assets/Navigation.svg
+        component: Navigation
     widgets:
       - name: Objectives
-        component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        component: Objectives
         size: sm
       - name: Officers Log
-        component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+        component: OfficersLog
+    messageGroups: []
   - name: Engineer
     description: Allocates ship power and manages the engines and reactors
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
     cards:
       - name: Sensors
-        component: Sensors
         icon: /plugins/Thorium Default/stationComplements/assets/Sensors.svg
+        component: Sensors
     widgets:
       - name: Objectives
-        component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        component: Objectives
         size: sm
       - name: Officers Log
-        component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+        component: OfficersLog
       - name: Remote Access
-        component: RemoteAccess
         icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
+        component: RemoteAccess
         size: sm
+    messageGroups: []
   - name: Tactical
     description: Defends the ship
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
     cards:
       - name: Targeting
-        component: Targeting
         icon: /plugins/Thorium Default/stationComplements/assets/Targeting.svg
+        component: Targeting
     widgets:
       - name: Objectives
-        component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        component: Objectives
         size: sm
       - name: Officers Log
-        component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+        component: OfficersLog
+    messageGroups: []
 flightMode: nova
 assets: {}

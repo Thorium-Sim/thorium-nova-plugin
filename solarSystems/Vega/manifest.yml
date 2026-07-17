@@ -14,37 +14,37 @@ stars:
   - name: Vega A
     description: ''
     tags: []
-    radius: 2.726
-    temperature: 10070
     solarMass: 2.15
     age: 1622699712245
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.726
+    temperature: 10070
     satellite:
-      orbitalArc: 206
-      semiMajorAxis: 32.712
       axialTilt: 0
+      semiMajorAxis: 32.712
       eccentricity: 0
       inclination: 0
+      orbitalArc: 206
       showOrbit: false
       parentId: Vega
   - name: Vega B
     description: ''
     tags: []
-    radius: 2.726
-    temperature: 10070
     solarMass: 2.15
     age: 1622699712245
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.726
+    temperature: 10070
     satellite:
-      orbitalArc: 386
-      semiMajorAxis: 32.712
       axialTilt: 0
+      semiMajorAxis: 32.712
       eccentricity: 0
       inclination: 0
+      orbitalArc: 386
       showOrbit: false
       parentId: Vega
 planets: []

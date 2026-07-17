@@ -14,348 +14,350 @@ stars:
   - name: Alcyone A
     description: ''
     tags: []
-    radius: 10.56
-    temperature: 12258
     solarMass: 5.9
     age: 135149670630
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 10.56
+    temperature: 12258
     satellite:
-      orbitalArc: 329
-      semiMajorAxis: 126.72
       axialTilt: 0
+      semiMajorAxis: 126.72
       eccentricity: 0
       inclination: 0
+      orbitalArc: 329
       showOrbit: false
       parentId: Alcyone
   - name: Alcyone B
     description: ''
     tags: []
-    radius: 10.56
-    temperature: 12258
     solarMass: 5.9
     age: 135149670630
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 10.56
+    temperature: 12258
     satellite:
-      orbitalArc: 509
-      semiMajorAxis: 126.72
       axialTilt: 0
+      semiMajorAxis: 126.72
       eccentricity: 0
       inclination: 0
+      orbitalArc: 509
       showOrbit: false
       parentId: Alcyone
 planets:
   - name: Alcyone 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 3641
-      age: 286437632
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.016828284419643944
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 44
     satellite:
+      axialTilt: 17.26
       semiMajorAxis: 1457725477.6666658
       eccentricity: 0.01
       inclination: 1.78
       orbitalArc: 271
-      axialTilt: 17.26
-      parentId: Alcyone
       showOrbit: true
+      parentId: Alcyone
+    isPlanet:
+      age: 286437632
+      classification: C
+      radius: 3641
+      terranMass: 0.016828284419643944
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 44
     satellites:
       - name: Alcyone 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 457.128122699116
-          age: 267632772
-          ringMapAsset: null
-          terranMass: 1.0999997216495785
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 358
         satellite:
+          axialTilt: 17.1
           semiMajorAxis: 125253.10561955778
           eccentricity: 0.01
           inclination: 1.01
           orbitalArc: 271
-          axialTilt: 17.1
-          parentId: Alcyone 1
           showOrbit: true
-        satellites: []
+          parentId: Alcyone 1
+        isPlanet:
+          age: 267632772
+          classification: D
+          radius: 457.128122699116
+          terranMass: 1.0999997216495785
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 358
   - name: Alcyone 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6607
-      age: 8725293853
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.001846080342453528
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
-      classification: L
-      isHabitable: true
-      lifeforms:
-        - Primitive single-celled organisms
-        - Hardy plant life
-      atmosphericComposition: []
-    population: 44971
-    temperature: 241
     satellite:
+      axialTilt: 23.4
       semiMajorAxis: 2669290119.6666656
       eccentricity: 0.02
       inclination: 1.58
       orbitalArc: 308
-      axialTilt: 23.4
-      parentId: Alcyone
       showOrbit: true
-    satellites:
-      - name: Alcyone 2a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 457.29027601863265
-          age: 648035408
-          ringMapAsset: null
-          terranMass: 0.3799997766287795
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 262
-        satellite:
-          semiMajorAxis: 99476.67548279595
-          eccentricity: 0.01
-          inclination: 0.22
-          orbitalArc: 114
-          axialTilt: 34.71
-          parentId: Alcyone 2
-          showOrbit: true
-        satellites: []
-      - name: Alcyone 2b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 601.4319567563437
-          age: 3971638367
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 172006
-        temperature: 270
-        satellite:
-          semiMajorAxis: 154568.0128863803
-          eccentricity: 0.01
-          inclination: 1.85
-          orbitalArc: 204
-          axialTilt: 22.54
-          parentId: Alcyone 2
-          showOrbit: true
-        satellites: []
-  - name: Alcyone 3
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5789
-      age: 3920736775
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.008317497364668525
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
-      classification: G
-      isHabitable: false
-      lifeforms:
-        - None
-        - Primitive single-celled organisms
-      atmosphericComposition: []
-    population: 0
-    temperature: 544
-    satellite:
-      semiMajorAxis: 3475452789.8888845
-      eccentricity: 0
-      inclination: 0.71
-      orbitalArc: 24
-      axialTilt: 5.5
       parentId: Alcyone
-      showOrbit: true
-    satellites:
-      - name: Alcyone 3a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 790.0757060621225
-          age: 8634733221
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 193512
-        temperature: 259
-        satellite:
-          semiMajorAxis: 184423.79564650496
-          eccentricity: 0.01
-          inclination: 0.03
-          orbitalArc: 132
-          axialTilt: 10.2
-          parentId: Alcyone 3
-          showOrbit: true
-        satellites: []
-      - name: Alcyone 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1117.7380431300935
-          age: 6582063664
-          ringMapAsset: null
-          terranMass: 0.6000004889725087
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: B
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 112
-        satellite:
-          semiMajorAxis: 481745.0965890703
-          eccentricity: 0
-          inclination: 0.63
-          orbitalArc: 281
-          axialTilt: 38.93
-          parentId: Alcyone 3
-          showOrbit: true
-        satellites: []
-  - name: Alcyone 4
-    description: ''
-    tags: []
     isPlanet:
-      radius: 6861
-      age: 3001969200
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.000656383478351958
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
-      classification: G
-      isHabitable: false
-      lifeforms:
-        - None
-        - Primitive single-celled organisms
-      atmosphericComposition: []
-    population: 0
-    temperature: 519
-    satellite:
-      semiMajorAxis: 4116267301.6666536
-      eccentricity: 0.01
-      inclination: 0.47
-      orbitalArc: 294
-      axialTilt: 14.89
-      parentId: Alcyone
-      showOrbit: true
-    satellites: []
-  - name: Alcyone 5
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 3806
-      age: 5801770610
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.04340776261364238
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      age: 8725293853
       classification: L
+      radius: 6607
+      terranMass: 0.001846080342453528
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
-    population: 31379
-    temperature: 203
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 44971
+    temperature: 241
+    satellites:
+      - name: Alcyone 2a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 34.71
+          semiMajorAxis: 99476.67548279595
+          eccentricity: 0.01
+          inclination: 0.22
+          orbitalArc: 114
+          showOrbit: true
+          parentId: Alcyone 2
+        isPlanet:
+          age: 648035408
+          classification: D
+          radius: 457.29027601863265
+          terranMass: 0.3799997766287795
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 262
+      - name: Alcyone 2b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 22.54
+          semiMajorAxis: 154568.0128863803
+          eccentricity: 0.01
+          inclination: 1.85
+          orbitalArc: 204
+          showOrbit: true
+          parentId: Alcyone 2
+        isPlanet:
+          age: 3971638367
+          classification: P
+          radius: 601.4319567563437
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 172006
+        temperature: 270
+  - name: Alcyone 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 5.5
+      semiMajorAxis: 3475452789.8888845
+      eccentricity: 0
+      inclination: 0.71
+      orbitalArc: 24
+      showOrbit: true
+      parentId: Alcyone
+    isPlanet:
+      age: 3920736775
+      classification: G
+      radius: 5789
+      terranMass: 0.008317497364668525
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 544
+    satellites:
+      - name: Alcyone 3a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 10.2
+          semiMajorAxis: 184423.79564650496
+          eccentricity: 0.01
+          inclination: 0.03
+          orbitalArc: 132
+          showOrbit: true
+          parentId: Alcyone 3
+        isPlanet:
+          age: 8634733221
+          classification: P
+          radius: 790.0757060621225
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 193512
+        temperature: 259
+      - name: Alcyone 3b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 38.93
+          semiMajorAxis: 481745.0965890703
+          eccentricity: 0
+          inclination: 0.63
+          orbitalArc: 281
+          showOrbit: true
+          parentId: Alcyone 3
+        isPlanet:
+          age: 6582063664
+          classification: B
+          radius: 1117.7380431300935
+          terranMass: 0.6000004889725087
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 112
+  - name: Alcyone 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 14.89
+      semiMajorAxis: 4116267301.6666536
+      eccentricity: 0.01
+      inclination: 0.47
+      orbitalArc: 294
+      showOrbit: true
+      parentId: Alcyone
+    isPlanet:
+      age: 3001969200
+      classification: G
+      radius: 6861
+      terranMass: 0.000656383478351958
+      isHabitable: false
+      lifeforms:
+        - None
+        - Primitive single-celled organisms
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 519
+    satellites: []
+  - name: Alcyone 5
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 17.48
       semiMajorAxis: 4602003245.444403
       eccentricity: 0.02
       inclination: 0.24
       orbitalArc: 44
-      axialTilt: 17.48
-      parentId: Alcyone
       showOrbit: true
+      parentId: Alcyone
+    isPlanet:
+      age: 5801770610
+      classification: L
+      radius: 3806
+      terranMass: 0.04340776261364238
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 31379
+    temperature: 203
     satellites: []
   - name: Alcyone 6
     description: ''
     tags: []
-    isPlanet:
-      radius: 5493
-      age: 8127098803
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0051319729577824404
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 30089
-    temperature: 265
     satellite:
+      axialTilt: 14.94
       semiMajorAxis: 4722382299.740407
       eccentricity: 0.02
       inclination: 1.4
       orbitalArc: 51
-      axialTilt: 14.94
-      parentId: Alcyone
       showOrbit: true
+      parentId: Alcyone
+    isPlanet:
+      age: 8127098803
+      classification: P
+      radius: 5493
+      terranMass: 0.0051319729577824404
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 30089
+    temperature: 265
     satellites: []
   - name: Alcyone 7
     description: ''
     tags: []
-    isPlanet:
-      radius: 101
-      age: 159885079
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0012363777715643667
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 167
     satellite:
+      axialTilt: 37.88
       semiMajorAxis: 4929623169
       eccentricity: 0.02
       inclination: 1.41
       orbitalArc: 102
-      axialTilt: 37.88
-      parentId: Alcyone
       showOrbit: true
+      parentId: Alcyone
+    isPlanet:
+      age: 159885079
+      classification: D
+      radius: 101
+      terranMass: 0.0012363777715643667
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 167
     satellites: []
 commSatellite: null
 assets: {}

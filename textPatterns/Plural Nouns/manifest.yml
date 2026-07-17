@@ -1,0 +1,8 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Plural Nouns
+description: ''
+textPattern: >-
+  {~Men,Women,Stars,Dreams,Waves,Dragons,Secrets,Whispers,Storms,Eyes,Hands,Riches,Changes,Worlds,Words,Echoes,Winds,Leaves,Clouds,Legends,Sails,Beasts,Oceans,Idols,Faces,Names,Thoughts,Roses,Coins,Cups,Wands,Swords,Wings,Tears,Flags,Scars,Tongues,Deeds,Ways,Means,Mysteries,Wonders,Fools,Souls,Roots,Fronds,Branches,Vines,Flowers,Stones,Seas,Smiles,Bees,Sounds,Paths,Feathers,Chants,Sparkles,Skies,Stories,Roads,Keys,Spades,Diamonds,Hearts,Clubs,Wisps,Numbers,Memories,Wheels,Strings,Lands,Eggs,Hills,Mountains,Lakes,Tiles,Cords,Knots,Songs,Nails,Sheets,Books,Pages,Knobs,Voices,Sparks,Shores,Tides,Forms,Motes,Ladies,Princesses,Queens,Empresses,Duchesses,Mistresses,Lords,Princes,Kings,Emperors,Dukes,Barons,Masters}
+category: Parts of Speech
+assets: {}

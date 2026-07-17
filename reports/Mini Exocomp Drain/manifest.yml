@@ -13,34 +13,32 @@ prerequisiteBlocks:
     variable: exocomps
     id: blo-mp5m1app0g
     type: ShipSystemGetter
-  - '0':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Plumbing
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1apq3y
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1apr3d
-      type: IfCondition
-    '1':
-      conditions:
-        - comparison: is not empty
-          value1: $exocomps
-          value2: ''
-        - value1: $damageType
-          value2: Corrosion
-          comparison: '='
-      triggerBlocks:
-        - id: blo-mp5m1aps03
-          type: TimelineAvailability
-          isAvailable: true
-      id: blo-mp5m1apt5g
-      type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Plumbing
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1apq3y
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1apr3d
+    type: IfCondition
+  - conditions:
+      - comparison: is not empty
+        value1: $exocomps
+        value2: ''
+      - value1: $damageType
+        value2: Corrosion
+        comparison: '='
+    triggerBlocks:
+      - id: blo-mp5m1aps03
+        type: TimelineAvailability
+        isAvailable: true
+    id: blo-mp5m1apt5g
+    type: IfCondition
 autoApplyWhenCompleted: true
 steps:
   - id: dr-mp5m1apu2j

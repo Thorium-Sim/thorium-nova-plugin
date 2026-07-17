@@ -14,615 +14,611 @@ stars:
   - name: Ruchbah A
     description: ''
     tags: []
-    radius: 3.9
-    temperature: 7980
     solarMass: 2.49
     age: 2328240567120
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 3.9
+    temperature: 7980
     satellite:
-      orbitalArc: 271
-      semiMajorAxis: 46.8
       axialTilt: 0
+      semiMajorAxis: 46.8
       eccentricity: 0
       inclination: 0
+      orbitalArc: 271
       showOrbit: false
       parentId: Ruchbah
   - name: Ruchbah B
     description: ''
     tags: []
-    radius: 3.9
-    temperature: 7980
     solarMass: 2.49
     age: 2328240567120
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 3.9
+    temperature: 7980
     satellite:
-      orbitalArc: 451
-      semiMajorAxis: 46.8
       axialTilt: 0
+      semiMajorAxis: 46.8
       eccentricity: 0
       inclination: 0
+      orbitalArc: 451
       showOrbit: false
       parentId: Ruchbah
 planets:
   - name: Ruchbah 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 3403
-      age: 4231109237
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.003264959727533421
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 110
     satellite:
+      axialTilt: 34.84
       semiMajorAxis: 339614464.33333385
       eccentricity: 0.02
       inclination: 0.67
       orbitalArc: 192
-      axialTilt: 34.84
-      parentId: Ruchbah
       showOrbit: true
+      parentId: Ruchbah
+    isPlanet:
+      age: 4231109237
+      classification: B
+      radius: 3403
+      terranMass: 0.003264959727533421
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 110
     satellites:
       - name: Ruchbah 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 249.7538855352215
-          age: 9857983302
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 126194
-        temperature: 255
         satellite:
+          axialTilt: 32.27
           semiMajorAxis: 79855.42862330945
           eccentricity: 0.01
           inclination: 1.71
           orbitalArc: 183
-          axialTilt: 32.27
-          parentId: Ruchbah 1
           showOrbit: true
-        satellites: []
+          parentId: Ruchbah 1
+        isPlanet:
+          age: 9857983302
+          classification: P
+          radius: 249.7538855352215
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 126194
+        temperature: 255
       - name: Ruchbah 1b
         description: ''
         tags: []
-        isPlanet:
-          radius: 736.6942785022885
-          age: 3940344633
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
-          classification: G
-          isHabitable: false
-          lifeforms:
-            - None
-            - Primitive single-celled organisms
-          atmosphericComposition: []
-        population: 0
-        temperature: 440
         satellite:
+          axialTilt: 15.39
           semiMajorAxis: 187857.04101808358
           eccentricity: 0.01
           inclination: 1.73
           orbitalArc: 284
-          axialTilt: 15.39
-          parentId: Ruchbah 1
           showOrbit: true
-        satellites: []
+          parentId: Ruchbah 1
+        isPlanet:
+          age: 3940344633
+          classification: G
+          radius: 736.6942785022885
+          terranMass: 0.5
+          isHabitable: false
+          lifeforms:
+            - None
+            - Primitive single-celled organisms
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 440
   - name: Ruchbah 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 413
-      age: 588989161
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.011962589589247176
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 303
     satellite:
+      axialTilt: 22.84
       semiMajorAxis: 720678339.0000031
       eccentricity: 0
       inclination: 0.45
       orbitalArc: 126
-      axialTilt: 22.84
-      parentId: Ruchbah
       showOrbit: true
+      parentId: Ruchbah
+    isPlanet:
+      age: 588989161
+      classification: D
+      radius: 413
+      terranMass: 0.011962589589247176
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 303
     satellites: []
   - name: Ruchbah 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 1561
-      age: 448659115
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.005096532879338657
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 42
     satellite:
+      axialTilt: 37.58
       semiMajorAxis: 911377272.0000106
       eccentricity: 0
       inclination: 1.83
       orbitalArc: 91
-      axialTilt: 37.58
-      parentId: Ruchbah
       showOrbit: true
-    satellites:
-      - name: Ruchbah 3a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 335.32439716606734
-          age: 257852893
-          ringMapAsset: null
-          terranMass: 0.5099999064557139
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 389
-        satellite:
-          semiMajorAxis: 86849.01886601144
-          eccentricity: 0.01
-          inclination: 0.37
-          orbitalArc: 332
-          axialTilt: 9.97
-          parentId: Ruchbah 3
-          showOrbit: true
-        satellites: []
-  - name: Ruchbah 4
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 2965
-      age: 9340030089
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.007801812247552947
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
-      classification: L
-      isHabitable: true
-      lifeforms:
-        - Primitive single-celled organisms
-        - Hardy plant life
-      atmosphericComposition: []
-    population: 34494
-    temperature: 319
-    satellite:
-      semiMajorAxis: 1014337469.0001192
-      eccentricity: 0.01
-      inclination: 1.21
-      orbitalArc: 269
-      axialTilt: 21.98
       parentId: Ruchbah
-      showOrbit: true
-    satellites: []
-  - name: Ruchbah 5
-    description: ''
-    tags: []
     isPlanet:
-      radius: 7137
-      age: 350675173
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.036658941576041576
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-      classification: E
+      age: 448659115
+      classification: C
+      radius: 1561
+      terranMass: 0.005096532879338657
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
-    temperature: 1423
-    satellite:
-      semiMajorAxis: 1236486712.33385
-      eccentricity: 0.02
-      inclination: 1.78
-      orbitalArc: 143
-      axialTilt: 10.35
-      parentId: Ruchbah
-      showOrbit: true
+    temperature: 42
     satellites:
-      - name: Ruchbah 5a
+      - name: Ruchbah 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 9.97
+          semiMajorAxis: 86849.01886601144
+          eccentricity: 0.01
+          inclination: 0.37
+          orbitalArc: 332
+          showOrbit: true
+          parentId: Ruchbah 3
         isPlanet:
-          radius: 630.8975145636003
-          age: 8614510751
+          age: 257852893
+          classification: D
+          radius: 335.32439716606734
+          terranMass: 0.5099999064557139
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
           cloudMapAsset: null
           ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 100098
-        temperature: 259
-        satellite:
-          semiMajorAxis: 258014.9016297893
-          eccentricity: 0
-          inclination: 0.48
-          orbitalArc: 242
-          axialTilt: 7
-          parentId: Ruchbah 5
-          showOrbit: true
-        satellites: []
-      - name: Ruchbah 5b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1280.902480221249
-          age: 3875627826
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 20200
-        temperature: 259
-        satellite:
-          semiMajorAxis: 493147.4548851809
-          eccentricity: 0.02
-          inclination: 0.69
-          orbitalArc: 113
-          axialTilt: 25.77
-          parentId: Ruchbah 5
-          showOrbit: true
-        satellites: []
-  - name: Ruchbah 6
+        population: 0
+        temperature: 389
+  - name: Ruchbah 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 21.98
+      semiMajorAxis: 1014337469.0001192
+      eccentricity: 0.01
+      inclination: 1.21
+      orbitalArc: 269
+      showOrbit: true
+      parentId: Ruchbah
     isPlanet:
-      radius: 2539
-      age: 7024011685
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.018066488886504563
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      age: 9340030089
       classification: L
+      radius: 2965
+      terranMass: 0.007801812247552947
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
-    population: 35645
-    temperature: 228
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 34494
+    temperature: 319
+    satellites: []
+  - name: Ruchbah 5
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 10.35
+      semiMajorAxis: 1236486712.33385
+      eccentricity: 0.02
+      inclination: 1.78
+      orbitalArc: 143
+      showOrbit: true
+      parentId: Ruchbah
+    isPlanet:
+      age: 350675173
+      classification: E
+      radius: 7137
+      terranMass: 0.036658941576041576
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 1423
+    satellites:
+      - name: Ruchbah 5a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 7
+          semiMajorAxis: 258014.9016297893
+          eccentricity: 0
+          inclination: 0.48
+          orbitalArc: 242
+          showOrbit: true
+          parentId: Ruchbah 5
+        isPlanet:
+          age: 8614510751
+          classification: P
+          radius: 630.8975145636003
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 100098
+        temperature: 259
+      - name: Ruchbah 5b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 25.77
+          semiMajorAxis: 493147.4548851809
+          eccentricity: 0.02
+          inclination: 0.69
+          orbitalArc: 113
+          showOrbit: true
+          parentId: Ruchbah 5
+        isPlanet:
+          age: 3875627826
+          classification: P
+          radius: 1280.902480221249
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 20200
+        temperature: 259
+  - name: Ruchbah 6
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 26.15
       semiMajorAxis: 1661526101.6676998
       eccentricity: 0.01
       inclination: 1.42
       orbitalArc: 118
-      axialTilt: 26.15
-      parentId: Ruchbah
       showOrbit: true
+      parentId: Ruchbah
+    isPlanet:
+      age: 7024011685
+      classification: L
+      radius: 2539
+      terranMass: 0.018066488886504563
+      isHabitable: true
+      lifeforms:
+        - Primitive single-celled organisms
+        - Hardy plant life
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 35645
+    temperature: 228
     satellites:
       - name: Ruchbah 6a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 8.03
+          semiMajorAxis: 146257.905556178
+          eccentricity: 0.01
+          inclination: 0.83
+          orbitalArc: 45
+          showOrbit: true
+          parentId: Ruchbah 6
         isPlanet:
-          radius: 516.9885152073435
           age: 9473359443
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 0.5000001497764427
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 516.9885152073435
+          terranMass: 0.5000001497764427
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 36755
         temperature: 146
-        satellite:
-          semiMajorAxis: 146257.905556178
-          eccentricity: 0.01
-          inclination: 0.83
-          orbitalArc: 45
-          axialTilt: 8.03
-          parentId: Ruchbah 6
-          showOrbit: true
-        satellites: []
       - name: Ruchbah 6b
         description: ''
         tags: []
-        isPlanet:
-          radius: 525.0491542514411
-          age: 6570117046
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 293648589
-        temperature: 301
         satellite:
+          axialTilt: 31.49
           semiMajorAxis: 247823.2008066802
           eccentricity: 0
           inclination: 1.62
           orbitalArc: 102
-          axialTilt: 31.49
-          parentId: Ruchbah 6
           showOrbit: true
-        satellites: []
+          parentId: Ruchbah 6
+        isPlanet:
+          age: 6570117046
+          classification: O
+          radius: 525.0491542514411
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 293648589
+        temperature: 301
   - name: Ruchbah 7
     description: ''
     tags: []
-    isPlanet:
-      radius: 33763
-      age: 9957781561
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.20508790452501
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 163
     satellite:
+      axialTilt: 31.29
       semiMajorAxis: 2767354326.112833
       eccentricity: 0.01
       inclination: 0.19
       orbitalArc: 96
-      axialTilt: 31.29
-      parentId: Ruchbah
       showOrbit: true
-    satellites:
-      - name: Ruchbah 7a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 3525.4690126383257
-          age: 984128434
-          ringMapAsset: null
-          terranMass: 1.1599996926720821
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 216
-        satellite:
-          semiMajorAxis: 1374932.914928947
-          eccentricity: 0.01
-          inclination: 0.01
-          orbitalArc: 62
-          axialTilt: 21.67
-          parentId: Ruchbah 7
-          showOrbit: true
-        satellites: []
-  - name: Ruchbah 8
-    description: ''
-    tags: []
+      parentId: Ruchbah
     isPlanet:
-      radius: 320074
-      age: 5384830753
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 8.675921638390498
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_saturn.jpg
-      classification: I
+      age: 9957781561
+      classification: J
+      radius: 33763
+      terranMass: 1.20508790452501
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
-    temperature: 293
-    satellite:
-      semiMajorAxis: 3149734660.8171115
-      eccentricity: 0.02
-      inclination: 1.98
-      orbitalArc: 199
-      axialTilt: 15.12
-      parentId: Ruchbah
-      showOrbit: true
+    temperature: 163
     satellites:
-      - name: Ruchbah 8a
+      - name: Ruchbah 7a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 21.67
+          semiMajorAxis: 1374932.914928947
+          eccentricity: 0.01
+          inclination: 0.01
+          orbitalArc: 62
+          showOrbit: true
+          parentId: Ruchbah 7
         isPlanet:
-          radius: 20404.733730651355
-          age: 739815526
-          ringMapAsset: null
-          terranMass: 1.0899997977336773
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 984128434
           classification: D
+          radius: 3525.4690126383257
+          terranMass: 1.1599996926720821
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 258
+        temperature: 216
+  - name: Ruchbah 8
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 15.12
+      semiMajorAxis: 3149734660.8171115
+      eccentricity: 0.02
+      inclination: 1.98
+      orbitalArc: 199
+      showOrbit: true
+      parentId: Ruchbah
+    isPlanet:
+      age: 5384830753
+      classification: I
+      radius: 320074
+      terranMass: 8.675921638390498
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_saturn.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+    population: 0
+    temperature: 293
+    satellites:
+      - name: Ruchbah 8a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 32.93
           semiMajorAxis: 6892918.463584307
           eccentricity: 0.02
           inclination: 1.53
           orbitalArc: 139
-          axialTilt: 32.93
-          parentId: Ruchbah 8
           showOrbit: true
-        satellites: []
+          parentId: Ruchbah 8
+        isPlanet:
+          age: 739815526
+          classification: D
+          radius: 20404.733730651355
+          terranMass: 1.0899997977336773
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 258
       - name: Ruchbah 8b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 3.62
+          semiMajorAxis: 15447948.238310441
+          eccentricity: 0.02
+          inclination: 0.07
+          orbitalArc: 147
+          showOrbit: true
+          parentId: Ruchbah 8
         isPlanet:
-          radius: 55568.1591306131
           age: 5845909735
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.3000000193773338
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
           classification: H
+          radius: 55568.1591306131
+          terranMass: 1.3000000193773338
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 884
-        satellite:
-          semiMajorAxis: 15447948.238310441
-          eccentricity: 0.02
-          inclination: 0.07
-          orbitalArc: 147
-          axialTilt: 3.62
-          parentId: Ruchbah 8
-          showOrbit: true
-        satellites: []
   - name: Ruchbah 9
     description: ''
     tags: []
+    satellite:
+      axialTilt: 22.3
+      semiMajorAxis: 3895650784
+      eccentricity: 0.01
+      inclination: 1.87
+      orbitalArc: 265
+      showOrbit: true
+      parentId: Ruchbah
     isPlanet:
-      radius: 57315
       age: 7455468698
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: null
-      terranMass: 0.36945527228630504
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 57315
+      terranMass: 0.36945527228630504
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
     population: 0
     temperature: 223
-    satellite:
-      semiMajorAxis: 3895650784
-      eccentricity: 0.01
-      inclination: 1.87
-      orbitalArc: 265
-      axialTilt: 22.3
-      parentId: Ruchbah
-      showOrbit: true
     satellites:
       - name: Ruchbah 9a
         description: ''
         tags: []
-        isPlanet:
-          radius: 5271.570057745166
-          age: 4945316218
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 72947
-        temperature: 258
         satellite:
+          axialTilt: 17.86
           semiMajorAxis: 2400475.4431390734
           eccentricity: 0.02
           inclination: 1.36
           orbitalArc: 38
-          axialTilt: 17.86
-          parentId: Ruchbah 9
           showOrbit: true
-        satellites: []
+          parentId: Ruchbah 9
+        isPlanet:
+          age: 4945316218
+          classification: P
+          radius: 5271.570057745166
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 72947
+        temperature: 258
       - name: Ruchbah 9b
         description: ''
         tags: []
-        isPlanet:
-          radius: 7981.515844425946
-          age: 657874082
-          ringMapAsset: null
-          terranMass: 0.10000008762710069
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1351
         satellite:
+          axialTilt: 13.45
           semiMajorAxis: 3054789.0719419536
           eccentricity: 0.01
           inclination: 1.95
           orbitalArc: 53
-          axialTilt: 13.45
-          parentId: Ruchbah 9
           showOrbit: true
-        satellites: []
+          parentId: Ruchbah 9
+        isPlanet:
+          age: 657874082
+          classification: E
+          radius: 7981.515844425946
+          terranMass: 0.10000008762710069
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1351
       - name: Ruchbah 9c
         description: ''
         tags: []
+        satellite:
+          axialTilt: 26.98
+          semiMajorAxis: 3924713.8928050557
+          eccentricity: 0.01
+          inclination: 1.65
+          orbitalArc: 351
+          showOrbit: true
+          parentId: Ruchbah 9
         isPlanet:
-          radius: 8919.804301829672
           age: 6701715637
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5000001282641601
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 8919.804301829672
+          terranMass: 0.5000001282641601
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 22342
         temperature: 179
-        satellite:
-          semiMajorAxis: 3924713.8928050557
-          eccentricity: 0.01
-          inclination: 1.65
-          orbitalArc: 351
-          axialTilt: 26.98
-          parentId: Ruchbah 9
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

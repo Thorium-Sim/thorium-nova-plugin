@@ -14,89 +14,91 @@ stars:
   - name: Fang A
     description: ''
     tags: []
-    radius: 5
-    temperature: 25230
     solarMass: 12.5
     age: 71165628094
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 5
+    temperature: 25230
     satellite:
-      orbitalArc: 178
-      semiMajorAxis: 60
       axialTilt: 0
+      semiMajorAxis: 60
       eccentricity: 0
       inclination: 0
+      orbitalArc: 178
       showOrbit: false
       parentId: Fang
   - name: Fang B
     description: ''
     tags: []
-    radius: 5
-    temperature: 25230
     solarMass: 12.5
     age: 71165628094
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 5
+    temperature: 25230
     satellite:
-      orbitalArc: 358
-      semiMajorAxis: 60
       axialTilt: 0
+      semiMajorAxis: 60
       eccentricity: 0
       inclination: 0
+      orbitalArc: 358
       showOrbit: false
       parentId: Fang
 planets:
   - name: Fang 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 307
-      age: 651540291
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.01497778704072976
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 301
     satellite:
+      axialTilt: 14.25
       semiMajorAxis: 3767569705
       eccentricity: 0.01
       inclination: 1.3
       orbitalArc: 49
-      axialTilt: 14.25
-      parentId: Fang
       showOrbit: true
-    satellites: []
-  - name: Fang 2
-    description: ''
-    tags: []
+      parentId: Fang
     isPlanet:
-      radius: 228
-      age: 134987036
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0048208915445939506
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      age: 651540291
       classification: D
+      radius: 307
+      terranMass: 0.01497778704072976
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
-    temperature: 172
+    temperature: 301
+    satellites: []
+  - name: Fang 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 27.69
       semiMajorAxis: 5911306965
       eccentricity: 0.01
       inclination: 0.66
       orbitalArc: 201
-      axialTilt: 27.69
-      parentId: Fang
       showOrbit: true
+      parentId: Fang
+    isPlanet:
+      age: 134987036
+      classification: D
+      radius: 228
+      terranMass: 0.0048208915445939506
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 172
     satellites: []
 commSatellite: null
 assets: {}

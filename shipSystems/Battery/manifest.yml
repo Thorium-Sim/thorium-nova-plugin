@@ -30,9 +30,3 @@ entropyMultiplier: 0.0005
 capacity: 2
 chargeRate: 4
 outputRate: 120
-defaultPower: 10
-dischargeRate: 6
-requiredPower: 5
-maxSafePower: 20
-coolantHeatTransferRate: 10
-powerNode: null

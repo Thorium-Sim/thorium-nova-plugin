@@ -14,351 +14,352 @@ stars:
   - name: Algorab A
     description: ''
     tags: []
-    radius: 2.56
-    temperature: 10400
     solarMass: 2.74
     age: 2061135575973
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.56
+    temperature: 10400
     satellite:
-      orbitalArc: 72
-      semiMajorAxis: 30.72
       axialTilt: 0
+      semiMajorAxis: 30.72
       eccentricity: 0
       inclination: 0
+      orbitalArc: 72
       showOrbit: false
       parentId: Algorab
   - name: Algorab B
     description: ''
     tags: []
-    radius: 2.56
-    temperature: 10400
     solarMass: 2.74
     age: 2061135575973
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.56
+    temperature: 10400
     satellite:
-      orbitalArc: 252
-      semiMajorAxis: 30.72
       axialTilt: 0
+      semiMajorAxis: 30.72
       eccentricity: 0
       inclination: 0
+      orbitalArc: 252
       showOrbit: false
       parentId: Algorab
 planets:
   - name: Algorab 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 10.39
+      semiMajorAxis: 520293744
+      eccentricity: 0.01
+      inclination: 0.77
+      orbitalArc: 152
+      showOrbit: true
+      parentId: Algorab
     isPlanet:
-      radius: 3341
       age: 6378267466
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.011531487383641624
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 3341
+      terranMass: 0.011531487383641624
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 4793
     temperature: 177
-    satellite:
-      semiMajorAxis: 520293744
-      eccentricity: 0.01
-      inclination: 0.77
-      orbitalArc: 152
-      axialTilt: 10.39
-      parentId: Algorab
-      showOrbit: true
     satellites: []
   - name: Algorab 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5616
-      age: 9417682237
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.01761388817688308
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 128693414
-    temperature: 584
     satellite:
+      axialTilt: 12.94
       semiMajorAxis: 950923031.9999983
       eccentricity: 0.02
       inclination: 0.74
       orbitalArc: 109
-      axialTilt: 12.94
-      parentId: Algorab
       showOrbit: true
+      parentId: Algorab
+    isPlanet:
+      age: 9417682237
+      classification: 'N'
+      radius: 5616
+      terranMass: 0.01761388817688308
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 128693414
+    temperature: 584
     satellites: []
   - name: Algorab 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5336
-      age: 2457649245
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.04372063424770648
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 538
     satellite:
+      axialTilt: 29.29
       semiMajorAxis: 1254261783.66666
       eccentricity: 0.01
       inclination: 1.8
       orbitalArc: 292
-      axialTilt: 29.29
-      parentId: Algorab
       showOrbit: true
+      parentId: Algorab
+    isPlanet:
+      age: 2457649245
+      classification: F
+      radius: 5336
+      terranMass: 0.04372063424770648
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 538
     satellites:
       - name: Algorab 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 847.9662913869056
-          age: 191887298
-          ringMapAsset: null
-          terranMass: 1.1399996163493185
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 289
         satellite:
+          axialTilt: 27.85
           semiMajorAxis: 149104.30191691397
           eccentricity: 0.02
           inclination: 0.01
           orbitalArc: 37
-          axialTilt: 27.85
-          parentId: Algorab 3
           showOrbit: true
-        satellites: []
-      - name: Algorab 3b
-        description: ''
-        tags: []
+          parentId: Algorab 3
         isPlanet:
-          radius: 758.5791275493287
-          age: 158814763
-          ringMapAsset: null
-          terranMass: 0.20000011728750158
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
+          age: 191887298
+          classification: D
+          radius: 847.9662913869056
+          terranMass: 1.1399996163493185
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 45
+        temperature: 289
+      - name: Algorab 3b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 5.86
           semiMajorAxis: 287594.2148227324
           eccentricity: 0
           inclination: 0.03
           orbitalArc: 114
-          axialTilt: 5.86
-          parentId: Algorab 3
           showOrbit: true
-        satellites: []
+          parentId: Algorab 3
+        isPlanet:
+          age: 158814763
+          classification: C
+          radius: 758.5791275493287
+          terranMass: 0.20000011728750158
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 45
       - name: Algorab 3c
         description: ''
         tags: []
-        isPlanet:
-          radius: 869.8976300874488
-          age: 7974427878
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 34972
-        temperature: 259
         satellite:
+          axialTilt: 34.24
           semiMajorAxis: 409721.78377118835
           eccentricity: 0.01
           inclination: 1.61
           orbitalArc: 193
-          axialTilt: 34.24
-          parentId: Algorab 3
           showOrbit: true
-        satellites: []
+          parentId: Algorab 3
+        isPlanet:
+          age: 7974427878
+          classification: P
+          radius: 869.8976300874488
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 34972
+        temperature: 259
   - name: Algorab 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 1.93
+      semiMajorAxis: 1464502214.8888726
+      eccentricity: 0.02
+      inclination: 0.43
+      orbitalArc: 60
+      showOrbit: true
+      parentId: Algorab
     isPlanet:
-      radius: 3308
       age: 7742148950
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.001547894381061464
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 3308
+      terranMass: 0.001547894381061464
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 35538
     temperature: 176
-    satellite:
-      semiMajorAxis: 1464502214.8888726
-      eccentricity: 0.02
-      inclination: 0.43
-      orbitalArc: 60
-      axialTilt: 1.93
-      parentId: Algorab
-      showOrbit: true
     satellites:
       - name: Algorab 4a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 11.73
+          semiMajorAxis: 87396.0220085014
+          eccentricity: 0.01
+          inclination: 1.56
+          orbitalArc: 353
+          showOrbit: true
+          parentId: Algorab 4
         isPlanet:
-          radius: 216.73360439644512
           age: 3103055499
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
           classification: G
+          radius: 216.73360439644512
+          terranMass: 0.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 530
-        satellite:
-          semiMajorAxis: 87396.0220085014
-          eccentricity: 0.01
-          inclination: 1.56
-          orbitalArc: 353
-          axialTilt: 11.73
-          parentId: Algorab 4
-          showOrbit: true
-        satellites: []
       - name: Algorab 4b
         description: ''
         tags: []
-        isPlanet:
-          radius: 546.0034480387818
-          age: 1209992566
-          ringMapAsset: null
-          terranMass: 1.0000000583015596
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1718
         satellite:
+          axialTilt: 21.47
           semiMajorAxis: 236419.4930007925
           eccentricity: 0.02
           inclination: 0.89
           orbitalArc: 354
-          axialTilt: 21.47
-          parentId: Algorab 4
           showOrbit: true
-        satellites: []
+          parentId: Algorab 4
+        isPlanet:
+          age: 1209992566
+          classification: A
+          radius: 546.0034480387818
+          terranMass: 1.0000000583015596
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1718
   - name: Algorab 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 14.93
+      semiMajorAxis: 1668697457.1480722
+      eccentricity: 0.01
+      inclination: 1.86
+      orbitalArc: 129
+      showOrbit: true
+      parentId: Algorab
     isPlanet:
-      radius: 2979
       age: 6206057324
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.004945775336873302
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 2979
+      terranMass: 0.004945775336873302
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 30937
     temperature: 198
-    satellite:
-      semiMajorAxis: 1668697457.1480722
-      eccentricity: 0.01
-      inclination: 1.86
-      orbitalArc: 129
-      axialTilt: 14.93
-      parentId: Algorab
-      showOrbit: true
     satellites: []
   - name: Algorab 6
     description: ''
     tags: []
-    isPlanet:
-      radius: 2964
-      age: 30279113
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.03221483727699588
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 48
     satellite:
+      axialTilt: 0.9
       semiMajorAxis: 2474387340.1480727
       eccentricity: 0
       inclination: 1.64
       orbitalArc: 173
-      axialTilt: 0.9
-      parentId: Algorab
       showOrbit: true
+      parentId: Algorab
+    isPlanet:
+      age: 30279113
+      classification: C
+      radius: 2964
+      terranMass: 0.03221483727699588
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 48
     satellites: []
   - name: Algorab 7
     description: ''
     tags: []
+    satellite:
+      axialTilt: 19.42
+      semiMajorAxis: 3874717308
+      eccentricity: 0
+      inclination: 1.63
+      orbitalArc: 6
+      showOrbit: true
+      parentId: Algorab
     isPlanet:
-      radius: 54781
       age: 5513406237
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: null
-      terranMass: 0.38446740035071675
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 54781
+      terranMass: 0.38446740035071675
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
     population: 0
     temperature: 273
-    satellite:
-      semiMajorAxis: 3874717308
-      eccentricity: 0
-      inclination: 1.63
-      orbitalArc: 6
-      axialTilt: 19.42
-      parentId: Algorab
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

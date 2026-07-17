@@ -14,118 +14,116 @@ stars:
   - name: Skat A
     description: ''
     tags: []
-    radius: 4.16
-    temperature: 8650
     solarMass: 3.19
     age: 1898929653244
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.16
+    temperature: 8650
     satellite:
-      orbitalArc: 220
-      semiMajorAxis: 49.92
       axialTilt: 0
+      semiMajorAxis: 49.92
       eccentricity: 0
       inclination: 0
+      orbitalArc: 220
       showOrbit: false
       parentId: Skat
   - name: Skat B
     description: ''
     tags: []
-    radius: 4.16
-    temperature: 8650
     solarMass: 3.19
     age: 1898929653244
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.16
+    temperature: 8650
     satellite:
-      orbitalArc: 400
-      semiMajorAxis: 49.92
       axialTilt: 0
+      semiMajorAxis: 49.92
       eccentricity: 0
       inclination: 0
+      orbitalArc: 400
       showOrbit: false
       parentId: Skat
 planets:
   - name: Skat 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 24.49
+      semiMajorAxis: 1800948457
+      eccentricity: 0
+      inclination: 1.3
+      orbitalArc: 222
+      showOrbit: true
+      parentId: Skat
     isPlanet:
-      radius: 5299
       age: 4192558041
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.004389808455636942
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 5299
+      terranMass: 0.004389808455636942
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 4236
     temperature: 300
-    satellite:
-      semiMajorAxis: 1800948457
-      eccentricity: 0
-      inclination: 1.3
-      orbitalArc: 222
-      axialTilt: 24.49
-      parentId: Skat
-      showOrbit: true
     satellites:
       - name: Skat 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1219.4523858643142
-          age: 9824461939
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 134216
-        temperature: 260
         satellite:
+          axialTilt: 39.21
           semiMajorAxis: 240881.3311585484
           eccentricity: 0.01
           inclination: 1.6
           orbitalArc: 113
-          axialTilt: 39.21
-          parentId: Skat 1
           showOrbit: true
-        satellites: []
-      - name: Skat 1b
-        description: ''
-        tags: []
+          parentId: Skat 1
         isPlanet:
-          radius: 1125.6168431306648
-          age: 8886299387
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 9824461939
           classification: P
+          radius: 1219.4523858643142
+          terranMass: 0.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 67531
-        temperature: 256
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 134216
+        temperature: 260
+      - name: Skat 1b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 36.74
           semiMajorAxis: 428860.0172327833
           eccentricity: 0
           inclination: 0.43
           orbitalArc: 276
-          axialTilt: 36.74
-          parentId: Skat 1
           showOrbit: true
-        satellites: []
+          parentId: Skat 1
+        isPlanet:
+          age: 8886299387
+          classification: P
+          radius: 1125.6168431306648
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 67531
+        temperature: 256
 commSatellite: null
 assets: {}

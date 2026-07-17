@@ -14,64 +14,65 @@ stars:
   - name: Alkaid A
     description: ''
     tags: []
-    radius: 3.4
-    temperature: 15540
     solarMass: 6.1
     age: 521839834177
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 3.4
+    temperature: 15540
     satellite:
-      orbitalArc: 310
-      semiMajorAxis: 40.8
       axialTilt: 0
+      semiMajorAxis: 40.8
       eccentricity: 0
       inclination: 0
+      orbitalArc: 310
       showOrbit: false
       parentId: Alkaid
   - name: Alkaid B
     description: ''
     tags: []
-    radius: 3.4
-    temperature: 15540
     solarMass: 6.1
     age: 521839834177
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 3.4
+    temperature: 15540
     satellite:
-      orbitalArc: 490
-      semiMajorAxis: 40.8
       axialTilt: 0
+      semiMajorAxis: 40.8
       eccentricity: 0
       inclination: 0
+      orbitalArc: 490
       showOrbit: false
       parentId: Alkaid
 planets:
   - name: Alkaid 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 481
-      age: 956814143
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.0017471565498824908
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 265
     satellite:
+      axialTilt: 34.98
       semiMajorAxis: 4000000000
       eccentricity: 0.01
       inclination: 0.96
       orbitalArc: 342
-      axialTilt: 34.98
-      parentId: Alkaid
       showOrbit: true
+      parentId: Alkaid
+    isPlanet:
+      age: 956814143
+      classification: D
+      radius: 481
+      terranMass: 0.0017471565498824908
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 265
     satellites: []
 commSatellite: null
 assets: {}

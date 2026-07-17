@@ -48,10 +48,5 @@ headingDegree: 330
 pitchDegree: 0
 fullChargeYield: 0.1
 yieldMultiplier: 100
-legacyPhaserBanks:
-  - 181
-  - 182
+legacyPhaserBanks: 2
 legacyChargeSpeed: 1
-defaultPower: 10
-requiredPower: 5
-maxSafePower: 20

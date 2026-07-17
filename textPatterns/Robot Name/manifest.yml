@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Robot Name
+description: ''
+textPattern: RANDOM(1,9)-{#Letter Combos} {#Cool Adjectives} {#Cool Nouns}
+category: Engineering Panels
+assets: {}

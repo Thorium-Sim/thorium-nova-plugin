@@ -14,272 +14,271 @@ stars:
   - name: Sirius A
     description: ''
     tags: []
-    radius: 1.713
-    temperature: 9845
     solarMass: 2.063
     age: 4316094099357
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.713
+    temperature: 9845
     satellite:
-      orbitalArc: 49
-      semiMajorAxis: 20.556
       axialTilt: 0
+      semiMajorAxis: 20.556
       eccentricity: 0
       inclination: 0
+      orbitalArc: 49
       showOrbit: false
       parentId: Sirius
   - name: Sirius B
     description: ''
     tags: []
-    radius: 1.713
-    temperature: 9845
     solarMass: 2.063
     age: 4316094099357
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.713
+    temperature: 9845
     satellite:
-      orbitalArc: 229
-      semiMajorAxis: 20.556
       axialTilt: 0
+      semiMajorAxis: 20.556
       eccentricity: 0
       inclination: 0
+      orbitalArc: 229
       showOrbit: false
       parentId: Sirius
 planets:
   - name: Sirius 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 24.25
+      semiMajorAxis: 412444978.6666672
+      eccentricity: 0
+      inclination: 1.97
+      orbitalArc: 81
+      showOrbit: true
+      parentId: Sirius
     isPlanet:
-      radius: 5254
       age: 7594376105
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.02789490310945202
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 5254
+      terranMass: 0.02789490310945202
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
     temperature: 676
-    satellite:
-      semiMajorAxis: 412444978.6666672
-      eccentricity: 0
-      inclination: 1.97
-      orbitalArc: 81
-      axialTilt: 24.25
-      parentId: Sirius
-      showOrbit: true
     satellites:
       - name: Sirius 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 262.87617548470763
-          age: 871172152
-          ringMapAsset: null
-          terranMass: 1.389999797204598
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 234
         satellite:
+          axialTilt: 7.49
           semiMajorAxis: 231080.5749859393
           eccentricity: 0.01
           inclination: 1.94
           orbitalArc: 84
-          axialTilt: 7.49
-          parentId: Sirius 1
           showOrbit: true
-        satellites: []
-      - name: Sirius 1b
-        description: ''
-        tags: []
+          parentId: Sirius 1
         isPlanet:
-          radius: 1075.7843558298623
-          age: 1774197390
-          ringMapAsset: null
-          terranMass: 0.5000001267293669
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-          classification: E
+          age: 871172152
+          classification: D
+          radius: 262.87617548470763
+          terranMass: 1.389999797204598
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 1127
+        temperature: 234
+      - name: Sirius 1b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 8.51
           semiMajorAxis: 386206.58374292054
           eccentricity: 0.01
           inclination: 1.55
           orbitalArc: 99
-          axialTilt: 8.51
-          parentId: Sirius 1
           showOrbit: true
-        satellites: []
+          parentId: Sirius 1
+        isPlanet:
+          age: 1774197390
+          classification: E
+          radius: 1075.7843558298623
+          terranMass: 0.5000001267293669
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1127
   - name: Sirius 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6653
-      age: 8753256614
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.004195322223635232
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 250737451
-    temperature: 474
     satellite:
+      axialTilt: 39
       semiMajorAxis: 613107458.444447
       eccentricity: 0.01
       inclination: 0.39
       orbitalArc: 279
-      axialTilt: 39
-      parentId: Sirius
       showOrbit: true
+      parentId: Sirius
+    isPlanet:
+      age: 8753256614
+      classification: 'N'
+      radius: 6653
+      terranMass: 0.004195322223635232
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 250737451
+    temperature: 474
     satellites:
       - name: Sirius 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1169.3087356550056
-          age: 7093589499
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 87289
-        temperature: 262
         satellite:
+          axialTilt: 37.41
           semiMajorAxis: 147642.14496153867
           eccentricity: 0
           inclination: 2
           orbitalArc: 160
-          axialTilt: 37.41
-          parentId: Sirius 2
           showOrbit: true
-        satellites: []
+          parentId: Sirius 2
+        isPlanet:
+          age: 7093589499
+          classification: P
+          radius: 1169.3087356550056
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 87289
+        temperature: 262
       - name: Sirius 2b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 13.91
+          semiMajorAxis: 401154.8784587198
+          eccentricity: 0.01
+          inclination: 0.47
+          orbitalArc: 283
+          showOrbit: true
+          parentId: Sirius 2
         isPlanet:
-          radius: 877.2163740106549
           age: 9989677295
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 1.100000039614614
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 877.2163740106549
+          terranMass: 1.100000039614614
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 46840
         temperature: 227
-        satellite:
-          semiMajorAxis: 401154.8784587198
-          eccentricity: 0.01
-          inclination: 0.47
-          orbitalArc: 283
-          axialTilt: 13.91
-          parentId: Sirius 2
-          showOrbit: true
-        satellites: []
       - name: Sirius 2c
         description: ''
         tags: []
-        isPlanet:
-          radius: 1404.9571976159252
-          age: 6470190611
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 138115
-        temperature: 264
         satellite:
+          axialTilt: 1.32
           semiMajorAxis: 539503.5638845153
           eccentricity: 0.02
           inclination: 0.7
           orbitalArc: 205
-          axialTilt: 1.32
-          parentId: Sirius 2
           showOrbit: true
-        satellites: []
+          parentId: Sirius 2
+        isPlanet:
+          age: 6470190611
+          classification: P
+          radius: 1404.9571976159252
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 138115
+        temperature: 264
   - name: Sirius 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 80
-      age: 806264925
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.005042516425235743
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 181
     satellite:
+      axialTilt: 7.98
       semiMajorAxis: 857819480.3333405
       eccentricity: 0.02
       inclination: 0.26
       orbitalArc: 210
-      axialTilt: 7.98
-      parentId: Sirius
       showOrbit: true
-    satellites: []
-  - name: Sirius 4
-    description: ''
-    tags: []
+      parentId: Sirius
     isPlanet:
-      radius: 160
-      age: 214738824
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.02198862721792956
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      age: 806264925
       classification: D
+      radius: 80
+      terranMass: 0.005042516425235743
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
-    temperature: 342
+    temperature: 181
+    satellites: []
+  - name: Sirius 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 39.29
       semiMajorAxis: 1059625102
       eccentricity: 0.01
       inclination: 1.16
       orbitalArc: 1
-      axialTilt: 39.29
-      parentId: Sirius
       showOrbit: true
+      parentId: Sirius
+    isPlanet:
+      age: 214738824
+      classification: D
+      radius: 160
+      terranMass: 0.02198862721792956
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 342
     satellites: []
 commSatellite: null
 assets: {}

@@ -14,141 +14,144 @@ stars:
   - name: Atik A
     description: ''
     tags: []
-    radius: 9.6
-    temperature: 22700
     solarMass: 14
     age: 32995250150
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 9.6
+    temperature: 22700
     satellite:
-      orbitalArc: 82
-      semiMajorAxis: 115.19999999999999
       axialTilt: 0
+      semiMajorAxis: 115.19999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 82
       showOrbit: false
       parentId: Atik
   - name: Atik B
     description: ''
     tags: []
-    radius: 9.6
-    temperature: 22700
     solarMass: 14
     age: 32995250150
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 9.6
+    temperature: 22700
     satellite:
-      orbitalArc: 262
-      semiMajorAxis: 115.19999999999999
       axialTilt: 0
+      semiMajorAxis: 115.19999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 262
       showOrbit: false
       parentId: Atik
 planets:
   - name: Atik 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 352
-      age: 752575062
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.002141596461362342
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 351
     satellite:
+      axialTilt: 29.17
       semiMajorAxis: 1655348319.6666658
       eccentricity: 0.01
       inclination: 1.3
       orbitalArc: 328
-      axialTilt: 29.17
-      parentId: Atik
       showOrbit: true
-    satellites: []
-  - name: Atik 2
-    description: ''
-    tags: []
+      parentId: Atik
     isPlanet:
-      radius: 193
-      age: 591773208
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.007578290750677352
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      age: 752575062
       classification: D
+      radius: 352
+      terranMass: 0.002141596461362342
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
-    temperature: 153
+    temperature: 351
+    satellites: []
+  - name: Atik 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 29.96
       semiMajorAxis: 6036000557.111111
       eccentricity: 0.01
       inclination: 1.67
       orbitalArc: 29
-      axialTilt: 29.96
-      parentId: Atik
       showOrbit: true
+      parentId: Atik
+    isPlanet:
+      age: 591773208
+      classification: D
+      radius: 193
+      terranMass: 0.007578290750677352
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 153
     satellites: []
   - name: Atik 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 32.88
+      semiMajorAxis: 10223068031.74074
+      eccentricity: 0.01
+      inclination: 0.56
+      orbitalArc: 282
+      showOrbit: true
+      parentId: Atik
     isPlanet:
-      radius: 2686
       age: 8291833481
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.017342641323183795
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 2686
+      terranMass: 0.017342641323183795
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 14180
     temperature: 154
-    satellite:
-      semiMajorAxis: 10223068031.74074
-      eccentricity: 0.01
-      inclination: 0.56
-      orbitalArc: 282
-      axialTilt: 32.88
-      parentId: Atik
-      showOrbit: true
     satellites: []
   - name: Atik 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 285
-      age: 501854616
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.014127529800224626
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 347
     satellite:
+      axialTilt: 21.34
       semiMajorAxis: 14529870334
       eccentricity: 0.01
       inclination: 1.29
       orbitalArc: 248
-      axialTilt: 21.34
-      parentId: Atik
       showOrbit: true
+      parentId: Atik
+    isPlanet:
+      age: 501854616
+      classification: D
+      radius: 285
+      terranMass: 0.014127529800224626
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 347
     satellites: []
 commSatellite: null
 assets: {}

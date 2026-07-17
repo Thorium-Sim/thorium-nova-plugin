@@ -14,37 +14,37 @@ stars:
   - name: Cujam A
     description: ''
     tags: []
-    radius: 3.3
-    temperature: 10052
     solarMass: 2.14
     age: 1110056945130
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 3.3
+    temperature: 10052
     satellite:
-      orbitalArc: 271
-      semiMajorAxis: 39.599999999999994
       axialTilt: 0
+      semiMajorAxis: 39.599999999999994
       eccentricity: 0
       inclination: 0
+      orbitalArc: 271
       showOrbit: false
       parentId: Cujam
   - name: Cujam B
     description: ''
     tags: []
-    radius: 3.3
-    temperature: 10052
     solarMass: 2.14
     age: 1110056945130
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 3.3
+    temperature: 10052
     satellite:
-      orbitalArc: 451
-      semiMajorAxis: 39.599999999999994
       axialTilt: 0
+      semiMajorAxis: 39.599999999999994
       eccentricity: 0
       inclination: 0
+      orbitalArc: 451
       showOrbit: false
       parentId: Cujam
 planets: []

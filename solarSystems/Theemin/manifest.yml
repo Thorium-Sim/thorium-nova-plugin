@@ -14,142 +14,141 @@ stars:
   - name: Theemin A
     description: ''
     tags: []
-    radius: 14.09
-    temperature: 5023
     solarMass: 3.15
     age: 1437491016830
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.09
+    temperature: 5023
     satellite:
-      orbitalArc: 19
-      semiMajorAxis: 169.07999999999998
       axialTilt: 0
+      semiMajorAxis: 169.07999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 19
       showOrbit: false
       parentId: Theemin
   - name: Theemin B
     description: ''
     tags: []
-    radius: 14.09
-    temperature: 5023
     solarMass: 3.15
     age: 1437491016830
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.09
+    temperature: 5023
     satellite:
-      orbitalArc: 199
-      semiMajorAxis: 169.07999999999998
       axialTilt: 0
+      semiMajorAxis: 169.07999999999998
       eccentricity: 0
       inclination: 0
+      orbitalArc: 199
       showOrbit: false
       parentId: Theemin
 planets:
   - name: Theemin 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5759
-      age: 1194590590
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.007772324946657689
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 836
     satellite:
+      axialTilt: 7.91
       semiMajorAxis: 2024704870
       eccentricity: 0
       inclination: 1.03
       orbitalArc: 12
-      axialTilt: 7.91
-      parentId: Theemin
       showOrbit: true
+      parentId: Theemin
+    isPlanet:
+      age: 1194590590
+      classification: E
+      radius: 5759
+      terranMass: 0.007772324946657689
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 836
     satellites:
       - name: Theemin 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 491.7286463590988
-          age: 1824591253
-          ringMapAsset: null
-          terranMass: 0.30000027571810006
-          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1480
         satellite:
+          axialTilt: 25.6
           semiMajorAxis: 163718.42719220248
           eccentricity: 0
           inclination: 0.24
           orbitalArc: 225
-          axialTilt: 25.6
-          parentId: Theemin 1
           showOrbit: true
-        satellites: []
+          parentId: Theemin 1
+        isPlanet:
+          age: 1824591253
+          classification: A
+          radius: 491.7286463590988
+          terranMass: 0.30000027571810006
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1480
       - name: Theemin 1b
         description: ''
         tags: []
-        isPlanet:
-          radius: 731.2658695226107
-          age: 6078364011
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 119088
-        temperature: 255
         satellite:
+          axialTilt: 26.81
           semiMajorAxis: 308644.9763502488
           eccentricity: 0.01
           inclination: 0.91
           orbitalArc: 117
-          axialTilt: 26.81
-          parentId: Theemin 1
           showOrbit: true
-        satellites: []
+          parentId: Theemin 1
+        isPlanet:
+          age: 6078364011
+          classification: P
+          radius: 731.2658695226107
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 119088
+        temperature: 255
       - name: Theemin 1c
         description: ''
         tags: []
+        satellite:
+          axialTilt: 35.67
+          semiMajorAxis: 441961.6452920064
+          eccentricity: 0.01
+          inclination: 1.65
+          orbitalArc: 143
+          showOrbit: true
+          parentId: Theemin 1
         isPlanet:
-          radius: 1136.1481884113275
           age: 8650914813
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 2.100000091404599
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 1136.1481884113275
+          terranMass: 2.100000091404599
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 26091
         temperature: 186
-        satellite:
-          semiMajorAxis: 441961.6452920064
-          eccentricity: 0.01
-          inclination: 1.65
-          orbitalArc: 143
-          axialTilt: 35.67
-          parentId: Theemin 1
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

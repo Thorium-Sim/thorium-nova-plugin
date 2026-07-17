@@ -14,114 +14,116 @@ stars:
   - name: Alzirr A
     description: ''
     tags: []
-    radius: 2.71
-    temperature: 6480
     solarMass: 1.706
     age: 7598182244984
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.71
+    temperature: 6480
     satellite:
-      orbitalArc: 323
-      semiMajorAxis: 32.519999999999996
       axialTilt: 0
+      semiMajorAxis: 32.519999999999996
       eccentricity: 0
       inclination: 0
+      orbitalArc: 323
       showOrbit: false
       parentId: Alzirr
   - name: Alzirr B
     description: ''
     tags: []
-    radius: 2.71
-    temperature: 6480
     solarMass: 1.706
     age: 7598182244984
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.71
+    temperature: 6480
     satellite:
-      orbitalArc: 503
-      semiMajorAxis: 32.519999999999996
       axialTilt: 0
+      semiMajorAxis: 32.519999999999996
       eccentricity: 0
       inclination: 0
+      orbitalArc: 503
       showOrbit: false
       parentId: Alzirr
 planets:
   - name: Alzirr 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 3765
-      age: 360809438
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.005915087810373122
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 47
     satellite:
+      axialTilt: 6.59
       semiMajorAxis: 456784488
       eccentricity: 0.01
       inclination: 1.66
       orbitalArc: 19
-      axialTilt: 6.59
-      parentId: Alzirr
       showOrbit: true
-    satellites:
-      - name: Alzirr 1a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 836.8325807270787
-          age: 646354172
-          ringMapAsset: null
-          terranMass: 1.0899998838951357
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 177
-        satellite:
-          semiMajorAxis: 227618.46195776542
-          eccentricity: 0.01
-          inclination: 0.58
-          orbitalArc: 73
-          axialTilt: 7.71
-          parentId: Alzirr 1
-          showOrbit: true
-        satellites: []
-  - name: Alzirr 2
-    description: ''
-    tags: []
+      parentId: Alzirr
     isPlanet:
-      radius: 177
-      age: 608738496
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.02208788119251177
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
+      age: 360809438
+      classification: C
+      radius: 3765
+      terranMass: 0.005915087810373122
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
-    temperature: 337
+    temperature: 47
+    satellites:
+      - name: Alzirr 1a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 7.71
+          semiMajorAxis: 227618.46195776542
+          eccentricity: 0.01
+          inclination: 0.58
+          orbitalArc: 73
+          showOrbit: true
+          parentId: Alzirr 1
+        isPlanet:
+          age: 646354172
+          classification: D
+          radius: 836.8325807270787
+          terranMass: 1.0899998838951357
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 177
+  - name: Alzirr 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 7.76
       semiMajorAxis: 972367620
       eccentricity: 0.01
       inclination: 1.7
       orbitalArc: 317
-      axialTilt: 7.76
-      parentId: Alzirr
       showOrbit: true
+      parentId: Alzirr
+    isPlanet:
+      age: 608738496
+      classification: D
+      radius: 177
+      terranMass: 0.02208788119251177
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 337
     satellites: []
 commSatellite: null
 assets: {}

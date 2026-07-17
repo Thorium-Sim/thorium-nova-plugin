@@ -14,246 +14,244 @@ stars:
   - name: Polaris A
     description: ''
     tags: []
-    radius: 46.27
-    temperature: 6015
     solarMass: 5.13
     age: 105571118750
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 46.27
+    temperature: 6015
     satellite:
-      orbitalArc: 323
-      semiMajorAxis: 555.24
       axialTilt: 0
+      semiMajorAxis: 555.24
       eccentricity: 0
       inclination: 0
+      orbitalArc: 323
       showOrbit: false
       parentId: Polaris
   - name: Polaris B
     description: ''
     tags: []
-    radius: 46.27
-    temperature: 6015
     solarMass: 5.13
     age: 105571118750
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 46.27
+    temperature: 6015
     satellite:
-      orbitalArc: 503
-      semiMajorAxis: 555.24
       axialTilt: 0
+      semiMajorAxis: 555.24
       eccentricity: 0
       inclination: 0
+      orbitalArc: 503
       showOrbit: false
       parentId: Polaris
 planets:
   - name: Polaris 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 25.77
+      semiMajorAxis: 1821818395.3333333
+      eccentricity: 0.01
+      inclination: 0.3
+      orbitalArc: 4
+      showOrbit: true
+      parentId: Polaris
     isPlanet:
-      radius: 52405
       age: 7659560394
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 1.0533243033355857
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 52405
+      terranMass: 1.0533243033355857
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 303
-    satellite:
-      semiMajorAxis: 1821818395.3333333
-      eccentricity: 0.01
-      inclination: 0.3
-      orbitalArc: 4
-      axialTilt: 25.77
-      parentId: Polaris
-      showOrbit: true
     satellites:
       - name: Polaris 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 14.64
+          semiMajorAxis: 1580914.4977391292
+          eccentricity: 0
+          inclination: 0.73
+          orbitalArc: 251
+          showOrbit: true
+          parentId: Polaris 1
         isPlanet:
-          radius: 4773.92306702588
           age: 5448120905
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 1.1000000214441914
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 4773.92306702588
+          terranMass: 1.1000000214441914
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 31334
         temperature: 314
-        satellite:
-          semiMajorAxis: 1580914.4977391292
-          eccentricity: 0
-          inclination: 0.73
-          orbitalArc: 251
-          axialTilt: 14.64
-          parentId: Polaris 1
-          showOrbit: true
-        satellites: []
       - name: Polaris 1b
         description: ''
         tags: []
-        isPlanet:
-          radius: 8775.75289665349
-          age: 529812927
-          ringMapAsset: null
-          terranMass: 0.4199999874042788
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 151
         satellite:
+          axialTilt: 4.44
           semiMajorAxis: 2327524.0832523885
           eccentricity: 0.01
           inclination: 0.03
           orbitalArc: 23
-          axialTilt: 4.44
-          parentId: Polaris 1
           showOrbit: true
-        satellites: []
-      - name: Polaris 1c
-        description: ''
-        tags: []
+          parentId: Polaris 1
         isPlanet:
-          radius: 9443.39595281604
-          age: 593172025
-          ringMapAsset: null
-          terranMass: 1.1199999071959892
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 529812927
           classification: D
+          radius: 8775.75289665349
+          terranMass: 0.4199999874042788
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 351
+        temperature: 151
+      - name: Polaris 1c
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 23.54
           semiMajorAxis: 3550716.878258831
           eccentricity: 0.02
           inclination: 1.33
           orbitalArc: 264
-          axialTilt: 23.54
+          showOrbit: true
           parentId: Polaris 1
-          showOrbit: true
-        satellites: []
-  - name: Polaris 2
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 2271
-      age: 649461840
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.004245289445173829
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 37
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0.01
-      inclination: 0.38
-      orbitalArc: 43
-      axialTilt: 36.63
-      parentId: Polaris
-      showOrbit: true
-    satellites:
-      - name: Polaris 2a
-        description: ''
-        tags: []
         isPlanet:
-          radius: 269.1951529819391
-          age: 6921700484
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 7212054064
-        temperature: 291
-        satellite:
-          semiMajorAxis: 62007.16073250925
-          eccentricity: 0
-          inclination: 0.34
-          orbitalArc: 124
-          axialTilt: 19.95
-          parentId: Polaris 2
-          showOrbit: true
-        satellites: []
-      - name: Polaris 2b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 384.0044243246211
-          age: 4912447647
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 136367
-        temperature: 269
-        satellite:
-          semiMajorAxis: 88692.82110444069
-          eccentricity: 0.01
-          inclination: 1.38
-          orbitalArc: 77
-          axialTilt: 4.89
-          parentId: Polaris 2
-          showOrbit: true
-        satellites: []
-      - name: Polaris 2c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 492.18497848122735
-          age: 2853279051
-          ringMapAsset: null
-          terranMass: 0.40000052350343684
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
-          classification: B
+          age: 593172025
+          classification: D
+          radius: 9443.39595281604
+          terranMass: 1.1199999071959892
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 610
+        temperature: 351
+  - name: Polaris 2
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 36.63
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.38
+      orbitalArc: 43
+      showOrbit: true
+      parentId: Polaris
+    isPlanet:
+      age: 649461840
+      classification: C
+      radius: 2271
+      terranMass: 0.004245289445173829
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 37
+    satellites:
+      - name: Polaris 2a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 19.95
+          semiMajorAxis: 62007.16073250925
+          eccentricity: 0
+          inclination: 0.34
+          orbitalArc: 124
+          showOrbit: true
+          parentId: Polaris 2
+        isPlanet:
+          age: 6921700484
+          classification: M
+          radius: 269.1951529819391
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 7212054064
+        temperature: 291
+      - name: Polaris 2b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 4.89
+          semiMajorAxis: 88692.82110444069
+          eccentricity: 0.01
+          inclination: 1.38
+          orbitalArc: 77
+          showOrbit: true
+          parentId: Polaris 2
+        isPlanet:
+          age: 4912447647
+          classification: P
+          radius: 384.0044243246211
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 136367
+        temperature: 269
+      - name: Polaris 2c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 33.44
           semiMajorAxis: 124030.6145772693
           eccentricity: 0.02
           inclination: 0.11
           orbitalArc: 194
-          axialTilt: 33.44
-          parentId: Polaris 2
           showOrbit: true
-        satellites: []
+          parentId: Polaris 2
+        isPlanet:
+          age: 2853279051
+          classification: B
+          radius: 492.18497848122735
+          terranMass: 0.40000052350343684
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_mercury.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 610
 commSatellite: null
 assets: {}

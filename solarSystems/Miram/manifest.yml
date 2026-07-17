@@ -14,165 +14,166 @@ stars:
   - name: Miram A
     description: ''
     tags: []
-    radius: 173
-    temperature: 4082
     solarMass: 8
     age: 55523273582
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 173
+    temperature: 4082
     satellite:
-      orbitalArc: 337
-      semiMajorAxis: 2076
       axialTilt: 0
+      semiMajorAxis: 2076
       eccentricity: 0
       inclination: 0
+      orbitalArc: 337
       showOrbit: false
       parentId: Miram
   - name: Miram B
     description: ''
     tags: []
-    radius: 173
-    temperature: 4082
     solarMass: 8
     age: 55523273582
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 173
+    temperature: 4082
     satellite:
-      orbitalArc: 517
-      semiMajorAxis: 2076
       axialTilt: 0
+      semiMajorAxis: 2076
       eccentricity: 0
       inclination: 0
+      orbitalArc: 517
       showOrbit: false
       parentId: Miram
 planets:
   - name: Miram 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6141
-      age: 6395568531
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.024692048582293107
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 161698
-    temperature: 261
     satellite:
+      axialTilt: 18.02
       semiMajorAxis: 3321233737
       eccentricity: 0.01
       inclination: 0.71
       orbitalArc: 187
-      axialTilt: 18.02
-      parentId: Miram
       showOrbit: true
+      parentId: Miram
+    isPlanet:
+      age: 6395568531
+      classification: P
+      radius: 6141
+      terranMass: 0.024692048582293107
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 161698
+    temperature: 261
     satellites:
       - name: Miram 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 706.6339107899657
-          age: 1283257189
-          ringMapAsset: null
-          terranMass: 0.7000000615046246
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 728
         satellite:
+          axialTilt: 25.9
           semiMajorAxis: 183416.28313872777
           eccentricity: 0.01
           inclination: 0.15
           orbitalArc: 329
-          axialTilt: 25.9
-          parentId: Miram 1
           showOrbit: true
-        satellites: []
-      - name: Miram 1b
-        description: ''
-        tags: []
+          parentId: Miram 1
         isPlanet:
-          radius: 1166.3146718280773
-          age: 389612029
-          ringMapAsset: null
-          terranMass: 0.32999982910622827
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
+          age: 1283257189
+          classification: F
+          radius: 706.6339107899657
+          terranMass: 0.7000000615046246
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 283
+        temperature: 728
+      - name: Miram 1b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 20.9
           semiMajorAxis: 413998.4773934324
           eccentricity: 0.01
           inclination: 1.15
           orbitalArc: 128
-          axialTilt: 20.9
-          parentId: Miram 1
           showOrbit: true
-        satellites: []
-      - name: Miram 1c
-        description: ''
-        tags: []
+          parentId: Miram 1
         isPlanet:
-          radius: 1527.7608853798386
-          age: 700831281
-          ringMapAsset: null
-          terranMass: 1.3000000446445665
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
+          age: 389612029
+          classification: D
+          radius: 1166.3146718280773
+          terranMass: 0.32999982910622827
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 48
+        temperature: 283
+      - name: Miram 1c
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 15.29
           semiMajorAxis: 627909.7238911137
           eccentricity: 0.02
           inclination: 0.25
           orbitalArc: 350
-          axialTilt: 15.29
-          parentId: Miram 1
           showOrbit: true
-        satellites: []
+          parentId: Miram 1
+        isPlanet:
+          age: 700831281
+          classification: C
+          radius: 1527.7608853798386
+          terranMass: 1.3000000446445665
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 48
   - name: Miram 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 1085
-      age: 185824016
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.013157348934551515
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 33
     satellite:
+      axialTilt: 37.22
       semiMajorAxis: 8154985764
       eccentricity: 0.02
       inclination: 0.21
       orbitalArc: 309
-      axialTilt: 37.22
-      parentId: Miram
       showOrbit: true
+      parentId: Miram
+    isPlanet:
+      age: 185824016
+      classification: C
+      radius: 1085
+      terranMass: 0.013157348934551515
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 33
     satellites: []
 commSatellite: null
 assets: {}

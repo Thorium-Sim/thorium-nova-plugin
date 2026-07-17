@@ -14,195 +14,193 @@ stars:
   - name: Khambalia A
     description: ''
     tags: []
-    radius: 2.35
-    temperature: 8280
     solarMass: 1.897
     age: 4214824963796
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.35
+    temperature: 8280
     satellite:
-      orbitalArc: 212
-      semiMajorAxis: 28.200000000000003
       axialTilt: 0
+      semiMajorAxis: 28.200000000000003
       eccentricity: 0
       inclination: 0
+      orbitalArc: 212
       showOrbit: false
       parentId: Khambalia
   - name: Khambalia B
     description: ''
     tags: []
-    radius: 2.35
-    temperature: 8280
     solarMass: 1.897
     age: 4214824963796
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.35
+    temperature: 8280
     satellite:
-      orbitalArc: 392
-      semiMajorAxis: 28.200000000000003
       axialTilt: 0
+      semiMajorAxis: 28.200000000000003
       eccentricity: 0
       inclination: 0
+      orbitalArc: 392
       showOrbit: false
       parentId: Khambalia
 planets:
   - name: Khambalia 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 10.91
+      semiMajorAxis: 314501914.33333266
+      eccentricity: 0.01
+      inclination: 1.01
+      orbitalArc: 282
+      showOrbit: true
+      parentId: Khambalia
     isPlanet:
-      radius: 4820
       age: 6192760398
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: null
-      terranMass: 0.0026001316026073797
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4820
+      terranMass: 0.0026001316026073797
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
     population: 12907
     temperature: 136
-    satellite:
-      semiMajorAxis: 314501914.33333266
-      eccentricity: 0.01
-      inclination: 1.01
-      orbitalArc: 282
-      axialTilt: 10.91
-      parentId: Khambalia
-      showOrbit: true
     satellites:
       - name: Khambalia 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 602.6382114662877
-          age: 5468907062
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-          classification: 'N'
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 345277293
-        temperature: 639
         satellite:
+          axialTilt: 21.54
           semiMajorAxis: 275405.6626400935
           eccentricity: 0.02
           inclination: 1
           orbitalArc: 299
-          axialTilt: 21.54
-          parentId: Khambalia 1
           showOrbit: true
-        satellites: []
+          parentId: Khambalia 1
+        isPlanet:
+          age: 5468907062
+          classification: 'N'
+          radius: 602.6382114662877
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 345277293
+        temperature: 639
   - name: Khambalia 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 7452
-      age: 2197675345
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0194354044301481
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 795
     satellite:
+      axialTilt: 17.98
       semiMajorAxis: 496080946.555547
       eccentricity: 0.01
       inclination: 1.86
       orbitalArc: 244
-      axialTilt: 17.98
-      parentId: Khambalia
       showOrbit: true
+      parentId: Khambalia
+    isPlanet:
+      age: 2197675345
+      classification: F
+      radius: 7452
+      terranMass: 0.0194354044301481
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 795
     satellites: []
   - name: Khambalia 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 6642
-      age: 7950533455
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.014135264829181895
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 171673
-    temperature: 259
     satellite:
+      axialTilt: 7.23
       semiMajorAxis: 630272855
       eccentricity: 0.01
       inclination: 0.44
       orbitalArc: 244
-      axialTilt: 7.23
-      parentId: Khambalia
       showOrbit: true
+      parentId: Khambalia
+    isPlanet:
+      age: 7950533455
+      classification: P
+      radius: 6642
+      terranMass: 0.014135264829181895
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 171673
+    temperature: 259
     satellites:
       - name: Khambalia 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 364.670336082012
-          age: 4040625246
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 131082
-        temperature: 263
         satellite:
+          axialTilt: 20.2
           semiMajorAxis: 145925.54499165498
           eccentricity: 0
           inclination: 0.81
           orbitalArc: 178
-          axialTilt: 20.2
-          parentId: Khambalia 3
           showOrbit: true
-        satellites: []
-      - name: Khambalia 3b
-        description: ''
-        tags: []
+          parentId: Khambalia 3
         isPlanet:
-          radius: 1091.6819859695113
-          age: 8406348038
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 4040625246
           classification: P
+          radius: 364.670336082012
+          terranMass: 0.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 34150
-        temperature: 257
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 131082
+        temperature: 263
+      - name: Khambalia 3b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 22.17
           semiMajorAxis: 388638.78700514603
           eccentricity: 0.01
           inclination: 1.13
           orbitalArc: 19
-          axialTilt: 22.17
-          parentId: Khambalia 3
           showOrbit: true
-        satellites: []
+          parentId: Khambalia 3
+        isPlanet:
+          age: 8406348038
+          classification: P
+          radius: 1091.6819859695113
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 34150
+        temperature: 257
 commSatellite: null
 assets: {}

@@ -14,37 +14,37 @@ stars:
   - name: Tegmine A
     description: ''
     tags: []
-    radius: 1.3242
-    temperature: 6230
     solarMass: 1.28
     age: 27946015806880
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.3242
+    temperature: 6230
     satellite:
-      orbitalArc: 183
-      semiMajorAxis: 15.8904
       axialTilt: 0
+      semiMajorAxis: 15.8904
       eccentricity: 0
       inclination: 0
+      orbitalArc: 183
       showOrbit: false
       parentId: Tegmine
   - name: Tegmine B
     description: ''
     tags: []
-    radius: 1.3242
-    temperature: 6230
     solarMass: 1.28
     age: 27946015806880
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.3242
+    temperature: 6230
     satellite:
-      orbitalArc: 363
-      semiMajorAxis: 15.8904
       axialTilt: 0
+      semiMajorAxis: 15.8904
       eccentricity: 0
       inclination: 0
+      orbitalArc: 363
       showOrbit: false
       parentId: Tegmine
 planets: []

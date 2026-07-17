@@ -14,90 +14,90 @@ stars:
   - name: Sheratan A
     description: ''
     tags: []
-    radius: 1.985
-    temperature: 8759
     solarMass: 2.067
     age: 5140088937130
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.985
+    temperature: 8759
     satellite:
-      orbitalArc: 67
-      semiMajorAxis: 23.82
       axialTilt: 0
+      semiMajorAxis: 23.82
       eccentricity: 0
       inclination: 0
+      orbitalArc: 67
       showOrbit: false
       parentId: Sheratan
   - name: Sheratan B
     description: ''
     tags: []
-    radius: 1.985
-    temperature: 8759
     solarMass: 2.067
     age: 5140088937130
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 1.985
+    temperature: 8759
     satellite:
-      orbitalArc: 247
-      semiMajorAxis: 23.82
       axialTilt: 0
+      semiMajorAxis: 23.82
       eccentricity: 0
       inclination: 0
+      orbitalArc: 247
       showOrbit: false
       parentId: Sheratan
 planets:
   - name: Sheratan 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 889
-      age: 959300164
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.022093882286039885
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 33
     satellite:
+      axialTilt: 18.6
       semiMajorAxis: 928030612
       eccentricity: 0.02
       inclination: 0.7
       orbitalArc: 211
-      axialTilt: 18.6
-      parentId: Sheratan
       showOrbit: true
+      parentId: Sheratan
+    isPlanet:
+      age: 959300164
+      classification: C
+      radius: 889
+      terranMass: 0.022093882286039885
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 33
     satellites:
       - name: Sheratan 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 182.12354825739132
-          age: 5200534346
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 135480
-        temperature: 269
         satellite:
+          axialTilt: 8.4
           semiMajorAxis: 85780.1912292313
           eccentricity: 0.01
           inclination: 0.24
           orbitalArc: 314
-          axialTilt: 8.4
-          parentId: Sheratan 1
           showOrbit: true
-        satellites: []
+          parentId: Sheratan 1
+        isPlanet:
+          age: 5200534346
+          classification: P
+          radius: 182.12354825739132
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 135480
+        temperature: 269
 commSatellite: null
 assets: {}

@@ -14,400 +14,400 @@ stars:
   - name: Tejat A
     description: ''
     tags: []
-    radius: 107.7
-    temperature: 3643
     solarMass: 1.9
     age: 53635803847
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 107.7
+    temperature: 3643
     satellite:
-      orbitalArc: 49
-      semiMajorAxis: 1292.4
       axialTilt: 0
+      semiMajorAxis: 1292.4
       eccentricity: 0
       inclination: 0
+      orbitalArc: 49
       showOrbit: false
       parentId: Tejat
   - name: Tejat B
     description: ''
     tags: []
-    radius: 107.7
-    temperature: 3643
     solarMass: 1.9
     age: 53635803847
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 107.7
+    temperature: 3643
     satellite:
-      orbitalArc: 229
-      semiMajorAxis: 1292.4
       axialTilt: 0
+      semiMajorAxis: 1292.4
       eccentricity: 0
       inclination: 0
+      orbitalArc: 229
       showOrbit: false
       parentId: Tejat
 planets:
   - name: Tejat 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 141
-      age: 764688829
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.0021523001488641933
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 381
     satellite:
+      axialTilt: 0.42
       semiMajorAxis: 1655638857.0000002
       eccentricity: 0.02
       inclination: 0.89
       orbitalArc: 36
-      axialTilt: 0.42
-      parentId: Tejat
       showOrbit: true
+      parentId: Tejat
+    isPlanet:
+      age: 764688829
+      classification: D
+      radius: 141
+      terranMass: 0.0021523001488641933
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 381
     satellites: []
   - name: Tejat 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 1.18
+      semiMajorAxis: 2690742263.0000014
+      eccentricity: 0.01
+      inclination: 0.44
+      orbitalArc: 10
+      showOrbit: true
+      parentId: Tejat
     isPlanet:
-      radius: 4300
       age: 8034820901
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.010400476192913385
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 4300
+      terranMass: 0.010400476192913385
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
     temperature: 770
-    satellite:
-      semiMajorAxis: 2690742263.0000014
-      eccentricity: 0.01
-      inclination: 0.44
-      orbitalArc: 10
-      axialTilt: 1.18
-      parentId: Tejat
-      showOrbit: true
     satellites:
       - name: Tejat 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 614.5397590402373
-          age: 680523859
-          ringMapAsset: null
-          terranMass: 1.1999999008780546
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 243
         satellite:
+          axialTilt: 2.62
           semiMajorAxis: 154864.0192781398
           eccentricity: 0.01
           inclination: 1.96
           orbitalArc: 113
-          axialTilt: 2.62
+          showOrbit: true
           parentId: Tejat 2
-          showOrbit: true
-        satellites: []
-  - name: Tejat 3
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 2000
-      age: 259699205
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.0017546776408428754
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 38
-    satellite:
-      semiMajorAxis: 3210221324.0000014
-      eccentricity: 0.01
-      inclination: 0.5
-      orbitalArc: 105
-      axialTilt: 17.76
-      parentId: Tejat
-      showOrbit: true
-    satellites:
-      - name: Tejat 3a
-        description: ''
-        tags: []
         isPlanet:
-          radius: 213.26087562210412
-          age: 3138816059
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 92368
-        temperature: 260
-        satellite:
-          semiMajorAxis: 51503.04411324323
-          eccentricity: 0.02
-          inclination: 0.59
-          orbitalArc: 312
-          axialTilt: 14.62
-          parentId: Tejat 3
-          showOrbit: true
-        satellites: []
-      - name: Tejat 3b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 275.1832098642325
-          age: 210203118
-          ringMapAsset: null
-          terranMass: 1.2999999080528954
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          age: 680523859
           classification: D
+          radius: 614.5397590402373
+          terranMass: 1.1999999008780546
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 146
-        satellite:
-          semiMajorAxis: 81179.04690994858
-          eccentricity: 0.01
-          inclination: 0.2
-          orbitalArc: 271
-          axialTilt: 27.33
-          parentId: Tejat 3
-          showOrbit: true
-        satellites: []
-  - name: Tejat 4
+        temperature: 243
+  - name: Tejat 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 17.76
+      semiMajorAxis: 3210221324.0000014
+      eccentricity: 0.01
+      inclination: 0.5
+      orbitalArc: 105
+      showOrbit: true
+      parentId: Tejat
     isPlanet:
-      radius: 172
-      age: 945581395
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.006666889950122608
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
+      age: 259699205
+      classification: C
+      radius: 2000
+      terranMass: 0.0017546776408428754
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
-    temperature: 299
+    temperature: 38
+    satellites:
+      - name: Tejat 3a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 14.62
+          semiMajorAxis: 51503.04411324323
+          eccentricity: 0.02
+          inclination: 0.59
+          orbitalArc: 312
+          showOrbit: true
+          parentId: Tejat 3
+        isPlanet:
+          age: 3138816059
+          classification: P
+          radius: 213.26087562210412
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 92368
+        temperature: 260
+      - name: Tejat 3b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 27.33
+          semiMajorAxis: 81179.04690994858
+          eccentricity: 0.01
+          inclination: 0.2
+          orbitalArc: 271
+          showOrbit: true
+          parentId: Tejat 3
+        isPlanet:
+          age: 210203118
+          classification: D
+          radius: 275.1832098642325
+          terranMass: 1.2999999080528954
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 146
+  - name: Tejat 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 26.83
       semiMajorAxis: 3665092754.6666718
       eccentricity: 0.02
       inclination: 1.35
       orbitalArc: 145
-      axialTilt: 26.83
-      parentId: Tejat
       showOrbit: true
+      parentId: Tejat
+    isPlanet:
+      age: 945581395
+      classification: D
+      radius: 172
+      terranMass: 0.006666889950122608
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 299
     satellites: []
   - name: Tejat 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 0.62
+      semiMajorAxis: 3949532265.6666903
+      eccentricity: 0
+      inclination: 1.5
+      orbitalArc: 130
+      showOrbit: true
+      parentId: Tejat
     isPlanet:
-      radius: 7124
       age: 3920004555
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.005518651122231653
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
       classification: G
+      radius: 7124
+      terranMass: 0.005518651122231653
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
     temperature: 454
-    satellite:
-      semiMajorAxis: 3949532265.6666903
-      eccentricity: 0
-      inclination: 1.5
-      orbitalArc: 130
-      axialTilt: 0.62
-      parentId: Tejat
-      showOrbit: true
     satellites: []
   - name: Tejat 6
     description: ''
     tags: []
+    satellite:
+      axialTilt: 39.6
+      semiMajorAxis: 4195588459.777843
+      eccentricity: 0
+      inclination: 1.03
+      orbitalArc: 130
+      showOrbit: true
+      parentId: Tejat
     isPlanet:
-      radius: 3504
       age: 6883962458
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.03550113339444828
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 3504
+      terranMass: 0.03550113339444828
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 35876
     temperature: 279
-    satellite:
-      semiMajorAxis: 4195588459.777843
-      eccentricity: 0
-      inclination: 1.03
-      orbitalArc: 130
-      axialTilt: 39.6
-      parentId: Tejat
-      showOrbit: true
     satellites:
       - name: Tejat 6a
         description: ''
         tags: []
-        isPlanet:
-          radius: 187.47427725518924
-          age: 7125519262
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
-          classification: M
-          isHabitable: true
-          lifeforms:
-            - Varied and extensive vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 254314936
-        temperature: 296
         satellite:
+          axialTilt: 5.62
           semiMajorAxis: 105222.3788736338
           eccentricity: 0
           inclination: 0.99
           orbitalArc: 85
-          axialTilt: 5.62
-          parentId: Tejat 6
           showOrbit: true
-        satellites: []
+          parentId: Tejat 6
+        isPlanet:
+          age: 7125519262
+          classification: M
+          radius: 187.47427725518924
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Varied and extensive vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 254314936
+        temperature: 296
       - name: Tejat 6b
         description: ''
         tags: []
-        isPlanet:
-          radius: 684.8567370517313
-          age: 8006609745
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 129712
-        temperature: 267
         satellite:
+          axialTilt: 38.46
           semiMajorAxis: 302021.8210398135
           eccentricity: 0
           inclination: 0.9
           orbitalArc: 180
-          axialTilt: 38.46
+          showOrbit: true
           parentId: Tejat 6
-          showOrbit: true
-        satellites: []
-  - name: Tejat 7
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5630
-      age: 4887246912
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.0048771786718576175
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 372568558
-    temperature: 300
-    satellite:
-      semiMajorAxis: 4394115621
-      eccentricity: 0.02
-      inclination: 0.41
-      orbitalArc: 35
-      axialTilt: 13.71
-      parentId: Tejat
-      showOrbit: true
-    satellites:
-      - name: Tejat 7a
-        description: ''
-        tags: []
         isPlanet:
-          radius: 1055.8666013775783
-          age: 900408304
-          ringMapAsset: null
-          terranMass: 0.9000000130087041
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 40
-        satellite:
-          semiMajorAxis: 312305.5990711361
-          eccentricity: 0.01
-          inclination: 0.48
-          orbitalArc: 2
-          axialTilt: 5.27
-          parentId: Tejat 7
-          showOrbit: true
-        satellites: []
-      - name: Tejat 7b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1223.0876347018843
-          age: 4299345102
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          age: 8006609745
           classification: P
+          radius: 684.8567370517313
+          terranMass: 1.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 48623
-        temperature: 257
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 129712
+        temperature: 267
+  - name: Tejat 7
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 13.71
+      semiMajorAxis: 4394115621
+      eccentricity: 0.02
+      inclination: 0.41
+      orbitalArc: 35
+      showOrbit: true
+      parentId: Tejat
+    isPlanet:
+      age: 4887246912
+      classification: O
+      radius: 5630
+      terranMass: 0.0048771786718576175
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 372568558
+    temperature: 300
+    satellites:
+      - name: Tejat 7a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 5.27
+          semiMajorAxis: 312305.5990711361
+          eccentricity: 0.01
+          inclination: 0.48
+          orbitalArc: 2
+          showOrbit: true
+          parentId: Tejat 7
+        isPlanet:
+          age: 900408304
+          classification: C
+          radius: 1055.8666013775783
+          terranMass: 0.9000000130087041
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 40
+      - name: Tejat 7b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 37.14
           semiMajorAxis: 528373.858191214
           eccentricity: 0.02
           inclination: 0.09
           orbitalArc: 255
-          axialTilt: 37.14
-          parentId: Tejat 7
           showOrbit: true
-        satellites: []
+          parentId: Tejat 7
+        isPlanet:
+          age: 4299345102
+          classification: P
+          radius: 1223.0876347018843
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 48623
+        temperature: 257
 commSatellite: null
 assets: {}

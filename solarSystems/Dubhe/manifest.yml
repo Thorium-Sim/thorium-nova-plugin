@@ -14,64 +14,65 @@ stars:
   - name: Dubhe A
     description: ''
     tags: []
-    radius: 27.33
-    temperature: 4810
     solarMass: 3.7
     age: 533717495776
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 27.33
+    temperature: 4810
     satellite:
-      orbitalArc: 86
-      semiMajorAxis: 327.96
       axialTilt: 0
+      semiMajorAxis: 327.96
       eccentricity: 0
       inclination: 0
+      orbitalArc: 86
       showOrbit: false
       parentId: Dubhe
   - name: Dubhe B
     description: ''
     tags: []
-    radius: 27.33
-    temperature: 4810
     solarMass: 3.7
     age: 533717495776
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 27.33
+    temperature: 4810
     satellite:
-      orbitalArc: 266
-      semiMajorAxis: 327.96
       axialTilt: 0
+      semiMajorAxis: 327.96
       eccentricity: 0
       inclination: 0
+      orbitalArc: 266
       showOrbit: false
       parentId: Dubhe
 planets:
   - name: Dubhe 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 187
-      age: 669681880
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.002259793727451432
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 263
     satellite:
+      axialTilt: 12.57
       semiMajorAxis: 4000000000
       eccentricity: 0
       inclination: 0.72
       orbitalArc: 63
-      axialTilt: 12.57
-      parentId: Dubhe
       showOrbit: true
+      parentId: Dubhe
+    isPlanet:
+      age: 669681880
+      classification: D
+      radius: 187
+      terranMass: 0.002259793727451432
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 263
     satellites: []
 commSatellite: null
 assets: {}

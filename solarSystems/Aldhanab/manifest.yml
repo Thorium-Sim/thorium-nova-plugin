@@ -14,142 +14,143 @@ stars:
   - name: Aldhanab A
     description: ''
     tags: []
-    radius: 4.5
-    temperature: 12520
     solarMass: 3.06
     age: 354689529230
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.5
+    temperature: 12520
     satellite:
-      orbitalArc: 69
-      semiMajorAxis: 54
       axialTilt: 0
+      semiMajorAxis: 54
       eccentricity: 0
       inclination: 0
+      orbitalArc: 69
       showOrbit: false
       parentId: Aldhanab
   - name: Aldhanab B
     description: ''
     tags: []
-    radius: 4.5
-    temperature: 12520
     solarMass: 3.06
     age: 354689529230
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.5
+    temperature: 12520
     satellite:
-      orbitalArc: 249
-      semiMajorAxis: 54
       axialTilt: 0
+      semiMajorAxis: 54
       eccentricity: 0
       inclination: 0
+      orbitalArc: 249
       showOrbit: false
       parentId: Aldhanab
 planets:
   - name: Aldhanab 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 1366
-      age: 204904492
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.029623564495591958
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 49
     satellite:
+      axialTilt: 29.22
       semiMajorAxis: 1813758269.9999995
       eccentricity: 0
       inclination: 0.47
       orbitalArc: 268
-      axialTilt: 29.22
-      parentId: Aldhanab
       showOrbit: true
+      parentId: Aldhanab
+    isPlanet:
+      age: 204904492
+      classification: C
+      radius: 1366
+      terranMass: 0.029623564495591958
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 49
     satellites:
       - name: Aldhanab 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 159.5437860561171
-          age: 627000462
-          ringMapAsset: null
-          terranMass: 0.7099997922514885
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 267
         satellite:
+          axialTilt: 15.92
           semiMajorAxis: 39183.58835573547
           eccentricity: 0.01
           inclination: 0.18
           orbitalArc: 340
-          axialTilt: 15.92
-          parentId: Aldhanab 1
           showOrbit: true
-        satellites: []
-      - name: Aldhanab 1b
-        description: ''
-        tags: []
+          parentId: Aldhanab 1
         isPlanet:
-          radius: 170.43095104050147
-          age: 1398917713
-          ringMapAsset: null
-          terranMass: 0.900000137685827
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-          classification: F
+          age: 627000462
+          classification: D
+          radius: 159.5437860561171
+          terranMass: 0.7099997922514885
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 883
+        temperature: 267
+      - name: Aldhanab 1b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 2.96
           semiMajorAxis: 70047.1208776461
           eccentricity: 0
           inclination: 0.09
           orbitalArc: 70
-          axialTilt: 2.96
-          parentId: Aldhanab 1
           showOrbit: true
-        satellites: []
+          parentId: Aldhanab 1
+        isPlanet:
+          age: 1398917713
+          classification: F
+          radius: 170.43095104050147
+          terranMass: 0.900000137685827
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 883
   - name: Aldhanab 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 31.5
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.74
+      orbitalArc: 45
+      showOrbit: true
+      parentId: Aldhanab
     isPlanet:
-      radius: 28104
       age: 8574139146
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 1.5001858371368577
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 28104
+      terranMass: 1.5001858371368577
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
     temperature: 257
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0.01
-      inclination: 0.74
-      orbitalArc: 45
-      axialTilt: 31.5
-      parentId: Aldhanab
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

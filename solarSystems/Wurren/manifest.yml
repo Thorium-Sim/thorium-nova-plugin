@@ -14,144 +14,145 @@ stars:
   - name: Wurren A
     description: ''
     tags: []
-    radius: 2.835
-    temperature: 14400
     solarMass: 3.908
     age: 652180402783
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.835
+    temperature: 14400
     satellite:
-      orbitalArc: 87
-      semiMajorAxis: 34.019999999999996
       axialTilt: 0
+      semiMajorAxis: 34.019999999999996
       eccentricity: 0
       inclination: 0
+      orbitalArc: 87
       showOrbit: false
       parentId: Wurren
   - name: Wurren B
     description: ''
     tags: []
-    radius: 2.835
-    temperature: 14400
     solarMass: 3.908
     age: 652180402783
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.835
+    temperature: 14400
     satellite:
-      orbitalArc: 267
-      semiMajorAxis: 34.019999999999996
       axialTilt: 0
+      semiMajorAxis: 34.019999999999996
       eccentricity: 0
       inclination: 0
+      orbitalArc: 267
       showOrbit: false
       parentId: Wurren
 planets:
   - name: Wurren 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 446
-      age: 662802439
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.005630578232239117
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 288
     satellite:
+      axialTilt: 11.4
       semiMajorAxis: 375077793.3333335
       eccentricity: 0.01
       inclination: 1.02
       orbitalArc: 76
-      axialTilt: 11.4
-      parentId: Wurren
       showOrbit: true
+      parentId: Wurren
+    isPlanet:
+      age: 662802439
+      classification: D
+      radius: 446
+      terranMass: 0.005630578232239117
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 288
     satellites: []
   - name: Wurren 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 26.72
+      semiMajorAxis: 803059038.777777
+      eccentricity: 0.01
+      inclination: 0.06
+      orbitalArc: 164
+      showOrbit: true
+      parentId: Wurren
     isPlanet:
-      radius: 4180
       age: 4572641195
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.01644088595144413
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 4180
+      terranMass: 0.01644088595144413
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
     temperature: 713
-    satellite:
-      semiMajorAxis: 803059038.777777
-      eccentricity: 0.01
-      inclination: 0.06
-      orbitalArc: 164
-      axialTilt: 26.72
-      parentId: Wurren
-      showOrbit: true
     satellites:
       - name: Wurren 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 15.7
+          semiMajorAxis: 280653.94468361884
+          eccentricity: 0.01
+          inclination: 0.34
+          orbitalArc: 197
+          showOrbit: true
+          parentId: Wurren 2
         isPlanet:
-          radius: 792.807753343556
           age: 9883284459
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 0.9000001256348974
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 792.807753343556
+          terranMass: 0.9000001256348974
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 34333
         temperature: 196
-        satellite:
-          semiMajorAxis: 280653.94468361884
-          eccentricity: 0.01
-          inclination: 0.34
-          orbitalArc: 197
-          axialTilt: 15.7
-          parentId: Wurren 2
-          showOrbit: true
-        satellites: []
   - name: Wurren 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 334
-      age: 797957778
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.00042002633384869526
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 173
     satellite:
+      axialTilt: 6.48
       semiMajorAxis: 1196422141
       eccentricity: 0.02
       inclination: 1.75
       orbitalArc: 279
-      axialTilt: 6.48
-      parentId: Wurren
       showOrbit: true
+      parentId: Wurren
+    isPlanet:
+      age: 797957778
+      classification: D
+      radius: 334
+      terranMass: 0.00042002633384869526
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 173
     satellites: []
 commSatellite: null
 assets: {}

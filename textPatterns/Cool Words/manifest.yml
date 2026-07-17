@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Cool Words
+description: ''
+textPattern: '{~{#Cool Nouns},{#Cool Adjectives}}'
+category: Word Lists
+assets: {}

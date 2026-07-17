@@ -14,243 +14,243 @@ stars:
   - name: Hamal A
     description: ''
     tags: []
-    radius: 15.19
-    temperature: 4553
     solarMass: 1.5
     age: 872477818672
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 15.19
+    temperature: 4553
     satellite:
-      orbitalArc: 282
-      semiMajorAxis: 182.28
       axialTilt: 0
+      semiMajorAxis: 182.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 282
       showOrbit: false
       parentId: Hamal
   - name: Hamal B
     description: ''
     tags: []
-    radius: 15.19
-    temperature: 4553
     solarMass: 1.5
     age: 872477818672
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 15.19
+    temperature: 4553
     satellite:
-      orbitalArc: 462
-      semiMajorAxis: 182.28
       axialTilt: 0
+      semiMajorAxis: 182.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 462
       showOrbit: false
       parentId: Hamal
 planets:
   - name: Hamal 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5318
-      age: 9427636519
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.02188261206945931
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 578786871
-    temperature: 303
     satellite:
+      axialTilt: 9.06
       semiMajorAxis: 998155578.3333338
       eccentricity: 0
       inclination: 1.51
       orbitalArc: 303
-      axialTilt: 9.06
-      parentId: Hamal
       showOrbit: true
-    satellites:
-      - name: Hamal 1a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 744.1923843750014
-          age: 871725844
-          ringMapAsset: null
-          terranMass: 0.4099998706661341
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 348
-        satellite:
-          semiMajorAxis: 151747.50663296826
-          eccentricity: 0
-          inclination: 0.87
-          orbitalArc: 58
-          axialTilt: 15.01
-          parentId: Hamal 1
-          showOrbit: true
-        satellites: []
-      - name: Hamal 1b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 521.0524654486572
-          age: 2424660512
-          ringMapAsset: null
-          terranMass: 1.7000000694528152
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 723
-        satellite:
-          semiMajorAxis: 302262.39197992394
-          eccentricity: 0.01
-          inclination: 0.43
-          orbitalArc: 92
-          axialTilt: 20.16
-          parentId: Hamal 1
-          showOrbit: true
-        satellites: []
-      - name: Hamal 1c
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 996.8462007519664
-          age: 3294553497
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 86085
-        temperature: 262
-        satellite:
-          semiMajorAxis: 445590.251736129
-          eccentricity: 0.01
-          inclination: 0.7
-          orbitalArc: 298
-          axialTilt: 20.89
-          parentId: Hamal 1
-          showOrbit: true
-        satellites: []
-  - name: Hamal 2
-    description: ''
-    tags: []
+      parentId: Hamal
     isPlanet:
-      radius: 6019
-      age: 4741676973
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.005000793448998777
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      age: 9427636519
       classification: O
+      radius: 5318
+      terranMass: 0.02188261206945931
       isHabitable: true
       lifeforms:
         - Aquatic-based vegetation and animal life, humanoids
       atmosphericComposition: []
-    population: 599993804
-    temperature: 296
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 578786871
+    temperature: 303
+    satellites:
+      - name: Hamal 1a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 15.01
+          semiMajorAxis: 151747.50663296826
+          eccentricity: 0
+          inclination: 0.87
+          orbitalArc: 58
+          showOrbit: true
+          parentId: Hamal 1
+        isPlanet:
+          age: 871725844
+          classification: D
+          radius: 744.1923843750014
+          terranMass: 0.4099998706661341
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 348
+      - name: Hamal 1b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 20.16
+          semiMajorAxis: 302262.39197992394
+          eccentricity: 0.01
+          inclination: 0.43
+          orbitalArc: 92
+          showOrbit: true
+          parentId: Hamal 1
+        isPlanet:
+          age: 2424660512
+          classification: F
+          radius: 521.0524654486572
+          terranMass: 1.7000000694528152
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 723
+      - name: Hamal 1c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 20.89
+          semiMajorAxis: 445590.251736129
+          eccentricity: 0.01
+          inclination: 0.7
+          orbitalArc: 298
+          showOrbit: true
+          parentId: Hamal 1
+        isPlanet:
+          age: 3294553497
+          classification: P
+          radius: 996.8462007519664
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 86085
+        temperature: 262
+  - name: Hamal 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 5.14
       semiMajorAxis: 1416980555.8888893
       eccentricity: 0
       inclination: 1.71
       orbitalArc: 119
-      axialTilt: 5.14
-      parentId: Hamal
       showOrbit: true
+      parentId: Hamal
+    isPlanet:
+      age: 4741676973
+      classification: O
+      radius: 6019
+      terranMass: 0.005000793448998777
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 599993804
+    temperature: 296
     satellites: []
   - name: Hamal 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5563
-      age: 1323304020
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.009352893235368614
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 605
     satellite:
+      axialTilt: 6.6
       semiMajorAxis: 1878768428
       eccentricity: 0
       inclination: 1.89
       orbitalArc: 85
-      axialTilt: 6.6
-      parentId: Hamal
       showOrbit: true
+      parentId: Hamal
+    isPlanet:
+      age: 1323304020
+      classification: F
+      radius: 5563
+      terranMass: 0.009352893235368614
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 605
     satellites:
       - name: Hamal 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 32.98
+          semiMajorAxis: 135135.1902587593
+          eccentricity: 0
+          inclination: 0.35
+          orbitalArc: 168
+          showOrbit: true
+          parentId: Hamal 3
         isPlanet:
-          radius: 550.2647077351843
           age: 3273913788
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
           classification: G
+          radius: 550.2647077351843
+          terranMass: 0.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 600
-        satellite:
-          semiMajorAxis: 135135.1902587593
-          eccentricity: 0
-          inclination: 0.35
-          orbitalArc: 168
-          axialTilt: 32.98
-          parentId: Hamal 3
-          showOrbit: true
-        satellites: []
       - name: Hamal 3b
         description: ''
         tags: []
-        isPlanet:
-          radius: 910.0975512160566
-          age: 150937188
-          ringMapAsset: null
-          terranMass: 0.6299997527935972
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 335
         satellite:
+          axialTilt: 0.89
           semiMajorAxis: 240265.75352103892
           eccentricity: 0.01
           inclination: 1.12
           orbitalArc: 20
-          axialTilt: 0.89
-          parentId: Hamal 3
           showOrbit: true
-        satellites: []
+          parentId: Hamal 3
+        isPlanet:
+          age: 150937188
+          classification: D
+          radius: 910.0975512160566
+          terranMass: 0.6299997527935972
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 335
 commSatellite: null
 assets: {}

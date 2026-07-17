@@ -14,37 +14,37 @@ stars:
   - name: Syrma A
     description: ''
     tags: []
-    radius: 2.89
-    temperature: 6055
     solarMass: 1.44
     age: 7397406781659
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.89
+    temperature: 6055
     satellite:
-      orbitalArc: 330
-      semiMajorAxis: 34.68
       axialTilt: 0
+      semiMajorAxis: 34.68
       eccentricity: 0
       inclination: 0
+      orbitalArc: 330
       showOrbit: false
       parentId: Syrma
   - name: Syrma B
     description: ''
     tags: []
-    radius: 2.89
-    temperature: 6055
     solarMass: 1.44
     age: 7397406781659
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 2.89
+    temperature: 6055
     satellite:
-      orbitalArc: 510
-      semiMajorAxis: 34.68
       axialTilt: 0
+      semiMajorAxis: 34.68
       eccentricity: 0
       inclination: 0
+      orbitalArc: 510
       showOrbit: false
       parentId: Syrma
 planets: []

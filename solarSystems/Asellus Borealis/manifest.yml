@@ -14,118 +14,118 @@ stars:
   - name: Asellus Borealis A
     description: ''
     tags: []
-    radius: 2.53
-    temperature: 9311
     solarMass: 2.35
     age: 2817155358231
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.53
+    temperature: 9311
     satellite:
-      orbitalArc: 339
-      semiMajorAxis: 30.36
       axialTilt: 0
+      semiMajorAxis: 30.36
       eccentricity: 0
       inclination: 0
+      orbitalArc: 339
       showOrbit: false
       parentId: Asellus Borealis
   - name: Asellus Borealis B
     description: ''
     tags: []
-    radius: 2.53
-    temperature: 9311
     solarMass: 2.35
     age: 2817155358231
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.53
+    temperature: 9311
     satellite:
-      orbitalArc: 519
-      semiMajorAxis: 30.36
       axialTilt: 0
+      semiMajorAxis: 30.36
       eccentricity: 0
       inclination: 0
+      orbitalArc: 519
       showOrbit: false
       parentId: Asellus Borealis
 planets:
   - name: Asellus Borealis 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 15.69
+      semiMajorAxis: 584270510.999999
+      eccentricity: 0.02
+      inclination: 1.62
+      orbitalArc: 297
+      showOrbit: true
+      parentId: Asellus Borealis
     isPlanet:
-      radius: 6096
       age: 6558365683
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: null
-      terranMass: 0.008542228514706315
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 6096
+      terranMass: 0.008542228514706315
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
     population: 787
     temperature: 245
-    satellite:
-      semiMajorAxis: 584270510.999999
-      eccentricity: 0.02
-      inclination: 1.62
-      orbitalArc: 297
-      axialTilt: 15.69
-      parentId: Asellus Borealis
-      showOrbit: true
     satellites: []
   - name: Asellus Borealis 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5248
-      age: 5988734416
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.027372388733754027
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
-      classification: M
-      isHabitable: true
-      lifeforms:
-        - Varied and extensive vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 9797505699
-    temperature: 288
     satellite:
+      axialTilt: 35.31
       semiMajorAxis: 828842197.9999933
       eccentricity: 0.01
       inclination: 0.77
       orbitalArc: 308
-      axialTilt: 35.31
-      parentId: Asellus Borealis
       showOrbit: true
+      parentId: Asellus Borealis
+    isPlanet:
+      age: 5988734416
+      classification: M
+      radius: 5248
+      terranMass: 0.027372388733754027
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial2.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 9797505699
+    temperature: 288
     satellites: []
   - name: Asellus Borealis 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5665
-      age: 7104058131
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0031992211625210994
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 171733
-    temperature: 270
     satellite:
+      axialTilt: 21.16
       semiMajorAxis: 990927377
       eccentricity: 0.01
       inclination: 1.73
       orbitalArc: 344
-      axialTilt: 21.16
-      parentId: Asellus Borealis
       showOrbit: true
+      parentId: Asellus Borealis
+    isPlanet:
+      age: 7104058131
+      classification: P
+      radius: 5665
+      terranMass: 0.0031992211625210994
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 171733
+    temperature: 270
     satellites: []
 commSatellite: null
 assets: {}

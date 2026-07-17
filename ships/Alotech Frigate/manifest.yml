@@ -1,6 +1,7 @@
 apiVersion: ships/v1
 kind: ships
 name: Alotech Frigate
+nameTemplate: '{~Alpha,Bravo,Charlie,Delta,Echo} {~1,2,3,4,5,6,7,8,9,10}'
 description: Exploration vessels
 category: Cruiser
 tags: []
@@ -14,8 +15,8 @@ mass: 700000000
 length: 350
 shipSystems: []
 theme:
-  themeId: Default
   pluginId: Thorium Default
+  themeId: Default
 decks: []
 deckEdges: []
 cargoContainers: 4

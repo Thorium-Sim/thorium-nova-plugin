@@ -14,139 +14,143 @@ stars:
   - name: Kochab A
     description: ''
     tags: []
-    radius: 44.13
-    temperature: 4008
     solarMass: 1.3
     age: 149188013239
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 44.13
+    temperature: 4008
     satellite:
-      orbitalArc: 224
-      semiMajorAxis: 529.5600000000001
       axialTilt: 0
+      semiMajorAxis: 529.5600000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 224
       showOrbit: false
       parentId: Kochab
   - name: Kochab B
     description: ''
     tags: []
-    radius: 44.13
-    temperature: 4008
     solarMass: 1.3
     age: 149188013239
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 44.13
+    temperature: 4008
     satellite:
-      orbitalArc: 404
-      semiMajorAxis: 529.5600000000001
       axialTilt: 0
+      semiMajorAxis: 529.5600000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 404
       showOrbit: false
       parentId: Kochab
 planets:
   - name: Kochab 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5339
-      age: 1620744533
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.0020802924380191093
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1034
     satellite:
+      axialTilt: 11.71
       semiMajorAxis: 1492706664.9999998
       eccentricity: 0.01
       inclination: 1.31
       orbitalArc: 177
-      axialTilt: 11.71
-      parentId: Kochab
       showOrbit: true
+      parentId: Kochab
+    isPlanet:
+      age: 1620744533
+      classification: E
+      radius: 5339
+      terranMass: 0.0020802924380191093
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 1034
     satellites: []
   - name: Kochab 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 412
-      age: 928726712
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0013908034425332118
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 230
     satellite:
+      axialTilt: 1.67
       semiMajorAxis: 2041844497.9999993
       eccentricity: 0
       inclination: 1.68
       orbitalArc: 296
-      axialTilt: 1.67
-      parentId: Kochab
       showOrbit: true
+      parentId: Kochab
+    isPlanet:
+      age: 928726712
+      classification: D
+      radius: 412
+      terranMass: 0.0013908034425332118
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 230
     satellites: []
   - name: Kochab 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 309
-      age: 193884330
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.011752455099127835
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 248
     satellite:
+      axialTilt: 19.52
       semiMajorAxis: 2502418168.999998
       eccentricity: 0
       inclination: 1.81
       orbitalArc: 305
-      axialTilt: 19.52
-      parentId: Kochab
       showOrbit: true
-    satellites: []
-  - name: Kochab 4
-    description: ''
-    tags: []
+      parentId: Kochab
     isPlanet:
-      radius: 58
-      age: 965176716
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.012479775164060639
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      age: 193884330
       classification: D
+      radius: 309
+      terranMass: 0.011752455099127835
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
     population: 0
-    temperature: 342
+    temperature: 248
+    satellites: []
+  - name: Kochab 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 18.93
       semiMajorAxis: 3287607541
       eccentricity: 0.01
       inclination: 0.03
       orbitalArc: 242
-      axialTilt: 18.93
-      parentId: Kochab
       showOrbit: true
+      parentId: Kochab
+    isPlanet:
+      age: 965176716
+      classification: D
+      radius: 58
+      terranMass: 0.012479775164060639
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 342
     satellites: []
 commSatellite: null
 assets: {}

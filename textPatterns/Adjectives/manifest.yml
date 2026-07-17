@@ -1,0 +1,8 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Adjectives
+description: ''
+textPattern: >-
+  {~Green,Blue,White,Black,Violet,Indigo,Lilac,Azure,Grey,Golden,Marigold,Lavender,Alabaster,Vermillion,Ivory,Shimmering,Rainbow,Emerald,Sapphire,Dark,Poor,Lonely,Glorious,Magnificent,Intrepid,Bold,Courageous,Generous,Brazen,Resolute,Reliable,Battered,Sensible,Defiant,Stoic,Bittersweet,Great,Cautious,Careful,Spicy,Lucky,Pious,Faithful,Adventurous,Merry,Joyous,Stalwart,Wealthy,Favorite,Windswept,Forgotten,Unlucky,Radiant,Hopeful,Distant,Clever,Honorable,Radical,Slippery,Northern,Southern,Eastern,Western,Deepwater,Blessed,Valiant,Noble,Thoughtful,Steely,Sanguine,Sunny,Chiseled,Stormy,Endless,Infinite,Diligent,Patient,Wistful,Wise,Graceful,Subtle,Broken,Mighty,Precious,Misty,Cold,Stern,Triumphant,Steady,Old,Lovely,Chastened,Happy,Laughing,Winged,Calico,Crackling,Hidden,Good,Prodigal,Heavy,Arcane,Forever,Scattered,Obsidian,Last,Elder,Younger,Fuzzy,Exotic,Quick,Amazing,Tiny,Grand,Icy,Deep,Sassy,Stark,Windy,Snowy,Fair,Pure,Loyal,Inca,Mayan,Atlantean,Roman,Byzantine,Zulu,Maori,Prussian,Smoky,Cloudy,Silly,Leaky,African,Etruscan,Trojan,Unknown,Saucy,Seawise,Legendary,Royal,New,Dreamy,Peaceful,Thorny,Moorish,Portside,Starboard,Topside}
+category: Parts of Speech
+assets: {}

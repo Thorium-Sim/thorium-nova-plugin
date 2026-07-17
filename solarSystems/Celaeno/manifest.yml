@@ -14,92 +14,93 @@ stars:
   - name: Celaeno A
     description: ''
     tags: []
-    radius: 4.4
-    temperature: 12800
     solarMass: 4
     age: 443898874837
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.4
+    temperature: 12800
     satellite:
-      orbitalArc: 178
-      semiMajorAxis: 52.800000000000004
       axialTilt: 0
+      semiMajorAxis: 52.800000000000004
       eccentricity: 0
       inclination: 0
+      orbitalArc: 178
       showOrbit: false
       parentId: Celaeno
   - name: Celaeno B
     description: ''
     tags: []
-    radius: 4.4
-    temperature: 12800
     solarMass: 4
     age: 443898874837
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.4
+    temperature: 12800
     satellite:
-      orbitalArc: 358
-      semiMajorAxis: 52.800000000000004
       axialTilt: 0
+      semiMajorAxis: 52.800000000000004
       eccentricity: 0
       inclination: 0
+      orbitalArc: 358
       showOrbit: false
       parentId: Celaeno
 planets:
   - name: Celaeno 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 24.15
+      semiMajorAxis: 2413673453.9999995
+      eccentricity: 0.02
+      inclination: 1.96
+      orbitalArc: 318
+      showOrbit: true
+      parentId: Celaeno
     isPlanet:
-      radius: 5845
       age: 8897978141
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.004673658942258197
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 5845
+      terranMass: 0.004673658942258197
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
     temperature: 859
-    satellite:
-      semiMajorAxis: 2413673453.9999995
-      eccentricity: 0.02
-      inclination: 1.96
-      orbitalArc: 318
-      axialTilt: 24.15
-      parentId: Celaeno
-      showOrbit: true
     satellites: []
   - name: Celaeno 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 261
-      age: 461965715
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.00440342571561291
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 206
     satellite:
+      axialTilt: 9.51
       semiMajorAxis: 4000000000
       eccentricity: 0.02
       inclination: 0.06
       orbitalArc: 342
-      axialTilt: 9.51
-      parentId: Celaeno
       showOrbit: true
+      parentId: Celaeno
+    isPlanet:
+      age: 461965715
+      classification: D
+      radius: 261
+      terranMass: 0.00440342571561291
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 206
     satellites: []
 commSatellite: null
 assets: {}

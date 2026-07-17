@@ -13,7 +13,8 @@ durability: 1
 abundance: 1
 tags: []
 flags:
-  sparePart: {}
   repair:
     type:
       - Exocomp
+  sparePart:
+    systemTags: []

@@ -14,530 +14,529 @@ stars:
   - name: Zavijava A
     description: ''
     tags: []
-    radius: 1.681
-    temperature: 6132
     solarMass: 1.413
     age: 20397053484313
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.681
+    temperature: 6132
     satellite:
-      orbitalArc: 59
-      semiMajorAxis: 20.172
       axialTilt: 0
+      semiMajorAxis: 20.172
       eccentricity: 0
       inclination: 0
+      orbitalArc: 59
       showOrbit: false
       parentId: Zavijava
   - name: Zavijava B
     description: ''
     tags: []
-    radius: 1.681
-    temperature: 6132
     solarMass: 1.413
     age: 20397053484313
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.681
+    temperature: 6132
     satellite:
-      orbitalArc: 239
-      semiMajorAxis: 20.172
       axialTilt: 0
+      semiMajorAxis: 20.172
       eccentricity: 0
       inclination: 0
+      orbitalArc: 239
       showOrbit: false
       parentId: Zavijava
 planets:
   - name: Zavijava 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 2656
-      age: 415724845
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.029169872149964946
-      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
-      classification: B
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 118
     satellite:
+      axialTilt: 36.16
       semiMajorAxis: 167278277
       eccentricity: 0.02
       inclination: 1.82
       orbitalArc: 14
-      axialTilt: 36.16
-      parentId: Zavijava
       showOrbit: true
+      parentId: Zavijava
+    isPlanet:
+      age: 415724845
+      classification: B
+      radius: 2656
+      terranMass: 0.029169872149964946
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/plutomap1k.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 118
     satellites:
       - name: Zavijava 1a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 21.82
+          semiMajorAxis: 47383.197414288894
+          eccentricity: 0.01
+          inclination: 1.45
+          orbitalArc: 80
+          showOrbit: true
+          parentId: Zavijava 1
         isPlanet:
-          radius: 274.95261077837847
           age: 3129856250
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
           classification: G
+          radius: 274.95261077837847
+          terranMass: 1.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 577
-        satellite:
-          semiMajorAxis: 47383.197414288894
-          eccentricity: 0.01
-          inclination: 1.45
-          orbitalArc: 80
-          axialTilt: 21.82
-          parentId: Zavijava 1
-          showOrbit: true
-        satellites: []
       - name: Zavijava 1b
         description: ''
         tags: []
-        isPlanet:
-          radius: 325.0199105628347
-          age: 1472811987
-          ringMapAsset: null
-          terranMass: 1.30000010155648
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1770
         satellite:
+          axialTilt: 20.45
           semiMajorAxis: 126440.69927615096
           eccentricity: 0.01
           inclination: 0.81
           orbitalArc: 111
-          axialTilt: 20.45
-          parentId: Zavijava 1
           showOrbit: true
-        satellites: []
-      - name: Zavijava 1c
-        description: ''
-        tags: []
+          parentId: Zavijava 1
         isPlanet:
-          radius: 537.4311697911079
-          age: 86830450
-          ringMapAsset: null
-          terranMass: 0.8499996825760372
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
+          age: 1472811987
+          classification: A
+          radius: 325.0199105628347
+          terranMass: 1.30000010155648
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 182
+        temperature: 1770
+      - name: Zavijava 1c
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 25.6
           semiMajorAxis: 175202.56135190118
           eccentricity: 0.01
           inclination: 1.99
           orbitalArc: 281
-          axialTilt: 25.6
-          parentId: Zavijava 1
           showOrbit: true
-        satellites: []
+          parentId: Zavijava 1
+        isPlanet:
+          age: 86830450
+          classification: D
+          radius: 537.4311697911079
+          terranMass: 0.8499996825760372
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 182
   - name: Zavijava 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 7209
-      age: 71926582
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.02291927983147262
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 901
     satellite:
+      axialTilt: 26.98
       semiMajorAxis: 254885252.333333
       eccentricity: 0.02
       inclination: 0.76
       orbitalArc: 214
-      axialTilt: 26.98
-      parentId: Zavijava
       showOrbit: true
-    satellites:
-      - name: Zavijava 2a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 390.4077143724211
-          age: 273536843
-          ringMapAsset: null
-          terranMass: 0.7999996861624081
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 308
-        satellite:
-          semiMajorAxis: 120245.57602670569
-          eccentricity: 0.01
-          inclination: 0.9
-          orbitalArc: 251
-          axialTilt: 17.41
-          parentId: Zavijava 2
-          showOrbit: true
-        satellites: []
-  - name: Zavijava 3
-    description: ''
-    tags: []
+      parentId: Zavijava
     isPlanet:
-      radius: 227
-      age: 252999318
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.008534726132854149
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
+      age: 71926582
+      classification: E
+      radius: 7209
+      terranMass: 0.02291927983147262
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
-    population: 0
-    temperature: 183
-    satellite:
-      semiMajorAxis: 341446781.2222163
-      eccentricity: 0
-      inclination: 0.79
-      orbitalArc: 248
-      axialTilt: 18.11
-      parentId: Zavijava
-      showOrbit: true
-    satellites: []
-  - name: Zavijava 4
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 6701
-      age: 7405477153
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
       cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.008681849391707649
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 215671771
-    temperature: 290
-    satellite:
-      semiMajorAxis: 373019099.1848065
-      eccentricity: 0.01
-      inclination: 0.43
-      orbitalArc: 121
-      axialTilt: 27.43
-      parentId: Zavijava
-      showOrbit: true
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 901
     satellites:
-      - name: Zavijava 4a
+      - name: Zavijava 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1210.061061140595
-          age: 7903175707
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 178271
-        temperature: 263
         satellite:
-          semiMajorAxis: 176199.8712272782
+          axialTilt: 17.41
+          semiMajorAxis: 120245.57602670569
           eccentricity: 0.01
-          inclination: 0.56
-          orbitalArc: 256
-          axialTilt: 15.55
-          parentId: Zavijava 4
+          inclination: 0.9
+          orbitalArc: 251
           showOrbit: true
-        satellites: []
-      - name: Zavijava 4b
-        description: ''
-        tags: []
+          parentId: Zavijava 2
         isPlanet:
-          radius: 931.7488625984172
-          age: 316931912
-          ringMapAsset: null
-          terranMass: 0.6000001794524542
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-          classification: C
+          age: 273536843
+          classification: D
+          radius: 390.4077143724211
+          terranMass: 0.7999996861624081
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 48
+        temperature: 308
+  - name: Zavijava 3
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 18.11
+      semiMajorAxis: 341446781.2222163
+      eccentricity: 0
+      inclination: 0.79
+      orbitalArc: 248
+      showOrbit: true
+      parentId: Zavijava
+    isPlanet:
+      age: 252999318
+      classification: D
+      radius: 227
+      terranMass: 0.008534726132854149
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 183
+    satellites: []
+  - name: Zavijava 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 27.43
+      semiMajorAxis: 373019099.1848065
+      eccentricity: 0.01
+      inclination: 0.43
+      orbitalArc: 121
+      showOrbit: true
+      parentId: Zavijava
+    isPlanet:
+      age: 7405477153
+      classification: O
+      radius: 6701
+      terranMass: 0.008681849391707649
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 215671771
+    temperature: 290
+    satellites:
+      - name: Zavijava 4a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 15.55
+          semiMajorAxis: 176199.8712272782
+          eccentricity: 0.01
+          inclination: 0.56
+          orbitalArc: 256
+          showOrbit: true
+          parentId: Zavijava 4
+        isPlanet:
+          age: 7903175707
+          classification: P
+          radius: 1210.061061140595
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 178271
+        temperature: 263
+      - name: Zavijava 4b
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 16.63
           semiMajorAxis: 357791.56323779223
           eccentricity: 0
           inclination: 1.89
           orbitalArc: 297
-          axialTilt: 16.63
-          parentId: Zavijava 4
           showOrbit: true
-        satellites: []
+          parentId: Zavijava 4
+        isPlanet:
+          age: 316931912
+          classification: C
+          radius: 931.7488625984172
+          terranMass: 0.6000001794524542
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 48
   - name: Zavijava 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 14.28
+      semiMajorAxis: 957241557.1232042
+      eccentricity: 0.02
+      inclination: 1.55
+      orbitalArc: 341
+      showOrbit: true
+      parentId: Zavijava
     isPlanet:
-      radius: 7056
       age: 8395540226
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: null
-      terranMass: 0.028675773490773337
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 7056
+      terranMass: 0.028675773490773337
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
     population: 22551
     temperature: 164
-    satellite:
-      semiMajorAxis: 957241557.1232042
-      eccentricity: 0.02
-      inclination: 1.55
-      orbitalArc: 341
-      axialTilt: 14.28
-      parentId: Zavijava
-      showOrbit: true
     satellites:
       - name: Zavijava 5a
         description: ''
         tags: []
-        isPlanet:
-          radius: 1291.4527051790274
-          age: 8442478337
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 131394
-        temperature: 265
         satellite:
+          axialTilt: 0.99
           semiMajorAxis: 224297.46647465465
           eccentricity: 0.01
           inclination: 1.48
           orbitalArc: 81
-          axialTilt: 0.99
-          parentId: Zavijava 5
           showOrbit: true
-        satellites: []
-      - name: Zavijava 5b
-        description: ''
-        tags: []
+          parentId: Zavijava 5
         isPlanet:
-          radius: 1394.3543714940442
-          age: 4136676622
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          age: 8442478337
           classification: P
+          radius: 1291.4527051790274
+          terranMass: 1.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 60431
-        temperature: 260
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 131394
+        temperature: 265
+      - name: Zavijava 5b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 38.66
           semiMajorAxis: 612121.5690858854
           eccentricity: 0.01
           inclination: 0.37
           orbitalArc: 312
-          axialTilt: 38.66
-          parentId: Zavijava 5
           showOrbit: true
-        satellites: []
+          parentId: Zavijava 5
+        isPlanet:
+          age: 4136676622
+          classification: P
+          radius: 1394.3543714940442
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 60431
+        temperature: 260
   - name: Zavijava 6
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.98
+      semiMajorAxis: 2551500670.7488027
+      eccentricity: 0.01
+      inclination: 1.31
+      orbitalArc: 234
+      showOrbit: true
+      parentId: Zavijava
     isPlanet:
-      radius: 25094
       age: 3488860261
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 1.4296188917696986
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 25094
+      terranMass: 1.4296188917696986
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
     temperature: 284
-    satellite:
-      semiMajorAxis: 2551500670.7488027
-      eccentricity: 0.01
-      inclination: 1.31
-      orbitalArc: 234
-      axialTilt: 23.98
-      parentId: Zavijava
-      showOrbit: true
     satellites:
       - name: Zavijava 6a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 22.74
+          semiMajorAxis: 563656.4913916087
+          eccentricity: 0
+          inclination: 0.67
+          orbitalArc: 35
+          showOrbit: true
+          parentId: Zavijava 6
         isPlanet:
-          radius: 2485.2241146254178
           age: 3376968640
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
           classification: G
+          radius: 2485.2241146254178
+          terranMass: 1.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 474
-        satellite:
-          semiMajorAxis: 563656.4913916087
-          eccentricity: 0
-          inclination: 0.67
-          orbitalArc: 35
-          axialTilt: 22.74
-          parentId: Zavijava 6
-          showOrbit: true
-        satellites: []
       - name: Zavijava 6b
         description: ''
         tags: []
-        isPlanet:
-          radius: 2473.374049824773
-          age: 653914721
-          ringMapAsset: null
-          terranMass: 1.0199997009686494
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 316
         satellite:
+          axialTilt: 12.19
           semiMajorAxis: 1080864.4597734257
           eccentricity: 0.01
           inclination: 0.26
           orbitalArc: 41
-          axialTilt: 12.19
-          parentId: Zavijava 6
           showOrbit: true
-        satellites: []
+          parentId: Zavijava 6
+        isPlanet:
+          age: 653914721
+          classification: D
+          radius: 2473.374049824773
+          terranMass: 1.0199997009686494
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 316
   - name: Zavijava 7
     description: ''
     tags: []
+    satellite:
+      axialTilt: 21.62
+      semiMajorAxis: 3894841184
+      eccentricity: 0.01
+      inclination: 1.25
+      orbitalArc: 94
+      showOrbit: true
+      parentId: Zavijava
     isPlanet:
-      radius: 47097
       age: 5047001401
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.9684381097889129
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
       classification: J
+      radius: 47097
+      terranMass: 0.9684381097889129
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
     population: 0
     temperature: 162
-    satellite:
-      semiMajorAxis: 3894841184
-      eccentricity: 0.01
-      inclination: 1.25
-      orbitalArc: 94
-      axialTilt: 21.62
-      parentId: Zavijava
-      showOrbit: true
     satellites:
       - name: Zavijava 7a
         description: ''
         tags: []
-        isPlanet:
-          radius: 7686.182231365618
-          age: 984644172
-          ringMapAsset: null
-          terranMass: 0.8299997177000968
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 296
         satellite:
+          axialTilt: 37.69
           semiMajorAxis: 1200631.938003072
           eccentricity: 0.01
           inclination: 1.27
           orbitalArc: 20
-          axialTilt: 37.69
-          parentId: Zavijava 7
           showOrbit: true
-        satellites: []
+          parentId: Zavijava 7
+        isPlanet:
+          age: 984644172
+          classification: D
+          radius: 7686.182231365618
+          terranMass: 0.8299997177000968
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 296
       - name: Zavijava 7b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 29.77
+          semiMajorAxis: 2541960.300762966
+          eccentricity: 0
+          inclination: 0.69
+          orbitalArc: 6
+          showOrbit: true
+          parentId: Zavijava 7
         isPlanet:
-          radius: 6402.922671947017
           age: 9875706436
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-          ringMapAsset: null
-          terranMass: 0.5000000572415234
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 6402.922671947017
+          terranMass: 0.5000000572415234
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+          ringMapAsset: null
         population: 2117
         temperature: 178
-        satellite:
-          semiMajorAxis: 2541960.300762966
-          eccentricity: 0
-          inclination: 0.69
-          orbitalArc: 6
-          axialTilt: 29.77
-          parentId: Zavijava 7
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

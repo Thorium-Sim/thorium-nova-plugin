@@ -14,189 +14,193 @@ stars:
   - name: Seginus A
     description: ''
     tags: []
-    radius: 4.03
-    temperature: 7800
     solarMass: 2.1
     age: 2014652170892
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.03
+    temperature: 7800
     satellite:
-      orbitalArc: 54
-      semiMajorAxis: 48.36
       axialTilt: 0
+      semiMajorAxis: 48.36
       eccentricity: 0
       inclination: 0
+      orbitalArc: 54
       showOrbit: false
       parentId: Seginus
   - name: Seginus B
     description: ''
     tags: []
-    radius: 4.03
-    temperature: 7800
     solarMass: 2.1
     age: 2014652170892
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.03
+    temperature: 7800
     satellite:
-      orbitalArc: 234
-      semiMajorAxis: 48.36
       axialTilt: 0
+      semiMajorAxis: 48.36
       eccentricity: 0
       inclination: 0
+      orbitalArc: 234
       showOrbit: false
       parentId: Seginus
 planets:
   - name: Seginus 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 73
-      age: 902550851
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.012185002539643029
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 224
     satellite:
+      axialTilt: 1.36
       semiMajorAxis: 974458159
       eccentricity: 0.01
       inclination: 0.93
       orbitalArc: 298
-      axialTilt: 1.36
-      parentId: Seginus
       showOrbit: true
+      parentId: Seginus
+    isPlanet:
+      age: 902550851
+      classification: D
+      radius: 73
+      terranMass: 0.012185002539643029
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 224
     satellites: []
   - name: Seginus 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6767
-      age: 722146068
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.007604088103792977
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1234
     satellite:
+      axialTilt: 12.19
       semiMajorAxis: 1329446886.6666644
       eccentricity: 0
       inclination: 0.68
       orbitalArc: 145
-      axialTilt: 12.19
-      parentId: Seginus
       showOrbit: true
+      parentId: Seginus
+    isPlanet:
+      age: 722146068
+      classification: E
+      radius: 6767
+      terranMass: 0.007604088103792977
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 1234
     satellites: []
   - name: Seginus 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 3940
-      age: 376194807
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0039029499471101314
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 49
     satellite:
+      axialTilt: 15.48
       semiMajorAxis: 1927410710.7777762
       eccentricity: 0
       inclination: 0.1
       orbitalArc: 194
-      axialTilt: 15.48
-      parentId: Seginus
       showOrbit: true
-    satellites: []
-  - name: Seginus 4
-    description: ''
-    tags: []
+      parentId: Seginus
     isPlanet:
-      radius: 1329
-      age: 436979462
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.02766452527391402
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      age: 376194807
       classification: C
+      radius: 3940
+      terranMass: 0.0039029499471101314
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
-    temperature: 47
+    temperature: 49
+    satellites: []
+  - name: Seginus 4
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 12.9
       semiMajorAxis: 3087465601
       eccentricity: 0.01
       inclination: 1.88
       orbitalArc: 92
-      axialTilt: 12.9
-      parentId: Seginus
       showOrbit: true
+      parentId: Seginus
+    isPlanet:
+      age: 436979462
+      classification: C
+      radius: 1329
+      terranMass: 0.02766452527391402
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChondrite.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 0
+    temperature: 47
     satellites:
       - name: Seginus 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 81.75475395298675
-          age: 1518264458
-          ringMapAsset: null
-          terranMass: 2.1000002272764378
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1763
         satellite:
+          axialTilt: 3.02
           semiMajorAxis: 20528.57866674652
           eccentricity: 0.01
           inclination: 0.29
           orbitalArc: 125
-          axialTilt: 3.02
-          parentId: Seginus 4
           showOrbit: true
-        satellites: []
-      - name: Seginus 4b
-        description: ''
-        tags: []
+          parentId: Seginus 4
         isPlanet:
-          radius: 112.6160857908116
-          age: 132230049
-          ringMapAsset: null
-          terranMass: 1.0799996521619961
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
+          age: 1518264458
+          classification: A
+          radius: 81.75475395298675
+          terranMass: 2.1000002272764378
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAuric.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 277
+        temperature: 1763
+      - name: Seginus 4b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 21.01
           semiMajorAxis: 55069.26595170687
           eccentricity: 0.01
           inclination: 0.31
           orbitalArc: 319
-          axialTilt: 21.01
-          parentId: Seginus 4
           showOrbit: true
-        satellites: []
+          parentId: Seginus 4
+        isPlanet:
+          age: 132230049
+          classification: D
+          radius: 112.6160857908116
+          terranMass: 1.0799996521619961
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 277
 commSatellite: null
 assets: {}

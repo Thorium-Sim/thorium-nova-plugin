@@ -14,92 +14,93 @@ stars:
   - name: Alchiba A
     description: ''
     tags: []
-    radius: 1.42
-    temperature: 6985
     solarMass: 1.34
     age: 16100217842103
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.42
+    temperature: 6985
     satellite:
-      orbitalArc: 113
-      semiMajorAxis: 17.04
       axialTilt: 0
+      semiMajorAxis: 17.04
       eccentricity: 0
       inclination: 0
+      orbitalArc: 113
       showOrbit: false
       parentId: Alchiba
   - name: Alchiba B
     description: ''
     tags: []
-    radius: 1.42
-    temperature: 6985
     solarMass: 1.34
     age: 16100217842103
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.42
+    temperature: 6985
     satellite:
-      orbitalArc: 293
-      semiMajorAxis: 17.04
       axialTilt: 0
+      semiMajorAxis: 17.04
       eccentricity: 0
       inclination: 0
+      orbitalArc: 293
       showOrbit: false
       parentId: Alchiba
 planets:
   - name: Alchiba 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 109
-      age: 593012317
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.0041228715415777125
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 371
     satellite:
+      axialTilt: 30.6
       semiMajorAxis: 316356051.33333385
       eccentricity: 0.01
       inclination: 1.05
       orbitalArc: 259
-      axialTilt: 30.6
-      parentId: Alchiba
       showOrbit: true
+      parentId: Alchiba
+    isPlanet:
+      age: 593012317
+      classification: D
+      radius: 109
+      terranMass: 0.0041228715415777125
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 371
     satellites: []
   - name: Alchiba 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 15.89
+      semiMajorAxis: 866894516
+      eccentricity: 0.01
+      inclination: 1.91
+      orbitalArc: 344
+      showOrbit: true
+      parentId: Alchiba
     isPlanet:
-      radius: 34383
       age: 5103792188
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.03729201571603585
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
       classification: J
+      radius: 34383
+      terranMass: 0.03729201571603585
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
     temperature: 315
-    satellite:
-      semiMajorAxis: 866894516
-      eccentricity: 0.01
-      inclination: 1.91
-      orbitalArc: 344
-      axialTilt: 15.89
-      parentId: Alchiba
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

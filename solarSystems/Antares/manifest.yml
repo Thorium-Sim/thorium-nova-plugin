@@ -14,64 +14,65 @@ stars:
   - name: Antares A
     description: ''
     tags: []
-    radius: 680
-    temperature: 3660
     solarMass: 13
     age: 9035880314
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 680
+    temperature: 3660
     satellite:
-      orbitalArc: 306
-      semiMajorAxis: 8160
       axialTilt: 0
+      semiMajorAxis: 8160
       eccentricity: 0
       inclination: 0
+      orbitalArc: 306
       showOrbit: false
       parentId: Antares
   - name: Antares B
     description: ''
     tags: []
-    radius: 680
-    temperature: 3660
     solarMass: 13
     age: 9035880314
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 680
+    temperature: 3660
     satellite:
-      orbitalArc: 486
-      semiMajorAxis: 8160
       axialTilt: 0
+      semiMajorAxis: 8160
       eccentricity: 0
       inclination: 0
+      orbitalArc: 486
       showOrbit: false
       parentId: Antares
 planets:
   - name: Antares 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 354
-      age: 501937062
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.008416684729197718
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 355
     satellite:
+      axialTilt: 30.49
       semiMajorAxis: 16948115307
       eccentricity: 0.01
       inclination: 0.92
       orbitalArc: 50
-      axialTilt: 30.49
-      parentId: Antares
       showOrbit: true
+      parentId: Antares
+    isPlanet:
+      age: 501937062
+      classification: D
+      radius: 354
+      terranMass: 0.008416684729197718
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 355
     satellites: []
 commSatellite: null
 assets: {}

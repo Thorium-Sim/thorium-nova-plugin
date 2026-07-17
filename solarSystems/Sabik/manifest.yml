@@ -14,310 +14,309 @@ stars:
   - name: 'Sabik '
     description: ''
     tags: []
-    radius: 2.5
-    temperature: 9000
     solarMass: 2.25
     age: 3164475571589
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 2.5
+    temperature: 9000
     satellite:
-      orbitalArc: 157
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 157
       showOrbit: false
       parentId: Sabik
 planets:
   - name: Sabik 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.87
+      semiMajorAxis: 339080774.33333266
+      eccentricity: 0.02
+      inclination: 0.32
+      orbitalArc: 356
+      showOrbit: true
+      parentId: Sabik
     isPlanet:
-      radius: 7266
       age: 8878237783
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.001112171084521905
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 7266
+      terranMass: 0.001112171084521905
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 35126
     temperature: 264
-    satellite:
-      semiMajorAxis: 339080774.33333266
-      eccentricity: 0.02
-      inclination: 0.32
-      orbitalArc: 356
-      axialTilt: 23.87
-      parentId: Sabik
-      showOrbit: true
     satellites: []
   - name: Sabik 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 356
-      age: 623602654
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.008294195113662476
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 282
     satellite:
+      axialTilt: 30.13
       semiMajorAxis: 578442417.2222217
       eccentricity: 0.01
       inclination: 1.96
       orbitalArc: 338
-      axialTilt: 30.13
-      parentId: Sabik
       showOrbit: true
+      parentId: Sabik
+    isPlanet:
+      age: 623602654
+      classification: D
+      radius: 356
+      terranMass: 0.008294195113662476
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 282
     satellites: []
   - name: Sabik 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 6056
-      age: 4052344358
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.005472342953545121
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
-      classification: M
-      isHabitable: true
-      lifeforms:
-        - Varied and extensive vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 941419565
-    temperature: 297
     satellite:
+      axialTilt: 8.44
       semiMajorAxis: 870674221.6666646
       eccentricity: 0.01
       inclination: 0.57
       orbitalArc: 223
-      axialTilt: 8.44
-      parentId: Sabik
       showOrbit: true
+      parentId: Sabik
+    isPlanet:
+      age: 4052344358
+      classification: M
+      radius: 6056
+      terranMass: 0.005472342953545121
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial3.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 941419565
+    temperature: 297
     satellites:
       - name: Sabik 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 888.8151326469182
-          age: 391331892
-          ringMapAsset: null
-          terranMass: 0.7000001397017924
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 934
         satellite:
+          axialTilt: 4.49
           semiMajorAxis: 186876.32098748756
           eccentricity: 0.01
           inclination: 0.33
           orbitalArc: 229
-          axialTilt: 4.49
-          parentId: Sabik 3
           showOrbit: true
-        satellites: []
-      - name: Sabik 3b
-        description: ''
-        tags: []
+          parentId: Sabik 3
         isPlanet:
-          radius: 1047.6210950233092
-          age: 1891990167
-          ringMapAsset: null
-          terranMass: 0.5000001284108734
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
-          classification: F
+          age: 391331892
+          classification: E
+          radius: 888.8151326469182
+          terranMass: 0.7000001397017924
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 761
+        temperature: 934
+      - name: Sabik 3b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 33.46
           semiMajorAxis: 371905.48873327475
           eccentricity: 0.02
           inclination: 0.67
           orbitalArc: 185
-          axialTilt: 33.46
-          parentId: Sabik 3
           showOrbit: true
-        satellites: []
+          parentId: Sabik 3
+        isPlanet:
+          age: 1891990167
+          classification: F
+          radius: 1047.6210950233092
+          terranMass: 0.5000001284108734
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCimmerian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 761
   - name: Sabik 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 38.13
+      semiMajorAxis: 1448560617.3333292
+      eccentricity: 0.02
+      inclination: 0.36
+      orbitalArc: 208
+      showOrbit: true
+      parentId: Sabik
     isPlanet:
-      radius: 3910
       age: 7141417054
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.02061129927555083
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 3910
+      terranMass: 0.02061129927555083
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 13036
     temperature: 219
-    satellite:
-      semiMajorAxis: 1448560617.3333292
-      eccentricity: 0.02
-      inclination: 0.36
-      orbitalArc: 208
-      axialTilt: 38.13
-      parentId: Sabik
-      showOrbit: true
     satellites:
       - name: Sabik 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 361.48061213013267
-          age: 9111423915
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 47559
-        temperature: 269
         satellite:
+          axialTilt: 12.73
           semiMajorAxis: 125422.95003576684
           eccentricity: 0
           inclination: 0.62
           orbitalArc: 186
-          axialTilt: 12.73
-          parentId: Sabik 4
           showOrbit: true
-        satellites: []
+          parentId: Sabik 4
+        isPlanet:
+          age: 9111423915
+          classification: P
+          radius: 361.48061213013267
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 47559
+        temperature: 269
       - name: Sabik 4b
         description: ''
         tags: []
-        isPlanet:
-          radius: 544.9847595422726
-          age: 404701778
-          ringMapAsset: null
-          terranMass: 0.800000020876367
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-          classification: C
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 35
         satellite:
+          axialTilt: 36.11
           semiMajorAxis: 257777.79126349496
           eccentricity: 0.01
           inclination: 1.36
           orbitalArc: 134
-          axialTilt: 36.11
-          parentId: Sabik 4
           showOrbit: true
-        satellites: []
+          parentId: Sabik 4
+        isPlanet:
+          age: 404701778
+          classification: C
+          radius: 544.9847595422726
+          terranMass: 0.800000020876367
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 35
   - name: Sabik 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 3.33
+      semiMajorAxis: 2064950467.5555487
+      eccentricity: 0
+      inclination: 0.08
+      orbitalArc: 231
+      showOrbit: true
+      parentId: Sabik
     isPlanet:
-      radius: 4308150
       age: 8485035282
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 6.306812358253358
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_jupiter.jpg
       classification: I
+      radius: 4308150
+      terranMass: 6.306812358253358
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_jupiter.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 0
     temperature: 226
-    satellite:
-      semiMajorAxis: 2064950467.5555487
-      eccentricity: 0
-      inclination: 0.08
-      orbitalArc: 231
-      axialTilt: 3.33
-      parentId: Sabik
-      showOrbit: true
     satellites:
       - name: Sabik 5a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 2.03
+          semiMajorAxis: 262526040.28850836
+          eccentricity: 0
+          inclination: 0.05
+          orbitalArc: 217
+          showOrbit: true
+          parentId: Sabik 5
         isPlanet:
-          radius: 709529.8386175901
           age: 5117060690
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.7000000715298311
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 709529.8386175901
+          terranMass: 1.7000000715298311
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 44027
         temperature: 207
-        satellite:
-          semiMajorAxis: 262526040.28850836
-          eccentricity: 0
-          inclination: 0.05
-          orbitalArc: 217
-          axialTilt: 2.03
-          parentId: Sabik 5
-          showOrbit: true
-        satellites: []
   - name: Sabik 6
     description: ''
     tags: []
+    satellite:
+      axialTilt: 5.83
+      semiMajorAxis: 2486161746
+      eccentricity: 0.01
+      inclination: 0.26
+      orbitalArc: 51
+      showOrbit: true
+      parentId: Sabik
     isPlanet:
-      radius: 47945
       age: 3217148567
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
-      ringMapAsset: null
-      terranMass: 0.23355798251427662
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
       classification: J
+      radius: 47945
+      terranMass: 0.23355798251427662
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiant.png
+      ringMapAsset: null
     population: 0
     temperature: 335
-    satellite:
-      semiMajorAxis: 2486161746
-      eccentricity: 0.01
-      inclination: 0.26
-      orbitalArc: 51
-      axialTilt: 5.83
-      parentId: Sabik
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

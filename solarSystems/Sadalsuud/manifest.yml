@@ -14,46 +14,47 @@ stars:
   - name: 'Sadalsuud '
     description: ''
     tags: []
-    radius: 47.88
-    temperature: 5608
     solarMass: 4.97
     age: 126411146397
     spectralType: G
     hue: 45
     isWhite: false
+    radius: 47.88
+    temperature: 5608
     satellite:
-      orbitalArc: 344
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 344
       showOrbit: false
       parentId: Sadalsuud
 planets:
   - name: Sadalsuud 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 145
-      age: 560276375
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.00012613697730528263
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 400
     satellite:
+      axialTilt: 32.08
       semiMajorAxis: 4350131666
       eccentricity: 0.01
       inclination: 0.55
       orbitalArc: 64
-      axialTilt: 32.08
-      parentId: Sadalsuud
       showOrbit: true
+      parentId: Sadalsuud
+    isPlanet:
+      age: 560276375
+      classification: D
+      radius: 145
+      terranMass: 0.00012613697730528263
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 400
     satellites: []
 commSatellite: null
 assets: {}

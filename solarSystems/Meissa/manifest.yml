@@ -14,72 +14,73 @@ stars:
   - name: 'Meissa '
     description: ''
     tags: []
-    radius: 10
-    temperature: 36000
     solarMass: 34
     age: 11674497551
     spectralType: O
     hue: 220
     isWhite: false
+    radius: 10
+    temperature: 36000
     satellite:
-      orbitalArc: 322
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 322
       showOrbit: false
       parentId: Meissa
 planets:
   - name: Meissa 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6035
-      age: 8076093561
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.002247752128110209
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 291176605
-    temperature: 290
     satellite:
+      axialTilt: 9.39
       semiMajorAxis: 21902679040
       eccentricity: 0.01
       inclination: 1.2
       orbitalArc: 114
-      axialTilt: 9.39
-      parentId: Meissa
       showOrbit: true
+      parentId: Meissa
+    isPlanet:
+      age: 8076093561
+      classification: O
+      radius: 6035
+      terranMass: 0.002247752128110209
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 291176605
+    temperature: 290
     satellites: []
   - name: Meissa 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 355
-      age: 322022130
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.009601252142294965
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 335
     satellite:
+      axialTilt: 19.56
       semiMajorAxis: 33789038481
       eccentricity: 0.01
       inclination: 0.47
       orbitalArc: 322
-      axialTilt: 19.56
-      parentId: Meissa
       showOrbit: true
+      parentId: Meissa
+    isPlanet:
+      age: 322022130
+      classification: D
+      radius: 355
+      terranMass: 0.009601252142294965
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 0
+    temperature: 335
     satellites: []
 commSatellite: null
 assets: {}

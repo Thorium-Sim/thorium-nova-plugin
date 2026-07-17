@@ -14,37 +14,37 @@ stars:
   - name: Menkib A
     description: ''
     tags: []
-    radius: 14
-    temperature: 35000
     solarMass: 26
     age: 5098170829
     spectralType: O
     hue: 220
     isWhite: false
+    radius: 14
+    temperature: 35000
     satellite:
-      orbitalArc: 343
-      semiMajorAxis: 168
       axialTilt: 0
+      semiMajorAxis: 168
       eccentricity: 0
       inclination: 0
+      orbitalArc: 343
       showOrbit: false
       parentId: Menkib
   - name: Menkib B
     description: ''
     tags: []
-    radius: 14
-    temperature: 35000
     solarMass: 26
     age: 5098170829
     spectralType: O
     hue: 220
     isWhite: false
+    radius: 14
+    temperature: 35000
     satellite:
-      orbitalArc: 523
-      semiMajorAxis: 168
       axialTilt: 0
+      semiMajorAxis: 168
       eccentricity: 0
       inclination: 0
+      orbitalArc: 523
       showOrbit: false
       parentId: Menkib
 planets: []

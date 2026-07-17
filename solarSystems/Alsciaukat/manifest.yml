@@ -14,429 +14,431 @@ stars:
   - name: Alsciaukat A
     description: ''
     tags: []
-    radius: 53.27
-    temperature: 3921
     solarMass: 1.95
     age: 167668366411
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 53.27
+    temperature: 3921
     satellite:
-      orbitalArc: 22
-      semiMajorAxis: 639.24
       axialTilt: 0
+      semiMajorAxis: 639.24
       eccentricity: 0
       inclination: 0
+      orbitalArc: 22
       showOrbit: false
       parentId: Alsciaukat
   - name: Alsciaukat B
     description: ''
     tags: []
-    radius: 53.27
-    temperature: 3921
     solarMass: 1.95
     age: 167668366411
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 53.27
+    temperature: 3921
     satellite:
-      orbitalArc: 202
-      semiMajorAxis: 639.24
       axialTilt: 0
+      semiMajorAxis: 639.24
       eccentricity: 0
       inclination: 0
+      orbitalArc: 202
       showOrbit: false
       parentId: Alsciaukat
 planets:
   - name: Alsciaukat 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 489
-      age: 726683115
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.01275153936461527
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 388
     satellite:
+      axialTilt: 38.87
       semiMajorAxis: 1272320946.3333335
       eccentricity: 0
       inclination: 0.88
       orbitalArc: 85
-      axialTilt: 38.87
-      parentId: Alsciaukat
       showOrbit: true
+      parentId: Alsciaukat
+    isPlanet:
+      age: 726683115
+      classification: D
+      radius: 489
+      terranMass: 0.01275153936461527
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 0
+    temperature: 388
     satellites: []
   - name: Alsciaukat 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 26.17
+      semiMajorAxis: 2209854892.666667
+      eccentricity: 0.02
+      inclination: 1.65
+      orbitalArc: 95
+      showOrbit: true
+      parentId: Alsciaukat
     isPlanet:
-      radius: 3743
       age: 8834771152
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: null
-      terranMass: 0.00845595523879388
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 3743
+      terranMass: 0.00845595523879388
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
     population: 12330
     temperature: 297
-    satellite:
-      semiMajorAxis: 2209854892.666667
-      eccentricity: 0.02
-      inclination: 1.65
-      orbitalArc: 95
-      axialTilt: 26.17
-      parentId: Alsciaukat
-      showOrbit: true
     satellites:
       - name: Alsciaukat 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 355.08416956165667
-          age: 320529071
-          ringMapAsset: null
-          terranMass: 1.04999970878154
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 284
         satellite:
+          axialTilt: 6.79
           semiMajorAxis: 117177.7759553467
           eccentricity: 0
           inclination: 0.47
           orbitalArc: 18
-          axialTilt: 6.79
-          parentId: Alsciaukat 2
           showOrbit: true
-        satellites: []
-  - name: Alsciaukat 3
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 4788
-      age: 1961959892
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0012166103811166265
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
-      classification: A
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1734
-    satellite:
-      semiMajorAxis: 2791106655.555557
-      eccentricity: 0.02
-      inclination: 1.57
-      orbitalArc: 209
-      axialTilt: 31.24
-      parentId: Alsciaukat
-      showOrbit: true
-    satellites:
-      - name: Alsciaukat 3a
-        description: ''
-        tags: []
+          parentId: Alsciaukat 2
         isPlanet:
-          radius: 585.8661953346027
-          age: 573614529
-          ringMapAsset: null
-          terranMass: 0.8199998279860778
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 320529071
           classification: D
+          radius: 355.08416956165667
+          terranMass: 1.04999970878154
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 227
+        temperature: 284
+  - name: Alsciaukat 3
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 31.24
+      semiMajorAxis: 2791106655.555557
+      eccentricity: 0.02
+      inclination: 1.57
+      orbitalArc: 209
+      showOrbit: true
+      parentId: Alsciaukat
+    isPlanet:
+      age: 1961959892
+      classification: A
+      radius: 4788
+      terranMass: 0.0012166103811166265
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 1734
+    satellites:
+      - name: Alsciaukat 3a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 29.26
           semiMajorAxis: 152911.07698233132
           eccentricity: 0.01
           inclination: 1.54
           orbitalArc: 310
-          axialTilt: 29.26
-          parentId: Alsciaukat 3
           showOrbit: true
-        satellites: []
+          parentId: Alsciaukat 3
+        isPlanet:
+          age: 573614529
+          classification: D
+          radius: 585.8661953346027
+          terranMass: 0.8199998279860778
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 227
   - name: Alsciaukat 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 10.39
+      semiMajorAxis: 3228471306.481487
+      eccentricity: 0.02
+      inclination: 0.16
+      orbitalArc: 65
+      showOrbit: true
+      parentId: Alsciaukat
     isPlanet:
-      radius: 3853
       age: 4229960960
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: null
-      terranMass: 0.02249039072998882
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 3853
+      terranMass: 0.02249039072998882
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: null
     population: 30523
     temperature: 277
-    satellite:
-      semiMajorAxis: 3228471306.481487
-      eccentricity: 0.02
-      inclination: 0.16
-      orbitalArc: 65
-      axialTilt: 10.39
-      parentId: Alsciaukat
-      showOrbit: true
     satellites:
       - name: Alsciaukat 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 909.0964697029784
-          age: 627426002
-          ringMapAsset: null
-          terranMass: 0.9899999146401541
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 216
         satellite:
+          axialTilt: 5.38
           semiMajorAxis: 310001.89616871567
           eccentricity: 0.02
           inclination: 0.16
           orbitalArc: 274
-          axialTilt: 5.38
-          parentId: Alsciaukat 4
           showOrbit: true
-        satellites: []
-  - name: Alsciaukat 5
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5259
-      age: 3078760212
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0015617186469169609
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 181331
-    temperature: 270
-    satellite:
-      semiMajorAxis: 3648318662.617298
-      eccentricity: 0.02
-      inclination: 0.76
-      orbitalArc: 34
-      axialTilt: 35.78
-      parentId: Alsciaukat
-      showOrbit: true
-    satellites: []
-  - name: Alsciaukat 6
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 48033
-      age: 5664525223
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
-      ringMapAsset: null
-      terranMass: 1.086041629929338
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 209
-    satellite:
-      semiMajorAxis: 3822539327.695498
-      eccentricity: 0.02
-      inclination: 1.16
-      orbitalArc: 350
-      axialTilt: 10.29
-      parentId: Alsciaukat
-      showOrbit: true
-    satellites:
-      - name: Alsciaukat 6a
-        description: ''
-        tags: []
+          parentId: Alsciaukat 4
         isPlanet:
-          radius: 3914.5463047361454
-          age: 338917803
-          ringMapAsset: null
-          terranMass: 1.1000000041837072
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-          classification: E
+          age: 627426002
+          classification: D
+          radius: 909.0964697029784
+          terranMass: 0.9899999146401541
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 1209
+        temperature: 216
+  - name: Alsciaukat 5
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 35.78
+      semiMajorAxis: 3648318662.617298
+      eccentricity: 0.02
+      inclination: 0.76
+      orbitalArc: 34
+      showOrbit: true
+      parentId: Alsciaukat
+    isPlanet:
+      age: 3078760212
+      classification: P
+      radius: 5259
+      terranMass: 0.0015617186469169609
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 181331
+    temperature: 270
+    satellites: []
+  - name: Alsciaukat 6
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 10.29
+      semiMajorAxis: 3822539327.695498
+      eccentricity: 0.02
+      inclination: 1.16
+      orbitalArc: 350
+      showOrbit: true
+      parentId: Alsciaukat
+    isPlanet:
+      age: 5664525223
+      classification: J
+      radius: 48033
+      terranMass: 1.086041629929338
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureGiantSharp.png
+      ringMapAsset: null
+    population: 0
+    temperature: 209
+    satellites:
+      - name: Alsciaukat 6a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 8.01
           semiMajorAxis: 1362262.1140481785
           eccentricity: 0.02
           inclination: 1.03
           orbitalArc: 73
-          axialTilt: 8.01
-          parentId: Alsciaukat 6
           showOrbit: true
-        satellites: []
+          parentId: Alsciaukat 6
+        isPlanet:
+          age: 338917803
+          classification: E
+          radius: 3914.5463047361454
+          terranMass: 1.1000000041837072
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1209
   - name: Alsciaukat 7
     description: ''
     tags: []
-    isPlanet:
-      radius: 55206
-      age: 9701634239
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 0.4603393118840966
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
-      classification: J
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 260
     satellite:
+      axialTilt: 31.77
       semiMajorAxis: 3934738439.73579
       eccentricity: 0.02
       inclination: 1.84
       orbitalArc: 223
-      axialTilt: 31.77
-      parentId: Alsciaukat
       showOrbit: true
-    satellites: []
-  - name: Alsciaukat 8
-    description: ''
-    tags: []
+      parentId: Alsciaukat
     isPlanet:
-      radius: 38782
-      age: 7938161566
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 1.4026400567061827
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      age: 9701634239
       classification: J
+      radius: 55206
+      terranMass: 0.4603393118840966
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous2.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
-    temperature: 317
+    temperature: 260
+    satellites: []
+  - name: Alsciaukat 8
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 9.73
       semiMajorAxis: 4000000000
       eccentricity: 0.02
       inclination: 1.89
       orbitalArc: 292
-      axialTilt: 9.73
-      parentId: Alsciaukat
       showOrbit: true
+      parentId: Alsciaukat
+    isPlanet:
+      age: 7938161566
+      classification: J
+      radius: 38782
+      terranMass: 1.4026400567061827
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous1.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+    population: 0
+    temperature: 317
     satellites:
       - name: Alsciaukat 8a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 1.37
+          semiMajorAxis: 944998.4408324476
+          eccentricity: 0
+          inclination: 0.89
+          orbitalArc: 178
+          showOrbit: true
+          parentId: Alsciaukat 8
         isPlanet:
-          radius: 2445.627063113807
           age: 3081944402
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
           classification: G
+          radius: 2445.627063113807
+          terranMass: 0.5
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureChlorine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 464
-        satellite:
-          semiMajorAxis: 944998.4408324476
-          eccentricity: 0
-          inclination: 0.89
-          orbitalArc: 178
-          axialTilt: 1.37
-          parentId: Alsciaukat 8
-          showOrbit: true
-        satellites: []
       - name: Alsciaukat 8b
         description: ''
         tags: []
-        isPlanet:
-          radius: 7595.042330194857
-          age: 337715571
-          ringMapAsset: null
-          terranMass: 0.13999974349346433
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 304
         satellite:
+          axialTilt: 30.28
           semiMajorAxis: 1934396.0333447135
           eccentricity: 0.02
           inclination: 1.92
           orbitalArc: 283
-          axialTilt: 30.28
-          parentId: Alsciaukat 8
           showOrbit: true
-        satellites: []
-      - name: Alsciaukat 8c
-        description: ''
-        tags: []
+          parentId: Alsciaukat 8
         isPlanet:
-          radius: 7501.734562059034
-          age: 650952844
-          ringMapAsset: null
-          terranMass: 0.5499997140169175
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 337715571
           classification: D
+          radius: 7595.042330194857
+          terranMass: 0.13999974349346433
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
         temperature: 304
+      - name: Alsciaukat 8c
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 31.72
           semiMajorAxis: 3660846.4662848087
           eccentricity: 0.01
           inclination: 1.66
           orbitalArc: 112
-          axialTilt: 31.72
-          parentId: Alsciaukat 8
           showOrbit: true
-        satellites: []
+          parentId: Alsciaukat 8
+        isPlanet:
+          age: 650952844
+          classification: D
+          radius: 7501.734562059034
+          terranMass: 0.5499997140169175
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 304
 commSatellite: null
 assets: {}

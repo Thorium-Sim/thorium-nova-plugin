@@ -14,217 +14,220 @@ stars:
   - name: Asterope A
     description: ''
     tags: []
-    radius: 2.7387
-    temperature: 11041
     solarMass: 2.93
     age: 1516052851759
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.7387
+    temperature: 11041
     satellite:
-      orbitalArc: 72
-      semiMajorAxis: 32.8644
       axialTilt: 0
+      semiMajorAxis: 32.8644
       eccentricity: 0
       inclination: 0
+      orbitalArc: 72
       showOrbit: false
       parentId: Asterope
   - name: Asterope B
     description: ''
     tags: []
-    radius: 2.7387
-    temperature: 11041
     solarMass: 2.93
     age: 1516052851759
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 2.7387
+    temperature: 11041
     satellite:
-      orbitalArc: 252
-      semiMajorAxis: 32.8644
       axialTilt: 0
+      semiMajorAxis: 32.8644
       eccentricity: 0
       inclination: 0
+      orbitalArc: 252
       showOrbit: false
       parentId: Asterope
 planets:
   - name: Asterope 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 105
-      age: 453542487
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.015670629259394917
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 387
     satellite:
+      axialTilt: 38.16
       semiMajorAxis: 1009776309
       eccentricity: 0.02
       inclination: 1.42
       orbitalArc: 132
-      axialTilt: 38.16
-      parentId: Asterope
       showOrbit: true
+      parentId: Asterope
+    isPlanet:
+      age: 453542487
+      classification: D
+      radius: 105
+      terranMass: 0.015670629259394917
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 387
     satellites: []
   - name: Asterope 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6104
-      age: 9669310665
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.0012656303783333002
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 294419454
-    temperature: 491
     satellite:
+      axialTilt: 28.5
       semiMajorAxis: 1575571026.3333333
       eccentricity: 0.01
       inclination: 1.99
       orbitalArc: 48
-      axialTilt: 28.5
-      parentId: Asterope
       showOrbit: true
+      parentId: Asterope
+    isPlanet:
+      age: 9669310665
+      classification: 'N'
+      radius: 6104
+      terranMass: 0.0012656303783333002
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
+    population: 294419454
+    temperature: 491
     satellites: []
   - name: Asterope 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 0.35
+      semiMajorAxis: 2196341430.555555
+      eccentricity: 0.01
+      inclination: 0.17
+      orbitalArc: 0
+      showOrbit: true
+      parentId: Asterope
     isPlanet:
-      radius: 5535
       age: 3465876242
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.009247675241610891
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
       classification: G
+      radius: 5535
+      terranMass: 0.009247675241610891
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCarbide.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
     temperature: 539
-    satellite:
-      semiMajorAxis: 2196341430.555555
-      eccentricity: 0.01
-      inclination: 0.17
-      orbitalArc: 0
-      axialTilt: 0.35
-      parentId: Asterope
-      showOrbit: true
     satellites:
       - name: Asterope 3a
         description: ''
         tags: []
-        isPlanet:
-          radius: 394.61390981529
-          age: 683268324
-          ringMapAsset: null
-          terranMass: 0.299999860162633
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 368
         satellite:
+          axialTilt: 6.78
           semiMajorAxis: 278914.26070467616
           eccentricity: 0
           inclination: 1.93
           orbitalArc: 172
-          axialTilt: 6.78
-          parentId: Asterope 3
           showOrbit: true
-        satellites: []
+          parentId: Asterope 3
+        isPlanet:
+          age: 683268324
+          classification: D
+          radius: 394.61390981529
+          terranMass: 0.299999860162633
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 368
       - name: Asterope 3b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1059.1938652642873
-          age: 4332646502
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-          classification: O
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 212890594
-        temperature: 301
         satellite:
+          axialTilt: 39.86
           semiMajorAxis: 458630.9436594364
           eccentricity: 0.02
           inclination: 0.25
           orbitalArc: 30
-          axialTilt: 39.86
-          parentId: Asterope 3
           showOrbit: true
-        satellites: []
+          parentId: Asterope 3
+        isPlanet:
+          age: 4332646502
+          classification: O
+          radius: 1059.1938652642873
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 212890594
+        temperature: 301
   - name: Asterope 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 329
-      age: 73361476
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.0016646900881280415
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 381
     satellite:
+      axialTilt: 21.1
       semiMajorAxis: 2847255409.4074073
       eccentricity: 0.02
       inclination: 1.32
       orbitalArc: 183
-      axialTilt: 21.1
-      parentId: Asterope
       showOrbit: true
-    satellites: []
-  - name: Asterope 5
-    description: ''
-    tags: []
+      parentId: Asterope
     isPlanet:
-      radius: 214
-      age: 597150753
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.004976092549898104
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      age: 73361476
       classification: D
+      radius: 329
+      terranMass: 0.0016646900881280415
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
-    temperature: 372
+    temperature: 381
+    satellites: []
+  - name: Asterope 5
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 27.52
       semiMajorAxis: 3621345394
       eccentricity: 0
       inclination: 0.06
       orbitalArc: 33
-      axialTilt: 27.52
-      parentId: Asterope
       showOrbit: true
+      parentId: Asterope
+    isPlanet:
+      age: 597150753
+      classification: D
+      radius: 214
+      terranMass: 0.004976092549898104
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 372
     satellites: []
 commSatellite: null
 assets: {}

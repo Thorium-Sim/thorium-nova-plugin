@@ -11,5 +11,6 @@ abundance: 1
 tags: []
 flags:
   torpedoGuidance:
-    guidanceMode: visual
     color: goldenrod
+    guidanceMode: visual
+    range: 5000

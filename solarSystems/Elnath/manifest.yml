@@ -14,93 +14,93 @@ stars:
   - name: Elnath A
     description: ''
     tags: []
-    radius: 4.7
-    temperature: 13600
     solarMass: 5
     age: 381582052250
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.7
+    temperature: 13600
     satellite:
-      orbitalArc: 183
-      semiMajorAxis: 56.400000000000006
       axialTilt: 0
+      semiMajorAxis: 56.400000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 183
       showOrbit: false
       parentId: Elnath
   - name: Elnath B
     description: ''
     tags: []
-    radius: 4.7
-    temperature: 13600
     solarMass: 5
     age: 381582052250
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 4.7
+    temperature: 13600
     satellite:
-      orbitalArc: 363
-      semiMajorAxis: 56.400000000000006
       axialTilt: 0
+      semiMajorAxis: 56.400000000000006
       eccentricity: 0
       inclination: 0
+      orbitalArc: 363
       showOrbit: false
       parentId: Elnath
 planets:
   - name: Elnath 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5331
-      age: 7569661407
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
-      terranMass: 0.022629309024226225
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
-      classification: M
-      isHabitable: true
-      lifeforms:
-        - Varied and extensive vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 7910641467
-    temperature: 290
     satellite:
+      axialTilt: 13.74
       semiMajorAxis: 2347622969.333333
       eccentricity: 0.02
       inclination: 1.28
       orbitalArc: 220
-      axialTilt: 13.74
-      parentId: Elnath
       showOrbit: true
+      parentId: Elnath
+    isPlanet:
+      age: 7569661407
+      classification: M
+      radius: 5331
+      terranMass: 0.022629309024226225
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings4.png
+    population: 7910641467
+    temperature: 290
     satellites: []
   - name: Elnath 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 34.2
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.76
+      orbitalArc: 340
+      showOrbit: true
+      parentId: Elnath
     isPlanet:
-      radius: 52933
       age: 5621518665
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.41649650030105756
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
       classification: J
+      radius: 52933
+      terranMass: 0.41649650030105756
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 275
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0.01
-      inclination: 0.76
-      orbitalArc: 340
-      axialTilt: 34.2
-      parentId: Elnath
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Noun Greek Combo
+description: ''
+textPattern: '{#Cool Nouns} RANDOM(1,9)-{#Greek Letters}'
+category: Engineering Panels
+assets: {}

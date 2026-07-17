@@ -14,143 +14,142 @@ stars:
   - name: Praecipua A
     description: ''
     tags: []
-    radius: 8.21
-    temperature: 4670
     solarMass: 1.09
     age: 1960839043683
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 8.21
+    temperature: 4670
     satellite:
-      orbitalArc: 202
-      semiMajorAxis: 98.52000000000001
       axialTilt: 0
+      semiMajorAxis: 98.52000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 202
       showOrbit: false
       parentId: Praecipua
   - name: Praecipua B
     description: ''
     tags: []
-    radius: 8.21
-    temperature: 4670
     solarMass: 1.09
     age: 1960839043683
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 8.21
+    temperature: 4670
     satellite:
-      orbitalArc: 382
-      semiMajorAxis: 98.52000000000001
       axialTilt: 0
+      semiMajorAxis: 98.52000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 382
       showOrbit: false
       parentId: Praecipua
 planets:
   - name: Praecipua 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 6173
-      age: 3365860083
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.01562898364223749
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 456855361
-    temperature: 290
     satellite:
+      axialTilt: 7.1
       semiMajorAxis: 2033959984.9999995
       eccentricity: 0
       inclination: 1.07
       orbitalArc: 199
-      axialTilt: 7.1
-      parentId: Praecipua
       showOrbit: true
+      parentId: Praecipua
+    isPlanet:
+      age: 3365860083
+      classification: O
+      radius: 6173
+      terranMass: 0.01562898364223749
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Tropical.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 456855361
+    temperature: 290
     satellites: []
   - name: Praecipua 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 3352
-      age: 431883542
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.01687729288368268
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 54
     satellite:
+      axialTilt: 0.58
       semiMajorAxis: 3534326254
       eccentricity: 0.02
       inclination: 0.68
       orbitalArc: 328
-      axialTilt: 0.58
-      parentId: Praecipua
       showOrbit: true
+      parentId: Praecipua
+    isPlanet:
+      age: 431883542
+      classification: C
+      radius: 3352
+      terranMass: 0.01687729288368268
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 54
     satellites:
       - name: Praecipua 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 39.1
+          semiMajorAxis: 48322.66764865807
+          eccentricity: 0.01
+          inclination: 0.52
+          orbitalArc: 193
+          showOrbit: true
+          parentId: Praecipua 2
         isPlanet:
-          radius: 351.92624925885497
           age: 8186801653
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 0.7000000685639062
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 351.92624925885497
+          terranMass: 0.7000000685639062
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 42791
         temperature: 278
-        satellite:
-          semiMajorAxis: 48322.66764865807
-          eccentricity: 0.01
-          inclination: 0.52
-          orbitalArc: 193
-          axialTilt: 39.1
-          parentId: Praecipua 2
-          showOrbit: true
-        satellites: []
       - name: Praecipua 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 225.31790853387628
-          age: 4120681216
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 98185
-        temperature: 258
         satellite:
+          axialTilt: 38.13
           semiMajorAxis: 98914.56184637168
           eccentricity: 0.01
           inclination: 1.35
           orbitalArc: 286
-          axialTilt: 38.13
-          parentId: Praecipua 2
           showOrbit: true
-        satellites: []
+          parentId: Praecipua 2
+        isPlanet:
+          age: 4120681216
+          classification: P
+          radius: 225.31790853387628
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 98185
+        temperature: 258
 commSatellite: null
 assets: {}

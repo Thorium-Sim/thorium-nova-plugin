@@ -8,80 +8,83 @@ stations:
     logo: /plugins/Thorium Default/stationComplements/assets/Pilot.svg
     cards:
       - name: Engine Control
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
         component: LegacyEngineControl
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Navigation
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
         component: LegacyNavigation
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Thrusters
-        component: LegacyThrusters
         icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+        component: LegacyThrusters
     widgets:
       - name: Objectives
-        component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        component: Objectives
         size: sm
       - name: Officers Log
-        component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+        component: OfficersLog
+    messageGroups: []
   - name: Engineer
     description: Controls the power, reactors, and maintenance of the ship
     logo: /plugins/Thorium Default/stationComplements/assets/Engineer.svg
     cards:
       - name: Power Distribution
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
         component: LegacyPowerDistribution
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Reactor Control
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
         component: LegacyReactorControl
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Coolant Control
-        component: LegacyCoolantControl
         icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+        component: LegacyCoolantControl
     widgets:
       - name: Remote Access
-        component: RemoteAccess
         icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
+        component: RemoteAccess
         size: sm
       - name: Objectives
-        component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        component: Objectives
         size: sm
       - name: Officers Log
-        component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+        component: OfficersLog
+    messageGroups: []
   - name: Operations
     description: Assorted other stuff
     logo: /plugins/Thorium Default/stationComplements/assets/Operations.svg
     cards:
       - name: Sensor Scans
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
         component: LegacySensorScans
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Sensor Grid
+        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
         component: LegacySensorGrid
-        icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
       - name: Alert Level
-        component: AlertLevel
         icon: /plugins/Thorium Default/stationComplements/assets/AlertCondition.svg
+        component: AlertLevel
       - name: Officers Log
-        component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+        component: OfficersLog
       - name: Documents
-        component: Documents
         icon: /plugins/Thorium Default/stationComplements/assets/Documents.svg
+        component: Documents
     widgets:
       - name: Objectives
-        component: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
+        component: Objectives
         size: sm
       - name: Officers Log
-        component: OfficersLog
         icon: /plugins/Thorium Default/stationComplements/assets/OfficersLog.svg
+        component: OfficersLog
       - name: Code Cyphers
-        component: CodeCyphers
         icon: /plugins/Thorium Default/stationComplements/assets/CodeCyphers.svg
+        component: CodeCyphers
       - name: Messaging
-        component: Messaging
         icon: /plugins/Thorium Default/stationComplements/assets/Messaging.svg
+        component: Messaging
         size: lg
+    messageGroups: []
 flightMode: legacy
 assets: {}

@@ -14,93 +14,93 @@ stars:
   - name: Mebsuta A
     description: ''
     tags: []
-    radius: 130
-    temperature: 4591
     solarMass: 5.29
     age: 40635824949
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 130
+    temperature: 4591
     satellite:
-      orbitalArc: 42
-      semiMajorAxis: 1560
       axialTilt: 0
+      semiMajorAxis: 1560
       eccentricity: 0
       inclination: 0
+      orbitalArc: 42
       showOrbit: false
       parentId: Mebsuta
   - name: Mebsuta B
     description: ''
     tags: []
-    radius: 130
-    temperature: 4591
     solarMass: 5.29
     age: 40635824949
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 130
+    temperature: 4591
     satellite:
-      orbitalArc: 222
-      semiMajorAxis: 1560
       axialTilt: 0
+      semiMajorAxis: 1560
       eccentricity: 0
       inclination: 0
+      orbitalArc: 222
       showOrbit: false
       parentId: Mebsuta
 planets:
   - name: Mebsuta 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 11.82
+      semiMajorAxis: 3438913726.0000005
+      eccentricity: 0
+      inclination: 1.02
+      orbitalArc: 143
+      showOrbit: true
+      parentId: Mebsuta
     isPlanet:
-      radius: 5126
       age: 4059853446
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.01457946855002594
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 5126
+      terranMass: 0.01457946855002594
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
     population: 0
     temperature: 851
-    satellite:
-      semiMajorAxis: 3438913726.0000005
-      eccentricity: 0
-      inclination: 1.02
-      orbitalArc: 143
-      axialTilt: 11.82
-      parentId: Mebsuta
-      showOrbit: true
     satellites: []
   - name: Mebsuta 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 5776
-      age: 3479271565
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0047551805496344295
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 158377
-    temperature: 268
     satellite:
+      axialTilt: 34.88
       semiMajorAxis: 5861755148
       eccentricity: 0.01
       inclination: 1.03
       orbitalArc: 267
-      axialTilt: 34.88
-      parentId: Mebsuta
       showOrbit: true
+      parentId: Mebsuta
+    isPlanet:
+      age: 3479271565
+      classification: P
+      radius: 5776
+      terranMass: 0.0047551805496344295
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 158377
+    temperature: 268
     satellites: []
 commSatellite: null
 assets: {}

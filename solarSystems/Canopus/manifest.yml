@@ -14,354 +14,352 @@ stars:
   - name: Canopus A
     description: ''
     tags: []
-    radius: 73.3
-    temperature: 7400
     solarMass: 9.26
     age: 33147092705
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 73.3
+    temperature: 7400
     satellite:
-      orbitalArc: 230
-      semiMajorAxis: 879.5999999999999
       axialTilt: 0
+      semiMajorAxis: 879.5999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 230
       showOrbit: false
       parentId: Canopus
   - name: Canopus B
     description: ''
     tags: []
-    radius: 73.3
-    temperature: 7400
     solarMass: 9.26
     age: 33147092705
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 73.3
+    temperature: 7400
     satellite:
-      orbitalArc: 410
-      semiMajorAxis: 879.5999999999999
       axialTilt: 0
+      semiMajorAxis: 879.5999999999999
       eccentricity: 0
       inclination: 0
+      orbitalArc: 410
       showOrbit: false
       parentId: Canopus
 planets:
   - name: Canopus 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 2700873
-      age: 6679746843
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 1.3881017872512114
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_saturn.jpg
-      classification: I
-      isHabitable: false
-      lifeforms:
-        - None
-        - Floating single-celled lifeforms
-        - Hydrocarbon-based gas bag animals
-      atmosphericComposition: []
-    population: 0
-    temperature: 192
     satellite:
+      axialTilt: 32.82
       semiMajorAxis: 1604579204.3333333
       eccentricity: 0
       inclination: 0.9
       orbitalArc: 302
-      axialTilt: 32.82
-      parentId: Canopus
       showOrbit: true
-    satellites: []
-  - name: Canopus 2
-    description: ''
-    tags: []
+      parentId: Canopus
     isPlanet:
-      radius: 44431
-      age: 5001274677
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: null
-      terranMass: 0.6125566619128353
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
-      classification: J
+      age: 6679746843
+      classification: I
+      radius: 2700873
+      terranMass: 1.3881017872512114
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_saturn.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
     population: 0
-    temperature: 338
+    temperature: 192
+    satellites: []
+  - name: Canopus 2
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 17.52
       semiMajorAxis: 5079421542.888889
       eccentricity: 0
       inclination: 0.31
       orbitalArc: 83
-      axialTilt: 17.52
-      parentId: Canopus
       showOrbit: true
+      parentId: Canopus
+    isPlanet:
+      age: 5001274677
+      classification: J
+      radius: 44431
+      terranMass: 0.6125566619128353
+      isHabitable: false
+      lifeforms:
+        - None
+        - Floating single-celled lifeforms
+        - Hydrocarbon-based gas bag animals
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous4.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: null
+    population: 0
+    temperature: 338
     satellites:
       - name: Canopus 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 7990.2225195128885
-          age: 3300473942
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 117205
-        temperature: 260
         satellite:
+          axialTilt: 36.63
           semiMajorAxis: 2196111.2542348625
           eccentricity: 0.01
           inclination: 1.64
           orbitalArc: 80
-          axialTilt: 36.63
-          parentId: Canopus 2
           showOrbit: true
-        satellites: []
-      - name: Canopus 2b
-        description: ''
-        tags: []
+          parentId: Canopus 2
         isPlanet:
-          radius: 10291.994800360535
-          age: 9842418136
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 3300473942
           classification: P
+          radius: 7990.2225195128885
+          terranMass: 0.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 44968
-        temperature: 256
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 117205
+        temperature: 260
+      - name: Canopus 2b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 31.57
           semiMajorAxis: 4178549.888946377
           eccentricity: 0.01
           inclination: 1.12
           orbitalArc: 42
-          axialTilt: 31.57
-          parentId: Canopus 2
           showOrbit: true
-        satellites: []
+          parentId: Canopus 2
+        isPlanet:
+          age: 9842418136
+          classification: P
+          radius: 10291.994800360535
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 44968
+        temperature: 256
   - name: Canopus 3
     description: ''
     tags: []
+    satellite:
+      axialTilt: 23.64
+      semiMajorAxis: 6067957116.925926
+      eccentricity: 0.01
+      inclination: 0.93
+      orbitalArc: 52
+      showOrbit: true
+      parentId: Canopus
     isPlanet:
-      radius: 2633
       age: 4653129226
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.043576056066390936
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
       classification: K
+      radius: 2633
+      terranMass: 0.043576056066390936
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 41442
     temperature: 121
-    satellite:
-      semiMajorAxis: 6067957116.925926
-      eccentricity: 0.01
-      inclination: 0.93
-      orbitalArc: 52
-      axialTilt: 23.64
-      parentId: Canopus
-      showOrbit: true
     satellites: []
   - name: Canopus 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 2.57
+      semiMajorAxis: 7076059704.950618
+      eccentricity: 0.02
+      inclination: 0.07
+      orbitalArc: 293
+      showOrbit: true
+      parentId: Canopus
     isPlanet:
-      radius: 6642
       age: 6607490983
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.007576386899204258
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 6642
+      terranMass: 0.007576386899204258
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
     temperature: 861
-    satellite:
-      semiMajorAxis: 7076059704.950618
-      eccentricity: 0.02
-      inclination: 0.07
-      orbitalArc: 293
-      axialTilt: 2.57
-      parentId: Canopus
-      showOrbit: true
     satellites:
       - name: Canopus 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 469.66480342451604
-          age: 8641280640
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-          classification: 'N'
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 167947260
-        temperature: 411
         satellite:
+          axialTilt: 35.26
           semiMajorAxis: 314320.25984202616
           eccentricity: 0.01
           inclination: 1.46
           orbitalArc: 4
-          axialTilt: 35.26
-          parentId: Canopus 4
           showOrbit: true
-        satellites: []
+          parentId: Canopus 4
+        isPlanet:
+          age: 8641280640
+          classification: 'N'
+          radius: 469.66480342451604
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 167947260
+        temperature: 411
       - name: Canopus 4b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1243.6776355541724
-          age: 395081845
-          ringMapAsset: null
-          terranMass: 0.8000005425333224
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
-          classification: A
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1392
         satellite:
+          axialTilt: 32.78
           semiMajorAxis: 485034.27786612726
           eccentricity: 0.02
           inclination: 0.55
           orbitalArc: 13
-          axialTilt: 32.78
-          parentId: Canopus 4
           showOrbit: true
-        satellites: []
+          parentId: Canopus 4
+        isPlanet:
+          age: 395081845
+          classification: A
+          radius: 1243.6776355541724
+          terranMass: 0.8000005425333224
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAcid.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1392
   - name: Canopus 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 6809
-      age: 8537129365
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.02135007684092272
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 621418418
-    temperature: 292
     satellite:
+      axialTilt: 19.2
       semiMajorAxis: 7995175832.551445
       eccentricity: 0.01
       inclination: 0.47
       orbitalArc: 188
-      axialTilt: 19.2
-      parentId: Canopus
       showOrbit: true
+      parentId: Canopus
+    isPlanet:
+      age: 8537129365
+      classification: O
+      radius: 6809
+      terranMass: 0.02135007684092272
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 621418418
+    temperature: 292
     satellites:
       - name: Canopus 5a
         description: ''
         tags: []
-        isPlanet:
-          radius: 584.8021044485857
-          age: 871600525
-          ringMapAsset: null
-          terranMass: 0.01999988498035487
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 291
         satellite:
+          axialTilt: 36.1
           semiMajorAxis: 330057.7183171855
           eccentricity: 0.02
           inclination: 1.94
           orbitalArc: 30
-          axialTilt: 36.1
-          parentId: Canopus 5
           showOrbit: true
-        satellites: []
-      - name: Canopus 5b
-        description: ''
-        tags: []
+          parentId: Canopus 5
         isPlanet:
-          radius: 1523.5622234637415
-          age: 347253589
-          ringMapAsset: null
-          terranMass: 1.2999997504227803
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          age: 871600525
           classification: D
+          radius: 584.8021044485857
+          terranMass: 0.01999988498035487
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 204
+        temperature: 291
+      - name: Canopus 5b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 12.49
           semiMajorAxis: 604854.2027151054
           eccentricity: 0
           inclination: 0.83
           orbitalArc: 36
-          axialTilt: 12.49
-          parentId: Canopus 5
           showOrbit: true
-        satellites: []
+          parentId: Canopus 5
+        isPlanet:
+          age: 347253589
+          classification: D
+          radius: 1523.5622234637415
+          terranMass: 1.2999997504227803
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 204
   - name: Canopus 6
     description: ''
     tags: []
-    isPlanet:
-      radius: 403
-      age: 494953971
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.01094207693302436
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 249
     satellite:
+      axialTilt: 15.52
       semiMajorAxis: 8568314450
       eccentricity: 0.02
       inclination: 1.39
       orbitalArc: 150
-      axialTilt: 15.52
-      parentId: Canopus
       showOrbit: true
+      parentId: Canopus
+    isPlanet:
+      age: 494953971
+      classification: D
+      radius: 403
+      terranMass: 0.01094207693302436
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 249
     satellites: []
 commSatellite: null
 assets: {}

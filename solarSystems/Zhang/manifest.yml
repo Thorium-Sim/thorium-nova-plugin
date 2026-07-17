@@ -14,268 +14,273 @@ stars:
   - name: Zhang A
     description: ''
     tags: []
-    radius: 14.69
-    temperature: 5185
     solarMass: 3.33
     age: 1231331198633
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.69
+    temperature: 5185
     satellite:
-      orbitalArc: 316
-      semiMajorAxis: 176.28
       axialTilt: 0
+      semiMajorAxis: 176.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 316
       showOrbit: false
       parentId: Zhang
   - name: Zhang B
     description: ''
     tags: []
-    radius: 14.69
-    temperature: 5185
     solarMass: 3.33
     age: 1231331198633
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 14.69
+    temperature: 5185
     satellite:
-      orbitalArc: 496
-      semiMajorAxis: 176.28
       axialTilt: 0
+      semiMajorAxis: 176.28
       eccentricity: 0
       inclination: 0
+      orbitalArc: 496
       showOrbit: false
       parentId: Zhang
 planets:
   - name: Zhang 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 494
-      age: 535428839
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.00866404175309183
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 378
     satellite:
+      axialTilt: 33.65
       semiMajorAxis: 748907865.6666662
       eccentricity: 0.02
       inclination: 0.91
       orbitalArc: 340
-      axialTilt: 33.65
-      parentId: Zhang
       showOrbit: true
+      parentId: Zhang
+    isPlanet:
+      age: 535428839
+      classification: D
+      radius: 494
+      terranMass: 0.00866404175309183
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 378
     satellites: []
   - name: Zhang 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 123
-      age: 781101116
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.003472306133444431
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 274
     satellite:
+      axialTilt: 14.62
       semiMajorAxis: 1216967641.7777762
       eccentricity: 0.01
       inclination: 0.54
       orbitalArc: 291
-      axialTilt: 14.62
-      parentId: Zhang
       showOrbit: true
+      parentId: Zhang
+    isPlanet:
+      age: 781101116
+      classification: D
+      radius: 123
+      terranMass: 0.003472306133444431
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 274
     satellites: []
   - name: Zhang 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5736
-      age: 33111066
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.004880502133958897
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1152
     satellite:
+      axialTilt: 25.6
       semiMajorAxis: 2128499241.7037017
       eccentricity: 0
       inclination: 0.03
       orbitalArc: 227
-      axialTilt: 25.6
-      parentId: Zhang
       showOrbit: true
+      parentId: Zhang
+    isPlanet:
+      age: 33111066
+      classification: E
+      radius: 5736
+      terranMass: 0.004880502133958897
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot_light.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
+    population: 0
+    temperature: 1152
     satellites: []
   - name: Zhang 4
     description: ''
     tags: []
-    isPlanet:
-      radius: 1146
-      age: 814520498
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.005131537537642871
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
-      classification: C
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 51
     satellite:
+      axialTilt: 16.07
       semiMajorAxis: 2490139341.172836
       eccentricity: 0.01
       inclination: 0.99
       orbitalArc: 356
-      axialTilt: 16.07
-      parentId: Zhang
       showOrbit: true
+      parentId: Zhang
+    isPlanet:
+      age: 814520498
+      classification: C
+      radius: 1146
+      terranMass: 0.005131537537642871
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDust.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 51
     satellites:
       - name: Zhang 4a
         description: ''
         tags: []
-        isPlanet:
-          radius: 116.96347955536645
-          age: 62116047
-          ringMapAsset: null
-          terranMass: 1.7000001545401844
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
-          classification: E
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 1145
         satellite:
+          axialTilt: 26.96
           semiMajorAxis: 57195.141502574195
           eccentricity: 0.01
           inclination: 1.17
           orbitalArc: 355
-          axialTilt: 26.96
-          parentId: Zhang 4
           showOrbit: true
-        satellites: []
+          parentId: Zhang 4
+        isPlanet:
+          age: 62116047
+          classification: E
+          radius: 116.96347955536645
+          terranMass: 1.7000001545401844
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureHot.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 1145
   - name: Zhang 5
     description: ''
     tags: []
-    isPlanet:
-      radius: 84
-      age: 679484871
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.0008262478927674714
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 370
     satellite:
+      axialTilt: 10.92
       semiMajorAxis: 2783578476.864175
       eccentricity: 0.01
       inclination: 0.77
       orbitalArc: 212
-      axialTilt: 10.92
-      parentId: Zhang
       showOrbit: true
-    satellites: []
-  - name: Zhang 6
-    description: ''
-    tags: []
+      parentId: Zhang
     isPlanet:
-      radius: 3592
-      age: 733664032
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.010772489741170586
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
-      classification: C
+      age: 679484871
+      classification: D
+      radius: 84
+      terranMass: 0.0008262478927674714
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
     population: 0
-    temperature: 49
+    temperature: 370
+    satellites: []
+  - name: Zhang 6
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 29.42
       semiMajorAxis: 2896889181.411428
       eccentricity: 0.01
       inclination: 1.21
       orbitalArc: 119
-      axialTilt: 29.42
-      parentId: Zhang
       showOrbit: true
+      parentId: Zhang
+    isPlanet:
+      age: 733664032
+      classification: C
+      radius: 3592
+      terranMass: 0.010772489741170586
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAzure.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 49
     satellites: []
   - name: Zhang 7
     description: ''
     tags: []
+    satellite:
+      axialTilt: 16.12
+      semiMajorAxis: 3117646297
+      eccentricity: 0.02
+      inclination: 0.79
+      orbitalArc: 69
+      showOrbit: true
+      parentId: Zhang
     isPlanet:
-      radius: 67538
       age: 5021132199
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.6938191968549087
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
       classification: J
+      radius: 67538
+      terranMass: 0.6938191968549087
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Gaseous3.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 182
-    satellite:
-      semiMajorAxis: 3117646297
-      eccentricity: 0.02
-      inclination: 0.79
-      orbitalArc: 69
-      axialTilt: 16.12
-      parentId: Zhang
-      showOrbit: true
     satellites:
       - name: Zhang 7a
         description: ''
         tags: []
-        isPlanet:
-          radius: 4470.624806289917
-          age: 6741735641
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 60765
-        temperature: 255
         satellite:
+          axialTilt: 26.44
           semiMajorAxis: 1497659.3101071222
           eccentricity: 0.01
           inclination: 1.03
           orbitalArc: 282
-          axialTilt: 26.44
-          parentId: Zhang 7
           showOrbit: true
-        satellites: []
+          parentId: Zhang 7
+        isPlanet:
+          age: 6741735641
+          classification: P
+          radius: 4470.624806289917
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 60765
+        temperature: 255
 commSatellite: null
 assets: {}

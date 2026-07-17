@@ -1,0 +1,7 @@
+apiVersion: textPatterns/v1
+kind: textPatterns
+name: Letter Number Pairs
+description: ''
+textPattern: '{#Letter Pairs}-RANDOM(10,99)'
+category: Engineering Panels
+assets: {}

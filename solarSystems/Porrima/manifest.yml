@@ -14,167 +14,166 @@ stars:
   - name: Porrima A
     description: ''
     tags: []
-    radius: 1.45
-    temperature: 6922
     solarMass: 1.4
     age: 16727650109785
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.45
+    temperature: 6922
     satellite:
-      orbitalArc: 14
-      semiMajorAxis: 17.4
       axialTilt: 0
+      semiMajorAxis: 17.4
       eccentricity: 0
       inclination: 0
+      orbitalArc: 14
       showOrbit: false
       parentId: Porrima
   - name: Porrima B
     description: ''
     tags: []
-    radius: 1.45
-    temperature: 6922
     solarMass: 1.4
     age: 16727650109785
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 1.45
+    temperature: 6922
     satellite:
-      orbitalArc: 194
-      semiMajorAxis: 17.4
       axialTilt: 0
+      semiMajorAxis: 17.4
       eccentricity: 0
       inclination: 0
+      orbitalArc: 194
       showOrbit: false
       parentId: Porrima
 planets:
   - name: Porrima 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 115
-      age: 29264612
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.02628005305323106
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 340
     satellite:
+      axialTilt: 27.51
       semiMajorAxis: 135923048.666668
       eccentricity: 0.01
       inclination: 1.74
       orbitalArc: 61
-      axialTilt: 27.51
-      parentId: Porrima
       showOrbit: true
+      parentId: Porrima
+    isPlanet:
+      age: 29264612
+      classification: D
+      radius: 115
+      terranMass: 0.02628005305323106
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 340
     satellites: []
   - name: Porrima 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6290
-      age: 8629291304
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.004294235535616576
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
-      classification: M
-      isHabitable: true
-      lifeforms:
-        - Varied and extensive vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 7487284799
-    temperature: 290
     satellite:
+      axialTilt: 17.02
       semiMajorAxis: 229981610
       eccentricity: 0.02
       inclination: 0.9
       orbitalArc: 280
-      axialTilt: 17.02
-      parentId: Porrima
       showOrbit: true
+      parentId: Porrima
+    isPlanet:
+      age: 8629291304
+      classification: M
+      radius: 6290
+      terranMass: 0.004294235535616576
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial1.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 7487284799
+    temperature: 290
     satellites:
       - name: Porrima 2a
         description: ''
         tags: []
-        isPlanet:
-          radius: 379.57963991865506
-          age: 7512138949
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 23028
-        temperature: 257
         satellite:
+          axialTilt: 4.92
           semiMajorAxis: 113284.73296625081
           eccentricity: 0.01
           inclination: 1.28
           orbitalArc: 159
-          axialTilt: 4.92
-          parentId: Porrima 2
           showOrbit: true
-        satellites: []
-      - name: Porrima 2b
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 977.422104409412
-          age: 122724618
-          ringMapAsset: null
-          terranMass: 0.41999999823620615
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 322
-        satellite:
-          semiMajorAxis: 310458.2769322399
-          eccentricity: 0.01
-          inclination: 1.61
-          orbitalArc: 150
-          axialTilt: 36.72
           parentId: Porrima 2
-          showOrbit: true
-        satellites: []
-      - name: Porrima 2c
-        description: ''
-        tags: []
         isPlanet:
-          radius: 1465.407867776674
-          age: 4154746034
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          age: 7512138949
           classification: P
+          radius: 379.57963991865506
+          terranMass: 1.5
           isHabitable: true
           lifeforms:
             - Hardy vegetation, animal life, humanoids
           atmosphericComposition: []
-        population: 72468
-        temperature: 266
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 23028
+        temperature: 257
+      - name: Porrima 2b
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 36.72
+          semiMajorAxis: 310458.2769322399
+          eccentricity: 0.01
+          inclination: 1.61
+          orbitalArc: 150
+          showOrbit: true
+          parentId: Porrima 2
+        isPlanet:
+          age: 122724618
+          classification: D
+          radius: 977.422104409412
+          terranMass: 0.41999999823620615
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 322
+      - name: Porrima 2c
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 22.54
           semiMajorAxis: 507031.12225072924
           eccentricity: 0.02
           inclination: 0.02
           orbitalArc: 45
-          axialTilt: 22.54
-          parentId: Porrima 2
           showOrbit: true
-        satellites: []
+          parentId: Porrima 2
+        isPlanet:
+          age: 4154746034
+          classification: P
+          radius: 1465.407867776674
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 72468
+        temperature: 266
 commSatellite: null
 assets: {}

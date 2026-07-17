@@ -14,95 +14,95 @@ stars:
   - name: Tania Australis A
     description: ''
     tags: []
-    radius: 75
-    temperature: 3899
     solarMass: 6.3
     age: 279495208090
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 75
+    temperature: 3899
     satellite:
-      orbitalArc: 34
-      semiMajorAxis: 900
       axialTilt: 0
+      semiMajorAxis: 900
       eccentricity: 0
       inclination: 0
+      orbitalArc: 34
       showOrbit: false
       parentId: Tania Australis
   - name: Tania Australis B
     description: ''
     tags: []
-    radius: 75
-    temperature: 3899
     solarMass: 6.3
     age: 279495208090
     spectralType: K
     hue: 30
     isWhite: false
+    radius: 75
+    temperature: 3899
     satellite:
-      orbitalArc: 214
-      semiMajorAxis: 900
       axialTilt: 0
+      semiMajorAxis: 900
       eccentricity: 0
       inclination: 0
+      orbitalArc: 214
       showOrbit: false
       parentId: Tania Australis
 planets:
   - name: Tania Australis 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 26.48
+      semiMajorAxis: 1647532098.3333333
+      eccentricity: 0.01
+      inclination: 0.47
+      orbitalArc: 107
+      showOrbit: true
+      parentId: Tania Australis
     isPlanet:
-      radius: 5169
       age: 5675606408
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.007507114812340399
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
       classification: H
+      radius: 5169
+      terranMass: 0.007507114812340399
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
     temperature: 778
-    satellite:
-      semiMajorAxis: 1647532098.3333333
-      eccentricity: 0.01
-      inclination: 0.47
-      orbitalArc: 107
-      axialTilt: 26.48
-      parentId: Tania Australis
-      showOrbit: true
     satellites: []
   - name: Tania Australis 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 25
+      semiMajorAxis: 4000000000
+      eccentricity: 0.01
+      inclination: 0.33
+      orbitalArc: 175
+      showOrbit: true
+      parentId: Tania Australis
     isPlanet:
-      radius: 35491
       age: 7023832823
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
-      ringMapAsset: null
-      terranMass: 0.9963292148898658
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
       classification: J
+      radius: 35491
+      terranMass: 0.9963292148898658
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds4.png
+      ringMapAsset: null
     population: 0
     temperature: 334
-    satellite:
-      semiMajorAxis: 4000000000
-      eccentricity: 0.01
-      inclination: 0.33
-      orbitalArc: 175
-      axialTilt: 25
-      parentId: Tania Australis
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

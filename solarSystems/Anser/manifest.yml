@@ -14,225 +14,223 @@ stars:
   - name: Anser A
     description: ''
     tags: []
-    radius: 43.14
-    temperature: 3690
     solarMass: 0.97
     age: 162134438753
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 43.14
+    temperature: 3690
     satellite:
-      orbitalArc: 197
-      semiMajorAxis: 517.6800000000001
       axialTilt: 0
+      semiMajorAxis: 517.6800000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 197
       showOrbit: false
       parentId: Anser
   - name: Anser B
     description: ''
     tags: []
-    radius: 43.14
-    temperature: 3690
     solarMass: 0.97
     age: 162134438753
     spectralType: M
     hue: 0
     isWhite: false
+    radius: 43.14
+    temperature: 3690
     satellite:
-      orbitalArc: 377
-      semiMajorAxis: 517.6800000000001
       axialTilt: 0
+      semiMajorAxis: 517.6800000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 377
       showOrbit: false
       parentId: Anser
 planets:
   - name: Anser 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 25.62
+      semiMajorAxis: 890800180.6666671
+      eccentricity: 0.02
+      inclination: 1.19
+      orbitalArc: 330
+      showOrbit: true
+      parentId: Anser
     isPlanet:
-      radius: 6576
       age: 5385686338
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
-      terranMass: 0.017599072163554365
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
       classification: H
+      radius: 6576
+      terranMass: 0.017599072163554365
       isHabitable: false
       lifeforms:
         - None
         - Primitive single-celled organisms
         - Draught-resistant plants
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureDesertic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesDust.png
     population: 0
     temperature: 501
-    satellite:
-      semiMajorAxis: 890800180.6666671
-      eccentricity: 0.02
-      inclination: 1.19
-      orbitalArc: 330
-      axialTilt: 25.62
-      parentId: Anser
-      showOrbit: true
     satellites:
       - name: Anser 1a
         description: ''
         tags: []
-        isPlanet:
-          radius: 410.78831964665756
-          age: 9630560920
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 185588
-        temperature: 260
         satellite:
+          axialTilt: 18.27
           semiMajorAxis: 203340.21822509548
           eccentricity: 0
           inclination: 1.98
           orbitalArc: 322
-          axialTilt: 18.27
-          parentId: Anser 1
           showOrbit: true
-        satellites: []
+          parentId: Anser 1
+        isPlanet:
+          age: 9630560920
+          classification: P
+          radius: 410.78831964665756
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 185588
+        temperature: 260
   - name: Anser 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 6280
-      age: 5182647791
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.016681816164446486
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-      classification: P
-      isHabitable: true
-      lifeforms:
-        - Hardy vegetation, animal life, humanoids
-      atmosphericComposition: []
-    population: 148799
-    temperature: 267
     satellite:
+      axialTilt: 16.65
       semiMajorAxis: 2543628850.6666675
       eccentricity: 0.01
       inclination: 1.84
       orbitalArc: 178
-      axialTilt: 16.65
-      parentId: Anser
       showOrbit: true
+      parentId: Anser
+    isPlanet:
+      age: 5182647791
+      classification: P
+      radius: 6280
+      terranMass: 0.016681816164446486
+      isHabitable: true
+      lifeforms:
+        - Hardy vegetation, animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 148799
+    temperature: 267
     satellites:
       - name: Anser 2a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 20.56
+          semiMajorAxis: 388051.77320500946
+          eccentricity: 0.01
+          inclination: 1.11
+          orbitalArc: 188
+          showOrbit: true
+          parentId: Anser 2
         isPlanet:
-          radius: 1313.9351668776794
           age: 4374334372
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 0.3000001281047807
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
           classification: K
+          radius: 1313.9351668776794
+          terranMass: 0.3000001281047807
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCyanic.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 10916
         temperature: 260
-        satellite:
-          semiMajorAxis: 388051.77320500946
-          eccentricity: 0.01
-          inclination: 1.11
-          orbitalArc: 188
-          axialTilt: 20.56
-          parentId: Anser 2
-          showOrbit: true
-        satellites: []
       - name: Anser 2b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1383.4447001501558
-          age: 3898934435
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 96385
-        temperature: 258
         satellite:
+          axialTilt: 34.94
           semiMajorAxis: 686188.5712744773
           eccentricity: 0.01
           inclination: 0.91
           orbitalArc: 226
-          axialTilt: 34.94
-          parentId: Anser 2
           showOrbit: true
-        satellites: []
+          parentId: Anser 2
+        isPlanet:
+          age: 3898934435
+          classification: P
+          radius: 1383.4447001501558
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 96385
+        temperature: 258
   - name: Anser 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 299
-      age: 381722374
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.006333431624114704
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 396
     satellite:
+      axialTilt: 30.54
       semiMajorAxis: 3277726138.4444447
       eccentricity: 0
       inclination: 0.31
       orbitalArc: 309
-      axialTilt: 30.54
-      parentId: Anser
       showOrbit: true
+      parentId: Anser
+    isPlanet:
+      age: 381722374
+      classification: D
+      radius: 299
+      terranMass: 0.006333431624114704
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 396
     satellites: []
   - name: Anser 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 12.43
+      semiMajorAxis: 3996987248
+      eccentricity: 0.01
+      inclination: 1.25
+      orbitalArc: 150
+      showOrbit: true
+      parentId: Anser
     isPlanet:
-      radius: 47621
       age: 8994529615
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.6278294736293214
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
       classification: J
+      radius: 47621
+      terranMass: 0.6278294736293214
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_neptune.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 0
     temperature: 239
-    satellite:
-      semiMajorAxis: 3996987248
-      eccentricity: 0.01
-      inclination: 1.25
-      orbitalArc: 150
-      axialTilt: 12.43
-      parentId: Anser
-      showOrbit: true
     satellites: []
 commSatellite: null
 assets: {}

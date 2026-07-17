@@ -14,147 +14,146 @@ stars:
   - name: Mirfak A
     description: ''
     tags: []
-    radius: 53
-    temperature: 6439
     solarMass: 6
     age: 71663018209
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 53
+    temperature: 6439
     satellite:
-      orbitalArc: 281
-      semiMajorAxis: 636
       axialTilt: 0
+      semiMajorAxis: 636
       eccentricity: 0
       inclination: 0
+      orbitalArc: 281
       showOrbit: false
       parentId: Mirfak
   - name: Mirfak B
     description: ''
     tags: []
-    radius: 53
-    temperature: 6439
     solarMass: 6
     age: 71663018209
     spectralType: F
     hue: 60
     isWhite: false
+    radius: 53
+    temperature: 6439
     satellite:
-      orbitalArc: 461
-      semiMajorAxis: 636
       axialTilt: 0
+      semiMajorAxis: 636
       eccentricity: 0
       inclination: 0
+      orbitalArc: 461
       showOrbit: false
       parentId: Mirfak
 planets:
   - name: Mirfak 1
     description: ''
     tags: []
+    satellite:
+      axialTilt: 17.18
+      semiMajorAxis: 1957239547
+      eccentricity: 0.02
+      inclination: 0.23
+      orbitalArc: 284
+      showOrbit: true
+      parentId: Mirfak
     isPlanet:
-      radius: 3870957
       age: 6110609285
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 1.5485283290568106
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBlueGiant.jpg
       classification: I
+      radius: 3870957
+      terranMass: 1.5485283290568106
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBlueGiant.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSwept.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
     temperature: 155
-    satellite:
-      semiMajorAxis: 1957239547
-      eccentricity: 0.02
-      inclination: 0.23
-      orbitalArc: 284
-      axialTilt: 17.18
-      parentId: Mirfak
-      showOrbit: true
     satellites: []
   - name: Mirfak 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 1.23
+      semiMajorAxis: 3798220396
+      eccentricity: 0
+      inclination: 0.25
+      orbitalArc: 111
+      showOrbit: true
+      parentId: Mirfak
     isPlanet:
-      radius: 7106
       age: 9378679804
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.02841388499128312
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 7106
+      terranMass: 0.02841388499128312
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/Clouds1.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 17070
     temperature: 285
-    satellite:
-      semiMajorAxis: 3798220396
-      eccentricity: 0
-      inclination: 0.25
-      orbitalArc: 111
-      axialTilt: 1.23
-      parentId: Mirfak
-      showOrbit: true
     satellites: []
   - name: Mirfak 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5422
-      age: 5850113602
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.0007748969186271767
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
-      classification: M
-      isHabitable: true
-      lifeforms:
-        - Varied and extensive vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 2284788731
-    temperature: 293
     satellite:
+      axialTilt: 20.13
       semiMajorAxis: 5661095227
       eccentricity: 0.01
       inclination: 1.18
       orbitalArc: 84
-      axialTilt: 20.13
-      parentId: Mirfak
       showOrbit: true
+      parentId: Mirfak
+    isPlanet:
+      age: 5850113602
+      classification: M
+      radius: 5422
+      terranMass: 0.0007748969186271767
+      isHabitable: true
+      lifeforms:
+        - Varied and extensive vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Terrestrial4.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
+    population: 2284788731
+    temperature: 293
     satellites:
       - name: Mirfak 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 16.72
+          semiMajorAxis: 340459.4197650684
+          eccentricity: 0
+          inclination: 0.32
+          orbitalArc: 155
+          showOrbit: true
+          parentId: Mirfak 3
         isPlanet:
-          radius: 891.2550255630063
           age: 4874249324
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.100000076856381
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 891.2550255630063
+          terranMass: 1.100000076856381
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 21552
         temperature: 252
-        satellite:
-          semiMajorAxis: 340459.4197650684
-          eccentricity: 0
-          inclination: 0.32
-          orbitalArc: 155
-          axialTilt: 16.72
-          parentId: Mirfak 3
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

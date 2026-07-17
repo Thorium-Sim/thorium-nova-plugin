@@ -14,297 +14,299 @@ stars:
   - name: Naos A
     description: ''
     tags: []
-    radius: 13.72
-    temperature: 40000
     solarMass: 25.3
     age: 3027900625
     spectralType: O
     hue: 220
     isWhite: false
+    radius: 13.72
+    temperature: 40000
     satellite:
-      orbitalArc: 135
-      semiMajorAxis: 164.64000000000001
       axialTilt: 0
+      semiMajorAxis: 164.64000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 135
       showOrbit: false
       parentId: Naos
   - name: Naos B
     description: ''
     tags: []
-    radius: 13.72
-    temperature: 40000
     solarMass: 25.3
     age: 3027900625
     spectralType: O
     hue: 220
     isWhite: false
+    radius: 13.72
+    temperature: 40000
     satellite:
-      orbitalArc: 315
-      semiMajorAxis: 164.64000000000001
       axialTilt: 0
+      semiMajorAxis: 164.64000000000001
       eccentricity: 0
       inclination: 0
+      orbitalArc: 315
       showOrbit: false
       parentId: Naos
 planets:
   - name: Naos 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 73
-      age: 829969105
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.009772111467897839
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 397
     satellite:
+      axialTilt: 37.67
       semiMajorAxis: 6475760276.666667
       eccentricity: 0
       inclination: 1.67
       orbitalArc: 295
-      axialTilt: 37.67
-      parentId: Naos
       showOrbit: true
+      parentId: Naos
+    isPlanet:
+      age: 829969105
+      classification: D
+      radius: 73
+      terranMass: 0.009772111467897839
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
+    population: 0
+    temperature: 397
     satellites: []
   - name: Naos 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 7440
-      age: 195875744
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.0040426439117764125
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1399
     satellite:
+      axialTilt: 1.14
       semiMajorAxis: 13601690831.444445
       eccentricity: 0
       inclination: 1.89
       orbitalArc: 52
-      axialTilt: 1.14
-      parentId: Naos
       showOrbit: true
-    satellites:
-      - name: Naos 2a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1429.3945941425382
-          age: 3702867986
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-          classification: 'N'
-          isHabitable: true
-          lifeforms:
-            - Aquatic-based vegetation and animal life, humanoids
-          atmosphericComposition: []
-        population: 234179073
-        temperature: 355
-        satellite:
-          semiMajorAxis: 554605.1025273048
-          eccentricity: 0.01
-          inclination: 0.75
-          orbitalArc: 109
-          axialTilt: 30.54
-          parentId: Naos 2
-          showOrbit: true
-        satellites: []
-  - name: Naos 3
-    description: ''
-    tags: []
+      parentId: Naos
     isPlanet:
-      radius: 270
-      age: 317321369
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.013292066936221003
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-      classification: D
+      age: 195875744
+      classification: E
+      radius: 7440
+      terranMass: 0.0040426439117764125
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
     population: 0
-    temperature: 254
+    temperature: 1399
+    satellites:
+      - name: Naos 2a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 30.54
+          semiMajorAxis: 554605.1025273048
+          eccentricity: 0.01
+          inclination: 0.75
+          orbitalArc: 109
+          showOrbit: true
+          parentId: Naos 2
+        isPlanet:
+          age: 3702867986
+          classification: 'N'
+          radius: 1429.3945941425382
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Aquatic-based vegetation and animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 234179073
+        temperature: 355
+  - name: Naos 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 26.39
       semiMajorAxis: 21327536740.296295
       eccentricity: 0.02
       inclination: 0.13
       orbitalArc: 286
-      axialTilt: 26.39
-      parentId: Naos
       showOrbit: true
+      parentId: Naos
+    isPlanet:
+      age: 317321369
+      classification: D
+      radius: 270
+      terranMass: 0.013292066936221003
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 0
+    temperature: 254
     satellites: []
   - name: Naos 4
     description: ''
     tags: []
+    satellite:
+      axialTilt: 5.95
+      semiMajorAxis: 24202455615.19753
+      eccentricity: 0.01
+      inclination: 0.34
+      orbitalArc: 14
+      showOrbit: true
+      parentId: Naos
     isPlanet:
-      radius: 4150
       age: 7641327247
-      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
-      terranMass: 0.028673717782309746
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
       classification: K
+      radius: 4150
+      terranMass: 0.028673717782309746
       isHabitable: true
       lifeforms:
         - None
         - Primitive single-celled organisms
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+      cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesClouds.png
     population: 40244
     temperature: 298
-    satellite:
-      semiMajorAxis: 24202455615.19753
-      eccentricity: 0.01
-      inclination: 0.34
-      orbitalArc: 14
-      axialTilt: 5.95
-      parentId: Naos
-      showOrbit: true
     satellites: []
   - name: Naos 5
     description: ''
     tags: []
+    satellite:
+      axialTilt: 17.08
+      semiMajorAxis: 29810401257.46502
+      eccentricity: 0.02
+      inclination: 0.74
+      orbitalArc: 192
+      showOrbit: true
+      parentId: Naos
     isPlanet:
-      radius: 6936
       age: 6867874922
-      cloudMapAsset: null
-      ringMapAsset: null
-      terranMass: 0.001930447996598033
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
       classification: L
+      radius: 6936
+      terranMass: 0.001930447996598033
       isHabitable: true
       lifeforms:
         - Primitive single-celled organisms
         - Hardy plant life
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+      cloudMapAsset: null
+      ringMapAsset: null
     population: 43240
     temperature: 268
-    satellite:
-      semiMajorAxis: 29810401257.46502
-      eccentricity: 0.02
-      inclination: 0.74
-      orbitalArc: 192
-      axialTilt: 17.08
-      parentId: Naos
-      showOrbit: true
     satellites: []
   - name: Naos 6
     description: ''
     tags: []
-    isPlanet:
-      radius: 439
-      age: 216801635
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.0036433762759674948
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 147
     satellite:
+      axialTilt: 36.47
       semiMajorAxis: 37679358919.64335
       eccentricity: 0.01
       inclination: 0.42
       orbitalArc: 223
-      axialTilt: 36.47
-      parentId: Naos
       showOrbit: true
+      parentId: Naos
+    isPlanet:
+      age: 216801635
+      classification: D
+      radius: 439
+      terranMass: 0.0036433762759674948
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 147
     satellites: []
   - name: Naos 7
     description: ''
     tags: []
-    isPlanet:
-      radius: 5635
-      age: 8171215545
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.018698783762799293
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 646303232
-    temperature: 440
     satellite:
+      axialTilt: 18.83
       semiMajorAxis: 49649076151
       eccentricity: 0
       inclination: 0.23
       orbitalArc: 14
-      axialTilt: 18.83
-      parentId: Naos
       showOrbit: true
+      parentId: Naos
+    isPlanet:
+      age: 8171215545
+      classification: 'N'
+      radius: 5635
+      terranMass: 0.018698783762799293
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Venusian.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
+    population: 646303232
+    temperature: 440
     satellites:
       - name: Naos 7a
         description: ''
         tags: []
-        isPlanet:
-          radius: 377.7643249031423
-          age: 644248378
-          ringMapAsset: null
-          terranMass: 1.1899998973104033
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 379
         satellite:
+          axialTilt: 37.72
           semiMajorAxis: 125307.2918865561
           eccentricity: 0.01
           inclination: 0.5
           orbitalArc: 103
-          axialTilt: 37.72
-          parentId: Naos 7
           showOrbit: true
-        satellites: []
+          parentId: Naos 7
+        isPlanet:
+          age: 644248378
+          classification: D
+          radius: 377.7643249031423
+          terranMass: 1.1899998973104033
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 379
       - name: Naos 7b
         description: ''
         tags: []
+        satellite:
+          axialTilt: 5.46
+          semiMajorAxis: 198426.5482238681
+          eccentricity: 0.01
+          inclination: 1.9
+          orbitalArc: 97
+          showOrbit: true
+          parentId: Naos 7
         isPlanet:
-          radius: 659.2244127038807
           age: 6297002084
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.1000001004014148
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
           classification: L
+          radius: 659.2244127038807
+          terranMass: 1.1000001004014148
           isHabitable: true
           lifeforms:
             - Primitive single-celled organisms
             - Hardy plant life
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Martian.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 11708
         temperature: 297
-        satellite:
-          semiMajorAxis: 198426.5482238681
-          eccentricity: 0.01
-          inclination: 1.9
-          orbitalArc: 97
-          axialTilt: 5.46
-          parentId: Naos 7
-          showOrbit: true
-        satellites: []
 commSatellite: null
 assets: {}

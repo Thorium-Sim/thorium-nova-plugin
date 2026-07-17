@@ -14,202 +14,201 @@ stars:
   - name: 'Alioth '
     description: ''
     tags: []
-    radius: 4.29
-    temperature: 8908
     solarMass: 2.91
     age: 1448194372760
     spectralType: A
     hue: 180
     isWhite: true
+    radius: 4.29
+    temperature: 8908
     satellite:
-      orbitalArc: 203
-      semiMajorAxis: 0
       axialTilt: 0
+      semiMajorAxis: 0
       eccentricity: 0
       inclination: 0
+      orbitalArc: 203
       showOrbit: false
       parentId: Alioth
 planets:
   - name: Alioth 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 5847
-      age: 9966804608
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.004229905781506073
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
-      classification: 'N'
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 66855866
-    temperature: 622
     satellite:
+      axialTilt: 25.72
       semiMajorAxis: 843761861
       eccentricity: 0.01
       inclination: 1.39
       orbitalArc: 91
-      axialTilt: 25.72
-      parentId: Alioth
       showOrbit: true
+      parentId: Alioth
+    isPlanet:
+      age: 9966804608
+      classification: 'N'
+      radius: 5847
+      terranMass: 0.004229905781506073
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_surface.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 66855866
+    temperature: 622
     satellites: []
   - name: Alioth 2
     description: ''
     tags: []
-    isPlanet:
-      radius: 7182
-      age: 1340455610
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
-      terranMass: 0.019449969155920704
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-      classification: F
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 599
     satellite:
+      axialTilt: 19.92
       semiMajorAxis: 1908618089.6666675
       eccentricity: 0.01
       inclination: 1.81
       orbitalArc: 304
-      axialTilt: 19.92
-      parentId: Alioth
       showOrbit: true
-    satellites:
-      - name: Alioth 2a
-        description: ''
-        tags: []
-        isPlanet:
-          radius: 1380.8135639335762
-          age: 3145934061
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 169733
-        temperature: 268
-        satellite:
-          semiMajorAxis: 418386.5098718736
-          eccentricity: 0.01
-          inclination: 0.25
-          orbitalArc: 198
-          axialTilt: 6.29
-          parentId: Alioth 2
-          showOrbit: true
-        satellites: []
-  - name: Alioth 3
-    description: ''
-    tags: []
+      parentId: Alioth
     isPlanet:
-      radius: 4797
-      age: 1280548341
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.007719174038311646
-      textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
-      classification: A
+      age: 1340455610
+      classification: F
+      radius: 7182
+      terranMass: 0.019449969155920704
       isHabitable: false
       lifeforms:
         - None
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSmall.png
     population: 0
-    temperature: 1696
+    temperature: 599
+    satellites:
+      - name: Alioth 2a
+        description: ''
+        tags: []
+        satellite:
+          axialTilt: 6.29
+          semiMajorAxis: 418386.5098718736
+          eccentricity: 0.01
+          inclination: 0.25
+          orbitalArc: 198
+          showOrbit: true
+          parentId: Alioth 2
+        isPlanet:
+          age: 3145934061
+          classification: P
+          radius: 1380.8135639335762
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 169733
+        temperature: 268
+  - name: Alioth 3
+    description: ''
+    tags: []
     satellite:
+      axialTilt: 31.4
       semiMajorAxis: 3626666523
       eccentricity: 0
       inclination: 1.44
       orbitalArc: 186
-      axialTilt: 31.4
-      parentId: Alioth
       showOrbit: true
+      parentId: Alioth
+    isPlanet:
+      age: 1280548341
+      classification: A
+      radius: 4797
+      terranMass: 0.007719174038311646
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/mercurymap.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 1696
     satellites:
       - name: Alioth 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 3.07
+          semiMajorAxis: 178653.20968298707
+          eccentricity: 0.01
+          inclination: 0.11
+          orbitalArc: 219
+          showOrbit: true
+          parentId: Alioth 3
         isPlanet:
-          radius: 251.83134793715584
           age: 5751910557
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 1.3000000365579139
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
           classification: H
+          radius: 251.83134793715584
+          terranMass: 1.3000000365579139
           isHabitable: false
           lifeforms:
             - None
             - Primitive single-celled organisms
             - Draught-resistant plants
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_venus_atmosphere.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 0
         temperature: 708
-        satellite:
-          semiMajorAxis: 178653.20968298707
-          eccentricity: 0.01
-          inclination: 0.11
-          orbitalArc: 219
-          axialTilt: 3.07
-          parentId: Alioth 3
-          showOrbit: true
-        satellites: []
       - name: Alioth 3b
         description: ''
         tags: []
-        isPlanet:
-          radius: 631.8016584774134
-          age: 583279926
-          ringMapAsset: null
-          terranMass: 0.7399998400059384
-          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 178
         satellite:
+          axialTilt: 1.06
           semiMajorAxis: 314149.8827929082
           eccentricity: 0.01
           inclination: 0.22
           orbitalArc: 29
-          axialTilt: 1.06
-          parentId: Alioth 3
           showOrbit: true
-        satellites: []
+          parentId: Alioth 3
+        isPlanet:
+          age: 583279926
+          classification: D
+          radius: 631.8016584774134
+          terranMass: 0.7399998400059384
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/2k_moon.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 178
       - name: Alioth 3c
         description: ''
         tags: []
-        isPlanet:
-          radius: 1158.7970720046312
-          age: 7457943197
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 1.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 99935
-        temperature: 262
         satellite:
+          axialTilt: 20.36
           semiMajorAxis: 543475.826770172
           eccentricity: 0.01
           inclination: 1.39
           orbitalArc: 200
-          axialTilt: 20.36
-          parentId: Alioth 3
           showOrbit: true
-        satellites: []
+          parentId: Alioth 3
+        isPlanet:
+          age: 7457943197
+          classification: P
+          radius: 1158.7970720046312
+          terranMass: 1.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Alpine.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 99935
+        temperature: 262
 commSatellite: null
 assets: {}

@@ -14,271 +14,272 @@ stars:
   - name: Saiph A
     description: ''
     tags: []
-    radius: 13
-    temperature: 25700
     solarMass: 15.5
     age: 12125001044
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 13
+    temperature: 25700
     satellite:
-      orbitalArc: 327
-      semiMajorAxis: 156
       axialTilt: 0
+      semiMajorAxis: 156
       eccentricity: 0
       inclination: 0
+      orbitalArc: 327
       showOrbit: false
       parentId: Saiph
   - name: Saiph B
     description: ''
     tags: []
-    radius: 13
-    temperature: 25700
     solarMass: 15.5
     age: 12125001044
     spectralType: B
     hue: 200
     isWhite: false
+    radius: 13
+    temperature: 25700
     satellite:
-      orbitalArc: 507
-      semiMajorAxis: 156
       axialTilt: 0
+      semiMajorAxis: 156
       eccentricity: 0
       inclination: 0
+      orbitalArc: 507
       showOrbit: false
       parentId: Saiph
 planets:
   - name: Saiph 1
     description: ''
     tags: []
-    isPlanet:
-      radius: 115
-      age: 223368378
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
-      terranMass: 0.006514424661583468
-      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 241
     satellite:
+      axialTilt: 29.67
       semiMajorAxis: 2170100944.9999995
       eccentricity: 0
       inclination: 0.69
       orbitalArc: 83
-      axialTilt: 29.67
-      parentId: Saiph
       showOrbit: true
+      parentId: Saiph
+    isPlanet:
+      age: 223368378
+      classification: D
+      radius: 115
+      terranMass: 0.006514424661583468
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureBurnt.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesSharp.png
+    population: 0
+    temperature: 241
     satellites: []
   - name: Saiph 2
     description: ''
     tags: []
+    satellite:
+      axialTilt: 32.36
+      semiMajorAxis: 7197018013.333333
+      eccentricity: 0.01
+      inclination: 0.79
+      orbitalArc: 281
+      showOrbit: true
+      parentId: Saiph
     isPlanet:
-      radius: 31264
       age: 9858839221
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
-      terranMass: 0.2396948725613055
-      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
       classification: J
+      radius: 31264
+      terranMass: 0.2396948725613055
       isHabitable: false
       lifeforms:
         - None
         - Floating single-celled lifeforms
         - Hydrocarbon-based gas bag animals
       atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/2k_uranus.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/ring_texturesRocks.png
     population: 0
     temperature: 167
-    satellite:
-      semiMajorAxis: 7197018013.333333
-      eccentricity: 0.01
-      inclination: 0.79
-      orbitalArc: 281
-      axialTilt: 32.36
-      parentId: Saiph
-      showOrbit: true
     satellites: []
   - name: Saiph 3
     description: ''
     tags: []
-    isPlanet:
-      radius: 5689
-      age: 1341103844
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
-      terranMass: 0.011156021098611205
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
-      classification: E
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 1414
     satellite:
+      axialTilt: 34.64
       semiMajorAxis: 13325543610.222221
       eccentricity: 0.02
       inclination: 1.01
       orbitalArc: 351
-      axialTilt: 34.64
-      parentId: Saiph
       showOrbit: true
+      parentId: Saiph
+    isPlanet:
+      age: 1341103844
+      classification: E
+      radius: 5689
+      terranMass: 0.011156021098611205
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Volcanic.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings1.png
+    population: 0
+    temperature: 1414
     satellites:
       - name: Saiph 3a
         description: ''
         tags: []
+        satellite:
+          axialTilt: 37.94
+          semiMajorAxis: 223236.6246899115
+          eccentricity: 0.01
+          inclination: 0.39
+          orbitalArc: 267
+          showOrbit: true
+          parentId: Saiph 3
         isPlanet:
-          radius: 1276.691849621232
           age: 4673878359
-          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
-          ringMapAsset: null
-          terranMass: 0.10000010769453552
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
           classification: K
+          radius: 1276.691849621232
+          terranMass: 0.10000010769453552
           isHabitable: true
           lifeforms:
             - None
             - Primitive single-celled organisms
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureAlkali.jpg
+          cloudMapAsset: /plugins/Thorium Default/assets/clouds/clouds_textureSoft.png
+          ringMapAsset: null
         population: 41795
         temperature: 281
-        satellite:
-          semiMajorAxis: 223236.6246899115
-          eccentricity: 0.01
-          inclination: 0.39
-          orbitalArc: 267
-          axialTilt: 37.94
-          parentId: Saiph 3
-          showOrbit: true
-        satellites: []
       - name: Saiph 3b
         description: ''
         tags: []
-        isPlanet:
-          radius: 1118.7587124677862
-          age: 555850120
-          ringMapAsset: null
-          terranMass: 0.9099996581229075
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: D
-          isHabitable: false
-          lifeforms:
-            - None
-          atmosphericComposition: []
-        population: 0
-        temperature: 347
         satellite:
+          axialTilt: 21.49
           semiMajorAxis: 552666.8039590863
           eccentricity: 0.01
           inclination: 0.88
           orbitalArc: 353
-          axialTilt: 21.49
-          parentId: Saiph 3
           showOrbit: true
-        satellites: []
-  - name: Saiph 4
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 126
-      age: 866605123
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
-      terranMass: 0.01509181638579048
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-      classification: D
-      isHabitable: false
-      lifeforms:
-        - None
-      atmosphericComposition: []
-    population: 0
-    temperature: 232
-    satellite:
-      semiMajorAxis: 15628505106.22222
-      eccentricity: 0.01
-      inclination: 0.49
-      orbitalArc: 94
-      axialTilt: 18.37
-      parentId: Saiph
-      showOrbit: true
-    satellites: []
-  - name: Saiph 5
-    description: ''
-    tags: []
-    isPlanet:
-      radius: 5122
-      age: 9967415479
-      cloudMapAsset: null
-      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
-      terranMass: 0.02311691696537121
-      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
-      classification: O
-      isHabitable: true
-      lifeforms:
-        - Aquatic-based vegetation and animal life, humanoids
-      atmosphericComposition: []
-    population: 295064304
-    temperature: 292
-    satellite:
-      semiMajorAxis: 17235949151
-      eccentricity: 0.01
-      inclination: 0.07
-      orbitalArc: 212
-      axialTilt: 10.06
-      parentId: Saiph
-      showOrbit: true
-    satellites:
-      - name: Saiph 5a
-        description: ''
-        tags: []
+          parentId: Saiph 3
         isPlanet:
-          radius: 666.0729791519635
-          age: 2640480052
-          ringMapAsset: null
-          terranMass: 2.100000129853958
-          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
-          classification: F
+          age: 555850120
+          classification: D
+          radius: 1118.7587124677862
+          terranMass: 0.9099996581229075
           isHabitable: false
           lifeforms:
             - None
           atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
         population: 0
-        temperature: 678
+        temperature: 347
+  - name: Saiph 4
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 18.37
+      semiMajorAxis: 15628505106.22222
+      eccentricity: 0.01
+      inclination: 0.49
+      orbitalArc: 94
+      showOrbit: true
+      parentId: Saiph
+    isPlanet:
+      age: 866605123
+      classification: D
+      radius: 126
+      terranMass: 0.01509181638579048
+      isHabitable: false
+      lifeforms:
+        - None
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings2.png
+    population: 0
+    temperature: 232
+    satellites: []
+  - name: Saiph 5
+    description: ''
+    tags: []
+    satellite:
+      axialTilt: 10.06
+      semiMajorAxis: 17235949151
+      eccentricity: 0.01
+      inclination: 0.07
+      orbitalArc: 212
+      showOrbit: true
+      parentId: Saiph
+    isPlanet:
+      age: 9967415479
+      classification: O
+      radius: 5122
+      terranMass: 0.02311691696537121
+      isHabitable: true
+      lifeforms:
+        - Aquatic-based vegetation and animal life, humanoids
+      atmosphericComposition: []
+      textureMapAsset: /plugins/Thorium Default/assets/planets/Swamp.jpg
+      cloudMapAsset: null
+      ringMapAsset: /plugins/Thorium Default/assets/rings/rings3.png
+    population: 295064304
+    temperature: 292
+    satellites:
+      - name: Saiph 5a
+        description: ''
+        tags: []
         satellite:
+          axialTilt: 2
           semiMajorAxis: 142309.69365555397
           eccentricity: 0
           inclination: 1.25
           orbitalArc: 172
-          axialTilt: 2
-          parentId: Saiph 5
           showOrbit: true
-        satellites: []
+          parentId: Saiph 5
+        isPlanet:
+          age: 2640480052
+          classification: F
+          radius: 666.0729791519635
+          terranMass: 2.100000129853958
+          isHabitable: false
+          lifeforms:
+            - None
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/planet_textureCrimson.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 0
+        temperature: 678
       - name: Saiph 5b
         description: ''
         tags: []
-        isPlanet:
-          radius: 819.8856468611364
-          age: 5271688985
-          cloudMapAsset: null
-          ringMapAsset: null
-          terranMass: 0.5
-          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
-          classification: P
-          isHabitable: true
-          lifeforms:
-            - Hardy vegetation, animal life, humanoids
-          atmosphericComposition: []
-        population: 70276
-        temperature: 257
         satellite:
+          axialTilt: 36.08
           semiMajorAxis: 359109.91332517774
           eccentricity: 0.01
           inclination: 1.19
           orbitalArc: 342
-          axialTilt: 36.08
-          parentId: Saiph 5
           showOrbit: true
-        satellites: []
+          parentId: Saiph 5
+        isPlanet:
+          age: 5271688985
+          classification: P
+          radius: 819.8856468611364
+          terranMass: 0.5
+          isHabitable: true
+          lifeforms:
+            - Hardy vegetation, animal life, humanoids
+          atmosphericComposition: []
+          textureMapAsset: /plugins/Thorium Default/assets/planets/Icy.jpg
+          cloudMapAsset: null
+          ringMapAsset: null
+        population: 70276
+        temperature: 257
 commSatellite: null
 assets: {}
