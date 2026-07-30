@@ -503,16 +503,18 @@ steps:
         values:
           clientId: $clientId
           text: >-
-            These are the torpedoes that you can fire. These torpedos are
+            These are the torpedoes that you can fire. These torpedoes are
             located in the torpedo launcher rooms inside your ship. If you ever
-            need more torpedos, you can ask one of your crew members to move
-            more torpedos into the torpedo launcher rooms.
+            need more torpedoes, you can ask one of your crew members to move
+            more torpedoes into the torpedo launcher rooms.
 
 
-            Different torpedos have different properties. Some are faster with
+            Different torpedoes have different properties. Some are faster with
             less yield, meaning they do less damage. Others are slower but pack
-            a larger punch. Be thoughtful about which torpedo you choose
-            depending on the type of enemy you are attacking.
+            a larger punch. And some require more energy to launch. Hover your
+            cursor over the icons to see what properties a torpedo has. Be
+            thoughtful about which torpedo you choose depending on the type of
+            enemy you are attacking.
 
 
             For now, pick any type of torpedo to load.
@@ -645,10 +647,10 @@ steps:
         values:
           station: ''
           text: >-
-            You can fire at different outputs by clicking and holding on these
-            buttons. Adjust the beam arc so the target is within your phaser
-            range, then click and hold on one of these buttons to fire the
-            phasers.
+            You can fire phasers at different outputs by clicking and holding on
+            these buttons. Adjust the beam arc so the target is within your
+            phaser range, then click and hold on one of these buttons to fire
+            the phasers.
           selector:
             - .phasers-container
           clientId: $clientId
@@ -699,7 +701,8 @@ steps:
             fire.
 
 
-            Click the fire torpedo button now.
+            Click the fire torpedo button now. You'll have to wait a moment for
+            the torpedo to gain enough energy to launch.
           selector:
             - .torpedoes-launchers
           clientId: $clientId
@@ -737,7 +740,7 @@ steps:
           station: ''
           text: >-
             That's all there is to it. Keep firing until the target is either
-            destroyed or disabled. 
+            destroyed or disabled.
           allowAdvance: true
         id: blo-mpwlqj8r4q
         type: Action

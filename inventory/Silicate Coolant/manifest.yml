@@ -1,0 +1,15 @@
+apiVersion: inventory/v1
+kind: inventory
+name: Silicate Coolant
+plural: Silicate Coolant
+description: Cools engines and reactors effectively.
+volume: 100
+assets: {}
+continuous: true
+durability: 1
+abundance: 0
+tags: []
+flags:
+  coolant:
+    heatCapacity: 3.3
+    massPerUnit: 1000

@@ -16,3 +16,4 @@ flags:
     speed: 50
     maxForce: 1000
     maxRange: 25000
+    requiredLaunchEnergyMWs: 24

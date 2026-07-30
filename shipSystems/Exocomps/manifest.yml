@@ -10,15 +10,15 @@ soundEffects:
   success: []
 allowMultiple: false
 powerLevels:
-  - 5
-  - 20
+  - 1
+  - 4
 powerActivated: true
 connectedBatteryType: none
 powerToHeat: 10
-heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantVolume: 100
 coolantTransferRate: 1
 coolantConsumptionRate: 1
 offlineEfficiency: 0.5
@@ -38,3 +38,4 @@ exocompWorkingDischargeRate: 1
 exocompMovingDischargeRate: 0.2
 exocompMovementSpeed: 3
 exocompCargoVolume: 50
+heatDissipationRate: 1

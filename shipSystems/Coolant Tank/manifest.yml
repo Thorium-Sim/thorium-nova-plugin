@@ -12,10 +12,10 @@ powerLevels:
 powerActivated: true
 connectedBatteryType: none
 powerToHeat: 10
-heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantVolume: 100
 coolantTransferRate: 0.2
 coolantConsumptionRate: 1
 offlineEfficiency: 0.5
@@ -26,3 +26,9 @@ maxSignature: 0
 signatureSpike: 0
 signatureSpikeDuration: 5
 entropyMultiplier: 0.00025
+tankCapacity: 1000
+coolantDensity: 1113.2
+coolantSpecificHeat: 2.42
+pumpBaseFlowRate: 10000
+radiatorArea: 50
+heatDissipationRate: 1

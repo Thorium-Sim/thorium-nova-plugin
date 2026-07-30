@@ -29,6 +29,9 @@ stations:
       - name: Systems Monitor
         icon: /plugins/Thorium Default/stationComplements/assets/SystemsMonitor.svg
         component: SystemsMonitor
+      - name: Coolant Loop
+        icon: /plugins/Thorium Default/stationComplements/assets/CoolantLoop.svg
+        component: CoolantLoop
       - name: Damage Reports
         icon: /plugins/Thorium Default/stationComplements/assets/DamageReports.svg
         component: DamageReports

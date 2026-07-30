@@ -15,6 +15,7 @@ flags:
     speed: 1500
     maxForce: 30000
     maxRange: 125000
+    requiredLaunchEnergyMWs: 24
   torpedoWarhead:
     color: red
     yield: 1

@@ -27,15 +27,15 @@ soundEffects:
       channel: null
 allowMultiple: true
 powerLevels:
-  - 5
-  - 20
+  - 1
+  - 24
 powerActivated: true
 connectedBatteryType: none
-powerToHeat: 10
-heatDissipationRate: 1
+powerToHeat: 0.1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantVolume: 100
 coolantTransferRate: 1
 coolantConsumptionRate: 1
 offlineEfficiency: 0.5
@@ -50,3 +50,4 @@ loadTime: 5000
 fireTime: 1000
 headingDegree: 0
 pitchDegree: 0
+heatDissipationRate: 1

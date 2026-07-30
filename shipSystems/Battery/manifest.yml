@@ -13,10 +13,10 @@ powerLevels:
 powerActivated: true
 connectedBatteryType: none
 powerToHeat: 10
-heatDissipationRate: 1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantVolume: 100
 coolantTransferRate: 1
 coolantConsumptionRate: 1
 offlineEfficiency: 0.5
@@ -27,6 +27,7 @@ maxSignature: 1
 signatureSpike: 2
 signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
-capacity: 2
+capacity: 0.5
 chargeRate: 4
-outputRate: 120
+outputRate: 12
+heatDissipationRate: 1

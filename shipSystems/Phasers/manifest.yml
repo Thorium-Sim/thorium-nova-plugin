@@ -23,15 +23,15 @@ soundEffects:
       channel: null
 allowMultiple: true
 powerLevels:
-  - 5
-  - 20
+  - 10
+  - 40
 powerActivated: true
 connectedBatteryType: none
-powerToHeat: 10
-heatDissipationRate: 1
+powerToHeat: 0.1
 nominalHeat: 295.37
 maxSafeHeat: 1000
 maxHeat: 2500
+coolantVolume: 100
 coolantTransferRate: 1
 coolantConsumptionRate: 1
 offlineEfficiency: 0.5
@@ -50,3 +50,4 @@ fullChargeYield: 0.1
 yieldMultiplier: 100
 legacyPhaserBanks: 2
 legacyChargeSpeed: 1
+heatDissipationRate: 1
