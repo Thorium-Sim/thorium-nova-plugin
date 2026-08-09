@@ -1,0 +1,29 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Coolant Loop
+description: A training for learning how to use a station.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-msd957870g
+    name: Step 1 - Intro
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            This screen shows a simplified view into how coolant moves through
+            your ship, starting at the coolant tank, flowing through the heat
+            radiator which ejects heat into space, being pushed through by the
+            pump, and then flowing past all of your ship systems. Let's learn
+            how to keep your ship cool.
+          allowAdvance: true
+        id: blo-msd95eks10
+        type: Action

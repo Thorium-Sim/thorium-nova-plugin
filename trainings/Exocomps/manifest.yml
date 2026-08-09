@@ -1,0 +1,28 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Exocomps
+description: A training for learning how to use a station.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-msd974db0b
+    name: Step 1 - Intro
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            Exocomps are small robots that you program to move through your ship
+            to repair ship systems. They are able to get into tight places that
+            humans can't reach, making them perfect for helping your ship run
+            smoothly and efficiently.
+          allowAdvance: true
+        id: blo-msd97d0s28
+        type: Action

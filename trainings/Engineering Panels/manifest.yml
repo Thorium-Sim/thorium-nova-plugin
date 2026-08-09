@@ -1,0 +1,28 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Engineering Panels
+description: A training for learning how to use a station.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-msd9979b4i
+    name: Step 1
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            This panel of controls gives you direct access to your ships
+            internal systems. Manipulating them in just the right way, following
+            the instructions of your repair reports, can help your ship run even
+            better.
+          allowAdvance: true
+        id: blo-msd99c2s0b
+        type: Action

@@ -1,0 +1,453 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Engineer
+description: >-
+  Training for the Engineer station, combining systems monitor, damage control,
+  etc.
+category: ''
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks:
+  - conditions:
+      - comparison: '='
+        value1: $station
+        value2: Engineer
+    triggerBlocks:
+      - id: blo-mjhlmpy94r
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $stationComplement
+            value2: 5 Small
+        triggerBlocks:
+          - id: blo-mjhlmwz63g
+            type: TimelineAvailability
+            isAvailable: true
+    id: blo-mjhlm3vs5v
+    type: IfCondition
+steps:
+  - id: tr-mjhljxlp0h
+    name: Step 1 - Welcome
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          clientId: $clientId
+          station: ''
+          text: >-
+            Welcome Engineer! Your job is all about balance and optimization —
+            giving systems just the right amount of power, keeping their heat in
+            check, and constantly making tweaks to keep them running at top
+            efficiency. How well you operate your station will determine how
+            well your crew members can do their jobs.
+          allowAdvance: true
+        id: blo-mjhlp6qz1w
+        type: Action
+  - id: ts-mjnaxljy15
+    name: Step 2 - Login
+    description: ''
+    tags: []
+    blocks:
+      - entity: $clientId
+        component: flightClient
+        property: loginName
+        variable: loginName
+        id: blo-mjnb8i6y3o
+        type: EntityPropertyIntoVariable
+      - debugVariable: ''
+        id: blo-mqmcebjq26
+        type: Debug
+      - conditions:
+          - comparison: is not empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbgxxz6t
+            type: Action
+            action: timeline.advance
+            values: {}
+        id: blo-mjnb8svo27
+        type: IfCondition
+      - conditions:
+          - comparison: is empty
+            value1: $loginName
+            value2: ''
+        triggerBlocks:
+          - id: blo-mjnbhdn32e
+            type: Action
+            action: client.setTraining
+            values:
+              clientId: $clientId
+              text: >-
+                The first thing you need to do is identify yourself by entering
+                your name and logging in. Do that now.
+              selector:
+                - .login-form
+          - id: blo-mjng261d0u
+            type: EventCondition
+            event: client.login
+            multiple: true
+            persist: false
+            triggerBlocks:
+              - id: blo-mjng4er92w
+                type: ResultPropertyIntoVariable
+                property: clientId
+                variable: loginClientId
+              - id: blo-mjng4s9g2h
+                type: IfCondition
+                conditions:
+                  - comparison: '='
+                    value1: $loginClientId
+                    value2: $clientId
+                triggerBlocks:
+                  - id: blo-mjng4zol66
+                    type: Action
+                    action: timeline.advance
+                    values: {}
+        id: blo-mjnbh6hs62
+        type: IfCondition
+  - id: ms-mqqmly9f2p
+    name: Step 3 - Systems Monitor Card
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Systems Monitor
+        id: blo-mqqlxcqi65
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqqmijbz0g
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqqmhzad3r
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqqmi9i46w
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $spawnedTimelineId
+                value2: $completeTimelineId
+            triggerBlocks:
+              - id: blo-mqqmlkxq73
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqqmhvvu3w
+        type: EventCondition
+  - id: ms-mqs8plox5s
+    name: Step 4 - Move to Coolant Loop Card
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqs8plow6n
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Now lets learn how to use the Coolant Loop. Go ahead and move to
+            that screen now.
+          selector:
+            - .card-button-coolant-loop
+      - event: client.setCard
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8rbs75f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqs8rbs80y
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: eventCard
+          - id: blo-mqs8rbsb3e
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventCard
+                value2: CoolantLoop
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqzzmh0y01
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8rbsb2r
+        type: EventCondition
+  - id: ms-mqs8s2zy0e
+    name: Step 5 - Coolant Loop
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Coolant Loop
+        id: blo-mqs8s7n56s
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqs8sukt4k
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8t84g4o
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqs8td0q6j
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $completeTimelineId
+                value2: $spawnedTimelineId
+            triggerBlocks:
+              - id: blo-mqs8tkut0t
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8t4960b
+        type: EventCondition
+  - id: ms-mqs8plox5q
+    name: Step 6 - Move to Exocomps
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqs8plow6q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Lets take a look at the Exocomps screen. Go ahead and move to that
+            screen now.
+          selector:
+            - .card-button-exocomps
+      - event: client.setCard
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8rbs75q
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqs8rbs80q
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: eventCard
+          - id: blo-mqs8rbsb3q
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventCard
+                value2: Exocomps
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqzzmh0y01
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8rbsb21
+        type: EventCondition
+  - id: ms-mqs8s2zy0q
+    name: Step 7 - Exocomps
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Exocomps
+        id: blo-mqs8s7n561
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqs8sukt41
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8t84g41
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqs8td0q61
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $completeTimelineId
+                value2: $spawnedTimelineId
+            triggerBlocks:
+              - id: blo-mqs8tkut01
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8t49601
+        type: EventCondition
+  - id: ms-mr49g9x94e
+    name: Step 8 - Move to Engineering Panel
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mr49g9x85g
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Now we'll learn how to improve the ship with your Engineering Panel.
+            Go to that screen now.
+          selector:
+            - .card-button-engineering-panel
+      - event: client.setCard
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8rbs75f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqs8rbs80f
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: eventCard
+          - id: blo-mqs8rbsb3f
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventCard
+                value2: EngineeringPanels
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqzzmh0y0f
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8rbsb2f
+        type: EventCondition
+  - id: ms-mqs8s2zy0f
+    name: Step 9 - Engineering Panels
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Engineering Panels
+        id: blo-mqs8s7n56f
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqs8sukt4f
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8t84g4f
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqs8td0q6f
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $completeTimelineId
+                value2: $spawnedTimelineId
+            triggerBlocks:
+              - id: blo-mqs8tkut0f
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8t4960f
+        type: EventCondition
+  - id: ms-mk1zllmy2w
+    name: Step 26 - Officers Log Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zllmx28
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            There are a few extra things unrelated to your main station. The
+            first is your officers log, which you can open by clicking this
+            button. Feel free to use it to write down notes, ideas, or thoughts
+            during the mission.
+          allowAdvance: true
+          selector:
+            - .widget-OfficersLog
+  - id: ms-mk1zpl9n4h
+    name: Step 27 - Objectives Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zpl9m6k
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .widget-Objectives
+          text: >-
+            This will show you your ships current objectives, which can be
+            helpful to know what your team needs to do next.
+          allowAdvance: true
+  - id: ms-mk1zqlko4i
+    name: Step 28 - Settings Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zqlkn2q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          allowAdvance: true
+          selector:
+            - .widget-Settings
+          text: >-
+            Finally, this is the settings for your station, where you can
+            configure audio volume levels and gamepads which you can use to
+            control your station.
+  - id: ms-mk1zx1jx3e
+    name: Step 29 - Done
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mk1zx1jw3z
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            That concludes your training. If you don't feel confident, feel free
+            to play around with your controls further until you've mastered your
+            systems monitor and maintenance controls.
+
+
+            Good luck!
+          allowAdvance: true
+          card: ''

@@ -1,0 +1,443 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Systems Monitor
+description: A training for learning how to use a station.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-msd92aye6y
+    name: Step 1 - Intro
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            This screen shows you every system on your ship, how power is used,
+            and what's heating up. It allows you to allocate power, turn on and
+            off systems, and change reactor output.
+          allowAdvance: true
+        id: blo-msd92n5m5o
+        type: Action
+  - id: ms-msdlor1b10
+    name: Step 2 - Reactors
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdlor1a4p
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .reactors-row
+          text: >-
+            These are your reactors. They generate power by consuming fuel,
+            generating heat in the process. This is the source of power that all
+            of your other ship systems rely on. Without the reactors providing
+            power, your ship will stop working.
+          allowAdvance: true
+  - id: ms-msdlro1u3x
+    name: Step 3 - Power Output
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdlro1t66
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This shows the current output of your reactor. You can adjust it up
+            or down by clicking on the two arrow buttons to the side. See the
+            little line in the output bar? This represents the optimum output
+            level, where you get the most power while consuming the least fuel
+            and generating the least heat. Ideally, you'd keep your reactor at
+            that level, but sometimes you'll need to increase power to run all
+            of the ship systems you need.
+          allowAdvance: true
+          selector:
+            - .power-output-0
+            - .power-down-0
+            - .power-up-0
+  - id: ms-msdlurda0x
+    name: Step 4 - Heat
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdlurd92i
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            The more power your reactor produces, the more heat it generates as
+            a byproduct. You can see the current temperature of the reactor by
+            hovering over this circle. Keep an eye on the heat for your
+            reactors. The yellow line is the maximum temperature that is safe
+            for your reactor. If the reactor temperature goes above this line,
+            it will start taking damage which will decrease its ability to
+            generate power.
+          allowAdvance: true
+          selector:
+            - .heat-dial-0
+  - id: ms-msdlyhg94k
+    name: Step 5 - Efficiency
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdlyhg83h
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .efficiency-dial-0
+          allowAdvance: true
+          text: >-
+            This dial shows the current efficiency of your reactor, which
+            decreases with damage. As the efficiency decreases, the power your
+            reactor is able to generate decreases with it.
+  - id: ms-msdm0qzp4w
+    name: Step 6 - Fuel
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdm0qzo6g
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .active-dial-0
+            - .reserve-dial-0
+          allowAdvance: true
+          text: >-
+            These two dials represent your reactor's fuel. The left dial is the
+            active fuel, representing how much of the current fuel canister your
+            reactor has consumed. Don't worry, though — there's more where that
+            came from. 
+
+
+            The dial on the right is the reserve fuel, representing the unused
+            canisters of fuel in the reactor room on your ship. When full, you
+            have at least 1 hour of reserve fuel left. Once you see this dial
+            start decreasing, you'd better start looking around your ship, or
+            elsewhere, for more fuel.
+  - id: ms-msdmqf6d64
+    name: Step 7 - Reactor Summary
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdmqf6c5n
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .reactor-summary
+          allowAdvance: true
+          text: >-
+            This section summarizes the output of all of your reactors. Total
+            Output is how much power your reactors are able to output at their
+            current settings. Net Output is the power used to run your ship
+            systems and charge the batteries. Total Available is any power
+            leftover. Try and keep Total Available as close to 0 as possible —
+            any extra power just means wasted fuel and heat.
+  - id: ms-msdn4jwt0a
+    name: Step 8 - Batteries
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdn4jws3s
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .batteries-row
+          allowAdvance: true
+          text: >-
+            These are your batteries. They take any extra power generated by the
+            reactors and store it for later. You can use them to keep critical
+            systems running, provide a boost to a system that needs it, or
+            smooth out your power consumption.
+  - id: ms-msdnq61r1r
+    name: Step 9 - Battery Capacity
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdnq61q1l
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .battery-storage-bar-0
+          allowAdvance: true
+          text: >-
+            This bar shows how much energy is stored in the battery. This goes
+            down as the battery powers ship systems and goes up as the reactor
+            recharges it.
+  - id: ms-msdnrnbx6t
+    name: Step 10 - Battery Output
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdnrnbw1u
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .battery-output-bar-0
+          text: >-
+            This bar shows how much power your batteries are providing to ship
+            systems. We'll learn how to connect batteries to systems a little
+            later.
+          allowAdvance: true
+  - id: ms-msdnu18n0v
+    name: Step 11 - Net Charge
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdnu18m3e
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This icon shows whether the battery is charging, discharging, or
+            holding steady. Hover over it to see how the battery's charge is
+            changing.
+          selector:
+            - .battery-net-change-0
+          allowAdvance: true
+  - id: ms-msdnv5cn6f
+    name: Step 12 - Battery Activate
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdnv5cm4f
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Reactors evenly distribute their unused power across all the
+            batteries. Sometimes, you might want to only want to recharge one or
+            two batteries instead of all of them, such as only charging the
+            batteries connected to your phasers. You can connect and disconnect
+            your batteries from the reactors by clicking this button.
+          selector:
+            - .battery-activate-0
+          allowAdvance: true
+  - id: ms-msdnzj2b1k
+    name: Step 13 - Battery Summary
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdnzj2a0p
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This section summarizes the power going in and out of your
+            batteries.
+          selector:
+            - .battery-summary
+          allowAdvance: true
+  - id: ms-msdo3wef5l
+    name: Step 14 - Ship Systems
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msdo3wee4n
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            These are your ship systems. Each of these is controlled by one of
+            your crew members and serves a different purpose on your ship. You
+            need to make sure systems have the power they need when they need
+            it. If the ship needs to travel with engines or defend itself with
+            shields and weapons, you need to make sure there's enough power
+            available to do those things, either with your batteries or your
+            reactors.
+          selector:
+            - .systems-row
+          allowAdvance: true
+  - id: ms-msendyf620
+    name: Step 15 - Systems Power
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msendyf51g
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .system-power-sensors
+          allowAdvance: true
+          text: >-
+            This shows the power consumption for the Sensors system. Not all
+            systems need the same amount of power, so the background has a
+            different size for each system. The bright orange part is the power
+            being used, and the yellow lines represent the power needed for a
+            system to run.
+
+
+            You don't decide how much power a system uses — that is determined
+            by how your fellow crew members use the system. Instead, you must 
+            ask your crew to limit how they use systems so it fits within your
+            power budget.
+
+
+            For example, when performing a sensors scan, this system will use
+            its full power allotment. But you can ask the officer running the
+            scan to do a less powerful scan, making the scan take longer to
+            complete.
+  - id: ms-msenmnue2c
+    name: Step 16 - Deactivate Systems
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msenmnud65
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .system-activate-sensors
+          allowAdvance: true
+          text: >-
+            One action you can take is to disable a system's reactor power
+            entirely, by clicking this button. It will prevent the system from
+            operating, but you often don't need a system to be running all the
+            time. For example, if you aren't using your shields, there's no need
+            to be drawing extra power to keep them running. Just make sure you
+            keep important systems running, like sensors.
+  - id: ms-msenqzec4s
+    name: Step 17 - System Battery
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msenqzeb0c
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .system-battery-sensors
+          allowAdvance: true
+          text: >-
+            This is where you connect a single battery to the system. When a
+            battery is connected to a system, any power it doesn't get from the
+            reactors will come from that battery. Note: you can connect more
+            than one system to a battery, but batteries have a limited output
+            power, so you can't power every system on your ship off a single
+            battery.
+  - id: ms-msf1o0rg4n
+    name: Step 18 - System Heat
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msf1o0rf03
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .system-heat-dial-sensors
+          text: >-
+            Finally, ship systems heat up based on how much power they are
+            using. If a system is using a lot of power, it will generate a lot
+            of heat. Once the heat gets past the yellow line, the system will
+            start taking damage from the heat.
+          allowAdvance: true
+  - id: ms-msf1zuii5b
+    name: Step 19 - Sort Buttons
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msf1zuih4d
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .system-sort-buttons
+          text: >-
+            If it helps, you can sort all of the systems by these different
+            options.
+
+
+            This can also help you know what the priority order of the systems
+            is. If you don't have enough reactor power, lower priority systems
+            will automatically deactivate themselves to ensure there's enough
+            power for high-priority systems. That way, you'll continue to have
+            life support and other crucial systems. 
+  - id: ts-msf284b10t
+    name: Step 20 - Phase Capacitors
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            One more thing — Your ship has energy weapons called phasers
+            connected to special batteries called phase capacitors. These
+            batteries need to charge before the connected phasers can fire. They
+            are charged like any other battery — by putting excess reactor
+            output into the batteries.
+
+
+            During a battle, you might want to increase your reactor output and
+            disconnect your other batteries from the reactors so the extra
+            battery charge is only going to your phase capacitors, allowing them
+            to recharge faster. When the battle is over, you can reconnect your
+            other batteries to let them recharge too.
+          selector:
+            - .battery-phaseCapacitor
+          allowAdvance: true
+        id: blo-msf2886512
+        type: Action
+  - id: ms-msf24jz60r
+    name: Step 21 - Summary
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msf24jz53p
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            To recap:
+
+
+            - Reactors use fuel to produce power and heat. You can change
+            reactor output if needed.
+
+            - Batteries store power from reactors and can be assigned to systems
+            if needed to smooth out power usage.
+
+            - Systems consume power with use — the more a system is being used,
+            the more power it consumes. You can deactivate systems to limit
+            their usage, or connect them to a battery to smooth out their usage.
+
+            - Phasers use special batteries that discharge quickly. Keep them
+            connected to phasers so the phasers can fire.
+          allowAdvance: true
