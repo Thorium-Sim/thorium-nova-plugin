@@ -33,6 +33,8 @@ steps:
         values:
           damageReportId: $damageReportId
           elementCount: '5'
+          shipId: $shipId
+          systemId: $systemId
         id: blo-mrnxncvs5o
         type: Action
       - property: assignmentId

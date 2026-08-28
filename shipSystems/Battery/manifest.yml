@@ -27,7 +27,7 @@ maxSignature: 1
 signatureSpike: 2
 signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
-capacity: 0.5
+capacity: 1.5
 chargeRate: 4
 outputRate: 12
 heatDissipationRate: 1

@@ -54,6 +54,8 @@ steps:
           damageReportId: $damageReportId
           requiredPartCount: RANDOM(1,3)
           requiredAction: tighten
+          shipId: $shipId
+          systemId: $systemId
         id: blo-mp5m1aoz13
         type: Action
       - property: action

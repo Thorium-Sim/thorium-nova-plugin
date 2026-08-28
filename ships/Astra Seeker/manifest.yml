@@ -1,0 +1,1384 @@
+apiVersion: ships/v1
+kind: ships
+name: Astra Seeker
+nameTemplate: '{~{#Civilian Ships 1},{#Civilian Ships 2},{#Civilian Ships 3}}'
+description: Boldly going where no one has gone before.
+category: Seeker
+tags: []
+assets:
+  logo: ''
+  model: /plugins/Thorium Default/ships/Astra Seeker/assets/model.glb
+  vanity: /plugins/Thorium Default/ships/Astra Seeker/assets/vanity.png
+  topView: /plugins/Thorium Default/ships/Astra Seeker/assets/top.png
+  sideView: /plugins/Thorium Default/ships/Astra Seeker/assets/side.png
+mass: 60000000
+length: 30
+shipSystems:
+  - id: ssys-mt3n8sj069
+    systemId: Battery
+    pluginId: Thorium Default
+    overrides:
+      capacity: 1.5
+  - id: ssys-mt3n8twj6s
+    systemId: Coolant Tank
+    pluginId: Thorium Default
+  - id: ssys-mt3n8uxc3x
+    systemId: Exocomps
+    pluginId: Thorium Default
+    overrides: {}
+  - id: ssys-mt3n8xka00
+    systemId: Class IV Impulse Engines
+    pluginId: Thorium Default
+  - id: ssys-mt3n8y5f67
+    systemId: Inertial Dampeners
+    pluginId: Thorium Default
+  - id: ssys-mt3n8yqn2z
+    systemId: Long Range Comm
+    pluginId: Thorium Default
+  - id: ssys-mt3n8zb73e
+    systemId: Main Computer
+    pluginId: Thorium Default
+  - id: ssys-mt3n8zz86f
+    systemId: Navigation
+    pluginId: Thorium Default
+  - id: ssys-mt3n90w922
+    systemId: Phasers
+    pluginId: Thorium Default
+    overrides:
+      headingDegree: 0
+      maxArc: 120
+      fullChargeYield: 0.1
+  - id: ssys-mt3n91f13t
+    systemId: Phasers
+    pluginId: Thorium Default
+    overrides:
+      maxArc: 120
+      headingDegree: 0
+  - id: ssys-mt3n92go5v
+    systemId: Fusion Reactor
+    pluginId: Thorium Default
+    overrides:
+      reactorCount: 2
+      optimalOutputPercent: 0.7
+  - id: ssys-mt3n93k006
+    systemId: Standard Sensors
+    pluginId: Thorium Default
+  - id: ssys-mt3n942u2u
+    systemId: Shields
+    pluginId: Thorium Default
+    overrides:
+      shieldCount: 1
+  - id: ssys-mt3n94s83a
+    systemId: Short Range Comm
+    pluginId: Thorium Default
+  - id: ssys-mt3n95y44a
+    systemId: Targeting
+    pluginId: Thorium Default
+  - id: ssys-mt3n96lb4y
+    systemId: Thrusters
+    pluginId: Thorium Default
+  - id: ssys-mt3n97eq6s
+    systemId: Torpedo Launcher
+    pluginId: Thorium Default
+    overrides: {}
+  - id: ssys-mt3n97xz1h
+    systemId: Warp Engines
+    pluginId: Thorium Default
+theme:
+  pluginId: Thorium Default
+  themeId: Default
+decks:
+  - name: Deck 1
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Seeker/assets/Deck 1.svg
+    nodes:
+      - id: 1
+        name: Warp Engine
+        x: 3.5571428571428574
+        'y': 11.271428571428572
+        isRoom: true
+        icon: ''
+        radius: 1.2857142857142858
+        volume: 3000
+        flags:
+          - cargo
+        systems:
+          - warpEngines
+        contents: {}
+      - id: 2
+        name: ''
+        x: 5.533816964285714
+        'y': 9.289843750000001
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 3
+        name: ''
+        x: 8.089955357142857
+        'y': 8.614285714285714
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 4
+        name: ''
+        x: 10.971428571428572
+        'y': 9
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 5
+        name: ''
+        x: 13.198493303571428
+        'y': 10.114285714285714
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 6
+        name: ''
+        x: 14.785714285714286
+        'y': 9.085714285714285
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 7
+        name: ''
+        x: 16.757142857142856
+        'y': 6.771428571428571
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 8
+        name: ''
+        x: 14.357142857142858
+        'y': 10.842857142857143
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 9
+        name: ''
+        x: 14.357142857142858
+        'y': 12.214285714285714
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 10
+        name: ''
+        x: 13.2
+        'y': 13.052845982142857
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 11
+        name: ''
+        x: 11.957142857142857
+        'y': 12.344866071428571
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 12
+        name: ''
+        x: 11.914285714285715
+        'y': 10.757142857142858
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 13
+        name: ''
+        x: 13.205561755952381
+        'y': 11.646819196428572
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 14
+        name: ''
+        x: 23.057142857142857
+        'y': 11.485714285714286
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 15
+        name: ''
+        x: 21.385714285714286
+        'y': 11.528571428571428
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 16
+        name: ''
+        x: 19.071428571428573
+        'y': 11.442857142857143
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 17
+        name: ''
+        x: 14.93119419642857
+        'y': 11.544642857142858
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 18
+        name: ''
+        x: 14.657142857142857
+        'y': 13.885714285714286
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 19
+        name: ''
+        x: 15.857142857142858
+        'y': 15.042857142857143
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 20
+        name: ''
+        x: 16.67142857142857
+        'y': 16.414285714285715
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 21
+        name: ''
+        x: 11.628013392857143
+        'y': 13.77963169642857
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 22
+        name: ''
+        x: 9.642857142857142
+        'y': 14.357142857142858
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 23
+        name: ''
+        x: 6.857142857142858
+        'y': 14.185714285714285
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 24
+        name: ''
+        x: 5.442857142857143
+        'y': 13.628571428571428
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 44
+        name: Bridge
+        x: 26.014285714285716
+        'y': 11.504631696428572
+        isRoom: true
+        icon: ''
+        radius: 2.142857142857143
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 45
+        name: Science Lab
+        x: 19.37142857142857
+        'y': 9.6
+        isRoom: true
+        icon: ''
+        radius: 1.3714285714285714
+        volume: 3000
+        flags:
+          - cargo
+          - science
+        systems: []
+        contents: {}
+      - id: 46
+        name: Phasers
+        x: 20.205133928571428
+        'y': 6.903348214285715
+        isRoom: true
+        icon: ''
+        radius: 1.1142857142857143
+        volume: 12000
+        flags: []
+        systems:
+          - phasers
+        contents: {}
+      - id: 47
+        name: Captain's Quarters
+        x: 17.485714285714288
+        'y': 13.757142857142858
+        isRoom: true
+        icon: ''
+        radius: 1.542857142857143
+        volume: 12000
+        flags:
+          - crewQuarters
+        systems: []
+        contents: {}
+      - id: 48
+        name: Briefing Room
+        x: 21.267987351190474
+        'y': 14.131045386904761
+        isRoom: true
+        icon: ''
+        radius: 1.8323144223712118
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 49
+        name: Torpedo Launcher
+        x: 18.55546875
+        'y': 16.69771205357143
+        isRoom: true
+        icon: ''
+        radius: 0.6
+        volume: 2000
+        flags:
+          - torpedoStorage
+          - cargo
+        systems:
+          - torpedoLauncher
+        contents: {}
+      - id: 50
+        name: Crew Quarters
+        x: 13.028571428571428
+        'y': 15.514285714285714
+        isRoom: true
+        icon: ''
+        radius: 1.3714285714285714
+        volume: 12000
+        flags:
+          - crewQuarters
+        systems: []
+        contents: {}
+      - id: 51
+        name: Battery
+        x: 9.514285714285714
+        'y': 15.942857142857143
+        isRoom: true
+        icon: ''
+        radius: 0.8571428571428572
+        volume: 12000
+        flags: []
+        systems:
+          - battery
+        contents: {}
+      - id: 52
+        name: Thrusters
+        x: 7.00327380952381
+        'y': 15.97896205357143
+        isRoom: true
+        icon: ''
+        radius: 1.0285714285714285
+        volume: 12000
+        flags: []
+        systems:
+          - thrusters
+        contents: {}
+      - id: 53
+        name: Targeting
+        x: 8.162779017857144
+        'y': 7.099386160714285
+        isRoom: true
+        icon: ''
+        radius: 1.0285714285714285
+        volume: 12000
+        flags: []
+        systems:
+          - targeting
+        contents: {}
+      - id: 54
+        name: Sensors
+        x: 13.033426339285715
+        'y': 7.414285714285715
+        isRoom: true
+        icon: ''
+        radius: 1.2857142857142858
+        volume: 12000
+        flags: []
+        systems:
+          - sensors
+        contents: {}
+      - id: 55
+        name: Main Reactor
+        x: 8.528571428571428
+        'y': 11.442857142857143
+        isRoom: true
+        icon: ''
+        radius: 1.9714285714285715
+        volume: 12000
+        flags: []
+        systems:
+          - reactor
+        contents: {}
+  - name: Deck 2
+    backgroundUrl: /plugins/Thorium Default/ships/Astra Seeker/assets/Deck 2.svg
+    nodes:
+      - id: 25
+        name: ''
+        x: 13.189955357142857
+        'y': 11.571428571428571
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 26
+        name: ''
+        x: 13.157142857142857
+        'y': 10.071428571428571
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 27
+        name: ''
+        x: 11.914285714285715
+        'y': 10.757142857142858
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 28
+        name: ''
+        x: 14.357142857142858
+        'y': 10.842857142857143
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 29
+        name: ''
+        x: 14.314285714285715
+        'y': 12.257142857142858
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 30
+        name: ''
+        x: 13.157142857142857
+        'y': 12.857142857142858
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 31
+        name: ''
+        x: 11.86138392857143
+        'y': 12.257142857142858
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 32
+        name: ''
+        x: 14.22857142857143
+        'y': 13.628571428571428
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 33
+        name: ''
+        x: 16.5
+        'y': 14.314285714285715
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 34
+        name: ''
+        x: 18.557142857142857
+        'y': 14.22857142857143
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 35
+        name: ''
+        x: 14.785714285714286
+        'y': 9.214285714285714
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 36
+        name: ''
+        x: 16.15714285714286
+        'y': 8.785714285714286
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 37
+        name: ''
+        x: 18.47142857142857
+        'y': 8.528571428571428
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 38
+        name: ''
+        x: 11.185714285714285
+        'y': 8.82857142857143
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 39
+        name: ''
+        x: 9.9
+        'y': 7.457142857142857
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 40
+        name: ''
+        x: 9.342857142857143
+        'y': 6.3
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 41
+        name: ''
+        x: 11.689955357142857
+        'y': 13.837834821428572
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 42
+        name: ''
+        x: 10.242857142857144
+        'y': 15.214285714285715
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 43
+        name: ''
+        x: 9.428571428571429
+        'y': 16.457142857142856
+        isRoom: false
+        icon: ''
+        radius: 0
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 56
+        name: Cargo Bay
+        x: 22.624720982142858
+        'y': 10.39654017857143
+        isRoom: true
+        icon: ''
+        radius: 3.942857142857143
+        volume: 6000
+        flags:
+          - cargo
+        systems: []
+        contents: {}
+      - id: 57
+        name: Airlock
+        x: 27.3
+        'y': 11.442857142857143
+        isRoom: true
+        icon: ''
+        radius: 0.6857142857142857
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 58
+        name: Main Computer
+        x: 15.942857142857143
+        'y': 7.1571428571428575
+        isRoom: true
+        icon: ''
+        radius: 0.9428571428571428
+        volume: 12000
+        flags: []
+        systems:
+          - mainComputer
+        contents: {}
+      - id: 59
+        name: Exocomps
+        x: 12.857142857142858
+        'y': 7.414285714285715
+        isRoom: true
+        icon: ''
+        radius: 1.457142857142857
+        volume: 12000
+        flags: []
+        systems:
+          - exocomps
+        contents: {}
+      - id: 60
+        name: Long Range Communications
+        x: 7.628571428571429
+        'y': 6.428571428571429
+        isRoom: true
+        icon: ''
+        radius: 0.4285714285714286
+        volume: 12000
+        flags: []
+        systems:
+          - longRangeComm
+        contents: {}
+      - id: 61
+        name: Short Range Communications
+        x: 7.8428571428571425
+        'y': 16.542857142857144
+        isRoom: true
+        icon: ''
+        radius: 0.6857142857142857
+        volume: 12000
+        flags: []
+        systems:
+          - shortRangeComm
+        contents: {}
+      - id: 62
+        name: Auxiliary Reactor
+        x: 8.228571428571428
+        'y': 11.614285714285714
+        isRoom: true
+        icon: ''
+        radius: 2.2285714285714286
+        volume: 12000
+        flags: []
+        systems:
+          - reactor
+        contents: {}
+      - id: 63
+        name: Impulse Engines
+        x: 5.957142857142857
+        'y': 8.142857142857142
+        isRoom: true
+        icon: ''
+        radius: 1.1142857142857143
+        volume: 12000
+        flags: []
+        systems:
+          - impulseEngines
+        contents: {}
+      - id: 64
+        name: Navigation
+        x: 5.785714285714286
+        'y': 14.785714285714286
+        isRoom: false
+        icon: ''
+        radius: 1.1142857142857143
+        volume: 12000
+        flags: []
+        systems:
+          - navigation
+        contents: {}
+      - id: 65
+        name: Transporters
+        x: 16.585714285714285
+        'y': 11.528571428571428
+        isRoom: true
+        icon: ''
+        radius: 1.3714285714285714
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 66
+        name: Tractor Beam
+        x: 20.271428571428572
+        'y': 15.985714285714286
+        isRoom: true
+        icon: ''
+        radius: 1.1142857142857143
+        volume: 12000
+        flags: []
+        systems: []
+        contents: {}
+      - id: 67
+        name: Coolant Tank
+        x: 12.385714285714286
+        'y': 15.6
+        isRoom: true
+        icon: ''
+        radius: 1.2857142857142858
+        volume: 1000
+        flags:
+          - coolantStorage
+          - cargo
+        systems:
+          - coolantTank
+        contents: {}
+      - id: 68
+        name: Shields
+        x: 16.17472098214286
+        'y': 16.035435267857142
+        isRoom: true
+        icon: ''
+        radius: 1.2857142857142858
+        volume: 12000
+        flags: []
+        systems:
+          - shields
+        contents: {}
+deckEdges:
+  - id: 1
+    to: 2
+    from: 1
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 2
+    to: 24
+    from: 1
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 3
+    to: 23
+    from: 24
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 4
+    to: 22
+    from: 23
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 5
+    to: 21
+    from: 22
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 6
+    to: 10
+    from: 21
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 7
+    to: 11
+    from: 10
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 8
+    to: 12
+    from: 11
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 9
+    to: 5
+    from: 12
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 10
+    to: 8
+    from: 5
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 11
+    to: 9
+    from: 8
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 12
+    to: 10
+    from: 9
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 13
+    to: 10
+    from: 18
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 14
+    to: 19
+    from: 18
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 15
+    to: 20
+    from: 19
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 16
+    to: 17
+    from: 9
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 17
+    to: 17
+    from: 8
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 18
+    to: 17
+    from: 16
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 19
+    to: 15
+    from: 16
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 20
+    to: 14
+    from: 15
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 21
+    to: 6
+    from: 5
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 22
+    to: 7
+    from: 6
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 23
+    to: 4
+    from: 5
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 24
+    to: 3
+    from: 4
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 25
+    to: 2
+    from: 3
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 26
+    to: 13
+    from: 10
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 27
+    to: 9
+    from: 13
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 28
+    to: 13
+    from: 8
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 29
+    to: 5
+    from: 13
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 30
+    to: 13
+    from: 12
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 31
+    to: 11
+    from: 13
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 32
+    to: 13
+    from: 25
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 33
+    to: 25
+    from: 29
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 34
+    to: 26
+    from: 25
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 35
+    to: 28
+    from: 26
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 36
+    to: 25
+    from: 28
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 37
+    to: 25
+    from: 27
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 38
+    to: 31
+    from: 25
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 39
+    to: 27
+    from: 31
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 40
+    to: 26
+    from: 27
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 41
+    to: 31
+    from: 30
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 42
+    to: 29
+    from: 30
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 43
+    to: 28
+    from: 29
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 44
+    to: 30
+    from: 25
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 45
+    to: 41
+    from: 30
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 46
+    to: 41
+    from: 42
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 47
+    to: 42
+    from: 43
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 48
+    to: 33
+    from: 34
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 49
+    to: 32
+    from: 33
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 50
+    to: 30
+    from: 32
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 51
+    to: 38
+    from: 26
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 52
+    to: 39
+    from: 38
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 53
+    to: 40
+    from: 39
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 54
+    to: 35
+    from: 26
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 55
+    to: 36
+    from: 35
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 56
+    to: 37
+    from: 36
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 57
+    to: 23
+    from: 52
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 58
+    to: 12
+    from: 55
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 59
+    to: 55
+    from: 11
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 60
+    to: 22
+    from: 51
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 61
+    to: 18
+    from: 50
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 62
+    to: 19
+    from: 47
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 63
+    to: 49
+    from: 20
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 64
+    to: 15
+    from: 48
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 65
+    to: 45
+    from: 16
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 66
+    to: 14
+    from: 44
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 67
+    to: 7
+    from: 46
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 68
+    to: 54
+    from: 4
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 69
+    to: 53
+    from: 3
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 70
+    to: 56
+    from: 37
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 71
+    to: 57
+    from: 56
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 72
+    to: 36
+    from: 58
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 73
+    to: 59
+    from: 35
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 74
+    to: 56
+    from: 65
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 75
+    to: 28
+    from: 65
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 76
+    to: 29
+    from: 65
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 77
+    to: 68
+    from: 33
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 78
+    to: 66
+    from: 34
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 79
+    to: 67
+    from: 32
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 80
+    to: 61
+    from: 43
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 81
+    to: 64
+    from: 42
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 82
+    to: 62
+    from: 31
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 83
+    to: 27
+    from: 62
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 84
+    to: 63
+    from: 39
+    weight: 1
+    isOpen: true
+    flags: []
+  - id: 85
+    to: 40
+    from: 60
+    weight: 1
+    isOpen: true
+    flags: []
+cargoContainers: 2
+cargoContainerVolume: 4000

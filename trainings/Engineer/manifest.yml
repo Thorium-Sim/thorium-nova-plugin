@@ -155,8 +155,8 @@ steps:
         values:
           clientId: $clientId
           text: >-
-            Now lets learn how to use the Coolant Loop. Go ahead and move to
-            that screen now.
+            Now lets learn how to repair systems with Damage Reports. Go ahead
+            and move to that screen now.
           selector:
             - .card-button-coolant-loop
       - event: client.setCard
@@ -223,6 +223,85 @@ steps:
                 values: {}
         id: blo-mqs8t4960b
         type: EventCondition
+  - id: ms-msop1fzl46
+    name: Step 6 - Move to Damage Reports Card
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mqs8plow6n
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Now lets learn how to repair systems with Damage Reports. Go ahead
+            and move to that screen now.
+          selector:
+            - .card-button-damage-reports
+      - event: client.setCard
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8rbs75f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mqs8rbs80y
+            type: ResultPropertyIntoVariable
+            property: card
+            variable: eventCard
+          - id: blo-mqs8rbsb3e
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventCard
+                value2: DamageReports
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mqzzmh0y01
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8rbsb2r
+        type: EventCondition
+  - id: ms-msop2x1l6a
+    name: Step 7 - Damage Reports
+    description: ''
+    tags: []
+    blocks:
+      - action: timeline.activate
+        values:
+          pluginId: Thorium Default
+          timelineId: Damage Reports
+        id: blo-mqs8s7n561
+        type: Action
+      - property: timelineId
+        variable: spawnedTimelineId
+        id: blo-mqs8sukt41
+        type: ResultPropertyIntoVariable
+      - event: timeline.complete
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mqs8t84g41
+            type: ResultPropertyIntoVariable
+            property: timelineId
+            variable: completeTimelineId
+          - id: blo-mqs8td0q61
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $completeTimelineId
+                value2: $spawnedTimelineId
+            triggerBlocks:
+              - id: blo-mqs8tkut01
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mqs8t49601
+        type: EventCondition
   - id: ms-mqs8plox5q
     name: Step 6 - Move to Exocomps
     description: ''
@@ -233,11 +312,11 @@ steps:
         action: client.setTraining
         values:
           clientId: $clientId
-          text: >-
-            Lets take a look at the Exocomps screen. Go ahead and move to that
-            screen now.
           selector:
             - .card-button-exocomps
+          text: >-
+            Lets start working on that Exocomp Damage Report. Go ahead and move
+            to the Exocomp screen now.
       - event: client.setCard
         multiple: true
         persist: false

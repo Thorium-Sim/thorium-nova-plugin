@@ -1,0 +1,399 @@
+:root {
+	--background: oklch(0.9321 0.0354 242.08);
+	/* --background: oklch(0.2748 0.0354 242.08); */
+	--border-radius: 20px;
+	--angle: 55deg;
+	--distance: 20px;
+	--blur: 40px;
+	--intensity: 0.15;
+}
+
+.theme-container {
+	--alert-color-5: oklch(0.99 0.06 227.28);
+	--alert-color-4: oklch(0.99 0.06 142.93);
+	--alert-color-3: oklch(0.99 0.06 109.41);
+	--alert-color-2: oklch(0.99 0.06 60.18);
+	--alert-color-1: oklch(0.99 0.06 26.64);
+	--alert-color-p: oklch(0.99 0.06 300.01);
+	--alert-color: var(--alert-color-5);
+	--color-success: oklch(0.99 0.06 142.79);
+	--color-info: oklch(0.99 0.06 194.9);
+	--color-warning: oklch(0.99 0.06 60);
+	--color-error: oklch(0.99 0.06 30);
+	--color-accent: oklch(0.99 0.06 351.99);
+
+	.alertLevel-5 {
+		--alert-color: var(--alert-color-5);
+	}
+	.alertLevel-4 {
+		--alert-color: var(--alert-color-4);
+	}
+	.alertLevel-3 {
+		--alert-color: var(--alert-color-3);
+	}
+	.alertLevel-2 {
+		--alert-color: var(--alert-color-2);
+	}
+	.alertLevel-1 {
+		--alert-color: var(--alert-color-1);
+	}
+	.alertLevel-p {
+		--alert-color: var(--alert-color-p);
+	}
+
+	& > div {
+		--btn-bg: var(--alert-color);
+		--background: var(--alert-color);
+	}
+
+	/* Station Name */
+	.card-frame-station-logo,
+	.card-frame-card-name,
+	.card-frame-ship-name,
+	.card-frame-login-name,
+	.card-frame-card-icon,
+	.card-frame-ship-logo {
+		display: none;
+	}
+	.card-frame-station-name {
+		position: absolute;
+		top: 2rem;
+		left: 2rem;
+		color: oklch(from var(--background) round(1.21 - l) c h);
+		font-size: 3rem;
+		line-height: 0;
+		font-weight: 700;
+		--distance: 10px;
+		--blur: 20px;
+		--intensity: 0.2;
+		--positionX: calc(cos(var(--angle)) * var(--distance));
+		--positionY: calc(sin(var(--angle)) * var(--distance));
+		text-shadow:
+			var(--positionX) var(--positionY) var(--blur)
+				oklch(
+					from var(--background) calc(l - l * var(--intensity)) calc(c + var(--intensity) / 4) h
+				),
+			calc(var(--positionX) * -1) calc(var(--positionY) * -1) var(--blur)
+				oklch(from var(--background) calc(l + l * var(--intensity)) c h);
+	}
+
+	/* Card Area */
+	.card-frame {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		height: 100%;
+		background: linear-gradient(
+			calc(var(--angle) + 90deg),
+			oklch(from var(--background) calc(l + l * var(--intensity)) c h),
+			oklch(from var(--background) calc(l - l * var(--intensity)) c h),
+			oklch(from var(--background) calc(l + l * var(--intensity)) c h)
+		);
+		color: oklch(from var(--background) round(1.21 - L) c h);
+	}
+	.card-area {
+		position: absolute;
+		top: calc(2rem + 40px);
+		left: 2rem;
+		width: calc(100% - 4rem);
+		height: calc(100vh - 4rem - 40px);
+		overflow: visible;
+		.fade-in {
+			overflow: visible;
+		}
+		.card-transition,
+		.card-transition > div {
+			overflow: visible;
+		}
+	}
+	/* Card Switcher */
+	.card-switcher-holder {
+		right: 2rem;
+		top: 1rem;
+		z-index: 10;
+	}
+	.card-switcher {
+		display: flex;
+		align-items: flex-start;
+		gap: 2rem;
+	}
+
+	.card-switcher-button {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		padding: 0.5rem;
+		color: oklch(from var(--background) 0.65 0.3 h);
+		--distance: 10px;
+		--blur: 20px;
+		--intensity: 0.2;
+		--positionX: calc(cos(var(--angle)) * var(--distance));
+		--positionY: calc(sin(var(--angle)) * var(--distance));
+		background: linear-gradient(
+			calc(var(--angle) + 90deg),
+			oklch(from var(--background) calc(l + l * var(--intensity)/2) c h),
+			oklch(from var(--background) calc(l - l * var(--intensity)/2) c h)
+		);
+		box-shadow:
+			var(--positionX) var(--positionY) var(--blur)
+				oklch(
+					from var(--background) calc(l - l * var(--intensity)) calc(c + var(--intensity) / 4) h
+				),
+			calc(var(--positionX) * -1) calc(var(--positionY) * -1) var(--blur)
+				oklch(from var(--background) calc(l + l * var(--intensity)) c h);
+		anchor-name: --switcher-button;
+	}
+	.card-switcher-button-icon {
+		width: 100%;
+		height: 100%;
+	}
+	.card-switcher-button:hover {
+		.card-switcher-button-name {
+			pointer-events: all;
+			opacity: 1;
+			filter: blur(0px);
+		}
+	}
+	@starting-style {
+		.card-switcher-button-name {
+			filter: blur(20px);
+			opacity: 0;
+		}
+	}
+	.card-switcher-button-name {
+		pointer-events: none;
+		position: fixed;
+		position-anchor: --switcher-button;
+		position-area: bottom;
+		margin-top: 0.25rem;
+		padding: 0.25rem 0.5rem;
+		border-radius: 0.5rem;
+		color: oklch(from var(--background) round(1.21 - L) c h);
+		--positionX: calc(cos(var(--angle)) * var(--distance));
+		--positionY: calc(sin(var(--angle)) * var(--distance));
+		background: linear-gradient(
+			calc(var(--angle) + 90deg),
+			oklch(from var(--background) calc(l + l * var(--intensity)/2) c h),
+			oklch(from var(--background) calc(l - l * var(--intensity)/2) c h)
+		);
+		box-shadow:
+			var(--positionX) var(--positionY) var(--blur)
+				oklch(
+					from var(--background) calc(l - l * var(--intensity)) calc(c + var(--intensity) / 4) h
+				),
+			calc(var(--positionX) * -1) calc(var(--positionY) * -1) var(--blur)
+				oklch(from var(--background) calc(l + l * var(--intensity)) c h);
+		transition: all 0.2s allow-discrete;
+		filter: blur(20px);
+		opacity: 0;
+	}
+
+	/* Card Transitions */
+	.card-transition[data-entered] {
+		opacity: 1;
+		filter: blur(0px);
+	}
+	.card-transition[data-entering] {
+		transition: opacity 0.2s ease 0.2s;
+	}
+	.card-transition[data-exited][data-entering] {
+		opacity: 0;
+		filter: blur(20px);
+	}
+	.card-transition[data-exiting] {
+		transition: all 0.2s ease;
+	}
+	.card-transition[data-exiting][data-exited] {
+		opacity: 0;
+		filter: blur(20px);
+		pointer-events: none !important;
+		* {
+			pointer-events: none !important;
+		}
+	}
+
+	/* Components */
+	.btn,
+	.select-button,
+	input:not([type="range"]),
+	textarea,
+	.panel,
+	.alert {
+		--background: var(--btn-bg);
+		color: oklch(from var(--background) round(1.21 - L) c h);
+		--positionX: calc(cos(var(--angle)) * var(--distance));
+		--positionY: calc(sin(var(--angle)) * var(--distance));
+		background: var(--background);
+		border: solid 2px transparent;
+		box-shadow:
+			var(--positionX) var(--positionY) var(--blur)
+				oklch(
+					from var(--background) calc(l - l * var(--intensity)) calc(c + var(--intensity) / 4) h
+				),
+			calc(var(--positionX) * -1) calc(var(--positionY) * -1) var(--blur)
+				oklch(from var(--background) calc(l + l * var(--intensity)) c h);
+	}
+	.btn-outline {
+		background: oklch(from var(--btn-bg) l c h / 0.5);
+		border: solid 2px oklch(from var(--btn-bg) calc(l * 2) calc(c * 2) h);
+	}
+	.btn:hover {
+		--blur: 20px;
+		--distance: 10px;
+		background: linear-gradient(
+			calc(var(--angle) + 90deg),
+			oklch(from var(--background) calc(l + l * var(--intensity)/2) c h),
+			oklch(from var(--background) calc(l - l * var(--intensity)/2) c h)
+		);
+		.btn:active {
+			--distance: 0.5rem;
+			--blur: 1rem;
+			box-shadow:
+				inset var(--positionX) var(--positionY) var(--blur)
+					oklch(
+						from var(--background) calc(l - l * var(--intensity)) calc(c + var(--intensity) / 4) h
+					),
+				inset calc(var(--positionX) * -1) calc(var(--positionY) * -1) var(--blur)
+					oklch(from var(--background) calc(l + l * var(--intensity)) c h);
+		}
+	}
+	input:not([type="range"]),
+	textarea {
+		box-shadow:
+			inset var(--positionX) var(--positionY) var(--blur)
+				oklch(
+					from var(--background) calc(l - l * var(--intensity)) calc(c + var(--intensity) / 4) h
+				),
+			inset calc(var(--positionX) * -1) calc(var(--positionY) * -1) var(--blur)
+				oklch(from var(--background) calc(l + l * var(--intensity)) c h);
+	}
+	.alert {
+		background: linear-gradient(
+			calc(var(--angle) + 90deg),
+			oklch(from var(--background) calc(l + l * var(--intensity)/2) c h),
+			oklch(from var(--background) calc(l - l * var(--intensity)/2) c h)
+		);
+	}
+	.panel {
+		background: linear-gradient(
+			calc(var(--angle) + 90deg),
+			oklch(from var(--background) calc(l - l * var(--intensity)/2) c h),
+			oklch(from var(--background) calc(l + l * var(--intensity)/2) c h)
+		);
+	}
+
+	.btn-default,
+	.btn-primary,
+	.input-primary,
+	.textarea-primary,
+	.panel-primary,
+	.select-primary,
+	.alert-primary {
+		--btn-bg: var(--alert-color-5);
+		--input-color: var(--alert-color-5);
+	}
+	.btn-secondary,
+	.input-secondary,
+	.textarea-secondary,
+	.panel-secondary,
+	.select-secondary,
+	.alert-secondary {
+		--btn-bg: var(--alert-color-2);
+		--input-color: var(--alert-color-2);
+	}
+	.btn-accent,
+	.input-accent,
+	.textarea-accent,
+	.panel-accent,
+	.select-accent,
+	.alert-accent {
+		--btn-bg: var(--color-accent);
+		--input-color: var(--color-accent);
+	}
+	.btn-success,
+	.input-success,
+	.textarea-success,
+	.panel-success,
+	.select-success,
+	.alert-success {
+		--btn-bg: var(--color-success);
+		--input-color: var(--color-success);
+	}
+	.btn-info,
+	.input-info,
+	.textarea-info,
+	.panel-info,
+	.select-info,
+	.alert-info {
+		--btn-bg: var(--color-info);
+		--input-color: var(--color-info);
+	}
+	.btn-warning,
+	.input-warning,
+	.textarea-warning,
+	.panel-warning,
+	.select-warning,
+	.alert-warning {
+		--btn-bg: var(--alert-color-2);
+		--input-color: var(--alert-color-2);
+	}
+	.btn-notice,
+	.input-notice,
+	.textarea-notice,
+	.panel-notice,
+	.select-notice,
+	.alert-notice {
+		--btn-bg: var(--alert-color-p);
+		--input-color: var(--alert-color-p);
+	}
+	.btn-error,
+	.input-error,
+	.textarea-error,
+	.panel-error,
+	.select-error,
+	.alert-error {
+		--btn-bg: var(--alert-color-1);
+		--input-color: var(--alert-color-1);
+	}
+	.btn-muted,
+	.input-muted,
+	.textarea-muted,
+	.panel-muted,
+	.select-muted,
+	.alert-muted {
+		--btn-bg: gray;
+		--input-color: gray;
+	}
+	.btn-alert,
+	.input-alert,
+	.textarea-alert,
+	.panel-alert,
+	.select-alert,
+	.alert-alert {
+		--btn-bg: var(--alert-color);
+		--input-color: var(--alert-color);
+	}
+}
+
+.btn-xs {
+	--distance: 5px;
+	--blur: 10px;
+}
+.btn-sm {
+	--distance: 10px;
+	--blur: 20px;
+}
+.progress {
+	--distance: 2px;
+	--blur: 4px;
+	--intensity: 0.01;
+	--positionX: calc(cos(var(--angle)) * var(--distance));
+	--positionY: calc(sin(var(--angle)) * var(--distance));
+	--background: oklch(from currentColor l c h);
+	box-shadow:
+		var(--positionX) var(--positionY) var(--blur)
+			oklch(from var(--background) calc(l - l * var(--intensity)) calc(c + var(--intensity) / 4) h),
+		calc(var(--positionX) * -1) calc(var(--positionY) * -1) var(--blur)
+			oklch(from var(--background) calc(l + l * var(--intensity)) c h);
+}

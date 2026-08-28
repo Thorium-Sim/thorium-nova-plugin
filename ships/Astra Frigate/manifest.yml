@@ -695,8 +695,8 @@ decks:
     nodes:
       - id: 50
         name: Shuttle Flight Deck
-        x: 79.84858654240607
-        'y': 135.90078010353915
+        x: 79.96577404240607
+        'y': 134.84023322853915
         isRoom: true
         icon: ''
         radius: 23

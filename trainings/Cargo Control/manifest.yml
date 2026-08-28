@@ -389,28 +389,27 @@ steps:
         variable: containerId
         id: blo-mrb3wisb1b
         type: VariableIntoVariable
-      - entity: this timeline
-        getVariable: roomId
-        variable: roomId
-        id: blo-mrb3xd4q3k
-        type: VariableIntoVariable
-      - entity: $containerId
-        component: passengerMovement
-        property: destinationNode
-        variable: containerRoomId
-        id: blo-mrb3vs9725
-        type: EntityPropertyIntoVariable
-      - conditions:
-          - comparison: '='
-            value1: $containerRoomId
-            value2: $roomId
+      - event: cargoControl.containerArrived
+        multiple: true
+        persist: false
         triggerBlocks:
-          - id: blo-mrb3xmts4t
-            type: Action
-            action: timeline.advance
-            values: {}
-        id: blo-mrb3wuxn34
-        type: IfCondition
+          - id: blo-mtcbrjyb71
+            type: ResultPropertyIntoVariable
+            property: containerId
+            variable: eventContainerId
+          - id: blo-mtcbrvcr5l
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $containerId
+                value2: $eventContainerId
+            triggerBlocks:
+              - id: blo-mtcbsc0s3n
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mtcbrarj1o
+        type: EventCondition
   - id: ms-mrbex8bf35
     name: Step 8 - Transfer Cargo
     description: ''

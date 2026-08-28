@@ -1,0 +1,486 @@
+apiVersion: timeline/v1
+kind: trainings
+name: Damage Reports
+description: A training for learning how to use the Damage Reports card.
+category: Cards
+tags: []
+flightMode: nova
+assets: {}
+prerequisiteBlocks: []
+steps:
+  - id: tr-msop3yeh6l
+    name: Step 1
+    description: ''
+    tags: []
+    blocks:
+      - action: client.setTraining
+        values:
+          shipId: $shipId
+          station: $station
+          clientId: $clientId
+          text: >-
+            Your ship will take damage over the course of your mission, either
+            from weapons or collisions. Most often, it's just usual wear and
+            tear. Any type of damage decreases the performance of your ship,
+            which can make it harder for your crew to do their jobs and for you
+            to complete your mission objectives.
+
+
+            This screen will help you repair the damage to your ship systems,
+            keeping your ship running in tip-top shape.
+          allowAdvance: true
+          timelineId: $timelineId
+        id: blo-msq2xnoa3x
+        type: Action
+  - id: ms-msq306o51b
+    name: Step 2 - Systems List
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msq306o45x
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .damage-systems-list
+          text: >-
+            This is your list of systems, sorted by how much damage they have
+            sustained. There are different types of damage, like overheating or
+            structural. And the damage can affect the system in different ways,
+            like lowering the efficiency or increasing the risk that the system
+            might suddenly fail when you need it the most.
+
+
+            Go ahead and click on one of the systems.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-msq32maf6k
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-msq32mag3t
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-msq32mah6h
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-msq32y3z08
+            type: SetVariable
+            entity: this timeline
+            variable: damageSystem
+            value: $eventProperties
+          - id: blo-msq33ybd4d
+            type: EntityPropertyIntoVariable
+            entity: $eventProperties
+            component: identity
+            property: name
+            variable: systemName
+          - id: blo-msq34koo48
+            type: SetVariable
+            entity: this timeline
+            variable: damageSystemName
+            value: $systemName
+          - id: blo-msq32mai16
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: damage-system-pick
+                comparison: '='
+            triggerBlocks:
+              - id: blo-msq33dgy28
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-msq32maj1n
+        type: EventCondition
+  - id: ms-msq355qp2r
+    name: Step 3 - Diagnostics
+    description: ''
+    tags: []
+    blocks:
+      - entity: this timeline
+        getVariable: damageSystemName
+        variable: systemName
+        id: blo-msq37cn53b
+        type: VariableIntoVariable
+      - id: blo-msq355qo0f
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .diagnostics-list
+          text: >-
+            Great. Let's repair the {systemName}.
+
+
+            Your ship's Main Computer is able to perform diagnostics on any ship
+            system to determine how badly it is damaged and what can be done to
+            repair it. There are four levels of diagnostics, each more intense
+            than the previous. 
+
+
+            If you just want to see how much damage the {systemName} has, you
+            can run a quick Level 1 Diagnostic. However, that won't be enough to
+            know how to repair the {systemName}. For just one repair option,
+            pick Level 2 Diagnostic. For two, pick Level 3. and for three repair
+            options, pick Level 4. 
+
+
+            You'll see in a minute why repair options matter. For now, pick
+            either Level 3, or Level 4 so we have some options.
+      - event: damageReports.diagnosticCreate
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-msq45lnb0j
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-msq3dj3g3t
+            type: ResultPropertyIntoVariable
+            property: level
+            variable: eventLevel
+          - id: blo-msq3dj3h1d
+            type: ResultPropertyIntoVariable
+            property: systemId
+            variable: eventSystemId
+          - id: blo-msq3dj3i1g
+            type: ResultPropertyIntoVariable
+            property: diagnosticId
+            variable: eventDiagnosticId
+          - id: blo-msq45apo4x
+            type: IfCondition
+            conditions:
+              - comparison: '='
+                value1: $eventShipId
+                value2: $shipId
+            triggerBlocks:
+              - id: blo-msq460nd5m
+                type: IfCondition
+                conditions:
+                  - comparison: <=
+                    value1: $eventLevel
+                    value2: '2'
+                triggerBlocks:
+                  - id: blo-msq46brp5o
+                    type: Action
+                    action: thorium.setEntityComponent
+                    values:
+                      entityId: $eventDiagnosticId
+                      components:
+                        - component: diagnostic
+                          property: level
+                          comparison: ''
+                          value: '3'
+                  - id: blo-msq46v7d0v
+                    type: SetVariable
+                    entity: this timeline
+                    variable: wrongLevel
+                    value: 'true'
+              - id: blo-msq474de10
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-msq3dj3l08
+        type: EventCondition
+  - id: ms-msq3hxbg69
+    name: Step 4 - Wait for Diagnostic
+    description: ''
+    tags: []
+    blocks:
+      - entity: this timeline
+        getVariable: wrongLevel
+        variable: wrongLevel
+        id: blo-msq3rbuk5w
+        type: VariableIntoVariable
+      - id: blo-msq3hxbf3p
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            [wrongLevel|Oops, looks like you picked the wrong level. It's been
+            changed to Level 3 so we can continue the training properly
+
+
+            |]Now we just need to wait for the diagnostic to complete. Go ahead
+            and click "Next" once the diagnostic is done.
+          allowAdvance: true
+          selector:
+            - .diagnostic-candidates
+  - id: ms-msq3us6x4g
+    name: Step 4 - Damage Metrics
+    description: ''
+    tags: []
+    blocks:
+      - entity: this timeline
+        getVariable: damageSystemName
+        variable: damageSystemName
+        id: blo-msq3x15s6x
+        type: VariableIntoVariable
+      - id: blo-msq3us6w4t
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .diagnostic-candidates
+          text: >-
+            You can now see every damage metric for the {damageSystemName} from
+            the Main Computer's diagnostic. Take a moment to read through the
+            descriptions on each of these to understand how they affect your
+            ship's performance. Next to the descriptions you can see what the
+            current metric is. You can choose whichever metric you want to
+            improve by completing the damage report.
+
+
+            Once you've read through them all, go ahead and click the "Generate
+            Reports" button next to one of the damage metric you want to improve
+            to continue.
+      - event: damageReports.diagnosticReportCandidateCreate
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mtd29ccj67
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-msq487yv6q
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-msq48lze6u
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-msq487yx1x
+        type: EventCondition
+  - id: ms-msqm4qr51y
+    name: Step 5 - Damage Report Candidates
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-msqm4qr46h
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .diagnostic-candidates
+          allowAdvance: true
+          text: >-
+            Here's the damage reports that the Main Computer compiled for you.
+            Each repairs a specific aspect of the system, and has different
+            results and side-effects, usually for other systems, and you can
+            only choose one of them, so choose wisely.
+
+
+            It's possible that the problem affecting your system is also
+            affecting another system, so doing the repair causes improvements to
+            both. Likewise, it's possible that in order to repair your system,
+            tradeoffs must be made with another system, degrading the other
+            systems performance. The computer does all it can to find the best
+            possible way to improve your ship, but sometimes you have to make
+            sacrifices. Fortunately, the report tells you what will happen when
+            it is completed, so you can pick the one that works best for your
+            situation.
+
+
+            This is why it's beneficial to take the extra time to do longer
+            diagnostics, since it will give you more options for repairing the
+            ship. Of course, if you don't like any of the options, you can
+            always reset the diagnostic and try again.
+
+
+            Don't click "Begin Report" on any of these — Just click the "Next"
+            button to move on.
+  - id: ms-msqmrza33x
+    name: Step 6 - Damage Report Lists
+    description: ''
+    tags: []
+    blocks:
+      - count: one
+        entity: $shipId
+        systemType: sensors
+        variable: systemId
+        id: blo-mssy4jpv23
+        type: ShipSystemGetter
+      - id: blo-msqmrza225
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .damage-reports-list
+          text: >-
+            Here is the list of damage reports that have been generated but not
+            completed. A few have been added so you can practice the different
+            kinds of things you'll be doing to repair the ship.
+
+
+            Go ahead and click on "Exocomp Repair".
+      - action: damageReports.beginDamageReport
+        values:
+          shipId: $shipId
+          damageType: Computer
+          damageMetric: efficiency
+          systemId: $systemId
+          timeline: Mini Exocomp Tighten
+          reportName: Exocomp Repair
+        id: blo-mssy03o737
+        type: Action
+      - property: reportId
+        variable: exocompReportId
+        id: blo-mssy342k10
+        type: ResultPropertyIntoVariable
+      - action: damageReports.beginDamageReport
+        values:
+          shipId: $shipId
+          systemId: $systemId
+          damageType: Computer
+          damageMetric: efficiency
+          timeline: Mini Engineering Panel
+          reportName: Engineering Panels Repair
+        id: blo-mssy3eq55i
+        type: Action
+      - property: reportId
+        variable: panelReportId
+        id: blo-mssy5i5a2l
+        type: ResultPropertyIntoVariable
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mstrot360s
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mstrot371j
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mstrot382o
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mstrot394n
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: damage-report-selected
+                comparison: '='
+              - value1: $eventProperties
+                value2: $exocompReportId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mstrp3fy1x
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mstrot3g1b
+        type: EventCondition
+  - id: ms-mt03xyod6s
+    name: Step 7 - Damage Report Text
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt03xyoc60
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .damage-report-body
+          text: >-
+            These are the damage report instructions that you need to follow to
+            complete the report. The instructions might tell you to do something
+            on your station, or they could have you ask a crew member to do
+            something on their station.
+
+
+            At the bottom you can see what step you are on. As you complete the
+            steps, the report will automatically advance.
+          allowAdvance: true
+  - id: ms-mt03zs452x
+    name: Step 8 - Abort Report
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt03zs4416
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .damage-report-abort
+          text: >-
+            If the report isn't working out, you can abort it by clicking this
+            button. That will get rid of the report altogether and you'll have
+            to start over.
+          allowAdvance: true
+  - id: ms-mt0412rs2s
+    name: Step 8 - Damage Report Widget
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0412rr2t
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Many of the instructions for your damage reports are on different
+            screens on your station. To assist you, there is a Damage Reports
+            widget that you can use on any screen. Go ahead and open it now.
+          selector:
+            - .widget-DamageReports
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt04oplc01
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt04opld2q
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt04ople5r
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt04oplf04
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: widget-open
+                comparison: '='
+              - value1: $eventProperties
+                value2: DamageReports
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt04oup63z
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt04oplm2e
+        type: EventCondition

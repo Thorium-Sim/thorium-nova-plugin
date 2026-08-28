@@ -840,7 +840,11 @@ steps:
               - value1: $eventCode
                 value2: RMT-TRN-184
                 comparison: '='
-            triggerBlocks: []
+            triggerBlocks:
+              - id: blo-mta2un4n1i
+                type: Action
+                action: timeline.advance
+                values: {}
         id: blo-mr4apx0l6r
         type: EventCondition
   - id: ms-mk1zllmy2w

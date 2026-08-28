@@ -33,7 +33,7 @@ signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
 cruisingSpeed: 1500
 emergencySpeed: 2000
-thrust: 12500
+acceleration: 625
 speeds:
   - label: 1/4 Impulse
     number: '0.25'

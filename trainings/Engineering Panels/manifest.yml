@@ -18,11 +18,154 @@ steps:
           shipId: $shipId
           station: $station
           clientId: $clientId
+          allowAdvance: true
+          timelineId: $timelineId
           text: >-
             This panel of controls gives you direct access to your ships
             internal systems. Manipulating them in just the right way, following
             the instructions of your repair reports, can help your ship run even
             better.
-          allowAdvance: true
         id: blo-msd99c2s0b
         type: Action
+  - id: ms-mt1fvbpm37
+    name: Step 2 - Cell Basics
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt1fvbpl2x
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .panel-cell
+          text: >-
+            The panel controls are divided into cells, each having its own
+            control that you can manipulate. Every control is named at the
+            bottom. You'll need to find the correct control for each instruction
+            in your damage report.
+          allowAdvance: true
+  - id: ms-mt1fxs0g5r
+    name: Step 3 - Press Button
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt1fxs0f5l
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .panel-cell.pressButton
+          text: >-
+            This large button can either be pressed a certain number of times,
+            or you might have to hold it down for some period of time. When
+            you're holding it down, make sure you count the time slowly —
+            there's no harm in holding it down for more time than is needed.
+          allowAdvance: true
+  - id: ms-mt1fzyiq5o
+    name: Step 4 - Switch
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt1fzyip68
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This switch control can be turned on or off. Just click it once to
+            toggle the switch.
+          selector:
+            - .panel-cell.switch
+          allowAdvance: true
+  - id: ms-mt1g0yke3s
+    name: Step 5 - Tri Switch
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt1g0ykd50
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: This is another kind of switch that you toggle by clicking it.
+          selector:
+            - .panel-cell.triSwitch
+          allowAdvance: true
+  - id: ms-mt1g1pro0s
+    name: Step 6 - Numbered Slider
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt1g1prn4p
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This control has you drag the slider to a specific number. Just hold
+            down on the slider as you drag it and let go when its on the correct
+            number.
+          selector:
+            - .panel-cell.numberedSlider
+          allowAdvance: true
+  - id: ms-mt1g2w2525
+    name: Step 7 - Number Input
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt1g2w2454
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You might need to type a number in on this keypad. First make sure
+            the output is cleared by pressing the "C" button. Then type your
+            number one digit at a time. When you're done, click the "→" button.
+            The output number will turn green if accepted or red if incorrect.
+          allowAdvance: true
+          selector:
+            - .panel-cell.numberPad
+  - id: ms-mt1g565m6f
+    name: Step 8 - Cables
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt1g565l4d
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .panel-cell.cableSocket
+          allowAdvance: true
+          text: >-
+            These ports allow you to connect cables between parts of your panel.
+            Just press and hold on one of the ports to start dragging a cable,
+            then let the cable go on top of another port. You can even drag the
+            cabe between ports in different cells. If you need to move an
+            existing cable from one port to another, just press and drag one of
+            the ends. To remove a cable, just drag one end off of its port and
+            let go.You can create as many cables as there are ports, and the
+            color of the cable doesn't matter.
+  - id: ms-mt1g7tei07
+    name: Step 9 - Conclusion
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt1g7teh44
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          allowAdvance: true
+          text: >-
+            When you're done with the report instructions, feel free to
+            disconnect the cables or adjust the switches so you're ready for the
+            next report. You'll know that you completed the panel adjustments
+            successfully if the report step is completed. If it isn't completed,
+            double check that the controls are in the right position and that
+            you've pressed the buttons enough times or held them down for long
+            enough.

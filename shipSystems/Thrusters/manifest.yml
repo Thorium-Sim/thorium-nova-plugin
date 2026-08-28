@@ -43,7 +43,7 @@ signatureSpike: 2
 signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
 directionMaxSpeed: 1
-directionThrust: 437500000
+directionAcceleration: 625
 rotationMaxSpeed: 5
-rotationThrust: 437500000
+rotationAcceleration: 625
 heatDissipationRate: 1

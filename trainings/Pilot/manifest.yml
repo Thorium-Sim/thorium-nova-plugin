@@ -663,7 +663,7 @@ steps:
 
 
             Let's search for "Mars". Type that in the search box, and then
-            select is once you've found it.
+            select it once you've found it.
       - pluginId: Thorium Default
         macroId: Handle Generic Event
         triggerBlocks:

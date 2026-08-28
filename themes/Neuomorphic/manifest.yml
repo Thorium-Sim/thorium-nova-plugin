@@ -1,0 +1,7 @@
+apiVersion: theme/v1
+kind: themes
+name: Neuomorphic
+default: false
+assets:
+  rawCSS: /plugins/Thorium Default/themes/Neuomorphic/assets/raw.css
+  files: []

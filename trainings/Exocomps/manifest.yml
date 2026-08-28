@@ -23,6 +23,747 @@ steps:
             to repair ship systems. They are able to get into tight places that
             humans can't reach, making them perfect for helping your ship run
             smoothly and efficiently.
+          selector: []
+          timelineId: $timelineId
           allowAdvance: true
         id: blo-msd97d0s28
         type: Action
+  - id: ms-mt0lcwca22
+    name: Step 2 - Deck Display
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0lcwc90v
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - '#deck-container'
+          text: >-
+            This shows you a map of your ship, one deck at a time. You can see
+            the rooms and corridors outlined, and eventually you'll see exocomps
+            moving around between rooms. You can also see dots, which represent
+            rooms that exocomps will visit. You can see the name of the room by
+            hovering your mouse over it.
+          allowAdvance: true
+  - id: ms-mt0lplgq3f
+    name: Step 3 - Deck List
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0lplgp07
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .deck-picker
+            - '#deck-container'
+          text: >-
+            This lists all of the decks on your ship. You can click on a deck to
+            switch to that deck to see what's on it.
+          allowAdvance: true
+  - id: ms-mt0lquk16e
+    name: Step 4 - Exocomps
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0lquk00y
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomps-list
+          text: >-
+            Here are your ship's exocomps. Each one can operate independently to
+            carry out your instructions to repair the ship. This allows you to
+            work on multiple things simultaneously.
+
+
+            See the yellow ring around the exocomps? This represents the battery
+            level. When the exocomp battery is drained, it must return to its
+            home to recharge before being given new instructions.
+
+
+            Click on one of the exocomps to start programming it.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0ly7qq47
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0ly7qr5e
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0ly7qs2r
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0ly7qt2q
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-selected
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0lye2w6o
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0ly7qx1d
+        type: EventCondition
+  - id: ms-mt0lyq8q19
+    name: Step 5 - Exocomp Location
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0lyq8p52
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - '#deck-container'
+          allowAdvance: true
+          text: >-
+            Clicking on the exocomp will change the ship map deck to the deck
+            where the exocomp is currently located. You should be able to see it
+            flashing.
+  - id: ms-mt0m0ip70s
+    name: Step 6 - Exocomp Instructions
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0m0ip621
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomp-instructions
+          text: >-
+            This is where you'll program your exocomp by setting instructions it
+            will follow in order, from left to right. Click on the far-left
+            instruction box to set the first instruction.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0m3ocz6w
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0m3od02z
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0m3od15p
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0m3od241
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-instruction
+                comparison: '='
+              - value1: $eventProperties
+                value2: '0'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0m3rhm62
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0m3od54k
+        type: EventCondition
+  - id: ms-mt0m4qin0b
+    name: Step 7 - Instruction Types
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0m4qim6y
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomp-instruction-types
+          text: "These are the different instructions that you can give to your exocomp —\_note that you might need to scroll the list to see all of them. A damage report will give you the general idea of what to do with your exocomp: \"Send an exocomp to a specific room with some parts and have it do this action (such as Tighten) for a few seconds.\"\n\nYou need to turn those generic instructions into specific instructions for the exocomp. So for the instructions above, you would give it these instructions:\n\n- Retrieve Cargo\n- Go To\n- Use Cargo\n- Tighten\n\nAll of which can fit in a single set of instructions.\n\nLet's start with the Retrieve Cargo instruction. Click on the Retrieve Cargo instruction to move on."
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0mfrml66
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0mfrmm1l
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0mfrmn24
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0mfrmo2y
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-instruction-change
+                comparison: '='
+              - value1: $eventProperties
+                value2: retrieveCargo
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0mfw6162
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0mfrmp68
+        type: EventCondition
+  - id: ms-mt0mg5ev56
+    name: Step 8 - Retrieve Cargo
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0mg5eu1l
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You can see a list of the different types of cargo that exocomps can
+            use in their repairs. Click on the cargo that you need to add it to
+            the list of things the exocomp will pick up.
+
+
+            With this instruction, the exocomp will automatically travel to the
+            rooms that hold the cargo until it has collected all of the cargo it
+            needs. Then it will proceed to the next step.
+
+
+            Click on a Coaxial Server to add it to your exocomp, then click "Set
+            Instruction" when you're done.
+          selector:
+            - .exocomp-instruction-types
+            - .set-instruction
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0mlxgh1h
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0mlxgi3q
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0mlxgj4j
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0mlxgk57
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-set-instruction
+                comparison: '='
+              - value1: $eventProperties
+                value2: retrieveCargo
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0mm46z2a
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0mlxgl5g
+        type: EventCondition
+  - id: ms-mt0mmyph59
+    name: Step 9 - Go to Instruction
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0mmypg13
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: Click the next instruction box.
+          selector:
+            - .exocomp-instructions
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0mnhzg07
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0mnhzh2f
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0mnhzi6b
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0mnhzj28
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-instruction
+                comparison: '='
+              - value1: $eventProperties
+                value2: '1'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0mnnld02
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0mnhzn0m
+        type: EventCondition
+  - id: ms-mt0mnrlw1d
+    name: Step 10 - Go To
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0mnrlv2v
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: Choose the Go To instruction.
+          selector:
+            - .exocomp-instructions
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0mo4jy3f
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0mo4jz67
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0mo4k03a
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0mo4k15k
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-instruction-change
+                comparison: '='
+              - value1: $eventProperties
+                value2: goTo
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0moayy3e
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0mo4kb1c
+        type: EventCondition
+  - id: ms-mt0uh7xu4t
+    name: Step 11 - Go To Destination
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0uh7xt6m
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomp-instruction-types
+            - .set-instruction
+          text: >-
+            Now you need to tell the Exocomp where to go. First pick the deck
+            that the room is on, then choose the room from the list of rooms on
+            that deck. 
+
+
+            You can send this exocomp to any room you want. Once you've picked a
+            room, click "Set Instruction".
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0ujrf16n
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0ujrf25j
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0ujrf367
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0ujrf46t
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-set-instruction
+                comparison: '='
+              - value1: $eventProperties
+                value2: goTo
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0uk3373d
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0ujrf46f
+        type: EventCondition
+  - id: ms-mt0ukaae4b
+    name: Step 12 - Use Cargo Instruction
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0ukaad61
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomp-instructions
+          text: >-
+            Once the Exocomp has arrived at its destination, we need to use the
+            cargo we retrieved. Pick the middle instruction to set it up.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0ulkjx1i
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0ulkjy3m
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0ulkjz6f
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0ulkk01k
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-instruction
+                comparison: '='
+              - value1: $eventProperties
+                value2: '2'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0ulnew6t
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0ulkk14n
+        type: EventCondition
+  - id: ms-mt0ulsnw1o
+    name: Step 13 - Use Cargo
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0ulsnv1t
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomp-instructions
+          text: >-
+            Now choose the Use Cargo instruction. This will immediately set the
+            instruction, since there is no configuration necessary. The system
+            will communicate with the exocomp to tell it exactly which cargo
+            items it needs.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0un4jn6c
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0un4jo3g
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0un4jp27
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0un4jq6h
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-instruction-change
+                comparison: '='
+              - value1: $eventProperties
+                value2: useCargo
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0un9k55u
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0un4jq28
+        type: EventCondition
+  - id: ms-mt0unga52c
+    name: Step 14 - Tighten Instruction
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0unga45j
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomp-instructions
+          text: For the last time — click the fourth instruction box.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0uo9ce08
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0uo9cf1h
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0uo9cg1b
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0uo9ch01
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-instruction
+                comparison: '='
+              - value1: $eventProperties
+                value2: '3'
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0uodqf6l
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0uo9cq3d
+        type: EventCondition
+  - id: ms-mt0uol3u71
+    name: Step 15 - Tighten
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0uol3t44
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomp-instruction-types
+          text: >-
+            Choose the Tighten instruction. This instruction has the exocomp
+            adjust the tightness of screws, nuts, and bolts in various parts of
+            the ship. There are other instructions for the exocomp to perform
+            other actions.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0upxyg3n
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0upxyh1w
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0upxyi4p
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0upxyj6r
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-instruction-change
+                comparison: '='
+              - value1: $eventProperties
+                value2: tighten
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mtd31kgu4m
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0upxyi51
+        type: EventCondition
+  - id: ms-mt0uq4ke6a
+    name: Step 16 - Tighten Duration
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0uq4kd1o
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .exocomp-instruction-types
+            - .set-instruction
+          text: >-
+            The exocomp might need to spend some time performing its task. Use
+            the slider to change the duration that the exocomp will tighten. For
+            training, you can set it to any duration. Click "Set Instruction" to
+            continue.
+      - event: thorium.genericEvent
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0urwhd6t
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mt0urwhe18
+            type: ResultPropertyIntoVariable
+            property: eventName
+            variable: eventEventName
+          - id: blo-mt0urwhf58
+            type: ResultPropertyIntoVariable
+            property: properties
+            variable: eventProperties
+          - id: blo-mt0urwhg5c
+            type: IfCondition
+            conditions:
+              - value1: $eventClientId
+                value2: $clientId
+                comparison: '='
+              - value1: $eventEventName
+                value2: exocomp-set-instruction
+                comparison: '='
+              - value1: $eventProperties
+                value2: tighten
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0uryue53
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0urwhj68
+        type: EventCondition
+  - id: ms-mt0us7d13l
+    name: Step 17 - Deploy
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0us7d013
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .deploy-button
+          text: >-
+            At any point you can change the instructions by clicking on the
+            instruction box again. From there, you can change the settings for
+            the existing instruction, or clear the instruction and assign a new
+            one.
+
+
+            Once you've put in all of the instructions you need, you can have
+            the exocomp execute them by clicking the "Deploy" button. Do that
+            now.
+      - event: exocomps.assign
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mt0uw9jm20
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mt0uw9jn0w
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mt0uws0n24
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mt0uw9jt5e
+        type: EventCondition
+  - id: ms-mt0ux87p0f
+    name: Step 18 - Conclusion
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mt0ux87o1p
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          allowAdvance: true
+          selector:
+            - '#deck-container'
+            - .exocomp-logs
+          text: >-
+            You can watch your exocomp move through the ship as it works to
+            complete its tasks. You can also see the logs the exocomp makes as
+            it progresses from step to step. It will tell you warnings or errors
+            when it isn't able to complete its instructions correctly, so pay
+            attention to these logs.

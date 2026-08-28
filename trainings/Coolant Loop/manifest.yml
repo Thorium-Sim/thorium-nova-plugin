@@ -18,12 +18,241 @@ steps:
           shipId: $shipId
           station: $station
           clientId: $clientId
-          text: >-
-            This screen shows a simplified view into how coolant moves through
-            your ship, starting at the coolant tank, flowing through the heat
-            radiator which ejects heat into space, being pushed through by the
-            pump, and then flowing past all of your ship systems. Let's learn
-            how to keep your ship cool.
           allowAdvance: true
+          text: >-
+            The systems on your ship produce a lot of heat. This screen shows a
+            simplified view into how coolant moves through your ship, starting
+            at the coolant tank, flowing through the heat radiator which ejects
+            heat into space, being pushed through by the pump, and then flowing
+            past all of your ship systems. Let's learn how to keep your ship
+            cool.
         id: blo-msd95eks10
         type: Action
+  - id: ms-mso1frk858
+    name: Step 2 - Coolant Pump
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mso1frk74s
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .coolant-pump
+          text: >-
+            We'll start with your coolant pump, which moves the coolant through
+            the loop. The faster the pump speed, the more cold coolant gets to
+            your systems. However, running the pump requires more power. Choose
+            the pump speed carefully based on the heat and power needs of your
+            ship.
+          allowAdvance: true
+  - id: ms-mso1issj2g
+    name: Step 3 - Coolant Pump Speed
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mso1issi4r
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            You can use this slider to adjust the pump speed. Go ahead and
+            increase the speed a little bit.
+          selector:
+            - .coolant-pump-speed
+      - event: coolantLoop.setPumpPower
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mso1oa5v5r
+            type: ResultPropertyIntoVariable
+            property: pumpId
+            variable: eventPumpId
+          - id: blo-mso1oa5w08
+            type: ResultPropertyIntoVariable
+            property: power
+            variable: eventPower
+          - id: blo-mso1oa5x6x
+            type: ResultPropertyIntoVariable
+            property: previousPower
+            variable: eventPreviousPower
+          - id: blo-mso1oa5y6b
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mso1oa5z28
+            type: IfCondition
+            conditions:
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+              - value1: $eventPower
+                value2: $eventPreviousPower
+                comparison: '>'
+            triggerBlocks:
+              - id: blo-mso1p3bx20
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mso1oa6712
+        type: EventCondition
+  - id: ms-mso1pa9n2k
+    name: Step 4 - Coolant Systems
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mso1pa9m1e
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Here are all of your ship systems, with their own little coolant
+            loops. You can see the system temperature next to the name, but to
+            make it easier to tell the difference between hot and cold systems,
+            they'll change color from blue to red as they get hotter.
+          selector:
+            - .coolant-systems
+          allowAdvance: true
+  - id: ms-mso1wnwh5a
+    name: Step 5 - Cool System
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mso1wnwg2f
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .coolant-system-sensors
+          text: >-
+            The Sensors system has probably heated up a bit. Lets cool it off.
+            Click and hold the black square with the white dial — that's the
+            coolant valve. That will connect the system to the coolant loop,
+            flushing coolant through the system and drawing heat out of the
+            system and into the coolant. Click and hold the valve now.
+      - event: coolantLoop.setSystemCooling
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mso1zm3s03
+            type: ShipSystemGetter
+            count: one
+            entity: $shipId
+            systemType: sensors
+            variable: sensorsId
+          - id: blo-mso1zazt1j
+            type: ResultPropertyIntoVariable
+            property: systemId
+            variable: eventSystemId
+          - id: blo-mso1zazu54
+            type: ResultPropertyIntoVariable
+            property: cooling
+            variable: eventCooling
+          - id: blo-mso1zazv2s
+            type: ResultPropertyIntoVariable
+            property: shipId
+            variable: eventShipId
+          - id: blo-mso1zazw4n
+            type: IfCondition
+            conditions:
+              - value1: $eventSystemId
+                value2: $sensorsId
+                comparison: '='
+              - value1: $eventCooling
+                value2: 'true'
+                comparison: '='
+              - value1: $eventShipId
+                value2: $shipId
+                comparison: '='
+            triggerBlocks:
+              - id: blo-mso1zizq14
+                type: Action
+                action: timeline.advance
+                values: {}
+        id: blo-mso1zb0d42
+        type: EventCondition
+  - id: ms-mso20h4c2g
+    name: Step 6 - Done Cooling
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mso20h4b6q
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            Nice work. You can let go of the coolant valve as soon as you feel
+            the system has cooled down enough.
+          selector:
+            - .coolant-system-sensors
+          allowAdvance: true
+  - id: ms-mso219wg10
+    name: Step 7 - Coolant Tank
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mso219wf1z
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          text: >-
+            This is your coolant tank. You'll notice that its temperature rises
+            when you cool off systems. That's because the heat doesn't magically
+            disappear — it has to go somewhere, moving from areas of high
+            temperature to areas of low temperature. In fact, if you were to
+            cool a system and the coolant temperature was higher than the
+            system's temperature, it would actually _heat up the system_ and
+            cool down the coolant. Keep that in mind as you try to keep your
+            ship cool.
+          allowAdvance: true
+          selector:
+            - .coolant-tank
+  - id: ms-mso24ou739
+    name: Step 8 - Radiator
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mso24ou66s
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .coolant-radiator
+          allowAdvance: true
+          text: >-
+            The last stop on the coolant loop is the radiator. This is
+            physically the only way to eject heat from the ship — radiating it
+            to space as blackbody — a.k.a. thermal — radiation. The radiator
+            will passively decrease the temperature of the coolant that passes
+            through it before the coolant restarts its journey.
+
+
+            You've only got the one radiator, and it's only able to put out so
+            much heat, so you'll have to get creative with how you keep every
+            system on the ship cool.
+  - id: ms-mso294nj6a
+    name: Step 9 - Radiator Bypass
+    description: ''
+    tags: []
+    blocks:
+      - id: blo-mso294ni4p
+        type: Action
+        action: client.setTraining
+        values:
+          clientId: $clientId
+          selector:
+            - .radiator-valve
+          allowAdvance: true
+          text: >-
+            This is the radiator bypass valve. It cuts the radiator off from the
+            coolant loop, preventing the radiator from heating up. Naturally,
+            the hotter the radiator is, the easier it would be for other ships
+            to detect your ship, so if your systems are cool enough, it might be
+            worth the risk.

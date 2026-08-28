@@ -23,6 +23,7 @@ steps:
             and what's heating up. It allows you to allocate power, turn on and
             off systems, and change reactor output.
           allowAdvance: true
+          timelineId: $timelineId
         id: blo-msd92n5m5o
         type: Action
   - id: ms-msdlor1b10
@@ -114,9 +115,6 @@ steps:
         action: client.setTraining
         values:
           clientId: $clientId
-          selector:
-            - .active-dial-0
-            - .reserve-dial-0
           allowAdvance: true
           text: >-
             These two dials represent your reactor's fuel. The left dial is the
@@ -130,6 +128,9 @@ steps:
             have at least 1 hour of reserve fuel left. Once you see this dial
             start decreasing, you'd better start looking around your ship, or
             elsewhere, for more fuel.
+          selector:
+            - .reserve-dial-0
+            - .active-dial-0
   - id: ms-msdmqf6d64
     name: Step 7 - Reactor Summary
     description: ''
@@ -386,6 +387,7 @@ steps:
             will automatically deactivate themselves to ensure there's enough
             power for high-priority systems. That way, you'll continue to have
             life support and other crucial systems. 
+          allowAdvance: true
   - id: ts-msf284b10t
     name: Step 20 - Phase Capacitors
     description: ''

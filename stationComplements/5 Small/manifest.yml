@@ -45,6 +45,9 @@ stations:
         component: EngineeringPanels
         config: {}
     widgets:
+      - name: Damage Reports
+        icon: /plugins/Thorium Default/stationComplements/assets/DamageReports.svg
+        component: DamageReportsMini
       - name: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
         component: Objectives
@@ -61,6 +64,10 @@ stations:
         icon: /plugins/Thorium Default/stationComplements/assets/Targeting.svg
         component: Targeting
     widgets:
+      - name: Remote Access
+        icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
+        component: RemoteAccess
+        size: sm
       - name: Objectives
         icon: /plugins/Thorium Default/stationComplements/assets/Objectives.svg
         component: Objectives
@@ -86,10 +93,6 @@ stations:
         icon: /plugins/Thorium Default/stationComplements/assets/Documents.svg
         component: Documents
     widgets:
-      - name: Remote Access
-        icon: /plugins/Thorium Default/stationComplements/assets/RemoteAccess.svg
-        component: RemoteAccess
-        size: sm
       - name: Code Cyphers
         icon: /plugins/Thorium Default/stationComplements/assets/CodeCyphers.svg
         component: CodeCyphers

@@ -60,9 +60,9 @@ maxSignature: 1
 signatureSpike: 2
 signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
-optimalOutputPercent: 0.5
+optimalOutputPercent: 0.7
 powerMultiplier: 1
-reactorCount: 4
+reactorCount: 2
 powerUpSpeed: 0.5
 balancedBonusMultiplier: 0.9
 legacySettings:
