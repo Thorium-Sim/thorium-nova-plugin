@@ -2,20 +2,20 @@ apiVersion: timeline/v1
 kind: trainings
 name: Sensors
 description: Training for the sensors station, when it has a single sensors card.
-category: ''
+category: ""
 tags: []
 flightMode: nova
 assets: {}
 prerequisiteBlocks:
   - conditions:
-      - comparison: '='
+      - comparison: "="
         value1: $station
         value2: Sensors
     triggerBlocks:
       - id: blo-mjhlmfv46e
         type: IfCondition
         conditions:
-          - comparison: '='
+          - comparison: "="
             value1: $stationComplement
             value2: 4 Small
         triggerBlocks:
@@ -25,7 +25,7 @@ prerequisiteBlocks:
       - id: blo-mjhlmpy94r
         type: IfCondition
         conditions:
-          - comparison: '='
+          - comparison: "="
             value1: $stationComplement
             value2: 5 Small
         triggerBlocks:
@@ -37,13 +37,13 @@ prerequisiteBlocks:
 steps:
   - id: tr-mjhljxlp0h
     name: Step 1 - Welcome
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ''
+          station: ""
           text: >-
             Welcome Sensors! It's your job to get information about everything
             around your ship to help your crew make decisions. Let's take a look
@@ -72,7 +72,7 @@ steps:
           components:
             - component: identity
               property: name
-              comparison: ''
+              comparison: ""
               value: Target Ship
         id: blo-mjoepquj0n
         type: Action
@@ -83,7 +83,7 @@ steps:
         type: SetVariable
   - id: ts-mjnaxljy15
     name: Step 2 - Login
-    description: ''
+    description: ""
     tags: []
     blocks:
       - entity: $clientId
@@ -92,13 +92,13 @@ steps:
         variable: loginName
         id: blo-mjnb8i6y3o
         type: EntityPropertyIntoVariable
-      - debugVariable: ''
+      - debugVariable: ""
         id: blo-mqmcebjq26
         type: Debug
       - conditions:
           - comparison: is not empty
             value1: $loginName
-            value2: ''
+            value2: ""
         triggerBlocks:
           - id: blo-mjnbgxxz6t
             type: Action
@@ -109,7 +109,7 @@ steps:
       - conditions:
           - comparison: is empty
             value1: $loginName
-            value2: ''
+            value2: ""
         triggerBlocks:
           - id: blo-mjnbhdn32e
             type: Action
@@ -134,7 +134,7 @@ steps:
               - id: blo-mjng4s9g2h
                 type: IfCondition
                 conditions:
-                  - comparison: '='
+                  - comparison: "="
                     value1: $loginClientId
                     value2: $clientId
                 triggerBlocks:
@@ -146,7 +146,7 @@ steps:
         type: IfCondition
   - id: ts-mjnbk6re4b
     name: Step 3 - Sensors Summary
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -160,13 +160,13 @@ steps:
         type: Action
   - id: ts-mjnffi5646
     name: Step 4 - Radar
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ''
+          station: ""
           text: >-
             This is your sensors radar. It shows the relative direction and
             distance from your ship to nearby objects in 3D space.
@@ -187,7 +187,7 @@ steps:
         type: Action
   - id: ms-mjnfrr9c3p
     name: Step 5 - Radar Controls
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mjnfrr9b46
@@ -220,14 +220,14 @@ steps:
           - id: blo-mjngqbnj6c
             type: IfCondition
             conditions:
-              - comparison: '='
+              - comparison: "="
                 value1: $eventClientId
                 value2: $clientId
               - value1: $eventName
                 value2: radar-zoom
-                comparison: '='
+                comparison: "="
               - value1: $zoom
-                value2: '0.2'
+                value2: "0.2"
                 comparison: <=
             triggerBlocks:
               - id: blo-mjngtebd27
@@ -238,7 +238,7 @@ steps:
         type: EventCondition
   - id: ms-mjngvme84g
     name: Step 6 - Tilt Control
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mjngvme71y
@@ -264,15 +264,15 @@ steps:
           - id: blo-mjnh42oy5c
             type: IfCondition
             conditions:
-              - comparison: '='
+              - comparison: "="
                 value1: $eventName
                 value2: radar-tilt
               - value1: $eventClientId
                 value2: $clientId
-                comparison: '='
+                comparison: "="
               - value1: $props
-                value2: '1'
-                comparison: '='
+                value2: "1"
+                comparison: "="
             triggerBlocks:
               - id: blo-mjnh5adt5b
                 type: Action
@@ -282,7 +282,7 @@ steps:
         type: Macro
   - id: ts-mqmdjzvt25
     name: Step 7 - Tilt Back
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -299,7 +299,7 @@ steps:
         type: Action
   - id: ts-mqn4mlvy0d
     name: Step 8 - Contacts
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -333,12 +333,12 @@ steps:
         values:
           clientId: $clientId
           name: radarTiltEvent
-          payload: '0'
+          payload: "0"
         id: blo-mqn57xt43j
         type: Action
   - id: ts-mqn4pkjl0d
     name: Step 9 - Contacts List
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -355,7 +355,7 @@ steps:
 
             You can select the contacts by choosing them from this list, or
             clicking on them in the sensors array. Click on the Unknown contact
-            in the list to select it.
+            in the list that's around 15,000 km away to select it. Training will continue when you've selected that contact.
           selector:
             - .objects-list
           allowAdvance: false
@@ -383,10 +383,10 @@ steps:
             conditions:
               - value1: $eventShipId
                 value2: $shipId
-                comparison: '='
+                comparison: "="
               - value1: $eventContactId
                 value2: $contactId
-                comparison: '='
+                comparison: "="
             triggerBlocks:
               - id: blo-mqn50n8n0c
                 type: Action
@@ -396,7 +396,7 @@ steps:
         type: EventCondition
   - id: ts-mqn539co4q
     name: Step 10 - Identification Scan
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -437,13 +437,13 @@ steps:
             conditions:
               - value1: $eventShipId
                 value2: $shipId
-                comparison: '='
+                comparison: "="
               - value1: $eventType
                 value2: identification
-                comparison: '='
+                comparison: "="
               - value1: $eventTarget
                 value2: $contactId
-                comparison: '='
+                comparison: "="
             triggerBlocks:
               - id: blo-mqn551jh4o
                 type: Action
@@ -453,7 +453,7 @@ steps:
         type: EventCondition
   - id: ts-mqpn4chz0x
     name: Step 11 - Scan Progress
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -493,14 +493,14 @@ steps:
         type: Action
   - id: ts-mqpnmn6d3y
     name: Step 12 - Scan Range
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: effects.sendClientEvent
         values:
           name: radarZoomEvent
           clientId: $clientId
-          payload: '0.0024634853181741997'
+          payload: "0.0024634853181741997"
         id: blo-mqpnnfra29
         type: Action
       - action: client.setTraining
@@ -522,7 +522,7 @@ steps:
         type: Action
   - id: ms-mqpo9l5k0a
     name: Step 13 - Scan Results
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mqpo9l5j4d
@@ -530,7 +530,7 @@ steps:
         action: client.setTraining
         values:
           clientId: $clientId
-          card: ''
+          card: ""
           selector:
             - .scans-panel
           text: >-
@@ -542,7 +542,7 @@ steps:
           allowAdvance: true
   - id: ts-mqpofes96m
     name: Step 14 - Scan Options
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -581,7 +581,7 @@ steps:
         type: Action
   - id: ts-mqpop3204k
     name: Step 15 - Good Scanning Practice
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -616,7 +616,7 @@ steps:
         type: Action
   - id: ts-mqpotgqx3j
     name: Step 16 - Processed Data
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
@@ -646,7 +646,7 @@ steps:
         type: Action
   - id: ms-mk1zllmy2w
     name: Step 26 - Officers Log Widget
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mk1zllmx28
@@ -664,7 +664,7 @@ steps:
             - .widget-OfficersLog
   - id: ms-mk1zpl9n4h
     name: Step 27 - Objectives Widget
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mk1zpl9m6k
@@ -680,7 +680,7 @@ steps:
           allowAdvance: true
   - id: ms-mk1zqlko4i
     name: Step 28 - Settings Widget
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mk1zqlkn2q
@@ -697,7 +697,7 @@ steps:
             control your station.
   - id: ms-mk1zx1jx3e
     name: Step 29 - Done
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mk1zx1jw3z
@@ -718,4 +718,4 @@ steps:
 
             Good luck!
           allowAdvance: true
-          card: ''
+          card: ""

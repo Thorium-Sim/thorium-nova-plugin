@@ -2,20 +2,20 @@ apiVersion: timeline/v1
 kind: trainings
 name: Operations
 description: Training for the Operations station, combining communications and cargo cards.
-category: ''
+category: ""
 tags: []
 flightMode: nova
 assets: {}
 prerequisiteBlocks:
   - conditions:
-      - comparison: '='
+      - comparison: "="
         value1: $station
         value2: Operations
     triggerBlocks:
       - id: blo-mjhlmpy94r
         type: IfCondition
         conditions:
-          - comparison: '='
+          - comparison: "="
             value1: $stationComplement
             value2: 5 Small
         triggerBlocks:
@@ -27,13 +27,13 @@ prerequisiteBlocks:
 steps:
   - id: tr-mjhljxlp0h
     name: Step 1 - Welcome
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ''
+          station: ""
           text: >-
             Welcome Operations! Your job includes everything that doesn't fit in
             another station. Congratulations! That doesn't mean your job isn't
@@ -48,7 +48,7 @@ steps:
             pluginId: Thorium Default
             name: Astra Frigate
           entityId: $shipId
-          distance: 15000
+          distance: 10000
           tags:
             - html
         id: blo-mjoep3683b
@@ -63,7 +63,7 @@ steps:
           components:
             - component: identity
               property: name
-              comparison: ''
+              comparison: ""
               value: Target Ship
         id: blo-mjoepquj0n
         type: Action
@@ -72,18 +72,9 @@ steps:
         value: $id
         id: blo-mplrrjm00r
         type: SetVariable
-      - code: |-
-          async function run() {
-              return {a:1, b:2, c:"hi there"}
-          }
-        id: blo-mr9zx0e24j
-        type: Code
-      - debugVariable: ''
-        id: blo-mra01tc84u
-        type: Debug
   - id: ts-mjnaxljy15
     name: Step 2 - Login
-    description: ''
+    description: ""
     tags: []
     blocks:
       - entity: $clientId
@@ -92,13 +83,13 @@ steps:
         variable: loginName
         id: blo-mjnb8i6y3o
         type: EntityPropertyIntoVariable
-      - debugVariable: ''
+      - debugVariable: ""
         id: blo-mqmcebjq26
         type: Debug
       - conditions:
           - comparison: is not empty
             value1: $loginName
-            value2: ''
+            value2: ""
         triggerBlocks:
           - id: blo-mjnbgxxz6t
             type: Action
@@ -109,7 +100,7 @@ steps:
       - conditions:
           - comparison: is empty
             value1: $loginName
-            value2: ''
+            value2: ""
         triggerBlocks:
           - id: blo-mjnbhdn32e
             type: Action
@@ -134,7 +125,7 @@ steps:
               - id: blo-mjng4s9g2h
                 type: IfCondition
                 conditions:
-                  - comparison: '='
+                  - comparison: "="
                     value1: $loginClientId
                     value2: $clientId
                 triggerBlocks:
@@ -146,7 +137,7 @@ steps:
         type: IfCondition
   - id: ms-mqqmly9f2p
     name: Step 3 - Short Range Card
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: timeline.activate
@@ -170,7 +161,7 @@ steps:
           - id: blo-mqqmi9i46w
             type: IfCondition
             conditions:
-              - comparison: '='
+              - comparison: "="
                 value1: $spawnedTimelineId
                 value2: $completeTimelineId
             triggerBlocks:
@@ -182,7 +173,7 @@ steps:
         type: EventCondition
   - id: ms-mqs8plox5s
     name: Step 4 - Move to Long Range Comm
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mqs8plow6n
@@ -212,10 +203,10 @@ steps:
             conditions:
               - value1: $eventClientId
                 value2: $clientId
-                comparison: '='
+                comparison: "="
               - value1: $eventCard
                 value2: LongRangeComm
-                comparison: '='
+                comparison: "="
             triggerBlocks:
               - id: blo-mqzzmh0y01
                 type: Action
@@ -225,7 +216,7 @@ steps:
         type: EventCondition
   - id: ms-mqs8s2zy0e
     name: Step 5 - Long Range Comm
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: timeline.activate
@@ -249,7 +240,7 @@ steps:
           - id: blo-mqs8td0q6j
             type: IfCondition
             conditions:
-              - comparison: '='
+              - comparison: "="
                 value1: $completeTimelineId
                 value2: $spawnedTimelineId
             triggerBlocks:
@@ -261,7 +252,7 @@ steps:
         type: EventCondition
   - id: ms-mqs8plox5q
     name: Step 6 - Move to Documents
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mqs8plow6q
@@ -291,10 +282,10 @@ steps:
             conditions:
               - value1: $eventClientId
                 value2: $clientId
-                comparison: '='
+                comparison: "="
               - value1: $eventCard
                 value2: Documents
-                comparison: '='
+                comparison: "="
             triggerBlocks:
               - id: blo-mqzzmh0y01
                 type: Action
@@ -304,7 +295,7 @@ steps:
         type: EventCondition
   - id: ms-mqs8s2zy0q
     name: Step 7 - Documents
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: timeline.activate
@@ -328,7 +319,7 @@ steps:
           - id: blo-mqs8td0q61
             type: IfCondition
             conditions:
-              - comparison: '='
+              - comparison: "="
                 value1: $completeTimelineId
                 value2: $spawnedTimelineId
             triggerBlocks:
@@ -340,7 +331,7 @@ steps:
         type: EventCondition
   - id: ms-mr49g9x94e
     name: Step 8 - Move to Cargo Control
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mr49g9x85g
@@ -371,10 +362,10 @@ steps:
             conditions:
               - value1: $eventClientId
                 value2: $clientId
-                comparison: '='
+                comparison: "="
               - value1: $eventCard
                 value2: CargoControl
-                comparison: '='
+                comparison: "="
             triggerBlocks:
               - id: blo-mqzzmh0y0f
                 type: Action
@@ -384,7 +375,7 @@ steps:
         type: EventCondition
   - id: ms-mqs8s2zy0f
     name: Step 9 - Cargo Control
-    description: ''
+    description: ""
     tags: []
     blocks:
       - action: timeline.activate
@@ -408,7 +399,7 @@ steps:
           - id: blo-mqs8td0q6f
             type: IfCondition
             conditions:
-              - comparison: '='
+              - comparison: "="
                 value1: $completeTimelineId
                 value2: $spawnedTimelineId
             triggerBlocks:
@@ -420,7 +411,7 @@ steps:
         type: EventCondition
   - id: ms-mk1zllmy2w
     name: Step 26 - Officers Log Widget
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mk1zllmx28
@@ -438,7 +429,7 @@ steps:
             - .widget-OfficersLog
   - id: ms-mk1zpl9n4h
     name: Step 27 - Objectives Widget
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mk1zpl9m6k
@@ -454,7 +445,7 @@ steps:
           allowAdvance: true
   - id: ms-mk1zqlko4i
     name: Step 28 - Settings Widget
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mk1zqlkn2q
@@ -471,7 +462,7 @@ steps:
             control your station.
   - id: ms-mk1zx1jx3e
     name: Step 29 - Done
-    description: ''
+    description: ""
     tags: []
     blocks:
       - id: blo-mk1zx1jw3z
@@ -487,4 +478,4 @@ steps:
 
             Good luck!
           allowAdvance: true
-          card: ''
+          card: ""
