@@ -2,7 +2,6 @@ apiVersion: textPatterns/v1
 kind: textPatterns
 name: Cool Nouns
 description: ''
-textPattern: >-
-  {~Ansible,Matrix,Memory,Protocol,Vector,Buffer,Cache,Fragment,System,Syntax,Token,Junction,Control,Actuator,Control}
+textPattern: '{~Ansible,Matrix,Memory,Protocol,Vector,Buffer,Cache,Fragment,System,Syntax,Token,Junction,Control,Actuator,Control}'
 category: Word Lists
 assets: {}

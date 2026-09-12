@@ -1,0 +1,56 @@
+apiVersion: timeline/v1
+kind: missions
+name: Training
+description: >-
+  Learn how to use your station. Learn one station at a time, or have the entire
+  bridge learn at the same time.
+category: Training
+tags: []
+flightMode: nova
+prerequisiteBlocks: []
+steps:
+  - id: ms-mtu8zsb52i
+    name: Timeline Initialization
+    description: >-
+      Initialize anything that needs to be present at the beginning of this
+      timeline.
+    tags: []
+    blocks:
+      - action: ship.move
+        values:
+          shipId: '#playerShip'
+          entityId: Earth
+        id: blo-mtu9zfov68
+        type: Action
+      - event: client.connected
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mtu9l2id2e
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mtu9v1ec0y
+            type: Action
+            action: client.startTraining
+            values:
+              clientId: $eventClientId
+        id: blo-mtu9l2in4m
+        type: EventCondition
+      - event: client.setStation
+        multiple: true
+        persist: false
+        triggerBlocks:
+          - id: blo-mtu9vk145b
+            type: ResultPropertyIntoVariable
+            property: clientId
+            variable: eventClientId
+          - id: blo-mtu9vuk523
+            type: Action
+            action: client.startTraining
+            values:
+              clientId: $eventClientId
+        id: blo-mtu9vk182y
+        type: EventCondition
+assets:
+  cover: ''

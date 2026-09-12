@@ -1,0 +1,36 @@
+apiVersion: ships/v1
+kind: macros
+name: Clear Isolated Training
+type: macro
+description: Performs several actions at once.
+category: Training
+active: true
+blocks:
+  - event: client.setStation
+    multiple: true
+    persist: true
+    triggerBlocks:
+      - id: blo-mtxryqml4r
+        type: ResultPropertyIntoVariable
+        property: clientId
+        variable: changedClientId
+      - id: blo-mtxrz8i74s
+        type: IfCondition
+        conditions:
+          - comparison: '='
+            value1: $changedClientId
+            value2: $clientId
+        triggerBlocks:
+          - id: blo-mtxrzs7t1i
+            type: Note
+            note: >-
+              Clean up the training timeline, which should clean up the training
+              ship and anything else created as part of the training.
+          - id: blo-mtxs1qoz6k
+            type: Action
+            action: client.stopTraining
+            values:
+              clientId: $clientId
+    id: blo-mtxryezj4t
+    type: EventCondition
+assets: {}

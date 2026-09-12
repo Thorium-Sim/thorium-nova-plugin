@@ -45,6 +45,11 @@ steps:
           allowAdvance: true
         id: blo-mjhlp6qz1w
         type: Action
+      - pluginId: Thorium Default
+        macroId: Clear Isolated Training
+        triggerBlocks: []
+        id: blo-mtxsf45t6c
+        type: Macro
   - id: ts-mjnaxljy15
     name: Step 2 - Login
     description: ''

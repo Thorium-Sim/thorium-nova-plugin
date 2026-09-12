@@ -10,8 +10,7 @@ active: true
 blocks:
   - entity: this step
     variable: code
-    value: >-
-      {~Alpha,Beta,Gamma,Delta,Zeta,Lambda,Omicron}-RANDOM(100,999)-{~Ansible,Cyber,Matrix,Naidon,Skadov,Memory,Faraday,Bernal,Dyson,Protocol,Vector,Analog,Digital,Buffer,Cache,Crypto,Fragment,System,Duplex,Threading,Hyper,Interlace,Progressive,Simplex,Multiplex,Syntax,Token}
+    value: '{~Alpha,Beta,Gamma,Delta,Zeta,Lambda,Omicron}-RANDOM(100,999)-{~Ansible,Cyber,Matrix,Naidon,Skadov,Memory,Faraday,Bernal,Dyson,Protocol,Vector,Analog,Digital,Buffer,Cache,Crypto,Fragment,System,Duplex,Threading,Hyper,Interlace,Progressive,Simplex,Multiplex,Syntax,Token}'
     id: blo-mgp2vjst3y
     type: SetVariable
   - action: objectives.add

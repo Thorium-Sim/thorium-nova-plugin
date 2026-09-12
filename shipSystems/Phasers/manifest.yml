@@ -44,7 +44,7 @@ signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
 maxRange: 25000
 maxArc: 120
-headingDegree: 0
+headingDegree: 330
 pitchDegree: 0
 fullChargeYield: 0.1
 yieldMultiplier: 100

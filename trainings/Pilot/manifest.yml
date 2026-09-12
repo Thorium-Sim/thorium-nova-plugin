@@ -43,6 +43,20 @@ steps:
     description: ''
     tags: []
     blocks:
+      - variable: location
+        value: Venus
+        id: blo-mtuw4sdb2x
+        type: SetLocalVariable
+      - pluginId: Thorium Default
+        macroId: Isolated Training
+        triggerBlocks: []
+        id: blo-mtuw4q135l
+        type: Macro
+      - pluginId: Thorium Default
+        macroId: Clear Isolated Training
+        triggerBlocks: []
+        id: blo-mtxsi5hd35
+        type: Macro
       - action: client.setTraining
         values:
           clientId: $clientId
@@ -67,6 +81,12 @@ steps:
         variable: id
         id: blo-mjoephl46l
         type: ResultPropertyIntoVariable
+      - action: thorium.markDisposableParent
+        values:
+          entityId: $id
+          parentId: $timelineId
+        id: blo-mtye6v6x3m
+        type: Action
       - action: thorium.setEntityComponent
         values:
           entityId: $id

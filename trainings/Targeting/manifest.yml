@@ -2,20 +2,20 @@ apiVersion: timeline/v1
 kind: trainings
 name: Targeting
 description: Training for the targeting station, when it has a single targeting card.
-category: ""
+category: ''
 tags: []
 flightMode: nova
 assets: {}
 prerequisiteBlocks:
   - conditions:
-      - comparison: "="
+      - comparison: '='
         value1: $station
         value2: Tactical
     triggerBlocks:
       - id: blo-mjhlmfv46e
         type: IfCondition
         conditions:
-          - comparison: "="
+          - comparison: '='
             value1: $stationComplement
             value2: 4 Small
         triggerBlocks:
@@ -25,7 +25,7 @@ prerequisiteBlocks:
       - id: blo-mjhlmpy94r
         type: IfCondition
         conditions:
-          - comparison: "="
+          - comparison: '='
             value1: $stationComplement
             value2: 5 Small
         triggerBlocks:
@@ -37,13 +37,27 @@ prerequisiteBlocks:
 steps:
   - id: tr-mjhljxlp0h
     name: Step 1 - Welcome
-    description: ""
+    description: ''
     tags: []
     blocks:
+      - variable: location
+        value: Mars
+        id: blo-mtuw3pv70c
+        type: SetLocalVariable
+      - pluginId: Thorium Default
+        macroId: Isolated Training
+        triggerBlocks: []
+        id: blo-mtuw3kaz6h
+        type: Macro
+      - pluginId: Thorium Default
+        macroId: Clear Isolated Training
+        triggerBlocks: []
+        id: blo-mtxsiqaq73
+        type: Macro
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ""
+          station: ''
           text: >-
             Welcome Tactical! It's your job to protect your ship from danger.
             Let's take a look into all the weapons and controls you use to do
@@ -72,7 +86,7 @@ steps:
           components:
             - component: identity
               property: name
-              comparison: ""
+              comparison: ''
               value: Target Ship
         id: blo-mjoepquj0n
         type: Action
@@ -83,7 +97,7 @@ steps:
         type: SetVariable
   - id: ts-mjnaxljy15
     name: Step 2 - Login
-    description: ""
+    description: ''
     tags: []
     blocks:
       - entity: $clientId
@@ -95,7 +109,7 @@ steps:
       - conditions:
           - comparison: is not empty
             value1: $loginName
-            value2: ""
+            value2: ''
         triggerBlocks:
           - id: blo-mjnbgxxz6t
             type: Action
@@ -106,7 +120,7 @@ steps:
       - conditions:
           - comparison: is empty
             value1: $loginName
-            value2: ""
+            value2: ''
         triggerBlocks:
           - id: blo-mjnbhdn32e
             type: Action
@@ -131,7 +145,7 @@ steps:
               - id: blo-mjng4s9g2h
                 type: IfCondition
                 conditions:
-                  - comparison: "="
+                  - comparison: '='
                     value1: $loginClientId
                     value2: $clientId
                 triggerBlocks:
@@ -143,7 +157,7 @@ steps:
         type: IfCondition
   - id: ts-mjnbk6re4b
     name: Step 3 - Targeting Summary
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
@@ -158,13 +172,13 @@ steps:
         type: Action
   - id: ts-mjnffi5646
     name: Step 4 - Radar
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ""
+          station: ''
           text: >-
             This is your targeting radar. It shows the relative direction and
             distance from your ship to nearby objects in 3D space.
@@ -187,7 +201,7 @@ steps:
         type: Action
   - id: ms-mjnfrr9c3p
     name: Step 5 - Radar Controls
-    description: ""
+    description: ''
     tags: []
     blocks:
       - id: blo-mjnfrr9b46
@@ -220,14 +234,14 @@ steps:
           - id: blo-mjngqbnj6c
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $eventClientId
                 value2: $clientId
               - value1: $eventName
                 value2: radar-zoom
-                comparison: "="
+                comparison: '='
               - value1: $zoom
-                value2: "0.2"
+                value2: '0.2'
                 comparison: <=
             triggerBlocks:
               - id: blo-mjngtebd27
@@ -238,7 +252,7 @@ steps:
         type: EventCondition
   - id: ms-mjngvme84g
     name: Step 6 - Tilt Control
-    description: ""
+    description: ''
     tags: []
     blocks:
       - id: blo-mjngvme71y
@@ -264,15 +278,15 @@ steps:
           - id: blo-mjnh42oy5c
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $eventName
                 value2: radar-tilt
               - value1: $eventClientId
                 value2: $clientId
-                comparison: "="
+                comparison: '='
               - value1: $props
-                value2: "1"
-                comparison: "="
+                value2: '1'
+                comparison: '='
             triggerBlocks:
               - id: blo-mjnh5adt5b
                 type: Action
@@ -282,13 +296,13 @@ steps:
         type: Macro
   - id: ts-mpe1j4ds58
     name: Step 7 - Hull
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ""
+          station: ''
           text: >-
             This is your hull integrity, arguably the most important number on
             the ship. Whenever you take damage, this number goes down, and
@@ -301,13 +315,13 @@ steps:
         type: Action
   - id: ts-mpe1qbgr6z
     name: Step 8 - Shields
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ""
+          station: ''
           text: >-
             These are your shields, your best protection against any incoming
             danger. They take a lot of power and charge slowly, but if they are
@@ -329,7 +343,7 @@ steps:
           - id: blo-mpvzfaqq4f
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $shipId
                 value2: $shieldShipId
             triggerBlocks:
@@ -341,13 +355,13 @@ steps:
         type: EventCondition
   - id: ts-mpe1xqu368
     name: Step 9 - Shields Raising
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ""
+          station: ''
           text: >-
             Your shields are now raising. The more power allocated to the
             shields, the faster they'll charge. You can conserve power by
@@ -359,7 +373,7 @@ steps:
         type: Action
   - id: ts-mpls9yd00x
     name: Step 10 - Phasers
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
@@ -387,7 +401,7 @@ steps:
         type: Action
   - id: ts-mpvydblp25
     name: Step 11 - Phasers 2
-    description: ""
+    description: ''
     tags: []
     blocks:
       - count: all
@@ -410,14 +424,14 @@ steps:
             conditions:
               - comparison: is not empty
                 value1: $isPhaseCapacitor
-                value2: ""
+                value2: ''
             triggerBlocks:
               - id: blo-mpvyisob32
                 type: Action
                 action: systemsMonitor.batteries.setStorage
                 values:
                   batteryId: $entityId
-                  storagePercent: "100"
+                  storagePercent: '100'
         id: blo-mpvygr4h46
         type: ForEachEntity
       - action: client.setTraining
@@ -460,7 +474,7 @@ steps:
           - id: blo-mpvzgm8o3v
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $shipId
                 value2: $phaserShipId
             triggerBlocks:
@@ -477,7 +491,7 @@ steps:
         type: EventCondition
   - id: ts-mpvzhilr6d
     name: Step 12 - Torpedos
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
@@ -496,7 +510,7 @@ steps:
         type: Action
   - id: ts-mpvzoe815e
     name: Step 13 - Torpedo Options
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
@@ -528,12 +542,12 @@ steps:
           - id: blo-mpwkku275j
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $clientId
                 value2: $eventClientId
               - value1: $eventName
                 value2: torpedo-pick
-                comparison: "="
+                comparison: '='
             triggerBlocks:
               - id: blo-mpwkln7q60
                 type: Action
@@ -543,12 +557,12 @@ steps:
         type: Macro
   - id: ts-mpwkly216b
     name: Step 14 - Load Torpedo
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
         values:
-          station: ""
+          station: ''
           text: >-
             With the torpedo selected, we can load it into the torpedo launcher
             by clicking the "Load" button next to the launcher we want to load.
@@ -569,7 +583,7 @@ steps:
           - id: blo-mpwkupfj11
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $shipId
                 value2: $torpedoShipId
             triggerBlocks:
@@ -581,7 +595,7 @@ steps:
         type: EventCondition
   - id: ts-mplrs2gb12
     name: Step 15 - Targets
-    description: ""
+    description: ''
     tags: []
     blocks:
       - entity: this timeline
@@ -593,7 +607,7 @@ steps:
         values:
           clientId: $clientId
           name: radarZoomEvent
-          payload: "0.01"
+          payload: '0.01'
         id: blo-mpxfpusf32
         type: Action
       - action: client.setTraining
@@ -625,12 +639,12 @@ steps:
           - id: blo-mpls0now0k
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $shipId
                 value2: $targetShipId
               - value1: $targetedShipId
                 value2: $targetId
-                comparison: "="
+                comparison: '='
             triggerBlocks:
               - id: blo-mpls16xx6v
                 type: Action
@@ -640,12 +654,12 @@ steps:
         type: EventCondition
   - id: ts-mpwl0cfr1p
     name: Step 16 - Fire Phasers
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
         values:
-          station: ""
+          station: ''
           text: >-
             You can fire phasers at different outputs by clicking and holding on
             these buttons. Adjust the beam arc so the target is within your
@@ -671,7 +685,7 @@ steps:
           - id: blo-mpwlg06r52
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $shipId
                 value2: $phaserShipId
             triggerBlocks:
@@ -688,12 +702,12 @@ steps:
         type: EventCondition
   - id: ts-mpwliygn5k
     name: Step 17 - Fire Torpedoes
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
         values:
-          station: ""
+          station: ''
           text: >-
             Now lets fire that torpedo you loaded. It works best if the torpedo
             launcher is pointed at the target, but the torpedo should still
@@ -719,7 +733,7 @@ steps:
           - id: blo-mpwlpju92o
             type: IfCondition
             conditions:
-              - comparison: "="
+              - comparison: '='
                 value1: $shipId
                 value2: $torpedoShipId
             triggerBlocks:
@@ -731,13 +745,13 @@ steps:
         type: EventCondition
   - id: ts-mpwlqee73z
     name: Step 18 - Weapons Done
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
         values:
           clientId: $clientId
-          station: ""
+          station: ''
           text: >-
             That's all there is to it. Keep firing until the target is either
             destroyed or disabled.
@@ -746,7 +760,7 @@ steps:
         type: Action
   - id: ms-mr4aeun600
     name: Step 19 - Remote Access
-    description: ""
+    description: ''
     tags: []
     blocks:
       - id: blo-mr4aeun56s
@@ -786,13 +800,13 @@ steps:
             conditions:
               - value1: $eventClientId
                 value2: $clientId
-                comparison: "="
+                comparison: '='
               - value1: $eventEventName
                 value2: widget-open
-                comparison: "="
+                comparison: '='
               - value1: $eventProperties
                 value2: RemoteAccess
-                comparison: "="
+                comparison: '='
             triggerBlocks:
               - id: blo-mr4apslb3w
                 type: Action
@@ -802,7 +816,7 @@ steps:
         type: EventCondition
   - id: ts-mr4airco3e
     name: Step 20 - Remote Access Input
-    description: ""
+    description: ''
     tags: []
     blocks:
       - action: client.setTraining
@@ -836,10 +850,10 @@ steps:
             conditions:
               - value1: $eventClientId
                 value2: $clientId
-                comparison: "="
+                comparison: '='
               - value1: $eventCode
                 value2: RMT-TRN-184
-                comparison: "="
+                comparison: '='
             triggerBlocks:
               - id: blo-mta2un4n1i
                 type: Action
@@ -849,7 +863,7 @@ steps:
         type: EventCondition
   - id: ms-mk1zllmy2w
     name: Step 26 - Officers Log Widget
-    description: ""
+    description: ''
     tags: []
     blocks:
       - id: blo-mk1zllmx28
@@ -867,7 +881,7 @@ steps:
             - .widget-OfficersLog
   - id: ms-mk1zpl9n4h
     name: Step 27 - Objectives Widget
-    description: ""
+    description: ''
     tags: []
     blocks:
       - id: blo-mk1zpl9m6k
@@ -883,7 +897,7 @@ steps:
           allowAdvance: true
   - id: ms-mk1zqlko4i
     name: Step 28 - Settings Widget
-    description: ""
+    description: ''
     tags: []
     blocks:
       - id: blo-mk1zqlkn2q
@@ -900,7 +914,7 @@ steps:
             control your station.
   - id: ms-mk1zx1jx3e
     name: Step 29 - Done
-    description: ""
+    description: ''
     tags: []
     blocks:
       - id: blo-mk1zx1jw3z
@@ -916,4 +930,4 @@ steps:
 
             Good luck!
           allowAdvance: true
-          card: ""
+          card: ''

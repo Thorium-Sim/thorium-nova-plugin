@@ -29,7 +29,7 @@ steps:
         values:
           shipId: $shipId
           name: Intercepted Message
-          heading: '== Intercepted Message =='
+          heading: == Intercepted Message ==
           message: Well done! You have successfully decoded this message.
           fontName: Aurabesh
         id: blo-mr3t8mbp4c

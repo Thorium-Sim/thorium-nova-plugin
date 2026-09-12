@@ -1,0 +1,88 @@
+apiVersion: ships/v1
+kind: macros
+name: Isolated Training
+type: macro
+description: |-
+  Isolates a station to its own ship during training.
+  - Creates a new ship
+  - Moves it to a specified location
+  - Transfers the client's station to that ship
+category: Training
+active: true
+blocks:
+  - entity: $clientId
+    component: flightClient
+    property: stationId
+    variable: stationId
+    id: blo-mtunvvtv3o
+    type: EntityPropertyIntoVariable
+  - entity: $shipId
+    component: stationComplement
+    property: crewCount
+    variable: crewCount
+    id: blo-mtvmpzyc18
+    type: EntityPropertyIntoVariable
+  - action: ship.spawn
+    values:
+      playerShip: true
+      entityId: $location
+      distance: '10000'
+      tags:
+        - training-ship
+      template:
+        name: Astra Frigate
+        pluginId: Thorium Default
+      crewCount: $crewCount
+    id: blo-mtunsrlq2r
+    type: Action
+  - property: id
+    variable: newShipId
+    id: blo-mtunxq6s4z
+    type: ResultPropertyIntoVariable
+  - variable: shipName
+    value: '{stationId} Training'
+    id: blo-mtvn9vko4o
+    type: SetLocalVariable
+  - action: thorium.setEntityComponent
+    values:
+      entityId: $newShipId
+      components:
+        - component: identity
+          property: name
+          comparison: ''
+          value: $shipName
+    id: blo-mtuw1cqp3x
+    type: Action
+  - action: thorium.setEntityComponent
+    values:
+      entityId: $newShipId
+      components:
+        - component: isTrainingShip
+          property: value
+          comparison: ''
+          value: 'true'
+    id: blo-mtvn2c984g
+    type: Action
+  - action: thorium.markDisposableParent
+    values:
+      entityId: $newShipId
+      parentId: $timelineId
+    id: blo-mtxs25361e
+    type: Action
+  - action: client.setStation
+    values:
+      shipId: $newShipId
+      stationId: $stationId
+      clientId: $clientId
+      originalShipId: $shipId
+    id: blo-mtunx9pl6i
+    type: Action
+  - variable: oldShipId
+    value: $shipId
+    id: blo-mtxs0cy76w
+    type: SetLocalVariable
+  - variable: shipId
+    value: $newShipId
+    id: blo-mtvo5sdw5g
+    type: SetLocalVariable
+assets: {}
