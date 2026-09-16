@@ -32,6 +32,15 @@ steps:
     description: ''
     tags: []
     blocks:
+      - variable: location
+        value: Jupiter
+        id: blo-mu4a1e8z19
+        type: SetLocalVariable
+      - pluginId: Thorium Default
+        macroId: Isolated Training
+        triggerBlocks: []
+        id: blo-mu4a189g2r
+        type: Macro
       - action: client.setTraining
         values:
           clientId: $clientId
@@ -156,11 +165,11 @@ steps:
         action: client.setTraining
         values:
           clientId: $clientId
-          text: >-
-            Now lets learn how to repair systems with Damage Reports. Go ahead
-            and move to that screen now.
           selector:
             - .card-button-coolant-loop
+          text: >-
+            Now lets learn how to keep your systems cool with the Coolant Loop.
+            Go ahead and move to that screen now.
       - event: client.setCard
         multiple: true
         persist: false

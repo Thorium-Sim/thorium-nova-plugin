@@ -88,6 +88,7 @@ steps:
           allowAdvance: true
           selector:
             - .heat-dial-0
+          alignment: vertical
   - id: ms-msdlyhg94k
     name: Step 5 - Efficiency
     description: ''
@@ -105,6 +106,7 @@ steps:
             This dial shows the current efficiency of your reactor, which
             decreases with damage. As the efficiency decreases, the power your
             reactor is able to generate decreases with it.
+          alignment: vertical
   - id: ms-msdm0qzp4w
     name: Step 6 - Fuel
     description: ''
@@ -131,6 +133,7 @@ steps:
           selector:
             - .reserve-dial-0
             - .active-dial-0
+          alignment: vertical
   - id: ms-msdmqf6d64
     name: Step 7 - Reactor Summary
     description: ''
@@ -220,6 +223,7 @@ steps:
           selector:
             - .battery-net-change-0
           allowAdvance: true
+          alignment: vertical
   - id: ms-msdnv5cn6f
     name: Step 12 - Battery Activate
     description: ''
@@ -239,6 +243,7 @@ steps:
           selector:
             - .battery-activate-0
           allowAdvance: true
+          alignment: vertical
   - id: ms-msdnzj2b1k
     name: Step 13 - Battery Summary
     description: ''
@@ -323,7 +328,8 @@ steps:
           text: >-
             One action you can take is to disable a system's reactor power
             entirely, by clicking this button. It will prevent the system from
-            operating, but you often don't need a system to be running all the
+            drawing power from reactors. They'll still draw power from
+            batteries, but you often don't need a system to be running all the
             time. For example, if you aren't using your shields, there's no need
             to be drawing extra power to keep them running. Just make sure you
             keep important systems running, like sensors.

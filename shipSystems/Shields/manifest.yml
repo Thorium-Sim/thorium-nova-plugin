@@ -28,5 +28,6 @@ signatureSpike: 2
 signatureSpikeDuration: 5
 entropyMultiplier: 0.0005
 maxStrength: 5
-shieldCount: 1
+shieldCount: 6
 heatDissipationRate: 1
+direction: ventral

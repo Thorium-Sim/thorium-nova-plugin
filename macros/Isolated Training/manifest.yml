@@ -87,4 +87,8 @@ blocks:
     value: $newShipId
     id: blo-mu47ukfx49
     type: SetVariable
+  - variable: shipId
+    value: $newShipId
+    id: blo-mu49rymd26
+    type: SetLocalVariable
 assets: {}

@@ -357,7 +357,8 @@ steps:
           clientId: $clientId
           text: Choose the Go To instruction.
           selector:
-            - .exocomp-instructions
+            - .exocomp-instruction-types
+            - .set-instruction
       - event: thorium.genericEvent
         multiple: true
         persist: false

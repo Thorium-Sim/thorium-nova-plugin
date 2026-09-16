@@ -95,6 +95,23 @@ steps:
         value: $id
         id: blo-mplrrjm00r
         type: SetVariable
+      - count: all
+        entity: $shipId
+        systemType: reactor
+        variable: reactors
+        id: blo-mu4a6dn867
+        type: ShipSystemGetter
+      - entity: $reactors
+        variable: reactor
+        triggerBlocks:
+          - id: blo-mu4a700q5i
+            type: Action
+            action: systemsMonitor.reactors.setDesiredOutput
+            values:
+              reactorId: $reactor
+              output: '100'
+        id: blo-mu4a6rz55e
+        type: ForEachEntity
   - id: ts-mjnaxljy15
     name: Step 2 - Login
     description: ''
