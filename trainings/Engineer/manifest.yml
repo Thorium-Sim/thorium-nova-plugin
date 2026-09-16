@@ -61,9 +61,6 @@ steps:
         variable: loginName
         id: blo-mjnb8i6y3o
         type: EntityPropertyIntoVariable
-      - debugVariable: ''
-        id: blo-mqmcebjq26
-        type: Debug
       - conditions:
           - comparison: is not empty
             value1: $loginName

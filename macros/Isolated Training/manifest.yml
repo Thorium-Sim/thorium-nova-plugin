@@ -77,12 +77,14 @@ blocks:
       originalShipId: $shipId
     id: blo-mtunx9pl6i
     type: Action
-  - variable: oldShipId
+  - entity: this timeline
+    variable: oldShipId
     value: $shipId
-    id: blo-mtxs0cy76w
-    type: SetLocalVariable
-  - variable: shipId
+    id: blo-mu47us0n6x
+    type: SetVariable
+  - entity: this timeline
+    variable: shipId
     value: $newShipId
-    id: blo-mtvo5sdw5g
-    type: SetLocalVariable
+    id: blo-mu47ukfx49
+    type: SetVariable
 assets: {}

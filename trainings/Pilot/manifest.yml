@@ -294,29 +294,6 @@ steps:
                 values: {}
         id: blo-mjnh3y5q4e
         type: Macro
-  - id: ms-mjnh5ja93w
-    name: Step 7 - Rotation Thrusters
-    description: ''
-    tags: []
-    blocks:
-      - id: blo-mjnh5ja80e
-        type: Action
-        action: client.setTraining
-        values:
-          clientId: $clientId
-          text: >-
-            Enough looking at radars. Let's start moving the ship around. Most
-            commonly, you'll use these thrusters to rotate your ship to point in
-            the direction you want to go.
-
-
-            Your thrusters can rotate your ship along three axes. Pitch rotates
-            the nose of your ship up and down. Roll rotates the sides of your
-            ship up and down. The slider underneath yaws your ship by turning
-            the nose to the left (port) or the right (starboard).
-          selector:
-            - .rotation-thrusters
-          allowAdvance: true
   - id: ms-mjravzbc6s
     name: Step 8 - Play around with Thrusters
     description: ''
@@ -331,6 +308,17 @@ steps:
             - .rotation-thrusters
             - .pilot-radar
           text: >-
+            Enough looking at radars. Let's start moving the ship around. Most
+            commonly, you'll use these thrusters to rotate your ship to point in
+            the direction you want to go.
+
+
+            Your thrusters can rotate your ship along three axes. Pitch rotates
+            the nose of your ship up and down. Roll rotates the sides of your
+            ship up and down. The slider underneath yaws your ship by turning
+            the nose to the left (port) or the right (starboard).
+
+
             Play around with the rotation thrusters for a few seconds. Notice
             how little lines appear along the edges of the radar when you
             activate thrusters, to give a visual indication that your ship is
