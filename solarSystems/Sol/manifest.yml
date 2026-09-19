@@ -83,6 +83,29 @@ planets:
           ringMapAsset: null
         population: 6000
         temperature: 160
+      - type: starbase
+        name: Alpha Station
+        description: ''
+        tags: []
+        keyLocation: false
+        population: 1500
+        length: 1500
+        mass: 700000000000
+        satellite:
+          axialTilt: 16.55
+          semiMajorAxis: 320000
+          eccentricity: 0
+          inclination: 0.39
+          orbitalArc: 120
+          showOrbit: true
+          parentId: Earth
+        isStarbase:
+          assets:
+            logo: /plugins/Thorium Default/assets/starbase/logo.svg
+            model: /plugins/Thorium Default/assets/starbase/model.glb
+            vanity: /plugins/Thorium Default/assets/starbase/vanity.avif
+            topView: /plugins/Thorium Default/assets/starbase/top.avif
+            sideView: /plugins/Thorium Default/assets/starbase/side.avif
   - name: Mars
     description: ''
     tags: []
